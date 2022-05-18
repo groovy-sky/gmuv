@@ -9,9 +9,15 @@ import (
 
 // https://github.com/google/go-github/blob/2d872b40760dcf7080786ece0a4735509ff071f4/github/repos.go#L28
 type Repository struct {
-	ID   *int64  `json:"id,omitempty"`
-	Name *string `json:"name,omitempty"`
-	URL  *string `json:"url,omitempty"`
+	Name     *string `json:"name,omitempty"`
+	URL      *string `json:"url,omitempty"`
+	Fork     *bool   `json:"fork,omitempty"`
+	Disabled *bool   `json:"disabled,omitempty"`
+	Archived *bool   `json:"archived,omitempty"`
+}
+
+func CheckGitMdLinks(url, name string) {
+	fmt.Println(url, name)
 }
 
 func main() {
@@ -29,7 +35,9 @@ func main() {
 	}
 
 	for i := range repos {
-		fmt.Printf("%s\n", *repos[i].URL)
+		if !*repos[i].Fork && !*repos[i].Disabled && !*repos[i].Archived {
+			fmt.Printf("%s\n", *repos[i].URL)
+		}
 	}
 
 }
