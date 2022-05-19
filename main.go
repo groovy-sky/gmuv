@@ -20,8 +20,14 @@ type Repository struct {
 	DefaultBranch *string `json:"default_branch,omitempty"`
 }
 
-func DownloadArchive(filepath, url string) (err error) {
-	out, err := os.Create(filepath)
+func UntarArchive(filepath, filename string) (err error) {
+	fullpath := filepath + "/" + filename
+	fmt.Println(fullpath)
+}
+
+func DownloadArchive(filepath, filename, url string) (err error) {
+	fullpath := filepath + "/" + filename
+	out, err := os.Create(fullpath)
 
 	if err != nil {
 		return fmt.Errorf("[ERR] Couldn't initiate a download file/directory: %s", err)
@@ -50,9 +56,9 @@ func DownloadArchive(filepath, url string) (err error) {
 
 func CheckGitMdLinks(r *Repository) (err error) {
 	downloadLink := *r.URL + "/tarball/" + *r.DefaultBranch
-	downloadPath := "/tmp/github/" + *r.Name + "tar.gz"
-	fmt.Println(downloadLink)
-	if err := DownloadArchive(downloadPath, downloadLink); err != nil {
+	archiveName := *r.Name + "tar.gz"
+	downloadPath := "/tmp/github/"
+	if err := DownloadArchive(downloadPath, archiveName, downloadLink); err != nil {
 		return err
 	}
 	return nil
@@ -71,12 +77,16 @@ func main() {
 		log.Fatalln(err)
 	}
 
-	for i := range repos {
-		if !*repos[i].Fork && !*repos[i].Disabled && !*repos[i].Archived {
-			if err := CheckGitMdLinks(*&repos[i]); err != nil {
-				fmt.Println(err)
+	if err := CheckGitMdLinks(*&repos[0]); err != nil {
+		fmt.Println(err)
+	}
+	/*
+		for i := range repos {
+			if !*repos[i].Fork && !*repos[i].Disabled && !*repos[i].Archived {
+				if err := CheckGitMdLinks(*&repos[i]); err != nil {
+					fmt.Println(err)
+				}
 			}
 		}
-	}
-
+	*/
 }
