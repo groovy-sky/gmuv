@@ -8,6 +8,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"strings"
 )
 
 var defaultPath, githubAccount string
@@ -24,28 +25,41 @@ type Repository struct {
 	DefaultBranch *string `json:"default_branch,omitempty"`
 }
 
+func extractFiles(src string, f *zip.File) error {
+	fmt.Printf("FilePath: %s\n", f.FileHeader.Name)
+	fmt.Printf("Filename: %s\n", f.FileInfo().Name())
+
+	if !f.FileInfo().IsDir() {
+		res, _, _ := strings.Cut(f.FileHeader.Name, f.FileInfo().Name())
+		fmt.Println(res)
+		/*
+
+			dest := src + "/" + f.FileInfo().Name()
+			fmt.Println(dest)
+
+				if err := os.MkdirAll(dest, 0755); err != nil {
+					return fmt.Errorf("[ERR] Couldn't create filepath: %s", err)
+				}
+
+			//extractFiles(dest, f)
+		*/
+
+	}
+	return nil
+}
+
 func unzipArchive(src, zipName string) error {
-	fmt.Println(src + " | " + zipName)
 	reader, err := zip.OpenReader(src + "/" + zipName)
 	if err != nil {
-		fmt.Println(err)
 		return fmt.Errorf("[ERR] Couldn't open archive: %s", err)
 	}
 
 	defer reader.Close()
-
+	fmt.Println(src)
 	for _, f := range reader.File {
-		if f.FileInfo().IsDir() {
-			dest := src + "/" + f.FileInfo().Name()
-			fmt.Println(dest)
-			if err := os.MkdirAll(dest, 0755); err != nil {
-				fmt.Printf("[ERR] Couldn't create filepath: %s\n", err)
-				return fmt.Errorf("[ERR] Couldn't create filepath: %s", err)
-			}
-		}
-		fmt.Println(f.FileInfo().Name())
+		extractFiles(src, f)
 	}
-	return nil
+	return err
 }
 
 func ExctractMdFiles(filePath, zip string) (err error) {
@@ -114,7 +128,7 @@ func main() {
 		log.Fatalln(err)
 	}
 
-	if err := CheckGitMdLinks(*&repos[7]); err != nil {
+	if err := CheckGitMdLinks(*&repos[0]); err != nil {
 		fmt.Println(err)
 	}
 	// Store and parse public and active repositories
