@@ -26,12 +26,14 @@ type Repository struct {
 }
 
 func extractFiles(src string, f *zip.File) error {
-	fmt.Printf("FilePath: %s\n", f.FileHeader.Name)
-	fmt.Printf("Filename: %s\n", f.FileInfo().Name())
+	//fmt.Printf("FilePath: %s\n", f.FileHeader.Name)
+	//fmt.Printf("Filename: %s\n", f.FileInfo().Name())
 
 	if !f.FileInfo().IsDir() {
-		res, _, _ := strings.Cut(f.FileHeader.Name, f.FileInfo().Name())
-		fmt.Println(res)
+		path, _, _ := strings.Cut(f.FileHeader.Name, f.FileInfo().Name())
+		_, ext, _ := strings.Cut(f.FileHeader.Name, ".")
+		fmt.Println(ext)
+		fmt.Println(path)
 		/*
 
 			dest := src + "/" + f.FileInfo().Name()
