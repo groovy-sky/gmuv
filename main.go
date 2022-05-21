@@ -5,10 +5,12 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
+	"io/ioutil"
 	"log"
 	"net/http"
 	"os"
 	"path/filepath"
+	"regexp"
 	"strings"
 )
 
@@ -34,35 +36,32 @@ func getFileExtension(s string) string {
 func extractFiles(src string, f *zip.File) error {
 
 	if !f.FileInfo().IsDir() {
-		archivePath, _, _ := strings.Cut(f.FileHeader.Name, f.FileInfo().Name())
-		archivePath = filepath.Clean(archivePath)
-		ext := getFileExtension(f.FileInfo().Name())
+		fileName := f.FileInfo().Name()
+		relativePath, _, _ := strings.Cut(f.FileHeader.Name, fileName)
+		relativePath = filepath.Clean(relativePath)
+		_, relativePath, _ = strings.Cut(relativePath, "/")
+		ext := getFileExtension(fileName)
+		// Proceed if file is not a directory and has .md extension
 		if strings.ToLower(ext) == "md" {
-			dest := filepath.Join(src, archivePath)
-			destFile := filepath.Join(dest, f.FileInfo().Name())
-			// Create parent directory for a file
-			if err := os.MkdirAll(dest, 0755); err != nil {
-				return fmt.Errorf("[ERR] Couldn't create filepath: %s", err)
-			}
+			relativeDestFile := filepath.Join(relativePath, fileName)
+			fmt.Println(relativeDestFile)
 
-			outFile, err := os.OpenFile(destFile, os.O_WRONLY|os.O_CREATE|os.O_TRUNC, f.Mode())
-			if err != nil {
-				fmt.Println(err)
-				return fmt.Errorf("[ERR] Couldn't create file: %s", err)
-			}
-			defer outFile.Close()
-
-			fileContent, err := f.Open()
+			zipContent, err := f.Open()
 			if err != nil {
 				return fmt.Errorf("[ERR] Couldn't read archive's content: %s", err)
 			}
-			defer fileContent.Close()
+			defer zipContent.Close()
 
-			// Storing archive's content
-			_, err = io.Copy(outFile, fileContent)
+			content, err := ioutil.ReadAll(zipContent)
 			if err != nil {
-				return fmt.Errorf("[ERR] Couldn't store archive's content: %s", err)
+				return fmt.Errorf("[ERR] Couldn't read archive's content: %s", err)
 			}
+			re := regexp.MustCompile(`\[[^\[\]]*?\]\(.*?\)|^\[*?\]\(.*?\)`)
+			matches := re.FindAll(content, -1)
+			for _, v := range matches {
+				fmt.Printf("%s\n", v)
+			}
+
 		}
 	}
 	return nil
