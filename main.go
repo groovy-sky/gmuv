@@ -8,6 +8,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"path/filepath"
 	"strings"
 )
 
@@ -25,43 +26,64 @@ type Repository struct {
 	DefaultBranch *string `json:"default_branch,omitempty"`
 }
 
+func getFileExtension(s string) string {
+	ext := strings.Split(s, ".")
+	return ext[len(ext)-1]
+}
+
 func extractFiles(src string, f *zip.File) error {
-	//fmt.Printf("FilePath: %s\n", f.FileHeader.Name)
-	//fmt.Printf("Filename: %s\n", f.FileInfo().Name())
 
 	if !f.FileInfo().IsDir() {
-		path, _, _ := strings.Cut(f.FileHeader.Name, f.FileInfo().Name())
-		_, ext, _ := strings.Cut(f.FileHeader.Name, ".")
-		fmt.Println(ext)
-		fmt.Println(path)
-		/*
+		archivePath, _, _ := strings.Cut(f.FileHeader.Name, f.FileInfo().Name())
+		archivePath = filepath.Clean(archivePath)
+		ext := getFileExtension(f.FileInfo().Name())
+		if strings.ToLower(ext) == "md" {
+			dest := filepath.Join(src, archivePath)
+			destFile := filepath.Join(dest, f.FileInfo().Name())
+			// Create parent directory for a file
+			if err := os.MkdirAll(dest, 0755); err != nil {
+				return fmt.Errorf("[ERR] Couldn't create filepath: %s", err)
+			}
 
-			dest := src + "/" + f.FileInfo().Name()
-			fmt.Println(dest)
+			outFile, err := os.OpenFile(destFile, os.O_WRONLY|os.O_CREATE|os.O_TRUNC, f.Mode())
+			if err != nil {
+				fmt.Println(err)
+				return fmt.Errorf("[ERR] Couldn't create file: %s", err)
+			}
+			defer outFile.Close()
 
-				if err := os.MkdirAll(dest, 0755); err != nil {
-					return fmt.Errorf("[ERR] Couldn't create filepath: %s", err)
-				}
+			fileContent, err := f.Open()
+			if err != nil {
+				return fmt.Errorf("[ERR] Couldn't read archive's content: %s", err)
+			}
+			defer fileContent.Close()
 
-			//extractFiles(dest, f)
-		*/
-
+			// Storing archive's content
+			_, err = io.Copy(outFile, fileContent)
+			if err != nil {
+				return fmt.Errorf("[ERR] Couldn't store archive's content: %s", err)
+			}
+		}
 	}
 	return nil
 }
 
 func unzipArchive(src, zipName string) error {
-	reader, err := zip.OpenReader(src + "/" + zipName)
+	reader, err := zip.OpenReader(filepath.Join(src, zipName))
 	if err != nil {
 		return fmt.Errorf("[ERR] Couldn't open archive: %s", err)
 	}
 
 	defer reader.Close()
-	fmt.Println(src)
 	for _, f := range reader.File {
 		extractFiles(src, f)
 	}
-	return err
+	/*
+		if err := os.RemoveAll(src); err != nil {
+			return fmt.Errorf("[ERR] Couldn't delete the folder: %s", err)
+		}
+	*/
+	return nil
 }
 
 func ExctractMdFiles(filePath, zip string) (err error) {
@@ -69,10 +91,10 @@ func ExctractMdFiles(filePath, zip string) (err error) {
 	return nil
 }
 
-func DownloadGitArchive(filepath, filename, url string) (err error) {
-	fullpath := filepath + "/" + filename
+func DownloadGitArchive(downloadPath, fileName, url string) (err error) {
+	fullpath := filepath.Join(downloadPath, fileName)
 
-	if err := os.MkdirAll(filepath, 0755); err != nil {
+	if err := os.MkdirAll(downloadPath, 0755); err != nil {
 		return fmt.Errorf("[ERR] Couldn't create filepath: %s", err)
 	}
 
@@ -106,7 +128,7 @@ func DownloadGitArchive(filepath, filename, url string) (err error) {
 func CheckGitMdLinks(r *Repository) (err error) {
 	downloadLink := *r.HTMLURL + "/archive/refs/heads/" + *r.DefaultBranch + ".zip"
 	archiveName := *r.Name + ".zip"
-	downloadPath := defaultPath + "/" + *r.Name
+	downloadPath := filepath.Join(defaultPath, *r.Name)
 	if err := DownloadGitArchive(downloadPath, archiveName, downloadLink); err != nil {
 		return err
 	}
