@@ -33,6 +33,17 @@ func getFileExtension(s string) string {
 	return ext[len(ext)-1]
 }
 
+func checkMdLink(l string) error {
+	// Cut text after (
+	_, url, _ := strings.Cut(l, "(")
+	// Delete last elemnt, which is )
+	url = url[:len(url)-1]
+
+	res, err := http.Get(url)
+	fmt.Println(res.StatusCode)
+	return err
+}
+
 func extractFiles(src string, f *zip.File) error {
 
 	if !f.FileInfo().IsDir() {
@@ -54,12 +65,15 @@ func extractFiles(src string, f *zip.File) error {
 
 			content, err := ioutil.ReadAll(zipContent)
 			if err != nil {
-				return fmt.Errorf("[ERR] Couldn't read archive's content: %s", err)
+				return fmt.Errorf("[ERR] Couldn't load archive's content: %s", err)
 			}
+
+			// Use regexp for matching Markdown URL
 			re := regexp.MustCompile(`\[[^\[\]]*?\]\(.*?\)|^\[*?\]\(.*?\)`)
 			matches := re.FindAll(content, -1)
 			for _, v := range matches {
 				fmt.Printf("%s\n", v)
+				fmt.Println(checkMdLink(string(v)))
 			}
 
 		}
@@ -77,11 +91,9 @@ func unzipArchive(src, zipName string) error {
 	for _, f := range reader.File {
 		extractFiles(src, f)
 	}
-	/*
-		if err := os.RemoveAll(src); err != nil {
-			return fmt.Errorf("[ERR] Couldn't delete the folder: %s", err)
-		}
-	*/
+	if err := os.RemoveAll(src); err != nil {
+		return fmt.Errorf("[ERR] Couldn't delete the folder: %s", err)
+	}
 	return nil
 }
 
