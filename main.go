@@ -31,15 +31,19 @@ type Repository struct {
 
 // Checked URL structure
 type MdLink struct {
-	Path	*string
-	Link	*string
-	State	*string
+	Path  *string
+	Link  *string
+	State *string
 }
 
 // Generated reports structure
 type MdReport struct {
-	Repository	*Repository
-	MdFile		*map[string]*map[MdLink]*string
+	Repository *Repository
+	MdFile     *map[string]*map[MdLink]*string
+	ZipUrl     *string
+	ZipName    *string
+	ZipPath    *string
+	State      *string
 }
 
 func getFileExtension(s string) string {
@@ -50,7 +54,7 @@ func getFileExtension(s string) string {
 func checkMdLink(l string) {
 	// Delete last elemnt, which is )
 	l = l[:len(l)-1]
-	// Search for URL using regexp 
+	// Search for URL using regexp
 	re := regexp.MustCompile(`(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w\.-]*)*\/?$`)
 	url := re.FindString(l)
 	if (l[0]) == '/' {
@@ -60,27 +64,24 @@ func checkMdLink(l string) {
 	if err == nil {
 		defer res.Body.Close()
 		if res.StatusCode > 299 {
-			fmt.Printf("[ERR] Response from %s: %d\n",url,res.StatusCode)
+			fmt.Printf("[ERR] Response from %s: %d\n", url, res.StatusCode)
 		} else {
-			fmt.Printf("[INF] Response from %s: %d\n",url,res.StatusCode)
+			fmt.Printf("[INF] Response from %s: %d\n", url, res.StatusCode)
 		}
-	} else if strings.Contains(err.Error(),"unsupported protocol scheme") {
-		fmt.Printf("[ERR] Missing protocol (http/https) for %s\n",url)
-	} else if strings.Contains(err.Error(),"dial tcp: lookup") {
-		fmt.Printf("[ERR] Couldn't resolve %s\n",url)
+	} else if strings.Contains(err.Error(), "unsupported protocol scheme") {
+		fmt.Printf("[ERR] Missing protocol (http/https) for %s\n", url)
+	} else if strings.Contains(err.Error(), "dial tcp: lookup") {
+		fmt.Printf("[ERR] Couldn't resolve %s\n", url)
 	} else {
-		fmt.Printf("[ERR] %s",err)
+		fmt.Printf("[ERR] %s", err)
 	}
-	
+
 }
 
 func extractAndCheckMdFiles(src string, f *zip.File) error {
 
 	if !f.FileInfo().IsDir() {
 		fileName := f.FileInfo().Name()
-		relativePath, _, _ := strings.Cut(f.FileHeader.Name, fileName)
-		relativePath = filepath.Clean(relativePath)
-		_, relativePath, _ = strings.Cut(relativePath, "/")
 		ext := getFileExtension(fileName)
 		// Proceed if file is not a directory and has .md extension
 		if strings.ToLower(ext) == "md" {
@@ -109,7 +110,7 @@ func extractAndCheckMdFiles(src string, f *zip.File) error {
 	return nil
 }
 
-func ExctractMdFiles(src, zipName string) error {
+func ExctractMdFiles(src, zipName string, m *MdReport) error {
 	reader, err := zip.OpenReader(filepath.Join(src, zipName))
 	if err != nil {
 		return fmt.Errorf("[ERR] Couldn't open archive: %s", err)
@@ -125,52 +126,47 @@ func ExctractMdFiles(src, zipName string) error {
 	return nil
 }
 
-func DownloadGitArchive(downloadPath, fileName, url string) (err error) {
-	fullpath := filepath.Join(downloadPath, fileName)
+func DownloadGitArchive(md *MdReport) {
+	fullpath := filepath.Join(*md.ZipPath, *md.ZipName)
 
-	if err := os.MkdirAll(downloadPath, 0755); err != nil {
-		return fmt.Errorf("[ERR] Couldn't create filepath: %s", err)
+	if err := os.MkdirAll(*md.ZipPath, 0755); err != nil {
+		*md.State = ("[ERR] Couldn't create " + *md.ZipPath + " path.\n\t" + err.Error())
+		return
 	}
 
 	out, err := os.Create(fullpath)
 
 	if err != nil {
-		return fmt.Errorf("[ERR] Couldn't initiate a download file/directory: %s", err)
+		*md.State = ("[ERR] Couldn't create " + fullpath + " file.\n\t" + err.Error())
+		return
 	}
 
 	defer out.Close()
-	fmt.Println("[INF] Downloading " + url)
-	resp, err := http.Get(url)
+	resp, err := http.Get(*md.ZipUrl)
 
 	if err != nil {
-		return fmt.Errorf("[ERR] Couldn't download a file: %s", err)
+		*md.State = ("[ERR] Couldn't download " + *md.ZipUrl + " file.\n\t" + err.Error())
+		return
 	}
 
 	defer resp.Body.Close()
 
-	if resp.StatusCode != http.StatusOK {
-		return fmt.Errorf("[ERR] Couldn't download a file: %s", resp.Status)
-	}
-
 	if _, err := io.Copy(out, resp.Body); err != nil {
-		return fmt.Errorf("[ERR] Couldn't store a file: %s", err)
+		*md.State = ("[ERR] Couldn't store downloaded file.\n\t" + err.Error())
+		return
 	}
-
-	return nil
 }
 
-func CheckGitMdLinks(r *Repository) (err error) {
+func CheckGitMdLinks(r *Repository) {
 	//repoUrl := (*r.HTMLURL + "/blob/" + *r.DefaultBranch)
-	var m MdReport
-	m.Repository = r
+	var md MdReport
+	md.Repository = r
 	downloadLink := *r.HTMLURL + "/archive/refs/heads/" + *r.DefaultBranch + ".zip"
 	archiveName := *r.Name + ".zip"
 	downloadPath := filepath.Join(defaultPath, *r.Name)
-	if err := DownloadGitArchive(downloadPath, archiveName, downloadLink); err != nil {
-		return err
-	}
-	ExctractMdFiles(downloadPath, archiveName)
-	return nil
+	md.ZipUrl, md.ZipName, md.ZipPath = &downloadLink, &archiveName, &downloadPath
+	DownloadGitArchive(&md)
+	ExctractMdFiles(downloadPath, archiveName, &md)
 }
 
 func main() {
@@ -189,9 +185,7 @@ func main() {
 		log.Fatalln(err)
 	}
 
-	if err := CheckGitMdLinks(*&repos[0]); err != nil {
-		fmt.Println(err)
-	}
+	CheckGitMdLinks(*&repos[0])
 	// Store and parse public and active repositories
 	/*
 		for i := range repos {
