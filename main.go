@@ -16,6 +16,7 @@ import (
 
 var defaultPath, githubAccount string
 
+// Part of Github API response strutures
 // https://github.com/google/go-github/blob/2d872b40760dcf7080786ece0a4735509ff071f4/github/repos.go#L28
 type Repository struct {
 	Name          *string `json:"name,omitempty"`
@@ -26,6 +27,19 @@ type Repository struct {
 	CloneURL      *string `json:"clone_url,omitempty"`
 	HTMLURL       *string `json:"html_url,omitempty"`
 	DefaultBranch *string `json:"default_branch,omitempty"`
+}
+
+// Checked URL structure
+type MdLink struct {
+	Path	*string
+	Link	*string
+	State	*string
+}
+
+// Generated reports structure
+type MdReport struct {
+	Repository	*Repository
+	MdFile		*map[string]*map[MdLink]*string
 }
 
 func getFileExtension(s string) string {
@@ -39,6 +53,9 @@ func checkMdLink(l string) {
 	// Search for URL using regexp 
 	re := regexp.MustCompile(`(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w\.-]*)*\/?$`)
 	url := re.FindString(l)
+	if (l[0]) == '/' {
+		return
+	}
 	res, err := http.Get(url)
 	if err == nil {
 		defer res.Body.Close()
@@ -57,7 +74,7 @@ func checkMdLink(l string) {
 	
 }
 
-func extractFiles(src string, f *zip.File) error {
+func extractAndCheckMdFiles(src string, f *zip.File) error {
 
 	if !f.FileInfo().IsDir() {
 		fileName := f.FileInfo().Name()
@@ -92,7 +109,7 @@ func extractFiles(src string, f *zip.File) error {
 	return nil
 }
 
-func unzipArchive(src, zipName string) error {
+func ExctractMdFiles(src, zipName string) error {
 	reader, err := zip.OpenReader(filepath.Join(src, zipName))
 	if err != nil {
 		return fmt.Errorf("[ERR] Couldn't open archive: %s", err)
@@ -100,16 +117,11 @@ func unzipArchive(src, zipName string) error {
 
 	defer reader.Close()
 	for _, f := range reader.File {
-		extractFiles(src, f)
+		extractAndCheckMdFiles(src, f)
 	}
 	if err := os.RemoveAll(src); err != nil {
 		return fmt.Errorf("[ERR] Couldn't delete the folder: %s", err)
 	}
-	return nil
-}
-
-func ExctractMdFiles(filePath, zip string) (err error) {
-	unzipArchive(filePath, zip)
 	return nil
 }
 
@@ -148,6 +160,9 @@ func DownloadGitArchive(downloadPath, fileName, url string) (err error) {
 }
 
 func CheckGitMdLinks(r *Repository) (err error) {
+	//repoUrl := (*r.HTMLURL + "/blob/" + *r.DefaultBranch)
+	var m MdReport
+	m.Repository = r
 	downloadLink := *r.HTMLURL + "/archive/refs/heads/" + *r.DefaultBranch + ".zip"
 	archiveName := *r.Name + ".zip"
 	downloadPath := filepath.Join(defaultPath, *r.Name)
@@ -174,7 +189,11 @@ func main() {
 		log.Fatalln(err)
 	}
 
+	if err := CheckGitMdLinks(*&repos[0]); err != nil {
+		fmt.Println(err)
+	}
 	// Store and parse public and active repositories
+	/*
 		for i := range repos {
 			if !*repos[i].Fork && !*repos[i].Disabled && !*repos[i].Archived {
 				if err := CheckGitMdLinks(*&repos[i]); err != nil {
@@ -182,4 +201,5 @@ func main() {
 				}
 			}
 		}
+	*/
 }
