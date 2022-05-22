@@ -33,15 +33,28 @@ func getFileExtension(s string) string {
 	return ext[len(ext)-1]
 }
 
-func checkMdLink(l string) error {
-	// Cut text after (
-	_, url, _ := strings.Cut(l, "(")
+func checkMdLink(l string) {
 	// Delete last elemnt, which is )
-	url = url[:len(url)-1]
-
+	l = l[:len(l)-1]
+	// Search for URL using regexp 
+	re := regexp.MustCompile(`(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w\.-]*)*\/?$`)
+	url := re.FindString(l)
 	res, err := http.Get(url)
-	fmt.Println(res.StatusCode)
-	return err
+	if err == nil {
+		defer res.Body.Close()
+		if res.StatusCode > 299 {
+			fmt.Printf("[ERR] Response from %s: %d\n",url,res.StatusCode)
+		} else {
+			fmt.Printf("[INF] Response from %s: %d\n",url,res.StatusCode)
+		}
+	} else if strings.Contains(err.Error(),"unsupported protocol scheme") {
+		fmt.Printf("[ERR] Missing protocol (http/https) for %s\n",url)
+	} else if strings.Contains(err.Error(),"dial tcp: lookup") {
+		fmt.Printf("[ERR] Couldn't resolve %s\n",url)
+	} else {
+		fmt.Printf("[ERR] %s",err)
+	}
+	
 }
 
 func extractFiles(src string, f *zip.File) error {
@@ -54,8 +67,7 @@ func extractFiles(src string, f *zip.File) error {
 		ext := getFileExtension(fileName)
 		// Proceed if file is not a directory and has .md extension
 		if strings.ToLower(ext) == "md" {
-			relativeDestFile := filepath.Join(relativePath, fileName)
-			fmt.Println(relativeDestFile)
+			//relativeDestFile := filepath.Join(relativePath, fileName)
 
 			zipContent, err := f.Open()
 			if err != nil {
@@ -72,8 +84,7 @@ func extractFiles(src string, f *zip.File) error {
 			re := regexp.MustCompile(`\[[^\[\]]*?\]\(.*?\)|^\[*?\]\(.*?\)`)
 			matches := re.FindAll(content, -1)
 			for _, v := range matches {
-				fmt.Printf("%s\n", v)
-				fmt.Println(checkMdLink(string(v)))
+				checkMdLink(string(v))
 			}
 
 		}
@@ -163,11 +174,7 @@ func main() {
 		log.Fatalln(err)
 	}
 
-	if err := CheckGitMdLinks(*&repos[0]); err != nil {
-		fmt.Println(err)
-	}
 	// Store and parse public and active repositories
-	/*
 		for i := range repos {
 			if !*repos[i].Fork && !*repos[i].Disabled && !*repos[i].Archived {
 				if err := CheckGitMdLinks(*&repos[i]); err != nil {
@@ -175,5 +182,4 @@ func main() {
 				}
 			}
 		}
-	*/
 }
