@@ -12,11 +12,9 @@ import (
 	"path/filepath"
 	"regexp"
 	"strings"
-	"net"
 )
 
 var defaultPath, githubAccount string
-
 
 type Repository struct {
 	// Part of Github API response strutures
@@ -29,8 +27,8 @@ type Repository struct {
 	CloneURL      *string `json:"clone_url,omitempty"`
 	HTMLURL       *string `json:"html_url,omitempty"`
 	DefaultBranch *string `json:"default_branch,omitempty"`
-	// Custom fields 
-	WebUrl			*string // for relative paths check
+	// Custom fields
+	WebUrl *string // for relative paths check
 }
 
 // Checked URL structure
@@ -43,7 +41,7 @@ type MdLink struct {
 // Generated reports structure
 type MdReport struct {
 	Repository *Repository
-	MdFile     *map[string]*map[MdLink]*string
+	MdFile     *map[string]*MdLink
 	ZipUrl     *string
 	ZipName    *string
 	ZipPath    *string
@@ -56,7 +54,8 @@ func getFileExtension(s string) string {
 }
 
 // Tries to validate markdown URL
-func checkMdLink(md *MdReport, l string) {
+func checkMdLink(md *MdReport, l, rpath, fpath string) {
+
 	// Delete last elemnt, which is a brace
 	l = l[:len(l)-1]
 	// Delete part containing square brackets and brace, which comes before a link
@@ -68,14 +67,8 @@ func checkMdLink(md *MdReport, l string) {
 		// If link starts with / -> it is relative path -> attach to url repositories address
 		if string(l[0]) == "/" {
 			url = *md.Repository.WebUrl + l
-		} else if strings.HasPrefix(l,"www.") {
-			url = "http://" + l
-			fmt.Println(url)
-		} else{
-			if _, err := net.LookupIP(strings.Split(l,"/")[0]); err == nil {
-				url = "http://" + l
-			}
-
+		} else {
+			url = *md.Repository.WebUrl + rpath + l
 		}
 	}
 	res, err := http.Get(url)
@@ -98,7 +91,14 @@ func checkMdLink(md *MdReport, l string) {
 
 // Search *.md files and load its content from *.zip archive
 func findAndCheckMdFile(md *MdReport, f *zip.File) error {
+	_, fileFullPath, _ := strings.Cut(f.FileHeader.Name, "/")
+	fileRelativePath, _, _ := strings.Cut(fileFullPath, f.FileInfo().Name())
 
+	if fileRelativePath != "" {
+		fileRelativePath = "/" + fileRelativePath + "/"
+	} else {
+		fileRelativePath = "/"
+	}
 	if !f.FileInfo().IsDir() {
 		fileName := f.FileInfo().Name()
 		ext := getFileExtension(fileName)
@@ -118,7 +118,7 @@ func findAndCheckMdFile(md *MdReport, f *zip.File) error {
 			// Use regexp for matching Markdown URL
 			matches := regexp.MustCompile(`\[[^\[\]]*?\]\(.*?\)|^\[*?\]\(.*?\)`).FindAll(content, -1)
 			for _, val := range matches {
-				checkMdLink(md, string(val))
+				checkMdLink(md, string(val), fileRelativePath, fileFullPath)
 			}
 
 		}
@@ -133,8 +133,8 @@ func checkMdFiles(md *MdReport) {
 		*md.State = ("[ERR] Couldn't open archive " + *md.ZipName + ".\n\t" + err.Error())
 		return
 	}
-
 	defer reader.Close()
+
 	for _, f := range reader.File {
 		findAndCheckMdFile(md, f)
 	}
@@ -146,7 +146,7 @@ func checkMdFiles(md *MdReport) {
 
 // Downloads and stores Github repository as zip archive
 func downloadGitArchive(md *MdReport) error {
-	
+
 	fullpath := filepath.Join(*md.ZipPath, *md.ZipName)
 	if err := os.MkdirAll(*md.ZipPath, 0755); err != nil {
 		*md.State = ("[ERR] Couldn't create " + *md.ZipPath + " path.\n\t" + err.Error())
@@ -181,7 +181,7 @@ func CheckGitMdLinks(r *Repository) {
 	archiveName := *r.Name + ".zip"
 	downloadPath := filepath.Join(defaultPath, *r.Name)
 	repoUrl := (*r.HTMLURL + "/blob/" + *r.DefaultBranch)
-	md.ZipUrl, md.ZipName, md.ZipPath , md.Repository.WebUrl = &downloadLink, &archiveName, &downloadPath, &repoUrl
+	md.ZipUrl, md.ZipName, md.ZipPath, md.Repository.WebUrl = &downloadLink, &archiveName, &downloadPath, &repoUrl
 	if downloadGitArchive(&md) == nil {
 		checkMdFiles(&md)
 	}
