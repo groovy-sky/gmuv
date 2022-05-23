@@ -55,7 +55,6 @@ func getFileExtension(s string) string {
 
 // Tries to validate markdown URL
 func checkMdLink(md *MdReport, l, rpath, fpath string) {
-
 	// Delete last elemnt, which is a brace
 	l = l[:len(l)-1]
 	// Delete part containing square brackets and brace, which comes before a link
