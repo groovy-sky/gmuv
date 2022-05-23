@@ -12,6 +12,7 @@ import (
 	"path/filepath"
 	"regexp"
 	"strings"
+	"net"
 )
 
 var defaultPath, githubAccount string
@@ -54,18 +55,28 @@ func getFileExtension(s string) string {
 	return ext[len(ext)-1]
 }
 
+// Tries to validate markdown URL
 func checkMdLink(md *MdReport, l string) {
 	// Delete last elemnt, which is a brace
 	l = l[:len(l)-1]
 	// Delete part containing square brackets and brace, which comes before a link
 	l = l[len(regexp.MustCompile(`(^\[(.*?)]\()`).FindString(l)):]
 	// Check if link starts with http/https
-	url := regexp.MustCompile(`(^https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w\.-]*)*\/?$`).FindString(l)
-	fmt.Println(l + " | " + url)
-	// If 
-	if url != "" {
-		//url = *md.Repository.WebUrl + url
-		return
+	url := regexp.MustCompile(`(^https?:\/\/)([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w\.-]*)*\/?$`).FindString(l)
+	// If regex didn't found anything try alternatives
+	if url == "" {
+		// If link starts with / -> it is relative path -> attach to url repositories address
+		if string(l[0]) == "/" {
+			url = *md.Repository.WebUrl + l
+		} else if strings.HasPrefix(l,"www.") {
+			url = "http://" + l
+			fmt.Println(url)
+		} else{
+			if _, err := net.LookupIP(strings.Split(l,"/")[0]); err == nil {
+				url = "http://" + l
+			}
+
+		}
 	}
 	res, err := http.Get(url)
 	if err == nil {
@@ -85,6 +96,7 @@ func checkMdLink(md *MdReport, l string) {
 
 }
 
+// Search *.md files and load its content from *.zip archive
 func findAndCheckMdFile(md *MdReport, f *zip.File) error {
 
 	if !f.FileInfo().IsDir() {
@@ -92,8 +104,6 @@ func findAndCheckMdFile(md *MdReport, f *zip.File) error {
 		ext := getFileExtension(fileName)
 		// Proceed if file is not a directory and has .md extension
 		if strings.ToLower(ext) == "md" {
-			//relativeDestFile := filepath.Join(relativePath, fileName)
-
 			zipContent, err := f.Open()
 			if err != nil {
 				return fmt.Errorf("[ERR] Couldn't read archive's content: %s", err)
@@ -106,8 +116,7 @@ func findAndCheckMdFile(md *MdReport, f *zip.File) error {
 			}
 
 			// Use regexp for matching Markdown URL
-			re := regexp.MustCompile(`\[[^\[\]]*?\]\(.*?\)|^\[*?\]\(.*?\)`)
-			matches := re.FindAll(content, -1)
+			matches := regexp.MustCompile(`\[[^\[\]]*?\]\(.*?\)|^\[*?\]\(.*?\)`).FindAll(content, -1)
 			for _, val := range matches {
 				checkMdLink(md, string(val))
 			}
@@ -117,6 +126,7 @@ func findAndCheckMdFile(md *MdReport, f *zip.File) error {
 	return nil
 }
 
+// Read files from *.zip archive and filters *.md. At the end deletes folder with archive
 func checkMdFiles(md *MdReport) {
 	reader, err := zip.OpenReader(filepath.Join(*md.ZipPath, *md.ZipName))
 	if err != nil {
@@ -134,29 +144,27 @@ func checkMdFiles(md *MdReport) {
 	}
 }
 
+// Downloads and stores Github repository as zip archive
 func downloadGitArchive(md *MdReport) error {
+	
 	fullpath := filepath.Join(*md.ZipPath, *md.ZipName)
-
 	if err := os.MkdirAll(*md.ZipPath, 0755); err != nil {
 		*md.State = ("[ERR] Couldn't create " + *md.ZipPath + " path.\n\t" + err.Error())
 		return err
 	}
 
 	out, err := os.Create(fullpath)
-
 	if err != nil {
 		*md.State = ("[ERR] Couldn't create " + fullpath + " file.\n\t" + err.Error())
 		return err
 	}
-
 	defer out.Close()
-	resp, err := http.Get(*md.ZipUrl)
 
+	resp, err := http.Get(*md.ZipUrl)
 	if err != nil {
 		*md.State = ("[ERR] Couldn't download " + *md.ZipUrl + " file.\n\t" + err.Error())
 		return err
 	}
-
 	defer resp.Body.Close()
 
 	if _, err := io.Copy(out, resp.Body); err != nil {
@@ -188,8 +196,8 @@ func main() {
 	if err != nil {
 		log.Fatalln(err)
 	}
-
 	defer resp.Body.Close()
+
 	// Parse JSON to repository list
 	if err := json.NewDecoder(resp.Body).Decode(&repos); err != nil {
 		log.Fatalln(err)
