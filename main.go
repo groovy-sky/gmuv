@@ -12,6 +12,7 @@ import (
 	"path/filepath"
 	"regexp"
 	"strings"
+	"strconv"
 )
 
 var defaultPath, githubAccount string
@@ -41,11 +42,15 @@ type MdLink struct {
 // Generated reports structure
 type MdReport struct {
 	Repository *Repository
-	MdFile     *map[string]*MdLink
+	MdFile     *map[string]map[int]MdLink
 	ZipUrl     *string
 	ZipName    *string
 	ZipPath    *string
 	State      *string
+}
+
+func (m *MdReport) Add(item *map[string]map[int]MdLink) {
+	m.MdFile = append(m.MdFile, item)
 }
 
 func getFileExtension(s string) string {
@@ -55,6 +60,7 @@ func getFileExtension(s string) string {
 
 // Tries to validate markdown URL
 func checkMdLink(md *MdReport, l, rpath, fpath string) {
+	var state string
 	// Delete last elemnt, which is a brace
 	l = l[:len(l)-1]
 	// Delete part containing square brackets and brace, which comes before a link
@@ -74,18 +80,19 @@ func checkMdLink(md *MdReport, l, rpath, fpath string) {
 	if err == nil {
 		defer res.Body.Close()
 		if res.StatusCode > 299 {
-			fmt.Printf("[ERR] Response from %s: %d\n", url, res.StatusCode)
+			state = ("[ERR] URL's response: " + strconv.Itoa(res.StatusCode))
 		} else {
-			fmt.Printf("[INF] Response from %s: %d\n", url, res.StatusCode)
+			state = ("[INF] URL's response: " + strconv.Itoa(res.StatusCode))
 		}
 	} else if strings.Contains(err.Error(), "unsupported protocol scheme") {
-		fmt.Printf("[ERR] Missing protocol (http/https) for %s\n", url)
+		state = ("[ERR] Unreachable URL: probably protocol scheme is missing\n\t" + err.Error())
 	} else if strings.Contains(err.Error(), "dial tcp: lookup") {
-		fmt.Printf("[ERR] Couldn't resolve %s\n", url)
+		state = ("[ERR] Unreachable URL: probably incorrect domain name\n\t" + err.Error())
 	} else {
-		fmt.Printf("[ERR] %s", err)
+		state = ("[ERR] Unreachable URL: unknown error\n\t" + err.Error())
 	}
-
+	fmt.Println(state)
+	fmt.Println(md.MdFile)
 }
 
 // Search *.md files and load its content from *.zip archive
@@ -103,6 +110,10 @@ func findAndCheckMdFile(md *MdReport, f *zip.File) error {
 		ext := getFileExtension(fileName)
 		// Proceed if file is not a directory and has .md extension
 		if strings.ToLower(ext) == "md" {
+			
+			newFile := make(map[string]map[int]MdLink,100)
+			newFile[fileFullPath] = make(map[int]MdLink,100)
+			md.Add(&newFile)
 			zipContent, err := f.Open()
 			if err != nil {
 				return fmt.Errorf("[ERR] Couldn't read archive's content: %s", err)
