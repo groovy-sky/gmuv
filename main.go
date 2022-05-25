@@ -3,6 +3,7 @@ package main
 import (
 	"archive/zip"
 	"encoding/json"
+	"fmt"
 	"io"
 	"io/ioutil"
 	"log"
@@ -51,6 +52,10 @@ type MdReport struct {
 	ZipName    *string
 	ZipPath    *string
 	State      *string
+}
+
+func generateMdReport(md MdReport) {
+	fmt.Println(*md.ZipPath)
 }
 
 func getFileExtension(s string) string {
@@ -195,7 +200,7 @@ func downloadGitArchive(md *MdReport) error {
 	return nil
 }
 
-func CheckGitMdLinks(r *Repository) {
+func CheckGitMdLinks(r *Repository, ch chan MdReport) {
 	md := new(MdReport)
 	md.Repository = r
 	downloadLink := *r.HTMLURL + "/archive/refs/heads/" + *r.DefaultBranch + ".zip"
@@ -206,6 +211,7 @@ func CheckGitMdLinks(r *Repository) {
 	if downloadGitArchive(md) == nil {
 		checkMdFiles(md)
 	}
+	ch <- *md
 }
 
 func main() {
@@ -223,15 +229,14 @@ func main() {
 	if err := json.NewDecoder(resp.Body).Decode(&repos); err != nil {
 		log.Fatalln(err)
 	}
-
-	CheckGitMdLinks(repos[0])
+	reports := make(chan MdReport, len(repos))
+	go CheckGitMdLinks(repos[0], reports)
+	generateMdReport(<-reports)
 	// Store and parse public and active repositories
 	/*
 		for i := range repos {
 			if !*repos[i].Fork && !*repos[i].Disabled && !*repos[i].Archived {
-				if err := CheckGitMdLinks(*&repos[i]); err != nil {
-					fmt.Println(err)
-				}
+				go CheckGitMdLinks(repos[i])
 			}
 		}
 	*/
