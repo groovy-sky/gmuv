@@ -34,23 +34,23 @@ type Repository struct {
 
 // Checked URL structure
 type MdLink struct {
-	Path  *string
 	Link  *string
 	State *string
+}
+
+type MdFile struct {
+	Path  		*string
+	LinkList	*[]MdLink
 }
 
 // Generated reports structure
 type MdReport struct {
 	Repository *Repository
-	MdFile     *map[string]map[int]MdLink
+	MdFileList     *[]MdFile
 	ZipUrl     *string
 	ZipName    *string
 	ZipPath    *string
 	State      *string
-}
-
-func (m *MdReport) Add(item *map[string]map[int]MdLink) {
-	m.MdFile = append(m.MdFile, item)
 }
 
 func getFileExtension(s string) string {
@@ -59,8 +59,8 @@ func getFileExtension(s string) string {
 }
 
 // Tries to validate markdown URL
-func checkMdLink(md *MdReport, l, rpath, fpath string) {
-	var state string
+func checkMdLink(md *MdReport, l, rpath, fpath string) string{
+	var result string
 	// Delete last elemnt, which is a brace
 	l = l[:len(l)-1]
 	// Delete part containing square brackets and brace, which comes before a link
@@ -80,19 +80,18 @@ func checkMdLink(md *MdReport, l, rpath, fpath string) {
 	if err == nil {
 		defer res.Body.Close()
 		if res.StatusCode > 299 {
-			state = ("[ERR] URL's response: " + strconv.Itoa(res.StatusCode))
+			result = ("[ERR] URL's response: " + strconv.Itoa(res.StatusCode))
 		} else {
-			state = ("[INF] URL's response: " + strconv.Itoa(res.StatusCode))
+			result = ("[INF] URL's response: " + strconv.Itoa(res.StatusCode))
 		}
 	} else if strings.Contains(err.Error(), "unsupported protocol scheme") {
-		state = ("[ERR] Unreachable URL: probably protocol scheme is missing\n\t" + err.Error())
+		result = ("[ERR] Unreachable URL: probably protocol scheme is missing\n\t" + err.Error())
 	} else if strings.Contains(err.Error(), "dial tcp: lookup") {
-		state = ("[ERR] Unreachable URL: probably incorrect domain name\n\t" + err.Error())
+		result = ("[ERR] Unreachable URL: probably incorrect domain name\n\t" + err.Error())
 	} else {
-		state = ("[ERR] Unreachable URL: unknown error\n\t" + err.Error())
+		result = ("[ERR] Unreachable URL: unknown error\n\t" + err.Error())
 	}
-	fmt.Println(state)
-	fmt.Println(md.MdFile)
+	return result
 }
 
 // Search *.md files and load its content from *.zip archive
@@ -110,10 +109,7 @@ func findAndCheckMdFile(md *MdReport, f *zip.File) error {
 		ext := getFileExtension(fileName)
 		// Proceed if file is not a directory and has .md extension
 		if strings.ToLower(ext) == "md" {
-			
-			newFile := make(map[string]map[int]MdLink,100)
-			newFile[fileFullPath] = make(map[int]MdLink,100)
-			md.Add(&newFile)
+			links := []MdLink{}
 			zipContent, err := f.Open()
 			if err != nil {
 				return fmt.Errorf("[ERR] Couldn't read archive's content: %s", err)
@@ -128,10 +124,21 @@ func findAndCheckMdFile(md *MdReport, f *zip.File) error {
 			// Use regexp for matching Markdown URL
 			matches := regexp.MustCompile(`\[[^\[\]]*?\]\(.*?\)|^\[*?\]\(.*?\)`).FindAll(content, -1)
 			for _, val := range matches {
-				checkMdLink(md, string(val), fileRelativePath, fileFullPath)
+				url := string(val)
+				state := checkMdLink(md, url, fileRelativePath, fileFullPath)
+				mdLinkVal := MdLink{&url,&state}
+				links = append(links, mdLinkVal)
 			}
-
+			if len(links) > 0 {
+				if md.MdFileList == nil {
+					file := []MdFile{{&fileFullPath,&links}}
+					md.MdFileList = &file
+				} else {
+					
+				}
+			}
 		}
+		fmt.Println(md.MdFileList)
 	}
 	return nil
 }
@@ -185,15 +192,15 @@ func downloadGitArchive(md *MdReport) error {
 }
 
 func CheckGitMdLinks(r *Repository) {
-	var md MdReport
+	md := new(MdReport)
 	md.Repository = r
 	downloadLink := *r.HTMLURL + "/archive/refs/heads/" + *r.DefaultBranch + ".zip"
 	archiveName := *r.Name + ".zip"
 	downloadPath := filepath.Join(defaultPath, *r.Name)
 	repoUrl := (*r.HTMLURL + "/blob/" + *r.DefaultBranch)
 	md.ZipUrl, md.ZipName, md.ZipPath, md.Repository.WebUrl = &downloadLink, &archiveName, &downloadPath, &repoUrl
-	if downloadGitArchive(&md) == nil {
-		checkMdFiles(&md)
+	if downloadGitArchive(md) == nil {
+		checkMdFiles(md)
 	}
 }
 
