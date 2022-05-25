@@ -38,6 +38,7 @@ type MdLink struct {
 	State *string
 }
 
+// Checked MD file matched URL and path to the file
 type MdFile struct {
 	Path  		*string
 	LinkList	*[]MdLink
@@ -45,12 +46,12 @@ type MdFile struct {
 
 // Generated reports structure
 type MdReport struct {
-	Repository *Repository
-	MdFileList     *[]MdFile
-	ZipUrl     *string
-	ZipName    *string
-	ZipPath    *string
-	State      *string
+	Repository 		*Repository
+	MdFileList     	*[]MdFile
+	ZipUrl     		*string
+	ZipName    		*string
+	ZipPath    		*string
+	State      		*string
 }
 
 func getFileExtension(s string) string {
@@ -85,11 +86,11 @@ func checkMdLink(md *MdReport, l, rpath, fpath string) string{
 			result = ("[INF] URL's response: " + strconv.Itoa(res.StatusCode))
 		}
 	} else if strings.Contains(err.Error(), "unsupported protocol scheme") {
-		result = ("[ERR] Unreachable URL: probably protocol scheme is missing\n\t" + err.Error())
+		result = ("[ERR] Unreachable URL: probably protocol scheme is missing. \n\t" + err.Error())
 	} else if strings.Contains(err.Error(), "dial tcp: lookup") {
-		result = ("[ERR] Unreachable URL: probably incorrect domain name\n\t" + err.Error())
+		result = ("[ERR] Unreachable URL: probably incorrect domain name. \n\t" + err.Error())
 	} else {
-		result = ("[ERR] Unreachable URL: unknown error\n\t" + err.Error())
+		result = ("[ERR] Unreachable URL: unknown error. \n\t" + err.Error())
 	}
 	return result
 }
@@ -134,11 +135,11 @@ func findAndCheckMdFile(md *MdReport, f *zip.File) error {
 					file := []MdFile{{&fileFullPath,&links}}
 					md.MdFileList = &file
 				} else {
-					
+					file := MdFile{&fileFullPath,&links}
+					*md.MdFileList = append(*md.MdFileList ,file )
 				}
 			}
 		}
-		fmt.Println(md.MdFileList)
 	}
 	return nil
 }
