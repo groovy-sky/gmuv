@@ -3,7 +3,6 @@ package main
 import (
 	"archive/zip"
 	"encoding/json"
-	"fmt"
 	"io"
 	"io/ioutil"
 	"log"
@@ -11,8 +10,8 @@ import (
 	"os"
 	"path/filepath"
 	"regexp"
-	"strings"
 	"strconv"
+	"strings"
 )
 
 var defaultPath, githubAccount string
@@ -40,18 +39,18 @@ type MdLink struct {
 
 // Checked MD file matched URL and path to the file
 type MdFile struct {
-	Path  		*string
-	LinkList	*[]MdLink
+	Path     *string
+	LinkList *[]MdLink
 }
 
 // Generated reports structure
 type MdReport struct {
-	Repository 		*Repository
-	MdFileList     	*[]MdFile
-	ZipUrl     		*string
-	ZipName    		*string
-	ZipPath    		*string
-	State      		*string
+	Repository *Repository
+	MdFileList *[]MdFile
+	ZipUrl     *string
+	ZipName    *string
+	ZipPath    *string
+	State      *string
 }
 
 func getFileExtension(s string) string {
@@ -60,7 +59,7 @@ func getFileExtension(s string) string {
 }
 
 // Tries to validate markdown URL
-func checkMdLink(md *MdReport, l, rpath, fpath string) string{
+func checkMdLink(md *MdReport, l, rpath, fpath string) string {
 	var result string
 	// Delete last elemnt, which is a brace
 	l = l[:len(l)-1]
@@ -96,7 +95,7 @@ func checkMdLink(md *MdReport, l, rpath, fpath string) string{
 }
 
 // Search *.md files and load its content from *.zip archive
-func findAndCheckMdFile(md *MdReport, f *zip.File) error {
+func findAndCheckMdFile(md *MdReport, f *zip.File) {
 	_, fileFullPath, _ := strings.Cut(f.FileHeader.Name, "/")
 	fileRelativePath, _, _ := strings.Cut(fileFullPath, f.FileInfo().Name())
 
@@ -113,13 +112,17 @@ func findAndCheckMdFile(md *MdReport, f *zip.File) error {
 			links := []MdLink{}
 			zipContent, err := f.Open()
 			if err != nil {
-				return fmt.Errorf("[ERR] Couldn't read archive's content: %s", err)
+				state := (*md.State + " [ERR] Couldn't open " + f.FileInfo().Name() + " file: \n\t" + err.Error())
+				md.State = &state
+				return
 			}
 			defer zipContent.Close()
 
 			content, err := ioutil.ReadAll(zipContent)
 			if err != nil {
-				return fmt.Errorf("[ERR] Couldn't load archive's content: %s", err)
+				state := (*md.State + " [ERR] Couldn't load " + f.FileInfo().Name() + ": \n\t" + err.Error())
+				md.State = &state
+				return
 			}
 
 			// Use regexp for matching Markdown URL
@@ -127,25 +130,25 @@ func findAndCheckMdFile(md *MdReport, f *zip.File) error {
 			for _, val := range matches {
 				url := string(val)
 				state := checkMdLink(md, url, fileRelativePath, fileFullPath)
-				mdLinkVal := MdLink{&url,&state}
+				mdLinkVal := MdLink{&url, &state}
 				links = append(links, mdLinkVal)
 			}
 			if len(links) > 0 {
 				if md.MdFileList == nil {
-					file := []MdFile{{&fileFullPath,&links}}
+					file := []MdFile{{&fileFullPath, &links}}
 					md.MdFileList = &file
 				} else {
-					file := MdFile{&fileFullPath,&links}
-					*md.MdFileList = append(*md.MdFileList ,file )
+					file := MdFile{&fileFullPath, &links}
+					*md.MdFileList = append(*md.MdFileList, file)
 				}
 			}
 		}
 	}
-	return nil
 }
 
 // Read files from *.zip archive and filters *.md. At the end deletes folder with archive
 func checkMdFiles(md *MdReport) {
+
 	reader, err := zip.OpenReader(filepath.Join(*md.ZipPath, *md.ZipName))
 	if err != nil {
 		*md.State = ("[ERR] Couldn't open archive " + *md.ZipName + ".\n\t" + err.Error())
@@ -221,7 +224,7 @@ func main() {
 		log.Fatalln(err)
 	}
 
-	CheckGitMdLinks(*&repos[0])
+	CheckGitMdLinks(repos[0])
 	// Store and parse public and active repositories
 	/*
 		for i := range repos {
