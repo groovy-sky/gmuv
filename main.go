@@ -3,7 +3,6 @@ package main
 import (
 	"archive/zip"
 	"encoding/json"
-	"fmt"
 	"io"
 	"io/ioutil"
 	"log"
@@ -11,7 +10,6 @@ import (
 	"os"
 	"path/filepath"
 	"regexp"
-	"runtime"
 	"strconv"
 	"strings"
 	"text/template"
@@ -75,7 +73,7 @@ func generateMdReport(md MdReport) {
 	if md.State != nil {
 		t = template.Must(template.New("repoErrStruct").Parse(repoErrStruct))
 		t.Execute(os.Stdout, md)
-	} else {
+	} else if len(*md.MdFileList) != 0 {
 		for _, file := range *md.MdFileList {
 			t = template.Must(template.New("fileHead").Parse(fileHeadStruct))
 			t.Execute(os.Stdout, md)
@@ -235,7 +233,7 @@ func downloadGitArchive(md *MdReport) error {
 	return nil
 }
 
-func CheckGitMdLinks(r *Repository, ch chan MdReport) {
+func CheckGitMdLinks(r *Repository) {
 	md := new(MdReport)
 	md.Repository = r
 	downloadLink := *r.HTMLURL + "/archive/refs/heads/" + *r.DefaultBranch + ".zip"
@@ -246,9 +244,13 @@ func CheckGitMdLinks(r *Repository, ch chan MdReport) {
 	if downloadGitArchive(md) == nil {
 		checkMdFiles(md)
 	}
+	generateMdReport(*md)
+
 	if md.MdFileList != nil || md.State != nil {
-		ch <- *md
+		//ch <- *md
+		generateMdReport(*md)
 	}
+
 }
 
 func main() {
@@ -266,7 +268,7 @@ func main() {
 	if err := json.NewDecoder(resp.Body).Decode(&repos); err != nil {
 		log.Fatalln(err)
 	}
-	reports := make(chan MdReport, len(repos))
+	//reports := make(chan MdReport, len(repos))
 	//go CheckGitMdLinks(repos[0], reports)
 	//generateMdReport(<-reports)
 	// Store and parse public and active repositories
@@ -274,12 +276,14 @@ func main() {
 	for i := range repos {
 		if !*repos[i].Fork && !*repos[i].Disabled && !*repos[i].Archived {
 			amount++
-			go CheckGitMdLinks(repos[i], reports)
+			//CheckGitMdLinks(repos[i], reports)
+			CheckGitMdLinks(repos[i])
 		}
 	}
-
-	for runtime.NumGoroutine() > 0 {
-		fmt.Printf("%d | %d | %d\n", len(repos), amount, runtime.NumGoroutine())
-		generateMdReport(<-reports)
-	}
+	/*
+		for runtime.NumGoroutine() > 0 {
+			fmt.Printf("%d | %d | %d\n", len(repos), amount, runtime.NumGoroutine())
+			generateMdReport(<-reports)
+		}
+	*/
 }
