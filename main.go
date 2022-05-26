@@ -10,6 +10,7 @@ import (
 	"os"
 	"path/filepath"
 	"regexp"
+	"runtime"
 	"strconv"
 	"strings"
 	"text/template"
@@ -78,9 +79,7 @@ func generateMdReport(md MdReport) {
 		for _, link := range *file.LinkList {
 			t.Execute(os.Stdout, link)
 		}
-
 	}
-
 }
 
 func getFileExtension(s string) string {
@@ -237,7 +236,9 @@ func CheckGitMdLinks(r *Repository, ch chan MdReport) {
 	if downloadGitArchive(md) == nil {
 		checkMdFiles(md)
 	}
-	ch <- *md
+	if md.MdFileList != nil {
+		ch <- *md
+	}
 }
 
 func main() {
@@ -256,14 +257,16 @@ func main() {
 		log.Fatalln(err)
 	}
 	reports := make(chan MdReport, len(repos))
-	go CheckGitMdLinks(repos[0], reports)
-	generateMdReport(<-reports)
+	//go CheckGitMdLinks(repos[0], reports)
+	//generateMdReport(<-reports)
 	// Store and parse public and active repositories
-	/*
-		for i := range repos {
-			if !*repos[i].Fork && !*repos[i].Disabled && !*repos[i].Archived {
-				go CheckGitMdLinks(repos[i])
-			}
+
+	for i := range repos {
+		if !*repos[i].Fork && !*repos[i].Disabled && !*repos[i].Archived {
+			go CheckGitMdLinks(repos[i], reports)
 		}
-	*/
+	}
+	for runtime.NumGoroutine() > 0 {
+		generateMdReport(<-reports)
+	}
 }
