@@ -3,6 +3,7 @@ package main
 import (
 	"archive/zip"
 	"encoding/json"
+	"fmt"
 	"io"
 	"io/ioutil"
 	"log"
@@ -20,10 +21,11 @@ var defaultPath, githubAccount string
 
 const (
 	repoStruct = `
-## [{{.Repository.Name}}]({{.Repository.URL}})
-`
-	fileHeadStruct = `* {{.Repository.WebUrl}}/`
-	fileStruct     = `{{.Path}}
+## [{{.Repository.Name}}]({{.Repository.URL}})`
+	repoErrStruct  = ` - {{.State}}`
+	fileHeadStruct = `
+* {{.Repository.WebUrl}}/`
+	fileStruct = `{{.Path}}
 | Link | State |
 | --- | --- |
 `
@@ -70,14 +72,19 @@ type MdReport struct {
 func generateMdReport(md MdReport) {
 	t := template.Must(template.New("repo").Parse(repoStruct))
 	t.Execute(os.Stdout, md)
-	for _, file := range *md.MdFileList {
-		t = template.Must(template.New("fileHead").Parse(fileHeadStruct))
-		t.Execute(os.Stdout, file)
-		t = template.Must(template.New("file").Parse(fileStruct))
-		t.Execute(os.Stdout, file)
-		t = template.Must(template.New("links").Parse(linkStruct))
-		for _, link := range *file.LinkList {
-			t.Execute(os.Stdout, link)
+	if md.State != nil {
+		t = template.Must(template.New("repoErrStruct").Parse(repoErrStruct))
+		t.Execute(os.Stdout, md)
+	} else {
+		for _, file := range *md.MdFileList {
+			t = template.Must(template.New("fileHead").Parse(fileHeadStruct))
+			t.Execute(os.Stdout, md)
+			t = template.Must(template.New("file").Parse(fileStruct))
+			t.Execute(os.Stdout, file)
+			t = template.Must(template.New("links").Parse(linkStruct))
+			for _, link := range *file.LinkList {
+				t.Execute(os.Stdout, link)
+			}
 		}
 	}
 }
@@ -100,6 +107,9 @@ func checkMdLink(md *MdReport, l, rpath, fpath string) string {
 	if url == "" {
 		// If link starts with / -> it is absolute path -> attach to url repositories address
 		// else -> it is relative path -> attach to url repositories address and relative path
+		if l == "" {
+			return "[ERR] Couldn't find any URL"
+		}
 		if string(l[0]) == "/" {
 			url = *md.Repository.WebUrl + l
 		} else {
@@ -236,7 +246,7 @@ func CheckGitMdLinks(r *Repository, ch chan MdReport) {
 	if downloadGitArchive(md) == nil {
 		checkMdFiles(md)
 	}
-	if md.MdFileList != nil {
+	if md.MdFileList != nil || md.State != nil {
 		ch <- *md
 	}
 }
@@ -260,13 +270,16 @@ func main() {
 	//go CheckGitMdLinks(repos[0], reports)
 	//generateMdReport(<-reports)
 	// Store and parse public and active repositories
-
+	amount := 0
 	for i := range repos {
 		if !*repos[i].Fork && !*repos[i].Disabled && !*repos[i].Archived {
+			amount++
 			go CheckGitMdLinks(repos[i], reports)
 		}
 	}
+
 	for runtime.NumGoroutine() > 0 {
+		fmt.Printf("%d | %d | %d\n", len(repos), amount, runtime.NumGoroutine())
 		generateMdReport(<-reports)
 	}
 }
