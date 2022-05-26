@@ -3,7 +3,6 @@ package main
 import (
 	"archive/zip"
 	"encoding/json"
-	"fmt"
 	"io"
 	"io/ioutil"
 	"log"
@@ -13,9 +12,22 @@ import (
 	"regexp"
 	"strconv"
 	"strings"
+	"text/template"
 )
 
 var defaultPath, githubAccount string
+
+const (
+	repoStruct = `
+## [{{.Repository.Name}}]({{.Repository.URL}})
+`
+	fileHeadStruct = `* {{.Repository.WebUrl}}/`
+	fileStruct     = `{{.Path}}
+| Link | State |
+| --- | --- |
+`
+	linkStruct = `| {{.Link}} | {{.State}} |{{"\n"}}`
+)
 
 type Repository struct {
 	// Part of Github API response strutures
@@ -55,7 +67,20 @@ type MdReport struct {
 }
 
 func generateMdReport(md MdReport) {
-	fmt.Println(*md.ZipPath)
+	t := template.Must(template.New("repo").Parse(repoStruct))
+	t.Execute(os.Stdout, md)
+	for _, file := range *md.MdFileList {
+		t = template.Must(template.New("fileHead").Parse(fileHeadStruct))
+		t.Execute(os.Stdout, file)
+		t = template.Must(template.New("file").Parse(fileStruct))
+		t.Execute(os.Stdout, file)
+		t = template.Must(template.New("links").Parse(linkStruct))
+		for _, link := range *file.LinkList {
+			t.Execute(os.Stdout, link)
+		}
+
+	}
+
 }
 
 func getFileExtension(s string) string {
@@ -74,7 +99,8 @@ func checkMdLink(md *MdReport, l, rpath, fpath string) string {
 	url := regexp.MustCompile(`(^https?:\/\/)([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w\.-]*)*\/?$`).FindString(l)
 	// If regex didn't found anything try alternatives
 	if url == "" {
-		// If link starts with / -> it is relative path -> attach to url repositories address
+		// If link starts with / -> it is absolute path -> attach to url repositories address
+		// else -> it is relative path -> attach to url repositories address and relative path
 		if string(l[0]) == "/" {
 			url = *md.Repository.WebUrl + l
 		} else {
