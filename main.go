@@ -3,6 +3,7 @@ package main
 import (
 	"archive/zip"
 	"encoding/json"
+	"fmt"
 	"io"
 	"io/ioutil"
 	"log"
@@ -94,6 +95,7 @@ func getFileExtension(s string) string {
 
 // Tries to validate markdown URL
 func checkMdLink(md *MdReport, l, rpath, fpath string) string {
+	fmt.Println(l)
 	var result string
 	// Delete last elemnt, which is a brace
 	l = l[:len(l)-1]
@@ -269,21 +271,22 @@ func main() {
 		log.Fatalln(err)
 	}
 	//reports := make(chan MdReport, len(repos))
-	//go CheckGitMdLinks(repos[0], reports)
+	CheckGitMdLinks(repos[9])
 	//generateMdReport(<-reports)
 	// Store and parse public and active repositories
-	amount := 0
-	for i := range repos {
-		if !*repos[i].Fork && !*repos[i].Disabled && !*repos[i].Archived {
-			amount++
-			//CheckGitMdLinks(repos[i], reports)
-			CheckGitMdLinks(repos[i])
-		}
-	}
 	/*
-		for runtime.NumGoroutine() > 0 {
-			fmt.Printf("%d | %d | %d\n", len(repos), amount, runtime.NumGoroutine())
-			generateMdReport(<-reports)
+		amount := 0
+		for i := range repos {
+			if !*repos[i].Fork && !*repos[i].Disabled && !*repos[i].Archived {
+				amount++
+				//CheckGitMdLinks(repos[i], reports)
+				CheckGitMdLinks(repos[i])
+			}
 		}
+
+			for runtime.NumGoroutine() > 0 {
+				fmt.Printf("%d | %d | %d\n", len(repos), amount, runtime.NumGoroutine())
+				generateMdReport(<-reports)
+			}
 	*/
 }
