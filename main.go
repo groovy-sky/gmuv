@@ -6,6 +6,7 @@ import (
 	"io"
 	"io/ioutil"
 	"log"
+	"net"
 	"net/http"
 	"os"
 	"path/filepath"
@@ -95,22 +96,21 @@ func getFileExtension(s string) string {
 
 // Tries to validate markdown URL
 func checkMdLink(md *MdReport, l, rpath, fpath string) string {
-	var result string
+	var result, url string
 	// Delete last elemnt, which is a brace
 	l = l[:len(l)-1]
 	// Delete part containing square brackets and brace, which comes before a link
 	l = l[len(regexp.MustCompile(`(^\[(.*?)]\()`).FindString(l)):]
 	// Check if link starts with http/https
-	url := regexp.MustCompile(`(^https?:\/\/)([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w\.-]*)*\/?$`).FindString(l)
-	// If regex didn't found anything try alternatives
-	if url == "" {
-		// If link starts with / -> it is absolute path -> attach to url repositories address
-		// else -> it is relative path -> attach to url repositories address and relative path
-		if l == "" {
-			return "[ERR] Couldn't find any URL"
-		}
-		if string(l[0]) == "/" {
-			url = *md.Repository.WebUrl + l
+	url = regexp.MustCompile(`(^https?:\/\/)([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w\.-]*)*\/?`).FindString(l)
+	// Check if link starts / -> absolute path is used
+	if url != "" && string(url[0]) == "/" {
+		url = *md.Repository.WebUrl + l
+	}
+	// Check if a domain name is resolvable
+	if fqdn, _, _ := strings.Cut(l, "/"); !strings.Contains(l, ":") {
+		if _, err := net.LookupIP(fqdn); err == nil {
+			url = "http://" + l
 		} else {
 			url = *md.Repository.WebUrl + rpath + l
 		}
@@ -119,16 +119,12 @@ func checkMdLink(md *MdReport, l, rpath, fpath string) string {
 	if err == nil {
 		defer res.Body.Close()
 		if res.StatusCode > 299 {
-			result = ("[ERR] URL's response: " + strconv.Itoa(res.StatusCode))
+			result = ("[ERR] " + url + " response: " + strconv.Itoa(res.StatusCode))
 		} else {
-			result = ("[INF] URL's response: " + strconv.Itoa(res.StatusCode))
+			result = ("[INF] " + url + " response: " + strconv.Itoa(res.StatusCode))
 		}
-	} else if strings.Contains(err.Error(), "unsupported protocol scheme") {
-		result = ("[ERR] Unreachable URL: probably protocol scheme is missing. \n\t" + err.Error())
-	} else if strings.Contains(err.Error(), "dial tcp: lookup") {
-		result = ("[ERR] Unreachable URL: probably incorrect domain name. \n\t" + err.Error())
 	} else {
-		result = ("[ERR] Unreachable URL: unknown error. \n\t" + err.Error())
+		result = ("[ERR] Couldn't reach URL: " + err.Error())
 	}
 	return result
 }
@@ -234,12 +230,13 @@ func downloadGitArchive(md *MdReport) error {
 }
 
 func CheckGitMdLinks(r *Repository) {
+	var repoUrl string
 	md := new(MdReport)
 	md.Repository = r
 	downloadLink := *r.HTMLURL + "/archive/refs/heads/" + *r.DefaultBranch + ".zip"
 	archiveName := *r.Name + ".zip"
 	downloadPath := filepath.Join(defaultPath, *r.Name)
-	repoUrl := (*r.HTMLURL + "/blob/" + *r.DefaultBranch)
+	repoUrl = (*r.HTMLURL + "/blob/" + *r.DefaultBranch)
 	md.ZipUrl, md.ZipName, md.ZipPath, md.Repository.WebUrl = &downloadLink, &archiveName, &downloadPath, &repoUrl
 	if downloadGitArchive(md) == nil {
 		checkMdFiles(md)
