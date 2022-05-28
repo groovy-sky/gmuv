@@ -3,7 +3,6 @@ package main
 import (
 	"archive/zip"
 	"encoding/json"
-	"fmt"
 	"io"
 	"io/ioutil"
 	"log"
@@ -21,7 +20,8 @@ var defaultPath, githubAccount string
 const (
 	repoStruct = `
 ## [{{.Repository.Name}}]({{.Repository.URL}})`
-	repoErrStruct  = ` - {{.State}}`
+	repoErrStruct = ` - {{.State}}
+`
 	fileHeadStruct = `
 * {{.Repository.WebUrl}}/`
 	fileStruct = `{{.Path}}
@@ -95,7 +95,6 @@ func getFileExtension(s string) string {
 
 // Tries to validate markdown URL
 func checkMdLink(md *MdReport, l, rpath, fpath string) string {
-	fmt.Println(l)
 	var result string
 	// Delete last elemnt, which is a brace
 	l = l[:len(l)-1]
@@ -164,7 +163,6 @@ func findAndCheckMdFile(md *MdReport, f *zip.File) {
 				md.State = &state
 				return
 			}
-
 			// Use regexp for matching Markdown URL
 			matches := regexp.MustCompile(`\[[^\[\]]*?\]\(.*?\)|^\[*?\]\(.*?\)`).FindAll(content, -1)
 			for _, val := range matches {
@@ -246,13 +244,12 @@ func CheckGitMdLinks(r *Repository) {
 	if downloadGitArchive(md) == nil {
 		checkMdFiles(md)
 	}
-	generateMdReport(*md)
-
-	if md.MdFileList != nil || md.State != nil {
-		//ch <- *md
-		generateMdReport(*md)
+	if md.MdFileList == nil {
+		emptyState := "[INF] No markdown links were found."
+		md.State = &emptyState
 	}
-
+	//ch <- *md
+	generateMdReport(*md)
 }
 
 func main() {
@@ -271,22 +268,20 @@ func main() {
 		log.Fatalln(err)
 	}
 	//reports := make(chan MdReport, len(repos))
-	CheckGitMdLinks(repos[9])
+	//CheckGitMdLinks(repos[9])
 	//generateMdReport(<-reports)
 	// Store and parse public and active repositories
-	/*
-		amount := 0
-		for i := range repos {
-			if !*repos[i].Fork && !*repos[i].Disabled && !*repos[i].Archived {
-				amount++
-				//CheckGitMdLinks(repos[i], reports)
-				CheckGitMdLinks(repos[i])
-			}
+	for i := range repos {
+		if !*repos[i].Fork && !*repos[i].Disabled && !*repos[i].Archived {
+			//CheckGitMdLinks(repos[i], reports)
+			CheckGitMdLinks(repos[i])
 		}
+	}
+	/*
 
-			for runtime.NumGoroutine() > 0 {
-				fmt.Printf("%d | %d | %d\n", len(repos), amount, runtime.NumGoroutine())
-				generateMdReport(<-reports)
-			}
+		for runtime.NumGoroutine() > 0 {
+			fmt.Printf("%d | %d | %d\n", len(repos), amount, runtime.NumGoroutine())
+			generateMdReport(<-reports)
+		}
 	*/
 }
