@@ -1,4 +1,4 @@
-package gmuc
+package main
 
 import (
 	"archive/zip"
@@ -16,10 +16,11 @@ import (
 	"text/template"
 )
 
-var defaultPath, githubAccount string
+var execPath, githubAccount string
 
 const (
-	repoStruct = `
+	reportFileName = "REPORT.md"
+	repoStruct     = `
 ## [{{.Repository.Name}}]({{.Repository.HTMLURL}})`
 	repoErrStruct  = ` - {{.State}}`
 	fileHeadStruct = `
@@ -69,21 +70,21 @@ type MdReport struct {
 	State      *string
 }
 
-func generateMdReport(md MdReport) {
+func generateMdReport(md MdReport, out *os.File) {
 	t := template.Must(template.New("repo").Parse(repoStruct))
-	t.Execute(os.Stdout, md)
+	t.Execute(out, md)
 	if md.State != nil {
 		t = template.Must(template.New("repoErrStruct").Parse(repoErrStruct))
-		t.Execute(os.Stdout, md)
+		t.Execute(out, md)
 	} else if len(*md.MdFileList) != 0 {
 		for _, file := range *md.MdFileList {
 			t = template.Must(template.New("fileHead").Parse(fileHeadStruct))
-			t.Execute(os.Stdout, md)
+			t.Execute(out, md)
 			t = template.Must(template.New("file").Parse(fileStruct))
-			t.Execute(os.Stdout, file)
+			t.Execute(out, file)
 			t = template.Must(template.New("links").Parse(linkStruct))
 			for _, link := range *file.LinkList {
-				t.Execute(os.Stdout, link)
+				t.Execute(out, link)
 			}
 		}
 	}
@@ -132,7 +133,7 @@ func checkMdLink(md *MdReport, l, rpath, fpath string) string {
 	return result
 }
 
-// Search *.md files and load its content from *.zip archive
+// Searches for *.md files and loads its content from *.zip archive
 func findAndCheckMdFile(md *MdReport, f *zip.File) {
 	_, fileFullPath, _ := strings.Cut(f.FileHeader.Name, "/")
 	fileRelativePath, _, _ := strings.Cut(fileFullPath, f.FileInfo().Name())
@@ -183,7 +184,7 @@ func findAndCheckMdFile(md *MdReport, f *zip.File) {
 	}
 }
 
-// Read files from *.zip archive and filters *.md. At the end deletes folder with archive
+// Reads files from *.zip archive and filters *.md. At the end deletes folder with downloaded archive
 func checkMdFiles(md *MdReport) {
 
 	reader, err := zip.OpenReader(filepath.Join(*md.ZipPath, *md.ZipName))
@@ -232,13 +233,13 @@ func downloadGitArchive(md *MdReport) error {
 	return nil
 }
 
-func CheckGitMdLinks(r *Repository) {
+func CheckGitMdLinks(r *Repository, ch chan MdReport) {
 	var repoUrl string
 	md := new(MdReport)
 	md.Repository = r
 	downloadLink := *r.HTMLURL + "/archive/refs/heads/" + *r.DefaultBranch + ".zip"
 	archiveName := *r.Name + ".zip"
-	downloadPath := filepath.Join(defaultPath, *r.Name)
+	downloadPath := filepath.Join(execPath, *r.Name)
 	repoUrl = (*r.HTMLURL + "/blob/" + *r.DefaultBranch)
 	md.ZipUrl, md.ZipName, md.ZipPath, md.Repository.WebUrl = &downloadLink, &archiveName, &downloadPath, &repoUrl
 	if downloadGitArchive(md) == nil {
@@ -248,12 +249,12 @@ func CheckGitMdLinks(r *Repository) {
 		emptyState := "[INF] No markdown links were found."
 		md.State = &emptyState
 	}
-	//ch <- *md
-	generateMdReport(*md)
+	ch <- *md
+	//generateMdReport(*md, os.Stdout)
 }
 
 func main() {
-	defaultPath = "/tmp/github"
+	execPath = "/tmp/github"
 	githubAccount = "groovy-sky"
 	var repos []*Repository
 	// Query Github API for a public repository list
@@ -267,21 +268,25 @@ func main() {
 	if err := json.NewDecoder(resp.Body).Decode(&repos); err != nil {
 		log.Fatalln(err)
 	}
-	//reports := make(chan MdReport, len(repos))
+
+	path, err := os.Getwd()
+	if err != nil {
+		path = execPath
+	}
+
+	f, err := os.Create(filepath.Join(path, reportFileName))
+	defer f.Close()
+	reports := make(chan MdReport, len(repos))
 	//CheckGitMdLinks(repos[9])
 	//generateMdReport(<-reports)
 	// Store and parse public and active repositories
 	for i := range repos {
 		if !*repos[i].Fork && !*repos[i].Disabled && !*repos[i].Archived {
-			//CheckGitMdLinks(repos[i], reports)
-			CheckGitMdLinks(repos[i])
+			go CheckGitMdLinks(repos[i], reports)
+			//CheckGitMdLinks(repos[i])
 		}
 	}
-	/*
-
-		for runtime.NumGoroutine() > 0 {
-			fmt.Printf("%d | %d | %d\n", len(repos), amount, runtime.NumGoroutine())
-			generateMdReport(<-reports)
-		}
-	*/
+	for {
+		generateMdReport(<-reports, f)
+	}
 }
