@@ -1,4 +1,4 @@
-package main
+package gmuc
 
 import (
 	"archive/zip"
