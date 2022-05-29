@@ -17,6 +17,7 @@ import (
 )
 
 var execPath, githubAccount string
+var routinesCounter uint8
 
 const (
 	reportFileName = "REPORT.md"
@@ -26,6 +27,7 @@ const (
 	fileHeadStruct = `
 * {{.Repository.HTMLURL}}/blob/{{.Repository.DefaultBranch}}/`
 	fileStruct = `{{.Path}}
+
 | Link | State |
 | --- | --- |
 `
@@ -233,7 +235,12 @@ func downloadGitArchive(md *MdReport) error {
 	return nil
 }
 
+func routinesCounterDecrement() {
+	routinesCounter--
+}
+
 func CheckGitMdLinks(r *Repository, ch chan MdReport) {
+	defer routinesCounterDecrement()
 	var repoUrl string
 	md := new(MdReport)
 	md.Repository = r
@@ -257,6 +264,7 @@ func main() {
 	execPath = "/tmp/github"
 	githubAccount = "groovy-sky"
 	var repos []*Repository
+
 	// Query Github API for a public repository list
 	resp, err := http.Get("https://api.github.com/users/" + githubAccount + "/repos?type=owner&per_page=100&type=public")
 	if err != nil {
@@ -283,10 +291,11 @@ func main() {
 	for i := range repos {
 		if !*repos[i].Fork && !*repos[i].Disabled && !*repos[i].Archived {
 			go CheckGitMdLinks(repos[i], reports)
+			routinesCounter++
 			//CheckGitMdLinks(repos[i])
 		}
 	}
-	for {
+	for routinesCounter > 0 {
 		generateMdReport(<-reports, f)
 	}
 }
