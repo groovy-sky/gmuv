@@ -20,16 +20,16 @@ var defaultPath, githubAccount string
 
 const (
 	repoStruct = `
-## [{{.Repository.Name}}]({{.Repository.URL}})`
-	repoErrStruct = ` - {{.State}}
-`
+## [{{.Repository.Name}}]({{.Repository.HTMLURL}})`
+	repoErrStruct  = ` - {{.State}}`
 	fileHeadStruct = `
-* {{.Repository.WebUrl}}/`
+* {{.Repository.HTMLURL}}/blob/{{.Repository.DefaultBranch}}/`
 	fileStruct = `{{.Path}}
 | Link | State |
 | --- | --- |
 `
-	linkStruct = `| {{.Link}} | {{.State}} |{{"\n"}}`
+	linkStruct = `| {{.Link}} | {{.State}} |
+`
 )
 
 type Repository struct {
@@ -102,17 +102,20 @@ func checkMdLink(md *MdReport, l, rpath, fpath string) string {
 	// Delete part containing square brackets and brace, which comes before a link
 	l = l[len(regexp.MustCompile(`(^\[(.*?)]\()`).FindString(l)):]
 	// Check if link starts with http/https
-	url = regexp.MustCompile(`(^https?:\/\/)([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w\.-]*)*\/?`).FindString(l)
-	// Check if link starts / -> absolute path is used
-	if url != "" && string(url[0]) == "/" {
-		url = *md.Repository.WebUrl + l
-	}
-	// Check if a domain name is resolvable
-	if fqdn, _, _ := strings.Cut(l, "/"); !strings.Contains(l, ":") {
-		if _, err := net.LookupIP(fqdn); err == nil {
+	url = regexp.MustCompile(`(^https?:\/\/)([\da-z\.-]+)\.([a-z\.]{2,6})\/?.*`).FindString(l)
+	// Check if a domain name is resolvable and filename extension != md -> add http protocol
+	// else -> add relative path to it
+	if fqdn, _, _ := strings.Cut(l, "/"); !strings.Contains(l, ":") && url == "" {
+		if _, err := net.LookupIP(fqdn); err == nil && strings.ToLower(getFileExtension(l)) != "md" {
 			url = "http://" + l
 		} else {
-			url = *md.Repository.WebUrl + rpath + l
+			// Check if link starts / -> absolute path is used
+			// if not -> relative path should be used
+			if l != "" && string(l[0]) == "/" {
+				url = *md.Repository.WebUrl + l
+			} else {
+				url = *md.Repository.WebUrl + rpath + l
+			}
 		}
 	}
 	res, err := http.Get(url)
