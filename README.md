@@ -1,4 +1,4 @@
-# GitHub's Markdown URL Check
+# GitHub's Markdown URL Validator
 
 ![](/img/logo.svg)
 
