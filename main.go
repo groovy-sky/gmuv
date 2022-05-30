@@ -17,7 +17,7 @@ import (
 )
 
 var execPath, githubAccount string
-var routinesCounter uint8
+var routinesNumber uint8
 
 const (
 	reportFileName = "REPORT.md"
@@ -28,10 +28,10 @@ const (
 * {{.Repository.HTMLURL}}/blob/{{.Repository.DefaultBranch}}/`
 	fileStruct = `{{.Path}}
 
-| Link | State |
+| Original URL | State |
 | --- | --- |
 `
-	linkStruct = `| {{.Link}} | {{.State}} |
+	linkStruct = `| "{{.Link}}" | {{.State}} |
 `
 )
 
@@ -235,12 +235,12 @@ func downloadGitArchive(md *MdReport) error {
 	return nil
 }
 
-func routinesCounterDecrement() {
-	routinesCounter--
+func routinesNumberDecrement() {
+	routinesNumber--
 }
 
 func CheckGitMdLinks(r *Repository, ch chan MdReport) {
-	defer routinesCounterDecrement()
+	defer routinesNumberDecrement()
 	var repoUrl string
 	md := new(MdReport)
 	md.Repository = r
@@ -291,11 +291,11 @@ func main() {
 	for i := range repos {
 		if !*repos[i].Fork && !*repos[i].Disabled && !*repos[i].Archived {
 			go CheckGitMdLinks(repos[i], reports)
-			routinesCounter++
+			routinesNumber++
 			//CheckGitMdLinks(repos[i])
 		}
 	}
-	for routinesCounter > 0 {
+	for routinesNumber > 0 {
 		generateMdReport(<-reports, f)
 	}
 }
