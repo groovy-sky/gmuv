@@ -3,6 +3,8 @@ package main
 import (
 	"archive/zip"
 	"encoding/json"
+	"flag"
+	"fmt"
 	"io"
 	"io/ioutil"
 	"log"
@@ -17,7 +19,7 @@ import (
 )
 
 var execPath, githubAccount string
-var routinesNumber uint8
+var routinesNumber int
 
 const (
 	reportFileName = "REPORT.md"
@@ -274,25 +276,39 @@ func CheckGitMdLinks(r *Repository, ch chan MdReport) {
 		md.State = &s
 	}
 	ch <- *md
-	//generateMdReport(*md, os.Stdout)
 }
 
-func main() {
-	execPath = "/tmp/github"
-	githubAccount = "groovy-sky"
-	var repos []*Repository
-
-	// Query Github API for a public repository list
-	resp, err := http.Get("https://api.github.com/users/" + githubAccount + "/repos?type=owner&per_page=100&type=public")
+// Return public/not-forked/not-archived repository list
+func GetPublicRepos(account string) []*Repository {
+	var allRepos, outRepos []*Repository
+	resp, err := http.Get("https://api.github.com/users/" + account + "/repos?type=owner&per_page=100&type=public")
 	if err != nil {
 		log.Fatalln(err)
 	}
 	defer resp.Body.Close()
 
 	// Parse JSON to repository list
-	if err := json.NewDecoder(resp.Body).Decode(&repos); err != nil {
+	if err := json.NewDecoder(resp.Body).Decode(&allRepos); err != nil {
 		log.Fatalln(err)
 	}
+
+	for i := range allRepos {
+		if !*allRepos[i].Fork && !*allRepos[i].Disabled && !*allRepos[i].Archived {
+			outRepos = append(outRepos, allRepos[i])
+		}
+	}
+	return outRepos
+}
+
+func main() {
+	var githubAccount string
+	execPath = "/tmp/github"
+	//githubAccount = "groovy-sky"
+	//var githubAccount = flag.String("u", "", "GitHub's account name")
+	flag.StringVar(&githubAccount, "u", "", "GitHub's account name")
+	fmt.Println(githubAccount)
+	repos := GetPublicRepos(githubAccount)
+	routinesNumber = len(repos)
 
 	path, err := os.Getwd()
 	if err != nil {
@@ -300,17 +316,20 @@ func main() {
 	}
 
 	f, err := os.Create(filepath.Join(path, reportFileName))
+	if err != nil {
+		log.Fatalln(err)
+	}
 	defer f.Close()
-	reports := make(chan MdReport, len(repos))
+
+	reports := make(chan MdReport, routinesNumber)
 	// Store and parse public and active repositories
 	for i := range repos {
 		if !*repos[i].Fork && !*repos[i].Disabled && !*repos[i].Archived {
 			go CheckGitMdLinks(repos[i], reports)
-			routinesNumber++
 		}
 	}
 	for routinesNumber > 0 {
-		//generateMdReport(<-reports, os.Stdout)
-		generateMdReport(<-reports, f)
+		generateMdReport(<-reports, os.Stdout)
+		//generateMdReport(<-reports, f)
 	}
 }
