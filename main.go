@@ -89,7 +89,9 @@ func generateMdReport(md MdReport, out *os.File) {
 				t.Execute(out, file)
 				t = template.Must(template.New("links").Parse(linkStruct))
 				for _, link := range *file.LinkList {
-					t.Execute(out, link)
+					if !*link.Succeed {
+						t.Execute(out, link)
+					}
 				}
 			}
 		}
@@ -131,9 +133,9 @@ func checkMdLink(md *MdReport, l, rpath, fpath string) (string, bool) {
 		defer res.Body.Close()
 		if res.StatusCode > 299 {
 			result = ("[ERR] " + url + " response: " + strconv.Itoa(res.StatusCode))
-			ok = true
 		} else {
 			result = ("[INF] " + url + " response: " + strconv.Itoa(res.StatusCode))
+			ok = true
 		}
 	} else {
 		result = ("[ERR] Couldn't reach URL: " + err.Error())
@@ -308,7 +310,7 @@ func main() {
 		}
 	}
 	for routinesNumber > 0 {
-		generateMdReport(<-reports, os.Stdout)
-		//generateMdReport(<-reports, f)
+		//generateMdReport(<-reports, os.Stdout)
+		generateMdReport(<-reports, f)
 	}
 }
