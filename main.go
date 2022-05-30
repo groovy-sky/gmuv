@@ -31,7 +31,7 @@ const (
 | Original URL | State |
 | --- | --- |
 `
-	linkStruct = `| "{{.Link}}" | {{.State}} |
+	linkStruct = `| {{.Link}} | {{.State}} |
 `
 )
 
@@ -52,8 +52,9 @@ type Repository struct {
 
 // Checked URL structure
 type MdLink struct {
-	Link  *string
-	State *string
+	Link    *string
+	State   *string
+	Succeed *bool
 }
 
 // Checked MD file matched URL and path to the file
@@ -70,6 +71,7 @@ type MdReport struct {
 	ZipName    *string
 	ZipPath    *string
 	State      *string
+	AllLinksOK *bool
 }
 
 func generateMdReport(md MdReport, out *os.File) {
@@ -82,11 +84,13 @@ func generateMdReport(md MdReport, out *os.File) {
 		for _, file := range *md.MdFileList {
 			t = template.Must(template.New("fileHead").Parse(fileHeadStruct))
 			t.Execute(out, md)
-			t = template.Must(template.New("file").Parse(fileStruct))
-			t.Execute(out, file)
-			t = template.Must(template.New("links").Parse(linkStruct))
-			for _, link := range *file.LinkList {
-				t.Execute(out, link)
+			if !*md.AllLinksOK {
+				t = template.Must(template.New("file").Parse(fileStruct))
+				t.Execute(out, file)
+				t = template.Must(template.New("links").Parse(linkStruct))
+				for _, link := range *file.LinkList {
+					t.Execute(out, link)
+				}
 			}
 		}
 	}
@@ -98,8 +102,9 @@ func getFileExtension(s string) string {
 }
 
 // Tries to validate markdown URL
-func checkMdLink(md *MdReport, l, rpath, fpath string) string {
+func checkMdLink(md *MdReport, l, rpath, fpath string) (string, bool) {
 	var result, url string
+	var ok bool
 	// Delete last elemnt, which is a brace
 	l = l[:len(l)-1]
 	// Delete part containing square brackets and brace, which comes before a link
@@ -126,13 +131,14 @@ func checkMdLink(md *MdReport, l, rpath, fpath string) string {
 		defer res.Body.Close()
 		if res.StatusCode > 299 {
 			result = ("[ERR] " + url + " response: " + strconv.Itoa(res.StatusCode))
+			ok = true
 		} else {
 			result = ("[INF] " + url + " response: " + strconv.Itoa(res.StatusCode))
 		}
 	} else {
 		result = ("[ERR] Couldn't reach URL: " + err.Error())
 	}
-	return result
+	return result, ok
 }
 
 // Searches for *.md files and loads its content from *.zip archive
@@ -169,8 +175,12 @@ func findAndCheckMdFile(md *MdReport, f *zip.File) {
 			matches := regexp.MustCompile(`\[[^\[\]]*?\]\(.*?\)|^\[*?\]\(.*?\)`).FindAll(content, -1)
 			for _, val := range matches {
 				url := string(val)
-				state := checkMdLink(md, url, fileRelativePath, fileFullPath)
-				mdLinkVal := MdLink{&url, &state}
+
+				state, ok := checkMdLink(md, url, fileRelativePath, fileFullPath)
+				if !ok {
+					*md.AllLinksOK = false
+				}
+				mdLinkVal := MdLink{&url, &state, &ok}
 				links = append(links, mdLinkVal)
 			}
 			if len(links) > 0 {
@@ -243,6 +253,8 @@ func CheckGitMdLinks(r *Repository, ch chan MdReport) {
 	defer routinesNumberDecrement()
 	var repoUrl string
 	md := new(MdReport)
+	allLinksDefVal := true
+	md.AllLinksOK = &allLinksDefVal
 	md.Repository = r
 	downloadLink := *r.HTMLURL + "/archive/refs/heads/" + *r.DefaultBranch + ".zip"
 	archiveName := *r.Name + ".zip"
@@ -253,8 +265,11 @@ func CheckGitMdLinks(r *Repository, ch chan MdReport) {
 		checkMdFiles(md)
 	}
 	if md.MdFileList == nil {
-		emptyState := "[INF] No markdown links were found."
-		md.State = &emptyState
+		s := "[INF] No markdown links were found."
+		md.State = &s
+	} else if *md.AllLinksOK {
+		s := "[INF] No inactive/broken links were found."
+		md.State = &s
 	}
 	ch <- *md
 	//generateMdReport(*md, os.Stdout)
@@ -285,17 +300,15 @@ func main() {
 	f, err := os.Create(filepath.Join(path, reportFileName))
 	defer f.Close()
 	reports := make(chan MdReport, len(repos))
-	//CheckGitMdLinks(repos[9])
-	//generateMdReport(<-reports)
 	// Store and parse public and active repositories
 	for i := range repos {
 		if !*repos[i].Fork && !*repos[i].Disabled && !*repos[i].Archived {
 			go CheckGitMdLinks(repos[i], reports)
 			routinesNumber++
-			//CheckGitMdLinks(repos[i])
 		}
 	}
 	for routinesNumber > 0 {
-		generateMdReport(<-reports, f)
+		generateMdReport(<-reports, os.Stdout)
+		//generateMdReport(<-reports, f)
 	}
 }
