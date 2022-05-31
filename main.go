@@ -4,7 +4,6 @@ import (
 	"archive/zip"
 	"encoding/json"
 	"flag"
-	"fmt"
 	"io"
 	"io/ioutil"
 	"log"
@@ -249,6 +248,7 @@ func downloadGitArchive(md *MdReport) error {
 	return nil
 }
 
+// Global counter, used for goroutines count
 func routinesNumberDecrement() {
 	routinesNumber--
 }
@@ -302,24 +302,31 @@ func GetPublicRepos(account string) []*Repository {
 
 func main() {
 	var githubAccount string
-	execPath = "/tmp/github"
-	//githubAccount = "groovy-sky"
-	//var githubAccount = flag.String("u", "", "GitHub's account name")
+	var runOnly bool
+	var output *os.File
+
+	flag.BoolVar(&runOnly, "run-only", false, "Print result to the console")
 	flag.StringVar(&githubAccount, "u", "", "GitHub's account name")
-	fmt.Println(githubAccount)
+	flag.StringVar(&githubAccount, "username", "", "GitHub's account name")
+	flag.Parse()
 	repos := GetPublicRepos(githubAccount)
 	routinesNumber = len(repos)
 
-	path, err := os.Getwd()
-	if err != nil {
-		path = execPath
+	// Choose where to write output - to REPORT.md or console
+	if runOnly {
+		output = os.Stdout
+	} else {
+		path, err := os.Getwd()
+		if err != nil {
+			log.Fatalln(err)
+		}
+		execPath = filepath.Join(path, ".archives")
+		output, err := os.Create(filepath.Join(path, reportFileName))
+		if err != nil {
+			log.Fatalln(err)
+		}
+		defer output.Close()
 	}
-
-	f, err := os.Create(filepath.Join(path, reportFileName))
-	if err != nil {
-		log.Fatalln(err)
-	}
-	defer f.Close()
 
 	reports := make(chan MdReport, routinesNumber)
 	// Store and parse public and active repositories
@@ -329,7 +336,6 @@ func main() {
 		}
 	}
 	for routinesNumber > 0 {
-		generateMdReport(<-reports, os.Stdout)
-		//generateMdReport(<-reports, f)
+		generateMdReport(<-reports, output)
 	}
 }
