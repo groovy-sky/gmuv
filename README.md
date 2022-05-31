@@ -6,8 +6,20 @@
 GMUV(GitHub's Markdown URL Validator) - is open-source CLI tool to search and validate Markdown links in public Github repositories. 
 
 ## Quick start
+
+### Local run
+
+Go (ver. 1.18 and later) and git installed on Linux OS:
 ```
-go run github.com/groovy-sky/gmuv/v2 -u groovy-sky
+go install github.com/groovy-sky/gmuv/v2@latest
+gmuv -u groovy-sky --run-only
+```
+
+### Docker
+```
+docker run -it golang:latest
+go install github.com/groovy-sky/gmuv/v2@latest
+gmuv -u groovy-sky --run-only
 ```
 
 ## Concepts
