@@ -3,31 +3,43 @@
 ![](/img/logo.svg)
 
 ## Overview
-`gmuv` stands for **G**itHub's **M**arkdown **U**RL **V**alidator. `gmuv` is an open-source CLI tool to check and report about broken/failure links in Markdown files(*.md) for public Github repositories under a certain account.
+`gmuv` stands for **G**itHub's **M**arkdown **U**RL **V**alidator. `gmuv` is an open-source CLI tool to check/validate broken/failure links in Markdown files(*.md) for public Github repositories under a certain account.
 
 ## Quick start
 
-### Local run
+### Local installation
 
 Go (requires ver. >= 1.18) and git installed on Linux OS:
 ```
 go install github.com/groovy-sky/gmuv/v2@latest
-gmuv -u groovy-sky --run-only
 ```
 
-### Docker
+### Using Docker image
 
 ```
 docker run -it golang:latest
 go install github.com/groovy-sky/gmuv/v2@latest
-gmuv -u groovy-sky --run-only
 ```
-
-## Concepts
-
 
 ## Commands
 
+To check and validate links under a specific account and generate REPORT.md file:
+```
+gmuv -u groovy-sky
+```
+
+To check and validate links under a specific account and write output to the console:
+```
+gmuv -u groovy-sky --run-only
+```
+
+## ToDo
+
+* Learn how-to and write [tests](https://pkg.go.dev/testing)
+* Publish a docker image to Github registry
+* Choose which one CLI to use ([standard](https://pkg.go.dev/flag), [urfave/cli](https://github.com/urfave/cli), [spf13/cobra](https://github.com/spf13/cobra))
+* Setup workflow for building packages for different platforms (386,amd64 etc.)
+* Improve code quality
 
 ## License
 This project is released under [the BSD-3-Clause license](https://github.com/groovy-sky/gmuc/blob/main/LICENSE).

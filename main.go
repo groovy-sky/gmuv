@@ -311,17 +311,17 @@ func main() {
 	flag.Parse()
 	repos := GetPublicRepos(githubAccount)
 	routinesNumber = len(repos)
+	path, err := os.Getwd()
+	if err != nil {
+		log.Fatalln(err)
+	}
+	execPath = filepath.Join(path, ".archives")
 
 	// Choose where to write output - to REPORT.md or console
 	if runOnly {
 		output = os.Stdout
 	} else {
-		path, err := os.Getwd()
-		if err != nil {
-			log.Fatalln(err)
-		}
-		execPath = filepath.Join(path, ".archives")
-		output, err := os.Create(filepath.Join(path, reportFileName))
+		output, err = os.Create(filepath.Join(path, reportFileName))
 		if err != nil {
 			log.Fatalln(err)
 		}
