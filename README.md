@@ -3,7 +3,7 @@
 ![](/img/logo.svg)
 
 ## Overview
-GMUV(GitHub's Markdown URL Validator) - is open-source CLI tool to search and validate Markdown links in public Github repositories. 
+`gmuv` stands for **G**itHub's **M**arkdown **U**RL **V**alidator. `gmuv` is an open-source CLI tool to check and report about broken/failure links in Markdown files(*.md) for public Github repositories under a certain account.
 
 ## Quick start
 
