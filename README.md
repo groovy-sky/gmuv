@@ -9,13 +9,14 @@ GMUV(GitHub's Markdown URL Validator) - is open-source CLI tool to search and va
 
 ### Local run
 
-Go (ver. 1.18 and later) and git installed on Linux OS:
+Go (requires ver. >= 1.18) and git installed on Linux OS:
 ```
 go install github.com/groovy-sky/gmuv/v2@latest
 gmuv -u groovy-sky --run-only
 ```
 
 ### Docker
+
 ```
 docker run -it golang:latest
 go install github.com/groovy-sky/gmuv/v2@latest
