@@ -301,13 +301,15 @@ func GetPublicRepos(account string) []*Repository {
 }
 
 func main() {
-	var githubAccount string
+	var githubAccount, githubRepo string
 	var runOnly bool
 	var output *os.File
 
 	flag.BoolVar(&runOnly, "run-only", false, "Print result to the console")
 	flag.StringVar(&githubAccount, "u", "", "GitHub's account name")
 	flag.StringVar(&githubAccount, "username", "", "GitHub's account name")
+	flag.StringVar(&githubRepo, "r", "", "GitHub's repository name")
+	flag.StringVar(&githubRepo, "repository", "", "GitHub's repository name")
 	flag.Parse()
 	repos := GetPublicRepos(githubAccount)
 	routinesNumber = len(repos)
@@ -328,14 +330,16 @@ func main() {
 		defer output.Close()
 	}
 
-	reports := make(chan MdReport, routinesNumber)
-	// Store and parse public and active repositories
-	for i := range repos {
-		if !*repos[i].Fork && !*repos[i].Disabled && !*repos[i].Archived {
-			go CheckGitMdLinks(repos[i], reports)
+	if githubRepo == "" {
+		reports := make(chan MdReport, routinesNumber)
+		// Store and parse public and active repositories
+		for i := range repos {
+			if !*repos[i].Fork && !*repos[i].Disabled && !*repos[i].Archived {
+				go CheckGitMdLinks(repos[i], reports)
+			}
 		}
-	}
-	for routinesNumber > 0 {
-		generateMdReport(<-reports, output)
+		for routinesNumber > 0 {
+			generateMdReport(<-reports, output)
+		}
 	}
 }
