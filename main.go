@@ -279,9 +279,15 @@ func CheckGitMdLinks(r *Repository, ch chan MdReport) {
 }
 
 // Return public/not-forked/not-archived repository list
-func GetPublicRepos(account string) []*Repository {
+func GetPublicRepos(account, repo string) []*Repository {
+	var resp *http.Response
+	var err error
 	var allRepos, outRepos []*Repository
-	resp, err := http.Get("https://api.github.com/users/" + account + "/repos?type=owner&per_page=100&type=public")
+	if repo == "" {
+		resp, err = http.Get("https://api.github.com/users/" + account + "/repos?type=owner&per_page=100&type=public")
+	} else {
+		resp, err = http.Get("https://api.github.com/repos/" + account + "/" + repo)
+	}
 	if err != nil {
 		log.Fatalln(err)
 	}
@@ -311,7 +317,7 @@ func main() {
 	flag.StringVar(&githubRepo, "r", "", "GitHub's repository name")
 	flag.StringVar(&githubRepo, "repository", "", "GitHub's repository name")
 	flag.Parse()
-	repos := GetPublicRepos(githubAccount)
+	repos := GetPublicRepos(githubAccount, githubRepo)
 	routinesNumber = len(repos)
 	path, err := os.Getwd()
 	if err != nil {
@@ -330,16 +336,14 @@ func main() {
 		defer output.Close()
 	}
 
-	if githubRepo == "" {
-		reports := make(chan MdReport, routinesNumber)
-		// Store and parse public and active repositories
-		for i := range repos {
-			if !*repos[i].Fork && !*repos[i].Disabled && !*repos[i].Archived {
-				go CheckGitMdLinks(repos[i], reports)
-			}
+	reports := make(chan MdReport, routinesNumber)
+	// Store and parse public and active repositories
+	for i := range repos {
+		if !*repos[i].Fork && !*repos[i].Disabled && !*repos[i].Archived {
+			go CheckGitMdLinks(repos[i], reports)
 		}
-		for routinesNumber > 0 {
-			generateMdReport(<-reports, output)
-		}
+	}
+	for routinesNumber > 0 {
+		generateMdReport(<-reports, output)
 	}
 }
