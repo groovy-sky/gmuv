@@ -45,7 +45,6 @@ jobs:
           mkdir ${{ env.OUTPUT_DIR }}
           OUTPUT_PATH="${{ env.OUTPUT_DIR }}/${{ env.PKG_NAME }}_${{ env.PKG_VER }}_${{ matrix.goos }}_${{ matrix.goarch }}" make build
           ls "${{ env.OUTPUT_DIR }}"
-          zip -r ${{ env.OUTPUT_DIR }}/${{ env.PKG_NAME }}_${{ env.PKG_VER }}_${{ matrix.goos }}_${{ matrix.goarch }}.zip ${{ env.OUTPUT_DIR }}
 
       - name: Upload result
         uses: actions/upload-artifact@v3
