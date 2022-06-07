@@ -70,4 +70,4 @@ jobs:
           ls .
           assets=()
           for f in *; do assets+=" -a ${f}"; done
-          hub release create "${assets[@]}"
+          hub release create "${assets[@]}" "latest"
