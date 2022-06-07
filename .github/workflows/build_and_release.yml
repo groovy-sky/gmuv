@@ -36,7 +36,7 @@ jobs:
         if: contains('${{ github.ref }}', '/')
         run: echo PKG_VER="latest" >> $GITHUB_ENV
 
-      - name: Build and zip
+      - name: Build 
         env:
           GOOS: ${{ matrix.goos }}
           GOARCH: ${{ matrix.goarch }}
@@ -44,13 +44,6 @@ jobs:
         run: |
           mkdir ${{ env.OUTPUT_DIR }}
           OUTPUT_PATH="${{ env.OUTPUT_DIR }}/${{ env.PKG_NAME }}_${{ env.PKG_VER }}_${{ matrix.goos }}_${{ matrix.goarch }}" make build
-          ls "${{ env.OUTPUT_DIR }}"
-
-      - name: Upload result
-        uses: actions/upload-artifact@v3
-        with:
-          name: ${{ env.PKG_NAME }}_${{ env.PKG_VER }}.zip
-          path: ${{ env.OUTPUT_DIR }}/
 
       - name: Create release
         if: github.event_name != 'pull_request'
