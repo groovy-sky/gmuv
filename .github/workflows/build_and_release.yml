@@ -70,4 +70,4 @@ jobs:
           ls .
           assets=()
           for f in *; do assets+=" -a ${f}"; done
-          hub release create "${assets[@]}" -m "${{ env.PKG_VER }}"
+          hub release create "${assets[@]}"
