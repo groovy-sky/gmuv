@@ -49,5 +49,5 @@ jobs:
       - name: Upload result
         uses: actions/upload-artifact@v3
         with:
-          name: ${{ env.PKG_NAME }}_${{ env.PKG_VER }}_${{ matrix.goos }}_${{ matrix.goarch }}.zip
-          path: ${{ env.OUTPUT_DIR }}/${{ env.PKG_NAME }}_${{ env.PKG_VER }}_${{ matrix.goos }}_${{ matrix.goarch }}.zip
+          name: ${{ env.PKG_NAME }}_${{ env.PKG_VER }}
+          path: ${{ env.OUTPUT_DIR }}/
