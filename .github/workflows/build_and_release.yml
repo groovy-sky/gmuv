@@ -51,3 +51,10 @@ jobs:
         with:
           name: ${{ env.PKG_NAME }}_${{ env.PKG_VER }}.zip
           path: ${{ env.OUTPUT_DIR }}/
+
+      - name: Create release
+        if: github.event_name != 'pull_request'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          hub release create -a ${{ env.OUTPUT_DIR }}/ -m "${{ env.PKG_VER }}" --draft "${{ env.PKG_VER }}"
