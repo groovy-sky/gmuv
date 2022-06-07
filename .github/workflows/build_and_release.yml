@@ -9,7 +9,6 @@ on:
 env:
   PKG_NAME: "gmuv"
   PKG_VER:  ${{ github.ref }}
-  ARCH_NAME: "artifact.zip"
   OUTPUT_DIR: out
 
 jobs:
@@ -49,7 +48,7 @@ jobs:
       - name: Upload result
         uses: actions/upload-artifact@v3
         with:
-          name: ${{ env.ARCH_NAME }}
+          name: ${{ env.PKG_NAME }}
           path: ${{ env.OUTPUT_DIR }}/
 
   create-release:
@@ -61,7 +60,7 @@ jobs:
       - name: Download artifacts
         uses: actions/download-artifact@v3
         with:
-          name: ${{ env.ARCH_NAME }}
+          name: ${{ env.PKG_NAME }}
 
       - name: Create release
         if: github.event_name != 'pull_request'
@@ -70,5 +69,5 @@ jobs:
         run: |
           ls .
           assets=()
-          for f in "${{ env.OUTPUT_DIR }}"/*; do [ -f "$f" ] && assets+=(-a "$f"); done
+          for f in ./*; do [ -f "$f" ] && assets+=(-a "$f"); done
           hub release create "${assets[@]}" -m "${{ env.PKG_VER }}"
