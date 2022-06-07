@@ -8,6 +8,7 @@ on:
 
 env:
   PKG_NAME: "gmuv"
+  PKG_VER:  ${{ github.ref }}
   OUTPUT_DIR: out
 
 jobs:
@@ -31,6 +32,10 @@ jobs:
         with:
           go-version: ${{ matrix.go }}
 
+      - name: Rewrite package's version if it contains a slash
+        if: contains('${{ github.ref }}', '/')
+        run: echo PKG_VER="latest" >> $GITHUB_ENV
+
       - name: Build
         env:
           GOOS: ${{ matrix.goos }}
@@ -39,8 +44,9 @@ jobs:
         run: |
           mkdir ${{ env.OUTPUT_DIR }}
           OUTPUT_DIR="${{ env.OUTPUT_DIR }}" make build
-          zip -r ${{ env.OUTPUT_DIR }}/${{ env.PKG_NAME }}_${{ github.ref }}_${{ matrix.goos }}_${{ matrix.goarch }}.zip ${{ env.OUTPUT_DIR }}
+          zip -r ${{ env.OUTPUT_DIR }}/${{ env.PKG_NAME }}_${{ env.PKG_VER }}_${{ matrix.goos }}_${{ matrix.goarch }}.zip ${{ env.OUTPUT_DIR }}
+
       - uses: actions/upload-artifact@v3
         with:
-          name: ${{ env.OUTPUT_DIR }}_${{ github.ref }}_${{ matrix.goos }}_${{ matrix.goarch }}.zip
-          path: ${{ env.OUTPUT_DIR }}/${{ env.PKG_NAME }}_${{ github.ref }}_${{ matrix.goos }}_${{ matrix.goarch }}.zip
+          name: ${{ env.OUTPUT_DIR }}_${{ env.PKG_VER }}_${{ matrix.goos }}_${{ matrix.goarch }}.zip
+          path: ${{ env.OUTPUT_DIR }}/${{ env.PKG_NAME }}_${{ env.PKG_VER }}_${{ matrix.goos }}_${{ matrix.goarch }}.zip
