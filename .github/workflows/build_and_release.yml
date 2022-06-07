@@ -60,4 +60,4 @@ jobs:
           ls ${{ env.OUTPUT_DIR }}
           assets=()
           for f in "${{ env.OUTPUT_DIR }}"/*; do [ -f "$f" ] && assets+=(-a "$f"); done
-          hub release create "${assets[@]}" -m "${{ env.PKG_VER }}" "${{ env.PKG_VER }}"
+          hub release create "${assets[@]}" -m "${{ env.PKG_VER }}"
