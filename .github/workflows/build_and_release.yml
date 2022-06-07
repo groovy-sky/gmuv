@@ -37,10 +37,10 @@ jobs:
           GOARCH: ${{ matrix.goarch }}
           CGO_ENABLED: 0
         run: |
-          mkdir dist ${{ env.PKG_NAME }}
-          GO_TAGS="${{ env.GO_TAGS }}" make build
-          zip -r -j ${{ env.PKG_NAME }}/${{ env.PKG_NAME }}_${{ github.ref }}_${{ matrix.goos }}_${{ matrix.goarch }}.zip dist/
+          mkdir dist ${{ env.OUTPUT_DIR }}
+          GO_TAGS="${{ env.GO_TAGS }}" OUTPUT_DIR="${{ env.OUTPUT_DIR }}" make build
+          zip -r -j ${{ env.OUTPUT_DIR }}/${{ env.PKG_NAME }}_${{ github.ref }}_${{ matrix.goos }}_${{ matrix.goarch }}.zip dist/
       - uses: actions/upload-artifact@v3
         with:
-          name: ${{ env.PKG_NAME }}_${{ github.ref }}_${{ matrix.goos }}_${{ matrix.goarch }}.zip
-          path: ${{ env.PKG_NAME }}/${{ env.PKG_NAME }}_${{ github.ref }}_${{ matrix.goos }}_${{ matrix.goarch }}.zip
+          name: ${{ env.OUTPUT_DIR }}_${{ github.ref }}_${{ matrix.goos }}_${{ matrix.goarch }}.zip
+          path: ${{ env.OUTPUT_DIR }}/${{ env.PKG_NAME }}_${{ github.ref }}_${{ matrix.goos }}_${{ matrix.goarch }}.zip
