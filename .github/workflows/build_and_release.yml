@@ -38,7 +38,7 @@ jobs:
           CGO_ENABLED: 0
         run: |
           mkdir dist ${{ env.OUTPUT_DIR }}
-          GO_TAGS="${{ env.GO_TAGS }}" OUTPUT_DIR="${{ env.OUTPUT_DIR }}" make build
+          OUTPUT_DIR="${{ env.OUTPUT_DIR }}" make build
           zip -r -j ${{ env.OUTPUT_DIR }}/${{ env.PKG_NAME }}_${{ github.ref }}_${{ matrix.goos }}_${{ matrix.goarch }}.zip dist/
       - uses: actions/upload-artifact@v3
         with:
