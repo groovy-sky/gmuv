@@ -52,8 +52,11 @@ jobs:
           name: ${{ env.ARCH_NAME }}
           path: ${{ env.OUTPUT_DIR }}/
 
-  deploy-release:
+  create-release:
+    needs:
+      - build-linux
     runs-on: ubuntu-latest
+    steps:
 
       - name: Download artifacts
         uses: actions/download-artifact@v3
