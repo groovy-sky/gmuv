@@ -43,7 +43,7 @@ jobs:
           CGO_ENABLED: 0
         run: |
           mkdir ${{ env.OUTPUT_DIR }}
-          OUTPUT_DIR="${{ env.OUTPUT_DIR }}" make build
+          OUTPUT_PATH="${{ env.OUTPUT_DIR }}/${{ env.PKG_NAME }}_${{ env.PKG_VER }}_${{ matrix.goos }}_${{ matrix.goarch }}" make build
           ls "${{ env.OUTPUT_DIR }}"
           zip -r ${{ env.OUTPUT_DIR }}/${{ env.PKG_NAME }}_${{ env.PKG_VER }}_${{ matrix.goos }}_${{ matrix.goarch }}.zip ${{ env.OUTPUT_DIR }}
 
