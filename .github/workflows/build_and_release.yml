@@ -45,6 +45,16 @@ jobs:
           mkdir ${{ env.OUTPUT_DIR }}
           OUTPUT_PATH="${{ env.OUTPUT_DIR }}/${{ env.PKG_NAME }}_${{ env.PKG_VER }}_${{ matrix.goos }}_${{ matrix.goarch }}" make build
 
+      - name: Upload result
+        uses: actions/upload-artifact@v3
+        with:
+          path: ${{ env.OUTPUT_DIR }}/
+
+      - name: Download artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: ${{ env.OUTPUT_DIR }}
+
       - name: Create release
         if: github.event_name != 'pull_request'
         env:
