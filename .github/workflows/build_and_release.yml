@@ -36,7 +36,7 @@ jobs:
         if: contains('${{ github.ref }}', '/')
         run: echo PKG_VER="latest" >> $GITHUB_ENV
 
-      - name: Build
+      - name: Build and zip
         env:
           GOOS: ${{ matrix.goos }}
           GOARCH: ${{ matrix.goarch }}
@@ -46,7 +46,8 @@ jobs:
           OUTPUT_DIR="${{ env.OUTPUT_DIR }}" make build
           zip -r ${{ env.OUTPUT_DIR }}/${{ env.PKG_NAME }}_${{ env.PKG_VER }}_${{ matrix.goos }}_${{ matrix.goarch }}.zip ${{ env.OUTPUT_DIR }}
 
-      - uses: actions/upload-artifact@v3
+      - name: Upload result
+        uses: actions/upload-artifact@v3
         with:
-          name: ${{ env.OUTPUT_DIR }}_${{ env.PKG_VER }}_${{ matrix.goos }}_${{ matrix.goarch }}.zip
+          name: ${{ env.PKG_NAME }}_${{ env.PKG_VER }}_${{ matrix.goos }}_${{ matrix.goarch }}.zip
           path: ${{ env.OUTPUT_DIR }}/${{ env.PKG_NAME }}_${{ env.PKG_VER }}_${{ matrix.goos }}_${{ matrix.goarch }}.zip
