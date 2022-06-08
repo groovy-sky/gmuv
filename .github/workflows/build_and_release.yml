@@ -42,6 +42,7 @@ jobs:
           GOARCH: ${{ matrix.goarch }}
           CGO_ENABLED: 0
         run: |
+          ls
           mkdir ${{ env.OUTPUT_DIR }}
           OUTPUT_PATH="${{ env.OUTPUT_DIR }}/${{ env.PKG_NAME }}_${{ env.PKG_VER }}_${{ matrix.goos }}_${{ matrix.goarch }}" make build
 
@@ -67,7 +68,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          ls .
           assets=()
           for f in *; do assets+=" -a ${f}"; done
           hub release create "${assets[@]}" "latest"
