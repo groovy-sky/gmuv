@@ -67,6 +67,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          tag="${{ env.PKG_VER }}"
           assets=()
           for f in *; do assets+=" -a ${f}"; done
-          hub release create -m "${{ env.PKG_VER }}" "${assets[@]}" "${{ env.PKG_VER }}"
+          hub release create -m "${tag}" "${assets[@]}" "${tag}"
