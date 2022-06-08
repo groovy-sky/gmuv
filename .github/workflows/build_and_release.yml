@@ -66,8 +66,8 @@ jobs:
         if: github.event_name != 'pull_request'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
+        run: >
           tag="${{ env.PKG_VER }}"
-          assets=()
-          for f in *; do assets+=" -a ${f} "; done
-          hub release create -m "create new release with ${tag} tag" "${assets[@]}" "${tag}"
+          hub release create
+          "${assets[@]}"
+          -m "${tag}" --draft "${tag}"
