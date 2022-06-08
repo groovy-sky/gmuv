@@ -45,7 +45,7 @@ jobs:
       - name: Upload result
         uses: actions/upload-artifact@v3
         with:
-          name: ${{ env.PKG_NAME }}
+          name: ${{ env.PKG_NAME }}.zip
           path: ${{ env.OUTPUT_DIR }}/
 
   create-release:
@@ -57,22 +57,16 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Create artifacts folder
-        run: mkdir ${{ env.OUTPUT_DIR }}
-
       - name: Download artifacts
         uses: actions/download-artifact@v3
         with:
-          name: ${{ env.PKG_NAME }}
-          path: ${{ env.OUTPUT_DIR }}
+          name: ${{ env.PKG_NAME }}.zip
 
       - name: Create release
         if: github.event_name != 'pull_request'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          release="${{ env.PKG_NAME }}.zip"
           tag="${{ env.PKG_VER }}"
-          assets=()
-          cd ${{ env.OUTPUT_DIR }}
-          for f in *; do assets+="-a ${f} "; done
-          hub release create -m \"${tag}\" "${assets[@]}\"${tag}\""
+          hub release create -a "${release}" -m "${tag}" 
