@@ -8,7 +8,7 @@ on:
 
 env:
   PKG_NAME: "gmuv"
-  PKG_VER:  $GITHUB_REF_NAME
+  PKG_VER:  "${GITHUB_REF##*/}"
   OUTPUT_DIR: out
 
 jobs:
