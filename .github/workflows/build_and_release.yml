@@ -12,7 +12,7 @@ on:
 
 env:
   PKG_NAME: "gmuv"
-  PKG_VER:  ${{ github.ref }}
+  PKG_VER:  ${{ GITHUB_REF_NAME }}
   OUTPUT_DIR: out
 
 jobs:
