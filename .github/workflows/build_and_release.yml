@@ -2,13 +2,9 @@ name: Build and release
 
 on:
   push:
-    tags: ["v*"]
-    paths-ignore:
-      - '**/*.md'
+    branches: [ "main" ]
   pull_request:
-    branches: [main]
-    paths-ignore:
-      - '**/*.md'
+    branches: [ "main" ]
 
 env:
   PKG_NAME: "gmuv"
