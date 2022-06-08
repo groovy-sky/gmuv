@@ -1,10 +1,14 @@
-name: Go
+name: Build and release
 
 on:
   push:
-    branches: [ "main" ]
+    tags: ["v*"]
+    paths-ignore:
+      - '**/*.md'
   pull_request:
-    branches: [ "main" ]
+    branches: [main]
+    paths-ignore:
+      - '**/*.md'
 
 env:
   PKG_NAME: "gmuv"
@@ -31,10 +35,6 @@ jobs:
         uses: actions/setup-go@v3
         with:
           go-version: ${{ matrix.go }}
-
-      - name: Rewrite package's version if it contains a slash
-        if: contains('${{ github.ref }}', '/')
-        run: echo PKG_VER="latest" >> $GITHUB_ENV
 
       - name: Build 
         env:
@@ -74,4 +74,4 @@ jobs:
         run: |
           assets=()
           for f in *; do assets+=" -a ${f}"; done
-          hub release create -m "${{ env.PKG_VER }}" "${assets[@]}" "latest"
+          hub release create -m "${{ env.PKG_VER }}" "${assets[@]}" "${{ env.PKG_VER }}"
