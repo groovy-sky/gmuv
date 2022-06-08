@@ -38,7 +38,7 @@ jobs:
           GOARCH: ${{ matrix.goarch }}
           CGO_ENABLED: 0
         run: |
-          echo ${{ env.PKG_NAME }}
+          echo ${{ env.PKG_VER }}
           mkdir ${{ env.OUTPUT_DIR }}
           OUTPUT_PATH="${{ env.OUTPUT_DIR }}/${{ env.PKG_NAME }}_${{ env.PKG_VER }}_${{ matrix.goos }}_${{ matrix.goarch }}" make build
 
