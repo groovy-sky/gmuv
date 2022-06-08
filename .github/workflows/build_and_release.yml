@@ -75,4 +75,4 @@ jobs:
           assets=()
           cd ${{ env.OUTPUT_DIR }}
           for f in *; do assets+="-a ${f} "; done
-          hub release create -m "create new release with ${tag} tag ${assets[@]}${tag}"
+          hub release create -m \"${tag}\" "${assets[@]}\"${tag}\""
