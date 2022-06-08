@@ -57,10 +57,14 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Create artifacts folder
+        run: mdkir ${{ env.OUTPUT_DIR }}
+
       - name: Download artifacts
         uses: actions/download-artifact@v3
         with:
           name: ${{ env.PKG_NAME }}
+          path: ${{ env.OUTPUT_DIR }}
 
       - name: Create release
         if: github.event_name != 'pull_request'
@@ -69,6 +73,7 @@ jobs:
         run: |
           tag="${{ env.PKG_VER }}"
           assets=()
+          cd ${{ env.OUTPUT_DIR }}
           for f in *; do assets+="-a ${f} "; done
           echo $(hub release create -m "create new release with ${tag} tag" "${assets[@]}" "${tag}")
           hub release create -m "create new release with ${tag} tag" "${assets[@]}${tag}"
