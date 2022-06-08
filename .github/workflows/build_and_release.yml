@@ -69,5 +69,5 @@ jobs:
         run: |
           tag="${{ env.PKG_VER }}"
           assets=()
-          for f in *; do assets+="-a ${f}"; done
+          for f in *; do assets+=" -a ${f} "; done
           hub release create -m "create new release with ${tag} tag" "${assets[@]}" "${tag}"
