@@ -65,7 +65,7 @@ jobs:
 
       - name: Zip release files
         run: |
-          ls
+          ls ${{ env.PKG_NAME }}
           zip -m ${{ env.PKG_NAME }}.zip ${{ env.PKG_NAME }}
           ls
 
