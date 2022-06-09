@@ -70,4 +70,4 @@ jobs:
         run: |
           release="${{ env.PKG_NAME }}.zip"
           tag="${{ env.PKG_VER }}"
-          hub release create -a "${release}" -m "${tag}" "${tag}"
+          hub release create -a "${GITHUB_WORKSPACE}/${{ env.PKG_NAME }}.zip" -m "${tag}" "${tag}"
