@@ -65,7 +65,7 @@ jobs:
 
       - name: Archive release files
         run: |
-          zip -jrm ${{ env.PKG_NAME }}.zip ${{ env.PKG_NAME }}
+          zip -jrm ${{ env.PKG_NAME }}.zip ${{ env.PKG_NAME }}/
 
       - name: Create release
         if: github.event_name != 'pull_request'
