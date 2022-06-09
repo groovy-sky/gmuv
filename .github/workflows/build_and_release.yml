@@ -61,7 +61,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: ${{ env.PKG_NAME }}.zip
-          path: ${{ env.GITHUB_WORKSPACE }}/${{ env.PKG_NAME }}.zip
+          path: ${{ github.workspace }}/${{ env.PKG_NAME }}.zip
 
       - name: Create release
         if: github.event_name != 'pull_request'
@@ -69,6 +69,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           ls
-          release="${{ env.GITHUB_WORKSPACE }}/${{ env.PKG_NAME }}.zip"
+          release="${{ github.workspace }}/${{ env.PKG_NAME }}.zip"
           tag="${{ env.PKG_VER }}"
           hub release create -a "${release}" -m "${tag}" "${tag}"
