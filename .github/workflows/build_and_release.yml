@@ -63,6 +63,12 @@ jobs:
           name: ${{ env.PKG_NAME }}
           path: ${{ github.workspace }}/${{ env.PKG_NAME }}
 
+      - name: Zip release files
+        run: |
+          ls
+          zip -m ${{ env.PKG_NAME }}.zip ${{ env.PKG_NAME }}
+          ls
+
       - name: Create release
         if: github.event_name != 'pull_request'
         env:
@@ -70,6 +76,5 @@ jobs:
         run: |
           ls
           release=${{ env.PKG_NAME }}.zip
-          zip -m ${release} ${{ env.PKG_NAME }}
           tag="${{ env.PKG_VER }}"
           hub release create -a "${release}" -m "${tag}" "${tag}"
