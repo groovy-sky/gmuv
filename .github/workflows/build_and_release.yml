@@ -63,18 +63,15 @@ jobs:
           name: ${{ env.PKG_NAME }}
           path: ${{ github.workspace }}/${{ env.PKG_NAME }}
 
-      - name: Zip release files
+      - name: Archive release files
         run: |
-          ls ${{ env.PKG_NAME }}
-          zip -rm ${{ env.PKG_NAME }}.zip ${{ env.PKG_NAME }}
-          ls
+          zip -jrm ${{ env.PKG_NAME }}.zip ${{ env.PKG_NAME }}
 
       - name: Create release
         if: github.event_name != 'pull_request'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          ls
           release=${{ env.PKG_NAME }}.zip
           tag="${{ env.PKG_VER }}"
           hub release create -a "${release}" -m "${tag}" "${tag}"
