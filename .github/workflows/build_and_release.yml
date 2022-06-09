@@ -69,6 +69,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           ls
-          release=${{ env.PKG_NAME }}
+          release=${{ env.PKG_NAME }}.zip
+          zip -m ${release} ${{ env.PKG_NAME }}
           tag="${{ env.PKG_VER }}"
           hub release create -a "${release}" -m "${tag}" "${tag}"
