@@ -1,10 +1,14 @@
-name: Build and release
+name: Build and release gmuv
 
 on:
   push:
-    branches: [ "main" ]
+    tags: ["v*"]
+    paths-ignore:
+      - '**/*.md'
   pull_request:
-    branches: [ "main" ]
+    branches: [main]
+    paths-ignore:
+      - '**/*.md'
 
 env:
   PKG_NAME: "gmuv"
