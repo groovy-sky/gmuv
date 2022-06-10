@@ -1,20 +1,18 @@
 
-## [azure-func-grpc](https://github.com/groovy-sky/azure-func-grpc) - [INF] No markdown links were found.
-## [azure-letsencrypt-func](https://github.com/groovy-sky/azure-letsencrypt-func) - [INF] No markdown links were found.
-## [dotfiles](https://github.com/groovy-sky/dotfiles) - [INF] No markdown links were found.
-## [tower-examples](https://github.com/groovy-sky/tower-examples) - [INF] No markdown links were found.
-## [docker-arm-api](https://github.com/groovy-sky/docker-arm-api) - [INF] No markdown links were found.
-## [oauth2](https://github.com/groovy-sky/oauth2) - [INF] No markdown links were found.
-## [azure-func-go-handler](https://github.com/groovy-sky/azure-func-go-handler) - [INF] No inactive/broken links were found.
-## [docker-devops-agent](https://github.com/groovy-sky/docker-devops-agent) - [INF] No inactive/broken links were found.
-## [azure-office-ip](https://github.com/groovy-sky/azure-office-ip) - [INF] No inactive/broken links were found.
-## [self-k8s](https://github.com/groovy-sky/self-k8s) - [INF] No markdown links were found.
-## [what-is-my-ip](https://github.com/groovy-sky/what-is-my-ip) - [INF] No inactive/broken links were found.
-## [private-endpoint-with-on-prem](https://github.com/groovy-sky/private-endpoint-with-on-prem) - [INF] No inactive/broken links were found.
-## [docker](https://github.com/groovy-sky/docker) - [INF] No inactive/broken links were found.
-## [iaac-demo](https://github.com/groovy-sky/iaac-demo) - [INF] No inactive/broken links were found.
-## [groovy-sky](https://github.com/groovy-sky/groovy-sky) - [INF] No inactive/broken links were found.
-## [self-registry](https://github.com/groovy-sky/self-registry) - [INF] No inactive/broken links were found.
-## [azure-ip-ranges](https://github.com/groovy-sky/azure-ip-ranges) - [INF] No inactive/broken links were found.
-## [azure-ip-dynamic-list](https://github.com/groovy-sky/azure-ip-dynamic-list) - [INF] No inactive/broken links were found.
-## [public-images](https://github.com/groovy-sky/public-images) - [INF] No markdown links were found.
+## [aaa](https://github.com/groovy-sky/aaa)
+* https://github.com/groovy-sky/aaa/blob/master/REPORT.md
+
+| Original URL | State |
+| --- | --- |
+
+* https://github.com/groovy-sky/aaa/blob/master/child1/child1_README.MD
+
+| Original URL | State |
+| --- | --- |
+
+* https://github.com/groovy-sky/aaa/blob/master/links.md
+
+| Original URL | State |
+| --- | --- |
+| [Broken link](https://github.com/groovy-sky/aaa/blob/master/READme.mD2) | [ERR] https://github.com/groovy-sky/aaa/blob/master/READme.mD2 response: 404 |
+| [non-exsisting link](https://non-exsisting-domain.none/test_q) | [ERR] Couldn't reach URL: Get "https://non-exsisting-domain.none/test_q": dial tcp: lookup non-exsisting-domain.none: no such host |

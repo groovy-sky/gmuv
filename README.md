@@ -40,6 +40,7 @@ gmuv -u groovy-sky --run-only
 * Choose which one CLI to use ([standard](https://pkg.go.dev/flag), [urfave/cli](https://github.com/urfave/cli), [spf13/cobra](https://github.com/spf13/cobra))
 * Setup workflow for building packages for different platforms (386,amd64 etc.)
 * Improve code quality
+* Learn how-to use [Codecov](https://app.codecov.io/gh/groovy-sky/gmuv)
 
 ## License
 This project is released under [the BSD-3-Clause license](https://github.com/groovy-sky/gmuc/blob/main/LICENSE).
