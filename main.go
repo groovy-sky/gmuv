@@ -3,7 +3,6 @@ package main
 import (
 	"archive/zip"
 	"encoding/json"
-	"flag"
 	"io"
 	"io/ioutil"
 	"log"
@@ -15,6 +14,8 @@ import (
 	"strconv"
 	"strings"
 	"text/template"
+
+	"github.com/urfave/cli/v2"
 )
 
 var execPath, githubAccount string
@@ -319,34 +320,63 @@ func GetPublicRepos(account, repo string) []*Repository {
 }
 
 func main() {
-	var githubAccount, githubRepo string
-	var runOnly bool
+	var githubAccount, githubRepo, resultOutput string
 	var output *os.File
 
-	flag.BoolVar(&runOnly, "run-only", false, "Print result to the console")
-	flag.StringVar(&githubAccount, "u", "", "GitHub's account name")
-	flag.StringVar(&githubAccount, "username", "", "GitHub's account name")
-	flag.StringVar(&githubRepo, "r", "", "GitHub's repository name")
-	flag.StringVar(&githubRepo, "repository", "", "GitHub's repository name")
-	flag.Parse()
-	repos := GetPublicRepos(githubAccount, githubRepo)
-	routinesNumber = len(repos)
+	app := &cli.App{
+		Name:                 "gmuv",
+		Usage:                "CLI tool to validate Markdown URLs",
+		EnableBashCompletion: true,
+		Flags: []cli.Flag{
+			&cli.StringFlag{
+				Name:        "username",
+				Aliases:     []string{"u"},
+				Value:       "",
+				Usage:       "GitHub's account name",
+				Destination: &githubAccount,
+				Required:    true,
+			},
+			&cli.StringFlag{
+				Name:        "repository",
+				Aliases:     []string{"r"},
+				Value:       "",
+				Usage:       "GitHub's repository name",
+				Destination: &githubRepo,
+			},
+			&cli.StringFlag{
+				Name:        "output",
+				Aliases:     []string{"o"},
+				Value:       "file",
+				Usage:       "Result's output",
+				Destination: &resultOutput,
+			},
+		},
+	}
+
+	err := app.Run(os.Args)
+	if err != nil {
+		log.Fatal(err)
+	}
+
 	path, err := os.Getwd()
 	if err != nil {
 		log.Fatalln(err)
 	}
 	execPath = filepath.Join(path, ".archives")
 
-	// Choose where to write output - to file or console
-	if runOnly {
+	switch resultOutput {
+	case "cli":
 		output = os.Stdout
-	} else {
+	case "file":
 		output, err = os.Create(filepath.Join(path, reportFileName))
 		if err != nil {
 			log.Fatalln(err)
 		}
 		defer output.Close()
 	}
+
+	repos := GetPublicRepos(githubAccount, githubRepo)
+	routinesNumber = len(repos)
 
 	reports := make(chan MdReport, routinesNumber)
 	// Store and parse public and active repositories
@@ -358,4 +388,5 @@ func main() {
 	for routinesNumber > 0 {
 		generateMdReport(<-reports, output)
 	}
+
 }
