@@ -3,6 +3,7 @@ package main
 import (
 	"archive/zip"
 	"encoding/json"
+	"fmt"
 	"io"
 	"io/ioutil"
 	"log"
@@ -18,12 +19,11 @@ import (
 	"github.com/urfave/cli/v2"
 )
 
-var execPath, githubAccount string
+var execPath string
 var routinesNumber int
 
 const (
-	reportFileName = "REPORT.md"
-	repoStruct     = `
+	repoStruct = `
 ## [{{.Repository.Name}}]({{.Repository.HTMLURL}})`
 	repoErrStruct  = ` - {{.State}}`
 	fileHeadStruct = `
@@ -76,6 +76,7 @@ type MdReport struct {
 	AllLinksOK *bool
 }
 
+// Writes results in markdown format
 func generateMdReport(md MdReport, out *os.File) {
 	t := template.Must(template.New("repo").Parse(repoStruct))
 	t.Execute(out, md)
@@ -254,6 +255,7 @@ func routinesNumberDecrement() {
 	routinesNumber--
 }
 
+// Downloads github as ZIP archive; extracts and checks *.md files in it
 func CheckGitMdLinks(r *Repository, ch chan MdReport) {
 	defer routinesNumberDecrement()
 	var repoUrl string
@@ -279,60 +281,69 @@ func CheckGitMdLinks(r *Repository, ch chan MdReport) {
 	ch <- *md
 }
 
-// Return public/not-forked/not-archived repository list
+// Returns public/not-forked/not-archived repository list
 func GetPublicRepos(account, repo string) []*Repository {
 	var resp *http.Response
 	var err error
 	var allRepos, outRepos []*Repository
 	var singleRepo *Repository
 
-	if repo == "" {
+	switch repo {
+	case "":
 		resp, err = http.Get("https://api.github.com/users/" + account + "/repos?type=owner&per_page=100&type=public")
-	} else {
-		resp, err = http.Get("https://api.github.com/repos/" + account + "/" + repo)
-	}
-	if err != nil {
-		log.Fatalln(err)
-	}
-	defer resp.Body.Close()
-
-	if repo == "" {
-		// Parse JSON
+		if err != nil {
+			log.Fatalln(err)
+		}
+		defer resp.Body.Close()
 		if err := json.NewDecoder(resp.Body).Decode(&allRepos); err != nil {
 			log.Fatalln(err)
 		}
-
 		// Store only active and not forked repos
 		for i := range allRepos {
 			if !*allRepos[i].Fork && !*allRepos[i].Disabled && !*allRepos[i].Archived {
 				outRepos = append(outRepos, allRepos[i])
 			}
 		}
-	} else {
-		// Parse JSON
+
+	default:
+		resp, err = http.Get("https://api.github.com/repos/" + account + "/" + repo)
+		if err != nil {
+			log.Fatalln(err)
+		}
+		fmt.Print()
+		defer resp.Body.Close()
 		if err := json.NewDecoder(resp.Body).Decode(&singleRepo); err != nil {
 			log.Fatalln(err)
 		}
 		// Store response to output
-		outRepos = append(outRepos, singleRepo)
+		if resp.StatusCode == 200 {
+			outRepos = append(outRepos, singleRepo)
+		}
+
 	}
 	return outRepos
+
 }
 
-func main() {
-	var githubAccount, githubRepo, resultOutput string
+// Parses CLI input and starts repository check in parallel (using goroutines)
+// if no specific repo was defined
+func RunCLI() {
+	var githubAccount, githubRepo, resultOutput, reportFileName string
 	var output *os.File
 
 	app := &cli.App{
 		Name:                 "gmuv",
 		Usage:                "CLI tool to validate Markdown URLs",
 		EnableBashCompletion: true,
+		Action: func(c *cli.Context) error {
+			return nil
+		},
 		Flags: []cli.Flag{
 			&cli.StringFlag{
 				Name:        "username",
 				Aliases:     []string{"u"},
 				Value:       "",
-				Usage:       "GitHub's account name",
+				Usage:       "GitHub account name",
 				Destination: &githubAccount,
 				Required:    true,
 			},
@@ -340,15 +351,22 @@ func main() {
 				Name:        "repository",
 				Aliases:     []string{"r"},
 				Value:       "",
-				Usage:       "GitHub's repository name",
+				Usage:       "GitHub repository name",
 				Destination: &githubRepo,
 			},
 			&cli.StringFlag{
 				Name:        "output",
 				Aliases:     []string{"o"},
 				Value:       "file",
-				Usage:       "Result's output",
+				Usage:       "Output format: cli or file",
 				Destination: &resultOutput,
+			},
+			&cli.StringFlag{
+				Name:        "filename",
+				Aliases:     []string{"f"},
+				Value:       "REPORT.md",
+				Usage:       "Results filename",
+				Destination: &reportFileName,
 			},
 		},
 	}
@@ -356,6 +374,12 @@ func main() {
 	err := app.Run(os.Args)
 	if err != nil {
 		log.Fatal(err)
+	}
+
+	// Do not continue if no Github account is specified
+	if githubAccount == "" {
+		fmt.Println("[INF] Please specify account name")
+		return
 	}
 
 	path, err := os.Getwd()
@@ -378,15 +402,23 @@ func main() {
 	repos := GetPublicRepos(githubAccount, githubRepo)
 	routinesNumber = len(repos)
 
+	if routinesNumber == 0 {
+		fmt.Println("[INF] No active and not forked repository were found")
+		return
+	}
+
 	reports := make(chan MdReport, routinesNumber)
 	// Store and parse public and active repositories
 	for i := range repos {
-		if !*repos[i].Fork && !*repos[i].Disabled && !*repos[i].Archived {
-			go CheckGitMdLinks(repos[i], reports)
-		}
+		go CheckGitMdLinks(repos[i], reports)
 	}
+	// Prints results from reports channel
 	for routinesNumber > 0 {
 		generateMdReport(<-reports, output)
 	}
 
+}
+
+func main() {
+	RunCLI()
 }
