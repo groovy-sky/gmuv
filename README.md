@@ -23,24 +23,27 @@ go install github.com/groovy-sky/gmuv/v2@latest
 
 ## Commands
 
-To check and validate links under a specific account and generate REPORT.md file:
+To see available options run following command:
 ```
-gmuv -u groovy-sky
+gmuv -h
 ```
 
 To check and validate links under a specific account and write output to the console:
 ```
-gmuv -u groovy-sky --run-only
+gmuv -u groovy-sky -o cli
 ```
 
 ## ToDo
 
 * Learn how-to and write [tests](https://pkg.go.dev/testing)
 * Publish a docker image to Github registry
-* Choose which one CLI to use ([standard](https://pkg.go.dev/flag), [urfave/cli](https://github.com/urfave/cli), [spf13/cobra](https://github.com/spf13/cobra))
-* Setup workflow for building packages for different platforms (386,amd64 etc.)
 * Improve code quality
 * Learn how-to use [Codecov](https://app.codecov.io/gh/groovy-sky/gmuv)
+
+~~* Choose which one CLI to use ([standard](https://pkg.go.dev/flag), [urfave/cli](https://github.com/urfave/cli), [spf13/cobra](https://github.com/spf13/cobra))~~
+
+~~* Setup workflow for building packages for different platforms (386,amd64 etc.)~~
+
 
 ## License
 This project is released under [the BSD-3-Clause license](https://github.com/groovy-sky/gmuc/blob/main/LICENSE).

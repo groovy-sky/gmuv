@@ -33,7 +33,7 @@ const (
 | Original URL | State |
 | --- | --- |
 `
-	linkStruct = `| {{.Link}} | {{.State}} |
+	linkStruct = `| \{{.Link}} | {{.State}} |
 `
 )
 
@@ -403,7 +403,6 @@ func RunCLI() {
 	routinesNumber = len(repos)
 
 	if routinesNumber == 0 {
-		fmt.Println("[INF] No active and not forked repository were found")
 		return
 	}
 
