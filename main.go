@@ -23,17 +23,21 @@ var execPath string
 var routinesNumber int
 
 const (
-	repoStruct = `
+	repoMdStruct = `
+## [{{.Repository.Name}}]({{.Repository.HTMLURL}})`
+	repoCliStruct = `
 ## [{{.Repository.Name}}]({{.Repository.HTMLURL}})`
 	repoErrStruct  = ` - {{.State}}`
 	fileHeadStruct = `
 * {{.Repository.HTMLURL}}/blob/{{.Repository.DefaultBranch}}/`
 	fileStruct = `{{.Path}}
 
-| Original URL | State |
+| URL | State |
 | --- | --- |
 `
-	linkStruct = `| \{{.Link}} | {{.State}} |
+	linkMdStruct = `| \{{.Link}} | {{.State}} |
+`
+	linkCliStruct = `| {{.Link}} | {{.State}} |
 `
 )
 
@@ -76,8 +80,17 @@ type MdReport struct {
 	AllLinksOK *bool
 }
 
-// Writes results in markdown format
-func generateMdReport(md MdReport, out *os.File) {
+// Writes results in specified format
+func generateReport(md MdReport, out *os.File) {
+	var linkStruct, repoStruct string
+	outInfo, _ := out.Stat()
+	if outInfo.Name() != "stdout" && getFileExtension(outInfo.Name()) == "md" {
+		linkStruct = linkMdStruct
+		repoStruct = repoMdStruct
+	} else {
+		linkStruct = linkCliStruct
+		repoStruct = repoCliStruct
+	}
 	t := template.Must(template.New("repo").Parse(repoStruct))
 	t.Execute(out, md)
 	if md.State != nil {
@@ -102,6 +115,7 @@ func generateMdReport(md MdReport, out *os.File) {
 }
 
 func getFileExtension(s string) string {
+	s = strings.ToLower(s)
 	ext := strings.Split(s, ".")
 	return ext[len(ext)-1]
 }
@@ -119,7 +133,7 @@ func checkMdLink(md *MdReport, l, rpath, fpath string) (string, bool) {
 	// Check if a domain name is resolvable and filename extension != md -> add http protocol
 	// else -> add relative path to it
 	if fqdn, _, _ := strings.Cut(l, "/"); !strings.Contains(l, ":") && url == "" {
-		if _, err := net.LookupIP(fqdn); err == nil && strings.ToLower(getFileExtension(l)) != "md" {
+		if _, err := net.LookupIP(fqdn); err == nil && getFileExtension(l) != "md" {
 			url = "http://" + l
 		} else {
 			// Check if link starts / -> absolute path is used
@@ -184,9 +198,9 @@ func findAndCheckMdFile(md *MdReport, f *zip.File) {
 				state, ok := checkMdLink(md, url, fileRelativePath, fileFullPath)
 				if !ok {
 					*md.AllLinksOK = false
+					mdLinkVal := MdLink{&url, &state, &ok}
+					links = append(links, mdLinkVal)
 				}
-				mdLinkVal := MdLink{&url, &state, &ok}
-				links = append(links, mdLinkVal)
 			}
 			if len(links) > 0 {
 				if md.MdFileList == nil {
@@ -310,7 +324,6 @@ func GetPublicRepos(account, repo string) []*Repository {
 		if err != nil {
 			log.Fatalln(err)
 		}
-		fmt.Print()
 		defer resp.Body.Close()
 		if err := json.NewDecoder(resp.Body).Decode(&singleRepo); err != nil {
 			log.Fatalln(err)
@@ -413,7 +426,7 @@ func RunCLI() {
 	}
 	// Prints results from reports channel
 	for routinesNumber > 0 {
-		generateMdReport(<-reports, output)
+		generateReport(<-reports, output)
 	}
 
 }
