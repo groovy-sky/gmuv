@@ -3,7 +3,6 @@ package main
 import (
 	"archive/zip"
 	"encoding/json"
-	"fmt"
 	"io"
 	"io/ioutil"
 	"log"
@@ -52,6 +51,7 @@ type Repository struct {
 	CloneURL      *string `json:"clone_url,omitempty"`
 	HTMLURL       *string `json:"html_url,omitempty"`
 	DefaultBranch *string `json:"default_branch,omitempty"`
+	Size          *int    `json:"size,omitempty"`
 	// Custom fields
 	WebUrl *string // for relative paths check
 }
@@ -217,7 +217,6 @@ func findAndCheckMdFile(md *MdReport, f *zip.File) {
 
 // Reads files from *.zip archive and filters *.md. At the end deletes folder with downloaded archive
 func checkMdFiles(md *MdReport) {
-
 	reader, err := zip.OpenReader(filepath.Join(*md.ZipPath, *md.ZipName))
 	if err != nil {
 		*md.State = ("[ERR] Couldn't open archive " + *md.ZipName + ".\n\t" + err.Error())
@@ -312,9 +311,9 @@ func GetPublicRepos(account, repo string) []*Repository {
 		if err := json.NewDecoder(resp.Body).Decode(&allRepos); err != nil {
 			log.Fatalln(err)
 		}
-		// Store only active and not forked repos
+		// Store only active, not forked and not empty repos
 		for i := range allRepos {
-			if !*allRepos[i].Fork && !*allRepos[i].Disabled && !*allRepos[i].Archived {
+			if !*allRepos[i].Fork && !*allRepos[i].Disabled && !*allRepos[i].Archived && *allRepos[i].Size > 0 {
 				outRepos = append(outRepos, allRepos[i])
 			}
 		}
@@ -391,7 +390,6 @@ func RunCLI() {
 
 	// Do not continue if no Github account is specified
 	if githubAccount == "" {
-		fmt.Println("[INF] Please specify account name")
 		return
 	}
 
@@ -416,6 +414,7 @@ func RunCLI() {
 	routinesNumber = len(repos)
 
 	if routinesNumber == 0 {
+		output.Write([]byte("[INF] No repositories were found\n"))
 		return
 	}
 
