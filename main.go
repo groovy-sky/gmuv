@@ -272,10 +272,7 @@ func downloadGitArchive(md *MdReport) error {
 	defer out.Close()
 
 	resp, err := http.Get(*md.ZipUrl)
-	// Retry to download archive if rate limit exceeded
-	if resp.StatusCode == 429 {
-		resp, err = getUrlWithDelay(*md.ZipUrl)
-	}
+
 	if err != nil {
 		*md.State = ("[ERR] Couldn't download " + *md.ZipUrl + " file.\n\t" + err.Error())
 		return err
@@ -307,7 +304,13 @@ func CheckGitMdLinks(r *Repository, ch chan MdReport, routeNumber int) {
 	downloadPath := filepath.Join(execPath, *r.Name)
 	repoUrl = (*r.HTMLURL + "/blob/" + *r.DefaultBranch)
 	md.ZipUrl, md.ZipName, md.ZipPath, md.Repository.WebUrl = &downloadLink, &archiveName, &downloadPath, &repoUrl
+	if routeNumber >= 70 {
+		time.Sleep(60 * time.Second)
+	}
 	if downloadGitArchive(md) == nil {
+		if routeNumber < 70 {
+			time.Sleep(60 * time.Second)
+		}
 		checkMdFiles(md)
 	}
 	if md.MdFileList == nil {
@@ -320,7 +323,7 @@ func CheckGitMdLinks(r *Repository, ch chan MdReport, routeNumber int) {
 	ch <- *md
 }
 
-// Returns public/not-forked/not-archived repository list
+// Returns public/not-forked/not-archived/not-empty repository list
 func GetPublicRepos(account, repo string) []*Repository {
 	var resp *http.Response
 	var err error
