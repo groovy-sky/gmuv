@@ -3,6 +3,7 @@ package main
 import (
 	"archive/zip"
 	"encoding/json"
+	"fmt"
 	"io"
 	"io/ioutil"
 	"log"
@@ -14,6 +15,7 @@ import (
 	"strconv"
 	"strings"
 	"text/template"
+	"time"
 
 	"github.com/urfave/cli/v2"
 )
@@ -120,6 +122,17 @@ func getFileExtension(s string) string {
 	return ext[len(ext)-1]
 }
 
+func getUrlWithDelay(url string) (*http.Response, error) {
+	time.Sleep(60 * time.Second)
+	res, err := http.Get(url)
+	defer res.Body.Close()
+	if res.StatusCode == 429 {
+		return getUrlWithDelay(url)
+	}
+	return res, err
+
+}
+
 // Tries to validate markdown URL
 func checkMdLink(md *MdReport, l, rpath, fpath string) (string, bool) {
 	var result, url string
@@ -145,10 +158,19 @@ func checkMdLink(md *MdReport, l, rpath, fpath string) (string, bool) {
 			}
 		}
 	}
+	// Checks if link is e-mail address
+	if strings.HasPrefix(l, "mailto:") {
+		result = ("[INF] " + url + " is not URL")
+		ok = true
+		return result, true
+	}
 	res, err := http.Get(url)
 	if err == nil {
+		if res.StatusCode == 429 {
+			res, _ = getUrlWithDelay(url)
+		}
 		defer res.Body.Close()
-		if res.StatusCode > 299 {
+		if res.StatusCode >= 400 {
 			result = ("[ERR] " + url + " response: " + strconv.Itoa(res.StatusCode))
 		} else {
 			result = ("[INF] " + url + " response: " + strconv.Itoa(res.StatusCode))
@@ -194,7 +216,6 @@ func findAndCheckMdFile(md *MdReport, f *zip.File) {
 			matches := regexp.MustCompile(`\[[^\[\]]*?\]\(.*?\)|^\[*?\]\(.*?\)`).FindAll(content, -1)
 			for _, val := range matches {
 				url := string(val)
-
 				state, ok := checkMdLink(md, url, fileRelativePath, fileFullPath)
 				if !ok {
 					*md.AllLinksOK = false
@@ -218,6 +239,7 @@ func findAndCheckMdFile(md *MdReport, f *zip.File) {
 // Reads files from *.zip archive and filters *.md. At the end deletes folder with downloaded archive
 func checkMdFiles(md *MdReport) {
 	reader, err := zip.OpenReader(filepath.Join(*md.ZipPath, *md.ZipName))
+	fmt.Println(*md.ZipName)
 	if err != nil {
 		*md.State = ("[ERR] Couldn't open archive " + *md.ZipName + ".\n\t" + err.Error())
 		return
@@ -250,6 +272,10 @@ func downloadGitArchive(md *MdReport) error {
 	defer out.Close()
 
 	resp, err := http.Get(*md.ZipUrl)
+	// Retry to download archive if rate limit exceeded
+	if resp.StatusCode == 429 {
+		resp, err = getUrlWithDelay(*md.ZipUrl)
+	}
 	if err != nil {
 		*md.State = ("[ERR] Couldn't download " + *md.ZipUrl + " file.\n\t" + err.Error())
 		return err
@@ -269,7 +295,7 @@ func routinesNumberDecrement() {
 }
 
 // Downloads github as ZIP archive; extracts and checks *.md files in it
-func CheckGitMdLinks(r *Repository, ch chan MdReport) {
+func CheckGitMdLinks(r *Repository, ch chan MdReport, routeNumber int) {
 	defer routinesNumberDecrement()
 	var repoUrl string
 	md := new(MdReport)
@@ -421,7 +447,7 @@ func RunCLI() {
 	reports := make(chan MdReport, routinesNumber)
 	// Store and parse public and active repositories
 	for i := range repos {
-		go CheckGitMdLinks(repos[i], reports)
+		go CheckGitMdLinks(repos[i], reports, i)
 	}
 	// Prints results from reports channel
 	for routinesNumber > 0 {
