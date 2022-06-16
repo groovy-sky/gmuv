@@ -14,6 +14,7 @@ import (
 	"regexp"
 	"strconv"
 	"strings"
+	"sync"
 	"text/template"
 	"time"
 
@@ -21,7 +22,6 @@ import (
 )
 
 var execPath string
-var routinesNumber int
 
 const (
 	repoMdStruct = `
@@ -238,8 +238,8 @@ func findAndCheckMdFile(md *MdReport, f *zip.File) {
 
 // Reads files from *.zip archive and filters *.md. At the end deletes folder with downloaded archive
 func checkMdFiles(md *MdReport) {
-	reader, err := zip.OpenReader(filepath.Join(*md.ZipPath, *md.ZipName))
 	fmt.Println(*md.ZipName)
+	reader, err := zip.OpenReader(filepath.Join(*md.ZipPath, *md.ZipName))
 	if err != nil {
 		*md.State = ("[ERR] Couldn't open archive " + *md.ZipName + ".\n\t" + err.Error())
 		return
@@ -286,14 +286,8 @@ func downloadGitArchive(md *MdReport) error {
 	return nil
 }
 
-// Global counter, used for goroutines count
-func routinesNumberDecrement() {
-	routinesNumber--
-}
-
 // Downloads github as ZIP archive; extracts and checks *.md files in it
-func CheckGitMdLinks(r *Repository, ch chan MdReport, routeNumber int) {
-	defer routinesNumberDecrement()
+func CheckGitMdLinks(r *Repository, ch chan MdReport, routeNumber int, wg sync.WaitGroup) {
 	var repoUrl string
 	md := new(MdReport)
 	allLinksDefVal := true
@@ -304,13 +298,10 @@ func CheckGitMdLinks(r *Repository, ch chan MdReport, routeNumber int) {
 	downloadPath := filepath.Join(execPath, *r.Name)
 	repoUrl = (*r.HTMLURL + "/blob/" + *r.DefaultBranch)
 	md.ZipUrl, md.ZipName, md.ZipPath, md.Repository.WebUrl = &downloadLink, &archiveName, &downloadPath, &repoUrl
-	if routeNumber >= 70 {
-		time.Sleep(60 * time.Second)
-	}
-	if downloadGitArchive(md) == nil {
-		if routeNumber < 70 {
-			time.Sleep(60 * time.Second)
-		}
+	err := downloadGitArchive(md)
+	wg.Done()
+	if err == nil {
+		wg.Wait()
 		checkMdFiles(md)
 	}
 	if md.MdFileList == nil {
@@ -371,6 +362,7 @@ func GetPublicRepos(account, repo string) []*Repository {
 func RunCLI() {
 	var githubAccount, githubRepo, resultOutput, reportFileName string
 	var output *os.File
+	var wg sync.WaitGroup
 
 	app := &cli.App{
 		Name:                 "gmuv",
@@ -440,23 +432,22 @@ func RunCLI() {
 	}
 
 	repos := GetPublicRepos(githubAccount, githubRepo)
-	routinesNumber = len(repos)
+	reposNumber := len(repos)
 
-	if routinesNumber == 0 {
+	if reposNumber == 0 {
 		output.Write([]byte("[INF] No repositories were found\n"))
 		return
 	}
 
-	reports := make(chan MdReport, routinesNumber)
+	reports := make(chan MdReport, reposNumber)
 	// Store and parse public and active repositories
 	for i := range repos {
-		go CheckGitMdLinks(repos[i], reports, i)
+		wg.Add(1)
+		go CheckGitMdLinks(repos[i], reports, i, wg)
+		fmt.Printf("%d: %s\n", i, *repos[i].HTMLURL)
 	}
 	// Prints results from reports channel
-	for routinesNumber > 0 {
-		generateReport(<-reports, output)
-	}
-
+	generateReport(<-reports, output)
 }
 
 func main() {
