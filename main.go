@@ -22,6 +22,7 @@ import (
 )
 
 var execPath string
+var routinesNumber int
 
 const (
 	repoMdStruct = `
@@ -122,8 +123,13 @@ func getFileExtension(s string) string {
 	return ext[len(ext)-1]
 }
 
+// Global counter, used for goroutines count
+func routinesNumberDecrement() {
+	routinesNumber--
+}
+
 func getUrlWithDelay(url string) (*http.Response, error) {
-	time.Sleep(60 * time.Second)
+	time.Sleep(5 * time.Second)
 	res, err := http.Get(url)
 	defer res.Body.Close()
 	if res.StatusCode == 429 {
@@ -301,7 +307,6 @@ func CheckGitMdLinks(r *Repository, ch chan MdReport, routeNumber int, wg sync.W
 	err := downloadGitArchive(md)
 	wg.Done()
 	if err == nil {
-		wg.Wait()
 		checkMdFiles(md)
 	}
 	if md.MdFileList == nil {
@@ -311,6 +316,7 @@ func CheckGitMdLinks(r *Repository, ch chan MdReport, routeNumber int, wg sync.W
 		s := "[INF] No inactive/broken links were found."
 		md.State = &s
 	}
+	fmt.Printf("%s done\n", repoUrl)
 	ch <- *md
 }
 
@@ -446,8 +452,13 @@ func RunCLI() {
 		go CheckGitMdLinks(repos[i], reports, i, wg)
 		fmt.Printf("%d: %s\n", i, *repos[i].HTMLURL)
 	}
+	wg.Wait()
+	routinesNumber = len(repos)
+	fmt.Println("Git repos downloaded")
 	// Prints results from reports channel
-	generateReport(<-reports, output)
+	for routinesNumber > 0 {
+		generateReport(<-reports, output)
+	}
 }
 
 func main() {
