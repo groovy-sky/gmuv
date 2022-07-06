@@ -3,7 +3,6 @@ package main
 import (
 	"archive/zip"
 	"encoding/json"
-	"fmt"
 	"io"
 	"io/ioutil"
 	"log"
@@ -21,8 +20,9 @@ import (
 	"github.com/urfave/cli/v2"
 )
 
-var execPath string
-var routinesNumber int
+var (
+	execPath string
+)
 
 const (
 	repoMdStruct = `
@@ -83,8 +83,13 @@ type MdReport struct {
 	AllLinksOK *bool
 }
 
+type MdReportList struct {
+	Mu      sync.Mutex
+	Reports []*MdReport
+}
+
 // Writes results in specified format
-func generateReport(md MdReport, out *os.File) {
+func generateReport(md *MdReport, out *os.File) {
 	var linkStruct, repoStruct string
 	outInfo, _ := out.Stat()
 	if outInfo.Name() != "stdout" && getFileExtension(outInfo.Name()) == "md" {
@@ -121,11 +126,6 @@ func getFileExtension(s string) string {
 	s = strings.ToLower(s)
 	ext := strings.Split(s, ".")
 	return ext[len(ext)-1]
-}
-
-// Global counter, used for goroutines count
-func routinesNumberDecrement() {
-	routinesNumber--
 }
 
 func getUrlWithDelay(url string) (*http.Response, error) {
@@ -243,8 +243,8 @@ func findAndCheckMdFile(md *MdReport, f *zip.File) {
 }
 
 // Reads files from *.zip archive and filters *.md. At the end deletes folder with downloaded archive
-func checkMdFiles(md *MdReport) {
-	fmt.Println(*md.ZipName)
+func checkMdFiles(md *MdReport, Mu *sync.Mutex, out *os.File) {
+	//defer os.RemoveAll(*md.ZipPath)
 	reader, err := zip.OpenReader(filepath.Join(*md.ZipPath, *md.ZipName))
 	if err != nil {
 		*md.State = ("[ERR] Couldn't open archive " + *md.ZipName + ".\n\t" + err.Error())
@@ -255,10 +255,16 @@ func checkMdFiles(md *MdReport) {
 	for _, f := range reader.File {
 		findAndCheckMdFile(md, f)
 	}
-	if err := os.RemoveAll(*md.ZipPath); err != nil {
-		*md.State = ("[ERR] Couldn't cleanup " + *md.ZipName + ".\n\t" + err.Error())
-		return
+	if md.MdFileList == nil {
+		s := "[INF] No markdown links were found."
+		md.State = &s
+	} else if *md.AllLinksOK {
+		s := "[INF] No inactive/broken links were found."
+		md.State = &s
 	}
+	Mu.Lock()
+	defer Mu.Unlock()
+	generateReport(md, out)
 }
 
 // Downloads and stores Github repository as zip archive
@@ -292,32 +298,10 @@ func downloadGitArchive(md *MdReport) error {
 	return nil
 }
 
-// Downloads github as ZIP archive; extracts and checks *.md files in it
-func CheckGitMdLinks(r *Repository, ch chan MdReport, routeNumber int, wg sync.WaitGroup) {
-	var repoUrl string
-	md := new(MdReport)
-	allLinksDefVal := true
-	md.AllLinksOK = &allLinksDefVal
-	md.Repository = r
-	downloadLink := *r.HTMLURL + "/archive/refs/heads/" + *r.DefaultBranch + ".zip"
-	archiveName := *r.Name + ".zip"
-	downloadPath := filepath.Join(execPath, *r.Name)
-	repoUrl = (*r.HTMLURL + "/blob/" + *r.DefaultBranch)
-	md.ZipUrl, md.ZipName, md.ZipPath, md.Repository.WebUrl = &downloadLink, &archiveName, &downloadPath, &repoUrl
-	err := downloadGitArchive(md)
-	wg.Done()
-	if err == nil {
-		checkMdFiles(md)
-	}
-	if md.MdFileList == nil {
-		s := "[INF] No markdown links were found."
-		md.State = &s
-	} else if *md.AllLinksOK {
-		s := "[INF] No inactive/broken links were found."
-		md.State = &s
-	}
-	fmt.Printf("%s done\n", repoUrl)
-	ch <- *md
+func (l *MdReportList) Append(report MdReport) {
+	l.Mu.Lock()
+	defer l.Mu.Unlock()
+	l.Reports = append(l.Reports, &report)
 }
 
 // Returns public/not-forked/not-archived/not-empty repository list
@@ -366,6 +350,7 @@ func GetPublicRepos(account, repo string) []*Repository {
 // Parses CLI input and starts repository check in parallel (using goroutines)
 // if no specific repo was defined
 func RunCLI() {
+	var mdList MdReportList
 	var githubAccount, githubRepo, resultOutput, reportFileName string
 	var output *os.File
 	var wg sync.WaitGroup
@@ -445,20 +430,48 @@ func RunCLI() {
 		return
 	}
 
-	reports := make(chan MdReport, reposNumber)
+	report := make([]*MdReport, reposNumber)
+	mdList.Reports = report
+
 	// Store and parse public and active repositories
-	for i := range repos {
+	for _, repo := range repos {
 		wg.Add(1)
-		go CheckGitMdLinks(repos[i], reports, i, wg)
-		fmt.Printf("%d: %s\n", i, *repos[i].HTMLURL)
+		go func(r *Repository) {
+			defer wg.Done()
+			var repoUrl string
+			md := new(MdReport)
+			allLinksDefVal := true
+			md.AllLinksOK = &allLinksDefVal
+			md.Repository = r
+			downloadLink := *r.HTMLURL + "/archive/refs/heads/" + *r.DefaultBranch + ".zip"
+			archiveName := *r.Name + ".zip"
+			downloadPath := filepath.Join(execPath, *r.Name)
+			repoUrl = (*r.HTMLURL + "/blob/" + *r.DefaultBranch)
+			md.ZipUrl, md.ZipName, md.ZipPath, md.Repository.WebUrl = &downloadLink, &archiveName, &downloadPath, &repoUrl
+			err := downloadGitArchive(md)
+			if err != nil {
+				state := (*md.State + " [ERR] Couldn't download " + ": \n\t" + err.Error())
+				md.State = &state
+			}
+			mdList.Append(*md)
+		}(repo)
 	}
 	wg.Wait()
-	routinesNumber = len(repos)
-	fmt.Println("Git repos downloaded")
-	// Prints results from reports channel
-	for routinesNumber > 0 {
-		generateReport(<-reports, output)
+
+	mux := &mdList.Mu
+
+	for _, md := range mdList.Reports {
+		if md != nil {
+			wg.Add(1)
+			go func(m *MdReport) {
+				defer wg.Done()
+				checkMdFiles(m, mux, output)
+			}(md)
+		}
+
 	}
+	wg.Wait()
+
 }
 
 func main() {
