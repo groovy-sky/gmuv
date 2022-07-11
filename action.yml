@@ -3,8 +3,8 @@ name: 'GMUV Action'
 author: 'groovy-sky'
 description: "GitHub's Markdown URL Validator"
 branding:
-  icon: 'sliders'
-  color: '7db46cff'
+  icon: 'check-square'
+  color: '#7db46cff'
 inputs:
   account:
     description: "Github's account name"
@@ -18,3 +18,7 @@ outputs:
 runs:
   using: 'docker'
   image: 'Dockerfile'
+  entrypoint: 'action.sh'
+  args:
+    - ${{ inputs.account }}
+    - ${{ inputs.repository }}
