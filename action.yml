@@ -4,7 +4,7 @@ author: 'groovy-sky'
 description: "GitHub's Markdown URL Validator"
 branding:
   icon: 'check-square'
-  color: '#7db46cff'
+  color: 'green'
 inputs:
   account:
     description: "Github's account name"
