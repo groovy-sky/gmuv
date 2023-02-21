@@ -3,6 +3,7 @@ package main
 import (
 	"archive/zip"
 	"encoding/json"
+	"fmt"
 	"io"
 	"io/ioutil"
 	"log"
@@ -11,7 +12,6 @@ import (
 	"os"
 	"path/filepath"
 	"regexp"
-	"strconv"
 	"strings"
 	"sync"
 	"text/template"
@@ -37,7 +37,7 @@ const (
 | URL | State |
 | --- | --- |
 `
-	linkMdStruct = `| \{{.Link}} | {{.State}} |
+	linkMdStruct = `| {{.Link}} | {{.State}} |
 `
 	linkCliStruct = `| {{.Link}} | {{.State}} |
 `
@@ -62,7 +62,7 @@ type Repository struct {
 // Checked URL structure
 type MdLink struct {
 	Link    *string
-	State   *string
+	State   *int
 	Succeed *bool
 }
 
@@ -128,21 +128,31 @@ func getFileExtension(s string) string {
 	return ext[len(ext)-1]
 }
 
-func getUrlWithDelay(url string) (*http.Response, error) {
-	time.Sleep(5 * time.Second)
-	res, err := http.Get(url)
-	defer res.Body.Close()
-	if res.StatusCode == 429 {
-		return getUrlWithDelay(url)
+func checkUrl(url string, delay uint) (response *http.Response, ok bool) {
+	time.Sleep(time.Duration(delay) * time.Second)
+	response, err := http.Get(url)
+	if err != nil {
+		return response, ok
 	}
-	return res, err
+	defer response.Body.Close()
+	switch response.StatusCode {
+	case 429:
+		response, _ = checkUrl(url, 10)
+		fallthrough
+	case 301, 403:
+		fmt.Println(url)
+		fallthrough
+	case 200:
+		ok = true
+	}
+	return response, ok
 
 }
 
 // Tries to validate markdown URL
-func checkMdLink(md *MdReport, l, rpath, fpath string) (string, bool) {
-	var result, url string
-	var ok bool
+func checkMdLink(md *MdReport, l, rpath, fpath string) (result int, ok bool) {
+	var r *http.Response
+	var url string
 	// Delete last elemnt, which is a brace
 	l = l[:len(l)-1]
 	// Delete part containing square brackets and brace, which comes before a link
@@ -164,27 +174,18 @@ func checkMdLink(md *MdReport, l, rpath, fpath string) (string, bool) {
 			}
 		}
 	}
-	// Checks if link is e-mail address
+	// Test URL if link is not an e-mail address
 	if strings.HasPrefix(l, "mailto:") {
-		result = ("[INF] " + url + " is not URL")
 		ok = true
-		return result, true
-	}
-	res, err := http.Get(url)
-	if err == nil {
-		if res.StatusCode == 429 {
-			res, _ = getUrlWithDelay(url)
-		}
-		defer res.Body.Close()
-		if res.StatusCode >= 400 {
-			result = ("[ERR] " + url + " response: " + strconv.Itoa(res.StatusCode))
-		} else {
-			result = ("[INF] " + url + " response: " + strconv.Itoa(res.StatusCode))
-			ok = true
-		}
 	} else {
-		result = ("[ERR] Couldn't reach URL: " + err.Error())
+		r, ok = checkUrl(url, 0)
 	}
+
+	// Store HTTP response if there is one
+	if r != nil {
+		result = r.StatusCode
+	}
+
 	return result, ok
 }
 
