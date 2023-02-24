@@ -3,7 +3,6 @@ package main
 import (
 	"archive/zip"
 	"encoding/json"
-	"fmt"
 	"io"
 	"io/ioutil"
 	"log"
@@ -15,8 +14,8 @@ import (
 	"strings"
 	"sync"
 	"text/template"
-	"time"
 
+	"github.com/imroc/req/v3"
 	"github.com/urfave/cli/v2"
 )
 
@@ -128,20 +127,13 @@ func getFileExtension(s string) string {
 	return ext[len(ext)-1]
 }
 
-func checkUrl(url string, delay uint) (response *http.Response, ok bool) {
-	time.Sleep(time.Duration(delay) * time.Second)
-	response, err := http.Get(url)
+func checkUrl(url string, web *req.Client) (response *req.Response, ok bool) {
+	response, err := web.R().Get(url)
 	if err != nil {
 		return response, ok
 	}
 	defer response.Body.Close()
 	switch response.StatusCode {
-	case 429:
-		response, _ = checkUrl(url, 10)
-		fallthrough
-	case 301, 403:
-		fmt.Println(url)
-		fallthrough
 	case 200:
 		ok = true
 	}
@@ -151,7 +143,8 @@ func checkUrl(url string, delay uint) (response *http.Response, ok bool) {
 
 // Tries to validate markdown URL
 func checkMdLink(md *MdReport, l, rpath, fpath string) (result int, ok bool) {
-	var r *http.Response
+	var webclient = req.C()
+	var r *req.Response
 	var url string
 	// Delete last elemnt, which is a brace
 	l = l[:len(l)-1]
@@ -178,14 +171,13 @@ func checkMdLink(md *MdReport, l, rpath, fpath string) (result int, ok bool) {
 	if strings.HasPrefix(l, "mailto:") {
 		ok = true
 	} else {
-		r, ok = checkUrl(url, 0)
+		r, ok = checkUrl(url, webclient)
 	}
 
 	// Store HTTP response if there is one
-	if r != nil {
+	if r != nil && r.Err == nil {
 		result = r.StatusCode
 	}
-
 	return result, ok
 }
 
