@@ -18,7 +18,7 @@ outputs:
 runs:
   using: 'docker'
   image: 'Dockerfile'
-  entrypoint: 'action.sh'
+  entrypoint: 'entrypoint.sh'
   args:
     - ${{ inputs.account }}
     - ${{ inputs.repository }}

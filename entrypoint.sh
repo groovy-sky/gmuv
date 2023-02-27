@@ -1,9 +1,6 @@
-#!/bin/bash -eux
+#!/bin/sh
 
 # Exit immediately if a command exits with a non-zero status
 set -e
 
-
-# Check Package Version 
-bash --version
-
+./gmuv -u $1 -r $2 -o cli
