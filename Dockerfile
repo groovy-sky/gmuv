@@ -9,7 +9,7 @@ COPY --from=base /go/bin/gmuv /gmuv
 
 COPY entrypoint.sh /
 
-RUN chmod a+x *.sh && chown nobody:nobody *.sh
+RUN chmod a+x *.sh &&  mkdir -p .archives && chown nobody:nobody / && chown nobody:nobody .archives
 
 USER nobody
 
