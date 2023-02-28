@@ -9,7 +9,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Generate report for a test repo
-        uses: groovy-sky/gmuv@latest # like username/repo-name
+        uses: groovy-sky/gmuv@v1.0.1
         env:
           account: "groovy-sky"
           repository: "aaa"
