@@ -10,5 +10,6 @@ jobs:
 
       - name: Generate report for a test repo
         uses: groovy-sky/gmuv@v1.0.2
-        account: "groovy-sky"
-        repository: "aaa"
+        with:
+          account: "groovy-sky"
+          repository: "aaa"
