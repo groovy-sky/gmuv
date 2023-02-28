@@ -3,10 +3,13 @@ name: Generate a report with gmuv
 on:
   push
 jobs:
-  runs-on: ubuntu-latest
-  steps:
-  - name: Generate report for a test repo
-    uses: groovy-sky/gmuv@latest # like username/repo-name
-    env:
-      account: "groovy-sky"
-      repository: "aaa"
+  build-linux:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Generate report for a test repo
+        uses: groovy-sky/gmuv@latest # like username/repo-name
+        env:
+          account: "groovy-sky"
+          repository: "aaa"
