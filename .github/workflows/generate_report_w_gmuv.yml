@@ -1,0 +1,11 @@
+name: Generate a report with gmuv
+
+on:
+  push
+jobs:
+
+  - name: Generate report for a test repo
+    uses: groovy-sky/gmuv@latest # like username/repo-name
+    env:
+      account: "groovy-sky"
+      repository: "aaa"
