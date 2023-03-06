@@ -7,7 +7,7 @@ FROM alpine:latest
 COPY --from=base /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
 COPY --from=base /go/bin/gmuv /gmuv
 
-COPY entrypoint.sh /
+COPY entrypoint.sh /entrypoint.sh
 
 RUN chmod a+x *.sh &&  mkdir -p .archives && chown nobody:nobody / && chown nobody:nobody .archives
 
