@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Generate report for a test repo
+      - name: Generate report for a test repository
         uses: groovy-sky/gmuv@v1.0.2
         with:
           account: 'groovy-sky'
