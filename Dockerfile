@@ -9,10 +9,6 @@ COPY --from=base /go/bin/gmuv /gmuv
 
 COPY entrypoint.sh /entrypoint.sh
 
-RUN chmod a+x *.sh &&  mkdir -p .archives && chown nobody:nobody / && chown nobody:nobody .archives
-
-USER nobody
-
 ENTRYPOINT ["./entrypoint.sh"]
 
 LABEL maintainer = "groovy-sky"
