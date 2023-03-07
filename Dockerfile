@@ -9,6 +9,8 @@ COPY --from=base /go/bin/gmuv /gmuv
 
 COPY entrypoint.sh /entrypoint.sh
 
+RUN chmod a+x *.sh
+
 ENTRYPOINT ["./entrypoint.sh"]
 
 LABEL maintainer = "groovy-sky"
