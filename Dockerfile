@@ -9,9 +9,7 @@ COPY --from=base /go/bin/gmuv /gmuv
 
 COPY entrypoint.sh /entrypoint.sh
 
-RUN chmod a+x *.sh
-
-ENTRYPOINT ["./entrypoint.sh"]
+ENTRYPOINT ["/entrypoint.sh"]
 
 LABEL maintainer = "groovy-sky"
 LABEL org.opencontainers.image.source = "https://github.com/groovy-sky/gmuv"
