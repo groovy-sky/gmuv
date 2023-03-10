@@ -9,7 +9,7 @@ COPY --from=base /go/bin/gmuv /gmuv
 
 COPY entrypoint.sh /entrypoint.sh
 
-RUN chmod +x /entrypoint.sh
+RUN chmod +x /entrypoint.sh && chmod +x /gmuv 
 
 ENTRYPOINT ["/entrypoint.sh"]
 
