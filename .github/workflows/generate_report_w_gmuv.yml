@@ -11,12 +11,33 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Generate report for a test repository
+      - name: Generate report for Azure repo
         uses: groovy-sky/gmuv@v1.1.1
         with:
-          account: 'groovy-sky'
-          repository: 'aaa'
-          filename: 'aaa_report.md'
+          account: 'Azure'
+          repository: 'azure-quickstart-templates'
+          filename: 'azure-quickstart-templates.md'
+
+      - name: Generate report for Azure repo
+        uses: groovy-sky/gmuv@v1.1.1
+        with:
+          account: 'Azure'
+          repository: 'Azure-DataFactory'
+          filename: 'Azure-DataFactory.md'
+
+      - name: Generate report for Azure repo
+        uses: groovy-sky/gmuv@v1.1.1
+        with:
+          account: 'Azure'
+          repository: 'autorest'
+          filename: 'autorest.md'
+
+      - name: Generate report for Azure repo
+        uses: groovy-sky/gmuv@v1.1.1
+        with:
+          account: 'Azure'
+          repository: 'AzOps'
+          filename: 'AzOps.md'
 
       - name: Publishing the changes
         run: |
