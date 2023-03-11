@@ -12,6 +12,9 @@ inputs:
   repository:
     description: "Github's repository name"
     required: true
+  filename:
+    description: "Report's filename"
+    required: false
 outputs:
   result:
     description: "Output"

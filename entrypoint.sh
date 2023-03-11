@@ -11,5 +11,9 @@ if [ -z "${INPUT_REPOSITORY}" ]; then
   echo "Repository is empty."
 fi
 
-
-/gmuv -u "${INPUT_ACCOUNT}" -r "${INPUT_REPOSITORY}" -o cli
+if [ -z "${INPUT_FILENAME}" ]
+then
+  /gmuv -u "${INPUT_ACCOUNT}" -r "${INPUT_REPOSITORY}" -o cli
+else
+  /gmuv -u "${INPUT_ACCOUNT}" -r "${INPUT_REPOSITORY}" -o file -f "${INPUT_FILENAME}" 
+fi
