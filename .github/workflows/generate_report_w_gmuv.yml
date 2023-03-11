@@ -5,6 +5,9 @@ on:
 jobs:
   run-gmuv:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - uses: actions/checkout@v3
 
@@ -13,3 +16,6 @@ jobs:
         with:
           account: 'groovy-sky'
           repository: 'aaa'
+
+      - name: Publishing the changes
+        run: ls
