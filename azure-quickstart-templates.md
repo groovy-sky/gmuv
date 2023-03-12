@@ -97,7 +97,6 @@
 
 | URL | State |
 | --- | --- |
-| [here](https://code.visualstudio.com/docs/azure/extensions) | 500 |
 | [Screen](./images/azgroup.png) | 404 |
 | [Screen](./images/azdeploy.png) | 404 |
 | [Screen](./images/azdeploy2.png) | 404 |
@@ -160,12 +159,6 @@
 | [Intel Cloud Edition for Lustre- Software - Eval](https://azure.microsoft.com/marketplace/partners/intel/) | 404 |
 | [stripe_size and stripe_count of the mounted filesystem](https://build.hpdd.intel.com/job/lustre-manual/lastSuccessfulBuild/artifact/lustre_manual.xhtml#idp5145472) | 0 |
 | [Lustre Manual](https://build.hpdd.intel.com/job/lustre-manual/lastSuccessfulBuild/artifact/lustre_manual.xhtml) | 0 |
-
-* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/jupyter/jupyterhub-classroom/GettingStarted.md
-
-| URL | State |
-| --- | --- |
-| [here](https://code.visualstudio.com/docs/azure/extensions) | 500 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/kemp/kemp-loadmaster-ha-pair/README.md
 
@@ -307,7 +300,6 @@
 
 | URL | State |
 | --- | --- |
-| [here](https://code.visualstudio.com/docs/azure/extensions) | 503 |
 | [Screen](./images/azsetsub.png) | 404 |
 | [Screen](./images/azssh.png) | 404 |
 | [Screen](./images/azportal.png) | 404 |
@@ -318,12 +310,6 @@
 | URL | State |
 | --- | --- |
 | [Screen](./Images/azportaldeploy3.png) | 404 |
-
-* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/visualstudio/ubuntu-mate-desktop-vscode/README.md
-
-| URL | State |
-| --- | --- |
-| [Visual Studio Code - Getting Started documents](https://code.visualstudio.com/docs) | 503 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/visualstudio/vm-vsts-agent/README.md
 
@@ -618,6 +604,12 @@
 | [alt text](images/AAAccountSPN.png "SPN creation") | 404 |
 | [alt text](images/step3deploy.png "Deployment in the portal") | 404 |
 | [alt text](images/NewGuid.png "Generate a new GUID in PowerShell") | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/demos/private-aks-cluster-with-public-dns-zone/README.md
+
+| URL | State |
+| --- | --- |
+| [private AKS cluster with a Public DNS address](https://docs.microsoft.com/azure/aks/private-clusters#create-a-private-aks-cluster-with-a-public-dns-address) | 0 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/demos/private-endpoint-sql-from-appservice/README.md
 
