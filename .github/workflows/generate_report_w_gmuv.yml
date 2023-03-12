@@ -5,6 +5,9 @@ on:
 jobs:
   run-gmuv:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        repos: ['azure-quickstart-templates','Azure-DataFactory','autorest','AzOps']
     permissions:
       contents: write
       pull-requests: write
@@ -15,29 +18,8 @@ jobs:
         uses: groovy-sky/gmuv@v1.1.1
         with:
           account: 'Azure'
-          repository: 'azure-quickstart-templates'
-          filename: 'azure-quickstart-templates.md'
-
-      - name: Generate report for Azure repo
-        uses: groovy-sky/gmuv@v1.1.1
-        with:
-          account: 'Azure'
-          repository: 'Azure-DataFactory'
-          filename: 'Azure-DataFactory.md'
-
-      - name: Generate report for Azure repo
-        uses: groovy-sky/gmuv@v1.1.1
-        with:
-          account: 'Azure'
-          repository: 'autorest'
-          filename: 'autorest.md'
-
-      - name: Generate report for Azure repo
-        uses: groovy-sky/gmuv@v1.1.1
-        with:
-          account: 'Azure'
-          repository: 'AzOps'
-          filename: 'AzOps.md'
+          repository: ${{ matrix.repos }}
+          filename: REPORTS/Azure-${{ matrix.repos }}.md
 
       - name: Publishing the changes
         run: |
