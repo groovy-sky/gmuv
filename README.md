@@ -33,6 +33,21 @@ To check and validate links under a specific account and write output to the con
 gmuv -u groovy-sky -o cli
 ```
 
+
+To check and validate links under a specific account's repository and write output to 'result.md' file:
+```
+gmuv -u groovy-sky -r aaa -f result.md
+```
+
+Run gmuv from Github Marketplaces:
+```
+      - name: Generate a report
+        uses: groovy-sky/gmuv@v1.1.1
+        with:
+          account: groovy-sky
+          repository: aaa
+          filename: output.md
+```
 ## ToDo
 
 * Learn how-to and write [tests](https://pkg.go.dev/testing)
