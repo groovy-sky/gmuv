@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        repos: ['azure-quickstart-templates','Azure-DataFactory','autorest','AzOps']
+        repos: [' azure-sdk-for-net','azure-powershell','azure-iot-sdks','azure-cli','azure-sdk-for-python']
     permissions:
       contents: write
       pull-requests: write

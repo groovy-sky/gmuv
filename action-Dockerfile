@@ -7,9 +7,11 @@ FROM alpine:latest
 COPY --from=base /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
 COPY --from=base /go/bin/gmuv /gmuv
 
-RUN chmod +x /gmuv 
+COPY entrypoint.sh /entrypoint.sh
 
-ENTRYPOINT ["/gmuv"]
+RUN chmod +x /entrypoint.sh && chmod +x /gmuv 
+
+ENTRYPOINT ["/entrypoint.sh"]
 
 LABEL maintainer = "groovy-sky"
 LABEL org.opencontainers.image.source = "https://github.com/groovy-sky/gmuv"

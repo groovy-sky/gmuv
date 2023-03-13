@@ -20,4 +20,4 @@ outputs:
     description: "Output"
 runs:
   using: 'docker'
-  image: 'Dockerfile'
+  image: 'action-Dockerfile'
