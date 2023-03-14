@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        repos: [' azure-sdk-for-net','azure-powershell','azure-iot-sdks','azure-cli','azure-sdk-for-python']
+        repos: ['benchpress','azure-cosmos-dotnet-v3','AgentBaker','bicep','azure-osconfig','azure-openapi-validator','azure-powershell']
     permissions:
       contents: write
       pull-requests: write
