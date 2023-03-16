@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        repos: ['benchpress','azure-cosmos-dotnet-v3','AgentBaker','bicep','azure-osconfig','azure-openapi-validator','azure-powershell']
+        repos: ['benchpress','azure-cosmos-dotnet-v3','AgentBaker','bicep','azure-osconfig','azure-openapi-validator','azure-powershell','PSDocs.Azure']
     permissions:
       contents: write
       pull-requests: write
@@ -33,4 +33,4 @@ jobs:
           git pull
           git add .
           git commit -m $(date +%F)
-          git push
+          git push --force
