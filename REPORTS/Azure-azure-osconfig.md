@@ -26,12 +26,6 @@
 | [e2etest.yaml](https://github.com/Azure/azure-osconfig/blob/main/devops/pipeline/e2etest.yaml) | 404 |
 | [source_packaging.yaml](https://github.com/Azure/azure-osconfig/blob/main/devops/pipeline/source_packaging.yaml) | 404 |
 
-* https://github.com/Azure/azure-osconfig/blob/main/docs/architecture.md
-
-| URL | State |
-| --- | --- |
-| [Azure Device Update (ADU)](https://github.com/Azure/adu-private-preview) | 404 |
-
 * https://github.com/Azure/azure-osconfig/blob/main/docs/modules.md
 
 | URL | State |
