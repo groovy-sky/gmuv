@@ -2,7 +2,7 @@ name: Build and publish Docker image to Registry
 
 on:
   release:
-    types: [published]
+    types: [created]
 
 env:
   REGISTRY: ghcr.io
