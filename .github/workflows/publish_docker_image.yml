@@ -1,0 +1,26 @@
+name: Build and publish Docker image to Registry
+
+on:
+  release:
+    types: [published]
+
+env:
+  REGISTRY: ghcr.io
+
+jobs:
+  build-and-push-image:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Log in to registry
+      run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login $REGISTRY -u ${{ github.actor }} --password-stdin
+
+    - name: Build images and publish them
+      run: IMAGE_ID="$REGISTRY/$GITHUB_REPOSITORY"; docker build -t "$IMAGE_ID:$GITHUB_REF" .; docker tag "$IMAGE_ID:$GITHUB_REF" "$IMAGE_ID:latest" ; docker push $IMAGE_ID;
