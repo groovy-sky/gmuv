@@ -3,7 +3,7 @@ name: Generate reports with gmuv
 on:
   push:
     paths:
-    - '.github/workflows/*'
+    - '.github/workflows/generate_report_w_gmuv.yml'
   schedule:
     - cron: '0 3 */7 * *'
 
