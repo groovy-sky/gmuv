@@ -24,9 +24,9 @@ jobs:
       - name: Generate report for microsoft repos
         uses: groovy-sky/gmuv@v1.1.1
         with:
-          account: ${{ account }}
+          account: ${{ env.account }}
           repository: ${{ matrix.repos }}
-          filename: REPORTS/${{ account }}-${{ matrix.repos }}.md
+          filename: REPORTS/${{ env.account }}-${{ matrix.repos }}.md
 
       - name: Publishing the changes
         continue-on-error: true
