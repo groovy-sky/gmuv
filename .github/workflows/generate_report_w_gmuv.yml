@@ -12,19 +12,19 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        repos: ['benchpress','azure-cosmos-dotnet-v3','AgentBaker','bicep','azure-osconfig','azure-openapi-validator','azure-powershell','PSDocs.Azure']
+        repos: [vscode,TypeScript,PowerToys,terminal,Web-Dev-For-Beginners,playwright]
     permissions:
       contents: write
       pull-requests: write
     steps:
       - uses: actions/checkout@v3
 
-      - name: Generate report for Azure repos
+      - name: Generate report for microsoft repos
         uses: groovy-sky/gmuv@v1.1.1
         with:
           account: 'Azure'
           repository: ${{ matrix.repos }}
-          filename: REPORTS/Azure-${{ matrix.repos }}.md
+          filename: REPORTS/microsoft-${{ matrix.repos }}.md
 
       - name: Publishing the changes
         continue-on-error: true
