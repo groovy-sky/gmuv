@@ -10,6 +10,8 @@ on:
 jobs:
   run-gmuv:
     runs-on: ubuntu-latest
+    env:
+      account: microsoft
     strategy:
       matrix:
         repos: [vscode,TypeScript,PowerToys,terminal,Web-Dev-For-Beginners,playwright]
@@ -22,9 +24,9 @@ jobs:
       - name: Generate report for microsoft repos
         uses: groovy-sky/gmuv@v1.1.1
         with:
-          account: 'Azure'
+          account: ${{ account }}
           repository: ${{ matrix.repos }}
-          filename: REPORTS/microsoft-${{ matrix.repos }}.md
+          filename: REPORTS/${{ account }}-${{ matrix.repos }}.md
 
       - name: Publishing the changes
         continue-on-error: true
