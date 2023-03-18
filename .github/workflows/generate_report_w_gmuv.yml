@@ -14,7 +14,7 @@ jobs:
       account: microsoft
     strategy:
       matrix:
-        repos: [vscode,TypeScript,PowerToys,terminal,Web-Dev-For-Beginners,playwright]
+        repos: [vscode-docs,Office-Online-Test-Tools-and-Documentation,Documentarian,jacdac-docs,cognitive-research-technologies-docs,ostc-docs]
     permissions:
       contents: write
       pull-requests: write
