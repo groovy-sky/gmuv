@@ -689,7 +689,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [here](/api/advanced-topics/extension-host#preferred-extension-location) | 404 |
 | [vscode:prepublish](/api/working-with-extensions/publishing-extension#prepublish-step) | 404 |
 | [vscode:uninstall](/api/references/extension-manifest#extension-uninstall-hook) | 404 |
-| [vscode-languageclient](https://www.npmjs.com/package/vscode-languageclient) | 429 |
 | [Contribution Points](/api/references/contribution-points) | 404 |
 | [Activation Events](/api/references/activation-events) | 404 |
 | [Extension Marketplace](/docs/editor/extension-marketplace) | 404 |
@@ -929,6 +928,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [Mocha's API](https://mochajs.org/api/mocha) | 503 |
 | [Continuous Integration](/api/working-with-extensions/continuous-integration) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2016/02/01/introducing_insiders_build.md
@@ -1461,6 +1461,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [SSH ProxyCommand article](https://www.cyberciti.biz/faq/linux-unix-ssh-proxycommand-passing-through-one-host-gateway-server/) | 403 |
+| [use `rsync`](https://rsync.samba.org/) | 503 |
 | [Supporting Remote Development](/api/advanced-topics/remote-extensions) | 404 |
 | [Supporting Remote Development](/api/advanced-topics/remote-extensions) | 404 |
 | [extension author's guide](/api/advanced-topics/remote-extensions#opening-something-in-a-local-browser-or-application) | 404 |
@@ -1852,6 +1853,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [security vulnerability](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-1000006) | 0 |
 | [Windows](https://vscode-update.azurewebsites.net/1.19.3/win32-x64/stable) | 404 |
 | [Mac](https://vscode-update.azurewebsites.net/1.19.3/darwin/stable) | 404 |
 | [.tar.gz](https://vscode-update.azurewebsites.net/1.19.3/linux-x64/stable) | 404 |
@@ -2421,7 +2423,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
-| [GitHub Light High Contrast](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme) | 503 |
 | [link text](/path/to/file#some-header) | 404 |
 | [text](/link/to/file.md) | 404 |
 | [link text](/path/to/file#some-header) | 404 |
@@ -2560,7 +2561,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [`js-is-jsx` extension](https://marketplace.visualstudio.com/items?itemName=eg2.js-is-jsx) | 404 |
-| [AutoHotKey](https://www.autohotkey.com) | 403 |
 | [here](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.d.ts) | 404 |
 | [VS Code extension APIs](/docs/extensionAPI/overview.md) | 404 |
 
