@@ -106,8 +106,8 @@
 
 | URL | State |
 | --- | --- |
-| [Install-WorkspaceVale](/modules/vale/reference/cmdlets/install-workspacevale) | 404 |
-| [Install-WorkspaceVale](../install-workspacevale) | 404 |
+| [Install-Vale](/modules/vale/reference/cmdlets/install-vale) | 404 |
+| [Install-Vale](../install-vale) | 404 |
 
 * https://github.com/microsoft/Documentarian/blob/main/Projects/Modules/Documentarian.Vale/Documentation/reference/cmdlets/Invoke-Vale.md
 
