@@ -1,5 +1,11 @@
 
 ## [jacdac-docs](https://github.com/microsoft/jacdac-docs)
+* https://github.com/microsoft/jacdac-docs/blob/main/README.md
+
+| URL | State |
+| --- | --- |
+| [npm-check-updates](https://www.npmjs.com/package/npm-check-updates) | 503 |
+
 * https://github.com/microsoft/jacdac-docs/blob/main/SECURITY.md
 
 | URL | State |
