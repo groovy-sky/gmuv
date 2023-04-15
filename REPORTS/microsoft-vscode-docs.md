@@ -689,6 +689,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [here](/api/advanced-topics/extension-host#preferred-extension-location) | 404 |
 | [vscode:prepublish](/api/working-with-extensions/publishing-extension#prepublish-step) | 404 |
 | [vscode:uninstall](/api/references/extension-manifest#extension-uninstall-hook) | 404 |
+| [vscode-languageclient](https://www.npmjs.com/package/vscode-languageclient) | 429 |
 | [Contribution Points](/api/references/contribution-points) | 404 |
 | [Activation Events](/api/references/activation-events) | 404 |
 | [Extension Marketplace](/docs/editor/extension-marketplace) | 404 |
@@ -1160,6 +1161,19 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [OpenAI's codex model]( https://openai.com/blog/openai-codex) | 0 |
 | [join the waitlist]( https://github.com/github-copilot/chat_waitlist_signup/join) | 0 |
 
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2023/04/13/vscode-day.md
+
+| URL | State |
+| --- | --- |
+| [Kai Maetzel](https://www.linkedin.com/in/kai-maetzel-88ba9857) | 999 |
+| [Soojin Choi](https://www.linkedin.com/in/soojinmin) | 999 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/docs/azure/aksextensions.md
+
+| URL | State |
+| --- | --- |
+| [Kubernetes VS Code extension](https://code.visualstudio.com/docs/azure/kubernetes) | 500 |
+
 * https://github.com/microsoft/vscode-docs/blob/main/docs/containers/quickstart-aspnet-core.md
 
 | URL | State |
@@ -1177,6 +1191,8 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [python-sample-vscode-django-tutorial](https://github.com/microsoft/python-sample-vscode-django-tutorial/tree/tutorial) | 404 |
+| [python-sample-vscode-flask-tutorial](https://github.com/microsoft/python-sample-vscode-flask-tutorial/tree/tutorial) | 404 |
 | [Getting Started with Python](/docs/python/python-tutorial) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/cpp/cmake-linux.md
@@ -1614,6 +1630,20 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [find](/docs/terminal/basics#find) | 404 |
+| [contribute to terminal environments](https://code.visualstudio.com/api/references/vscode-api#ExtensionContext.environmentVariableCollection) | 503 |
+| [Remote Development](https://code.visualstudio.com/docs/remote/remote-overview) | 503 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/docs/terminal/profiles.md
+
+| URL | State |
+| --- | --- |
+| [resolving variables](https://code.visualstudio.com/docs/editor/variables-reference) | 503 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/docs/terminal/shell-integration.md
+
+| URL | State |
+| --- | --- |
+| [Insiders build](https://code.visualstudio.com/insiders) | 503 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/typescript/typescript-compiling.md
 
@@ -2495,7 +2525,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [`onDidChangeVisibleTextEditors`](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.d.ts#L3383) | 404 |
 | [vscode.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.d.ts) | 404 |
 | [Jeong Woo Chang (@inspiredjw)](https://github.com/inspiredjw) | 404 |
-| [Michael Chou (@MikeChou)](https://github.com/MikeChou) | 404 |
 | [Dario Fuzinato (@fussinatto)](https://github.com/fussinatto) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_70.md
