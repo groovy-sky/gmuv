@@ -1113,6 +1113,12 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [external](https://github.com/lostintangent/vsls-guestbook/pull/11/files#diff-babc63cbfdb83a46e935f16e3eb9066fR20) | 404 |
 | [observable](https://github.com/mobxjs/mobx/blob/master/src/api/observable.ts#L183) | 404 |
 
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2019/05/02/remote-development.md
+
+| URL | State |
+| --- | --- |
+| [containers and virtual machines](https://matttrent.com/remote-development/) | 0 |
+
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2019/07/25/remote-ssh.md
 
 | URL | State |
@@ -1167,12 +1173,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | --- | --- |
 | [Kai Maetzel](https://www.linkedin.com/in/kai-maetzel-88ba9857) | 999 |
 | [Soojin Choi](https://www.linkedin.com/in/soojinmin) | 999 |
-
-* https://github.com/microsoft/vscode-docs/blob/main/docs/azure/aksextensions.md
-
-| URL | State |
-| --- | --- |
-| [Kubernetes VS Code extension](https://code.visualstudio.com/docs/azure/kubernetes) | 500 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/containers/quickstart-aspnet-core.md
 
@@ -1630,20 +1630,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [find](/docs/terminal/basics#find) | 404 |
-| [contribute to terminal environments](https://code.visualstudio.com/api/references/vscode-api#ExtensionContext.environmentVariableCollection) | 503 |
-| [Remote Development](https://code.visualstudio.com/docs/remote/remote-overview) | 503 |
-
-* https://github.com/microsoft/vscode-docs/blob/main/docs/terminal/profiles.md
-
-| URL | State |
-| --- | --- |
-| [resolving variables](https://code.visualstudio.com/docs/editor/variables-reference) | 503 |
-
-* https://github.com/microsoft/vscode-docs/blob/main/docs/terminal/shell-integration.md
-
-| URL | State |
-| --- | --- |
-| [Insiders build](https://code.visualstudio.com/insiders) | 503 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/typescript/typescript-compiling.md
 
@@ -1661,7 +1647,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
-| [Charles Allen](https://th.linkedin.com/in/ajahncharles) | 999 |
+| [Charles Allen](https://th.linkedin.com/in/ajahncharles) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/learn/educators/python.md
 
@@ -2306,6 +2292,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [sandbox](https://www.electronjs.org/docs/api/sandbox-option) | 404 |
 | [@dataleaky](https://github.com/dataleaky) | 404 |
 | [Dhruva Srinivas (@IQUBE-X)](https://github.com/IQUBE-X) | 404 |
+| [Pablo Sebastian Greco (@psgreco)](https://github.com/psgreco) | 502 |
 | [Jonathan Mannancheril (@SneakyFish5)](https://github.com/SneakyFish5) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_53.md
