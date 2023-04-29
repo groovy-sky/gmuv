@@ -689,7 +689,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [here](/api/advanced-topics/extension-host#preferred-extension-location) | 404 |
 | [vscode:prepublish](/api/working-with-extensions/publishing-extension#prepublish-step) | 404 |
 | [vscode:uninstall](/api/references/extension-manifest#extension-uninstall-hook) | 404 |
-| [vscode-languageclient](https://www.npmjs.com/package/vscode-languageclient) | 429 |
 | [Contribution Points](/api/references/contribution-points) | 404 |
 | [Activation Events](/api/references/activation-events) | 404 |
 | [Extension Marketplace](/docs/editor/extension-marketplace) | 404 |
@@ -1113,12 +1112,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [external](https://github.com/lostintangent/vsls-guestbook/pull/11/files#diff-babc63cbfdb83a46e935f16e3eb9066fR20) | 404 |
 | [observable](https://github.com/mobxjs/mobx/blob/master/src/api/observable.ts#L183) | 404 |
 
-* https://github.com/microsoft/vscode-docs/blob/main/blogs/2019/05/02/remote-development.md
-
-| URL | State |
-| --- | --- |
-| [containers and virtual machines](https://matttrent.com/remote-development/) | 0 |
-
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2019/07/25/remote-ssh.md
 
 | URL | State |
@@ -1138,6 +1131,12 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | --- | --- |
 | [http://localhost:3000](http://localhost:3000) | 0 |
 | [http://localhost:3000](http://localhost:3000) | 0 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2020/07/01/containers-wsl.md
+
+| URL | State |
+| --- | --- |
+| [Microsoft store](https://www.microsoft.com/p/ubuntu/9nblggh4msv6) | 0 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2021/08/05/notebooks.md
 
@@ -1223,6 +1222,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [Windows Subsystem for Linux](https://learn.microsoft.com/windows/wsl/install) | 0 |
 | [Visual Studio Code](/download) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/datascience/notebooks-web.md
@@ -1378,6 +1378,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [Azure Spring Apps](https://azure.microsoft.com/services/spring-cloud/) | 0 |
 | [http://localhost:8080](http://localhost:8080) | 0 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/java/java-webapp.md
@@ -1647,7 +1648,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
-| [Charles Allen](https://th.linkedin.com/in/ajahncharles) | 404 |
+| [Charles Allen](https://th.linkedin.com/in/ajahncharles) | 999 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/learn/educators/python.md
 
@@ -2114,6 +2115,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
+| [George Batalinski (@georgebatalinski)](https://github.com/georgebatalinski) | 404 |
 | [@pi1024e](https://github.com/pi1024e) | 404 |
 | [Vanessa Phipps (@vlmphipps)](https://github.com/vlmphipps) | 404 |
 | [Cloud + AI Localization](https://github.com/microsoft/Localization/wiki) | 404 |
@@ -2132,6 +2134,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [@code](https://twitter.com/code) | 0 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [@pi1024e](https://github.com/pi1024e) | 404 |
 | [Fuchen Shi (@shifuchen98)](https://github.com/shifuchen98) | 404 |
@@ -2152,6 +2155,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | --- | --- |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
+| [George Batalinski (@georgebatalinski)](https://github.com/georgebatalinski) | 404 |
 | [Cloud + AI Localization](https://github.com/microsoft/Localization/wiki) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_42.md
@@ -2292,7 +2296,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [sandbox](https://www.electronjs.org/docs/api/sandbox-option) | 404 |
 | [@dataleaky](https://github.com/dataleaky) | 404 |
 | [Dhruva Srinivas (@IQUBE-X)](https://github.com/IQUBE-X) | 404 |
-| [Pablo Sebastian Greco (@psgreco)](https://github.com/psgreco) | 502 |
 | [Jonathan Mannancheril (@SneakyFish5)](https://github.com/SneakyFish5) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_53.md
