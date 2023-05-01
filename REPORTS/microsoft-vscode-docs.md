@@ -689,6 +689,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [here](/api/advanced-topics/extension-host#preferred-extension-location) | 404 |
 | [vscode:prepublish](/api/working-with-extensions/publishing-extension#prepublish-step) | 404 |
 | [vscode:uninstall](/api/references/extension-manifest#extension-uninstall-hook) | 404 |
+| [vscode-languageclient](https://www.npmjs.com/package/vscode-languageclient) | 429 |
 | [Contribution Points](/api/references/contribution-points) | 404 |
 | [Activation Events](/api/references/activation-events) | 404 |
 | [Extension Marketplace](/docs/editor/extension-marketplace) | 404 |
@@ -1103,6 +1104,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [bringing the PR experience into the editor](/blogs/2018/09/10/introducing-github-pullrequests) | 404 |
+| [Microsoft-hosted agents](https://learn.microsoft.com/azure/devops/pipelines/agents/hosted) | 0 |
 | [build definition files](https://github.com/microsoft/vscode/blob/main/build/tfs/product-build.yml) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2018/12/04/rich-navigation.md
@@ -1131,12 +1133,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | --- | --- |
 | [http://localhost:3000](http://localhost:3000) | 0 |
 | [http://localhost:3000](http://localhost:3000) | 0 |
-
-* https://github.com/microsoft/vscode-docs/blob/main/blogs/2020/07/01/containers-wsl.md
-
-| URL | State |
-| --- | --- |
-| [Microsoft store](https://www.microsoft.com/p/ubuntu/9nblggh4msv6) | 0 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2021/08/05/notebooks.md
 
@@ -1172,6 +1168,12 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | --- | --- |
 | [Kai Maetzel](https://www.linkedin.com/in/kai-maetzel-88ba9857) | 999 |
 | [Soojin Choi](https://www.linkedin.com/in/soojinmin) | 999 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/docs/containers/overview.md
+
+| URL | State |
+| --- | --- |
+| [Azure Container Registry](https://learn.microsoft.com/azure/container-registry) | 0 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/containers/quickstart-aspnet-core.md
 
@@ -1222,7 +1224,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
-| [Windows Subsystem for Linux](https://learn.microsoft.com/windows/wsl/install) | 0 |
 | [Visual Studio Code](/download) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/datascience/notebooks-web.md
@@ -1378,7 +1379,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
-| [Azure Spring Apps](https://azure.microsoft.com/services/spring-cloud/) | 0 |
 | [http://localhost:8080](http://localhost:8080) | 0 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/java/java-webapp.md
@@ -1473,12 +1473,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [Unity 5.5 Release notes](https://unity3d.com/unity/whats-new/unity-5.5.0) | 404 |
-
-* https://github.com/microsoft/vscode-docs/blob/main/docs/python/tutorial-flask.md
-
-| URL | State |
-| --- | --- |
-| [flask-babel](https://pythonhosted.org/Flask-Babel/) | 0 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/remote/codespaces.md
 
@@ -2134,7 +2128,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
-| [@code](https://twitter.com/code) | 0 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [@pi1024e](https://github.com/pi1024e) | 404 |
 | [Fuchen Shi (@shifuchen98)](https://github.com/shifuchen98) | 404 |
