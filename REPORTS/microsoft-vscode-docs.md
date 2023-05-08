@@ -1063,6 +1063,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [Apple design guidelines](https://developer.apple.com/macos/human-interface-guidelines/icons-and-images/app-icon) | 404 |
 | [exploring using a non-tilted icon for macOS]( https://github.com/microsoft/vscode/issues/36692) | 0 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2017/11/15/live-share.md
@@ -1104,7 +1105,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [bringing the PR experience into the editor](/blogs/2018/09/10/introducing-github-pullrequests) | 404 |
-| [Microsoft-hosted agents](https://learn.microsoft.com/azure/devops/pipelines/agents/hosted) | 0 |
 | [build definition files](https://github.com/microsoft/vscode/blob/main/build/tfs/product-build.yml) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2018/12/04/rich-navigation.md
@@ -1169,12 +1169,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [Kai Maetzel](https://www.linkedin.com/in/kai-maetzel-88ba9857) | 999 |
 | [Soojin Choi](https://www.linkedin.com/in/soojinmin) | 999 |
 
-* https://github.com/microsoft/vscode-docs/blob/main/docs/containers/overview.md
-
-| URL | State |
-| --- | --- |
-| [Azure Container Registry](https://learn.microsoft.com/azure/container-registry) | 0 |
-
 * https://github.com/microsoft/vscode-docs/blob/main/docs/containers/quickstart-aspnet-core.md
 
 | URL | State |
@@ -1226,6 +1220,12 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | --- | --- |
 | [Visual Studio Code](/download) | 404 |
 
+* https://github.com/microsoft/vscode-docs/blob/main/docs/datascience/data-science-tutorial.md
+
+| URL | State |
+| --- | --- |
+| [profile](/docs/editor/profiles) | 404 |
+
 * https://github.com/microsoft/vscode-docs/blob/main/docs/datascience/notebooks-web.md
 
 | URL | State |
@@ -1239,6 +1239,8 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | --- | --- |
 | [open in dev container](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/microsoft/vscode-remote-try-python) | 0 |
 | [VS Code multi-root workspace](/docs/editor/multi-root-workspaces) | 404 |
+| [GitHub Action](https://github.com/marketplace/actions/devcontainers-ci) | 404 |
+| [GitHub Action](https://github.com/marketplace/actions/devcontainers-ci) | 404 |
 | [preferred extension location](/api/advanced-topics/extension-host#preferred-extension-location) | 404 |
 | [Docker Support Resources](https://success.docker.com/article/best-support-resources) | 0 |
 
@@ -1367,19 +1369,20 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [Spring Boot Extension Pack](https://marketplace.visualstudio.com/items?itemName=vvmware.vscode-boot-dev-pack) | 404 |
 | [Azure Repos](https://marketplace.visualstudio.com/items?itemName=ms-vsts.team) | 404 |
-
-* https://github.com/microsoft/vscode-docs/blob/main/docs/java/java-linting.md
-
-| URL | State |
-| --- | --- |
-| [SonarLint website](https://www.sonarlint.org/vscode/) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/java/java-spring-apps.md
 
 | URL | State |
 | --- | --- |
 | [http://localhost:8080](http://localhost:8080) | 0 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/docs/java/java-spring-boot.md
+
+| URL | State |
+| --- | --- |
+| [profile](/docs/editor/profiles) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/java/java-webapp.md
 
@@ -1421,6 +1424,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [text](http://example.com/page) | 404 |
 | [text](./path/to/file.md) | 404 |
 | [text](./path/to/file.md#my-header) | 404 |
+| [Create Profile dropdown with profile templates](images/markdown/profile-template-dropdown.png) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/nodejs/angular-tutorial.md
 
@@ -1455,6 +1459,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [http://localhost:3000](http://localhost:3000) | 0 |
+| [profile](/docs/editor/profiles) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/nodejs/reactjs-tutorial.md
 
@@ -1473,6 +1478,18 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [Unity 5.5 Release notes](https://unity3d.com/unity/whats-new/unity-5.5.0) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/docs/python/python-tutorial.md
+
+| URL | State |
+| --- | --- |
+| [profile](/docs/editor/profiles) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/docs/python/tutorial-flask.md
+
+| URL | State |
+| --- | --- |
+| [flask-babel](https://pythonhosted.org/Flask-Babel/) | 0 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/remote/codespaces.md
 
@@ -2280,6 +2297,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
+| [Albert Nigmatzianov (@bogem)](https://github.com/bogem) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_52.md
 
@@ -2316,6 +2334,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [Big Sur](https://developer.apple.com/design/human-interface-guidelines/macos/icons-and-images/app-icon/) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [diagnostic pull model specification](https://github.com/microsoft/vscode-languageserver-node/blob/main/protocol/src/common/proposed.diagnostics.md#L1) | 404 |
 | [@hantatsang (Sang)](https://github.com/hantatsang) | 404 |
@@ -2338,6 +2357,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [Amethyst Dark Theme](https://marketplace.visualstudio.com/items?itemName=eamodio.amethyst-theme) | 404 |
 | [this is a link](command:workbench.action.quickOpenView) | 0 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
+| [Microsoft Build 2021](https://mybuild.microsoft.com/) | 0 |
 | [@hantatsang (Sang)](https://github.com/hantatsang) | 404 |
 | [@wendellhu95 (Wendell)](https://github.com/wendellhu95) | 404 |
 
@@ -2360,6 +2380,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [trace viewer](https://playwright.dev/docs/next/trace-viewer/) | 404 |
 | [@CodeCrazy-ywt](https://github.com/CodeCrazy-ywt) | 404 |
+| [@door-bell (Tim)](https://github.com/door-bell) | 404 |
 | [@SNDST00M (SNDST00M: M.U.N.I.N)](https://github.com/SNDST00M) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_6.md
@@ -2403,6 +2424,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [library](https://github.com/microsoft/vscode-nsfw) | 404 |
 | [CodeCrazy-ywt (@CodeCrazy-ywt)](https://github.com/CodeCrazy-ywt) | 404 |
+| [@door-bell (Tim)](https://github.com/door-bell) | 404 |
 | [@SNDST00M (SNDST00M: M.U.N.I.N)](https://github.com/SNDST00M) | 404 |
 | [@Un-index](https://github.com/Un-index) | 404 |
 
