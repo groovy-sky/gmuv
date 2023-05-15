@@ -689,7 +689,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [here](/api/advanced-topics/extension-host#preferred-extension-location) | 404 |
 | [vscode:prepublish](/api/working-with-extensions/publishing-extension#prepublish-step) | 404 |
 | [vscode:uninstall](/api/references/extension-manifest#extension-uninstall-hook) | 404 |
-| [vscode-languageclient](https://www.npmjs.com/package/vscode-languageclient) | 429 |
 | [Contribution Points](/api/references/contribution-points) | 404 |
 | [Activation Events](/api/references/activation-events) | 404 |
 | [Extension Marketplace](/docs/editor/extension-marketplace) | 404 |
@@ -1114,6 +1113,12 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [external](https://github.com/lostintangent/vsls-guestbook/pull/11/files#diff-babc63cbfdb83a46e935f16e3eb9066fR20) | 404 |
 | [observable](https://github.com/mobxjs/mobx/blob/master/src/api/observable.ts#L183) | 404 |
 
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2019/05/02/remote-development.md
+
+| URL | State |
+| --- | --- |
+| [Dev Container samples](https://github.com/search?q=org%3AMicrosoft+vscode-remote-try-&unscoped_q=vscode-remote-try-) | 429 |
+
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2019/07/25/remote-ssh.md
 
 | URL | State |
@@ -1133,6 +1138,12 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | --- | --- |
 | [http://localhost:3000](http://localhost:3000) | 0 |
 | [http://localhost:3000](http://localhost:3000) | 0 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2020/03/02/docker-in-wsl2.md
+
+| URL | State |
+| --- | --- |
+| [Microsoft store](https://www.microsoft.com/p/ubuntu/9nblggh4msv6) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2021/08/05/notebooks.md
 
@@ -1390,6 +1401,12 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | --- | --- |
 | [http://localhost:8080](http://localhost:8080) | 0 |
 | [Spring Data Azure Cosmos DB Sample Project](https://github.com/Azure/azure-sdk-for-java/tree/master/sdk/spring/azure-spring-boot-samples/azure-spring-boot-sample-cosmos) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/docs/languages/dotnet.md
+
+| URL | State |
+| --- | --- |
+| [.NET Docs](https://learn.microsoft.com/dotnet) | 0 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/languages/java.md
 
@@ -2118,6 +2135,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
+| [Evgeny Zakharov (@risenforces)](https://github.com/risenforces) | 404 |
 | [Jonathan Nagy (@nagytech)](https://github.com/nagytech) | 404 |
 | [Cloud + AI Localization](https://github.com/microsoft/Localization/wiki) | 404 |
 
@@ -2357,7 +2375,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [Amethyst Dark Theme](https://marketplace.visualstudio.com/items?itemName=eamodio.amethyst-theme) | 404 |
 | [this is a link](command:workbench.action.quickOpenView) | 0 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
-| [Microsoft Build 2021](https://mybuild.microsoft.com/) | 0 |
 | [@hantatsang (Sang)](https://github.com/hantatsang) | 404 |
 | [@wendellhu95 (Wendell)](https://github.com/wendellhu95) | 404 |
 
@@ -2494,6 +2511,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [link](/path/to/file.md) | 404 |
+| [web extensions](https://code.visualstudio.com/api/extension-guides/web-extensions) | 500 |
 | [Mintlify](https://marketplace.visualstudio.com/items?itemName=mintlify.connector) | 404 |
 | [Loop Development Kit](https://marketplace.visualstudio.com/items?itemName=Olive-AI.vscode-loop-development-kit) | 404 |
 
