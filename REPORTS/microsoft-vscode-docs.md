@@ -254,81 +254,8 @@
 | [VS Code API](/api/references/vscode-api) | 404 |
 | [Contribution Points](/api/references/contribution-points) | 404 |
 | [UX Guidelines](/api/ux-guidelines/overview) | 404 |
-| [Command](https://code.visualstudio.com/api/extension-guides/command) | 503 |
-| [commands](https://code.visualstudio.com/api/references/vscode-api#commands) | 503 |
-| [Color Theme](https://code.visualstudio.com/api/extension-guides/color-theme) | 502 |
-| [contributes.themes](https://code.visualstudio.com/api/references/contribution-points#contributes.themes) | 503 |
-| [File Icon Theme](https://code.visualstudio.com/api/extension-guides/file-icon-theme) | 429 |
-| [contributes.iconThemes](https://code.visualstudio.com/api/references/contribution-points#contributes.iconThemes) | 429 |
-| [Product Icon Theme](https://code.visualstudio.com/api/extension-guides/product-icon-theme) | 429 |
-| [contributes.productIconThemes](https://code.visualstudio.com/api/references/contribution-points#contributes.productIconThemes) | 429 |
-| [Tree View](https://code.visualstudio.com/api/extension-guides/tree-view) | 429 |
-| [window.createTreeView](https://code.visualstudio.com/api/references/vscode-api#window.createTreeView) | 429 |
-| [window.registerTreeDataProvider](https://code.visualstudio.com/api/references/vscode-api#window.registerTreeDataProvider) | 503 |
-| [TreeView](https://code.visualstudio.com/api/references/vscode-api#TreeView) | 429 |
-| [TreeDataProvider](https://code.visualstudio.com/api/references/vscode-api#TreeDataProvider) | 503 |
-| [contributes.views](https://code.visualstudio.com/api/references/contribution-points#contributes.views) | 429 |
-| [contributes.viewsContainers](https://code.visualstudio.com/api/references/contribution-points#contributes.viewsContainers) | 503 |
-| [Webview](https://code.visualstudio.com/api/extension-guides/webview) | 429 |
-| [window.createWebviewPanel](https://code.visualstudio.com/api/references/vscode-api#window.createWebviewPanel) | 429 |
-| [window.registerWebviewPanelSerializer](https://code.visualstudio.com/api/references/vscode-api#window.registerWebviewPanelSerializer) | 503 |
-| [Custom Editors](https://code.visualstudio.com/api/extension-guides/custom-editors) | 429 |
-| [window.registerCustomEditorProvider](https://code.visualstudio.com/api/references/vscode-api#window.registerCustomEditorProvider) | 503 |
-| [CustomTextEditorProvider](https://code.visualstudio.com/api/references/vscode-api#CustomTextEditorProvider) | 503 |
-| [contributes.customEditors](https://code.visualstudio.com/api/references/contribution-points#contributes.customEditors) | 429 |
-| [Virtual Documents](https://code.visualstudio.com/api/extension-guides/virtual-documents) | 429 |
-| [workspace.registerTextDocumentContentProvider](https://code.visualstudio.com/api/references/vscode-api#workspace.registerTextDocumentContentProvider) | 429 |
-| [commands.registerCommand](https://code.visualstudio.com/api/references/vscode-api#commands.registerCommand) | 429 |
-| [window.showInputBox](https://code.visualstudio.com/api/references/vscode-api#window.showInputBox) | 429 |
-| [Virtual Workspaces](https://code.visualstudio.com/api/extension-guides/virtual-workspaces) | 429 |
-| [workspace.fs](https://code.visualstudio.com/api/references/vscode-api#workspace.fs) | 429 |
-| [Workspace Trust](https://code.visualstudio.com/api/extension-guides/workspace-trust) | 503 |
-| [workspace.isTrusted](https://code.visualstudio.com/api/references/vscode-api#workspace.isTrusted) | 503 |
-| [workspace.onDidGrantWorkspaceTrust](https://code.visualstudio.com/api/references/vscode-api#workspace.onDidGrantWorkspaceTrust) | 429 |
-| [Task Provider](https://code.visualstudio.com/api/extension-guides/task-provider) | 429 |
-| [tasks.registerTaskProvider](https://code.visualstudio.com/api/references/vscode-api#tasks.registerTaskProvider) | 429 |
-| [Task](https://code.visualstudio.com/api/references/vscode-api#Task) | 503 |
-| [ShellExecution](https://code.visualstudio.com/api/references/vscode-api#ShellExecution) | 429 |
-| [contributes.taskDefinitions](https://code.visualstudio.com/api/references/contribution-points#contributes.taskDefinitions) | 429 |
-| [Source Control](https://code.visualstudio.com/api/extension-guides/scm-provider) | 429 |
-| [workspace.workspaceFolders](https://code.visualstudio.com/api/references/vscode-api#workspace.workspaceFolders) | 429 |
-| [SourceControl](https://code.visualstudio.com/api/references/vscode-api#SourceControl) | 429 |
-| [SourceControlResourceGroup](https://code.visualstudio.com/api/references/vscode-api#SourceControlResourceGroup) | 429 |
-| [scm.createSourceControl](https://code.visualstudio.com/api/references/vscode-api#scm.createSourceControl) | 429 |
-| [TextDocumentContentProvider](https://code.visualstudio.com/api/references/vscode-api#TextDocumentContentProvider) | 429 |
-| [contributes.menus](https://code.visualstudio.com/api/references/contribution-points#contributes.menus) | 429 |
-| [Debugger Extension](https://code.visualstudio.com/api/extension-guides/debugger-extension) | 503 |
-| [contributes.breakpoints](https://code.visualstudio.com/api/references/contribution-points#contributes.breakpoints) | 429 |
-| [contributes.debuggers](https://code.visualstudio.com/api/references/contribution-points#contributes.debuggers) | 503 |
-| [debug](https://code.visualstudio.com/api/references/vscode-api#debug) | 503 |
-| [Markdown Extension](https://code.visualstudio.com/api/extension-guides/markdown-extension) | 503 |
-| [Test Extension](https://code.visualstudio.com/api/extension-guides/testing) | 429 |
-| [TestController](https://code.visualstudio.com/api/references/vscode-api#TestController) | 503 |
-| [StatusBarItem](https://code.visualstudio.com/api/references/vscode-api#StatusBarItem) | 503 |
-| [workspace.onDidChangeWorkspaceFolders](https://code.visualstudio.com/api/references/vscode-api#workspace.onDidChangeWorkspaceFolders) | 503 |
-| [SnippetString](https://code.visualstudio.com/api/references/vscode-api#SnippetString) | 503 |
-| [TextEditor.setDecorations](https://code.visualstudio.com/api/references/vscode-api#TextEditor.setDecorations) | 503 |
-| [DecorationInstanceRenderOptions](https://code.visualstudio.com/api/references/vscode-api#DecorationInstanceRenderOptions) | 503 |
-| [window.createTextEditorDecorationType](https://code.visualstudio.com/api/references/vscode-api#window.createTextEditorDecorationType) | 503 |
-| [TextEditorDecorationType](https://code.visualstudio.com/api/references/vscode-api#TextEditorDecorationType) | 503 |
-| [contributes.colors](https://code.visualstudio.com/api/references/contribution-points#contributes.colors) | 503 |
-| [window.createTerminal](https://code.visualstudio.com/api/references/vscode-api#window.createTerminal) | 503 |
-| [window.onDidChangeActiveTerminal](https://code.visualstudio.com/api/references/vscode-api#window.onDidChangeActiveTerminal) | 503 |
-| [window.onDidCloseTerminal](https://code.visualstudio.com/api/references/vscode-api#window.onDidCloseTerminal) | 503 |
-| [window.onDidOpenTerminal](https://code.visualstudio.com/api/references/vscode-api#window.onDidOpenTerminal) | 503 |
-| [window.Terminal](https://code.visualstudio.com/api/references/vscode-api#window.Terminal) | 503 |
-| [window.terminals](https://code.visualstudio.com/api/references/vscode-api#window.terminals) | 503 |
-| [commands](https://code.visualstudio.com/api/references/vscode-api#commands) | 503 |
-| [window.createStatusBarItem](https://code.visualstudio.com/api/references/vscode-api#window.createStatusBarItem) | 503 |
-| [TextEditorCursorStyle](https://code.visualstudio.com/api/references/vscode-api#TextEditorCursorStyle) | 503 |
-| [SourceControl](https://code.visualstudio.com/api/references/vscode-api#SourceControl) | 503 |
-| [scm.createSourceControl](https://code.visualstudio.com/api/references/vscode-api#scm.createSourceControl) | 503 |
-| [TextDocumentContentProvider](https://code.visualstudio.com/api/references/vscode-api#TextDocumentContentProvider) | 503 |
-| [contributes.menus](https://code.visualstudio.com/api/references/contribution-points#contributes.menus) | 503 |
 | [TestItem](https://code.visualstudio.com.azurewebsites.net/api/references/vscode-api#TestItem) | 0 |
 | [Language Extensions](/api/language-extensions/overview) | 404 |
-| [/api/language-extensions/snippet-guide](https://code.visualstudio.com/api/language-extensions/snippet-guide) | 503 |
-| [/api/language-extensions/language-configuration-guide](https://code.visualstudio.com/api/language-extensions/language-configuration-guide) | 503 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/api/extension-guides/product-icon-theme.md
 
@@ -516,7 +443,6 @@
 | [Proposed API](/api/advanced-topics/using-proposed-api) | 404 |
 | [VS Code API](/api/references/vscode-api) | 404 |
 | [Contribution Points](/api/references/contribution-points) | 404 |
-| [Extension authoring](https://code.visualstudio.com/updates#_extension-authoring) | 503 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/api/language-extensions/embedded-languages.md
 
@@ -763,7 +689,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [here](/api/advanced-topics/extension-host#preferred-extension-location) | 404 |
 | [vscode:prepublish](/api/working-with-extensions/publishing-extension#prepublish-step) | 404 |
 | [vscode:uninstall](/api/references/extension-manifest#extension-uninstall-hook) | 404 |
-| [vscode-languageclient](https://www.npmjs.com/package/vscode-languageclient) | 429 |
 | [Contribution Points](/api/references/contribution-points) | 404 |
 | [Activation Events](/api/references/activation-events) | 404 |
 | [Extension Marketplace](/docs/editor/extension-marketplace) | 404 |
@@ -1207,12 +1132,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [http://localhost:3000](http://localhost:3000) | 0 |
 | [http://localhost:3000](http://localhost:3000) | 0 |
 
-* https://github.com/microsoft/vscode-docs/blob/main/blogs/2020/02/18/optimizing-ci.md
-
-| URL | State |
-| --- | --- |
-| [@joaomoreno](https://twitter.com/joaomoreno) | 503 |
-
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2021/08/05/notebooks.md
 
 | URL | State |
@@ -1557,12 +1476,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [Unity 5.5 Release notes](https://unity3d.com/unity/whats-new/unity-5.5.0) | 404 |
-
-* https://github.com/microsoft/vscode-docs/blob/main/docs/python/environments.md
-
-| URL | State |
-| --- | --- |
-| [About Execution Policies](https://go.microsoft.com/fwlink/?LinkID=135170) | 0 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/python/python-tutorial.md
 
@@ -2075,6 +1988,9 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [import() types](https://devblogs.microsoft.com/typescript/announcing-typescript-2-9/#import-types) | 404 |
+| [json imports](https://devblogs.microsoft.com/typescript/announcing-typescript-2-9/#json-imports) | 404 |
+| [TypeScript blog](https://devblogs.microsoft.com/typescript/announcing-typescript-2-9/#json-imports) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [@chrisrpatterson](https://github.com/chrisrpatterson) | 404 |
 | [single YAML based build definition](https://github.com/microsoft/vscode/blob/main/build/tfs/continuous-build.yml) | 404 |
@@ -2211,7 +2127,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
-| [contributing a configuration](https://code.visualstudio.com/api/references/contribution-points#contributes.configuration) | 500 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [George Batalinski (@georgebatalinski)](https://github.com/georgebatalinski) | 404 |
 | [@pi1024e](https://github.com/pi1024e) | 404 |
@@ -2453,7 +2368,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [diagnostic pull model specification](https://github.com/microsoft/vscode-languageserver-node/blob/main/protocol/src/common/proposed.diagnostics.md#L1) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [test](command:vscode.newWindow) | 0 |
-| [test coverage](https://github.com/microsoft/vscode/issues/123713) | 502 |
 | [@hantatsang (Sang)](https://github.com/hantatsang) | 404 |
 | [@LiangchengJ (Liangcheng Juves)](https://github.com/LiangchengJ) | 404 |
 
@@ -2551,7 +2465,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
-| [TypeScript blog](https://devblogs.microsoft.com/typescript/announcing-typescript-4-6-rc) | 0 |
 | [link](./file.js) | 404 |
 | [link](./file.js) | 404 |
 | [GitKraken Authentication](https://marketplace.visualstudio.com/items?itemName=gitkraken.gitkraken-authentication) | 404 |
@@ -2574,6 +2487,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [link text](/path/to/file#some-header) | 404 |
 | [text](/link/to/file.md) | 404 |
 | [link text](/path/to/file#some-header) | 404 |
+| [VSCode Remote Server](https://marketplace.visualstudio.com/items?itemName=btwiuse.vscode-remote-server) | 404 |
 | [web_prolin_emulator](https://marketplace.visualstudio.com/items?itemName=runthoser.web-prolin-emulator) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_68.md
@@ -2633,15 +2547,12 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | --- | --- |
 | [link](/path/to/file.md) | 404 |
 | [link](other-file.md#some-header) | 404 |
-| [Markdown](https://daringfireball.net/projects/markdown/) | 403 |
-| [Markdown linking](https://daringfireball.net/projects/markdown/) | 403 |
 | [@najmiehsa (Najmieh)](https://github.com/najmiehsa) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_73.md
 
 | URL | State |
 | --- | --- |
-| [link definitions](https://daringfireball.net/projects/markdown/syntax#link) | 403 |
 | [Open setting](command:workbench.action.openSettings) | 0 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_74.md
@@ -2669,6 +2580,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [.tar.gz](https://vscode-update.azurewebsites.net/1.8.1/linux-ia32/stable) | 404 |
 | [.deb](https://vscode-update.azurewebsites.net/1.8.1/linux-deb-ia32/stable) | 404 |
 | [.rpm](https://vscode-update.azurewebsites.net/1.8.1/linux-rpm-ia32/stable) | 404 |
+| [TypeScript 2.1](https://devblogs.microsoft.com/typescript/announcing-typescript-2-1/) | 404 |
 | [`SnippetString`](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.d.ts#L2073) | 404 |
 | [`inspect`](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.d.ts#L2825) | 404 |
 | [word-range](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.d.ts#L221) | 404 |
