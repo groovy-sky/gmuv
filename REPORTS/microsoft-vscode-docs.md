@@ -1097,6 +1097,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [launch configurations](/docs/editor/debugging#_launch-configurations) | 404 |
 | [attach config](/docs/editor/debugging#_launchjson-attributes) | 404 |
 | [launch configurations](/docs/editor/debugging#_launch-configurations) | 404 |
+| [Edge DevTools](https://learn.microsoft.com/microsoft-edge/devtools-guide-chromium/landing/) | 0 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2018/09/12/engineering-with-azure-pipelines.md
 
@@ -1143,6 +1144,12 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2022/07/07/vscode-server.md
+
+| URL | State |
+| --- | --- |
+| [Windows Subsystem for Linux](https://learn.microsoft.com/windows/wsl/) | 0 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2022/11/28/vscode-sandbox.md
 
