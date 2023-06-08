@@ -1097,7 +1097,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [launch configurations](/docs/editor/debugging#_launch-configurations) | 404 |
 | [attach config](/docs/editor/debugging#_launchjson-attributes) | 404 |
 | [launch configurations](/docs/editor/debugging#_launch-configurations) | 404 |
-| [Edge DevTools](https://learn.microsoft.com/microsoft-edge/devtools-guide-chromium/landing/) | 0 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2018/09/12/engineering-with-azure-pipelines.md
 
@@ -1145,12 +1144,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | --- | --- |
 | [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) | 404 |
 
-* https://github.com/microsoft/vscode-docs/blob/main/blogs/2022/07/07/vscode-server.md
-
-| URL | State |
-| --- | --- |
-| [Windows Subsystem for Linux](https://learn.microsoft.com/windows/wsl/) | 0 |
-
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2022/11/28/vscode-sandbox.md
 
 | URL | State |
@@ -1173,6 +1166,12 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | --- | --- |
 | [Kai Maetzel](https://www.linkedin.com/in/kai-maetzel-88ba9857) | 999 |
 | [Soojin Choi](https://www.linkedin.com/in/soojinmin) | 999 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2023/06/05/vscode-wasm-wasi.md
+
+| URL | State |
+| --- | --- |
+| [Java](https://www.java.com) | 0 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/containers/quickstart-aspnet-core.md
 
@@ -1224,6 +1223,24 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [Visual Studio Code](/download) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/docs/csharp/cs-dev-kit-faq.md
+
+| URL | State |
+| --- | --- |
+| [these license terms](https://devdiv.visualstudio.com/DevDiv/_git/vscode-csharp-next?path=/RuntimeLicenses/license.txt) | 203 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/docs/csharp/debugger-settings.md
+
+| URL | State |
+| --- | --- |
+| [VS Code's integrated terminal](/docs/editor/integrated-terminal.md) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/docs/csharp/debugging.md
+
+| URL | State |
+| --- | --- |
+| [User Settings](/docs/getstarted/settings) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/datascience/data-science-tutorial.md
 
@@ -2439,6 +2456,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [web extensions](https://code.visualstudio.com/api/extension-guides/web-extensions) | 0 |
 | [Keil Studio](https://marketplace.visualstudio.com/items?itemName=arm-debug.keil-studio-vscode) | 404 |
 | [HarmonyLang Lite](https://marketplace.visualstudio.com/items?itemName=kevinsun-dev-cornell.harmonylang-lite) | 404 |
 | [Pop File Money Counter](https://marketplace.visualstudio.com/items?itemName=pfwobcke.pop-file-money-counter) | 404 |
@@ -2483,6 +2501,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | --- | --- |
 | [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=Dancheg97.material-icon-theme-gopher-fork) | 404 |
 | [gcs-sync-vs-ext](https://marketplace.visualstudio.com/items?itemName=killerbees-devops.gcs-sync-vs-ext) | 404 |
+| [gitlab](https://marketplace.visualstudio.com/items?itemName=RedstoneWizard08.gitlab) | 404 |
 | [vscode_web_extension_emulator](https://marketplace.visualstudio.com/items?itemName=runthoser.vscode-web-extension-emulator) | 404 |
 | [painandsufferingforjaredsstuff](https://marketplace.visualstudio.com/items?itemName=Thomka.painandsufferingforjaredsstuff) | 404 |
 | [@BamBamboozled](https://github.com/BamBamboozled) | 404 |
@@ -2568,6 +2587,12 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | --- | --- |
 | [@cmarincia (Catalin Marincia)](https://github.com/cmarincia) | 404 |
 | [@najmiehsa](https://github.com/najmiehsa) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_75.md
+
+| URL | State |
+| --- | --- |
+| [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) | 503 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_76.md
 
