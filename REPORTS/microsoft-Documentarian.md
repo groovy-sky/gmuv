@@ -1,5 +1,20 @@
 
 ## [Documentarian](https://github.com/microsoft/Documentarian)
+* https://github.com/microsoft/Documentarian/blob/main/Projects/Modules/Documentarian.AstInfo/Source/Private/readme.md
+
+| URL | State |
+| --- | --- |
+| [`Foo`](Classes/Foo.ps1) | 404 |
+| [`Bar`](Enums/Bar.ps1) | 404 |
+| [`Get-Foo`](Functions/Foo.ps1) | 404 |
+
+* https://github.com/microsoft/Documentarian/blob/main/Projects/Modules/Documentarian.AstInfo/Source/Public/readme.md
+
+| URL | State |
+| --- | --- |
+| [`Bar`](Enums/Bar.ps1) | 404 |
+| [`Test-GitHubToken`](Functions/General/Test-GitHubToken.ps1) | 404 |
+
 * https://github.com/microsoft/Documentarian/blob/main/Projects/Modules/Documentarian.DevX/Source/Private/readme.md
 
 | URL | State |
@@ -37,6 +52,20 @@
 | [`Bar`](Enums/Bar.ps1) | 404 |
 | [`Register-FooCompleter`](Functions/Completion/Register-FooCompleter.ps1) | 404 |
 | [`Test-GitHubToken`](Functions/General/Test-GitHubToken.ps1) | 404 |
+
+* https://github.com/microsoft/Documentarian/blob/main/Projects/Modules/Documentarian.MarkdownBuilder/Source/Private/readme.md
+
+| URL | State |
+| --- | --- |
+| [`Foo`](Classes/Foo.ps1) | 404 |
+| [`Bar`](Enums/Bar.ps1) | 404 |
+
+* https://github.com/microsoft/Documentarian/blob/main/Projects/Modules/Documentarian.MarkdownBuilder/Source/Public/readme.md
+
+| URL | State |
+| --- | --- |
+| [`Add-FrontMatter`](Functions/Add-FrontMatter.ps1) | 404 |
+| [`New-MarkdownBuilder`](Functions/New-MarkdownBuilder.ps1) | 404 |
 
 * https://github.com/microsoft/Documentarian/blob/main/Projects/Modules/Documentarian.MarkdownLint/Source/Private/readme.md
 
