@@ -1,20 +1,5 @@
 
 ## [Documentarian](https://github.com/microsoft/Documentarian)
-* https://github.com/microsoft/Documentarian/blob/main/Projects/Modules/Documentarian.AstInfo/Source/Private/readme.md
-
-| URL | State |
-| --- | --- |
-| [`Foo`](Classes/Foo.ps1) | 404 |
-| [`Bar`](Enums/Bar.ps1) | 404 |
-| [`Get-Foo`](Functions/Foo.ps1) | 404 |
-
-* https://github.com/microsoft/Documentarian/blob/main/Projects/Modules/Documentarian.AstInfo/Source/Public/readme.md
-
-| URL | State |
-| --- | --- |
-| [`Bar`](Enums/Bar.ps1) | 404 |
-| [`Test-GitHubToken`](Functions/General/Test-GitHubToken.ps1) | 404 |
-
 * https://github.com/microsoft/Documentarian/blob/main/Projects/Modules/Documentarian.DevX/Source/Private/readme.md
 
 | URL | State |
