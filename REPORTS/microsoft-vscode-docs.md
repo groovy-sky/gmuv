@@ -1175,8 +1175,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [Java](https://www.java.com) | 403 |
-| [WASIX](https://wasix.org/) | 0 |
-| [operating system-like features](https://wasix.org/docs/api-reference) | 0 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/containers/quickstart-aspnet-core.md
 
@@ -1227,14 +1225,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
-| [Windows Subsystem for Linux](https://learn.microsoft.com/windows/wsl/install) | 0 |
 | [Visual Studio Code](/download) | 404 |
-
-* https://github.com/microsoft/vscode-docs/blob/main/docs/cpp/natvis.md
-
-| URL | State |
-| --- | --- |
-| [Create custom views of C++ objects in the debugger](https://learn.microsoft.com/visualstudio/debugger/create-custom-views-of-native-objects) | 0 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/csharp/cs-dev-kit-faq.md
 
@@ -1253,12 +1244,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [User Settings](/docs/getstarted/settings) | 404 |
-
-* https://github.com/microsoft/vscode-docs/blob/main/docs/datascience/azure-machine-learning.md
-
-| URL | State |
-| --- | --- |
-| [Set up the Azure Machine Learning extension](https://learn.microsoft.com/azure/machine-learning/how-to-setup-vs-code) | 0 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/datascience/data-science-tutorial.md
 
@@ -2495,7 +2480,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [Couper Configuration](https://marketplace.visualstudio.com/items?itemName=AvengaGermanyGmbH.couper) | 404 |
-| [fink](https://marketplace.visualstudio.com/items?itemName=fink.vscode-fink) | 503 |
 | [MathJax for Markdown](https://marketplace.visualstudio.com/items?itemName=taniguchi.mathjax-for-markdown) | 404 |
 | [Sourcegraph - preview](https://marketplace.visualstudio.com/items?itemName=kandalatj.sourcegraph-preview) | 404 |
 | [@slidoooor (Hans)](https://github.com/slidoooor) | 404 |
@@ -2610,12 +2594,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [link text](link target) | 404 |
-
-* https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_79.md
-
-| URL | State |
-| --- | --- |
-| [vscode.dev](https://insiders.vscode.dev) | 504 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_8.md
 
