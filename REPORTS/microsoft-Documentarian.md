@@ -272,16 +272,3 @@
 | [sometimes](anyway.md) | 404 |
 | [Between](comments.md) | 404 |
 | [but then](its.md "okay") | 404 |
-
-* https://github.com/microsoft/Documentarian/blob/main/README.md
-
-| URL | State |
-| --- | --- |
-| [About the Project](#about-the-project) | 404 |
-| [Built With](#built-with) | 404 |
-| [Getting Started](#getting-started) | 404 |
-| [Prerequisites](#prerequisites) | 404 |
-| [Installation](#installation) | 404 |
-| [Roadmap](#roadmap) | 404 |
-| [Contributing](#contributing) | 404 |
-| [Legal Notices](#legal-notices) | 404 |
