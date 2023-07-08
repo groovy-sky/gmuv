@@ -4,14 +4,6 @@
 
 | URL | State |
 | --- | --- |
-| [Contributing](#contributing) | 404 |
-| [Documentation intent](#documentation-intent) | 404 |
-| [Repository organization](#repository-organization) | 404 |
-| [Branches](#branches) | 404 |
-| [Authoring Tools](#authoring-tools) | 404 |
-| [How to use Markdown to format your topic](#how-to-use-markdown-to-format-your-topic) | 404 |
-| [Topic Metadata](#topic-metadata) | 404 |
-| [Formatting](#formatting) | 404 |
 | [Link Text](page.md#subheading-title) | 404 |
 | [Debug Breakpoints](images/debugging/breakpoints-view.png) | 404 |
 
@@ -25,17 +17,6 @@
 
 | URL | State |
 | --- | --- |
-| [Contributing](#cloning) | 404 |
-| [Index](#index) | 404 |
-| [Visual Studio Code](#visual-studio-code) | 404 |
-| [Feedback](#feedback) | 404 |
-| [Documentation Issues](#documentation-issues) | 404 |
-| [Contributing](#contributing) | 404 |
-| [Workflow](#workflow) | 404 |
-| [Cloning](#cloning) | 404 |
-| [Cloning without binary files](#cloning-without-binary-files) | 404 |
-| [Publishing](#publishing) | 404 |
-| [clone](#cloning) | 404 |
 | [Git LFS Include and Exclude pattern](https://github.com/git-lfs/git-lfs/blob/main/docs/man/git-lfs-fetch.1.ronn#include-and-exclude) | 404 |
 | [here](https://github.com/microsoft/vscode-website#publishing-a-documentation-change) | 404 |
 
@@ -212,6 +193,7 @@
 | [webview documentation](/api/extension-guides/webview) | 404 |
 | [TextDocument](/api/references/vscode-api#TextDocument) | 404 |
 | [contribution point](/api/references/contribution-points) | 404 |
+| [glob patterns](/docs/editor/glob-patterns) | 404 |
 | [TextDocument](/api/references/vscode-api#TextDocument) | 404 |
 | [posts a message](/api/extension-guides/webview#scripts-and-message-passing) | 404 |
 | [activation event](/api/references/activation-events) | 404 |
@@ -575,6 +557,7 @@
 | [`package.json` extension manifest](/api/references/extension-manifest) | 404 |
 | [language identifier](/docs/languages/identifiers) | 404 |
 | [Using a DebugConfigurationProvider](/api/extension-guides/debugger-extension#using-a-debugconfigurationprovider) | 404 |
+| [glob pattern](/docs/editor/glob-patterns) | 404 |
 | [webview](/api/extension-guides/webview) | 404 |
 | [custom editor](/api/extension-guides/custom-editors) | 404 |
 | [`customEditors` contribution point](/api/extension-guides/custom-editors#contribution-point) | 404 |
@@ -627,12 +610,14 @@
 | [product icons](/api/references/icons-in-labels#icon-listing) | 404 |
 | [JSON
 Schema](https://json-schema.org/understanding-json-schema/reference/index.html) | 0 |
+| [glob patterns](/docs/editor/glob-patterns) | 404 |
 | [Custom Editors](/api/extension-guides/custom-editors) | 404 |
 | [Debugger Extension](/api/extension-guides/debugger-extension) | 404 |
 | [Syntax Highlight Guide](/api/language-extensions/syntax-highlight-guide) | 404 |
 | [Markdown strings](/api/references/icons-in-labels#icon-in-labels) | 404 |
 | [File Icon Theme Guide](/api/extension-guides/file-icon-theme) | 404 |
 | [Key Bindings](/docs/getstarted/keybindings) | 404 |
+| [glob patterns](/docs/editor/glob-patterns) | 404 |
 | [Declarative Language Features](/api/language-extensions/overview#declarative-language-features) | 404 |
 | [Language Configuration Guide](/api/language-extensions/language-configuration-guide) | 404 |
 | [when clause contexts](/api/references/when-clause-contexts) | 404 |
@@ -690,7 +675,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [here](/api/advanced-topics/extension-host#preferred-extension-location) | 404 |
 | [vscode:prepublish](/api/working-with-extensions/publishing-extension#prepublish-step) | 404 |
 | [vscode:uninstall](/api/references/extension-manifest#extension-uninstall-hook) | 404 |
-| [vscode-languageclient](https://www.npmjs.com/package/vscode-languageclient) | 429 |
 | [Contribution Points](/api/references/contribution-points) | 404 |
 | [Activation Events](/api/references/activation-events) | 404 |
 | [Extension Marketplace](/docs/editor/extension-marketplace) | 404 |
@@ -712,9 +696,9 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [setting](/docs/getstarted/settings) | 404 |
 | [Color Themes](/docs/getstarted/themes) | 404 |
 | [webviews](/api/extension-guides/webview) | 404 |
-| [Customizing a Color Theme](/docs/getstarted/themes#_customizing-a-color-theme) | 404 |
+| [Customizing a Color Theme](/docs/getstarted/themes#customizing-a-color-theme) | 404 |
 | [color contribution point](/api/references/contribution-points#contributes.colors) | 404 |
-| [extension contributions](/docs/editor/extension-marketplace#_extension-details) | 404 |
+| [extension contributions](/docs/editor/extension-marketplace#extension-details) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/api/references/vscode-api.md
 
@@ -729,6 +713,8 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | --- | --- |
 | [language ID](/docs/languages/identifiers) | 404 |
 | [language ID](/docs/languages/identifiers) | 404 |
+| [webview panel](/api/extension-guides/webview) | 404 |
+| [custom editor](/api/extension-guides/custom-editors) | 404 |
 | [View](/api/ux-guidelines/views) | 404 |
 | [View Container](/api/ux-guidelines/views#view-containers) | 404 |
 
@@ -891,6 +877,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [Notebook Output Renderers](/api/extension-guides/notebook#notebook-renderer) | 404 |
+| [glob pattern](/docs/editor/glob-patterns) | 404 |
 | [Extension Marketplace](/docs/editor/extension-marketplace) | 404 |
 | [Testing Extensions](/api/working-with-extensions/testing-extension) | 404 |
 | [Continuous Integration](/api/working-with-extensions/continuous-integration) | 404 |
@@ -908,12 +895,12 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [trusted badge providers](/api/references/extension-manifest#approved-badges) | 404 |
 | [trusted badge providers](/api/references/extension-manifest#approved-badges) | 404 |
 | [`package.json` file](/api/references/extension-manifest) | 404 |
-| [management page](https://marketplace.visualstudio.com/manage) | 203 |
-| [Personal Access Token](/api/working-with-extensions/publishing-extension#get-a-personal-access-token) | 404 |
+| [Visual Studio Marketplace publisher management page](https://marketplace.visualstudio.com/manage) | 203 |
 | [Visual Studio Marketplace publisher management page](https://marketplace.visualstudio.com/manage) | 203 |
 | [Visual Studio Marketplace publisher management page](https://marketplace.visualstudio.com/manage) | 203 |
 | [version](/api/references/extension-manifest#fields) | 404 |
-| [Manage Publishers & Extensions](https://marketplace.visualstudio.com/manage) | 203 |
+| [Visual Studio Marketplace publisher management page](https://marketplace.visualstudio.com/manage) | 203 |
+| [Visual Studio Marketplace publisher management page](https://marketplace.visualstudio.com/manage) | 203 |
 | [Marketplace Presentation Tips](/api/references/extension-manifest#marketplace-presentation-tips) | 404 |
 | [management page](https://marketplace.visualstudio.com/manage) | 203 |
 | [web extension](/api/extension-guides/web-extensions) | 404 |
@@ -1161,7 +1148,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [Copilot extension]( https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) | 0 |
 | [Oege De Moor]( https://twitter.com/oegerikus) | 0 |
 | [OpenAI's codex model]( https://openai.com/blog/openai-codex) | 0 |
-| [join the waitlist]( https://github.com/github-copilot/chat_waitlist_signup/join) | 0 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2023/04/13/vscode-day.md
 
@@ -2533,6 +2519,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [link](/path/to/file.md) | 404 |
 | [link](/path/to/file.md#some-header) | 404 |
 | [CloudStudio.github-authentication](https://marketplace.visualstudio.com/items?itemName=CloudStudio.github-authentication) | 404 |
+| [Lightrun](https://marketplace.visualstudio.com/publishers/lightrun) | 503 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_7.md
 
