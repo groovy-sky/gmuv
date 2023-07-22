@@ -1162,7 +1162,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [Java](https://www.java.com) | 403 |
-| [Web Shell](https://insiders.vscode.dev/github/microsoft/vscode-wasi/blob/main/webshell/package.json#L1) | 504 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/containers/quickstart-aspnet-core.md
 
@@ -1191,11 +1190,20 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | --- | --- |
 | [Visual Studio Code](/download) | 404 |
 
+* https://github.com/microsoft/vscode-docs/blob/main/docs/cpp/config-clang-mac.md
+
+| URL | State |
+| --- | --- |
+| [Screenshot of play button drop-down](images/playbutton/run-debug-arrow.png) | 404 |
+| [screenshot of play button in debug mode](images/playbutton/debug-button.png) | 404 |
+
 * https://github.com/microsoft/vscode-docs/blob/main/docs/cpp/config-linux.md
 
 | URL | State |
 | --- | --- |
 | [Visual Studio Code](/download) | 404 |
+| [Screenshot of play button drop-down](images/playbutton/run-debug-arrow.png) | 404 |
+| [screenshot of play button in debug mode](images/playbutton/debug-button.png) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/cpp/config-mingw.md
 
@@ -1208,12 +1216,16 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [Visual Studio Code](/download) | 404 |
+| [Screenshot of play button drop-down](images/playbutton/run-debug-arrow.png) | 404 |
+| [screenshot of play button in debug mode](images/playbutton/debug-button.png) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/cpp/config-wsl.md
 
 | URL | State |
 | --- | --- |
 | [Visual Studio Code](/download) | 404 |
+| [Screenshot of play button drop-down](images/playbutton/run-debug-arrow.png) | 404 |
+| [screenshot of play button in debug mode](images/playbutton/debug-button.png) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/csharp/cs-dev-kit-faq.md
 
@@ -1239,6 +1251,12 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | --- | --- |
 | [profile](/docs/editor/profiles) | 404 |
 
+* https://github.com/microsoft/vscode-docs/blob/main/docs/datascience/jupyter-notebooks.md
+
+| URL | State |
+| --- | --- |
+| [Jupyter documentation](https://jupyter-notebook.readthedocs.io/en/stable/public_server.html#securing-a-notebook-server) | 404 |
+
 * https://github.com/microsoft/vscode-docs/blob/main/docs/datascience/notebooks-web.md
 
 | URL | State |
@@ -1262,6 +1280,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [Docker-from-Docker Compose](https://github.com/devcontainers/templates/tree/main/src/docker-from-docker-compose) | 404 |
+| [multiple `docker-compose.yml` files](https://docs.docker.com/compose/extends/#multiple-compose-files) | 404 |
 | [here](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/microsoft/vscode-remote-try-java) | 0 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/devcontainers/faq.md
@@ -1452,14 +1471,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [React](/docs/nodejs/reactjs-tutorial) | 404 |
 | [Angular](/docs/nodejs/angular-tutorial) | 404 |
 | [Vue](/docs/nodejs/vuejs-tutorial) | 404 |
-| [Ember](/docs/nodejs/emberjs-tutorial) | 404 |
 | [recipes](/docs/nodejs/debugging-recipes) | 404 |
-
-* https://github.com/microsoft/vscode-docs/blob/main/docs/nodejs/emberjs-tutorial.md
-
-| URL | State |
-| --- | --- |
-| [http://localhost:4200](http://localhost:4200) | 0 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/nodejs/extensions.md
 
@@ -1491,6 +1503,12 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [Unity 5.5 Release notes](https://unity3d.com/unity/whats-new/unity-5.5.0) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/docs/python/jupyter-support-py.md
+
+| URL | State |
+| --- | --- |
+| [Jupyter docs](https://jupyter-notebook.readthedocs.io/en/stable/public_server.html#securing-a-notebook-server) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/python/python-tutorial.md
 
@@ -2057,6 +2075,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [Guy Waldman (@guywald1)](https://github.com/guywald1) | 404 |
 | [Jatin Sandilya (@jats22)](https://github.com/jats22) | 404 |
 | [Néstor Hernández Ojeda (@nesukun)](https://github.com/nesukun) | 404 |
+| [Chi Wang (@patr0nus)](https://github.com/patr0nus) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_29.md
 
@@ -2518,7 +2537,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
-| [insiders.vscode.dev](https://insiders.vscode.dev) | 504 |
 | [link](/path/to/file.md) | 404 |
 | [Mintlify](https://marketplace.visualstudio.com/items?itemName=mintlify.connector) | 404 |
 | [Loop Development Kit](https://marketplace.visualstudio.com/items?itemName=Olive-AI.vscode-loop-development-kit) | 404 |
@@ -2591,7 +2609,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
-| [Jupyter](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) | 503 |
 | [link text](link target) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_8.md
