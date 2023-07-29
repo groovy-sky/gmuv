@@ -675,7 +675,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [here](/api/advanced-topics/extension-host#preferred-extension-location) | 404 |
 | [vscode:prepublish](/api/working-with-extensions/publishing-extension#prepublish-step) | 404 |
 | [vscode:uninstall](/api/references/extension-manifest#extension-uninstall-hook) | 404 |
-| [vscode-languageclient](https://www.npmjs.com/package/vscode-languageclient) | 429 |
 | [Contribution Points](/api/references/contribution-points) | 404 |
 | [Activation Events](/api/references/activation-events) | 404 |
 | [Extension Marketplace](/docs/editor/extension-marketplace) | 404 |
@@ -1280,7 +1279,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [Docker-from-Docker Compose](https://github.com/devcontainers/templates/tree/main/src/docker-from-docker-compose) | 404 |
-| [multiple `docker-compose.yml` files](https://docs.docker.com/compose/extends/#multiple-compose-files) | 404 |
 | [here](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/microsoft/vscode-remote-try-java) | 0 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/devcontainers/faq.md
@@ -1491,6 +1489,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [http://localhost:3000](http://localhost:3000) | 0 |
+| [Live edit and debug your React apps directly from VS Code](https://medium.com/@auchenberg/live-edit-and-debug-your-react-apps-directly-from-vs-code-without-leaving-the-editor-3da489ed905f) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/nodejs/vuejs-tutorial.md
 
@@ -1553,6 +1552,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [SSH ProxyCommand article](https://www.cyberciti.biz/faq/linux-unix-ssh-proxycommand-passing-through-one-host-gateway-server/) | 403 |
+| [this blog post](https://medium.com/@vinhp/set-and-use-zsh-as-default-shell-in-wsl-on-windows-10-the-right-way-4f30ed9592dc) | 429 |
 | [Supporting Remote Development](/api/advanced-topics/remote-extensions) | 404 |
 | [Supporting Remote Development](/api/advanced-topics/remote-extensions) | 404 |
 | [extension author's guide](/api/advanced-topics/remote-extensions#opening-something-in-a-local-browser-or-application) | 404 |
@@ -1973,6 +1973,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [Deploy using Azure App Service](https://code.visualstudio.com/tutorials/app-service-extension/getting-started?utm_source=VsCode&utm_medium=ReleaseNotes) | 404 |
 | [Deploy using Docker](https://code.visualstudio.com/tutorials/docker-extension/getting-started?utm_source=VsCode&utm_medium=ReleaseNotes) | 404 |
+| [Chrome debugger](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) | 404 |
 | [Sebastian (@BattleBas)](https://github.com/BattleBas) | 404 |
 | [Matthew Ferderber (@matthewferderber)](https://github.com/matthewferderber) | 404 |
 | [Benas Svipas (@svipben)](https://github.com/svipben) | 404 |
@@ -2128,6 +2129,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
+| [blog post](https://medium.com/microsoft-1es/reducing-vs-code-ci-build-times-e0c5872bfdde) | 429 |
 | [Ethan Dennis](https://github.com/erdennis13) | 404 |
 | [Progracientist (@beastdestroyer)](https://github.com/beastdestroyer) | 404 |
 | [Sayan Nandan (@sntdevco)](https://github.com/sntdevco) | 404 |
@@ -2520,6 +2522,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [gitlab](https://marketplace.visualstudio.com/items?itemName=RedstoneWizard08.gitlab) | 404 |
 | [vscode_web_extension_emulator](https://marketplace.visualstudio.com/items?itemName=runthoser.vscode-web-extension-emulator) | 404 |
 | [painandsufferingforjaredsstuff](https://marketplace.visualstudio.com/items?itemName=Thomka.painandsufferingforjaredsstuff) | 404 |
+| [Thomka](https://marketplace.visualstudio.com/publishers/Thomka) | 503 |
 | [@BamBamboozled](https://github.com/BamBamboozled) | 404 |
 | [@rounaksingh557 (Rounak singh)](https://github.com/rounaksingh557) | 404 |
 
