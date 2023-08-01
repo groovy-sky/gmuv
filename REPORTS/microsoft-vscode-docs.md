@@ -1122,6 +1122,12 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [http://localhost:3000](http://localhost:3000) | 0 |
 | [http://localhost:3000](http://localhost:3000) | 0 |
 
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2020/02/18/optimizing-ci.md
+
+| URL | State |
+| --- | --- |
+| [earlier blog post](https://medium.com/crawl-walk-sprint/reducing-vs-code-ci-build-times-by-33-dbb1715b5028) | 429 |
+
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2021/08/05/notebooks.md
 
 | URL | State |
@@ -1489,7 +1495,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [http://localhost:3000](http://localhost:3000) | 0 |
-| [Live edit and debug your React apps directly from VS Code](https://medium.com/@auchenberg/live-edit-and-debug-your-react-apps-directly-from-vs-code-without-leaving-the-editor-3da489ed905f) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/nodejs/vuejs-tutorial.md
 
@@ -1515,6 +1520,12 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | --- | --- |
 | [profile](/docs/editor/profiles) | 404 |
 
+* https://github.com/microsoft/vscode-docs/blob/main/docs/python/settings-reference.md
+
+| URL | State |
+| --- | --- |
+| [Pylance](https://devblogs.microsoft.com/python/announcing-pylance-fast-feature-rich-language-support-for-python-in-visual-studio-code/) | 0 |
+
 * https://github.com/microsoft/vscode-docs/blob/main/docs/python/tutorial-flask.md
 
 | URL | State |
@@ -1539,6 +1550,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [Node.js](https://nodejs.org/en/docs/meta/topics/dependencies) | 404 |
+| [article](https://serverkurma.com/linux/how-to-update-glibc-newer-version-on-centos-6-x/) | 403 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/remote/ssh-tutorial.md
 
@@ -1552,7 +1564,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [SSH ProxyCommand article](https://www.cyberciti.biz/faq/linux-unix-ssh-proxycommand-passing-through-one-host-gateway-server/) | 403 |
-| [this blog post](https://medium.com/@vinhp/set-and-use-zsh-as-default-shell-in-wsl-on-windows-10-the-right-way-4f30ed9592dc) | 429 |
 | [Supporting Remote Development](/api/advanced-topics/remote-extensions) | 404 |
 | [Supporting Remote Development](/api/advanced-topics/remote-extensions) | 404 |
 | [extension author's guide](/api/advanced-topics/remote-extensions#opening-something-in-a-local-browser-or-application) | 404 |
@@ -1973,7 +1984,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [Deploy using Azure App Service](https://code.visualstudio.com/tutorials/app-service-extension/getting-started?utm_source=VsCode&utm_medium=ReleaseNotes) | 404 |
 | [Deploy using Docker](https://code.visualstudio.com/tutorials/docker-extension/getting-started?utm_source=VsCode&utm_medium=ReleaseNotes) | 404 |
-| [Chrome debugger](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) | 404 |
 | [Sebastian (@BattleBas)](https://github.com/BattleBas) | 404 |
 | [Matthew Ferderber (@matthewferderber)](https://github.com/matthewferderber) | 404 |
 | [Benas Svipas (@svipben)](https://github.com/svipben) | 404 |
@@ -2129,7 +2139,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
-| [blog post](https://medium.com/microsoft-1es/reducing-vs-code-ci-build-times-e0c5872bfdde) | 429 |
 | [Ethan Dennis](https://github.com/erdennis13) | 404 |
 | [Progracientist (@beastdestroyer)](https://github.com/beastdestroyer) | 404 |
 | [Sayan Nandan (@sntdevco)](https://github.com/sntdevco) | 404 |
@@ -2522,7 +2531,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [gitlab](https://marketplace.visualstudio.com/items?itemName=RedstoneWizard08.gitlab) | 404 |
 | [vscode_web_extension_emulator](https://marketplace.visualstudio.com/items?itemName=runthoser.vscode-web-extension-emulator) | 404 |
 | [painandsufferingforjaredsstuff](https://marketplace.visualstudio.com/items?itemName=Thomka.painandsufferingforjaredsstuff) | 404 |
-| [Thomka](https://marketplace.visualstudio.com/publishers/Thomka) | 503 |
 | [@BamBamboozled](https://github.com/BamBamboozled) | 404 |
 | [@rounaksingh557 (Rounak singh)](https://github.com/rounaksingh557) | 404 |
 
@@ -2627,6 +2635,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [.deb](https://vscode-update.azurewebsites.net/1.8.1/linux-deb-ia32/stable) | 404 |
 | [.rpm](https://vscode-update.azurewebsites.net/1.8.1/linux-rpm-ia32/stable) | 404 |
 | [TypeScript 2.1](https://devblogs.microsoft.com/typescript/announcing-typescript-2-1/) | 404 |
+| [blog](https://medium.com/@auchenberg/introducing-simultaneous-nirvana-javascript-debugging-for-node-js-and-chrome-in-vs-code-d898a4011ab1#.fehi3batj) | 429 |
 | [`SnippetString`](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.d.ts#L2073) | 404 |
 | [`inspect`](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.d.ts#L2825) | 404 |
 | [word-range](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.d.ts#L221) | 404 |
