@@ -675,6 +675,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [here](/api/advanced-topics/extension-host#preferred-extension-location) | 404 |
 | [vscode:prepublish](/api/working-with-extensions/publishing-extension#prepublish-step) | 404 |
 | [vscode:uninstall](/api/references/extension-manifest#extension-uninstall-hook) | 404 |
+| [vscode-languageclient](https://www.npmjs.com/package/vscode-languageclient) | 429 |
 | [Contribution Points](/api/references/contribution-points) | 404 |
 | [Activation Events](/api/references/activation-events) | 404 |
 | [Extension Marketplace](/docs/editor/extension-marketplace) | 404 |
@@ -1045,7 +1046,14 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [extension generator](https://code.visualstudio.com/docs/extensions/yocode) | 503 |
 | [Azure Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-azureextensionpack) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2017/05/10/build-2017-demo.md
+
+| URL | State |
+| --- | --- |
+| [Node.js Debugging documentation](https://code.visualstudio.com/docs/nodejs/nodejs-debugging) | 503 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2017/10/24/theicon.md
 
@@ -1102,6 +1110,12 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [external](https://github.com/lostintangent/vsls-guestbook/pull/11/files#diff-babc63cbfdb83a46e935f16e3eb9066fR20) | 404 |
 | [observable](https://github.com/mobxjs/mobx/blob/master/src/api/observable.ts#L183) | 404 |
 
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2019/05/02/remote-development.md
+
+| URL | State |
+| --- | --- |
+| [vscode-remote-try-* repositories](https://github.com/search?q=org%3AMicrosoft+vscode-remote-try-&unscoped_q=vscode-remote-try-) | 429 |
+
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2019/07/25/remote-ssh.md
 
 | URL | State |
@@ -1121,12 +1135,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | --- | --- |
 | [http://localhost:3000](http://localhost:3000) | 0 |
 | [http://localhost:3000](http://localhost:3000) | 0 |
-
-* https://github.com/microsoft/vscode-docs/blob/main/blogs/2020/02/18/optimizing-ci.md
-
-| URL | State |
-| --- | --- |
-| [earlier blog post](https://medium.com/crawl-walk-sprint/reducing-vs-code-ci-build-times-by-33-dbb1715b5028) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2021/08/05/notebooks.md
 
@@ -1502,12 +1510,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | --- | --- |
 | [http://localhost:8080](http://localhost:8080) | 0 |
 
-* https://github.com/microsoft/vscode-docs/blob/main/docs/other/unity.md
-
-| URL | State |
-| --- | --- |
-| [Unity 5.5 Release notes](https://unity3d.com/unity/whats-new/unity-5.5.0) | 404 |
-
 * https://github.com/microsoft/vscode-docs/blob/main/docs/python/jupyter-support-py.md
 
 | URL | State |
@@ -1519,12 +1521,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [profile](/docs/editor/profiles) | 404 |
-
-* https://github.com/microsoft/vscode-docs/blob/main/docs/python/settings-reference.md
-
-| URL | State |
-| --- | --- |
-| [Pylance](https://devblogs.microsoft.com/python/announcing-pylance-fast-feature-rich-language-support-for-python-in-visual-studio-code/) | 0 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/python/tutorial-flask.md
 
@@ -1696,6 +1692,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [modules](http://www.commonjs.org/specs/modules/1.0) | 404 |
+| [Node.js](https://nodejs.org) | 524 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/typescript/typescript-tutorial.md
 
@@ -1919,6 +1916,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [@JD342](https://github.com/JD342) | 404 |
 | [Yu Zhang (@neilsustc)](https://github.com/neilsustc) | 404 |
+| [PR #29655](https://github.com/microsoft/vscode/pull/29655) | 500 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_17.md
 
@@ -1932,7 +1930,22 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [.tar.gz](https://vscode-update.azurewebsites.net/1.17.2/linux-ia32/stable) | 404 |
 | [.deb](https://vscode-update.azurewebsites.net/1.17.2/linux-deb-ia32/stable) | 404 |
 | [.rpm](https://vscode-update.azurewebsites.net/1.17.2/linux-rpm-ia32/stable) | 404 |
+| [Native Window Tabs](images/1_17/nativetabs.png) | 500 |
+| [Windows insiders](images/1_17/windows-insiders-green.png) | 500 |
+| [Better --wait support](images/1_17/wait.gif) | 500 |
+| [Label Format](images/1_17/labelformat.png) | 500 |
+| [feature](https://github.com/microsoft/vscode-node-debug/pull/158) | 500 |
+| [PR #138](https://github.com/microsoft/vscode-node-debug2/pull/138) | 500 |
+| [Vakhurin Sergey (@igelbox)](https://github.com/igelbox) | 500 |
+| [](images/1_17/quick-suggestion-path-intellisense.gif) | 500 |
+| [PR #34860](https://github.com/microsoft/vscode/pull/34860) | 500 |
+| [PR #33715](https://github.com/microsoft/vscode/pull/33715) | 500 |
 | [Putta Khunchalee (@ExUltima)](https://github.com/ExUltima) | 404 |
+| [PR #34543](https://github.com/microsoft/vscode/pull/34543) | 500 |
+| [PR #34052](https://github.com/microsoft/vscode/pull/34052) | 500 |
+| [PR #34576](https://github.com/microsoft/vscode/pull/34576) | 500 |
+| [PR #34701](https://github.com/microsoft/vscode/pull/34701) | 500 |
+| [PR #33815](https://github.com/microsoft/vscode/pull/33815) | 500 |
 | [ElAndyG (@andyg8180)](https://github.com/andyg8180) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_18.md
@@ -1949,6 +1962,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [.rpm](https://vscode-update.azurewebsites.net/1.18.1/linux-rpm-ia32/stable) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [@MichielVanderlee](https://github.com/MichielVanderlee) | 404 |
+| [PR #36849](https://github.com/microsoft/vscode/pull/36849) | 500 |
 | [Thomas Rayner (@ThmsRynr)](https://github.com/ThmsRynr) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_19.md
@@ -2121,16 +2135,62 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [Chris Patterson (@chrisrpatterson)](https://github.com/chrisrpatterson) | 404 |
 | [Thien Do (@dvkndn)](https://github.com/dvkndn) | 404 |
 | [Guy Waldman (@guywald1)](https://github.com/guywald1) | 404 |
+| [PR #65672](https://github.com/microsoft/vscode/pull/65672) | 500 |
+| [PR #65581](https://github.com/microsoft/vscode/pull/65581) | 500 |
 | [Kermit Xuan (@Kermit-Xuan)](https://github.com/Kermit-Xuan) | 404 |
+| [PR #65498](https://github.com/microsoft/vscode/pull/65498) | 500 |
+| [PR #64558](https://github.com/microsoft/vscode/pull/64558) | 500 |
+| [PR #66072](https://github.com/microsoft/vscode/pull/66072) | 500 |
+| [PR #61526](https://github.com/microsoft/vscode/pull/61526) | 500 |
 | [Néstor Hernández Ojeda (@nesukun)](https://github.com/nesukun) | 404 |
+| [PR #60387](https://github.com/microsoft/vscode/pull/60387) | 500 |
+| [PR #64750](https://github.com/microsoft/vscode/pull/64750) | 500 |
+| [PR #65429](https://github.com/microsoft/vscode/pull/65429) | 500 |
+| [Raul Piraces Alastuey (@piraces)](https://github.com/piraces) | 500 |
+| [PR #66754](https://github.com/microsoft/vscode/pull/66754) | 500 |
+| [PR #65571](https://github.com/microsoft/vscode/pull/65571) | 500 |
+| [PR #66576](https://github.com/microsoft/vscode/pull/66576) | 500 |
+| [PR #65062](https://github.com/microsoft/vscode/pull/65062) | 500 |
+| [PR #56670](https://github.com/microsoft/vscode/pull/56670) | 500 |
+| [PR #67017](https://github.com/microsoft/vscode/pull/67017) | 500 |
+| [PR #64892](https://github.com/microsoft/vscode/pull/64892) | 500 |
+| [PR #65953](https://github.com/microsoft/vscode/pull/65953) | 500 |
+| [PR #65396](https://github.com/microsoft/vscode/pull/65396) | 500 |
+| [PR #66179](https://github.com/microsoft/vscode/pull/66179) | 500 |
+| [PR #65236](https://github.com/microsoft/vscode/pull/65236) | 500 |
+| [PR #64745](https://github.com/microsoft/vscode/pull/64745) | 500 |
+| [PR #65305](https://github.com/microsoft/vscode/pull/65305) | 500 |
+| [PR #64718](https://github.com/microsoft/vscode/pull/64718) | 500 |
+| [PR #67077](https://github.com/microsoft/vscode/pull/67077) | 500 |
+| [PR #66746](https://github.com/microsoft/vscode/pull/66746) | 500 |
+| [PR #65840](https://github.com/microsoft/vscode/pull/65840) | 500 |
+| [PR #59849](https://github.com/microsoft/vscode/pull/59849) | 500 |
+| [PR #59974](https://github.com/microsoft/vscode/pull/59974) | 500 |
+| [PR #65622](https://github.com/microsoft/vscode/pull/65622) | 500 |
+| [PR #439](https://github.com/microsoft/vscode-languageserver-node/pull/439) | 500 |
+| [PR #446](https://github.com/microsoft/vscode-languageserver-node/pull/446) | 500 |
+| [PR #22](https://github.com/microsoft/debug-adapter-protocol/pull/22) | 500 |
+| [PR #138](https://github.com/microsoft/vscode-css-languageservice/pull/138) | 500 |
+| [PR #135](https://github.com/microsoft/vscode-css-languageservice/pull/135) | 500 |
+| [PR #176](https://github.com/microsoft/vscode-recipes/pull/176) | 500 |
 | [Cloud + AI Localization](https://github.com/microsoft/Localization/wiki) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_32.md
 
 | URL | State |
 | --- | --- |
+| [Preferred fixes are indicated with a blue badge on the lightbulb](images/1_32/autofix-ligthbulb.png) | 500 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
+| [PR #67060](https://github.com/microsoft/vscode/pull/67060) | 500 |
+| [PR #68245](https://github.com/microsoft/vscode/pull/68245) | 500 |
+| [John Blackbourn (@johnbillion)](https://github.com/johnbillion) | 500 |
+| [PR #67861](https://github.com/microsoft/vscode/pull/67861) | 500 |
+| [PR #68198](https://github.com/microsoft/vscode/pull/68198) | 500 |
+| [Luciana da Costa Marques (@LucianaMarques)](https://github.com/LucianaMarques) | 500 |
 | [Pedro Fernandes (@MrZephyr17)](https://github.com/MrZephyr17) | 404 |
+| [PR #66418](https://github.com/microsoft/vscode/pull/66418) | 500 |
+| [PR #441](https://github.com/microsoft/vscode-languageserver-node/pull/441) | 500 |
+| [PR #459](https://github.com/microsoft/vscode-languageserver-node/pull/459) | 500 |
 | [Ace Cassidy (@Ace-Cassidy)](https://github.com/Ace-Cassidy) | 404 |
 | [Cloud + AI Localization](https://github.com/microsoft/Localization/wiki) | 404 |
 
@@ -2141,6 +2201,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [Ethan Dennis](https://github.com/erdennis13) | 404 |
 | [Progracientist (@beastdestroyer)](https://github.com/beastdestroyer) | 404 |
+| [@dekkonot](https://github.com/dekkonot) | 500 |
 | [Sayan Nandan (@sntdevco)](https://github.com/sntdevco) | 404 |
 | [Cloud + AI Localization](https://github.com/microsoft/Localization/wiki) | 404 |
 
@@ -2155,6 +2216,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [rewrote our local file system provider](https://github.com/microsoft/vscode/blob/main/src/vs/workbench/services/files/node/diskFileSystemProvider.ts) | 404 |
 | [@cmchumak](https://github.com/cmchumak) | 404 |
+| [PR #73273](https://github.com/microsoft/vscode/pull/73273) | 500 |
 | [XTY (@xtydev)](https://github.com/xtydev) | 404 |
 | [Cloud + AI Localization](https://github.com/microsoft/Localization/wiki) | 404 |
 
@@ -2162,6 +2224,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [Go to Definition, no Peek view](images/1_35/go-to-def-loop.gif) | 500 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [@Acid147](https://github.com/Acid147) | 404 |
 | [Preet Sai Mutneja (@preetsaimutneja)](https://github.com/preetsaimutneja) | 404 |
@@ -2635,7 +2698,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [.deb](https://vscode-update.azurewebsites.net/1.8.1/linux-deb-ia32/stable) | 404 |
 | [.rpm](https://vscode-update.azurewebsites.net/1.8.1/linux-rpm-ia32/stable) | 404 |
 | [TypeScript 2.1](https://devblogs.microsoft.com/typescript/announcing-typescript-2-1/) | 404 |
-| [blog](https://medium.com/@auchenberg/introducing-simultaneous-nirvana-javascript-debugging-for-node-js-and-chrome-in-vs-code-d898a4011ab1#.fehi3batj) | 429 |
 | [`SnippetString`](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.d.ts#L2073) | 404 |
 | [`inspect`](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.d.ts#L2825) | 404 |
 | [word-range](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.d.ts#L221) | 404 |
