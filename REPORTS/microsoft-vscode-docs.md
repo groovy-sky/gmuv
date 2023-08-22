@@ -219,7 +219,6 @@
 | URL | State |
 | --- | --- |
 | [Contribution Point](/api/references/contribution-points) | 404 |
-| [mermaid](https://knsv.github.io/mermaid/index.html) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/api/extension-guides/notebook.md
 
@@ -411,7 +410,6 @@
 
 | URL | State |
 | --- | --- |
-| [guides](https://code.visualstudio.com/api/extension-guides/overview) | 503 |
 | [UX guidelines](/api/ux-guidelines/overview) | 404 |
 | [Theming](/api/extension-capabilities/theming) | 404 |
 | [Extending the Workbench](/api/extension-capabilities/extending-workbench) | 404 |
@@ -427,8 +425,6 @@
 | [Proposed API](/api/advanced-topics/using-proposed-api) | 404 |
 | [VS Code API](/api/references/vscode-api) | 404 |
 | [Contribution Points](/api/references/contribution-points) | 404 |
-| [Extension authoring](https://code.visualstudio.com/updates#_extension-authoring) | 503 |
-| [Proposed extension APIs](https://code.visualstudio.com/updates#_proposed-extension-apis) | 503 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/api/language-extensions/embedded-languages.md
 
@@ -1049,7 +1045,14 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [extension generator](https://code.visualstudio.com/docs/extensions/yocode) | 503 |
 | [Azure Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-azureextensionpack) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2017/05/10/build-2017-demo.md
+
+| URL | State |
+| --- | --- |
+| [Docker multi-stage builds](https://codefresh.io/blog/node_docker_multistage/) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2017/10/24/theicon.md
 
@@ -1126,6 +1129,12 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [http://localhost:3000](http://localhost:3000) | 0 |
 | [http://localhost:3000](http://localhost:3000) | 0 |
 
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2020/07/01/containers-wsl.md
+
+| URL | State |
+| --- | --- |
+| [prior post](https://code.visualstudio.com/blogs/2019/09/03/wsl2) | 503 |
+
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2021/08/05/notebooks.md
 
 | URL | State |
@@ -1191,20 +1200,11 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | --- | --- |
 | [Visual Studio Code](/download) | 404 |
 
-* https://github.com/microsoft/vscode-docs/blob/main/docs/cpp/config-clang-mac.md
-
-| URL | State |
-| --- | --- |
-| [Screenshot of play button drop-down](images/playbutton/run-debug-arrow.png) | 404 |
-| [screenshot of play button in debug mode](images/playbutton/debug-button.png) | 404 |
-
 * https://github.com/microsoft/vscode-docs/blob/main/docs/cpp/config-linux.md
 
 | URL | State |
 | --- | --- |
 | [Visual Studio Code](/download) | 404 |
-| [Screenshot of play button drop-down](images/playbutton/run-debug-arrow.png) | 404 |
-| [screenshot of play button in debug mode](images/playbutton/debug-button.png) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/cpp/config-mingw.md
 
@@ -1217,16 +1217,12 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [Visual Studio Code](/download) | 404 |
-| [Screenshot of play button drop-down](images/playbutton/run-debug-arrow.png) | 404 |
-| [screenshot of play button in debug mode](images/playbutton/debug-button.png) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/cpp/config-wsl.md
 
 | URL | State |
 | --- | --- |
 | [Visual Studio Code](/download) | 404 |
-| [Screenshot of play button drop-down](images/playbutton/run-debug-arrow.png) | 404 |
-| [screenshot of play button in debug mode](images/playbutton/debug-button.png) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/csharp/cs-dev-kit-faq.md
 
@@ -1251,6 +1247,12 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [profile](/docs/editor/profiles) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/docs/datascience/jupyter-kernel-management.md
+
+| URL | State |
+| --- | --- |
+| [vscode.dev](https://vscode.dev) | 504 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/datascience/jupyter-notebooks.md
 
@@ -1479,10 +1481,17 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | --- | --- |
 | [JSCS](https://marketplace.visualstudio.com/items?itemName=ms-vscode.jscs) | 404 |
 
+* https://github.com/microsoft/vscode-docs/blob/main/docs/nodejs/nodejs-debugging.md
+
+| URL | State |
+| --- | --- |
+| [Node.js](https://nodejs.org/) | 524 |
+
 * https://github.com/microsoft/vscode-docs/blob/main/docs/nodejs/nodejs-tutorial.md
 
 | URL | State |
 | --- | --- |
+| [Node.js](https://nodejs.org/) | 524 |
 | [http://localhost:3000](http://localhost:3000) | 0 |
 | [profile](/docs/editor/profiles) | 404 |
 
@@ -1491,6 +1500,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [http://localhost:3000](http://localhost:3000) | 0 |
+| [Live edit and debug your React apps directly from VS Code](https://medium.com/@auchenberg/live-edit-and-debug-your-react-apps-directly-from-vs-code-without-leaving-the-editor-3da489ed905f) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/nodejs/vuejs-tutorial.md
 
@@ -1534,7 +1544,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [Node.js](https://nodejs.org/en/docs/meta/topics/dependencies) | 404 |
-| [article](https://serverkurma.com/linux/how-to-update-glibc-newer-version-on-centos-6-x/) | 403 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/remote/ssh-tutorial.md
 
@@ -2123,6 +2132,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
+| [blog post](https://medium.com/microsoft-1es/reducing-vs-code-ci-build-times-e0c5872bfdde) | 429 |
 | [Ethan Dennis](https://github.com/erdennis13) | 404 |
 | [Progracientist (@beastdestroyer)](https://github.com/beastdestroyer) | 404 |
 | [Sayan Nandan (@sntdevco)](https://github.com/sntdevco) | 404 |
@@ -2662,7 +2672,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [`js-is-jsx` extension](https://marketplace.visualstudio.com/items?itemName=eg2.js-is-jsx) | 404 |
-| [AutoHotKey](https://www.autohotkey.com) | 403 |
 | [here](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.d.ts) | 404 |
 | [VS Code extension APIs](/docs/extensionAPI/overview.md) | 404 |
 
