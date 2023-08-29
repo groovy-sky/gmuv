@@ -330,6 +330,7 @@
 | [VS Code API](/api/references/vscode-api) | 404 |
 | [file system](/api/references/vscode-api#FileSystem) | 404 |
 | [Extension context](/api/references/vscode-api#ExtensionContext) | 404 |
+| [vscode.dev](https://vscode.dev) | 504 |
 | [Testing Extensions](/api/working-with-extensions/testing-extension) | 404 |
 | [when clause contexts](/api/references/when-clause-contexts) | 404 |
 
@@ -923,106 +924,196 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [@chrisdias](https://twitter.com/chrisdias) | 404 |
 | [Download the Insiders build](/insiders) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2016/02/23/introducing-chrome-debugger-for-vs-code.md
+
+| URL | State |
+| --- | --- |
+| [Andy Sterland](https://twitter.com/AndySterland) | 404 |
+| [Kenneth Auchenberg](https://twitter.com/auchenberg) | 404 |
+| [Twitter](https://twitter.com/code) | 404 |
+| [Andy Sterland](https://twitter.com/AndySterland) | 404 |
+| [Kenneth Auchenberg](https://twitter.com/auchenberg) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2016/03/07/Feb2016Release.md
 
 | URL | State |
 | --- | --- |
+| [@code](https://twitter.com/code) | 404 |
 | [UserVoice](https://visualstudio.uservoice.com/forums/293070-visual-studio-code/suggestions/7752321-add-code-folding-support) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2016/03/11/ExtensionsRoundup.md
 
 | URL | State |
 | --- | --- |
+| [@waderyan_](https://twitter.com/waderyan_) | 404 |
 | [UserVoice](https://visualstudio.uservoice.com/forums/293070-visual-studio-code?query=ruby) | 404 |
 | [RSS feed](feed.xml) | 404 |
+| [Tweet](https://twitter.com/code) | 404 |
+| [@waderyan_](https://twitter.com/waderyan_) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2016/03/14/Feb2016Recovery.md
+
+| URL | State |
+| --- | --- |
+| [@code](https://twitter.com/code) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2016/04/14/vscode-1.0.md
 
 | URL | State |
 | --- | --- |
+| [@code](https://twitter.com/code) | 404 |
 | [first preview](https://blogs.msdn.microsoft.com/somasegar/2015/04/29/introducing-visual-studio-code-visual-studio-2015-rc-application-insights-public-preview-and-net-core-preview-for-linux-and-ma) | 404 |
 | [experiences](/docs/editor/editingevolved) | 404 |
 | [debugging](/docs/editor/debugging) | 404 |
 | [Git support](/docs/sourcecontrol/overview) | 404 |
 | [languages](/docs/getstarted/locales) | 404 |
+| [@zersiax](https://twitter.com/zersiax) | 404 |
 | [accessible](/docs/editor/accessibility) | 404 |
 | [download](/Download) | 404 |
+| [@code](https://twitter.com/code) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2016/05/04/extension-roundup-may.md
 
 | URL | State |
 | --- | --- |
+| [@waderyan_](https://twitter.com/waderyan_) | 404 |
 | [Debugger for Edge](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-edge) | 404 |
 | [See more details in the Marketplace](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer) | 404 |
+| [Tweet](https://twitter.com/code) | 404 |
+| [@waderyan_](https://twitter.com/waderyan_) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2016/05/09/April2016Release.md
+
+| URL | State |
+| --- | --- |
+| [@code](https://twitter.com/code) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2016/05/23/evolution-of-insiders.md
 
 | URL | State |
 | --- | --- |
+| [@waderyan_](https://twitter.com/waderyan_) | 404 |
 | [downloads page](/insiders) | 404 |
+| [Twitter](https://go.microsoft.com/fwlink/?LinkID=533687) | 404 |
+| [@waderyan_](https://twitter.com/waderyan_) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2016/06/27/common-language-protocol.md
 
 | URL | State |
 | --- | --- |
+| [@code](https://twitter.com/code) | 404 |
 | [Eclipse Che](https://che.eclipse.org/eclipse-che-now-strategic-platform-red-hat) | 0 |
 | [Eclipse Che](https://che.eclipse.org/eclipse-che-now-strategic-platform-red-hat) | 0 |
 | [Language Server Walkthrough](/docs/extensions/example-language-server.md) | 404 |
+| [@code](https://twitter.com/code) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2016/07/29/extensions-roundup-git.md
+
+| URL | State |
+| --- | --- |
+| [@waderyan_](https://twitter.com/waderyan_) | 404 |
+| [@waderyan_](https://twitter.com/waderyan_) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2016/08/15/introvideos.md
+
+| URL | State |
+| --- | --- |
+| [@waderyan_](https://twitter.com/waderyan_) | 404 |
+| [@waderyan_](https://twitter.com/waderyan_) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2016/08/19/goodbyeuservoice.md
 
 | URL | State |
 | --- | --- |
+| [@waderyan_](https://twitter.com/waderyan_) | 404 |
 | [User Voice site](https://visualstudio.uservoice.com/forums/293070-visual-studio-code) | 404 |
 | [Extensions](https://visualstudio.uservoice.com/forums/293070-visual-studio-code/suggestions/9181439-plugins) | 404 |
 | [Tabs](https://visualstudio.uservoice.com/forums/293070-visual-studio-code/suggestions/7752519-implement-tabs) | 404 |
 | [Integrated Terminal](https://visualstudio.uservoice.com/forums/293070-visual-studio-code/suggestions/7752357-integrated-terminal) | 404 |
+| [Twitter](https://twitter.com/code) | 404 |
 | [User Voice](https://visualstudio.uservoice.com/forums/293070-visual-studio-code) | 404 |
 | [VS Code User Voice site](https://visualstudio.uservoice.com/forums/293070-visual-studio-code) | 404 |
+| [@waderyan_](https://twitter.com/waderyan_) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2016/08/22/introducing-ios-web-debugging-for-vs-code-on-windows-and-mac.md
 
 | URL | State |
 | --- | --- |
+| [Kenneth Auchenberg](https://twitter.com/auchenberg) | 404 |
 | [iOS Web Debugger for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-ios-web) | 404 |
+| [Twitter](https://twitter.com/code) | 404 |
+| [Kenneth Auchenberg](https://twitter.com/auchenberg) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2016/09/08/icon-themes.md
 
 | URL | State |
 | --- | --- |
+| [@chrisdias](https://twitter.com/chrisdias) | 404 |
 | ["Adding a new Icon Theme"](/docs/extensions/themes-snippets-colorizers.md#adding-a-new-icon-theme) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2016/09/14/js_roundup_1.md
 
 | URL | State |
 | --- | --- |
+| [@waderyan_](https://twitter.com/waderyan_) | 404 |
 | [here](/docs/extensionAPI/patterns-and-principles.md#core-concepts) | 404 |
 | [JSCS](https://marketplace.visualstudio.com/items?itemName=ms-vscode.jscs) | 404 |
 | [JS Standard](https://marketplace.visualstudio.com/items?itemName=shinnn.standard) | 404 |
+| [@waderyan_](https://twitter.com/waderyan_) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2016/10/31/js_roundup_2.md
 
 | URL | State |
 | --- | --- |
+| [@waderyan_](https://twitter.com/waderyan_) | 404 |
 | [Edge](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-edge) | 404 |
 | [`contributes.keybindings` section](/docs/extensionAPI/extension-points#_contributeskeybindings) | 404 |
 | [Keybindings document](/docs/getstarted/keybindings) | 404 |
 | [FontSize Shortcuts](https://marketplace.visualstudio.com/items?itemName=peterjuras.fontsize-shortcuts) | 404 |
 | [documentation](/docs/extensions/overview.md) | 404 |
+| [@waderyan_](https://twitter.com/waderyan_) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2016/11/15/formatters-best-practices.md
 
 | URL | State |
 | --- | --- |
+| [@johannesrieken](https://twitter.com/johannesrieken) | 404 |
 | [contributes.configuration](/docs/extensionAPI/extension-points.md#contributesconfiguration) | 404 |
 | [extension packs](/updates/v1_7#_extension-packs) | 404 |
+| [#HappyCoding](https://twitter.com/hashtag/HappyCoding?src=hash) | 404 |
+| [@johannesrieken](https://twitter.com/johannesrieken) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2016/11/3/rollback.md
+
+| URL | State |
+| --- | --- |
+| [@waderyan_](https://twitter.com/waderyan_) | 404 |
+| [#HappyCoding](https://twitter.com/hashtag/HappyCoding?src=hash) | 404 |
+| [@waderyan_](https://twitter.com/waderyan_) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2016/11/30/hot-exit-in-insiders.md
+
+| URL | State |
+| --- | --- |
+| [@Tyriar](https://twitter.com/Tyriar) | 404 |
+| [#HappyCoding](https://twitter.com/hashtag/HappyCoding?src=hash) | 404 |
+| [@Tyriar](https://twitter.com/Tyriar) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2016/12/12/roundup-customize.md
+
+| URL | State |
+| --- | --- |
+| [@waderyan_](https://twitter.com/waderyan_) | 404 |
+| [@waderyan_](https://twitter.com/waderyan_) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2017/01/15/connect-nina-e2e.md
 
 | URL | State |
 | --- | --- |
+| [@lostintangent](https://twitter.com/LostInTangent) | 404 |
 | [Node Interactive North America 2016](events.linuxfoundation.org/events/node-interactive) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2017/02/08/syntax-highlighting-optimizations.md
@@ -1033,31 +1124,71 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [an immutable linked list](https://github.com/microsoft/vscode-textmate/blob/main/src/grammar.ts#L946) | 404 |
 | [test.c](https://github.com/microsoft/vscode/blob/release/1.9/extensions/cpp/test/colorize-fixtures/test.c) | 404 |
 | [test_c.json](https://github.com/microsoft/vscode/blob/release/1.9/extensions/cpp/test/colorize-results/test_c.json) | 404 |
+| [@alexdima123](https://twitter.com/alexdima123) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2017/02/12/code-lens-roundup.md
 
 | URL | State |
 | --- | --- |
+| [@waderyan_](https://twitter.com/waderyan_) | 404 |
 | [documentation](/docs/extensionAPI/language-support.md#codelens-show-actionable-context-information-within-source-code) | 404 |
 | [Extension Packs](/docs/extensionAPI/extension-manifest.md#extension-packs) | 404 |
+| [@waderyan_](https://twitter.com/waderyan_) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2017/03/07/extension-pack-roundup.md
 
 | URL | State |
 | --- | --- |
-| [extension generator](https://code.visualstudio.com/docs/extensions/yocode) | 503 |
+| [@waderyan_](https://twitter.com/waderyan_) | 404 |
 | [Azure Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-azureextensionpack) | 404 |
+| [Twitter](https://twitter.com/code) | 404 |
+| [@waderyan_](https://twitter.com/waderyan_) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2017/04/10/sublime-text-roundup.md
+
+| URL | State |
+| --- | --- |
+| [@waderyan_](https://twitter.com/waderyan_) | 404 |
+| [@waderyan_](https://twitter.com/waderyan_) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2017/05/10/build-2017-demo.md
 
 | URL | State |
 | --- | --- |
-| [Docker multi-stage builds](https://codefresh.io/blog/node_docker_multistage/) | 404 |
+| [@chrisdias](https://twitter.com/chrisdias) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2017/06/20/great-looking-editor-roundup.md
+
+| URL | State |
+| --- | --- |
+| [@waderyan_](https://twitter.com/waderyan_) | 404 |
+| [@waderyan_](https://twitter.com/waderyan_) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2017/08/07/emmet-2.0.md
+
+| URL | State |
+| --- | --- |
+| [@ramyanexus](https://twitter.com/ramyanexus) | 404 |
+| [@ramyanexus](https://twitter.com/ramyanexus) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2017/09/28/java-debug.md
+
+| URL | State |
+| --- | --- |
+| [@JavaOnAzure](https://twitter.com/JavaOnAzure) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2017/10/03/terminal-renderer.md
+
+| URL | State |
+| --- | --- |
+| [@Tyriar](https://twitter.com/Tyriar) | 404 |
+| [@Tyriar](https://twitter.com/Tyriar) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2017/10/24/theicon.md
 
 | URL | State |
 | --- | --- |
+| [@chrisdias](https://twitter.com/chrisdias) | 404 |
 | [Apple design guidelines](https://developer.apple.com/macos/human-interface-guidelines/icons-and-images/app-icon) | 404 |
 | [exploring using a non-tilted icon for macOS]( https://github.com/microsoft/vscode/issues/36692) | 0 |
 
@@ -1065,12 +1196,15 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [@amandaksilver](https://twitter.com/amandaksilver) | 404 |
 | [here](/visual-studio-live-share) | 404 |
+| [@amandaksilver](https://twitter.com/amandaksilver) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2017/11/16/connect.md
 
 | URL | State |
 | --- | --- |
+| [@nz_sean](https://twitter.com/nz_sean) | 404 |
 | [Visual Studio Live Share page](/visual-studio-live-share) | 404 |
 | [Python](/docs/languages/python) | 404 |
 | [Java](/docs/languages/java) | 404 |
@@ -1079,101 +1213,374 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [Kenneth Auchenberg](https://twitter.com/auchenberg) | 404 |
 | [`break-on-load breakpoints`](https://github.com/microsoft/vscode-chrome-debug/issues/445) | 404 |
+| [@auchenberg](https://twitter.com/auchenberg) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2018/03/23/text-buffer-reimplementation.md
 
 | URL | State |
 | --- | --- |
+| [@njukidreborn](https://twitter.com/njukidreborn) | 404 |
 | [sqlite.c](https://github.com/kripken/emscripten/blob/master/tests/sqlite/sqlite3.c) | 404 |
+| [@njukidreborn](https://twitter.com/njukidreborn) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2018/04/25/bing-settings-search.md
+
+| URL | State |
+| --- | --- |
+| [@roblourens](https://twitter.com/roblourens) | 404 |
+| [@roblourens](https://twitter.com/roblourens) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2018/05/07/live-share-public-preview.md
+
+| URL | State |
+| --- | --- |
+| [@amandaksilver](https://twitter.com/amandaksilver) | 404 |
+| [@amandaksilver](https://twitter.com/amandaksilver) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2018/07/12/introducing-logpoints-and-auto-attach.md
 
 | URL | State |
 | --- | --- |
+| [@auchenberg](https://twitter.com/auchenberg) | 404 |
 | [launch configurations](/docs/editor/debugging#_launch-configurations) | 404 |
 | [attach config](/docs/editor/debugging#_launchjson-attributes) | 404 |
 | [launch configurations](/docs/editor/debugging#_launch-configurations) | 404 |
+| [@code on Twitter](https://twitter.com/code) | 404 |
+| [@auchenberg on Twitter](https://twitter.com/auchenberg) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2018/08/07/debug-adapter-protocol-website.md
+
+| URL | State |
+| --- | --- |
+| [@weinand](https://twitter.com/weinand) | 404 |
+| [@weinand on Twitter](https://twitter.com/weinand) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2018/09/10/introducing-github-pullrequests.md
+
+| URL | State |
+| --- | --- |
+| [@auchenberg](https://twitter.com/auchenberg) | 404 |
+| [@code on Twitter](https://twitter.com/code) | 404 |
+| [Kenneth Auchenberg (Microsoft)](https://twitter.com/auchenberg) | 404 |
+| [Kai Maetzel (Microsoft)](https://twitter.com/kaimaetzel) | 404 |
+| [Peng Lyu (Microsoft)](https://twitter.com/njukidreborn) | 404 |
+| [Sarah Guthals (GitHub)](https://twitter.com/sarahguthals) | 404 |
+| [Andreia Gaita (GitHub)](https://twitter.com/shana) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2018/09/12/engineering-with-azure-pipelines.md
 
 | URL | State |
 | --- | --- |
+| [@joaomoreno](https://twitter.com/joaomoreno) | 404 |
 | [bringing the PR experience into the editor](/blogs/2018/09/10/introducing-github-pullrequests) | 404 |
 | [build definition files](https://github.com/microsoft/vscode/blob/main/build/tfs/product-build.yml) | 404 |
+| [@code on Twitter](https://twitter.com/code) | 404 |
+| [@joaomoreno](https://twitter.com/joaomoreno) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2018/11/26/event-stream.md
+
+| URL | State |
+| --- | --- |
+| [@kaimaetzel](https://twitter.com/kaimaetzel) | 404 |
+| [Kai Maetzel (Microsoft)](https://twitter.com/kaimaetzel) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2018/12/04/rich-navigation.md
 
 | URL | State |
 | --- | --- |
+| [@lostintangent](https://twitter.com/LostInTangent) | 404 |
 | [external](https://github.com/lostintangent/vsls-guestbook/pull/11/files#diff-babc63cbfdb83a46e935f16e3eb9066fR20) | 404 |
 | [observable](https://github.com/mobxjs/mobx/blob/master/src/api/observable.ts#L183) | 404 |
+| [@lostintangent](https://twitter.com/LostInTangent) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2019/05/02/remote-development.md
+
+| URL | State |
+| --- | --- |
+| [@code](https://twitter.com/code) | 404 |
+| [@code](https://twitter.com/code) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2019/07/25/remote-ssh.md
 
 | URL | State |
 | --- | --- |
+| [@sana_ajani](https://twitter.com/sana_ajani) | 404 |
 | [http://localhost:5000](http://localhost:5000) | 0 |
+| [@sana_ajani](https://twitter.com/sana_ajani) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2019/09/03/wsl2.md
+
+| URL | State |
+| --- | --- |
+| [@fiveisprime](https://twitter.com/fiveisprime) | 404 |
+| [@fiveisprime](https://twitter.com/fiveisprime) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2019/10/03/remote-ssh-tips-and-tricks.md
 
 | URL | State |
 | --- | --- |
+| [@sana_ajani](https://twitter.com/sana_ajani) | 404 |
 | [configuration file](https://linuxize.com/post/using-the-ssh-config-file) | 403 |
 | [Remote - SSH Nightly extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-nightly) | 404 |
+| [@sana_ajani](https://twitter.com/sana_ajani) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2019/10/31/inspecting-containers.md
 
 | URL | State |
 | --- | --- |
+| [@bowdenk7](https://twitter.com/bowdenk7) | 404 |
 | [http://localhost:3000](http://localhost:3000) | 0 |
 | [http://localhost:3000](http://localhost:3000) | 0 |
+| [@bowdenk7](https://twitter.com/bowdenk7) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2020/02/18/optimizing-ci.md
+
+| URL | State |
+| --- | --- |
+| [@erdennis13](https://twitter.com/erdennis13) | 404 |
+| [@joaomoreno](https://twitter.com/joaomoreno) | 404 |
+| [earlier blog post](https://medium.com/crawl-walk-sprint/reducing-vs-code-ci-build-times-by-33-dbb1715b5028) | 429 |
+| [@erdennis13](https://twitter.com/erdennis13) | 404 |
+| [@joaomoreno](https://twitter.com/joaomoreno) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2020/03/02/docker-in-wsl2.md
+
+| URL | State |
+| --- | --- |
+| [@fiveisprime](https://twitter.com/fiveisprime) | 404 |
+| [@fiveisprime](https://twitter.com/fiveisprime) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2020/05/06/github-issues-integration.md
+
+| URL | State |
+| --- | --- |
+| [@sana_ajani](https://twitter.com/sana_ajani) | 404 |
+| [@burkeholland](https://twitter.com/burkeholland) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2020/05/14/vscode-build-2020.md
+
+| URL | State |
+| --- | --- |
+| [@ItalyPaleAle](https://twitter.com/ItalyPaleAle) | 404 |
+| [@ChrisDias](https://twitter.com/ChrisDias) | 404 |
+| [@slace](https://twitter.com/slace) | 404 |
+| [@holtbt](https://twitter.com/holtbt) | 404 |
+| [@slace](https://twitter.com/slace) | 404 |
+| [@NicolasGarfink1](https://twitter.com/NicolasGarfink1) | 404 |
+| [@LostInTangent](https://twitter.com/LostInTangent) | 404 |
+| [@drosenwasser](https://twitter.com/drosenwasser) | 404 |
+| [@luumelo14](https://twitter.com/luumelo14) | 404 |
+| [@SidUnnithan](https://twitter.com/SidUnnithan) | 404 |
+| [@jeffrey_mew](https://twitter.com/jeffrey_mew) | 404 |
+| [@ItalyPaleAle](https://twitter.com/ItalyPaleAle) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2020/06/09/go-extension.md
+
+| URL | State |
+| --- | --- |
+| [@code](https://twitter.com/code) | 404 |
+| [@ramyanexus](https://twitter.com/ramyanexus/) | 404 |
+| [@lukehoban](https://twitter.com/lukehoban/) | 404 |
+| [@erichgamma](https://twitter.com/erichgamma/) | 404 |
+| [@stamblerre](https://twitter.com/stamblerre/) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2020/07/01/containers-wsl.md
 
 | URL | State |
 | --- | --- |
-| [prior post](https://code.visualstudio.com/blogs/2019/09/03/wsl2) | 503 |
+| [@BrigitMurtaugh](https://twitter.com/BrigitMurtaugh) | 404 |
+| [@code](https://twitter.com/code) | 404 |
+| [@BrigitMurtaugh](https://twitter.com/BrigitMurtaugh) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2020/07/27/containers-edu.md
+
+| URL | State |
+| --- | --- |
+| [@BrigitMurtaugh](https://twitter.com/BrigitMurtaugh) | 404 |
+| [@code](https://twitter.com/code) | 404 |
+| [@BrigitMurtaugh](https://twitter.com/BrigitMurtaugh) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2020/12/03/chromebook-get-started.md
+
+| URL | State |
+| --- | --- |
+| [@ItalyPaleAle](https://twitter.com/ItalyPaleAle) | 404 |
+| [@ItalyPaleAle](https://twitter.com/ItalyPaleAle) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2021/02/16/extension-bisect.md
+
+| URL | State |
+| --- | --- |
+| [@johannesrieken](https://twitter.com/johannesrieken) | 404 |
+| [@johannesrieken](https://twitter.com/johannesrieken) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2021/06/02/build-2021.md
+
+| URL | State |
+| --- | --- |
+| [@ItalyPaleAle](https://twitter.com/ItalyPaleAle) | 404 |
+| [@code](https://twitter.com/code) | 404 |
+| [@ItalyPaleAle](https://twitter.com/ItalyPaleAle) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2021/06/10/remote-repositories.md
+
+| URL | State |
+| --- | --- |
+| [@BrigitMurtaugh](https://twitter.com/BrigitMurtaugh) | 404 |
+| [@eamodio](https://twitter.com/eamodio) | 404 |
+| [@code](https://twitter.com/code) | 404 |
+| [@BrigitMurtaugh](https://twitter.com/BrigitMurtaugh) | 404 |
+| [@eamodio](https://twitter.com/eamodio) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2021/07/06/workspace-trust.md
+
+| URL | State |
+| --- | --- |
+| [@chrisdias](https://twitter.com/chrisdias) | 404 |
+| [@code](https://twitter.com/code) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2021/08/05/notebooks.md
 
 | URL | State |
 | --- | --- |
+| [@chrisdias](https://twitter.com/chrisdias) | 404 |
 | [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2021/09/29/bracket-pair-colorization.md
 
 | URL | State |
 | --- | --- |
+| [@hediet_dev](https://twitter.com/hediet_dev) | 404 |
 | [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) | 404 |
+| [@hediet_dev](https://twitter.com/hediet_dev) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2021/10/11/webview-ui-toolkit.md
+
+| URL | State |
+| --- | --- |
+| [@david_dossett](https://twitter.com/david_dossett) | 404 |
+| [@hawkticehurst](https://twitter.com/hawkticehurst) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2021/10/20/vscode-dev.md
+
+| URL | State |
+| --- | --- |
+| [@chrisdias](https://twitter.com/chrisdias) | 404 |
+| [@sarah_edo](https://twitter.com/sarah_edo) | 404 |
+| [@wesbos](https://twitter.com/wesbos) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2021/11/08/custom-notebooks.md
+
+| URL | State |
+| --- | --- |
+| [@_tanhakabir](https://twitter.com/_tanhakabir) | 404 |
+| [@code](https://twitter.com/code) | 404 |
+| [@_tanhakabir](https://twitter.com/_tanhakabir) | 404 |
+| [@code](https://twitter.com/code) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2022/03/08/the-tutorial-problem.md
+
+| URL | State |
+| --- | --- |
+| [@burkeholland](https://twitter.com/burkeholland) | 404 |
+| [@burkeholland](https://twitter.com/burkeholland) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2022/04/04/increase-productivity-with-containers.md
+
+| URL | State |
+| --- | --- |
+| [@OliviaGuzzardo](https://twitter.com/OliviaGuzzardo) | 404 |
+| [@OliviaGuzzardo](https://twitter.com/OliviaGuzzardo) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2022/05/18/dev-container-cli.md
+
+| URL | State |
+| --- | --- |
+| [@BrigitMurtaugh](https://twitter.com/BrigitMurtaugh) | 404 |
+| [@BrigitMurtaugh](https://twitter.com/BrigitMurtaugh) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2022/07/07/vscode-server.md
+
+| URL | State |
+| --- | --- |
+| [@BrigitMurtaugh](https://twitter.com/BrigitMurtaugh) | 404 |
+| [@code](https://twitter.com/code) | 404 |
+| [@BrigitMurtaugh](https://twitter.com/BrigitMurtaugh) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2022/09/15/dev-container-features.md
+
+| URL | State |
+| --- | --- |
+| [@BrigitMurtaugh](https://twitter.com/BrigitMurtaugh) | 404 |
+| [@BrigitMurtaugh](https://twitter.com/BrigitMurtaugh) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2022/10/04/vscode-community-discussions.md
+
+| URL | State |
+| --- | --- |
+| [@OliviaGuzzardo](https://twitter.com/OliviaGuzzardo) | 404 |
+| [Twitter](https://twitter.com/code) | 404 |
+| [@OliviaGuzzardo](https://twitter.com/OliviaGuzzardo) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2022/11/28/vscode-sandbox.md
 
 | URL | State |
 | --- | --- |
+| [@BenjaminPasero](https://twitter.com/BenjaminPasero) | 404 |
+| [reach out to us](https://twitter.com/code) | 404 |
 | [we expose certain methods](https://github.com/microsoft/vscode/blob/main/src/vs/base/parts/sandbox/electron-browser/preload.js) | 404 |
+| [@BenjaminPasero](https://twitter.com/BenjaminPasero) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2022/12/07/remote-even-better.md
+
+| URL | State |
+| --- | --- |
+| [@BrigitMurtaugh](https://twitter.com/BrigitMurtaugh) | 404 |
+| [@code](https://twitter.com/code) | 404 |
+| [@BrigitMurtaugh](https://twitter.com/BrigitMurtaugh) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2023/03/30/vscode-copilot.md
 
 | URL | State |
 | --- | --- |
+| [@chrisdias](https://twitter.com/chrisdias) | 404 |
 | [blog post]( https://github.blog/2023-03-22-github-copilot-x-the-ai-powered-developer-experience) | 0 |
 | [Copilot extension]( https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) | 0 |
 | [Oege De Moor]( https://twitter.com/oegerikus) | 0 |
 | [OpenAI's codex model]( https://openai.com/blog/openai-codex) | 0 |
+| [Twitter](https://twitter.com/code) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2023/04/13/vscode-day.md
 
 | URL | State |
 | --- | --- |
+| [@burkeholland](https://twitter.com/burkeholland) | 404 |
 | [Kai Maetzel](https://www.linkedin.com/in/kai-maetzel-88ba9857) | 999 |
+| [Sandeep Somavarapu](https://twitter.com/sandy081) | 404 |
+| [Brigit Murtaugh](https://twitter.com/BrigitMurtaugh) | 404 |
+| [Connor Peet](https://twitter.com/ConnorPeet) | 404 |
+| [Matthew Pocock](https://twitter.com/mattpocockuk) | 404 |
+| [Megan Rogge](https://twitter.com/MeganRogge_) | 404 |
+| [Alfredo Deza](https://twitter.com/alfredodeza) | 404 |
 | [Soojin Choi](https://www.linkedin.com/in/soojinmin) | 999 |
+| [Pamela Fox](https://twitter.com/pamelafox) | 404 |
+| [Amelia Wattenberger](https://twitter.com/Wattenberger) | 404 |
+| [Joyce Er](https://twitter.com/joyceerhl) | 404 |
+| [@burkeholland](https://twitter.com/burkeholland) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2023/06/05/vscode-wasm-wasi.md
 
 | URL | State |
 | --- | --- |
 | [Java](https://www.java.com) | 403 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2023/07/20/mangling-vscode.md
+
+| URL | State |
+| --- | --- |
+| [@johannesrieken](https://twitter.com/johannesrieken) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/containers/quickstart-aspnet-core.md
 
@@ -1247,12 +1654,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [profile](/docs/editor/profiles) | 404 |
-
-* https://github.com/microsoft/vscode-docs/blob/main/docs/datascience/jupyter-kernel-management.md
-
-| URL | State |
-| --- | --- |
-| [vscode.dev](https://vscode.dev) | 504 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/datascience/jupyter-notebooks.md
 
@@ -1481,17 +1882,10 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | --- | --- |
 | [JSCS](https://marketplace.visualstudio.com/items?itemName=ms-vscode.jscs) | 404 |
 
-* https://github.com/microsoft/vscode-docs/blob/main/docs/nodejs/nodejs-debugging.md
-
-| URL | State |
-| --- | --- |
-| [Node.js](https://nodejs.org/) | 524 |
-
 * https://github.com/microsoft/vscode-docs/blob/main/docs/nodejs/nodejs-tutorial.md
 
 | URL | State |
 | --- | --- |
-| [Node.js](https://nodejs.org/) | 524 |
 | [http://localhost:3000](http://localhost:3000) | 0 |
 | [profile](/docs/editor/profiles) | 404 |
 
@@ -1500,7 +1894,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [http://localhost:3000](http://localhost:3000) | 0 |
-| [Live edit and debug your React apps directly from VS Code](https://medium.com/@auchenberg/live-edit-and-debug-your-react-apps-directly-from-vs-code-without-leaving-the-editor-3da489ed905f) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/nodejs/vuejs-tutorial.md
 
@@ -1557,6 +1950,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [SSH ProxyCommand article](https://www.cyberciti.biz/faq/linux-unix-ssh-proxycommand-passing-through-one-host-gateway-server/) | 403 |
+| [this blog post](https://medium.com/@vinhp/set-and-use-zsh-as-default-shell-in-wsl-on-windows-10-the-right-way-4f30ed9592dc) | 429 |
 | [Supporting Remote Development](/api/advanced-topics/remote-extensions) | 404 |
 | [Supporting Remote Development](/api/advanced-topics/remote-extensions) | 404 |
 | [extension author's guide](/api/advanced-topics/remote-extensions#opening-something-in-a-local-browser-or-application) | 404 |
@@ -1908,6 +2302,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [.tar.gz](https://vscode-update.azurewebsites.net/1.16.1/linux-ia32/stable) | 404 |
 | [.deb](https://vscode-update.azurewebsites.net/1.16.1/linux-deb-ia32/stable) | 404 |
 | [.rpm](https://vscode-update.azurewebsites.net/1.16.1/linux-rpm-ia32/stable) | 404 |
+| [Brian Clark](https://twitter.com/_clarkio) | 404 |
 | [@JD342](https://github.com/JD342) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [@JD342](https://github.com/JD342) | 404 |
@@ -1925,6 +2320,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [.tar.gz](https://vscode-update.azurewebsites.net/1.17.2/linux-ia32/stable) | 404 |
 | [.deb](https://vscode-update.azurewebsites.net/1.17.2/linux-deb-ia32/stable) | 404 |
 | [.rpm](https://vscode-update.azurewebsites.net/1.17.2/linux-rpm-ia32/stable) | 404 |
+| [Brian Clark](https://twitter.com/_clarkio) | 404 |
 | [Putta Khunchalee (@ExUltima)](https://github.com/ExUltima) | 404 |
 | [ElAndyG (@andyg8180)](https://github.com/andyg8180) | 404 |
 
@@ -1940,6 +2336,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [.tar.gz](https://vscode-update.azurewebsites.net/1.18.1/linux-ia32/stable) | 404 |
 | [.deb](https://vscode-update.azurewebsites.net/1.18.1/linux-deb-ia32/stable) | 404 |
 | [.rpm](https://vscode-update.azurewebsites.net/1.18.1/linux-rpm-ia32/stable) | 404 |
+| [Brian Clark](https://twitter.com/_clarkio) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [@MichielVanderlee](https://github.com/MichielVanderlee) | 404 |
 | [Thomas Rayner (@ThmsRynr)](https://github.com/ThmsRynr) | 404 |
@@ -1956,6 +2353,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [.tar.gz](https://vscode-update.azurewebsites.net/1.19.3/linux-ia32/stable) | 404 |
 | [.deb](https://vscode-update.azurewebsites.net/1.19.3/linux-deb-ia32/stable) | 404 |
 | [.rpm](https://vscode-update.azurewebsites.net/1.19.3/linux-rpm-ia32/stable) | 404 |
+| [Brian Clark](https://twitter.com/_clarkio) | 404 |
 | [perf-bloat](https://github.com/microsoft/vscode/issues?utf8=✓&q=is%3Aissue+milestone%3A%22November+2017%22+is%3Aclosed+label%3Aperf-bloat) | 400 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [Ryan Lee (@drdgvhbh)](https://github.com/drdgvhbh) | 404 |
@@ -1972,6 +2370,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [.tar.gz](https://vscode-update.azurewebsites.net/1.20.1/linux-ia32/stable) | 404 |
 | [.deb](https://vscode-update.azurewebsites.net/1.20.1/linux-deb-ia32/stable) | 404 |
 | [.rpm](https://vscode-update.azurewebsites.net/1.20.1/linux-rpm-ia32/stable) | 404 |
+| [Brian Clark](https://twitter.com/_clarkio) | 404 |
 | [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
@@ -1994,6 +2393,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [.tar.gz](https://vscode-update.azurewebsites.net/1.21.1/linux-ia32/stable) | 404 |
 | [.deb](https://vscode-update.azurewebsites.net/1.21.1/linux-deb-ia32/stable) | 404 |
 | [.rpm](https://vscode-update.azurewebsites.net/1.21.1/linux-rpm-ia32/stable) | 404 |
+| [Brian Clark](https://twitter.com/_clarkio) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [here](https://github.com/microsoft/vscode-extension-samples/blob/main/tree-view-sample/src/ftpExplorer.fileSystemProvider.ts#L2) | 404 |
 | [Deploy to Azure using Azure Functions](https://code.visualstudio.com/tutorials/functions-extension/getting-started?utm_source=VsCode&utm_medium=ReleaseNotes) | 404 |
@@ -2011,6 +2411,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [.tar.gz](https://vscode-update.azurewebsites.net/1.22.2/linux-ia32/stable) | 404 |
 | [.deb](https://vscode-update.azurewebsites.net/1.22.2/linux-deb-ia32/stable) | 404 |
 | [.rpm](https://vscode-update.azurewebsites.net/1.22.2/linux-rpm-ia32/stable) | 404 |
+| [Brian Clark](https://twitter.com/_clarkio) | 404 |
 | [here](https://github.com/microsoft/vscode-extension-samples/blob/main/tree-view-sample/src/ftpExplorer.fileSystemProvider.ts#L254) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [here]( https://github.com/microsoft/vscode/blob/21bfdd43b16707a07961f6d2b9d7782e5ea28d27/src/vs/vscode.proposed.d.ts#L42) | 0 |
@@ -2022,6 +2423,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [Brian Clark](https://twitter.com/_clarkio) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [Deploy static website to Azure](https://code.visualstudio.com/tutorials/static-website/getting-started?utm_source=VsCode&utm_medium=ReleaseNotes) | 404 |
 | [Kenny Le (@kennyle1412)](https://github.com/kennyle1412) | 404 |
@@ -2031,6 +2433,8 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [Brian Clark](https://twitter.com/_clarkio) | 404 |
+| [@code](https://twitter.com/code) | 404 |
 | [import() types](https://devblogs.microsoft.com/typescript/announcing-typescript-2-9/#import-types) | 404 |
 | [json imports](https://devblogs.microsoft.com/typescript/announcing-typescript-2-9/#json-imports) | 404 |
 | [TypeScript blog](https://devblogs.microsoft.com/typescript/announcing-typescript-2-9/#json-imports) | 404 |
@@ -2046,6 +2450,8 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [Brian Clark](https://twitter.com/_clarkio) | 404 |
+| [@code](https://twitter.com/code) | 404 |
 | [Windows 64 bit](https://vscode-update.azurewebsites.net/latest/win32-x64-user/insider) | 404 |
 | [Windows 32 bit](https://vscode-update.azurewebsites.net/latest/win32-user/insider) | 404 |
 | [visibility](TreeView.visible) | 404 |
@@ -2057,6 +2463,8 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [Brian Clark](https://twitter.com/_clarkio) | 404 |
+| [@code](https://twitter.com/code) | 404 |
 | [Breadcrumbs](https://en.wikipedia.org/wiki/Breadcrumb_(navigation) | 404 |
 | [RemoteHub](https://marketplace.visualstudio.com/items?itemName=eamodio.remotehub) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
@@ -2065,7 +2473,10 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [Brian Clark](https://twitter.com/_clarkio) | 404 |
+| [@code](https://twitter.com/code) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
+| [123 (@16m)](https://github.com/16m) | 404 |
 | [Nil (@cdnil)](https://github.com/cdnil) | 404 |
 | [Jatin Sandilya (@jats22)](https://github.com/jats22) | 404 |
 
@@ -2073,6 +2484,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [Brian Clark](https://twitter.com/_clarkio) | 404 |
 | [`Diagnostic.message`](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.d.ts#L4074) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [Agustín Rodríguez (@agurodriguez)](https://github.com/agurodriguez) | 404 |
@@ -2085,6 +2497,8 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [Brian Clark](https://twitter.com/_clarkio) | 404 |
+| [@code](https://twitter.com/code) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [Agustín Rodríguez (@agurodriguez)](https://github.com/agurodriguez) | 404 |
 | [Anurag Banerjee (@banuragprdxn)](https://github.com/banuragprdxn) | 404 |
@@ -2101,6 +2515,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [@code](https://twitter.com/code) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [David Bailey (@davidbailey00)](https://github.com/davidbailey00) | 404 |
 
@@ -2108,6 +2523,8 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [Brian Clark](https://twitter.com/_clarkio) | 404 |
+| [@code](https://twitter.com/code) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [Alexander Eyers-Taylor (@aeyerstaylor)](https://github.com/aeyerstaylor) | 404 |
 | [Agustín Rodríguez (@agurodriguez)](https://github.com/agurodriguez) | 404 |
@@ -2122,6 +2539,8 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [Brian Clark](https://twitter.com/_clarkio) | 404 |
+| [@code](https://twitter.com/code) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [Pedro Fernandes (@MrZephyr17)](https://github.com/MrZephyr17) | 404 |
 | [Ace Cassidy (@Ace-Cassidy)](https://github.com/Ace-Cassidy) | 404 |
@@ -2131,8 +2550,9 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [Brian Clark](https://twitter.com/_clarkio) | 404 |
+| [@code](https://twitter.com/code) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
-| [blog post](https://medium.com/microsoft-1es/reducing-vs-code-ci-build-times-e0c5872bfdde) | 429 |
 | [Ethan Dennis](https://github.com/erdennis13) | 404 |
 | [Progracientist (@beastdestroyer)](https://github.com/beastdestroyer) | 404 |
 | [Sayan Nandan (@sntdevco)](https://github.com/sntdevco) | 404 |
@@ -2156,6 +2576,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [@code](https://twitter.com/code) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [@Acid147](https://github.com/Acid147) | 404 |
 | [Preet Sai Mutneja (@preetsaimutneja)](https://github.com/preetsaimutneja) | 404 |
@@ -2165,6 +2586,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [@code](https://twitter.com/code) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [Evgeny Zakharov (@risenforces)](https://github.com/risenforces) | 404 |
 | [Cloud + AI Localization](https://github.com/microsoft/Localization/wiki) | 404 |
@@ -2173,6 +2595,8 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [Brian Clark](https://twitter.com/_clarkio) | 404 |
+| [@code](https://twitter.com/code) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [George Batalinski (@georgebatalinski)](https://github.com/georgebatalinski) | 404 |
 | [@pi1024e](https://github.com/pi1024e) | 404 |
@@ -2183,6 +2607,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [@code](https://twitter.com/code) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [Martin Jähn (@infmja)](https://github.com/infmja) | 404 |
 | [Mariana Costa (@Quendrique)](https://github.com/Quendrique) | 404 |
@@ -2193,6 +2618,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [@code](https://twitter.com/code) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [@pi1024e](https://github.com/pi1024e) | 404 |
 | [Fuchen Shi (@shifuchen98)](https://github.com/shifuchen98) | 404 |
@@ -2211,6 +2637,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [@code](https://twitter.com/code) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [George Batalinski (@georgebatalinski)](https://github.com/georgebatalinski) | 404 |
@@ -2220,8 +2647,10 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [@code](https://twitter.com/code) | 404 |
 | [Dark Amethyst](https://marketplace.visualstudio.com/items?itemName=eamodio.amethyst-theme) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
+| [announced its deprecation](https://medium.com/palantir/tslint-in-2019-1a144c2317a9) | 429 |
 | [Jason (@JasonMFry)](https://github.com/JasonMFry) | 404 |
 | [Oliver Larsson (@Playturbo)](https://github.com/Playturbo) | 404 |
 | [Cloud + AI Localization](https://github.com/microsoft/Localization/wiki) | 404 |
@@ -2230,6 +2659,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [@code](https://twitter.com/code) | 404 |
 | [Dark Amethyst](https://marketplace.visualstudio.com/items?itemName=eamodio.amethyst-theme) | 404 |
 | [webview demo](https://github.com/microsoft/vscode-js-debug/tree/main/demos/webview) | 404 |
 | [simple static web server](https://github.com/zeit/serve/blob/master/README.md) | 404 |
@@ -2242,6 +2672,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [@code](https://twitter.com/code) | 404 |
 | [Dark Amethyst](https://marketplace.visualstudio.com/items?itemName=eamodio.amethyst-theme) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [Cloud + AI Localization](https://github.com/microsoft/Localization/wiki) | 404 |
@@ -2250,6 +2681,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [@code](https://twitter.com/code) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [@NickDebug](https://github.com/NickDebug) | 404 |
 | [Thomas Weingartner (@Thoemmeli)](https://github.com/Thoemmeli) | 404 |
@@ -2269,6 +2701,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [@code](https://twitter.com/code) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [@VoidNoire](https://github.com/VoidNoire) | 404 |
 
@@ -2276,6 +2709,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [@code](https://twitter.com/code) | 404 |
 | [fixes and improvements](https://github.com/issues?q=is%3Aopen+is%3Aclosed+label%3Abug+assignee%3Aconnor4312+milestone%3A%22July+2020%22) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [undefined (@masnn)](https://github.com/masnn) | 404 |
@@ -2284,6 +2718,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [@code](https://twitter.com/code) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [online web playground](https://vscode-web-test-playground.azurewebsites.net/) | 0 |
 | [online web playground](https://vscode-web-test-playground.azurewebsites.net/) | 0 |
@@ -2394,6 +2829,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [Amethyst Dark Theme](https://marketplace.visualstudio.com/items?itemName=eamodio.amethyst-theme) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [v1 package manifest schema](https://github.com/microsoft/winget-cli/blob/master/doc/ManifestSpecv1.0.md) | 404 |
+| [Ben Pasero](https://twitter.com/benjaminpasero) | 404 |
 | [@hantatsang (Sang)](https://github.com/hantatsang) | 404 |
 | [@leemun1 (Mike Lee)](https://github.com/leemun1) | 404 |
 
@@ -2513,7 +2949,19 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | --- | --- |
 | [link](./file.js) | 404 |
 | [link](./file.js) | 404 |
+| [Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack) | 503 |
+| [Var Style](https://marketplace.visualstudio.com/items?itemName=allen.VarStyle) | 503 |
+| [allen](https://marketplace.visualstudio.com/publishers/allen) | 503 |
+| [helloworld-web-sample](https://marketplace.visualstudio.com/items?itemName=AndreyBelym-DXTestCafe.helloworld-web-sample) | 503 |
+| [Andrey Belym](https://marketplace.visualstudio.com/publishers/AndreyBelym-DXTestCafe) | 503 |
+| [asciidoctor.asciidoctor-vscode](https://marketplace.visualstudio.com/items?itemName=asciidoctor.asciidoctor-vscode) | 503 |
+| [asciidoctor](https://marketplace.visualstudio.com/publishers/asciidoctor) | 503 |
+| [Gitignore Adder](https://marketplace.visualstudio.com/items?itemName=beatrix.gitignore-adder) | 503 |
+| [Calvin-LL](https://marketplace.visualstudio.com/publishers/Calvin-LL) | 503 |
+| [Naninovel](https://marketplace.visualstudio.com/items?itemName=Elringus.naninovel) | 503 |
+| [Elringus](https://marketplace.visualstudio.com/publishers/Elringus) | 503 |
 | [GitKraken Authentication](https://marketplace.visualstudio.com/items?itemName=gitkraken.gitkraken-authentication) | 404 |
+| [groogle](https://marketplace.visualstudio.com/publishers/groogle) | 503 |
 | [@SNDST00M (M.U.N.I.N)](https://github.com/SNDST00M) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_66.md
@@ -2587,6 +3035,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | --- | --- |
 | [image alt-text](attachment:image.png) | 0 |
 | [WWBD](https://marketplace.visualstudio.com/items?itemName=brettcannon.wwbd) | 404 |
+| [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) | 503 |
 | [@pwxn (Paul Landers)](https://github.com/pwxn) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_72.md
@@ -2665,6 +3114,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [React Native extension](https://marketplace.visualstudio.com/items?itemName=vsmobile.vscode-react-native) | 503 |
 | [`node.d.ts`](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/node/node.d.ts) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/vJanuary.md
