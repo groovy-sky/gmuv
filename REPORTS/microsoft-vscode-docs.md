@@ -219,6 +219,7 @@
 | URL | State |
 | --- | --- |
 | [Contribution Point](/api/references/contribution-points) | 404 |
+| [Existing markdown-it plugins](https://www.npmjs.com/browse/keyword/markdown-it-plugin) | 503 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/api/extension-guides/notebook.md
 
@@ -235,7 +236,6 @@
 | [VS Code API](/api/references/vscode-api) | 404 |
 | [Contribution Points](/api/references/contribution-points) | 404 |
 | [UX Guidelines](/api/ux-guidelines/overview) | 404 |
-| [scm.createSourceControl](https://code.visualstudio.com/api/references/vscode-api#scm.createSourceControl) | 0 |
 | [TestItem](https://code.visualstudio.com.azurewebsites.net/api/references/vscode-api#TestItem) | 0 |
 | [Language Extensions](/api/language-extensions/overview) | 404 |
 
@@ -1048,6 +1048,12 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | --- | --- |
 | [Azure Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-azureextensionpack) | 404 |
 
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2017/05/10/build-2017-demo.md
+
+| URL | State |
+| --- | --- |
+| [Docker multi-stage builds](https://codefresh.io/blog/node_docker_multistage/) | 404 |
+
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2017/10/24/theicon.md
 
 | URL | State |
@@ -1123,12 +1129,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [http://localhost:3000](http://localhost:3000) | 0 |
 | [http://localhost:3000](http://localhost:3000) | 0 |
 
-* https://github.com/microsoft/vscode-docs/blob/main/blogs/2020/07/27/containers-edu.md
-
-| URL | State |
-| --- | --- |
-| [Using DevContainers to Standardize Student Development Environments: An Experience Report](https://dl.acm.org/doi/pdf/10.1145/3341525.3387424) | 403 |
-
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2021/08/05/notebooks.md
 
 | URL | State |
@@ -1167,7 +1167,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
-| [Java](https://www.java.com) | 403 |
+| [Java](https://www.java.com) | 0 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/containers/quickstart-aspnet-core.md
 
@@ -1240,6 +1240,8 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [Keras](https://keras.io/) | 0 |
+| [Sequential](https://keras.io/getting-started/sequential-model-guide/) | 0 |
 | [profile](/docs/editor/profiles) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/datascience/jupyter-notebooks.md
@@ -1537,7 +1539,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [SSH ProxyCommand article](https://www.cyberciti.biz/faq/linux-unix-ssh-proxycommand-passing-through-one-host-gateway-server/) | 403 |
-| [this blog post](https://medium.com/@vinhp/set-and-use-zsh-as-default-shell-in-wsl-on-windows-10-the-right-way-4f30ed9592dc) | 429 |
 | [Supporting Remote Development](/api/advanced-topics/remote-extensions) | 404 |
 | [Supporting Remote Development](/api/advanced-topics/remote-extensions) | 404 |
 | [extension author's guide](/api/advanced-topics/remote-extensions#opening-something-in-a-local-browser-or-application) | 404 |
@@ -1644,6 +1645,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [Blockchain Development Kit for Ethereum](https://marketplace.visualstudio.com/items?itemName=AzBlockchain.azure-blockchain) | 404 |
 | [MIT](https://marketplace.visualstudio.com/items/docsmsft.docs-preview/license) | 404 |
 | [GitHub Issues](https://marketplace.visualstudio.com/items/ms-vscode.github-issues-prs) | 404 |
+| [MIT](https://marketplace.visualstudio.com/items/ms-vscode.github-issues-prs/license) | 503 |
 | [Reference Search View](https://marketplace.visualstudio.com/items/ms-vscode.references-view) | 404 |
 | [MIT](https://marketplace.visualstudio.com/items/ms-vscode.references-view/license) | 404 |
 
@@ -2114,7 +2116,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
-| [blog post](https://medium.com/microsoft-1es/reducing-vs-code-ci-build-times-e0c5872bfdde) | 429 |
 | [Ethan Dennis](https://github.com/erdennis13) | 404 |
 | [Progracientist (@beastdestroyer)](https://github.com/beastdestroyer) | 404 |
 | [Sayan Nandan (@sntdevco)](https://github.com/sntdevco) | 404 |
@@ -2204,7 +2205,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | --- | --- |
 | [Dark Amethyst](https://marketplace.visualstudio.com/items?itemName=eamodio.amethyst-theme) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
-| [announced its deprecation](https://medium.com/palantir/tslint-in-2019-1a144c2317a9) | 429 |
 | [Jason (@JasonMFry)](https://github.com/JasonMFry) | 404 |
 | [Oliver Larsson (@Playturbo)](https://github.com/Playturbo) | 404 |
 | [Cloud + AI Localization](https://github.com/microsoft/Localization/wiki) | 404 |
@@ -2234,6 +2234,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
+| [Linting](https://code.visualstudio.com/docs/java/java-linting) | 0 |
 | [@NickDebug](https://github.com/NickDebug) | 404 |
 | [Thomas Weingartner (@Thoemmeli)](https://github.com/Thoemmeli) | 404 |
 | [Neeraj Kashyap (@nkashy1)](https://github.com/nkashy1) | 404 |
@@ -2473,6 +2474,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [this University of Cambridge article](https://www.trojansource.codes/) | 0 |
 | [various minor improvements](https://microsoft.github.io/language-server-protocol/specifications/specification-3-17/#version_3_17_0) | 404 |
 | [LS-Club](https://marketplace.visualstudio.com/items?itemName=advantisss.ls-club) | 404 |
 | [AdvantiSS](https://marketplace.visualstudio.com/publishers/advantisss) | 404 |
@@ -2573,12 +2575,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [WWBD](https://marketplace.visualstudio.com/items?itemName=brettcannon.wwbd) | 404 |
 | [@pwxn (Paul Landers)](https://github.com/pwxn) | 404 |
 
-* https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_71.md
-
-| URL | State |
-| --- | --- |
-| [vscode.dev](https://vscode.dev/theme/GitHub.github-vscode-theme/GitHub%20Dark%20Dimmed) | 504 |
-
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_72.md
 
 | URL | State |
@@ -2619,25 +2615,18 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [.deb](https://vscode-update.azurewebsites.net/1.8.1/linux-deb-ia32/stable) | 404 |
 | [.rpm](https://vscode-update.azurewebsites.net/1.8.1/linux-rpm-ia32/stable) | 404 |
 | [TypeScript 2.1](https://devblogs.microsoft.com/typescript/announcing-typescript-2-1/) | 404 |
-| [blog](https://medium.com/@auchenberg/introducing-simultaneous-nirvana-javascript-debugging-for-node-js-and-chrome-in-vs-code-d898a4011ab1#.fehi3batj) | 429 |
 | [`SnippetString`](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.d.ts#L2073) | 404 |
 | [`inspect`](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.d.ts#L2825) | 404 |
 | [word-range](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.d.ts#L221) | 404 |
 | [word-pattern](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.d.ts#L2714) | 404 |
+| [VSCodeVim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim) | 503 |
+| [Mono Debug](https://marketplace.visualstudio.com/items?itemName=ms-vscode.mono-debug) | 503 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_80.md
 
 | URL | State |
 | --- | --- |
-| [publish a platform specific extension](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#platformspecific-extensions) | 503 |
-| [Project](https://code.visualstudio.com/docs/csharp/project-management) | 503 |
-
-* https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_81.md
-
-| URL | State |
-| --- | --- |
-| [Updates](https://code.visualstudio.com/updates) | 504 |
-| [Insiders](https://code.visualstudio.com/insiders) | 504 |
+| [Debugpy](https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy) | 503 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_9.md
 
@@ -2696,12 +2685,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [`yo code` generator](/docs/extensions/yocode.md) | 404 |
 | [`vsce` publishing tool](/docs/extensions/publish-extension.md) | 404 |
 | [extension samples](/docs/extensions/samples/.md) | 404 |
-
-* https://github.com/microsoft/vscode-docs/blob/main/remote-release-notes/v1_37.md
-
-| URL | State |
-| --- | --- |
-| [setting up key-based authentication](https://code.visualstudio.com/docs/remote/troubleshooting#_configuring-key-based-authentication) | 504 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/remote-release-notes/v1_66.md
 
