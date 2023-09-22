@@ -219,7 +219,6 @@
 | URL | State |
 | --- | --- |
 | [Contribution Point](/api/references/contribution-points) | 404 |
-| [Existing markdown-it plugins](https://www.npmjs.com/browse/keyword/markdown-it-plugin) | 503 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/api/extension-guides/notebook.md
 
@@ -676,6 +675,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [vscode:prepublish](/api/working-with-extensions/publishing-extension#prepublish-step) | 404 |
 | [vscode:uninstall](/api/references/extension-manifest#extension-uninstall-hook) | 404 |
 | [here](/api/working-with-extensions/publishing-extension#extension-pricing-label) | 404 |
+| [vscode-languageclient](https://www.npmjs.com/package/vscode-languageclient) | 429 |
 | [Contribution Points](/api/references/contribution-points) | 404 |
 | [Activation Events](/api/references/activation-events) | 404 |
 | [Extension Marketplace](/docs/editor/extension-marketplace) | 404 |
@@ -1048,12 +1048,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | --- | --- |
 | [Azure Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-azureextensionpack) | 404 |
 
-* https://github.com/microsoft/vscode-docs/blob/main/blogs/2017/05/10/build-2017-demo.md
-
-| URL | State |
-| --- | --- |
-| [Docker multi-stage builds](https://codefresh.io/blog/node_docker_multistage/) | 404 |
-
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2017/10/24/theicon.md
 
 | URL | State |
@@ -1120,6 +1114,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [configuration file](https://linuxize.com/post/using-the-ssh-config-file) | 403 |
+| [configuration options](https://linux.die.net/man/5/ssh_config) | 403 |
 | [Remote - SSH Nightly extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-nightly) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2019/10/31/inspecting-containers.md
@@ -1319,6 +1314,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [Download page](/download) | 404 |
+| [quarantine](https://apple.stackexchange.com/a/104875) | 403 |
 | [VS Code](/download) | 404 |
 | [VS Code Insiders](/insiders) | 404 |
 | [VS Code](/download) | 404 |
@@ -1526,6 +1522,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [Node.js](https://nodejs.org/en/docs/meta/topics/dependencies) | 404 |
+| [in 2020](https://endoflife.software/operating-systems/linux/centos) | 0 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/remote/ssh-tutorial.md
 
@@ -1538,7 +1535,9 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [SSH config file](https://linux.die.net/man/5/ssh_config) | 403 |
 | [SSH ProxyCommand article](https://www.cyberciti.biz/faq/linux-unix-ssh-proxycommand-passing-through-one-host-gateway-server/) | 403 |
+| [SSH config file](https://linux.die.net/man/5/ssh_config) | 403 |
 | [Supporting Remote Development](/api/advanced-topics/remote-extensions) | 404 |
 | [Supporting Remote Development](/api/advanced-topics/remote-extensions) | 404 |
 | [extension author's guide](/api/advanced-topics/remote-extensions#opening-something-in-a-local-browser-or-application) | 404 |
@@ -1645,7 +1644,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [Blockchain Development Kit for Ethereum](https://marketplace.visualstudio.com/items?itemName=AzBlockchain.azure-blockchain) | 404 |
 | [MIT](https://marketplace.visualstudio.com/items/docsmsft.docs-preview/license) | 404 |
 | [GitHub Issues](https://marketplace.visualstudio.com/items/ms-vscode.github-issues-prs) | 404 |
-| [MIT](https://marketplace.visualstudio.com/items/ms-vscode.github-issues-prs/license) | 503 |
 | [Reference Search View](https://marketplace.visualstudio.com/items/ms-vscode.references-view) | 404 |
 | [MIT](https://marketplace.visualstudio.com/items/ms-vscode.references-view/license) | 404 |
 
@@ -2219,6 +2217,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [Horizon Bright](https://marketplace.visualstudio.com/items?itemName=jolaleye.horizon-theme-vscode) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [Ian MacFarlane (@eyeino)](https://github.com/eyeino) | 404 |
+| [태재영 (@TroyTae)](https://github.com/TroyTae) | 404 |
 | [Cloud + AI Localization](https://github.com/microsoft/Localization/wiki) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_44.md
@@ -2234,8 +2233,8 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
-| [Linting](https://code.visualstudio.com/docs/java/java-linting) | 0 |
 | [@NickDebug](https://github.com/NickDebug) | 404 |
+| [Josh Smith  (@smithjosh115)](https://github.com/smithjosh115) | 404 |
 | [Thomas Weingartner (@Thoemmeli)](https://github.com/Thoemmeli) | 404 |
 | [Neeraj Kashyap (@nkashy1)](https://github.com/nkashy1) | 404 |
 | [Cloud + AI Localization](https://github.com/microsoft/Localization/wiki) | 404 |
@@ -2329,7 +2328,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
-| [Albert Nigmatzianov (@bogem)](https://github.com/bogem) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_52.md
 
@@ -2474,7 +2472,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
-| [this University of Cambridge article](https://www.trojansource.codes/) | 0 |
 | [various minor improvements](https://microsoft.github.io/language-server-protocol/specifications/specification-3-17/#version_3_17_0) | 404 |
 | [LS-Club](https://marketplace.visualstudio.com/items?itemName=advantisss.ls-club) | 404 |
 | [AdvantiSS](https://marketplace.visualstudio.com/publishers/advantisss) | 404 |
@@ -2529,6 +2526,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [link](/path/to/file.md) | 404 |
+| [TypeScript Error Translator](https://marketplace.visualstudio.com/items?itemName=mattpocock.ts-error-translator) | 503 |
 | [Mintlify](https://marketplace.visualstudio.com/items?itemName=mintlify.connector) | 404 |
 | [Loop Development Kit](https://marketplace.visualstudio.com/items?itemName=Olive-AI.vscode-loop-development-kit) | 404 |
 
@@ -2619,14 +2617,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [`inspect`](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.d.ts#L2825) | 404 |
 | [word-range](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.d.ts#L221) | 404 |
 | [word-pattern](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.d.ts#L2714) | 404 |
-| [VSCodeVim](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim) | 503 |
-| [Mono Debug](https://marketplace.visualstudio.com/items?itemName=ms-vscode.mono-debug) | 503 |
-
-* https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_80.md
-
-| URL | State |
-| --- | --- |
-| [Debugpy](https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy) | 503 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_9.md
 
