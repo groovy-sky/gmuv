@@ -69,6 +69,16 @@
 | [`Register-FooCompleter`](Functions/Completion/Register-FooCompleter.ps1) | 404 |
 | [`Test-GitHubToken`](Functions/General/Test-GitHubToken.ps1) | 404 |
 
+* https://github.com/microsoft/Documentarian/blob/main/Projects/Modules/Documentarian.MicrosoftDocs/Documentation/reference/cmdlets/Get-CmdletXref.md
+
+| URL | State |
+| --- | --- |
+| [Get-Command](xref:Microsoft.PowerShell.Core.Get-Command) | 0 |
+| [Get-Help](xref:Microsoft.PowerShell.Core.Get-Help) | 0 |
+| [Out-String](xref:Microsoft.PowerShell.Utility.Out-String) | 0 |
+| [Get-Help](xref:Microsoft.PowerShell.Core.Get-Help) | 0 |
+| [Get-Command](xref:Microsoft.PowerShell.Core.Get-Command) | 0 |
+
 * https://github.com/microsoft/Documentarian/blob/main/Projects/Modules/Documentarian.MicrosoftDocs/Documentation/reference/cmdlets/_index.md
 
 | URL | State |
