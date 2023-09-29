@@ -20,6 +20,12 @@
 | [Git LFS Include and Exclude pattern](https://github.com/git-lfs/git-lfs/blob/main/docs/man/git-lfs-fetch.1.ronn#include-and-exclude) | 404 |
 | [here](https://github.com/microsoft/vscode-website#publishing-a-documentation-change) | 404 |
 
+* https://github.com/microsoft/vscode-docs/blob/main/SECURITY.md
+
+| URL | State |
+| --- | --- |
+| [our GitHub organizations](https://opensource.microsoft.com/) | 503 |
+
 * https://github.com/microsoft/vscode-docs/blob/main/api/advanced-topics/extension-host.md
 
 | URL | State |
@@ -675,7 +681,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [vscode:prepublish](/api/working-with-extensions/publishing-extension#prepublish-step) | 404 |
 | [vscode:uninstall](/api/references/extension-manifest#extension-uninstall-hook) | 404 |
 | [here](/api/working-with-extensions/publishing-extension#extension-pricing-label) | 404 |
-| [vscode-languageclient](https://www.npmjs.com/package/vscode-languageclient) | 429 |
 | [Contribution Points](/api/references/contribution-points) | 404 |
 | [Activation Events](/api/references/activation-events) | 404 |
 | [Extension Marketplace](/docs/editor/extension-marketplace) | 404 |
@@ -1048,6 +1053,12 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | --- | --- |
 | [Azure Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-azureextensionpack) | 404 |
 
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2017/05/10/build-2017-demo.md
+
+| URL | State |
+| --- | --- |
+| [Docker multi-stage builds](https://codefresh.io/blog/node_docker_multistage/) | 404 |
+
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2017/10/24/theicon.md
 
 | URL | State |
@@ -1163,6 +1174,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [Java](https://www.java.com) | 0 |
+| [WASM execution engine](https://insiders.vscode.dev/github/microsoft/vscode-wasi/blob/main/wasm-wasi-core/package.json#L1) | 504 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/containers/quickstart-aspnet-core.md
 
@@ -1314,7 +1326,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [Download page](/download) | 404 |
-| [quarantine](https://apple.stackexchange.com/a/104875) | 403 |
 | [VS Code](/download) | 404 |
 | [VS Code Insiders](/insiders) | 404 |
 | [VS Code](/download) | 404 |
@@ -1522,7 +1533,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [Node.js](https://nodejs.org/en/docs/meta/topics/dependencies) | 404 |
-| [in 2020](https://endoflife.software/operating-systems/linux/centos) | 0 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/remote/ssh-tutorial.md
 
@@ -2526,7 +2536,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | URL | State |
 | --- | --- |
 | [link](/path/to/file.md) | 404 |
-| [TypeScript Error Translator](https://marketplace.visualstudio.com/items?itemName=mattpocock.ts-error-translator) | 503 |
 | [Mintlify](https://marketplace.visualstudio.com/items?itemName=mintlify.connector) | 404 |
 | [Loop Development Kit](https://marketplace.visualstudio.com/items?itemName=Olive-AI.vscode-loop-development-kit) | 404 |
 
@@ -2579,6 +2588,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | --- | --- |
 | [link](/path/to/file.md) | 404 |
 | [link](other-file.md#some-header) | 404 |
+| [vscode.dev](https://vscode.dev/theme/tinkertrain.theme-panda) | 504 |
 | [@najmiehsa (Najmieh)](https://github.com/najmiehsa) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_73.md
