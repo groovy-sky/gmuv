@@ -1,11 +1,5 @@
 
 ## [ostc-docs](https://github.com/microsoft/ostc-docs)
-* https://github.com/microsoft/ostc-docs/blob/master/SECURITY.md
-
-| URL | State |
-| --- | --- |
-| [our GitHub organizations](https://opensource.microsoft.com/) | 503 |
-
 * https://github.com/microsoft/ostc-docs/blob/master/gitinstall-hp.md
 
 | URL | State |
