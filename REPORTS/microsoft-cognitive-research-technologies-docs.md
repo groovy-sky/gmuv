@@ -6,21 +6,11 @@
 | --- | --- |
 | [cognitive-services-bing-throttling-requests](../../../../includes/cognitive-services-bing-throttling-requests.md) | 404 |
 
-* https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/CODE_OF_CONDUCT.md
-
-| URL | State |
-| --- | --- |
-| [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) | 503 |
-| [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) | 503 |
-| [Microsoft Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) | 503 |
-
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/Conversation-Learner/quickstart.md
 
 | URL | State |
 | --- | --- |
 | [User Voice page](https://aka.ms/conversation-learner-uservoice) | 404 |
-| [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) | 503 |
-| [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) | 503 |
 | [conversationlearner-webchat](https://github.com/Microsoft/ConversationLearner-WebChat) | 404 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/Conversation-Learner/tutorials/16-hybrid-bots.md
@@ -35,15 +25,12 @@
 
 | URL | State |
 | --- | --- |
-| [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) | 503 |
-| [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) | 503 |
 | [MIT License](https://opensource.org/licenses/MIT) | 403 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/SECURITY.md
 
 | URL | State |
 | --- | --- |
-| [our GitHub organizations](https://opensource.microsoft.com/) | 503 |
 | [Microsoft's definition of a security vulnerability](https://docs.microsoft.com/en-us/previous-versions/tn-archive/cc751383(v=technet.10) | 404 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/URL-Preview/overview.md
