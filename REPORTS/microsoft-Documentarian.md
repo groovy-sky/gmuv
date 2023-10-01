@@ -1,13 +1,5 @@
 
 ## [Documentarian](https://github.com/microsoft/Documentarian)
-* https://github.com/microsoft/Documentarian/blob/main/CODE_OF_CONDUCT.md
-
-| URL | State |
-| --- | --- |
-| [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) | 503 |
-| [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) | 503 |
-| [Microsoft Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) | 503 |
-
 * https://github.com/microsoft/Documentarian/blob/main/Projects/Modules/Documentarian.DevX/Source/Private/readme.md
 
 | URL | State |
@@ -202,10 +194,7 @@
 
 | URL | State |
 | --- | --- |
-| [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) | 503 |
-| [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) | 503 |
 | [learn.microsoft.com]([https://learn.microsoft.com/powershell/scripting/) | 0 |
-| [Contribution License Agreement](https://cla.microsoft.com/) | 503 |
 
 * https://github.com/microsoft/Documentarian/blob/main/Projects/Modules/Documentarian/Documentation/reference/cmdlets/Get-Document.md
 
@@ -293,9 +282,3 @@
 | [sometimes](anyway.md) | 404 |
 | [Between](comments.md) | 404 |
 | [but then](its.md "okay") | 404 |
-
-* https://github.com/microsoft/Documentarian/blob/main/SECURITY.md
-
-| URL | State |
-| --- | --- |
-| [our GitHub organizations](https://opensource.microsoft.com/) | 503 |
