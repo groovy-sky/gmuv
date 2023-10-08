@@ -608,7 +608,7 @@
 | [menus](/api/references/contribution-points#contributes.menus) | 404 |
 | [product icons](/api/references/icons-in-labels#icon-listing) | 404 |
 | [JSON
-Schema](https://json-schema.org/understanding-json-schema/reference/index.html) | 0 |
+Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [glob patterns](/docs/editor/glob-patterns) | 404 |
 | [Custom Editors](/api/extension-guides/custom-editors) | 404 |
 | [Debugger Extension](/api/extension-guides/debugger-extension) | 404 |
@@ -1048,6 +1048,12 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | --- | --- |
 | [Azure Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-azureextensionpack) | 404 |
 
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2017/05/10/build-2017-demo.md
+
+| URL | State |
+| --- | --- |
+| [Docker multi-stage builds](https://codefresh.io/blog/node_docker_multistage/) | 404 |
+
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2017/10/24/theicon.md
 
 | URL | State |
@@ -1102,6 +1108,12 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | --- | --- |
 | [external](https://github.com/lostintangent/vsls-guestbook/pull/11/files#diff-babc63cbfdb83a46e935f16e3eb9066fR20) | 404 |
 | [observable](https://github.com/mobxjs/mobx/blob/master/src/api/observable.ts#L183) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2019/05/02/remote-development.md
+
+| URL | State |
+| --- | --- |
+| [Dev Container samples](https://github.com/search?q=org%3AMicrosoft+vscode-remote-try-&unscoped_q=vscode-remote-try-) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2019/07/25/remote-ssh.md
 
@@ -1919,6 +1931,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [.tar.gz](https://vscode-update.azurewebsites.net/1.18.1/linux-ia32/stable) | 404 |
 | [.deb](https://vscode-update.azurewebsites.net/1.18.1/linux-deb-ia32/stable) | 404 |
 | [.rpm](https://vscode-update.azurewebsites.net/1.18.1/linux-rpm-ia32/stable) | 404 |
+| [here](https://json-schema.org/draft-06/json-schema-migration-faq.html) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [@MichielVanderlee](https://github.com/MichielVanderlee) | 404 |
 | [Thomas Rayner (@ThmsRynr)](https://github.com/ThmsRynr) | 404 |
@@ -1973,6 +1986,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [.tar.gz](https://vscode-update.azurewebsites.net/1.21.1/linux-ia32/stable) | 404 |
 | [.deb](https://vscode-update.azurewebsites.net/1.21.1/linux-deb-ia32/stable) | 404 |
 | [.rpm](https://vscode-update.azurewebsites.net/1.21.1/linux-rpm-ia32/stable) | 404 |
+| [example](https://github.com/microsoft/vscode/blob/main/.github/calendar.yml) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [here](https://github.com/microsoft/vscode-extension-samples/blob/main/tree-view-sample/src/ftpExplorer.fileSystemProvider.ts#L2) | 404 |
 | [Deploy to Azure using Azure Functions](https://code.visualstudio.com/tutorials/functions-extension/getting-started?utm_source=VsCode&utm_medium=ReleaseNotes) | 404 |
@@ -2365,6 +2379,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [diagnostic pull model specification](https://github.com/microsoft/vscode-languageserver-node/blob/main/protocol/src/common/proposed.diagnostics.md#L1) | 404 |
 | [@hantatsang (Sang)](https://github.com/hantatsang) | 404 |
+| [@wdesgardin (William Desgardin)](https://github.com/wdesgardin) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_56.md
 
@@ -2376,6 +2391,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [v1 package manifest schema](https://github.com/microsoft/winget-cli/blob/master/doc/ManifestSpecv1.0.md) | 404 |
 | [@hantatsang (Sang)](https://github.com/hantatsang) | 404 |
 | [@leemun1 (Mike Lee)](https://github.com/leemun1) | 404 |
+| [@wdesgardin (William Desgardin)](https://github.com/wdesgardin) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_57.md
 
@@ -2494,6 +2510,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | --- | --- |
 | [link](./file.js) | 404 |
 | [link](./file.js) | 404 |
+| [Java GUI Applications](https://code.visualstudio.com/docs/java/java-gui) | 503 |
 | [GitKraken Authentication](https://marketplace.visualstudio.com/items?itemName=gitkraken.gitkraken-authentication) | 404 |
 | [@SNDST00M (M.U.N.I.N)](https://github.com/SNDST00M) | 404 |
 
@@ -2570,6 +2587,12 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [WWBD](https://marketplace.visualstudio.com/items?itemName=brettcannon.wwbd) | 404 |
 | [@pwxn (Paul Landers)](https://github.com/pwxn) | 404 |
 
+* https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_71.md
+
+| URL | State |
+| --- | --- |
+| [vscode.dev](https://vscode.dev/theme/mgwg.light-pink-theme) | 504 |
+
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_72.md
 
 | URL | State |
@@ -2615,6 +2638,12 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 | [word-range](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.d.ts#L221) | 404 |
 | [word-pattern](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.d.ts#L2714) | 404 |
 
+* https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_83.md
+
+| URL | State |
+| --- | --- |
+| [Debugging WebAssembly](/docs/nodejs/nodejs-debugging#debugging-webassembly) | 404 |
+
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_9.md
 
 | URL | State |
@@ -2639,7 +2668,6 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
-| [vscode-eslint extension](https://marketplace.visualstudio.com/items/dbaeumer.vscode-eslint) | 0 |
 | [extension](https://marketplace.visualstudio.com/items/eg2.js-is-jsx) | 404 |
 | [Language Server example](/docs/extensions/example-language-server.md) | 404 |
 
@@ -2692,6 +2720,7 @@ Schema](https://json-schema.org/understanding-json-schema/reference/index.html) 
 
 | URL | State |
 | --- | --- |
+| [Install Docker](/docs/devcontainers/containers#installation) | 404 |
 | [Install Docker](/docs/devcontainers/containers#installation) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/remote/advancedcontainers/use-docker-kubernetes.md
