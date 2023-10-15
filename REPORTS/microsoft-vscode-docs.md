@@ -627,7 +627,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [SCM change title](/api/extension-guides/scm-provider#menus) | 404 |
 | [SCM source control menu](/api/extension-guides/scm-provider#menus) | 404 |
 | [View title menu](/api/references/contribution-points#contributes.views) | 404 |
-| [View item menu](/api/references/contribution-points#contributes.views) | 404 |
+| [View item context menu](/api/references/contribution-points#contributes.views) | 404 |
 | [webview](/api/extension-guides/webview) | 404 |
 | [contributed submenu](/api/references/contribution-points#contributes.submenus) | 404 |
 | [Defining a Problem Matcher](/docs/editor/tasks#_defining-a-problem-matcher) | 404 |
@@ -675,7 +675,8 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [vscode:prepublish](/api/working-with-extensions/publishing-extension#prepublish-step) | 404 |
 | [vscode:uninstall](/api/references/extension-manifest#extension-uninstall-hook) | 404 |
 | [here](/api/working-with-extensions/publishing-extension#extension-pricing-label) | 404 |
-| [vscode-languageclient](https://www.npmjs.com/package/vscode-languageclient) | 429 |
+| [`untrustedWorkspaces`](/api/extension-guides/workspace-trust#static-declarations) | 404 |
+| [`virtualWorkspaces`](/api/extension-guides/virtual-workspaces#signal-whether-your-extension-can-handle-virtual-workspaces) | 404 |
 | [Contribution Points](/api/references/contribution-points) | 404 |
 | [Activation Events](/api/references/activation-events) | 404 |
 | [Extension Marketplace](/docs/editor/extension-marketplace) | 404 |
@@ -1048,12 +1049,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | --- | --- |
 | [Azure Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-azureextensionpack) | 404 |
 
-* https://github.com/microsoft/vscode-docs/blob/main/blogs/2017/05/10/build-2017-demo.md
-
-| URL | State |
-| --- | --- |
-| [Docker multi-stage builds](https://codefresh.io/blog/node_docker_multistage/) | 404 |
-
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2017/10/24/theicon.md
 
 | URL | State |
@@ -1106,14 +1101,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 
 | URL | State |
 | --- | --- |
-| [external](https://github.com/lostintangent/vsls-guestbook/pull/11/files#diff-babc63cbfdb83a46e935f16e3eb9066fR20) | 404 |
 | [observable](https://github.com/mobxjs/mobx/blob/master/src/api/observable.ts#L183) | 404 |
-
-* https://github.com/microsoft/vscode-docs/blob/main/blogs/2019/05/02/remote-development.md
-
-| URL | State |
-| --- | --- |
-| [Dev Container samples](https://github.com/search?q=org%3AMicrosoft+vscode-remote-try-&unscoped_q=vscode-remote-try-) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2019/07/25/remote-ssh.md
 
@@ -2475,6 +2463,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [Keil Studio](https://marketplace.visualstudio.com/items?itemName=arm-debug.keil-studio-vscode) | 404 |
+| [VSCode DOSBox](https://marketplace.visualstudio.com/items?itemName=xsro.vscode-dosbox) | 503 |
 | [HarmonyLang Lite](https://marketplace.visualstudio.com/items?itemName=kevinsun-dev-cornell.harmonylang-lite) | 404 |
 | [Pop File Money Counter](https://marketplace.visualstudio.com/items?itemName=pfwobcke.pop-file-money-counter) | 404 |
 | [88d88d8d8d8d8](https://marketplace.visualstudio.com/items?itemName=Thomka.88d88d8d8d8d8) | 404 |
@@ -2510,7 +2499,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | --- | --- |
 | [link](./file.js) | 404 |
 | [link](./file.js) | 404 |
-| [Java GUI Applications](https://code.visualstudio.com/docs/java/java-gui) | 503 |
 | [GitKraken Authentication](https://marketplace.visualstudio.com/items?itemName=gitkraken.gitkraken-authentication) | 404 |
 | [@SNDST00M (M.U.N.I.N)](https://github.com/SNDST00M) | 404 |
 
@@ -2586,12 +2574,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [image alt-text](attachment:image.png) | 0 |
 | [WWBD](https://marketplace.visualstudio.com/items?itemName=brettcannon.wwbd) | 404 |
 | [@pwxn (Paul Landers)](https://github.com/pwxn) | 404 |
-
-* https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_71.md
-
-| URL | State |
-| --- | --- |
-| [vscode.dev](https://vscode.dev/theme/mgwg.light-pink-theme) | 504 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_72.md
 
