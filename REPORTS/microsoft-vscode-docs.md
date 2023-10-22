@@ -1124,10 +1124,31 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [http://localhost:3000](http://localhost:3000) | 0 |
 | [http://localhost:3000](http://localhost:3000) | 0 |
 
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2021/06/02/build-2021.md
+
+| URL | State |
+| --- | --- |
+| [@code](https://twitter.com/code) | 0 |
+| [@ItalyPaleAle](https://twitter.com/ItalyPaleAle) | 0 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2021/06/10/remote-repositories.md
+
+| URL | State |
+| --- | --- |
+| [@code](https://twitter.com/code) | 0 |
+| [@BrigitMurtaugh](https://twitter.com/BrigitMurtaugh) | 0 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2021/07/06/workspace-trust.md
+
+| URL | State |
+| --- | --- |
+| [@code](https://twitter.com/code) | 503 |
+
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2021/08/05/notebooks.md
 
 | URL | State |
 | --- | --- |
+| [@chrisdias](https://twitter.com/chrisdias) | 503 |
 | [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2021/09/29/bracket-pair-colorization.md
@@ -1135,6 +1156,13 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) | 404 |
+| [@hediet_dev](https://twitter.com/hediet_dev) | 503 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2021/10/11/webview-ui-toolkit.md
+
+| URL | State |
+| --- | --- |
+| [@david_dossett](https://twitter.com/david_dossett) | 503 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2022/11/28/vscode-sandbox.md
 
@@ -1151,18 +1179,12 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [Oege De Moor]( https://twitter.com/oegerikus) | 0 |
 | [OpenAI's codex model]( https://openai.com/blog/openai-codex) | 0 |
 
-* https://github.com/microsoft/vscode-docs/blob/main/blogs/2023/04/13/vscode-day.md
-
-| URL | State |
-| --- | --- |
-| [Kai Maetzel](https://www.linkedin.com/in/kai-maetzel-88ba9857) | 999 |
-| [Soojin Choi](https://www.linkedin.com/in/soojinmin) | 999 |
-
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2023/06/05/vscode-wasm-wasi.md
 
 | URL | State |
 | --- | --- |
 | [Java](https://www.java.com) | 0 |
+| [WASM execution engine](https://insiders.vscode.dev/github/microsoft/vscode-wasi/blob/main/wasm-wasi-core/package.json#L1) | 504 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/containers/quickstart-aspnet-core.md
 
@@ -2463,7 +2485,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [Keil Studio](https://marketplace.visualstudio.com/items?itemName=arm-debug.keil-studio-vscode) | 404 |
-| [VSCode DOSBox](https://marketplace.visualstudio.com/items?itemName=xsro.vscode-dosbox) | 503 |
 | [HarmonyLang Lite](https://marketplace.visualstudio.com/items?itemName=kevinsun-dev-cornell.harmonylang-lite) | 404 |
 | [Pop File Money Counter](https://marketplace.visualstudio.com/items?itemName=pfwobcke.pop-file-money-counter) | 404 |
 | [88d88d8d8d8d8](https://marketplace.visualstudio.com/items?itemName=Thomka.88d88d8d8d8d8) | 404 |
