@@ -253,7 +253,7 @@
 | [`SourceControlResourceState`](/api/references/contribution-points#SourceControlResourceState) | 404 |
 | [`SourceControlResourceState`](/api/references/contribution-points#SourceControlResourceState) | 404 |
 | [context keys](/api/references/when-clause-contexts) | 404 |
-| [Quick Diff](/api/references/contribution-points#QuickDiffProvider) | 404 |
+| [Quick Diff](/api/references/vscode-api#QuickDiffProvider) | 404 |
 | [context key](/api/references/when-clause-contexts) | 404 |
 | [`registerTextDocumentContentProvider` method in the `workspace` namespace](/api/references/vscode-api#workspace) | 404 |
 | [`Uri`](/api/references/vscode-api#Uri) | 404 |
@@ -1124,31 +1124,10 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [http://localhost:3000](http://localhost:3000) | 0 |
 | [http://localhost:3000](http://localhost:3000) | 0 |
 
-* https://github.com/microsoft/vscode-docs/blob/main/blogs/2021/06/02/build-2021.md
-
-| URL | State |
-| --- | --- |
-| [@code](https://twitter.com/code) | 0 |
-| [@ItalyPaleAle](https://twitter.com/ItalyPaleAle) | 0 |
-
-* https://github.com/microsoft/vscode-docs/blob/main/blogs/2021/06/10/remote-repositories.md
-
-| URL | State |
-| --- | --- |
-| [@code](https://twitter.com/code) | 0 |
-| [@BrigitMurtaugh](https://twitter.com/BrigitMurtaugh) | 0 |
-
-* https://github.com/microsoft/vscode-docs/blob/main/blogs/2021/07/06/workspace-trust.md
-
-| URL | State |
-| --- | --- |
-| [@code](https://twitter.com/code) | 503 |
-
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2021/08/05/notebooks.md
 
 | URL | State |
 | --- | --- |
-| [@chrisdias](https://twitter.com/chrisdias) | 503 |
 | [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2021/09/29/bracket-pair-colorization.md
@@ -1156,13 +1135,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) | 404 |
-| [@hediet_dev](https://twitter.com/hediet_dev) | 503 |
-
-* https://github.com/microsoft/vscode-docs/blob/main/blogs/2021/10/11/webview-ui-toolkit.md
-
-| URL | State |
-| --- | --- |
-| [@david_dossett](https://twitter.com/david_dossett) | 503 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2022/11/28/vscode-sandbox.md
 
@@ -1184,7 +1156,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [Java](https://www.java.com) | 0 |
-| [WASM execution engine](https://insiders.vscode.dev/github/microsoft/vscode-wasi/blob/main/wasm-wasi-core/package.json#L1) | 504 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/containers/quickstart-aspnet-core.md
 
@@ -1518,6 +1489,12 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [profile](/docs/editor/profiles) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/docs/python/tutorial-fastapi.md
+
+| URL | State |
+| --- | --- |
+| [ChatGPT](https://chat.openai.com/) | 403 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/python/tutorial-flask.md
 
@@ -1979,6 +1956,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [Deploy using Azure App Service](https://code.visualstudio.com/tutorials/app-service-extension/getting-started?utm_source=VsCode&utm_medium=ReleaseNotes) | 404 |
 | [Deploy using Docker](https://code.visualstudio.com/tutorials/docker-extension/getting-started?utm_source=VsCode&utm_medium=ReleaseNotes) | 404 |
+| [35462](https://github.com/microsoft/vscode/issues/35462) | 502 |
 | [Sebastian (@BattleBas)](https://github.com/BattleBas) | 404 |
 | [Matthew Ferderber (@matthewferderber)](https://github.com/matthewferderber) | 404 |
 | [Benas Svipas (@svipben)](https://github.com/svipben) | 404 |
@@ -2049,6 +2027,9 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 
 | URL | State |
 | --- | --- |
+| [Brian Clark](https://twitter.com/_clarkio) | 503 |
+| [@code](https://twitter.com/code) | 503 |
+| [workspace recommendations](https://code.visualstudio.com/docs/editor/extension-marketplace#_workspace-recommended-extensions) | 0 |
 | [Windows 64 bit](https://vscode-update.azurewebsites.net/latest/win32-x64-user/insider) | 404 |
 | [Windows 32 bit](https://vscode-update.azurewebsites.net/latest/win32-user/insider) | 404 |
 | [visibility](TreeView.visible) | 404 |
@@ -2616,6 +2597,12 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | --- | --- |
 | [@cmarincia (Catalin Marincia)](https://github.com/cmarincia) | 404 |
 | [@najmiehsa](https://github.com/najmiehsa) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_75.md
+
+| URL | State |
+| --- | --- |
+| [@maIIady (Ilya Golovin)](https://github.com/maIIady) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_76.md
 
