@@ -677,6 +677,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [here](/api/working-with-extensions/publishing-extension#extension-pricing-label) | 404 |
 | [`untrustedWorkspaces`](/api/extension-guides/workspace-trust#static-declarations) | 404 |
 | [`virtualWorkspaces`](/api/extension-guides/virtual-workspaces#signal-whether-your-extension-can-handle-virtual-workspaces) | 404 |
+| [vscode-languageclient](https://www.npmjs.com/package/vscode-languageclient) | 429 |
 | [Contribution Points](/api/references/contribution-points) | 404 |
 | [Activation Events](/api/references/activation-events) | 404 |
 | [Extension Marketplace](/docs/editor/extension-marketplace) | 404 |
@@ -1535,6 +1536,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [SSH config file](https://linux.die.net/man/5/ssh_config) | 403 |
 | [SSH ProxyCommand article](https://www.cyberciti.biz/faq/linux-unix-ssh-proxycommand-passing-through-one-host-gateway-server/) | 403 |
 | [SSH config file](https://linux.die.net/man/5/ssh_config) | 403 |
+| [SuSE SSH](https://en.opensuse.org/OpenSSH) | 503 |
 | [Supporting Remote Development](/api/advanced-topics/remote-extensions) | 404 |
 | [Supporting Remote Development](/api/advanced-topics/remote-extensions) | 404 |
 | [extension author's guide](/api/advanced-topics/remote-extensions#opening-something-in-a-local-browser-or-application) | 404 |
@@ -1956,7 +1958,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [Deploy using Azure App Service](https://code.visualstudio.com/tutorials/app-service-extension/getting-started?utm_source=VsCode&utm_medium=ReleaseNotes) | 404 |
 | [Deploy using Docker](https://code.visualstudio.com/tutorials/docker-extension/getting-started?utm_source=VsCode&utm_medium=ReleaseNotes) | 404 |
-| [35462](https://github.com/microsoft/vscode/issues/35462) | 502 |
 | [Sebastian (@BattleBas)](https://github.com/BattleBas) | 404 |
 | [Matthew Ferderber (@matthewferderber)](https://github.com/matthewferderber) | 404 |
 | [Benas Svipas (@svipben)](https://github.com/svipben) | 404 |
@@ -2027,9 +2028,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 
 | URL | State |
 | --- | --- |
-| [Brian Clark](https://twitter.com/_clarkio) | 503 |
-| [@code](https://twitter.com/code) | 503 |
-| [workspace recommendations](https://code.visualstudio.com/docs/editor/extension-marketplace#_workspace-recommended-extensions) | 0 |
 | [Windows 64 bit](https://vscode-update.azurewebsites.net/latest/win32-x64-user/insider) | 404 |
 | [Windows 32 bit](https://vscode-update.azurewebsites.net/latest/win32-user/insider) | 404 |
 | [visibility](TreeView.visible) | 404 |
@@ -2531,6 +2529,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [link](/path/to/file.md) | 404 |
+| [Apache Daffodil VS Code Extension](https://marketplace.visualstudio.com/items?itemName=ASF.apache-daffodil-vscode) | 0 |
 | [Mintlify](https://marketplace.visualstudio.com/items?itemName=mintlify.connector) | 404 |
 | [Loop Development Kit](https://marketplace.visualstudio.com/items?itemName=Olive-AI.vscode-loop-development-kit) | 404 |
 
