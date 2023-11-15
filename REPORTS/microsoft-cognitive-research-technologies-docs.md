@@ -63,6 +63,7 @@
 | [AzCopy](../../storage/common/storage-use-azcopy.md) | 404 |
 | [create an Azure VM](../../../articles/virtual-machines/windows/quick-create-portal.md) | 404 |
 | [connect to it](../../../articles/virtual-machines/windows/quick-create-portal.md#connect-to-virtual-machine) | 404 |
+| [Knowledge Exploration Service SDK](https://www.microsoft.com/en-us/download/details.aspx?id=51488) | 404 |
 | [Sizes for virtual machines](../../../articles/virtual-machines/virtual-machines-windows-sizes.md) | 404 |
 | [How to create and deploy a cloud service](../../../articles/cloud-services/cloud-services-how-to-create-deploy-portal.md) | 404 |
 | [Swap](../../../articles/cloud-services/cloud-services-nodejs-stage-application.md) | 404 |
