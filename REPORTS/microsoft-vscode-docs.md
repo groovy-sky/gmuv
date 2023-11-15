@@ -1048,7 +1048,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [Azure Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-azureextensionpack) | 404 |
-| [Microsoft](https://marketplace.visualstudio.com/search?term=publisher%3A%22Microsoft%22&target=VSCode&sortBy=Relevance) | 503 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2017/05/10/build-2017-demo.md
 
@@ -1131,12 +1130,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [http://localhost:3000](http://localhost:3000) | 0 |
 | [http://localhost:3000](http://localhost:3000) | 0 |
 
-* https://github.com/microsoft/vscode-docs/blob/main/blogs/2020/05/06/github-issues-integration.md
-
-| URL | State |
-| --- | --- |
-| [search for issue references](https://github.com/microsoft/vscode/search?q=%22Microsoft%2Fvscode%2Fissues%22) | 429 |
-
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2021/08/05/notebooks.md
 
 | URL | State |
@@ -1169,6 +1162,13 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [Java](https://www.java.com) | 0 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2023/11/13/vscode-copilot-smarter.md
+
+| URL | State |
+| --- | --- |
+| [GitHub Search Blackbird service]( https://github.blog/2023-02-06-the-technology-behind-githubs-new-code-search) | 0 |
+| [GitHub Copilot]( https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) | 0 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/containers/quickstart-aspnet-core.md
 
@@ -1224,12 +1224,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [these license terms](https://devdiv.visualstudio.com/DevDiv/_git/vscode-csharp-next?path=/RuntimeLicenses/license.txt) | 203 |
-
-* https://github.com/microsoft/vscode-docs/blob/main/docs/csharp/debugger-settings.md
-
-| URL | State |
-| --- | --- |
-| [VS Code's integrated terminal](/docs/editor/integrated-terminal.md) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/csharp/debugging.md
 
@@ -1691,7 +1685,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 
 | URL | State |
 | --- | --- |
-| [Charles Allen](https://th.linkedin.com/in/ajahncharles) | 999 |
+| [Charles Allen](https://th.linkedin.com/in/ajahncharles) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/learn/educators/python.md
 
@@ -2102,6 +2096,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 
 | URL | State |
 | --- | --- |
+| [`:any-link`](https://preset-env.cssdb.org/features#any-link-pseudo-class) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [Alexander Eyers-Taylor (@aeyerstaylor)](https://github.com/aeyerstaylor) | 404 |
 | [Agustín Rodríguez (@agurodriguez)](https://github.com/agurodriguez) | 404 |
@@ -2185,6 +2180,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 
 | URL | State |
 | --- | --- |
+| [WSL 2 with Visual Studio Code](https://code.visualstudio.com/blogs/2019/09/03/wsl2) | 0 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [@pi1024e](https://github.com/pi1024e) | 404 |
 | [Fuchen Shi (@shifuchen98)](https://github.com/shifuchen98) | 404 |
@@ -2215,7 +2211,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [Dark Amethyst](https://marketplace.visualstudio.com/items?itemName=eamodio.amethyst-theme) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [Jason (@JasonMFry)](https://github.com/JasonMFry) | 404 |
-| [Oliver Larsson (@Playturbo)](https://github.com/Playturbo) | 404 |
 | [Cloud + AI Localization](https://github.com/microsoft/Localization/wiki) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_43.md
@@ -2338,14 +2333,26 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 
 | URL | State |
 | --- | --- |
+| [SSH server](https://code.visualstudio.com/docs/remote/ssh) | 503 |
+| [Comment](https://code.visualstudio.com/api/references/vscode-api#comments) | 503 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
+| ["Learn to Code" landing page](https://code.visualstudio.com/learntocode) | 503 |
+| [code.visualstudio.com/learn](https://code.visualstudio.com/learn) | 503 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_52.md
 
 | URL | State |
 | --- | --- |
+| [October 2019](https://code.visualstudio.com/updates/v1_40) | 503 |
+| [previous release notes](https://code.visualstudio.com/updates/v1_51#_remember-proxy-credentials) | 503 |
+| [Activation Events](https://code.visualstudio.com/api/references/activation-events) | 503 |
+| [codicon library](https://code.visualstudio.com/api/references/icons-in-labels) | 503 |
+| [Custom editors](https://code.visualstudio.com/api/extension-guides/custom-editors) | 503 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
+| [Product icon theme](https://code.visualstudio.com/api/extension-guides/product-icon-theme) | 503 |
+| [icon listing](https://code.visualstudio.com/api/references/icons-in-labels#icon-listing) | 503 |
 | [sandbox](https://www.electronjs.org/docs/api/sandbox-option) | 404 |
+| [Learning with VS Code on Chromebook](https://code.visualstudio.com/blogs/2020/12/03/chromebook-get-started) | 503 |
 | [@dataleaky](https://github.com/dataleaky) | 404 |
 | [Dhruva Srinivas (@IQUBE-X)](https://github.com/IQUBE-X) | 404 |
 | [Jonathan Mannancheril (@SneakyFish5)](https://github.com/SneakyFish5) | 404 |
@@ -2388,7 +2395,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [Amethyst Dark Theme](https://marketplace.visualstudio.com/items?itemName=eamodio.amethyst-theme) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [v1 package manifest schema](https://github.com/microsoft/winget-cli/blob/master/doc/ManifestSpecv1.0.md) | 404 |
-| [winget CLI settings](https://aka.ms/winget-settings#scope) | 0 |
+| [Ben Pasero](https://twitter.com/benjaminpasero) | 503 |
 | [@hantatsang (Sang)](https://github.com/hantatsang) | 404 |
 | [@leemun1 (Mike Lee)](https://github.com/leemun1) | 404 |
 | [@wdesgardin (William Desgardin)](https://github.com/wdesgardin) | 404 |
@@ -2586,12 +2593,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [WWBD](https://marketplace.visualstudio.com/items?itemName=brettcannon.wwbd) | 404 |
 | [@pwxn (Paul Landers)](https://github.com/pwxn) | 404 |
 
-* https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_71.md
-
-| URL | State |
-| --- | --- |
-| [FFmpeg](https://ffmpeg.org) | 0 |
-
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_72.md
 
 | URL | State |
@@ -2611,6 +2612,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [@cmarincia (Catalin Marincia)](https://github.com/cmarincia) | 404 |
+| [PR #166141](https://github.com/microsoft/vscode/pull/166141) | 502 |
 | [@najmiehsa](https://github.com/najmiehsa) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_75.md
@@ -2720,6 +2722,18 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [the latest has been merged into the spec repo](https://github.com/devcontainers/spec/blob/main/proposals/devcontainer-features.md) | 404 |
 | [updated proposal for distributing features and templates](https://github.com/devcontainers/spec/blob/main/proposals/devcontainer-features-distribution.md) | 404 |
 | [OCI Artifacts in registries](https://github.com/devcontainers/spec/blob/main/proposals/devcontainer-features-distribution.md#oci-registry) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/remote-release-notes/v1_72.md
+
+| URL | State |
+| --- | --- |
+| [Dev Container Specification](https://github.com/devcontainers/spec/blob/main/proposals/image-metadata.md) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/remote-release-notes/v1_78.md
+
+| URL | State |
+| --- | --- |
+| [Dev Container Feature Lockfile](https://github.com/devcontainers/spec/blob/main/proposals/devcontainer-lockfile.md) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/remote/advancedcontainers/develop-remote-host.md
 
