@@ -884,12 +884,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [Testing Extensions](/api/working-with-extensions/testing-extension) | 404 |
 | [Continuous Integration](/api/working-with-extensions/continuous-integration) | 404 |
 
-* https://github.com/microsoft/vscode-docs/blob/main/api/working-with-extensions/continuous-integration.md
-
-| URL | State |
-| --- | --- |
-| [Travis CI build definition](https://github.com/microsoft/vscode-test/blob/main/.travis.yml) | 404 |
-
 * https://github.com/microsoft/vscode-docs/blob/main/api/working-with-extensions/publishing-extension.md
 
 | URL | State |
@@ -904,12 +898,13 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [Visual Studio Marketplace publisher management page](https://marketplace.visualstudio.com/manage) | 203 |
 | [Visual Studio Marketplace publisher management page](https://marketplace.visualstudio.com/manage) | 203 |
 | [Marketplace Presentation Tips](/api/references/extension-manifest#marketplace-presentation-tips) | 404 |
-| [management page](https://marketplace.visualstudio.com/manage) | 203 |
+| [Visual Studio Marketplace publisher management page](https://marketplace.visualstudio.com/manage) | 203 |
 | [web extension](/api/extension-guides/web-extensions) | 404 |
+| [continuous integration](/api/working-with-extensions/continuous-integration) | 404 |
 | [Extension Marketplace](/docs/editor/extension-marketplace) | 404 |
 | [Testing Extensions](/api/working-with-extensions/testing-extension) | 404 |
 | [Bundling Extensions](/api/working-with-extensions/bundling-extension) | 404 |
-| [manage page](https://marketplace.visualstudio.com/manage) | 203 |
+| [Visual Studio Marketplace publisher management page](https://marketplace.visualstudio.com/manage) | 203 |
 | [Automated publishing](/api/working-with-extensions/continuous-integration#automated-publishing) | 404 |
 | [Continuous Integration](/api/working-with-extensions/continuous-integration) | 404 |
 | [extension name](/api/references/extension-manifest) | 404 |
@@ -1049,12 +1044,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | --- | --- |
 | [Azure Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-azureextensionpack) | 404 |
 
-* https://github.com/microsoft/vscode-docs/blob/main/blogs/2017/05/10/build-2017-demo.md
-
-| URL | State |
-| --- | --- |
-| [Docker multi-stage builds](https://codefresh.io/blog/node_docker_multistage/) | 404 |
-
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2017/10/24/theicon.md
 
 | URL | State |
@@ -1109,6 +1098,13 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | --- | --- |
 | [observable](https://github.com/mobxjs/mobx/blob/master/src/api/observable.ts#L183) | 404 |
 
+* https://github.com/microsoft/vscode-docs/blob/main/blogs/2019/05/02/remote-development.md
+
+| URL | State |
+| --- | --- |
+| [vscode-remote-try-* repositories](https://github.com/search?q=org%3AMicrosoft+vscode-remote-try-&unscoped_q=vscode-remote-try-) | 429 |
+| [Dev Container samples](https://github.com/search?q=org%3AMicrosoft+vscode-remote-try-&unscoped_q=vscode-remote-try-) | 429 |
+
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2019/07/25/remote-ssh.md
 
 | URL | State |
@@ -1147,6 +1143,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [we expose certain methods](https://github.com/microsoft/vscode/blob/main/src/vs/base/parts/sandbox/electron-browser/preload.js) | 404 |
+| [window.experimental.useSandbox](https://code.visualstudio.com/updates/v1_70#_progress-for-electron-sandbox-support) | 0 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2023/03/30/vscode-copilot.md
 
@@ -1290,6 +1287,12 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | --- | --- |
 | [http://localhost:3000](http://localhost:3000) | 0 |
 
+* https://github.com/microsoft/vscode-docs/blob/main/docs/editor/accessibility.md
+
+| URL | State |
+| --- | --- |
+| [JAWS](https://www.freedomscientific.com/products/software/jaws) | 403 |
+
 * https://github.com/microsoft/vscode-docs/blob/main/docs/editor/command-line.md
 
 | URL | State |
@@ -1423,12 +1426,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | --- | --- |
 | [Node.js/JavaScript](/docs/nodejs/working-with-javascript) | 404 |
 
-* https://github.com/microsoft/vscode-docs/blob/main/docs/languages/jsconfig.md
-
-| URL | State |
-| --- | --- |
-| [modules](http://www.commonjs.org/specs/modules/1.0) | 404 |
-
 * https://github.com/microsoft/vscode-docs/blob/main/docs/languages/markdown.md
 
 | URL | State |
@@ -1501,6 +1498,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 
 | URL | State |
 | --- | --- |
+| [ChatGPT Plugins](https://platform.openai.com/docs/plugins/introduction) | 403 |
 | [ChatGPT](https://chat.openai.com/) | 403 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/python/tutorial-flask.md
@@ -1542,6 +1540,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [SSH config file](https://linux.die.net/man/5/ssh_config) | 403 |
 | [SSH ProxyCommand article](https://www.cyberciti.biz/faq/linux-unix-ssh-proxycommand-passing-through-one-host-gateway-server/) | 403 |
 | [SSH config file](https://linux.die.net/man/5/ssh_config) | 403 |
+| [SuSE SSH](https://en.opensuse.org/OpenSSH) | 500 |
 | [Supporting Remote Development](/api/advanced-topics/remote-extensions) | 404 |
 | [Supporting Remote Development](/api/advanced-topics/remote-extensions) | 404 |
 | [extension author's guide](/api/advanced-topics/remote-extensions#opening-something-in-a-local-browser-or-application) | 404 |
@@ -1669,23 +1668,11 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | --- | --- |
 | [find](/docs/terminal/basics#find) | 404 |
 
-* https://github.com/microsoft/vscode-docs/blob/main/docs/typescript/typescript-compiling.md
-
-| URL | State |
-| --- | --- |
-| [modules](http://www.commonjs.org/specs/modules/1.0) | 404 |
-
-* https://github.com/microsoft/vscode-docs/blob/main/docs/typescript/typescript-tutorial.md
-
-| URL | State |
-| --- | --- |
-| [modules](http://www.commonjs.org/specs/modules/1.0) | 404 |
-
 * https://github.com/microsoft/vscode-docs/blob/main/learn/educators/nodejs.md
 
 | URL | State |
 | --- | --- |
-| [Charles Allen](https://th.linkedin.com/in/ajahncharles) | 404 |
+| [Charles Allen](https://th.linkedin.com/in/ajahncharles) | 999 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/learn/educators/python.md
 
@@ -2096,7 +2083,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 
 | URL | State |
 | --- | --- |
-| [`:any-link`](https://preset-env.cssdb.org/features#any-link-pseudo-class) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [Alexander Eyers-Taylor (@aeyerstaylor)](https://github.com/aeyerstaylor) | 404 |
 | [Agustín Rodríguez (@agurodriguez)](https://github.com/agurodriguez) | 404 |
@@ -2180,7 +2166,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 
 | URL | State |
 | --- | --- |
-| [WSL 2 with Visual Studio Code](https://code.visualstudio.com/blogs/2019/09/03/wsl2) | 0 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [@pi1024e](https://github.com/pi1024e) | 404 |
 | [Fuchen Shi (@shifuchen98)](https://github.com/shifuchen98) | 404 |
@@ -2333,26 +2318,14 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 
 | URL | State |
 | --- | --- |
-| [SSH server](https://code.visualstudio.com/docs/remote/ssh) | 503 |
-| [Comment](https://code.visualstudio.com/api/references/vscode-api#comments) | 503 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
-| ["Learn to Code" landing page](https://code.visualstudio.com/learntocode) | 503 |
-| [code.visualstudio.com/learn](https://code.visualstudio.com/learn) | 503 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_52.md
 
 | URL | State |
 | --- | --- |
-| [October 2019](https://code.visualstudio.com/updates/v1_40) | 503 |
-| [previous release notes](https://code.visualstudio.com/updates/v1_51#_remember-proxy-credentials) | 503 |
-| [Activation Events](https://code.visualstudio.com/api/references/activation-events) | 503 |
-| [codicon library](https://code.visualstudio.com/api/references/icons-in-labels) | 503 |
-| [Custom editors](https://code.visualstudio.com/api/extension-guides/custom-editors) | 503 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
-| [Product icon theme](https://code.visualstudio.com/api/extension-guides/product-icon-theme) | 503 |
-| [icon listing](https://code.visualstudio.com/api/references/icons-in-labels#icon-listing) | 503 |
 | [sandbox](https://www.electronjs.org/docs/api/sandbox-option) | 404 |
-| [Learning with VS Code on Chromebook](https://code.visualstudio.com/blogs/2020/12/03/chromebook-get-started) | 503 |
 | [@dataleaky](https://github.com/dataleaky) | 404 |
 | [Dhruva Srinivas (@IQUBE-X)](https://github.com/IQUBE-X) | 404 |
 | [Jonathan Mannancheril (@SneakyFish5)](https://github.com/SneakyFish5) | 404 |
@@ -2395,7 +2368,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [Amethyst Dark Theme](https://marketplace.visualstudio.com/items?itemName=eamodio.amethyst-theme) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [v1 package manifest schema](https://github.com/microsoft/winget-cli/blob/master/doc/ManifestSpecv1.0.md) | 404 |
-| [Ben Pasero](https://twitter.com/benjaminpasero) | 503 |
 | [@hantatsang (Sang)](https://github.com/hantatsang) | 404 |
 | [@leemun1 (Mike Lee)](https://github.com/leemun1) | 404 |
 | [@wdesgardin (William Desgardin)](https://github.com/wdesgardin) | 404 |
@@ -2612,7 +2584,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [@cmarincia (Catalin Marincia)](https://github.com/cmarincia) | 404 |
-| [PR #166141](https://github.com/microsoft/vscode/pull/166141) | 502 |
 | [@najmiehsa](https://github.com/najmiehsa) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_75.md
