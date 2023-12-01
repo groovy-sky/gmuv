@@ -677,7 +677,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [here](/api/working-with-extensions/publishing-extension#extension-pricing-label) | 404 |
 | [`untrustedWorkspaces`](/api/extension-guides/workspace-trust#static-declarations) | 404 |
 | [`virtualWorkspaces`](/api/extension-guides/virtual-workspaces#signal-whether-your-extension-can-handle-virtual-workspaces) | 404 |
-| [vscode-languageclient](https://www.npmjs.com/package/vscode-languageclient) | 429 |
 | [Contribution Points](/api/references/contribution-points) | 404 |
 | [Activation Events](/api/references/activation-events) | 404 |
 | [Extension Marketplace](/docs/editor/extension-marketplace) | 404 |
@@ -884,6 +883,12 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [Extension Marketplace](/docs/editor/extension-marketplace) | 404 |
 | [Testing Extensions](/api/working-with-extensions/testing-extension) | 404 |
 | [Continuous Integration](/api/working-with-extensions/continuous-integration) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/api/working-with-extensions/continuous-integration.md
+
+| URL | State |
+| --- | --- |
+| [GitLab CI documentation](https://docs.gitlab.com/ee/ci/variables/README.html#mask-a-cicd-variable) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/api/working-with-extensions/publishing-extension.md
 
@@ -1225,8 +1230,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 
 | URL | State |
 | --- | --- |
-| [Keras](https://keras.io/) | 0 |
-| [Sequential](https://keras.io/getting-started/sequential-model-guide/) | 0 |
 | [profile](/docs/editor/profiles) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/datascience/jupyter-notebooks.md
@@ -1258,7 +1261,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [Docker-from-Docker Compose](https://github.com/devcontainers/templates/tree/main/src/docker-from-docker-compose) | 404 |
-| [install additional software](#install-additional-software) | 0 |
 | [here](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/microsoft/vscode-remote-try-java) | 0 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/devcontainers/faq.md
@@ -1608,7 +1610,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | --- | --- |
 | [Download Visual Studio Code](/download) | 404 |
 | [releases](/updates) | 404 |
-| [Windows Terminal (Preview)](https://www.microsoft.com/p/windows-terminal-preview/9n0dx20hk701?SilentAuth=1&wa=wsignin1.0&activetab=pivot%3Aoverviewtab) | 504 |
 | [release](/updates) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/sourcecontrol/faq.md
@@ -1633,21 +1634,14 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [Ansible](https://marketplace.visualstudio.com/items?itemName=vscoss.vscode-ansible) | 404 |
-| [AutoRest](https://marketplace.visualstudio.com/items?itemName=ms-vscode.autorest) | 0 |
-| [MIT](https://marketplace.visualstudio.com/items/ms-azuretools.vscode-cosmosdb/license) | 503 |
+| [AutoRest](https://marketplace.visualstudio.com/items?itemName=ms-vscode.autorest) | 404 |
 | [Azure Dev Spaces](https://marketplace.visualstudio.com/items/azuredevspaces.azds/) | 404 |
-| [MIT](https://marketplace.visualstudio.com/items/vsciot-vscode.azure-iot-edge/license) | 503 |
 | [Azure IoT Device Workbench](https://marketplace.visualstudio.com/items/vsciot-vscode.vscode-iot-workbench) | 404 |
 | [MIT](https://marketplace.visualstudio.com/items/vsciot-vscode.vscode-iot-workbench/license) | 404 |
-| [Azure Machine Learning](https://marketplace.visualstudio.com/items/ms-toolsai.vscode-ai) | 503 |
 | [Azure Repos](https://marketplace.visualstudio.com/items/ms-vsts.team) | 404 |
 | [Blockchain Development Kit for Ethereum](https://marketplace.visualstudio.com/items?itemName=AzBlockchain.azure-blockchain) | 404 |
-| [MIT](https://marketplace.visualstudio.com/items/docsmsft.docs-markdown/license) | 503 |
-| [docs-preview](https://marketplace.visualstudio.com/items/docsmsft.docs-preview) | 503 |
 | [MIT](https://marketplace.visualstudio.com/items/docsmsft.docs-preview/license) | 404 |
-| [MIT](https://marketplace.visualstudio.com/items/ms-kubernetes-tools.duffle-vscode/license) | 503 |
 | [GitHub Issues](https://marketplace.visualstudio.com/items/ms-vscode.github-issues-prs) | 404 |
-| [MIT](https://marketplace.visualstudio.com/items/ms-python.python/license) | 0 |
 | [Reference Search View](https://marketplace.visualstudio.com/items/ms-vscode.references-view) | 404 |
 | [MIT](https://marketplace.visualstudio.com/items/ms-vscode.references-view/license) | 404 |
 
@@ -1668,6 +1662,12 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [find](/docs/terminal/basics#find) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/docs/typescript/typescript-tutorial.md
+
+| URL | State |
+| --- | --- |
+| [modules](https://wiki.commonjs.org/wiki/Modules/1.0) | 504 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/learn/educators/nodejs.md
 
@@ -2125,6 +2125,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [rewrote our local file system provider](https://github.com/microsoft/vscode/blob/main/src/vs/workbench/services/files/node/diskFileSystemProvider.ts) | 404 |
 | [@cmchumak](https://github.com/cmchumak) | 404 |
 | [XTY (@xtydev)](https://github.com/xtydev) | 404 |
+| [Charles Stover (@CharlesStover)](https://github.com/CharlesStover) | 404 |
 | [Cloud + AI Localization](https://github.com/microsoft/Localization/wiki) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_35.md
@@ -2203,7 +2204,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 
 | URL | State |
 | --- | --- |
-| [Dark Amethyst](https://marketplace.visualstudio.com/items?itemName=eamodio.amethyst-theme) | 0 |
+| [Dark Amethyst](https://marketplace.visualstudio.com/items?itemName=eamodio.amethyst-theme) | 404 |
 | [webview demo](https://github.com/microsoft/vscode-js-debug/tree/main/demos/webview) | 404 |
 | [simple static web server](https://github.com/zeit/serve/blob/master/README.md) | 404 |
 | [Horizon Bright](https://marketplace.visualstudio.com/items?itemName=jolaleye.horizon-theme-vscode) | 404 |
@@ -2319,7 +2320,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 
 | URL | State |
 | --- | --- |
-| [GitHub Light](https://marketplace.visualstudio.com/items?itemName=github.github-vscode-theme) | 0 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_52.md
@@ -2346,7 +2346,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 
 | URL | State |
 | --- | --- |
-| [Brackets Extension Pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode.brackets-pack) | 0 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [provisional documentation](/api/extension-guides/testing) | 404 |
 | [@davidbailey00 (David Bailey)](https://github.com/davidbailey00) | 404 |
@@ -2381,7 +2380,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [Amethyst Dark Theme](https://marketplace.visualstudio.com/items?itemName=eamodio.amethyst-theme) | 404 |
-| [Remote Development extensions](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) | 0 |
 | [this is a link](command:workbench.action.quickOpenView) | 0 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [@hantatsang (Sang)](https://github.com/hantatsang) | 404 |
@@ -2401,7 +2399,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 
 | URL | State |
 | --- | --- |
-| [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) | 0 |
 | [test](command:vscode.newWindow) | 0 |
 | [3.17 version](https://microsoft.github.io/language-server-protocol/specifications/specification-3-17) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
@@ -2448,7 +2445,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [Amethyst Theme](https://marketplace.visualstudio.com/items?itemName=eamodio.amethyst-theme) | 404 |
-| [Remote Development extensions](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) | 503 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [library](https://github.com/microsoft/vscode-nsfw) | 404 |
 | [CodeCrazy-ywt (@CodeCrazy-ywt)](https://github.com/CodeCrazy-ywt) | 404 |
@@ -2461,12 +2457,8 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [Keil Studio](https://marketplace.visualstudio.com/items?itemName=arm-debug.keil-studio-vscode) | 404 |
-| [Duplicate selection or line](https://marketplace.visualstudio.com/items?itemName=geeebe.duplicate) | 503 |
 | [HarmonyLang Lite](https://marketplace.visualstudio.com/items?itemName=kevinsun-dev-cornell.harmonylang-lite) | 404 |
 | [Pop File Money Counter](https://marketplace.visualstudio.com/items?itemName=pfwobcke.pop-file-money-counter) | 404 |
-| [Red Hat](https://marketplace.visualstudio.com/publishers/redhat) | 503 |
-| [SenX](https://marketplace.visualstudio.com/publishers/senx) | 503 |
-| [Stenal P Jolly](https://marketplace.visualstudio.com/publishers/stenalpj) | 0 |
 | [88d88d8d8d8d8](https://marketplace.visualstudio.com/items?itemName=Thomka.88d88d8d8d8d8) | 404 |
 | [Wardlt Editor](https://marketplace.visualstudio.com/items?itemName=Wardlt.wardlt) | 404 |
 | [wjrnjknrekwj](https://marketplace.visualstudio.com/items?itemName=wjrnjknrekwj.wjrnjknrekwj-wjrnjknrekwj) | 404 |
@@ -2487,9 +2479,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 
 | URL | State |
 | --- | --- |
-| [extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-repos) | 503 |
-| [GitHub Pull Request and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) | 503 |
-| [aroary](https://marketplace.visualstudio.com/publishers/aroary) | 0 |
 | [Couper Configuration](https://marketplace.visualstudio.com/items?itemName=AvengaGermanyGmbH.couper) | 404 |
 | [MathJax for Markdown](https://marketplace.visualstudio.com/items?itemName=taniguchi.mathjax-for-markdown) | 404 |
 | [Sourcegraph - preview](https://marketplace.visualstudio.com/items?itemName=kandalatj.sourcegraph-preview) | 404 |
@@ -2501,10 +2490,8 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 
 | URL | State |
 | --- | --- |
-| [GitHub Light](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme) | 0 |
 | [link](./file.js) | 404 |
 | [link](./file.js) | 404 |
-| [gkauthentication-test](https://marketplace.visualstudio.com/items?itemName=branchcreation.gkauthentication-test) | 503 |
 | [GitKraken Authentication](https://marketplace.visualstudio.com/items?itemName=gitkraken.gitkraken-authentication) | 404 |
 | [@SNDST00M (M.U.N.I.N)](https://github.com/SNDST00M) | 404 |
 
@@ -2513,7 +2500,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=Dancheg97.material-icon-theme-gopher-fork) | 404 |
-| [Markmap](https://marketplace.visualstudio.com/items?itemName=gera2ld.markmap-vscode) | 503 |
 | [gcs-sync-vs-ext](https://marketplace.visualstudio.com/items?itemName=killerbees-devops.gcs-sync-vs-ext) | 404 |
 | [gitlab](https://marketplace.visualstudio.com/items?itemName=RedstoneWizard08.gitlab) | 404 |
 | [vscode_web_extension_emulator](https://marketplace.visualstudio.com/items?itemName=runthoser.vscode-web-extension-emulator) | 404 |
@@ -2529,15 +2515,12 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [text](/link/to/file.md) | 404 |
 | [link text](/path/to/file#some-header) | 404 |
 | [VSCode Remote Server](https://marketplace.visualstudio.com/items?itemName=btwiuse.vscode-remote-server) | 404 |
-| [Extra Context](https://marketplace.visualstudio.com/items?itemName=rioj7.extra-context) | 0 |
 | [web_prolin_emulator](https://marketplace.visualstudio.com/items?itemName=runthoser.web-prolin-emulator) | 404 |
-| [toyjack](https://marketplace.visualstudio.com/publishers/toyjack) | 503 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_68.md
 
 | URL | State |
 | --- | --- |
-| [Panda Theme](https://marketplace.visualstudio.com/items?itemName=tinkertrain.theme-panda) | 0 |
 | [link](/path/to/file.md) | 404 |
 | [Mintlify](https://marketplace.visualstudio.com/items?itemName=mintlify.connector) | 404 |
 | [Loop Development Kit](https://marketplace.visualstudio.com/items?itemName=Olive-AI.vscode-loop-development-kit) | 404 |
@@ -2546,7 +2529,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 
 | URL | State |
 | --- | --- |
-| [Light Pink](https://marketplace.visualstudio.com/items?itemName=mgwg.light-pink-theme) | 0 |
 | [Some link](<path to file with spaces.md>) | 404 |
 | [link](/path/to/file.md) | 404 |
 | [link](/path/to/file.md#some-header) | 404 |
@@ -2573,7 +2555,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [.deb](https://vscode-update.azurewebsites.net/1.7.1/linux-deb-ia32/stable) | 404 |
 | [.rpm](https://vscode-update.azurewebsites.net/1.7.1/linux-rpm-ia32/stable) | 404 |
 | [Latest TypeScript and JavaScript grammar extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.typescript-javascript-grammar) | 404 |
-| [beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify) | 0 |
 | [`onDidChangeVisibleTextEditors`](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.d.ts#L3383) | 404 |
 | [vscode.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.d.ts) | 404 |
 | [Jeong Woo Chang (@inspiredjw)](https://github.com/inspiredjw) | 404 |
