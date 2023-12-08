@@ -197,6 +197,7 @@
 | [TextDocument](/api/references/vscode-api#TextDocument) | 404 |
 | [posts a message](/api/extension-guides/webview#scripts-and-message-passing) | 404 |
 | [activation event](/api/references/activation-events) | 404 |
+| [workspace FS api](https://code.visualstudio.com/api/references/vscode-api#FileSystem) | 0 |
 | [Extension Capabilities](/api/extension-capabilities/overview) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/api/extension-guides/debugger-extension.md
@@ -235,6 +236,8 @@
 | [VS Code API](/api/references/vscode-api) | 404 |
 | [Contribution Points](/api/references/contribution-points) | 404 |
 | [UX Guidelines](/api/ux-guidelines/overview) | 404 |
+| [commands](https://code.visualstudio.com/api/references/vscode-api#commands) | 0 |
+| [window.createTreeView](https://code.visualstudio.com/api/references/vscode-api#window.createTreeView) | 0 |
 | [TestItem](https://code.visualstudio.com.azurewebsites.net/api/references/vscode-api#TestItem) | 0 |
 | [Language Extensions](/api/language-extensions/overview) | 404 |
 
@@ -1157,6 +1160,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [Java](https://www.java.com) | 0 |
+| [Python example](https://insiders.vscode.dev/github/microsoft/vscode-wasi/blob/main/testbeds/python/extension.ts#L1) | 504 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2023/11/13/vscode-copilot-smarter.md
 
@@ -1341,6 +1345,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 
 | URL | State |
 | --- | --- |
+| [Example route](https://insiders.vscode.dev/marketplace/Brigit/devcontainer-image-convert/0.0.1) | 504 |
 | [Settings Sync](/docs/editor/settings-sync) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/editor/workspace-trust.md
@@ -1662,12 +1667,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [find](/docs/terminal/basics#find) | 404 |
-
-* https://github.com/microsoft/vscode-docs/blob/main/docs/typescript/typescript-tutorial.md
-
-| URL | State |
-| --- | --- |
-| [modules](https://wiki.commonjs.org/wiki/Modules/1.0) | 504 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/learn/educators/nodejs.md
 
@@ -2320,6 +2319,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 
 | URL | State |
 | --- | --- |
+| [Comment](https://code.visualstudio.com/api/references/vscode-api#comments) | 0 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_52.md
@@ -2366,6 +2366,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 
 | URL | State |
 | --- | --- |
+| [typographic replacements](https://github.com/markdown-it/markdown-it/blob/master/lib/rules_core/replacements.js) | 404 |
 | [Amethyst Dark Theme](https://marketplace.visualstudio.com/items?itemName=eamodio.amethyst-theme) | 404 |
 | [Amethyst Dark Theme](https://marketplace.visualstudio.com/items?itemName=eamodio.amethyst-theme) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
@@ -2546,6 +2547,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [.tar.gz](https://vscode-update.azurewebsites.net/1.7.2/linux-ia32/stable) | 404 |
 | [.deb](https://vscode-update.azurewebsites.net/1.7.2/linux-deb-ia32/stable) | 404 |
 | [.rpm](https://vscode-update.azurewebsites.net/1.7.2/linux-rpm-ia32/stable) | 404 |
+| [blog post](https://code.visualstudio.com/blogs/2016/11/3/rollback) | 0 |
 | [Windows](https://vscode-update.azurewebsites.net/1.7.1/win32/stable) | 404 |
 | [Mac](https://vscode-update.azurewebsites.net/1.7.1/darwin/stable) | 404 |
 | [.tar.gz](https://vscode-update.azurewebsites.net/1.7.1/linux-x64/stable) | 404 |
@@ -2625,6 +2627,12 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | --- | --- |
 | [Debugging WebAssembly](/docs/nodejs/nodejs-debugging#debugging-webassembly) | 404 |
 
+* https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_84.md
+
+| URL | State |
+| --- | --- |
+| [codicon](https://code.visualstudio.com/api/references/icons-in-labels) | 500 |
+
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_9.md
 
 | URL | State |
@@ -2682,6 +2690,18 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [`yo code` generator](/docs/extensions/yocode.md) | 404 |
 | [`vsce` publishing tool](/docs/extensions/publish-extension.md) | 404 |
 | [extension samples](/docs/extensions/samples/.md) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/remote-release-notes/v1_42.md
+
+| URL | State |
+| --- | --- |
+| [Docker Hub page](https://hub.docker.com/_/microsoft-vscode-devcontainers) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/remote-release-notes/v1_44.md
+
+| URL | State |
+| --- | --- |
+| [Docker Hub page](https://hub.docker.com/_/microsoft-vscode-devcontainers) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/remote-release-notes/v1_66.md
 
