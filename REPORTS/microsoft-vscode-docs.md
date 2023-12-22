@@ -7,12 +7,6 @@
 | [Link Text](page.md#subheading-title) | 404 |
 | [Debug Breakpoints](images/debugging/breakpoints-view.png) | 404 |
 
-* https://github.com/microsoft/vscode-docs/blob/main/LICENSE.md
-
-| URL | State |
-| --- | --- |
-| [MIT License](https://opensource.org/licenses/MIT) | 403 |
-
 * https://github.com/microsoft/vscode-docs/blob/main/README.md
 
 | URL | State |
@@ -1093,7 +1087,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [@waderyan_](https://twitter.com/waderyan_) | 400 |
-| [Fun fact](https://news.ycombinator.com/item?id=12861093) | 0 |
 | [#HappyCoding](https://twitter.com/hashtag/HappyCoding?src=hash) | 400 |
 | [@waderyan_](https://twitter.com/waderyan_) | 400 |
 
@@ -1487,6 +1480,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [@burkeholland](https://twitter.com/burkeholland) | 400 |
+| [John M. Carroll](https://jcarroll.ist.psu.edu/) | 500 |
 | [@burkeholland](https://twitter.com/burkeholland) | 400 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2022/04/04/increase-productivity-with-containers.md
@@ -1552,6 +1546,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [Copilot extension]( https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) | 0 |
 | [Oege De Moor]( https://twitter.com/oegerikus) | 0 |
 | [OpenAI's codex model]( https://openai.com/blog/openai-codex) | 0 |
+| [Copilot Labs extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-labs) | 404 |
 | [Twitter](https://twitter.com/code) | 400 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2023/04/13/vscode-day.md
@@ -1747,6 +1742,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 
 | URL | State |
 | --- | --- |
+| [IntelliCode API Usage Examples](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.intellicode-api-usage-examples) | 503 |
 | [Insiders](/insiders) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/editor/refactoring.md
@@ -2508,7 +2504,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [Matthew Knox (@mrkno)](https://github.com/mrkno) | 404 |
 | [Antoine (@Poke1650)](https://github.com/Poke1650) | 404 |
 | [Stepan Usatyuk (@usaatyuk)](https://github.com/usaatyuk) | 404 |
-| [PR #431](https://github.com/microsoft/vscode-languageserver-node/pull/431) | 502 |
 | [@amiya-1998](https://github.com/amiya-1998) | 404 |
 | [@edawine](https://github.com/edawine) | 404 |
 
@@ -2623,7 +2618,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [@pi1024e](https://github.com/pi1024e) | 404 |
 | [Fuchen Shi (@shifuchen98)](https://github.com/shifuchen98) | 404 |
-| [PR #512](https://github.com/microsoft/vscode-languageserver-node/pull/512) | 500 |
 | [Cloud + AI Localization](https://github.com/microsoft/Localization/wiki) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_40.md
@@ -2642,7 +2636,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [@code](https://twitter.com/code) | 400 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
-| [call hierarchy](https://github.com/microsoft/vscode-languageserver-node/blob/dbaeumer/moreIntegrationTests/protocol/src/protocol.callHierarchy.proposed.ts#L1) | 502 |
 | [George Batalinski (@georgebatalinski)](https://github.com/georgebatalinski) | 404 |
 | [Cloud + AI Localization](https://github.com/microsoft/Localization/wiki) | 404 |
 
@@ -2979,7 +2972,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [link text](/path/to/file#some-header) | 404 |
 | [text](/link/to/file.md) | 404 |
 | [link text](/path/to/file#some-header) | 404 |
-| [sb4-extension](https://marketplace.visualstudio.com/items?itemName=arrow2nd.sb4-extension) | 503 |
 | [VSCode Remote Server](https://marketplace.visualstudio.com/items?itemName=btwiuse.vscode-remote-server) | 404 |
 | [web_prolin_emulator](https://marketplace.visualstudio.com/items?itemName=runthoser.web-prolin-emulator) | 404 |
 
@@ -3141,6 +3133,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [`js-is-jsx` extension](https://marketplace.visualstudio.com/items?itemName=eg2.js-is-jsx) | 404 |
+| [AutoHotKey](https://www.autohotkey.com) | 403 |
 | [here](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.d.ts) | 404 |
 | [VS Code extension APIs](/docs/extensionAPI/overview.md) | 404 |
 
@@ -3160,18 +3153,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [`yo code` generator](/docs/extensions/yocode.md) | 404 |
 | [`vsce` publishing tool](/docs/extensions/publish-extension.md) | 404 |
 | [extension samples](/docs/extensions/samples/.md) | 404 |
-
-* https://github.com/microsoft/vscode-docs/blob/main/remote-release-notes/v1_42.md
-
-| URL | State |
-| --- | --- |
-| [Docker Hub page](https://hub.docker.com/_/microsoft-vscode-devcontainers) | 405 |
-
-* https://github.com/microsoft/vscode-docs/blob/main/remote-release-notes/v1_44.md
-
-| URL | State |
-| --- | --- |
-| [Docker Hub page](https://hub.docker.com/_/microsoft-vscode-devcontainers) | 405 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/remote-release-notes/v1_66.md
 
