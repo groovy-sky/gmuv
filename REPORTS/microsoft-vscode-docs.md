@@ -59,7 +59,6 @@
 | [message passing](/api/extension-guides/webview#scripts-and-message-passing) | 404 |
 | [Tips and Tricks](/docs/remote/troubleshooting) | 404 |
 | [FAQ](/docs/remote/faq) | 404 |
-| [Stack Overflow](https://stackoverflow.com/questions/tagged/vscode-remote) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/api/advanced-topics/using-proposed-api.md
 
@@ -672,6 +671,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [here](/api/working-with-extensions/publishing-extension#extension-pricing-label) | 404 |
 | [`untrustedWorkspaces`](/api/extension-guides/workspace-trust#static-declarations) | 404 |
 | [`virtualWorkspaces`](/api/extension-guides/virtual-workspaces#signal-whether-your-extension-can-handle-virtual-workspaces) | 404 |
+| [vscode-languageclient](https://www.npmjs.com/package/vscode-languageclient) | 429 |
 | [Contribution Points](/api/references/contribution-points) | 404 |
 | [Activation Events](/api/references/activation-events) | 404 |
 | [Extension Marketplace](/docs/editor/extension-marketplace) | 404 |
@@ -1153,7 +1153,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [@chrisdias](https://twitter.com/chrisdias) | 400 |
-| [Docker multi-stage builds](https://codefresh.io/blog/node_docker_multistage/) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2017/06/20/great-looking-editor-roundup.md
 
@@ -1388,6 +1387,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [@BrigitMurtaugh](https://twitter.com/BrigitMurtaugh) | 400 |
+| [Microsoft store](https://www.microsoft.com/p/ubuntu/9nblggh4msv6) | 404 |
 | [@code](https://twitter.com/code) | 400 |
 | [@BrigitMurtaugh](https://twitter.com/BrigitMurtaugh) | 400 |
 
@@ -1897,7 +1897,8 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 
 | URL | State |
 | --- | --- |
-| [http://localhost:8080](http://localhost:8080) | 0 |
+| [http://localhost:5173](http://localhost:5173) | 0 |
+| [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) | 0 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/python/jupyter-support-py.md
 
@@ -2914,6 +2915,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | --- | --- |
 | [Keil Studio](https://marketplace.visualstudio.com/items?itemName=arm-debug.keil-studio-vscode) | 404 |
 | [HarmonyLang Lite](https://marketplace.visualstudio.com/items?itemName=kevinsun-dev-cornell.harmonylang-lite) | 404 |
+| [LuatIDE](https://marketplace.visualstudio.com/items?itemName=luater.luatide) | 404 |
 | [PHP DocBlocker](https://marketplace.visualstudio.com/items?itemName=neilbrayfield.php-docblocker-test) | 404 |
 | [Pop File Money Counter](https://marketplace.visualstudio.com/items?itemName=pfwobcke.pop-file-money-counter) | 404 |
 | [88d88d8d8d8d8](https://marketplace.visualstudio.com/items?itemName=Thomka.88d88d8d8d8d8) | 404 |
