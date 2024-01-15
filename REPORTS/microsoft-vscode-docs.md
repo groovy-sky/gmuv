@@ -967,7 +967,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [debugging](/docs/editor/debugging) | 404 |
 | [Git support](/docs/sourcecontrol/overview) | 404 |
 | [languages](/docs/getstarted/locales) | 404 |
-| [@zersiax](https://twitter.com/zersiax) | 400 |
+| [@zersiax](https://twitter.com/zersiax) | 503 |
 | [accessible](/docs/editor/accessibility) | 404 |
 | [download](/Download) | 404 |
 | [@code](https://twitter.com/code) | 400 |
@@ -1823,12 +1823,24 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | --- | --- |
 | [profile](/docs/editor/profiles) | 404 |
 
+* https://github.com/microsoft/vscode-docs/blob/main/docs/java/java-testing.md
+
+| URL | State |
+| --- | --- |
+| [TestNG](https://testng.org/doc/) | 404 |
+
 * https://github.com/microsoft/vscode-docs/blob/main/docs/java/java-webapp.md
 
 | URL | State |
 | --- | --- |
 | [http://localhost:8080](http://localhost:8080) | 0 |
 | [Spring Data Azure Cosmos DB Sample Project](https://github.com/Azure/azure-sdk-for-java/tree/master/sdk/spring/azure-spring-boot-samples/azure-spring-boot-sample-cosmos) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/docs/languages/go.md
+
+| URL | State |
+| --- | --- |
+| [CHANGELOG](https://github.com/golang/vscode-go/blob/master/CHANGELOG.md) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/languages/java.md
 
@@ -1898,7 +1910,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [http://localhost:5173](http://localhost:5173) | 0 |
-| [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) | 0 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/python/jupyter-support-py.md
 
@@ -2031,6 +2042,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | --- | --- |
 | [Download Visual Studio Code](/download) | 404 |
 | [releases](/updates) | 404 |
+| [Windows Terminal (Preview)](https://www.microsoft.com/p/windows-terminal-preview/9n0dx20hk701?SilentAuth=1&wa=wsignin1.0&activetab=pivot%3Aoverviewtab) | 503 |
 | [release](/updates) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/sourcecontrol/faq.md
@@ -2498,6 +2510,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [Agustín Rodríguez (@agurodriguez)](https://github.com/agurodriguez) | 404 |
 | [Anurag Banerjee (@banuragprdxn)](https://github.com/banuragprdxn) | 404 |
+| [@benjamenhogben](https://github.com/benjamenhogben) | 404 |
 | [Brendon Crawford (@brendoncrawford)](https://github.com/brendoncrawford) | 404 |
 | [Joshua (@cookiej91)](https://github.com/cookiej91) | 404 |
 | [Daksh (@DakshMiglani)](https://github.com/DakshMiglani) | 404 |
@@ -2918,6 +2931,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [LuatIDE](https://marketplace.visualstudio.com/items?itemName=luater.luatide) | 404 |
 | [PHP DocBlocker](https://marketplace.visualstudio.com/items?itemName=neilbrayfield.php-docblocker-test) | 404 |
 | [Pop File Money Counter](https://marketplace.visualstudio.com/items?itemName=pfwobcke.pop-file-money-counter) | 404 |
+| [SinoMCU IDE RISC8 (alpha)](https://marketplace.visualstudio.com/items?itemName=SinoMCU.IDE-RISC8) | 404 |
 | [88d88d8d8d8d8](https://marketplace.visualstudio.com/items?itemName=Thomka.88d88d8d8d8d8) | 404 |
 | [Wardlt Editor](https://marketplace.visualstudio.com/items?itemName=Wardlt.wardlt) | 404 |
 | [wjrnjknrekwj](https://marketplace.visualstudio.com/items?itemName=wjrnjknrekwj.wjrnjknrekwj-wjrnjknrekwj) | 404 |
