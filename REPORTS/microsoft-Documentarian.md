@@ -282,13 +282,3 @@
 | [sometimes](anyway.md) | 404 |
 | [Between](comments.md) | 404 |
 | [but then](its.md "okay") | 404 |
-
-* https://github.com/microsoft/Documentarian/blob/main/SECURITY.md
-
-| URL | State |
-| --- | --- |
-| [Microsoft's definition of a security vulnerability](https://aka.ms/opensource/security/definition) | 403 |
-| [Microsoft Security Response Center PGP Key page](https://aka.ms/opensource/security/pgpkey) | 403 |
-| [microsoft.com/msrc](https://aka.ms/opensource/security/msrc) | 403 |
-| [Microsoft Bug Bounty Program](https://aka.ms/opensource/security/bounty) | 403 |
-| [Coordinated Vulnerability Disclosure](https://aka.ms/opensource/security/cvd) | 403 |
