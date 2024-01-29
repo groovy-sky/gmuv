@@ -14,16 +14,6 @@
 | [Git LFS Include and Exclude pattern](https://github.com/git-lfs/git-lfs/blob/main/docs/man/git-lfs-fetch.1.ronn#include-and-exclude) | 404 |
 | [here](https://github.com/microsoft/vscode-website#publishing-a-documentation-change) | 404 |
 
-* https://github.com/microsoft/vscode-docs/blob/main/SECURITY.md
-
-| URL | State |
-| --- | --- |
-| [Microsoft's definition of a security vulnerability](https://aka.ms/opensource/security/definition) | 403 |
-| [Microsoft Security Response Center PGP Key page](https://aka.ms/opensource/security/pgpkey) | 403 |
-| [microsoft.com/msrc](https://aka.ms/opensource/security/msrc) | 403 |
-| [Microsoft Bug Bounty Program](https://aka.ms/opensource/security/bounty) | 403 |
-| [Coordinated Vulnerability Disclosure](https://aka.ms/opensource/security/cvd) | 403 |
-
 * https://github.com/microsoft/vscode-docs/blob/main/api/advanced-topics/extension-host.md
 
 | URL | State |
@@ -939,7 +929,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | --- | --- |
 | [Andy Sterland](https://twitter.com/AndySterland) | 400 |
 | [Kenneth Auchenberg](https://twitter.com/auchenberg) | 400 |
-| [Microsoft Edge](https://www.microsoft.com/en-us/windows/microsoft-edge) | 403 |
 | [Twitter](https://twitter.com/code) | 400 |
 | [Andy Sterland](https://twitter.com/AndySterland) | 400 |
 | [Kenneth Auchenberg](https://twitter.com/auchenberg) | 400 |
@@ -1163,7 +1152,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [@chrisdias](https://twitter.com/chrisdias) | 400 |
-| [Docker multi-stage builds](https://codefresh.io/blog/node_docker_multistage/) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2017/06/20/great-looking-editor-roundup.md
 
@@ -1213,7 +1201,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [@nz_sean](https://twitter.com/nz_sean) | 400 |
-| [tune in here](https://www.microsoft.com/en-us/connectevent) | 403 |
 | [Visual Studio Live Share page](/visual-studio-live-share) | 404 |
 | [Python](/docs/languages/python) | 404 |
 | [Java](/docs/languages/java) | 404 |
@@ -1239,10 +1226,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [@roblourens](https://twitter.com/roblourens) | 400 |
-| [Bing's Cognitive Services](https://azure.microsoft.com/en-us/services/cognitive-services/bing-web-search-api/) | 403 |
-| [Bing Spell Check API](https://azure.microsoft.com/en-us/services/cognitive-services/spell-check/) | 403 |
-| [Bing Web Search API](https://azure.microsoft.com/en-us/services/cognitive-services/bing-web-search-api/) | 403 |
-| [Bing Custom Search API](https://azure.microsoft.com/en-us/services/cognitive-services/bing-custom-search/) | 403 |
 | [@roblourens](https://twitter.com/roblourens) | 400 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2018/05/07/live-share-public-preview.md
@@ -1327,7 +1310,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [@fiveisprime](https://twitter.com/fiveisprime) | 400 |
-| [Windows Insiders](https://insider.windows.com/getting-started/) | 403 |
 | [@fiveisprime](https://twitter.com/fiveisprime) | 400 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2019/10/03/remote-ssh-tips-and-tricks.md
@@ -1564,7 +1546,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [Oege De Moor]( https://twitter.com/oegerikus) | 0 |
 | [OpenAI's codex model]( https://openai.com/blog/openai-codex) | 0 |
 | [Copilot Labs extension](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-labs) | 404 |
-| [Responsible AI](https://www.microsoft.com/ai/responsible-ai) | 403 |
 | [Twitter](https://twitter.com/code) | 400 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2023/04/13/vscode-day.md
@@ -1602,12 +1583,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [@chrisdias](https://twitter.com/chrisdias) | 400 |
 | [GitHub Search Blackbird service]( https://github.blog/2023-02-06-the-technology-behind-githubs-new-code-search) | 0 |
 | [GitHub Copilot]( https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) | 0 |
-
-* https://github.com/microsoft/vscode-docs/blob/main/docs/containers/debug-netcore.md
-
-| URL | State |
-| --- | --- |
-| [.NET SDK](https://www.microsoft.com/net/download) | 403 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/containers/quickstart-aspnet-core.md
 
@@ -1780,7 +1755,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | --- | --- |
 | [scopes](/updates/v1_34.md#machinespecific-settings) | 404 |
 | [Insiders](/insiders) | 404 |
-| [Microsoft Sovereign Cloud](https://www.microsoft.com/en-us/industry/sovereignty/cloud) | 403 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/editor/vscode-web.md
 
@@ -1845,7 +1819,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 
 | URL | State |
 | --- | --- |
-| [Java Development Kit (JDK)](https://www.microsoft.com/openjdk) | 403 |
 | [profile](/docs/editor/profiles) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/java/java-testing.md
@@ -1853,12 +1826,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [TestNG](https://testng.org/doc/) | 404 |
-
-* https://github.com/microsoft/vscode-docs/blob/main/docs/java/java-tutorial.md
-
-| URL | State |
-| --- | --- |
-| [Microsoft Build of OpenJDK](https://www.microsoft.com/openjdk) | 403 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/java/java-webapp.md
 
@@ -1879,7 +1846,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | --- | --- |
 | [Download VS Code](/download) | 404 |
 | [Developing in WSL](/docs/remote/wsl) | 404 |
-| [Microsoft Build of OpenJDK](https://www.microsoft.com/openjdk) | 403 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/languages/javascript.md
 
@@ -1917,12 +1883,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [Angular](/docs/nodejs/angular-tutorial) | 404 |
 | [Vue](/docs/nodejs/vuejs-tutorial) | 404 |
 | [recipes](/docs/nodejs/debugging-recipes) | 404 |
-
-* https://github.com/microsoft/vscode-docs/blob/main/docs/nodejs/debugging-recipes.md
-
-| URL | State |
-| --- | --- |
-| [Microsoft Edge](https://www.microsoft.com/edge) | 403 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/nodejs/extensions.md
 
@@ -1967,12 +1927,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | --- | --- |
 | [profile](/docs/editor/profiles) | 404 |
 
-* https://github.com/microsoft/vscode-docs/blob/main/docs/python/tutorial-django.md
-
-| URL | State |
-| --- | --- |
-| [SQL Server](https://www.microsoft.com/en-ca/sql-server/) | 403 |
-
 * https://github.com/microsoft/vscode-docs/blob/main/docs/python/tutorial-fastapi.md
 
 | URL | State |
@@ -1992,7 +1946,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | --- | --- |
 | [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) | 404 |
 | [Remote Development extensions](/docs/remote/remote-overview) | 404 |
-| [Microsoft Edge](https://www.microsoft.com/en-us/edge) | 403 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/remote/faq.md
 
@@ -2170,6 +2123,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [William Raiford](https://github.com/bill-mybiz) | 404 |
+| [VIM extension](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim) | 503 |
 | [`registerDocumentLinkProvider`](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.d.ts#L3814) | 404 |
 | [PR vscode-languageserver-node-example#17](https://github.com/microsoft/vscode-languageserver-node-example/pull/17) | 404 |
 | [Pouya Kary (@pmkary)](https://github.com/pmkary) | 404 |
@@ -2698,6 +2652,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [@code](https://twitter.com/code) | 400 |
+| [Using C++ and WSL in VS Code](https://code.visualstudio.com/docs/cpp/config-wsl) | 500 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [George Batalinski (@georgebatalinski)](https://github.com/georgebatalinski) | 404 |
@@ -2717,10 +2672,8 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 
 | URL | State |
 | --- | --- |
-| [Insiders](https://code.visualstudio.com/insiders) | 504 |
 | [@code](https://twitter.com/code) | 400 |
 | [Dark Amethyst](https://marketplace.visualstudio.com/items?itemName=eamodio.amethyst-theme) | 404 |
-| [new Microsoft Edge browser](https://www.microsoft.com/edge) | 403 |
 | [webview demo](https://github.com/microsoft/vscode-js-debug/tree/main/demos/webview) | 404 |
 | [simple static web server](https://github.com/zeit/serve/blob/master/README.md) | 404 |
 | [Horizon Bright](https://marketplace.visualstudio.com/items?itemName=jolaleye.horizon-theme-vscode) | 404 |
@@ -2905,13 +2858,10 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [Amethyst Dark Theme](https://marketplace.visualstudio.com/items?itemName=eamodio.amethyst-theme) | 404 |
-| [Microsoft Edge](https://aka.ms/getedge) | 403 |
 | [this is a link](command:workbench.action.quickOpenView) | 0 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [@hantatsang (Sang)](https://github.com/hantatsang) | 404 |
 | [@wendellhu95 (Wendell)](https://github.com/wendellhu95) | 404 |
-| [@yanmofeixi](https://github.com/yanmofeixi) | 404 |
-| [PR #764](https://github.com/microsoft/vscode-languageserver-node/pull/764) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_58.md
 
@@ -3010,8 +2960,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 
 | URL | State |
 | --- | --- |
-| [code.visualstudio.com](https://code.visualstudio.com) | 0 |
-| [Microsoft Edge](https://www.microsoft.com/edge) | 403 |
 | [Couper Configuration](https://marketplace.visualstudio.com/items?itemName=AvengaGermanyGmbH.couper) | 404 |
 | [MathJax for Markdown](https://marketplace.visualstudio.com/items?itemName=taniguchi.mathjax-for-markdown) | 404 |
 | [Sourcegraph - preview](https://marketplace.visualstudio.com/items?itemName=kandalatj.sourcegraph-preview) | 404 |
@@ -3139,12 +3087,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [link text](link target) | 404 |
-
-* https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_78.md
-
-| URL | State |
-| --- | --- |
-| [Microsoft Cloud for Sovereignty](https://www.microsoft.com/en-us/industry/sovereignty/cloud) | 403 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_8.md
 
