@@ -13,12 +13,6 @@
 | [User Voice page](https://aka.ms/conversation-learner-uservoice) | 404 |
 | [conversationlearner-webchat](https://github.com/Microsoft/ConversationLearner-WebChat) | 404 |
 
-* https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/Conversation-Learner/tutorials/05-expected-entity.md
-
-| URL | State |
-| --- | --- |
-| [Expected Entity Tutorial Preview](https://aka.ms/cl_Tutorial_v3_ExpectedEntity_Preview) | 0 |
-
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/Conversation-Learner/tutorials/16-hybrid-bots.md
 
 | URL | State |
