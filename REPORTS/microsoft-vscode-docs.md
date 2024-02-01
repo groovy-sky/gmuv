@@ -1310,6 +1310,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [@fiveisprime](https://twitter.com/fiveisprime) | 400 |
+| [beta Windows Terminal](https://www.microsoft.com/p/windows-terminal-preview/9n0dx20hk701) | 0 |
 | [@fiveisprime](https://twitter.com/fiveisprime) | 400 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2019/10/03/remote-ssh-tips-and-tricks.md
@@ -2123,7 +2124,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [William Raiford](https://github.com/bill-mybiz) | 404 |
-| [VIM extension](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim) | 503 |
 | [`registerDocumentLinkProvider`](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.d.ts#L3814) | 404 |
 | [PR vscode-languageserver-node-example#17](https://github.com/microsoft/vscode-languageserver-node-example/pull/17) | 404 |
 | [Pouya Kary (@pmkary)](https://github.com/pmkary) | 404 |
@@ -2258,6 +2258,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [.deb](https://vscode-update.azurewebsites.net/1.13.1/linux-deb-ia32/stable) | 404 |
 | [.rpm](https://vscode-update.azurewebsites.net/1.13.1/linux-rpm-ia32/stable) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts#L13) | 404 |
+| [TreeDataProvider](https://code.visualstudio.com/docs/extensionAPI/vscode-api#_TreeDataProvider) | 0 |
 | [NVDA plugin](https://files.derekriemer.com/globalEditorTimer-1.0.nvda-addon) | 404 |
 | [HockeyApp](https://hockeyapp.net/) | 0 |
 | [Andy (@andy-ms)](https://github.com/andy-ms) | 404 |
@@ -2652,7 +2653,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [@code](https://twitter.com/code) | 400 |
-| [Using C++ and WSL in VS Code](https://code.visualstudio.com/docs/cpp/config-wsl) | 500 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [George Batalinski (@georgebatalinski)](https://github.com/georgebatalinski) | 404 |
@@ -2867,6 +2867,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 
 | URL | State |
 | --- | --- |
+| [Updates](https://code.visualstudio.com/updates) | 0 |
 | [diagnostic pull model specification](https://github.com/microsoft/vscode-languageserver-node/blob/main/protocol/src/common/proposed.diagnostics.md#L1) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [test](command:vscode.newWindow) | 0 |
@@ -3117,6 +3118,12 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [Debugging WebAssembly](/docs/nodejs/nodejs-debugging#debugging-webassembly) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_86.md
+
+| URL | State |
+| --- | --- |
+| [Remote Development release notes](https://github.com/microsoft/vscode-docs/blob/main/remote-release-notes/v1_86.md) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_9.md
 
