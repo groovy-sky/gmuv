@@ -10,6 +10,7 @@
 
 | URL | State |
 | --- | --- |
+| [Stack Overflow](https://stackoverflow.com) | 403 |
 | [User Voice page](https://aka.ms/conversation-learner-uservoice) | 404 |
 | [conversationlearner-webchat](https://github.com/Microsoft/ConversationLearner-WebChat) | 404 |
 
@@ -20,6 +21,12 @@
 | [](../media/tutorial17_sessionstart.PNG) | 404 |
 | [](../media/tutorial17_sessionend.PNG) | 404 |
 | [](../media/tutorial17_useConversationLearner.PNG) | 404 |
+
+* https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/README.md
+
+| URL | State |
+| --- | --- |
+| [MIT License](https://opensource.org/licenses/MIT) | 404 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/SECURITY.md
 
