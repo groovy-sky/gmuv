@@ -22,12 +22,6 @@
 | [](../media/tutorial17_sessionend.PNG) | 404 |
 | [](../media/tutorial17_useConversationLearner.PNG) | 404 |
 
-* https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/README.md
-
-| URL | State |
-| --- | --- |
-| [MIT License](https://opensource.org/licenses/MIT) | 404 |
-
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/SECURITY.md
 
 | URL | State |
