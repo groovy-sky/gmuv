@@ -439,6 +439,7 @@
 | URL | State |
 | --- | --- |
 | [UX guidelines](/api/ux-guidelines/overview) | 404 |
+| [VS Code Extension Marketplace](https://marketplace.visualstudio.com/vscode) | 500 |
 | [Theming](/api/extension-capabilities/theming) | 404 |
 | [Extending the Workbench](/api/extension-capabilities/extending-workbench) | 404 |
 | [Webview Guide](/api/extension-guides/webview) | 404 |
@@ -981,6 +982,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [@waderyan_](https://twitter.com/waderyan_) | 400 |
+| [Marketplace](https://marketplace.visualstudio.com/VSCode) | 500 |
 | [UserVoice](https://visualstudio.uservoice.com/forums/293070-visual-studio-code?query=ruby) | 404 |
 | [RSS feed](feed.xml) | 404 |
 | [Tweet](https://twitter.com/code) | 400 |
@@ -1013,6 +1015,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [@waderyan_](https://twitter.com/waderyan_) | 400 |
+| [Marketplace](https://marketplace.visualstudio.com/VSCode) | 500 |
 | [Debugger for Edge](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-edge) | 404 |
 | [See more details in the Marketplace](https://marketplace.visualstudio.com/items?itemName=cssho.vscode-svgviewer) | 404 |
 | [Tweet](https://twitter.com/code) | 400 |
@@ -1039,6 +1042,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [@code](https://twitter.com/code) | 400 |
+| [Marketplace](https://marketplace.visualstudio.com/VSCode) | 500 |
 | [Eclipse Che](https://che.eclipse.org/eclipse-che-now-strategic-platform-red-hat) | 0 |
 | [Eclipse Che](https://che.eclipse.org/eclipse-che-now-strategic-platform-red-hat) | 0 |
 | [Language Server Walkthrough](/docs/extensions/example-language-server.md) | 404 |
@@ -1625,7 +1629,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [Java](https://www.java.com) | 0 |
-| [Python example](https://insiders.vscode.dev/github/microsoft/vscode-wasi/blob/main/testbeds/python/extension.ts#L1) | 0 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2023/07/20/mangling-vscode.md
 
@@ -1645,7 +1648,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 
 | URL | State |
 | --- | --- |
-| [.NET SDK](https://www.microsoft.com/net/download) | 403 |
+| [.NET SDK](https://www.microsoft.com/net/download) | 0 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/containers/quickstart-aspnet-core.md
 
@@ -1800,6 +1803,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [Copilot documentation](/docs/editor/github-copilot.md) | 404 |
+| [VS Code Marketplace](https://marketplace.visualstudio.com/vscode) | 500 |
 | [GitHub Copilot in VS Code](/docs/editor/github-copilot.md) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/editor/portable.md
@@ -1836,7 +1840,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 
 | URL | State |
 | --- | --- |
-| [extension](https://chrome.google.com/webstore/detail/vs-code/kobakmhnkfaghloikphojodjebdelppk) | 0 |
 | [Settings Sync](/docs/editor/settings-sync) | 404 |
 | [Safari label](https://github.com/microsoft/vscode/labels/safari) | 404 |
 | [Firefox label](https://github.com/microsoft/vscode/labels/firefox) | 404 |
@@ -1846,6 +1849,12 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [attaching to a running Docker container](/docs/remote/attach-container.md) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/docs/getstarted/keybindings.md
+
+| URL | State |
+| --- | --- |
+| [Marketplace](https://marketplace.visualstudio.com/vscode) | 500 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/getstarted/locales.md
 
@@ -1969,11 +1978,13 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [text](./path/to/file.md) | 404 |
 | [text](./path/to/file.md#my-header) | 404 |
 | [Create Profile dropdown with profile templates](images/markdown/profile-template-dropdown.png) | 404 |
+| [VS Code Marketplace](https://marketplace.visualstudio.com/vscode) | 500 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/languages/overview.md
 
 | URL | State |
 | --- | --- |
+| [VS Code Marketplace](https://marketplace.visualstudio.com/vscode/Languages) | 500 |
 | [GitHub Copilot](/docs/editor/github-copilot.md) | 404 |
 | [Copilot documentation](/docs/editor/github-copilot.md) | 404 |
 
@@ -1987,6 +1998,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 
 | URL | State |
 | --- | --- |
+| [Node.js](https://nodejs.org/) | 524 |
 | [http://localhost:4200](http://localhost:4200) | 0 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/nodejs/browser-debugging.md
@@ -2158,6 +2170,12 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [Network Connections in Visual Studio Code](/docs/setup/network) | 404 |
 | [feature requests](https://aka.ms/vscode-remote/feature-requests) | 404 |
 
+* https://github.com/microsoft/vscode-docs/blob/main/docs/setup/additional-components.md
+
+| URL | State |
+| --- | --- |
+| [Marketplace](https://marketplace.visualstudio.com/VSCode) | 500 |
+
 * https://github.com/microsoft/vscode-docs/blob/main/docs/setup/enterprise.md
 
 | URL | State |
@@ -2229,6 +2247,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [release notes](/updates) | 404 |
 | [Insiders download page](/insiders) | 404 |
 | [Icons and names usage guidelines](/brand) | 404 |
+| [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/vscode) | 500 |
 | [Reinstalling VS Code](/download) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/supporting/oss-extensions.md
@@ -2264,6 +2283,12 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [find](/docs/terminal/basics#find) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/learn/educators/codetour.md
+
+| URL | State |
+| --- | --- |
+| [Marketplace](https://marketplace.visualstudio.com/vscode) | 500 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/learn/educators/nodejs.md
 
@@ -2498,10 +2523,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [.rpm](https://vscode-update.azurewebsites.net/1.16.1/linux-rpm-ia32/stable) | 404 |
 | [Brian Clark](https://twitter.com/_clarkio) | 400 |
 | [@JD342](https://github.com/JD342) | 404 |
-| [type checking in your JavaScript code](https://code.visualstudio.com/Docs/languages/javascript#_type-checking) | 0 |
-| [Node.js Deployment to Azure](https://code.visualstudio.com/docs/nodejs/nodejs-deployment) | 0 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
-| [1.15.0 release notes](https://code.visualstudio.com/updates/v1_14#_preview-multi-root-workspaces) | 0 |
 | [@JD342](https://github.com/JD342) | 404 |
 | [Yu Zhang (@neilsustc)](https://github.com/neilsustc) | 404 |
 
@@ -2518,7 +2540,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [.deb](https://vscode-update.azurewebsites.net/1.17.2/linux-deb-ia32/stable) | 404 |
 | [.rpm](https://vscode-update.azurewebsites.net/1.17.2/linux-rpm-ia32/stable) | 404 |
 | [Brian Clark](https://twitter.com/_clarkio) | 400 |
-| [Insiders](https://code.visualstudio.com/insiders) | 0 |
 | [Putta Khunchalee (@ExUltima)](https://github.com/ExUltima) | 404 |
 | [ElAndyG (@andyg8180)](https://github.com/andyg8180) | 404 |
 
@@ -2744,6 +2765,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [Guy Waldman (@guywald1)](https://github.com/guywald1) | 404 |
 | [Kermit Xuan (@Kermit-Xuan)](https://github.com/Kermit-Xuan) | 404 |
 | [Néstor Hernández Ojeda (@nesukun)](https://github.com/nesukun) | 404 |
+| [PR #138](https://github.com/microsoft/vscode-css-languageservice/pull/138) | 500 |
 | [Cloud + AI Localization](https://github.com/microsoft/Localization/wiki) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_32.md
@@ -3029,6 +3051,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | --- | --- |
 | [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22October+2020+Recovery%22+is%3Aclosed+) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
+| [@Nafana](https://github.com/Nafana) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_52.md
 
@@ -3216,7 +3239,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | --- | --- |
 | [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22January+2022+Recovery+1%22+is%3Aclosed) | 404 |
 | [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22January+2022+Recovery+2%22+is%3Aclosed) | 404 |
-| [Microsoft Edge](https://www.microsoft.com/edge) | 403 |
+| [Microsoft Edge](https://www.microsoft.com/edge) | 0 |
 | [important crashes and tooling bugs](https://github.com/microsoft/typescript/issues?q=is%3Aissue+milestone%3A%22TypeScript+4.5.5%22+is%3Aclosed) | 404 |
 | [Couper Configuration](https://marketplace.visualstudio.com/items?itemName=AvengaGermanyGmbH.couper) | 404 |
 | [MathJax for Markdown](https://marketplace.visualstudio.com/items?itemName=taniguchi.mathjax-for-markdown) | 404 |
@@ -3338,8 +3361,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22September+2022+Recovery+2%22+is%3Aclosed) | 404 |
 | [link](/path/to/file.md) | 404 |
 | [link](other-file.md#some-header) | 404 |
-| [Chrome/Edge browser extension](https://chrome.google.com/webstore/detail/vs-code/kobakmhnkfaghloikphojodjebdelppk) | 0 |
-| [Goto GitHub Repo](https://chrome.google.com/webstore/detail/goto-github-repo/jdjgledckgjldgndcmjjakfjmikopghp) | 0 |
 | [@najmiehsa (Najmieh)](https://github.com/najmiehsa) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_73.md
@@ -3445,6 +3466,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | --- | --- |
 | [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22September+2023+Recovery+1%22+is%3Aclosed) | 404 |
 | [Debugging WebAssembly](/docs/nodejs/nodejs-debugging#debugging-webassembly) | 404 |
+| [vscode.dev](https://vscode.dev/) | 0 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_84.md
 
@@ -3514,6 +3536,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 
 | URL | State |
 | --- | --- |
+| [marketplace](https://marketplace.visualstudio.com/VSCode) | 500 |
 | [closed bugs](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22Dec+2015%22+label%3Abug+is%3Aclosed) | 404 |
 | [closed feature requests](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22Dec+2015%22+label%3Afeature-request+is%3Aclosed) | 404 |
 | [extension](https://marketplace.visualstudio.com/items/eg2.js-is-jsx) | 404 |
