@@ -57,7 +57,7 @@
 | --- | --- |
 | [website](https://www.microsoft.com/en-us/research/group/cognitive-research/) | 403 |
 | [here](https://www.microsoft.com/en-us/research/project/answer-search/) | 403 |
-| [here](https://www.microsoft.com/en-us/research/project/conversation-learner/) | 403 |
+| [here](https://www.microsoft.com/en-us/research/project/conversation-learner/) | 0 |
 | [here](https://www.microsoft.com/en-us/research/project/knowledge-exploration/) | 403 |
 | [here](https://www.microsoft.com/en-us/research/project/personality-chat/) | 403 |
 | [here](https://www.microsoft.com/en-us/research/project/url-preview/) | 403 |
@@ -68,9 +68,9 @@
 | --- | --- |
 | [Microsoft's definition of a security vulnerability](https://docs.microsoft.com/en-us/previous-versions/tn-archive/cc751383(v=technet.10) | 404 |
 | [Microsoft Security Response Center PGP Key page](https://www.microsoft.com/en-us/msrc/pgp-key-msrc) | 403 |
-| [microsoft.com/msrc](https://www.microsoft.com/msrc) | 0 |
+| [microsoft.com/msrc](https://www.microsoft.com/msrc) | 403 |
 | [Microsoft Bug Bounty Program](https://microsoft.com/msrc/bounty) | 403 |
-| [Coordinated Vulnerability Disclosure](https://www.microsoft.com/en-us/msrc/cvd) | 403 |
+| [Coordinated Vulnerability Disclosure](https://www.microsoft.com/en-us/msrc/cvd) | 0 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/URL-Preview/csharp.md
 
@@ -106,7 +106,7 @@
 
 | URL | State |
 | --- | --- |
-| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 403 |
+| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 0 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/URL-Preview/url-preview-reference.md
 
@@ -126,7 +126,7 @@
 
 | URL | State |
 | --- | --- |
-| [Knowledge Exploration Service SDK](https://www.microsoft.com/en-us/download/details.aspx?id=51488) | 0 |
+| [Knowledge Exploration Service SDK](https://www.microsoft.com/en-us/download/details.aspx?id=51488) | 403 |
 | [Windows VM in Azure](../../../articles/virtual-machines/windows/quick-create-portal.md) | 404 |
 | [http://localhost:8000/interpret?query=papers by susan t dumais](http://localhost:8000/interpret?query=papers%20by%20susan%20t%20dumais) | 0 |
 | [http://localhost:8000/interpret?query=papers by susan t d&complete=1](http://localhost:8000/interpret?query=papers%20by%20susan%20t%20d&complete=1) | 0 |
