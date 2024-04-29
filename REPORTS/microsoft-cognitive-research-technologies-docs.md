@@ -57,7 +57,7 @@
 | --- | --- |
 | [website](https://www.microsoft.com/en-us/research/group/cognitive-research/) | 403 |
 | [here](https://www.microsoft.com/en-us/research/project/answer-search/) | 403 |
-| [here](https://www.microsoft.com/en-us/research/project/conversation-learner/) | 0 |
+| [here](https://www.microsoft.com/en-us/research/project/conversation-learner/) | 403 |
 | [here](https://www.microsoft.com/en-us/research/project/knowledge-exploration/) | 403 |
 | [here](https://www.microsoft.com/en-us/research/project/personality-chat/) | 403 |
 | [here](https://www.microsoft.com/en-us/research/project/url-preview/) | 403 |
@@ -70,7 +70,7 @@
 | [Microsoft Security Response Center PGP Key page](https://www.microsoft.com/en-us/msrc/pgp-key-msrc) | 403 |
 | [microsoft.com/msrc](https://www.microsoft.com/msrc) | 403 |
 | [Microsoft Bug Bounty Program](https://microsoft.com/msrc/bounty) | 403 |
-| [Coordinated Vulnerability Disclosure](https://www.microsoft.com/en-us/msrc/cvd) | 0 |
+| [Coordinated Vulnerability Disclosure](https://www.microsoft.com/en-us/msrc/cvd) | 403 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/URL-Preview/csharp.md
 
@@ -106,7 +106,7 @@
 
 | URL | State |
 | --- | --- |
-| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 0 |
+| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 403 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/URL-Preview/url-preview-reference.md
 
