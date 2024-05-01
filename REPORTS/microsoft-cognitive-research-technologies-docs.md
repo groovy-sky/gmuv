@@ -34,7 +34,7 @@
 
 | URL | State |
 | --- | --- |
-| [Cognitive Services](https://www.microsoft.com/cognitive-services/) | 403 |
+| [Cognitive Services](https://www.microsoft.com/cognitive-services/) | 0 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/Conversation-Learner/quickstart.md
 
