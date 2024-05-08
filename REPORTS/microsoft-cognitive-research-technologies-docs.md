@@ -28,13 +28,13 @@
 
 | URL | State |
 | --- | --- |
-| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 403 |
+| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 0 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/Answer-Search/reference.md
 
 | URL | State |
 | --- | --- |
-| [Cognitive Services](https://www.microsoft.com/cognitive-services/) | 0 |
+| [Cognitive Services](https://www.microsoft.com/cognitive-services/) | 403 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/Conversation-Learner/quickstart.md
 
@@ -61,6 +61,7 @@
 | [here](https://www.microsoft.com/en-us/research/project/knowledge-exploration/) | 403 |
 | [here](https://www.microsoft.com/en-us/research/project/personality-chat/) | 403 |
 | [here](https://www.microsoft.com/en-us/research/project/url-preview/) | 403 |
+| [MIT License](https://opensource.org/licenses/MIT) | 0 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/SECURITY.md
 
@@ -94,7 +95,7 @@
 
 | URL | State |
 | --- | --- |
-| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 403 |
+| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 0 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/URL-Preview/overview.md
 
@@ -126,7 +127,7 @@
 
 | URL | State |
 | --- | --- |
-| [Knowledge Exploration Service SDK](https://www.microsoft.com/en-us/download/details.aspx?id=51488) | 403 |
+| [Knowledge Exploration Service SDK](https://www.microsoft.com/en-us/download/details.aspx?id=51488) | 0 |
 | [Windows VM in Azure](../../../articles/virtual-machines/windows/quick-create-portal.md) | 404 |
 | [http://localhost:8000/interpret?query=papers by susan t dumais](http://localhost:8000/interpret?query=papers%20by%20susan%20t%20dumais) | 0 |
 | [http://localhost:8000/interpret?query=papers by susan t d&complete=1](http://localhost:8000/interpret?query=papers%20by%20susan%20t%20d&complete=1) | 0 |
@@ -139,7 +140,7 @@
 | [AzCopy](../../storage/common/storage-use-azcopy.md) | 404 |
 | [create an Azure VM](../../../articles/virtual-machines/windows/quick-create-portal.md) | 404 |
 | [connect to it](../../../articles/virtual-machines/windows/quick-create-portal.md#connect-to-virtual-machine) | 404 |
-| [Knowledge Exploration Service SDK](https://www.microsoft.com/en-us/download/details.aspx?id=51488) | 403 |
+| [Knowledge Exploration Service SDK](https://www.microsoft.com/en-us/download/details.aspx?id=51488) | 0 |
 | [Sizes for virtual machines](../../../articles/virtual-machines/virtual-machines-windows-sizes.md) | 404 |
 | [How to create and deploy a cloud service](../../../articles/cloud-services/cloud-services-how-to-create-deploy-portal.md) | 404 |
 | [Swap](../../../articles/cloud-services/cloud-services-nodejs-stage-application.md) | 404 |
