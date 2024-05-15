@@ -28,7 +28,7 @@
 
 | URL | State |
 | --- | --- |
-| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 0 |
+| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 403 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/Answer-Search/reference.md
 
@@ -61,7 +61,6 @@
 | [here](https://www.microsoft.com/en-us/research/project/knowledge-exploration/) | 403 |
 | [here](https://www.microsoft.com/en-us/research/project/personality-chat/) | 403 |
 | [here](https://www.microsoft.com/en-us/research/project/url-preview/) | 403 |
-| [MIT License](https://opensource.org/licenses/MIT) | 0 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/SECURITY.md
 
@@ -69,7 +68,7 @@
 | --- | --- |
 | [Microsoft's definition of a security vulnerability](https://docs.microsoft.com/en-us/previous-versions/tn-archive/cc751383(v=technet.10) | 404 |
 | [Microsoft Security Response Center PGP Key page](https://www.microsoft.com/en-us/msrc/pgp-key-msrc) | 403 |
-| [microsoft.com/msrc](https://www.microsoft.com/msrc) | 403 |
+| [microsoft.com/msrc](https://www.microsoft.com/msrc) | 0 |
 | [Microsoft Bug Bounty Program](https://microsoft.com/msrc/bounty) | 403 |
 | [Coordinated Vulnerability Disclosure](https://www.microsoft.com/en-us/msrc/cvd) | 403 |
 
@@ -95,7 +94,7 @@
 
 | URL | State |
 | --- | --- |
-| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 0 |
+| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 403 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/URL-Preview/overview.md
 
@@ -127,7 +126,7 @@
 
 | URL | State |
 | --- | --- |
-| [Knowledge Exploration Service SDK](https://www.microsoft.com/en-us/download/details.aspx?id=51488) | 0 |
+| [Knowledge Exploration Service SDK](https://www.microsoft.com/en-us/download/details.aspx?id=51488) | 403 |
 | [Windows VM in Azure](../../../articles/virtual-machines/windows/quick-create-portal.md) | 404 |
 | [http://localhost:8000/interpret?query=papers by susan t dumais](http://localhost:8000/interpret?query=papers%20by%20susan%20t%20dumais) | 0 |
 | [http://localhost:8000/interpret?query=papers by susan t d&complete=1](http://localhost:8000/interpret?query=papers%20by%20susan%20t%20d&complete=1) | 0 |
@@ -140,7 +139,7 @@
 | [AzCopy](../../storage/common/storage-use-azcopy.md) | 404 |
 | [create an Azure VM](../../../articles/virtual-machines/windows/quick-create-portal.md) | 404 |
 | [connect to it](../../../articles/virtual-machines/windows/quick-create-portal.md#connect-to-virtual-machine) | 404 |
-| [Knowledge Exploration Service SDK](https://www.microsoft.com/en-us/download/details.aspx?id=51488) | 0 |
+| [Knowledge Exploration Service SDK](https://www.microsoft.com/en-us/download/details.aspx?id=51488) | 403 |
 | [Sizes for virtual machines](../../../articles/virtual-machines/virtual-machines-windows-sizes.md) | 404 |
 | [How to create and deploy a cloud service](../../../articles/cloud-services/cloud-services-how-to-create-deploy-portal.md) | 404 |
 | [Swap](../../../articles/cloud-services/cloud-services-nodejs-stage-application.md) | 404 |
