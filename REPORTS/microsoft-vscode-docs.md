@@ -7,17 +7,10 @@
 | [Link Text](page.md#subheading-title) | 404 |
 | [Debug Breakpoints](images/debugging/breakpoints-view.png) | 404 |
 
-* https://github.com/microsoft/vscode-docs/blob/main/LICENSE.md
-
-| URL | State |
-| --- | --- |
-| [MIT License](https://opensource.org/licenses/MIT) | 0 |
-
 * https://github.com/microsoft/vscode-docs/blob/main/README.md
 
 | URL | State |
 | --- | --- |
-| [Git LFS Include and Exclude pattern](https://github.com/git-lfs/git-lfs/blob/main/docs/man/git-lfs-fetch.1.ronn#include-and-exclude) | 404 |
 | [here](https://github.com/microsoft/vscode-website#publishing-a-documentation-change) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/SECURITY.md
@@ -367,6 +360,7 @@
 | [file system](/api/references/vscode-api#FileSystem) | 404 |
 | [Extension context](/api/references/vscode-api#ExtensionContext) | 404 |
 | [Testing Extensions](/api/working-with-extensions/testing-extension) | 404 |
+| [Marketplace](https://marketplace.visualstudio.com/vscode) | 500 |
 | [when clause contexts](/api/references/when-clause-contexts) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/api/extension-guides/webview.md
@@ -380,6 +374,7 @@
 | [`window.registerWebviewPanelSerializer`](/api/references/vscode-api#window.registerWebviewPanelSerializer) | 404 |
 | [contributes a command](/api/references/contribution-points#contributes.commands) | 404 |
 | [Theme Color Reference](/api/references/theme-color) | 404 |
+| [contribution point](/api/references/contribution-points) | 404 |
 | [when clause](/api/references/when-clause-contexts) | 404 |
 | [Extension Capabilities](/api/extension-capabilities/overview) | 404 |
 
@@ -447,6 +442,7 @@
 | URL | State |
 | --- | --- |
 | [UX guidelines](/api/ux-guidelines/overview) | 404 |
+| [VS Code Extension Marketplace](https://marketplace.visualstudio.com/vscode) | 500 |
 | [Theming](/api/extension-capabilities/theming) | 404 |
 | [Extending the Workbench](/api/extension-capabilities/extending-workbench) | 404 |
 | [Webview Guide](/api/extension-guides/webview) | 404 |
@@ -989,6 +985,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [@waderyan_](https://twitter.com/waderyan_) | 400 |
+| [Marketplace](https://marketplace.visualstudio.com/VSCode) | 500 |
 | [UserVoice](https://visualstudio.uservoice.com/forums/293070-visual-studio-code?query=ruby) | 404 |
 | [RSS feed](feed.xml) | 404 |
 | [Tweet](https://twitter.com/code) | 400 |
@@ -1005,6 +1002,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [@code](https://twitter.com/code) | 400 |
+| [1000 extensions](https://marketplace.visualstudio.com/vscode) | 500 |
 | [first preview](https://blogs.msdn.microsoft.com/somasegar/2015/04/29/introducing-visual-studio-code-visual-studio-2015-rc-application-insights-public-preview-and-net-core-preview-for-linux-and-ma) | 404 |
 | [experiences](/docs/editor/editingevolved) | 404 |
 | [debugging](/docs/editor/debugging) | 404 |
@@ -1200,7 +1198,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [@chrisdias](https://twitter.com/chrisdias) | 400 |
-| [Docker multi-stage builds](https://codefresh.io/blog/node_docker_multistage/) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2017/06/20/great-looking-editor-roundup.md
 
@@ -1365,7 +1362,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [@fiveisprime](https://twitter.com/fiveisprime) | 400 |
-| [Windows Insiders](https://insider.windows.com/getting-started/) | 403 |
+| [Windows Insiders](https://insider.windows.com/getting-started/) | 0 |
 | [beta Windows Terminal](https://www.microsoft.com/p/windows-terminal-preview/9n0dx20hk701) | 403 |
 | [@fiveisprime](https://twitter.com/fiveisprime) | 400 |
 
@@ -1403,7 +1400,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [@fiveisprime](https://twitter.com/fiveisprime) | 400 |
-| [Microsoft store](https://www.microsoft.com/p/ubuntu/9nblggh4msv6) | 0 |
+| [Microsoft store](https://www.microsoft.com/p/ubuntu/9nblggh4msv6) | 403 |
 | [@fiveisprime](https://twitter.com/fiveisprime) | 400 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2020/05/06/github-issues-integration.md
@@ -1446,7 +1443,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [@BrigitMurtaugh](https://twitter.com/BrigitMurtaugh) | 400 |
-| [Microsoft store](https://www.microsoft.com/p/ubuntu/9nblggh4msv6) | 403 |
+| [Microsoft store](https://www.microsoft.com/p/ubuntu/9nblggh4msv6) | 0 |
 | [@code](https://twitter.com/code) | 400 |
 | [@BrigitMurtaugh](https://twitter.com/BrigitMurtaugh) | 400 |
 
@@ -1543,6 +1540,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [@burkeholland](https://twitter.com/burkeholland) | 400 |
+| [John M. Carroll](https://jcarroll.ist.psu.edu/) | 0 |
 | [@burkeholland](https://twitter.com/burkeholland) | 400 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2022/04/04/increase-productivity-with-containers.md
@@ -1618,6 +1616,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [@burkeholland](https://twitter.com/burkeholland) | 400 |
+| [Kai Maetzel](https://www.linkedin.com/in/kai-maetzel-88ba9857) | 429 |
 | [Sandeep Somavarapu](https://twitter.com/sandy081) | 400 |
 | [Brigit Murtaugh](https://twitter.com/BrigitMurtaugh) | 400 |
 | [Connor Peet](https://twitter.com/ConnorPeet) | 400 |
@@ -1634,6 +1633,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [Java](https://www.java.com) | 403 |
+| [WASIX](https://wasix.org/) | 500 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/blogs/2023/07/20/mangling-vscode.md
 
@@ -1657,6 +1657,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [Gwyneth Peña-Siguenza](https://twitter.com/madebygps) | 400 |
 | [Burke Holland](https://twitter.com/burkeholland) | 400 |
 | [Dawn Wages](http://@BajoranEngineer) | 0 |
+| [Alfredo Deza](https://www.linkedin.com/in/alfredodeza/) | 429 |
 | [Leslie Richardson](https://twitter.com/lyrichardson01) | 400 |
 | [Scott Hanselman](https://twitter.com/shanselman) | 400 |
 | [Pamela Fox](https://twitter.com/pamelafox) | 400 |
@@ -1859,6 +1860,12 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [Insiders](/insiders) | 404 |
 | [Microsoft Sovereign Cloud](https://www.microsoft.com/en-us/industry/sovereignty/cloud) | 403 |
 
+* https://github.com/microsoft/vscode-docs/blob/main/docs/editor/userdefinedsnippets.md
+
+| URL | State |
+| --- | --- |
+| [VS Code Marketplace](https://marketplace.visualstudio.com/vscode) | 500 |
+
 * https://github.com/microsoft/vscode-docs/blob/main/docs/editor/vscode-web.md
 
 | URL | State |
@@ -1892,7 +1899,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 
 | URL | State |
 | --- | --- |
-| [VS Code Marketplace](https://marketplace.visualstudio.com/vscode/Themes) | 500 |
 | [Settings](/docs/getstarted/settings) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/getstarted/tips-and-tricks.md
@@ -1900,6 +1906,9 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [Download](/download) | 404 |
+| [macOS](https://go.microsoft.com/fwlink/?linkid=832143) | 504 |
+| [Windows](https://go.microsoft.com/fwlink/?linkid=832145) | 504 |
+| [Linux](https://go.microsoft.com/fwlink/?linkid=832144) | 504 |
 | [downloading it here](/insiders) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/getstarted/userinterface.md
@@ -1964,6 +1973,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | URL | State |
 | --- | --- |
 | [CHANGELOG](https://github.com/golang/vscode-go/blob/master/CHANGELOG.md) | 404 |
+| [Marketplace](https://marketplace.visualstudio.com/vscode) | 500 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/languages/java.md
 
@@ -1978,6 +1988,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 
 | URL | State |
 | --- | --- |
+| [Marketplace](https://marketplace.visualstudio.com/vscode) | 500 |
 | [Node.js/JavaScript](/docs/nodejs/working-with-javascript) | 404 |
 | [Copilot documentation](/docs/editor/github-copilot.md) | 404 |
 
@@ -2001,8 +2012,15 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 
 | URL | State |
 | --- | --- |
+| [VS Code Marketplace](https://marketplace.visualstudio.com/vscode/Languages) | 500 |
 | [GitHub Copilot](/docs/editor/github-copilot.md) | 404 |
 | [Copilot documentation](/docs/editor/github-copilot.md) | 404 |
+
+* https://github.com/microsoft/vscode-docs/blob/main/docs/languages/php.md
+
+| URL | State |
+| --- | --- |
+| [VS Code Marketplace](https://marketplace.visualstudio.com/VSCode) | 500 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/languages/python.md
 
@@ -2072,6 +2090,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 
 | URL | State |
 | --- | --- |
+| [Gif showing Code Actions in a Python project.](images/editing/quickFix.gif) | 404 |
 | [profile](/docs/editor/profiles) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/docs/python/python-tutorial.md
@@ -2441,6 +2460,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [Guillaume Martres (@smarter)](https://github.com/smarter) | 429 |
 | [Hyo Jeong (@asiandrummer)](https://github.com/asiandrummer) | 429 |
 | [@rakkarage](https://github.com/rakkarage) | 429 |
+| [John Lianoglou (@prometheas)](https://github.com/prometheas) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_12.md
 
@@ -2457,6 +2477,13 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [closed bugs](https://github.com/microsoft/vscode/issues?q=is%3Aissue+label%3Abug+milestone%3A%22April+2017%22+is%3Aclosed) | 404 |
 | [closed feature requests](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22April+2017%22+is%3Aclosed+label%3Afeature-request) | 404 |
 | [Thomas Rayner (@ThmsRynr)](https://github.com/ThmsRynr) | 404 |
+| [Lucian Wischik (@ljw1004)](https://github.com/ljw1004) | 429 |
+| [cxxxr (@cxxxr)](https://github.com/cxxxr) | 429 |
+| [Vlad Dumitrescu (@vladdu)](https://github.com/vladdu) | 429 |
+| [Cam (@trixnz)](https://github.com/trixnz) | 429 |
+| [Guillaume Martres (@smarter)](https://github.com/smarter) | 429 |
+| [Hyo Jeong (@asiandrummer)](https://github.com/asiandrummer) | 429 |
+| [Ryan O'Connor (@rocifier)](https://github.com/rocifier) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_13.md
 
@@ -2476,9 +2503,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [Andy (@andy-ms)](https://github.com/andy-ms) | 404 |
 | [Mike Seese (@seesemichaelj)](https://github.com/seesemichaelj) | 404 |
 | [Dan Balasescu (@smoogipooo)](https://github.com/smoogipooo) | 404 |
-| [Nikita Prokopov (@tonsky)](https://github.com/tonsky) | 429 |
-| [Wagner Riffel (@wgrriffel)](https://github.com/wgrriffel) | 429 |
-| [Keith (@ktec)](https://github.com/ktec) | 429 |
+| [Wagner Riffel (@wgrriffel)](https://github.com/wgrriffel) | 404 |
 | [Rainer Klute (@RainerKlute)](https://github.com/RainerKlute) | 429 |
 | [Chen (@CXuesong)](https://github.com/CXuesong) | 429 |
 | [Miro Spönemann (@spoenemann)](https://github.com/spoenemann) | 429 |
@@ -2487,6 +2512,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [Stewart Rand (@stewx)](https://github.com/stewx) | 429 |
 | [Aleksandr Andrienko (@AndrienkoAleksandr)](https://github.com/AndrienkoAleksandr) | 429 |
 | [Benjamin Lannon (@lannonbr)](https://github.com/lannonbr) | 429 |
+| [@llgcode](https://github.com/llgcode) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_14.md
 
@@ -2500,6 +2526,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [.tar.gz](https://vscode-update.azurewebsites.net/1.14.2/linux-ia32/stable) | 404 |
 | [.deb](https://vscode-update.azurewebsites.net/1.14.2/linux-deb-ia32/stable) | 404 |
 | [.rpm](https://vscode-update.azurewebsites.net/1.14.2/linux-rpm-ia32/stable) | 404 |
+| [Updates](https://code.visualstudio.com/updates) | 504 |
 | [API](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.d.ts#L4790-L4791) | 404 |
 | [npm scripts autodetect](https://github.com/microsoft/vscode/blob/main/extensions/npm/src/main.ts) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
@@ -2512,9 +2539,13 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [Brandon Ruggles (@brandonrninefive)](https://github.com/brandonrninefive) | 404 |
 | [@mbeatrizmagalhaes](https://github.com/mbeatrizmagalhaes) | 404 |
 | [Yu Zhang (@neilsustc)](https://github.com/neilsustc) | 404 |
-| [Tomáš Hübelbauer (@TomasHubelbauer)](https://github.com/TomasHubelbauer) | 429 |
 | [@WaiSiuKei](https://github.com/WaiSiuKei) | 429 |
 | [@rianadon](https://github.com/rianadon) | 429 |
+| [Sven Efftinge (@svenefftinge)](https://github.com/svenefftinge) | 429 |
+| [Remy Suen (@rcjsuen)](https://github.com/rcjsuen) | 429 |
+| [Tony Sneed (@tonysneed)](https://github.com/tonysneed) | 429 |
+| [Brian Vandre (@bvandre)](https://github.com/bvandre) | 429 |
+| [Nick Chen (@vazexqi)](https://github.com/vazexqi) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_15.md
 
@@ -2549,7 +2580,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [@JD342](https://github.com/JD342) | 404 |
 | [Yu Zhang (@neilsustc)](https://github.com/neilsustc) | 404 |
-| [Gabriel Ebner (@gebner)](https://github.com/gebner) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_17.md
 
@@ -2585,6 +2615,9 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [@MichielVanderlee](https://github.com/MichielVanderlee) | 404 |
 | [jmdowns2 (@jmdowns2)](https://github.com/jmdowns2) | 429 |
 | [Dániel Tar (@qcz)](https://github.com/qcz) | 429 |
+| [Robert Sesek (@rsesek)](https://github.com/rsesek) | 429 |
+| [Brendan Forster (@shiftkey)](https://github.com/shiftkey) | 429 |
+| [Shreya Dahal (@squgeim)](https://github.com/squgeim) | 429 |
 | [Thomas Rayner (@ThmsRynr)](https://github.com/ThmsRynr) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_19.md
@@ -2606,8 +2639,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [few important bug fixes and tooling improvements](https://github.com/microsoft/TypeScript/issues?q=is%3Aissue+milestone%3A%22TypeScript+2.6.2%22+is%3Aclosed) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [Ryan Lee (@drdgvhbh)](https://github.com/drdgvhbh) | 404 |
-| [Thomas Struller-Baumann (@Thomas-S-B)](https://github.com/Thomas-S-B) | 429 |
-| [@tsalinger](https://github.com/tsalinger) | 429 |
 | [Alexander (@usernamehw)](https://github.com/usernamehw) | 429 |
 | [Yang Liu (@zesik)](https://github.com/zesik) | 429 |
 | [Remy Suen (@rcjsuen)](https://github.com/rcjsuen) | 429 |
@@ -2625,6 +2656,10 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [kimushu (@kimushu)](https://github.com/kimushu) | 429 |
 | [Adam Miller (@amiller-gh)](https://github.com/amiller-gh) | 429 |
 | [Ludovic Oger (@garconvacher)](https://github.com/garconvacher) | 429 |
+| [Sindre Svendby (@SindreSvendby)](https://github.com/SindreSvendby) | 429 |
+| [Morten N.O. Nørgaard Henriksen (@raix)](https://github.com/raix) | 429 |
+| [Sebastian Silbermann (@eps1lon)](https://github.com/eps1lon) | 429 |
+| [Joachim Seminck (@jseminck)](https://github.com/jseminck) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_20.md
 
@@ -2672,6 +2707,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [Josh Unger(@joshunger)](https://github.com/joshunger) | 429 |
 | [Yuki Ueda (@Ikuyadeu)](https://github.com/Ikuyadeu) | 429 |
 | [Chance An (@changsi-an)](https://github.com/changsi-an) | 429 |
+| [M.K. Safi (@msafi)](https://github.com/msafi) | 429 |
 | [Jc' (@jcdenaes)](https://github.com/jcdenaes) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_21.md
@@ -2687,7 +2723,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [.deb](https://vscode-update.azurewebsites.net/1.21.1/linux-deb-ia32/stable) | 404 |
 | [.rpm](https://vscode-update.azurewebsites.net/1.21.1/linux-rpm-ia32/stable) | 404 |
 | [Brian Clark](https://twitter.com/_clarkio) | 400 |
-| [Marketplace](https://marketplace.visualstudio.com/vscode) | 500 |
 | [example](https://github.com/microsoft/vscode/blob/main/.github/calendar.yml) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [here](https://github.com/microsoft/vscode-extension-samples/blob/main/tree-view-sample/src/ftpExplorer.fileSystemProvider.ts#L2) | 404 |
@@ -2719,17 +2754,12 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [here](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts#L653) | 404 |
 | [Dominik Ivosevic (@DominikDitoIvosevic)](https://github.com/DominikDitoIvosevic) | 404 |
 | [Bruno Ribeiro (@nikonso)](https://github.com/nikonso) | 404 |
-| [Tobias Kahlert (@SrTobi)](https://github.com/SrTobi) | 429 |
-| [Steve Desmond (@stevedesmond-ca)](https://github.com/stevedesmond-ca) | 429 |
-| [Alexander (@usernamehw)](https://github.com/usernamehw) | 429 |
-| [Waldir Pimenta (@waldyrious)](https://github.com/waldyrious) | 429 |
-| [Zim Kalinowski (@zikalino)](https://github.com/zikalino) | 429 |
-| [Danny Tuppeny (@DanTup)](https://github.com/DanTup) | 429 |
 | [Ruben Bridgewater (@BridgeAR)](https://github.com/BridgeAR) | 429 |
 | [Igor Matuszewski (@Xanewok)](https://github.com/Xanewok) | 429 |
 | [Avi Vahl (@AviVahl)](https://github.com/AviVahl) | 429 |
 | [Sibiraj (@Sibiraj-S)](https://github.com/Sibiraj-S) | 429 |
 | [@sqs](https://github.com/sqs) | 429 |
+| [Huachao Mao (@sqs)](https://github.com/Huachao) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_23.md
 
@@ -2743,9 +2773,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [Diego Berrocal (@CestDiego)](https://github.com/CestDiego) | 429 |
 | [Remy Suen (@rcjsuen)](https://github.com/rcjsuen) | 429 |
 | [Remy Suen (@rcjsuen)](https://github.com/rcjsuen) | 429 |
-| [@digeff](https://github.com/digeff) | 429 |
-| [Alexey Velikiy (@jonyrock)](https://github.com/jonyrock) | 429 |
-| [@digeff](https://github.com/digeff) | 429 |
 | [@digeff](https://github.com/digeff) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_24.md
@@ -2762,13 +2789,12 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [@chrisrpatterson](https://github.com/chrisrpatterson) | 404 |
 | [single YAML based build definition](https://github.com/microsoft/vscode/blob/main/build/tfs/continuous-build.yml) | 404 |
 | [Brandon Ruggles (@brandonrninefive)](https://github.com/brandonrninefive) | 404 |
-| [Krzysztof Cieślak (@Krzysztof-Cieslak)](https://github.com/Krzysztof-Cieslak) | 429 |
 | [DongWei (@MaleDong)](https://github.com/MaleDong) | 404 |
 | [Drew Diamantoukos (@MercifulCode)](https://github.com/MercifulCode) | 404 |
+| [Noah Gibson (@noahjg)](https://github.com/noahjg) | 429 |
+| [Nick James (@omniomi)](https://github.com/omniomi) | 429 |
+| [Marc Ranolfi (@ranolfi)](https://github.com/ranolfi) | 429 |
 | [Mike Seese (@seesemichaelj)](https://github.com/seesemichaelj) | 404 |
-| [Ahmad Awais ⚡️ (@ahmadawais)](https://github.com/ahmadawais) | 429 |
-| [@digeff](https://github.com/digeff) | 429 |
-| [@digeff](https://github.com/digeff) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_25.md
 
@@ -2792,11 +2818,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [Winner Crespo (@wistcc)](https://github.com/wistcc) | 429 |
 | [@zhuowei](https://github.com/zhuowei) | 429 |
 | [Jimi (Dimitris) Charalampidis (@JimiC)](https://github.com/JimiC) | 429 |
-| [Kevin Cunnane (@kevcunnane)](https://github.com/kevcunnane) | 429 |
-| [Ritwick Dey (@ritwickdey)](https://github.com/ritwickdey) | 429 |
-| [Colin Rofls (@cmyr)](https://github.com/cmyr) | 429 |
-| [Samarth Wahal (@LordZamy)](https://github.com/LordZamy) | 429 |
-| [jramsay (@jramsay)](https://github.com/jramsay) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_26.md
 
@@ -2811,6 +2832,8 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [`workbench-menu`](https://github.com/microsoft/vscode/labels/workbench-menu) | 404 |
 | [here](https://github.com/microsoft/vscode/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3Aaccessibility+milestone%3A%22July+2018%22+is%3Aclosed+%22contrast%22) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
+| [Colin Rofls (@cmyr)](https://github.com/cmyr) | 429 |
+| [@khng300](https://github.com/khng300) | 429 |
 | [Michael T Lombardi (@michaeltlombardi)](https://github.com/michaeltlombardi) | 429 |
 | [Mikhail Arkhipov (@MikhailArkhipov)](https://github.com/MikhailArkhipov) | 429 |
 | [Andrey Kolomoets (@muffinmad)](https://github.com/muffinmad) | 429 |
@@ -2823,7 +2846,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [@Pokute](https://github.com/Pokute) | 429 |
 | [Raghav Katyal (@rakatyal)](https://github.com/rakatyal) | 429 |
 | [Jimi (Dimitris) Charalampidis (@JimiC)](https://github.com/JimiC) | 429 |
-| [Fabien Allanic (@fallanic)](https://github.com/fallanic) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_27.md
 
@@ -2857,8 +2879,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [Morten N.O. Nørgaard Henriksen (@raix)](https://github.com/raix) | 429 |
 | [Rik Smeets (@rik-smeets)](https://github.com/rik-smeets) | 429 |
 | [Rodrigo Varas (@rodrigovaras)](https://github.com/rodrigovaras) | 429 |
-| [Segev Finer (@segevfiner)](https://github.com/segevfiner) | 429 |
-| [@sucicf1](https://github.com/sucicf1) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_29.md
 
@@ -2885,22 +2905,20 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [Olivier Truong (@oltruong)](https://github.com/oltruong) | 429 |
 | [@orangegrove1955](https://github.com/orangegrove1955) | 429 |
 | [Karthikayan (@ParkourKarthik)](https://github.com/ParkourKarthik) | 429 |
-| [Antoine (@Poke1650)](https://github.com/Poke1650) | 429 |
-| [Maxime Guerreiro (@PunKeel)](https://github.com/PunKeel) | 429 |
+| [Antoine (@Poke1650)](https://github.com/Poke1650) | 404 |
 | [Stepan Usatyuk (@usaatyuk)](https://github.com/usaatyuk) | 404 |
+| [@AHKol](https://github.com/AHKol) | 429 |
+| [Will Bender (@Ragnoroct)](https://github.com/Ragnoroct) | 429 |
 | [Richard Samuelson (@ricsam)](https://github.com/ricsam) | 429 |
 | [Thomas Lent (@tlent)](https://github.com/tlent) | 429 |
 | [Debasish Sahoo (@debck)](https://github.com/debck) | 429 |
 | [Flo Edelmann (@FloEdelmann)](https://github.com/FloEdelmann) | 429 |
 | [Levertion (@Levertion)](https://github.com/Levertion) | 429 |
-| [Literallie (@xxyy)](https://github.com/xxyy) | 429 |
 | [Igor Kulaychuk (@ayuckhulk)](https://github.com/ayuckhulk) | 429 |
 | [Mario Loriedo (@l0rd)](https://github.com/l0rd) | 429 |
 | [Sven Efftinge (@svenefftinge)](https://github.com/svenefftinge) | 429 |
 | [Shennie Yao (@Shenniey)](https://github.com/Shenniey) | 429 |
 | [@digeff](https://github.com/digeff) | 429 |
-| [@rdegelo](https://github.com/rdegelo) | 429 |
-| [Diogo Simões (@s1moe2)](https://github.com/s1moe2) | 429 |
 | [@amiya-1998](https://github.com/amiya-1998) | 404 |
 | [@edawine](https://github.com/edawine) | 404 |
 
@@ -2924,6 +2942,9 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [@vzvu3k6k](https://github.com/vzvu3k6k) | 429 |
 | [Graham Bartley (@grabartley)](https://github.com/grabartley) | 429 |
 | [Danny Tuppeny (@DanTup)](https://github.com/ayuckhulk) | 429 |
+| [@digeff](https://github.com/digeff) | 429 |
+| [Shennie Yao (@Shenniey)](https://github.com/Shenniey) | 429 |
+| [Shennie Yao (@Shenniey)](https://github.com/Shenniey) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_31.md
 
@@ -2946,8 +2967,17 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [Julia McGeoghan (@jkmdev)](https://github.com/jkmdev) | 429 |
 | [Joseph Duchesne (@josephduchesne)](https://github.com/josephduchesne) | 429 |
 | [Josh Goldberg (@JoshuaKGoldberg)](https://github.com/JoshuaKGoldberg) | 429 |
-| [Kermit Xuan (@Kermit-Xuan)](https://github.com/Kermit-Xuan) | 404 |
+| [Krish De Souza (@Kedstar99)](https://github.com/Kedstar99) | 429 |
+| [Kermit Xuan (@Kermit-Xuan)](https://github.com/Kermit-Xuan) | 429 |
+| [Claire (@krider2010)](https://github.com/krider2010) | 429 |
+| [Kumar Harsh (@kumarharsh)](https://github.com/kumarharsh) | 429 |
+| [Anton Marchenko (@marchenko-am)](https://github.com/marchenko-am) | 429 |
 | [Néstor Hernández Ojeda (@nesukun)](https://github.com/nesukun) | 404 |
+| [Laurent Tréguier (@LaurentTreguier)](https://github.com/LaurentTreguier) | 429 |
+| [Jason Axelson (@axelson)](https://github.com/axelson) | 429 |
+| [Daniel McNab (@DJMcNab)](https://github.com/DJMcNab) | 429 |
+| [Felix Becker (@felixfbecker)](https://github.com/felixfbecker) | 429 |
+| [Laurent Tréguier (@LaurentTreguier)](https://github.com/LaurentTreguier) | 429 |
 | [Cloud + AI Localization](https://github.com/microsoft/Localization/wiki) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_32.md
@@ -2958,11 +2988,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [@code](https://twitter.com/code) | 400 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [Pedro Fernandes (@MrZephyr17)](https://github.com/MrZephyr17) | 404 |
-| [Steve Shreeve (@shreeve)](https://github.com/shreeve) | 429 |
-| [Travis Thieman (@thieman)](https://github.com/thieman) | 429 |
-| [Yusuke Tsutsumi (@toumorokoshi)](https://github.com/toumorokoshi) | 429 |
-| [Trevor Florence (@trevorade)](https://github.com/trevorade) | 429 |
-| [Alexander (@usernamehw)](https://github.com/usernamehw) | 429 |
 | [@WorldofBay](https://github.com/WorldofBay) | 429 |
 | [Yan Pashkovsky (@Yanpas)](https://github.com/Yanpas) | 429 |
 | [Aleksey Kladov (@matklad)](https://github.com/matklad) | 429 |
@@ -3009,9 +3034,9 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [William Whittle (@whittlec)](https://github.com/whittlec) | 429 |
 | [Keyi Xie (@xiekeyi98)](https://github.com/xiekeyi98) | 429 |
 | [XTY (@xtydev)](https://github.com/xtydev) | 429 |
+| [Tony Xia (@tony-xia)](https://github.com/tony-xia) | 429 |
 | [Liam Newman (@bitwiseman)](https://github.com/bitwiseman) | 429 |
 | [Christian Oliff (@coliff)](https://github.com/coliff) | 429 |
-| [Tony Xia (@tony-xia)](https://github.com/tony-xia) | 429 |
 | [Danny Tuppeny (@DanTup)](https://github.com/DanTup) | 429 |
 | [Ben Mewburn (@bmewburn)](https://github.com/bmewburn) | 429 |
 | [Igor Matuszewski (@Xanewok)](https://github.com/Xanewok) | 429 |
@@ -3024,6 +3049,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [Chris Wendt (@chrismwendt)](https://github.com/chrismwendt) | 429 |
 | [Carl Morris (@msftrncs)](https://github.com/msftrncs) | 429 |
 | [AJ Alves (@zerokol)](https://github.com/zerokol) | 429 |
+| [Jimi (Dimitris) Charalampidis (@JimiC)](https://github.com/JimiC) | 429 |
 | [Cloud + AI Localization](https://github.com/microsoft/Localization/wiki) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_35.md
@@ -3033,6 +3059,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [@code](https://twitter.com/code) | 400 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [Preet Sai Mutneja (@preetsaimutneja)](https://github.com/preetsaimutneja) | 404 |
+| [Joe Antonakakis (@Jma353)](https://github.com/Jma353) | 429 |
 | [Cloud + AI Localization](https://github.com/microsoft/Localization/wiki) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_36.md
@@ -3042,7 +3069,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [@code](https://twitter.com/code) | 400 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [Evgeny Zakharov (@risenforces)](https://github.com/risenforces) | 404 |
-| [Jean Pierre (@jeanp413)](https://github.com/jeanp413) | 429 |
 | [Danny Tuppeny (@DanTup)](https://github.com/DanTup) | 429 |
 | [Dmitry Parzhitsky (@parzh)](https://github.com/parzh) | 429 |
 | [Liam Newman (@bitwiseman)](https://github.com/bitwiseman) | 429 |
@@ -3075,7 +3101,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [@pi1024e](https://github.com/pi1024e) | 429 |
 | [Robert Ancell (@robert-ancell)](https://github.com/robert-ancell) | 429 |
 | [@sharkykh](https://github.com/sharkykh) | 429 |
-| [Prabhanjan S Koushik (@skprabhanjan)](https://github.com/skprabhanjan) | 429 |
 | [Vanessa Phipps (@vlmphipps)](https://github.com/vlmphipps) | 404 |
 | [Cloud + AI Localization](https://github.com/microsoft/Localization/wiki) | 404 |
 
@@ -3096,11 +3121,10 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [@mayaswrath](https://github.com/mayaswrath) | 429 |
 | [Max Belsky (@mbelsky)](https://github.com/mbelsky) | 429 |
 | [Mickael Istria (@mickaelistria)](https://github.com/mickaelistria) | 429 |
+| [Mikhail Zaretski (@mIkhail-zaretsky)](https://github.com/mIkhail-zaretsky) | 429 |
+| [@mkenigs](https://github.com/mkenigs) | 429 |
+| [N.Z (@neesonqk)](https://github.com/neesonqk) | 429 |
 | [Mariana Costa (@Quendrique)](https://github.com/Quendrique) | 404 |
-| [@salvofid](https://github.com/salvofid) | 429 |
-| [Nurbol Alpysbayev (@anurbol)](https://github.com/anurbol) | 429 |
-| [KamasamaK (@KamasamaK)](https://github.com/KamasamaK) | 429 |
-| [Samuel Bronson (@SamB)](https://github.com/SamB) | 429 |
 | [Jamie Haywood (@jamiehaywood)](https://github.com/jamiehaywood) | 429 |
 | [Michał Wojciechowski (@odyniec)](https://github.com/odyniec) | 429 |
 | [Cloud + AI Localization](https://github.com/microsoft/Localization/wiki) | 404 |
@@ -3137,6 +3161,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [Nate Rauh (@NRauh)](https://github.com/NRauh) | 429 |
 | [Oxirt (@oxirt)](https://github.com/oxirt) | 429 |
 | [@simaosilva](https://github.com/simaosilva) | 429 |
+| [Prabhanjan S Koushik (@skprabhanjan)](https://github.com/skprabhanjan) | 429 |
 | [Theo Tzaferis (@tzfrs)](https://github.com/tzfrs) | 404 |
 | [Cloud + AI Localization](https://github.com/microsoft/Localization/wiki) | 404 |
 
@@ -3153,10 +3178,12 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [Safari](https://github.com/microsoft/vscode/issues?q=is%3Aissue+label%3Asafari+is%3Aclosed+milestone%3A%22November+2019%22) | 404 |
 | [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+label%3Asafari+label%3Aios+is%3Aclosed) | 404 |
 | [George Batalinski (@georgebatalinski)](https://github.com/georgebatalinski) | 404 |
+| [Samuel Bronson (@SamB)](https://github.com/SamB) | 429 |
 | [Shizeng Zhou (@shizengzhou)](https://github.com/shizengzhou) | 429 |
 | [@smilegodly](https://github.com/smilegodly) | 429 |
 | [Konstantin Solomatov (@solomatov)](https://github.com/solomatov) | 429 |
 | [空雲 (@SoraKumo001)](https://github.com/SoraKumo001) | 429 |
+| [Sebastian Pahnke (@spahnke)](https://github.com/spahnke) | 429 |
 | [Cloud + AI Localization](https://github.com/microsoft/Localization/wiki) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_42.md
@@ -3174,6 +3201,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [kevinn (@latel)](https://github.com/latel) | 429 |
 | [Jiaxun Wei (@LeuisKen)](https://github.com/LeuisKen) | 429 |
 | [Luis Oliveira (@lmvco)](https://github.com/lmvco) | 429 |
+| [Simon Siefke (@SimonSiefke)](https://github.com/SimonSiefke) | 429 |
 | [Remy Suen (@rcjsuen)](https://github.com/rcjsuen) | 429 |
 | [Gerald Richter (@richterger)](https://github.com/richterger) | 429 |
 | [Felix Hao (@felixhao28)](https://github.com/felixhao28) | 429 |
@@ -3217,7 +3245,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [Waldemar Kornewald (@wkornewald)](https://github.com/wkornewald) | 429 |
 | [@zhengjiaqi](https://github.com/zhengjiaqi) | 429 |
 | [Jiayue. Zhang (@zjysdhr)](https://github.com/zjysdhr) | 429 |
-| [Yosuke Ota (@ota-meshi)](https://github.com/ota-meshi) | 429 |
 | [Cloud + AI Localization](https://github.com/microsoft/Localization/wiki) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_44.md
@@ -3258,7 +3285,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [accessibility issues](https://github.com/microsoft/vscode/issues?q=label%3Aaccessibility+milestone%3A%22April+2020%22+is%3Aclosed) | 404 |
 | [in this query](https://github.com/microsoft/vscode/issues?q=is%3Aopen+is%3Aissue+label%3Aintegrated-terminal-links) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
-| [Refactoring](https://code.visualstudio.com/docs/java/java-refactoring) | 504 |
 | [Jean Pierre (@jeanp413)](https://github.com/jeanp413) | 429 |
 | [jedwards (@jheiv)](https://github.com/jheiv) | 429 |
 | [Jon Bockhorst (@jmbockhorst)](https://github.com/jmbockhorst) | 429 |
@@ -3293,6 +3319,9 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [Rahul Kadyan (@znck)](https://github.com/znck) | 429 |
 | [Jakub Trąd (@Dzejkop)](https://github.com/Dzejkop) | 429 |
 | [(@KamasamaK)](https://github.com/KamasamaK) | 429 |
+| [Knut Aldrin (@zub)](https://github.com/zub) | 429 |
+| [Remy Suen (@rcjsuen)](https://github.com/rcjsuen) | 429 |
+| [Steven Kalt (@SKalt)](https://github.com/SKalt) | 429 |
 | [Wiki](https://github.com/microsoft/Localization/wiki) | 404 |
 | [FAQ](https://github.com/microsoft/Localization/wiki/FAQ) | 404 |
 
@@ -3306,11 +3335,14 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [@code](https://twitter.com/code) | 400 |
 | [accessibility issues](https://github.com/microsoft/vscode/issues?q=label%3Aaccessibility+milestone%3A%22June+2020%22+is%3Aclosed) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
+| [Arman Tabaddor (@tabaddor)](https://github.com/tabaddor) | 429 |
 | [Thibault Malbranche (@Titozzz)](https://github.com/Titozzz) | 429 |
 | [@VoidNoire](https://github.com/VoidNoire) | 429 |
 | [Matt Petty (@lodestone)](https://github.com/lodestone) | 429 |
 | [Jimmy Yuen Ho Wong (@wyuenho)](https://github.com/wyuenho) | 429 |
 | [Lukas Zima (@zimlu02)](https://github.com/zimlu02) | 429 |
+| [Dave Holoway (@adelphes)](https://github.com/adelphes) | 429 |
+| [Sacha Ayoun (@giltho)](https://github.com/giltho) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_48.md
 
@@ -3322,6 +3354,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [accessibility issues](https://github.com/microsoft/vscode/issues?q=label%3Aaccessibility+milestone%3A%22July+2020%22+is%3Aclosed) | 404 |
 | [fixes and improvements](https://github.com/issues?q=is%3Aopen+is%3Aclosed+label%3Abug+assignee%3Aconnor4312+milestone%3A%22July+2020%22) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
+| [Pierce Boggan (@pierceboggan)](https://github.com/pierceboggan) | 429 |
 | [Tony Xia (@tony-xia)](https://github.com/tony-xia) | 429 |
 | [@troy351](https://github.com/troy351) | 429 |
 | [Tyler Brockett (@tylerbrockett)](https://github.com/tylerbrockett) | 429 |
@@ -3416,6 +3449,9 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [Sebastian Copei (@KosrenDQ)](https://github.com/KosrenDQ) | 429 |
 | [Avi Vahl (@AviVahl)](https://github.com/AviVahl) | 429 |
 | [Michael Bullington (@mbullington)](https://github.com/mbullington) | 429 |
+| [niceSprite (@iFwu)](https://github.com/iFwu) | 429 |
+| [Dan Čermák (@dcermak)](https://github.com/dcermak) | 429 |
+| [Piers Deseilligny (@piersdeseilligny)](https://github.com/piersdeseilligny) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_51.md
 
@@ -3424,6 +3460,15 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22October+2020+Recovery%22+is%3Aclosed+) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [@Nafana](https://github.com/Nafana) | 404 |
+| [Jaime Oliveira (@IxquitilisSaid)](https://github.com/IxquitilisSaid) | 429 |
+| [Nicholas Steven Darmawan (@steve1998)](https://github.com/steve1998) | 429 |
+| [@ShPelles](https://github.com/ShPelles) | 429 |
+| [Brandon Mills (@btmills)](https://github.com/btmills) | 429 |
+| [Brad Zacher (@bradzacher)](https://github.com/bradzacher) | 429 |
+| [Clément Tessier (@ctessier)](https://github.com/ctessier) | 429 |
+| [@KamasamaK](https://github.com/KamasamaK) | 429 |
+| [Remy Suen (@rcjsuen)](https://github.com/rcjsuen) | 429 |
+| [Andreas Matthias (@AndreasMatthias)](https://github.com/AndreasMatthias) | 429 |
 | [Yasar Siddiqui (@yasarsid)](https://github.com/yasarsid) | 429 |
 | [Noah Santschi-Cooney (@Strum355)](https://github.com/Strum355) | 429 |
 | [Jonah Graham (@jonahgraham)](https://github.com/jonahgraham) | 429 |
@@ -3465,8 +3510,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [Momtchil Momtchev (@mmomtchev)](https://github.com/mmomtchev) | 429 |
 | [Jean Pierre (@jeanp413)](https://github.com/jeanp413) | 429 |
 | [Dan Russell (@dangrussell)](https://github.com/dangrussell) | 429 |
-| [Tom Sherman (@tom-sherman)](https://github.com/tom-sherman) | 429 |
-| [Tomáš Hübelbauer (@TomasHubelbauer)](https://github.com/TomasHubelbauer) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_53.md
 
@@ -3480,6 +3523,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [@noritada (Noritada Kobayashi)](https://github.com/noritada) | 429 |
 | [@nrayburn-tech (Nicholas Rayburn)](https://github.com/nrayburn-tech) | 429 |
 | [@aNickzz (Nick)](https://github.com/aNickzz) | 404 |
+| [@isadorasophia (Isadora Sophia)](https://github.com/isadorasophia) | 429 |
 | [@maziac](https://github.com/maziac) | 429 |
 | [@nickbattle (Nick Battle)](https://github.com/nickbattle) | 429 |
 | [Ikko Ashimine (@eltociear)](https://github.com/eltociear) | 429 |
@@ -3507,6 +3551,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [@aliasliao (Liao Jinyuan)](https://github.com/aliasliao) | 429 |
 | [@AnuBhar (Anushka Bhargava)](https://github.com/AnuBhar) | 429 |
 | [@jeanp413 (Jean Pierre)](https://github.com/jeanp413) | 429 |
+| [@johnsoncodehk (Johnson Chu)](https://github.com/johnsoncodehk) | 429 |
 | [@Cu2y (Q)](https://github.com/Cu2y) | 404 |
 | [PR #921](https://github.com/microsoft/vscode-js-debug/pull/921) | 404 |
 
@@ -3519,18 +3564,12 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [diagnostic pull model specification](https://github.com/microsoft/vscode-languageserver-node/blob/main/protocol/src/common/proposed.diagnostics.md#L1) | 404 |
 | [@hantatsang (Sang)](https://github.com/hantatsang) | 404 |
-| [@thebinarysearchtree (Andrew Jones)](https://github.com/thebinarysearchtree) | 429 |
-| [@TranquilMarmot (Nate Moore)](https://github.com/TranquilMarmot) | 429 |
-| [@wdesgardin (William Desgardin)](https://github.com/wdesgardin) | 429 |
-| [@XECDesign](https://github.com/XECDesign) | 429 |
-| [@yannickowow](https://github.com/yannickowow) | 429 |
-| [@jeanp413 (Jean Pierre)](https://github.com/jeanp413) | 429 |
+| [@wdesgardin (William Desgardin)](https://github.com/wdesgardin) | 404 |
 | [@lancewl (Hsuan-An Weng Lin)](https://github.com/lancewl) | 429 |
 | [@OBITORASU (Souhit Dey)](https://github.com/OBITORASU) | 429 |
 | [@9at8 (Aditya Thakral)](https://github.com/9at8) | 429 |
 | [@sfj (Silas Fontain)](https://github.com/sfj) | 429 |
 | [@threehams (David Edmondson)](https://github.com/threehams) | 429 |
-| [@fython](https://github.com/fython) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_56.md
 
@@ -3559,6 +3598,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [@vinku](https://github.com/vinku) | 429 |
 | [@wdesgardin (William Desgardin)](https://github.com/wdesgardin) | 429 |
 | [@yannickowow (Yanis HAMITI)](https://github.com/yannickowow) | 429 |
+| [@JoshuaKGoldberg (Josh Goldberg)](https://github.com/JoshuaKGoldberg) | 429 |
 | [@noah-vdv (Noah van der Veer)](https://github.com/noah-vdv) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_57.md
@@ -3573,14 +3613,13 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [iOS/iPadOS](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22May+2021%22+is%3Aclosed+label%3Aios-ipados+) | 404 |
 | [@hantatsang (Sang)](https://github.com/hantatsang) | 404 |
 | [@wendellhu95 (Wendell)](https://github.com/wendellhu95) | 404 |
+| [@jeanp413 (Jean Pierre)](https://github.com/jeanp413) | 429 |
 | [@edupsousa (Eduardo Pereira de Sousa)](https://github.com/edupsousa) | 429 |
 | [@karlhorky (Karl Horky)](https://github.com/karlhorky) | 429 |
 | [@danielgary (Daniel Gary)](https://github.com/danielgary) | 429 |
 | [@lhchavez](https://github.com/lhchavez) | 429 |
 | [@yanmofeixi](https://github.com/yanmofeixi) | 429 |
 | [@IllusionMH (Andrii Dieiev)](https://github.com/IllusionMH) | 429 |
-| [@jedwards1211 (Andy Edwards)](https://github.com/jedwards1211) | 429 |
-| [@oliversalzburg (Oliver Salzburg)](https://github.com/oliversalzburg) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_58.md
 
@@ -3636,6 +3675,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [.deb](https://vscode-update.azurewebsites.net/1.6.0/linux-deb-ia32/stable) | 404 |
 | [.rpm](https://vscode-update.azurewebsites.net/1.6.0/linux-rpm-ia32/stable) | 404 |
 | [extension in the marketplace](https://marketplace.visualstudio.com/items?itemName=ms-vscode.typescript-javascript-grammar) | 404 |
+| [Marketplace](https://marketplace.visualstudio.com/vscode) | 500 |
 | [simple program](https://github.com/microsoft/vscode-debugadapter-node/blob/main/src/generator.ts) | 404 |
 | [closed bugs](https://github.com/microsoft/vscode/issues?q=is%3Aissue+label%3Abug+milestone%3A%22September+2016%22+is%3Aclosed) | 404 |
 | [closed feature requests](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22September+2016%22+is%3Aclosed+label%3Afeature-request) | 404 |
@@ -3669,6 +3709,12 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | --- | --- |
 | [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22September+2021+Recovery%22+is%3Aclosed) | 404 |
 | [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22September+2021+Recovery+2%22+is%3Aclosed) | 404 |
+| [Updates](https://code.visualstudio.com/updates) | 503 |
+| [code.visualstudio.com](https://code.visualstudio.com) | 503 |
+| [Insiders](https://code.visualstudio.com/insiders) | 503 |
+| [locked editor groups](https://code.visualstudio.com/updates/v1_60#_locked-editor-groups) | 503 |
+| [minimap](https://code.visualstudio.com/docs/getstarted/userinterface#_minimap) | 504 |
+| ["Bracket pair colorization 10,000x faster"](https://code.visualstudio.com/blogs/2021/09/29/bracket-pair-colorization) | 504 |
 | [Amethyst Theme](https://marketplace.visualstudio.com/items?itemName=eamodio.amethyst-theme) | 404 |
 | [vscode.proposed.d.ts](https://github.com/microsoft/vscode/blob/main/src/vs/vscode.proposed.d.ts) | 404 |
 | [library](https://github.com/microsoft/vscode-nsfw) | 404 |
@@ -3727,9 +3773,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [@friederbluemle (Frieder Bluemle)](https://github.com/friederbluemle) | 429 |
 | [@dotansimha (Dotan Simha)](https://github.com/dotansimha) | 429 |
 | [@jogo-](https://github.com/jogo-) | 429 |
-| [Yosuke Ota](https://github.com/ota-meshi) | 429 |
-| [@albinpk (Albin PK)](https://github.com/albinpk) | 429 |
-| [@yyyang1996 (yang)](https://github.com/yyyang1996) | 429 |
+| [@yyyang1996 (yang)](https://github.com/yyyang1996) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_63.md
 
@@ -3743,7 +3787,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [Hello, DotNetJS!](https://marketplace.visualstudio.com/items?itemName=Elringus.dotnetjs) | 404 |
 | [Drawing Editor](https://marketplace.visualstudio.com/items?itemName=seflless.vscode-editor) | 404 |
 | [CodeCrazy-ywt (@CodeCrazy-ywt)](https://github.com/CodeCrazy-ywt) | 404 |
-| [@sijakret](https://github.com/sijakret) | 429 |
 | [@smcenlly (Simon McEnlly)](https://github.com/smcenlly) | 429 |
 | [@suzmue (Suzy Mueller)](https://github.com/suzmue) | 429 |
 | [@Profesor08](https://github.com/Profesor08) | 429 |
@@ -3757,6 +3800,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [@Relequestual (Ben Hutton)](https://github.com/Relequestual) | 429 |
 | [@CodingDoll](https://github.com/CodingDoll) | 429 |
 | [@fvclaus](https://github.com/fvclaus) | 429 |
+| [@hamirmahal (Hamir Mahal)](https://github.com/hamirmahal) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_64.md
 
@@ -3781,6 +3825,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [@WaqasAliAbbasi (Waqas Ali)](https://github.com/WaqasAliAbbasi) | 429 |
 | [@wengj9 (James Weng)](https://github.com/wengj9) | 429 |
 | [@Yash621 (Yash Goel)](https://github.com/Yash621) | 429 |
+| [@zardoy (Vitaly)](https://github.com/zardoy) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_65.md
 
@@ -3791,6 +3836,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [link](./file.js) | 404 |
 | [link](./file.js) | 404 |
 | [GitKraken Authentication](https://marketplace.visualstudio.com/items?itemName=gitkraken.gitkraken-authentication) | 404 |
+| [@weartist (Han)](https://github.com/weartist) | 429 |
 | [@y-tsutsu (y-tsutsu)](https://github.com/y-tsutsu) | 429 |
 | [@Yash621 (Yash Goel)](https://github.com/Yash621) | 429 |
 | [@zardoy (Vitaly)](https://github.com/zardoy) | 429 |
@@ -3824,6 +3870,13 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [@yume-chan (Simon Chan)](https://github.com/yume-chan) | 429 |
 | [@marknn3 (Mark Langezaal)](https://github.com/marknn3) | 429 |
 | [@zjffun (JuFeng Zhang)](https://github.com/zjffun) | 429 |
+| [@razzeee (Kolja Lampe)](https://github.com/razzeee) | 429 |
+| [@felipecrs (Felipe Santos)](https://github.com/felipecrs) | 429 |
+| [@eshelyaron (Eshel Yaron)](https://github.com/eshelyaron) | 429 |
+| [@haneefdm (Haneef Mohammed)](https://github.com/haneefdm) | 429 |
+| [@renkun-ken (Kun Ren)](https://github.com/renkun-ken) | 429 |
+| [@KamasamaK](https://github.com/KamasamaK) | 429 |
+| [@sno2 (Carter Snook)](https://github.com/sno2) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_67.md
 
@@ -3843,6 +3896,11 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [@nesk (Johann Pardanaud)](https://github.com/nesk) | 429 |
 | [@quanzhuo (Quan Zhuo)](https://github.com/quanzhuo) | 429 |
 | [@Suven-p (Suven-p)](https://github.com/Suven-p) | 429 |
+| [@tharbakim](https://github.com/tharbakim) | 429 |
+| [@thekorn (Markus Korn)](https://github.com/thekorn) | 429 |
+| [@yepitschunked](https://github.com/yepitschunked) | 429 |
+| [@romainmenke (Romain Menke)](https://github.com/romainmenke) | 429 |
+| [@rupeshs (Rupesh Sreeraman)](https://github.com/rupeshs) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_68.md
 
@@ -3853,7 +3911,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [Mintlify](https://marketplace.visualstudio.com/items?itemName=mintlify.connector) | 404 |
 | [Loop Development Kit](https://marketplace.visualstudio.com/items?itemName=Olive-AI.vscode-loop-development-kit) | 404 |
 | [Grammarly](https://marketplace.visualstudio.com/items?itemName=znck.grammarly) | 404 |
-| [@robinkar (Robin Karlsson)](https://github.com/robinkar) | 429 |
 | [@roj1512 (Roj)](https://github.com/roj1512) | 429 |
 | [@ShenHongFei (沈鸿飞)](https://github.com/ShenHongFei) | 429 |
 | [@susiwen8 (susiwen8)](https://github.com/susiwen8) | 429 |
@@ -3866,6 +3923,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [@ashgti (John Harrison)](https://github.com/ashgti) | 429 |
 | [@d-biehl (Daniel Biehl)](https://github.com/d-biehl) | 429 |
 | [@DanTup (Danny Tuppeny)](https://github.com/DanTup) | 429 |
+| [@heejaechang (Heejae Chang)](https://github.com/heejaechang) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_69.md
 
@@ -3878,11 +3936,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [link](/path/to/file.md) | 404 |
 | [link](/path/to/file.md#some-header) | 404 |
 | [CloudStudio.github-authentication](https://marketplace.visualstudio.com/items?itemName=CloudStudio.github-authentication) | 404 |
-| [pomdtr](https://marketplace.visualstudio.com/publishers/pomdtr) | 0 |
 | [@jakebailey (Jake Bailey)](https://github.com/jakebailey) | 429 |
-| [@blindpirate (Bo Zhang)](https://github.com/blindpirate) | 429 |
-| [@rillig (Roland Illig)](https://github.com/rillig) | 429 |
-| [@juzuluag (Juan Zuluaga)](https://github.com/juzuluag) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_7.md
 
@@ -3923,7 +3977,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [@pwxn (Paul Landers)](https://github.com/pwxn) | 404 |
 | [@SamirPS (SamirAk)](https://github.com/SamirPS) | 429 |
 | [@ssigwart (Stephen Sigwart)](https://github.com/ssigwart) | 429 |
-| [@SvanT (Svante Boberg)](https://github.com/SvanT) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_71.md
 
@@ -3946,15 +3999,11 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [link](/path/to/file.md) | 404 |
 | [link](other-file.md#some-header) | 404 |
 | [@najmiehsa (Najmieh)](https://github.com/najmiehsa) | 404 |
-| [@susiwen8 (susiwen8)](https://github.com/susiwen8) | 429 |
 | [@tobil4sk](https://github.com/tobil4sk) | 429 |
 | [@trond-snekvik (Trond Einar Snekvik)](https://github.com/trond-snekvik) | 429 |
 | [@weartist (Han)](https://github.com/weartist) | 429 |
 | [@Yoyokrazy (Michael Lively)](https://github.com/Yoyokrazy) | 429 |
 | [@taroken6 (AudieTaro)](https://github.com/taroken6) | 429 |
-| [@wkillerud (William Killerud)](https://github.com/wkillerud) | 429 |
-| [@Thomas1664](https://github.com/Thomas1664) | 429 |
-| [@KamasamaK](https://github.com/KamasamaK) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_73.md
 
@@ -3968,9 +4017,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [@w1redch4d (Swapnadeep Som)](https://github.com/w1redch4d) | 429 |
 | [@yamachig (yamachi)](https://github.com/yamachig) | 429 |
 | [@yiliang114 (易良)](https://github.com/yiliang114) | 429 |
-| [@hoontae24](https://github.com/hoontae24) | 429 |
-| [@Thomas1664](https://github.com/Thomas1664) | 429 |
-| [@yin1999 (A1lo)](https://github.com/yin1999) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_74.md
 
@@ -3978,10 +4024,10 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | --- | --- |
 | [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22November+2022+Recovery+1%22+is%3Aclosed) | 404 |
 | [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22November+2022+Recovery+2%22+is%3Aclosed) | 404 |
+| [Visual Studio Marketplace](https://marketplace.visualstudio.com/vscode) | 500 |
 | [@cmarincia (Catalin Marincia)](https://github.com/cmarincia) | 404 |
+| [@marrej (Marcus Revaj)](https://github.com/marrej) | 429 |
 | [@najmiehsa](https://github.com/najmiehsa) | 404 |
-| [@nisargjhaveri (Nisarg Jhaveri)](https://github.com/nisargjhaveri) | 429 |
-| [@stuartleeks (Stuart Leeks)](https://github.com/stuartleeks) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_75.md
 
@@ -3989,7 +4035,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | --- | --- |
 | [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22January+2023+Recovery+1%22+is%3Aclosed) | 404 |
 | [@maIIady (Ilya Golovin)](https://github.com/maIIady) | 404 |
-| [@meskill](https://github.com/meskill) | 429 |
+| [@Thomas1664](https://github.com/Thomas1664) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_76.md
 
@@ -3997,6 +4043,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | --- | --- |
 | [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22February+2023+Recovery+1%22+is%3Aclosed) | 404 |
 | [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22February+2023+Recovery+2%22+is%3Aclosed) | 404 |
+| [Marketplace](https://marketplace.visualstudio.com/vscode) | 500 |
 | [link text](link target) | 404 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_77.md
@@ -4017,9 +4064,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [@PmcFizz (Fizz)](https://github.com/PmcFizz) | 429 |
 | [@tamayika](https://github.com/tamayika) | 429 |
 | [@jarrodcolburn (jarrodcolburn)](https://github.com/jarrodcolburn) | 429 |
-| [@stuartleeks (Stuart Leeks)](https://github.com/stuartleeks) | 429 |
-| [@trxcllnt (Paul Taylor)](https://github.com/trxcllnt) | 429 |
-| [@ShauryaAg (Shaurya Agarwal)](https://github.com/ShauryaAg) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_78.md
 
@@ -4080,7 +4124,6 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | --- | --- |
 | [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22July+2023+Recovery+1%22+is%3Aclosed) | 404 |
 | [Johannes Rieken](https://twitter.com/johannesrieken) | 400 |
-| [@claylibrarymarket](https://github.com/claylibrarymarket) | 429 |
 | [@FossPrime (Ray Foss)](https://github.com/FossPrime) | 429 |
 | [@leandrocp (Leandro Pereira)](https://github.com/leandrocp) | 429 |
 
@@ -4098,12 +4141,10 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | --- | --- |
 | [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22September+2023+Recovery+1%22+is%3Aclosed) | 404 |
 | [Debugging WebAssembly](/docs/nodejs/nodejs-debugging#debugging-webassembly) | 404 |
-| [@yiliang114 (易良)](https://github.com/yiliang114) | 429 |
 | [@ykrx (Yulian Kraynyak)](https://github.com/ykrx) | 429 |
 | [@romainmenke (Romain Menke)](https://github.com/romainmenke) | 429 |
 | [@johnsoncodehk (Johnson Chu)](https://github.com/johnsoncodehk) | 429 |
 | [@AviVahl (Avi Vahl)](https://github.com/AviVahl) | 429 |
-| [@hsfzxjy (hsfzxjy)](https://github.com/hsfzxjy) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_84.md
 
@@ -4121,6 +4162,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22November+2023+Recovery+1%22+is%3Aclosed) | 404 |
 | [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+milestone%3A%22November+2023+Recovery+2%22+is%3Aclosed) | 404 |
 | [review our existing issues](https://github.com/microsoft/vscode/issues?q=is%3Aopen+is%3Aissue+label%3Aworkbench-auxwindow) | 404 |
+| [@rehmsen (Ole)](https://github.com/rehmsen) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_86.md
 
@@ -4129,12 +4171,19 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+is%3Aclosed+milestone%3A%22December+%2F+January+2024+Recovery+2%22+) | 404 |
 | [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+is%3Aclosed+milestone%3A%22December+%2F+January+2024+Recovery+1%22) | 404 |
 | [sample chat agent extension](https://github.com/microsoft/vscode-extension-samples/tree/main/chat-agent-sample) | 404 |
+| [@gregvanl (Greg Van Liew)](https://github.com/gregvanl) | 429 |
+| [@harbin1053020115 (ermin.zem)](https://github.com/harbin1053020115) | 429 |
+| [@hsfzxjy (Xie Jingyi)](https://github.com/hsfzxjy) | 429 |
+| [@iisaduan (Isabel Duan)](https://github.com/iisaduan) | 429 |
+| [@impressivewebs (Louis Lazaris)](https://github.com/impressivewebs) | 429 |
+| [@irgendwr (Jonas Bögle)](https://github.com/irgendwr) | 429 |
+| [@jacekkopecky (Jacek Kopecký)](https://github.com/jacekkopecky) | 429 |
 | [@jaraco (Jason R. Coombs)](https://github.com/jaraco) | 429 |
 | [@jeanp413 (Jean Pierre)](https://github.com/jeanp413) | 429 |
 | [@johnsoncodehk (Johnson Chu)](https://github.com/johnsoncodehk) | 429 |
 | [@JoyceGu (Joyce Gu)](https://github.com/JoyceGu) | 429 |
 | [@jtbandes (Jacob Bandes-Storch)](https://github.com/jtbandes) | 429 |
-| [@keerthivasansa (Keerthi Vasan S A)](https://github.com/keerthivasansa) | 429 |
+| [@VDisawal](https://github.com/VDisawal) | 429 |
 | [@wenfangdu (Wenfang Du)](https://github.com/wenfangdu) | 429 |
 | [@Yesterday17 (Yesterday17)](https://github.com/Yesterday17) | 429 |
 | [@yiliang114 (易良)](https://github.com/yiliang114) | 429 |
@@ -4142,6 +4191,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [@maxg203 (Max Goodridge)](https://github.com/maxg203) | 429 |
 | [@IngilizAdam (Hasan Tuna)](https://github.com/IngilizAdam) | 429 |
 | [@debonte (Erik De Bonte)](https://github.com/debonte) | 429 |
+| [@MariaSolOs (Maria José Solano)](https://github.com/MariaSolOs) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_87.md
 
@@ -4151,14 +4201,12 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [issue](https://github.com/microsoft/vscode/issues?q=is%3Aissue+is%3Aclosed+milestone%3A%22February+2024+Recovery+2%22+) | 404 |
 | [test CLI](/api/working-with-extensions/testing-extension#quick-setup-the-test-cli) | 404 |
 | [@charlypoirier (Charly)](https://github.com/charlypoirier) | 404 |
-| [@tisilent (xiejialong)](https://github.com/tisilent) | 429 |
 | [@tomqwpl](https://github.com/tomqwpl) | 429 |
 | [@vbem (Lei LI)](https://github.com/vbem) | 429 |
 | [@weartist (Hans)](https://github.com/weartist) | 429 |
 | [@werat (Andy Hippo)](https://github.com/werat) | 429 |
 | [@wy-luke](https://github.com/wy-luke) | 429 |
 | [@xavierdecoster (Xavier Decoster)](https://github.com/xavierdecoster) | 429 |
-| [@xiaoyun94 (暴躁暴躁最暴躁/Bigforce)](https://github.com/xiaoyun94) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_88.md
 
@@ -4172,7 +4220,7 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [@Krzysztof-Cieslak (Krzysztof Cieślak)](https://github.com/Krzysztof-Cieslak) | 429 |
 | [@lusingander (Kyosuke Fujimoto)](https://github.com/lusingander) | 429 |
 | [@mahmoudsalah1993 (Mahmoud Salah)](https://github.com/mahmoudsalah1993) | 429 |
-| [@marrej (Marcus Revaj)](https://github.com/marrej) | 429 |
+| [@mohamedamara1 (Mohamed Amara)](https://github.com/mohamedamara1) | 429 |
 | [@MGasiewski](https://github.com/MGasiewski) | 429 |
 | [@bersbersbers](https://github.com/bersbersbers) | 429 |
 | [@StephanTLavavej (Stephan T. Lavavej)](https://github.com/StephanTLavavej) | 429 |
@@ -4182,14 +4230,14 @@ Schema](https://json-schema.org/overview/what-is-jsonschema) | 0 |
 | [@asukaminato0721 (Asuka Minato)](https://github.com/asukaminato0721) | 429 |
 | [@iliaamiri (Ilia Abedianamiri)](https://github.com/iliaamiri) | 429 |
 | [@lukaskesch (Lukas Kesch)](https://github.com/lukaskesch) | 429 |
-| [@MariaSolOs (Maria José Solano)](https://github.com/MariaSolOs) | 429 |
-| [@oliviacrain (Olivia Crain)](https://github.com/oliviacrain) | 429 |
-| [@jeremy-rifkin (Jeremy Rifkin)](https://github.com/jeremy-rifkin) | 429 |
 
 * https://github.com/microsoft/vscode-docs/blob/main/release-notes/v1_89.md
 
 | URL | State |
 | --- | --- |
+| [issues](https://github.com/microsoft/vscode/issues?q=is%3Aissue+is%3Aclosed+milestone%3A%22April+2024+Recovery+1%22) | 404 |
+| [@MariaSolOs (Maria José Solano)](https://github.com/MariaSolOs) | 429 |
+| [@practicalli-johnny (Practicalli Johnny)](https://github.com/practicalli-johnny) | 429 |
 | [@sz3lbi (szelbi)](https://github.com/sz3lbi) | 429 |
 | [@unvalley (unvalley)](https://github.com/unvalley) | 429 |
 | [@Wilfred (Wilfred Hughes)](https://github.com/Wilfred) | 429 |
