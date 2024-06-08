@@ -4,7 +4,7 @@
 
 | URL | State |
 | --- | --- |
-| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 403 |
+| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 0 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/Answer-Search/java-quickstart.md
 
@@ -34,7 +34,7 @@
 
 | URL | State |
 | --- | --- |
-| [Cognitive Services](https://www.microsoft.com/cognitive-services/) | 403 |
+| [Cognitive Services](https://www.microsoft.com/cognitive-services/) | 0 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/Conversation-Learner/quickstart.md
 
@@ -68,8 +68,8 @@
 | --- | --- |
 | [Microsoft's definition of a security vulnerability](https://docs.microsoft.com/en-us/previous-versions/tn-archive/cc751383(v=technet.10) | 404 |
 | [Microsoft Security Response Center PGP Key page](https://www.microsoft.com/en-us/msrc/pgp-key-msrc) | 403 |
-| [microsoft.com/msrc](https://www.microsoft.com/msrc) | 403 |
-| [Microsoft Bug Bounty Program](https://microsoft.com/msrc/bounty) | 403 |
+| [microsoft.com/msrc](https://www.microsoft.com/msrc) | 0 |
+| [Microsoft Bug Bounty Program](https://microsoft.com/msrc/bounty) | 0 |
 | [Coordinated Vulnerability Disclosure](https://www.microsoft.com/en-us/msrc/cvd) | 403 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/URL-Preview/csharp.md
@@ -82,13 +82,13 @@
 
 | URL | State |
 | --- | --- |
-| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 403 |
+| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 0 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/URL-Preview/javascript.md
 
 | URL | State |
 | --- | --- |
-| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/url-preview/) | 403 |
+| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/url-preview/) | 0 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/URL-Preview/node-quickstart.md
 
@@ -112,7 +112,7 @@
 
 | URL | State |
 | --- | --- |
-| [Cognitive Services](https://www.microsoft.com/cognitive-services/) | 403 |
+| [Cognitive Services](https://www.microsoft.com/cognitive-services/) | 0 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/knowledge-exploration-service/CommandLine.md
 
