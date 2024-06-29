@@ -102,6 +102,12 @@
 | [`Register-FooCompleter`](Functions/Completion/Register-FooCompleter.ps1) | 404 |
 | [`Test-GitHubToken`](Functions/General/Test-GitHubToken.ps1) | 404 |
 
+* https://github.com/microsoft/Documentarian/blob/main/Projects/Modules/Documentarian.ModuleAuthor/Documentation/reference/cmdlets/Update-Headings.md
+
+| URL | State |
+| --- | --- |
+| [about_CommonParameters](http://go.microsoft.com/fwlink/?LinkID=113216) | 503 |
+
 * https://github.com/microsoft/Documentarian/blob/main/Projects/Modules/Documentarian.ModuleAuthor/Documentation/reference/cmdlets/_index.md
 
 | URL | State |
@@ -288,7 +294,7 @@
 | URL | State |
 | --- | --- |
 | [Microsoft's definition of a security vulnerability](https://aka.ms/opensource/security/definition) | 403 |
-| [Microsoft Security Response Center PGP Key page](https://aka.ms/opensource/security/pgpkey) | 0 |
+| [Microsoft Security Response Center PGP Key page](https://aka.ms/opensource/security/pgpkey) | 403 |
 | [microsoft.com/msrc](https://aka.ms/opensource/security/msrc) | 403 |
 | [Microsoft Bug Bounty Program](https://aka.ms/opensource/security/bounty) | 403 |
 | [Coordinated Vulnerability Disclosure](https://aka.ms/opensource/security/cvd) | 403 |
