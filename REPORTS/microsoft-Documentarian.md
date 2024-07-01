@@ -102,12 +102,6 @@
 | [`Register-FooCompleter`](Functions/Completion/Register-FooCompleter.ps1) | 404 |
 | [`Test-GitHubToken`](Functions/General/Test-GitHubToken.ps1) | 404 |
 
-* https://github.com/microsoft/Documentarian/blob/main/Projects/Modules/Documentarian.ModuleAuthor/Documentation/reference/cmdlets/Update-Headings.md
-
-| URL | State |
-| --- | --- |
-| [about_CommonParameters](http://go.microsoft.com/fwlink/?LinkID=113216) | 503 |
-
 * https://github.com/microsoft/Documentarian/blob/main/Projects/Modules/Documentarian.ModuleAuthor/Documentation/reference/cmdlets/_index.md
 
 | URL | State |
