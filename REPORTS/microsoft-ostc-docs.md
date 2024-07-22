@@ -7,8 +7,15 @@
 | [Microsoft's definition of a security vulnerability](https://aka.ms/opensource/security/definition) | 403 |
 | [Microsoft Security Response Center PGP Key page](https://aka.ms/opensource/security/pgpkey) | 403 |
 | [microsoft.com/msrc](https://aka.ms/opensource/security/msrc) | 403 |
-| [Microsoft Bug Bounty Program](https://aka.ms/opensource/security/bounty) | 0 |
+| [Microsoft Bug Bounty Program](https://aka.ms/opensource/security/bounty) | 403 |
 | [Coordinated Vulnerability Disclosure](https://aka.ms/opensource/security/cvd) | 403 |
+
+* https://github.com/microsoft/ostc-docs/blob/master/gitinstall-aix.md
+
+| URL | State |
+| --- | --- |
+| [Problems with Common Repositories](#problems-with-common-repositories) | 0 |
+| [Instructions for Installing git](#instructions-for-installing-git) | 0 |
 
 * https://github.com/microsoft/ostc-docs/blob/master/gitinstall-hp.md
 
