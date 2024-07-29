@@ -10,7 +10,7 @@
 
 | URL | State |
 | --- | --- |
-| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 0 |
+| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 403 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/Answer-Search/node-quickstart.md
 
@@ -34,7 +34,7 @@
 
 | URL | State |
 | --- | --- |
-| [Cognitive Services](https://www.microsoft.com/cognitive-services/) | 0 |
+| [Cognitive Services](https://www.microsoft.com/cognitive-services/) | 403 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/Conversation-Learner/quickstart.md
 
