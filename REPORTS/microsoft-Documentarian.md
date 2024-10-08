@@ -79,6 +79,12 @@
 | [Get-Help](xref:Microsoft.PowerShell.Core.Get-Help) | 0 |
 | [Get-Command](xref:Microsoft.PowerShell.Core.Get-Command) | 0 |
 
+* https://github.com/microsoft/Documentarian/blob/main/Projects/Modules/Documentarian.MicrosoftDocs/Documentation/reference/cmdlets/Sync-VSCode.md
+
+| URL | State |
+| --- | --- |
+| [Visual Studio Code](https://code.visualstudio.com) | 403 |
+
 * https://github.com/microsoft/Documentarian/blob/main/Projects/Modules/Documentarian.MicrosoftDocs/Documentation/reference/cmdlets/_index.md
 
 | URL | State |
@@ -288,7 +294,7 @@
 | URL | State |
 | --- | --- |
 | [Microsoft's definition of a security vulnerability](https://aka.ms/opensource/security/definition) | 403 |
-| [Microsoft Security Response Center PGP Key page](https://aka.ms/opensource/security/pgpkey) | 0 |
+| [Microsoft Security Response Center PGP Key page](https://aka.ms/opensource/security/pgpkey) | 403 |
 | [microsoft.com/msrc](https://aka.ms/opensource/security/msrc) | 403 |
-| [Microsoft Bug Bounty Program](https://aka.ms/opensource/security/bounty) | 403 |
+| [Microsoft Bug Bounty Program](https://aka.ms/opensource/security/bounty) | 0 |
 | [Coordinated Vulnerability Disclosure](https://aka.ms/opensource/security/cvd) | 403 |
