@@ -28,7 +28,7 @@
 
 | URL | State |
 | --- | --- |
-| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 403 |
+| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 0 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/Answer-Search/reference.md
 
@@ -40,7 +40,6 @@
 
 | URL | State |
 | --- | --- |
-| [https://code.visualstudio.com/](https://code.visualstudio.com/) | 403 |
 | [User Voice page](https://aka.ms/conversation-learner-uservoice) | 404 |
 | [conversationlearner-webchat](https://github.com/Microsoft/ConversationLearner-WebChat) | 404 |
 
@@ -56,9 +55,9 @@
 
 | URL | State |
 | --- | --- |
-| [website](https://www.microsoft.com/en-us/research/group/cognitive-research/) | 0 |
+| [website](https://www.microsoft.com/en-us/research/group/cognitive-research/) | 403 |
 | [here](https://www.microsoft.com/en-us/research/project/answer-search/) | 0 |
-| [here](https://www.microsoft.com/en-us/research/project/conversation-learner/) | 403 |
+| [here](https://www.microsoft.com/en-us/research/project/conversation-learner/) | 0 |
 | [here](https://www.microsoft.com/en-us/research/project/knowledge-exploration/) | 403 |
 | [here](https://www.microsoft.com/en-us/research/project/personality-chat/) | 403 |
 | [here](https://www.microsoft.com/en-us/research/project/url-preview/) | 403 |
@@ -69,7 +68,7 @@
 | --- | --- |
 | [Microsoft's definition of a security vulnerability](https://docs.microsoft.com/en-us/previous-versions/tn-archive/cc751383(v=technet.10) | 404 |
 | [Microsoft Security Response Center PGP Key page](https://www.microsoft.com/en-us/msrc/pgp-key-msrc) | 403 |
-| [microsoft.com/msrc](https://www.microsoft.com/msrc) | 0 |
+| [microsoft.com/msrc](https://www.microsoft.com/msrc) | 403 |
 | [Microsoft Bug Bounty Program](https://microsoft.com/msrc/bounty) | 403 |
 | [Coordinated Vulnerability Disclosure](https://www.microsoft.com/en-us/msrc/cvd) | 403 |
 
@@ -77,7 +76,7 @@
 
 | URL | State |
 | --- | --- |
-| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 403 |
+| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 0 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/URL-Preview/java-quickstart.md
 
@@ -107,13 +106,13 @@
 
 | URL | State |
 | --- | --- |
-| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 403 |
+| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 0 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/URL-Preview/url-preview-reference.md
 
 | URL | State |
 | --- | --- |
-| [Cognitive Services](https://www.microsoft.com/cognitive-services/) | 403 |
+| [Cognitive Services](https://www.microsoft.com/cognitive-services/) | 0 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/knowledge-exploration-service/CommandLine.md
 
