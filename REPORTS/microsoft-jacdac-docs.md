@@ -1,11 +1,5 @@
 
 ## [jacdac-docs](https://github.com/microsoft/jacdac-docs)
-* https://github.com/microsoft/jacdac-docs/blob/main/README.md
-
-| URL | State |
-| --- | --- |
-| [Visual Studio Code](https://code.visualstudio.com/) | 403 |
-
 * https://github.com/microsoft/jacdac-docs/blob/main/SECURITY.md
 
 | URL | State |
