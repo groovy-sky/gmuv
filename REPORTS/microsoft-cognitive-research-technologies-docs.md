@@ -10,7 +10,7 @@
 
 | URL | State |
 | --- | --- |
-| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 0 |
+| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 403 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/Answer-Search/node-quickstart.md
 
@@ -34,7 +34,7 @@
 
 | URL | State |
 | --- | --- |
-| [Cognitive Services](https://www.microsoft.com/cognitive-services/) | 0 |
+| [Cognitive Services](https://www.microsoft.com/cognitive-services/) | 403 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/Conversation-Learner/quickstart.md
 
@@ -55,9 +55,9 @@
 
 | URL | State |
 | --- | --- |
-| [website](https://www.microsoft.com/en-us/research/group/cognitive-research/) | 0 |
+| [website](https://www.microsoft.com/en-us/research/group/cognitive-research/) | 403 |
 | [here](https://www.microsoft.com/en-us/research/project/answer-search/) | 403 |
-| [here](https://www.microsoft.com/en-us/research/project/conversation-learner/) | 403 |
+| [here](https://www.microsoft.com/en-us/research/project/conversation-learner/) | 0 |
 | [here](https://www.microsoft.com/en-us/research/project/knowledge-exploration/) | 403 |
 | [here](https://www.microsoft.com/en-us/research/project/personality-chat/) | 403 |
 | [here](https://www.microsoft.com/en-us/research/project/url-preview/) | 403 |
@@ -127,7 +127,7 @@
 
 | URL | State |
 | --- | --- |
-| [Knowledge Exploration Service SDK](https://www.microsoft.com/en-us/download/details.aspx?id=51488) | 0 |
+| [Knowledge Exploration Service SDK](https://www.microsoft.com/en-us/download/details.aspx?id=51488) | 403 |
 | [Windows VM in Azure](../../../articles/virtual-machines/windows/quick-create-portal.md) | 404 |
 | [http://localhost:8000/interpret?query=papers by susan t dumais](http://localhost:8000/interpret?query=papers%20by%20susan%20t%20dumais) | 0 |
 | [http://localhost:8000/interpret?query=papers by susan t d&complete=1](http://localhost:8000/interpret?query=papers%20by%20susan%20t%20d&complete=1) | 0 |
