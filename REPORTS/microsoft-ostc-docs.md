@@ -4,11 +4,11 @@
 
 | URL | State |
 | --- | --- |
-| [Microsoft's definition of a security vulnerability](https://aka.ms/opensource/security/definition) | 403 |
+| [Microsoft's definition of a security vulnerability](https://aka.ms/opensource/security/definition) | 0 |
 | [Microsoft Security Response Center PGP Key page](https://aka.ms/opensource/security/pgpkey) | 403 |
 | [microsoft.com/msrc](https://aka.ms/opensource/security/msrc) | 403 |
 | [Microsoft Bug Bounty Program](https://aka.ms/opensource/security/bounty) | 403 |
-| [Coordinated Vulnerability Disclosure](https://aka.ms/opensource/security/cvd) | 403 |
+| [Coordinated Vulnerability Disclosure](https://aka.ms/opensource/security/cvd) | 0 |
 
 * https://github.com/microsoft/ostc-docs/blob/master/gitinstall-hp.md
 
