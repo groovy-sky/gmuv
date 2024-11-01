@@ -4,7 +4,7 @@
 
 | URL | State |
 | --- | --- |
-| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 403 |
+| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 0 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/Answer-Search/java-quickstart.md
 
@@ -57,7 +57,7 @@
 | --- | --- |
 | [website](https://www.microsoft.com/en-us/research/group/cognitive-research/) | 403 |
 | [here](https://www.microsoft.com/en-us/research/project/answer-search/) | 403 |
-| [here](https://www.microsoft.com/en-us/research/project/conversation-learner/) | 0 |
+| [here](https://www.microsoft.com/en-us/research/project/conversation-learner/) | 403 |
 | [here](https://www.microsoft.com/en-us/research/project/knowledge-exploration/) | 403 |
 | [here](https://www.microsoft.com/en-us/research/project/personality-chat/) | 403 |
 | [here](https://www.microsoft.com/en-us/research/project/url-preview/) | 403 |
@@ -127,7 +127,7 @@
 
 | URL | State |
 | --- | --- |
-| [Knowledge Exploration Service SDK](https://www.microsoft.com/en-us/download/details.aspx?id=51488) | 403 |
+| [Knowledge Exploration Service SDK](https://www.microsoft.com/en-us/download/details.aspx?id=51488) | 0 |
 | [Windows VM in Azure](../../../articles/virtual-machines/windows/quick-create-portal.md) | 404 |
 | [http://localhost:8000/interpret?query=papers by susan t dumais](http://localhost:8000/interpret?query=papers%20by%20susan%20t%20dumais) | 0 |
 | [http://localhost:8000/interpret?query=papers by susan t d&complete=1](http://localhost:8000/interpret?query=papers%20by%20susan%20t%20d&complete=1) | 0 |
@@ -151,7 +151,7 @@
 
 | URL | State |
 | --- | --- |
-| [https://www.microsoft.com/en-us/research/project/knowledge-exploration/](https://www.microsoft.com/en-us/research/project/knowledge-exploration/) | 403 |
+| [https://www.microsoft.com/en-us/research/project/knowledge-exploration/](https://www.microsoft.com/en-us/research/project/knowledge-exploration/) | 0 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/project-personality-chat/overview.md
 
