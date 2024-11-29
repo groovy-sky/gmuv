@@ -4,13 +4,13 @@
 
 | URL | State |
 | --- | --- |
-| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 403 |
+| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 0 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/Answer-Search/java-quickstart.md
 
 | URL | State |
 | --- | --- |
-| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 403 |
+| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 0 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/Answer-Search/node-quickstart.md
 
@@ -28,7 +28,7 @@
 
 | URL | State |
 | --- | --- |
-| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 0 |
+| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 403 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/Answer-Search/reference.md
 
@@ -56,7 +56,7 @@
 | URL | State |
 | --- | --- |
 | [website](https://www.microsoft.com/en-us/research/group/cognitive-research/) | 403 |
-| [here](https://www.microsoft.com/en-us/research/project/answer-search/) | 0 |
+| [here](https://www.microsoft.com/en-us/research/project/answer-search/) | 403 |
 | [here](https://www.microsoft.com/en-us/research/project/conversation-learner/) | 403 |
 | [here](https://www.microsoft.com/en-us/research/project/knowledge-exploration/) | 403 |
 | [here](https://www.microsoft.com/en-us/research/project/personality-chat/) | 403 |
