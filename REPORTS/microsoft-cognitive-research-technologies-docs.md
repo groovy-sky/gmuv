@@ -4,13 +4,13 @@
 
 | URL | State |
 | --- | --- |
-| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 403 |
+| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 0 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/Answer-Search/java-quickstart.md
 
 | URL | State |
 | --- | --- |
-| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 403 |
+| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 0 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/Answer-Search/node-quickstart.md
 
@@ -28,7 +28,7 @@
 
 | URL | State |
 | --- | --- |
-| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 403 |
+| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 0 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/Answer-Search/reference.md
 
@@ -76,7 +76,7 @@
 
 | URL | State |
 | --- | --- |
-| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 0 |
+| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 403 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/URL-Preview/java-quickstart.md
 
@@ -120,7 +120,7 @@
 | --- | --- |
 | [Sizes for virtual machines](../../../articles/virtual-machines/virtual-machines-windows-sizes.md) | 404 |
 | [How to Create and Deploy a Cloud Service](../../../articles/cloud-services/cloud-services-how-to-create-deploy-portal.md) | 404 |
-| [Sizes for Cloud Services](../../../articles/cloud-services/cloud-services-sizes-specs.md) | 404 |
+| [Sizes for Cloud Services](../../../articles/cloud-services/cloud-services-sizes-specs.md) | 0 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/knowledge-exploration-service/GettingStarted.md
 
