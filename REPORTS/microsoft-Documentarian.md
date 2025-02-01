@@ -283,6 +283,14 @@
 | [Between](comments.md) | 404 |
 | [but then](its.md "okay") | 404 |
 
+* https://github.com/microsoft/Documentarian/blob/main/README.md
+
+| URL | State |
+| --- | --- |
+| [Getting Started](#getting-started) | 502 |
+| [Contributing](#contributing) | 502 |
+| [Legal Notices](#legal-notices) | 502 |
+
 * https://github.com/microsoft/Documentarian/blob/main/SECURITY.md
 
 | URL | State |
