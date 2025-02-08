@@ -4,7 +4,7 @@
 
 | URL | State |
 | --- | --- |
-| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 0 |
+| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 403 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/Answer-Search/java-quickstart.md
 
@@ -34,7 +34,7 @@
 
 | URL | State |
 | --- | --- |
-| [Cognitive Services](https://www.microsoft.com/cognitive-services/) | 0 |
+| [Cognitive Services](https://www.microsoft.com/cognitive-services/) | 403 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/Conversation-Learner/quickstart.md
 
@@ -56,7 +56,7 @@
 | URL | State |
 | --- | --- |
 | [website](https://www.microsoft.com/en-us/research/group/cognitive-research/) | 403 |
-| [here](https://www.microsoft.com/en-us/research/project/answer-search/) | 403 |
+| [here](https://www.microsoft.com/en-us/research/project/answer-search/) | 0 |
 | [here](https://www.microsoft.com/en-us/research/project/conversation-learner/) | 403 |
 | [here](https://www.microsoft.com/en-us/research/project/knowledge-exploration/) | 403 |
 | [here](https://www.microsoft.com/en-us/research/project/personality-chat/) | 403 |
@@ -76,7 +76,7 @@
 
 | URL | State |
 | --- | --- |
-| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 403 |
+| [Cognitive Research Technologies](https://www.microsoft.com/en-us/research/project/answer-search/) | 0 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/URL-Preview/java-quickstart.md
 
@@ -112,7 +112,7 @@
 
 | URL | State |
 | --- | --- |
-| [Cognitive Services](https://www.microsoft.com/cognitive-services/) | 403 |
+| [Cognitive Services](https://www.microsoft.com/cognitive-services/) | 0 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/knowledge-exploration-service/CommandLine.md
 
@@ -139,7 +139,7 @@
 | [AzCopy](../../storage/common/storage-use-azcopy.md) | 404 |
 | [create an Azure VM](../../../articles/virtual-machines/windows/quick-create-portal.md) | 404 |
 | [connect to it](../../../articles/virtual-machines/windows/quick-create-portal.md#connect-to-virtual-machine) | 404 |
-| [Knowledge Exploration Service SDK](https://www.microsoft.com/en-us/download/details.aspx?id=51488) | 0 |
+| [Knowledge Exploration Service SDK](https://www.microsoft.com/en-us/download/details.aspx?id=51488) | 403 |
 | [Sizes for virtual machines](../../../articles/virtual-machines/virtual-machines-windows-sizes.md) | 404 |
 | [How to create and deploy a cloud service](../../../articles/cloud-services/cloud-services-how-to-create-deploy-portal.md) | 404 |
 | [Swap](../../../articles/cloud-services/cloud-services-nodejs-stage-application.md) | 404 |
@@ -150,7 +150,7 @@
 
 | URL | State |
 | --- | --- |
-| [https://www.microsoft.com/en-us/research/project/knowledge-exploration/](https://www.microsoft.com/en-us/research/project/knowledge-exploration/) | 0 |
+| [https://www.microsoft.com/en-us/research/project/knowledge-exploration/](https://www.microsoft.com/en-us/research/project/knowledge-exploration/) | 403 |
 
 * https://github.com/microsoft/cognitive-research-technologies-docs/blob/master/project-personality-chat/overview.md
 
