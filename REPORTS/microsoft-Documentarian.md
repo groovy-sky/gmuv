@@ -38,6 +38,23 @@
 | [`Register-FooCompleter`](Functions/Completion/Register-FooCompleter.ps1) | 404 |
 | [`Test-GitHubToken`](Functions/General/Test-GitHubToken.ps1) | 404 |
 
+* https://github.com/microsoft/Documentarian/blob/main/Projects/Modules/Documentarian.HelpInfo/Source/Private/readme.md
+
+| URL | State |
+| --- | --- |
+| [`Foo`](Classes/Foo.ps1) | 404 |
+| [`Bar`](Enums/Bar.ps1) | 404 |
+| [`Get-Foo`](Functions/Foo.ps1) | 404 |
+
+* https://github.com/microsoft/Documentarian/blob/main/Projects/Modules/Documentarian.HelpInfo/Source/Public/readme.md
+
+| URL | State |
+| --- | --- |
+| [`Foo`](Classes/Foo.ps1) | 404 |
+| [`Bar`](Enums/Bar.ps1) | 404 |
+| [`Register-FooCompleter`](Functions/Completion/Register-FooCompleter.ps1) | 404 |
+| [`Test-GitHubToken`](Functions/General/Test-GitHubToken.ps1) | 404 |
+
 * https://github.com/microsoft/Documentarian/blob/main/Projects/Modules/Documentarian.MarkdownBuilder/Source/Private/readme.md
 
 | URL | State |
@@ -106,8 +123,14 @@
 
 | URL | State |
 | --- | --- |
+| [Find-Ast](Find-Ast.md) | 404 |
+| [Get-AstInfo](Get-AstInfo.md) | 404 |
+| [Get-AstType](Get-AstType.md) | 404 |
+| [New-AstPredicate](New-AstPredicate.md) | 404 |
 | [New-MDHelp](New-MDHelp.md) | 404 |
+| [Resolve-TypeName](Resolve-TypeName.md) | 404 |
 | [Sort-Parameters](Sort-Parameters.md) | 404 |
+| [Test-IsAstType](Test-IsAstType.md) | 404 |
 
 * https://github.com/microsoft/Documentarian/blob/main/Projects/Modules/Documentarian.ModuleAuthor/Source/Private/readme.md
 
