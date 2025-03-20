@@ -10,6 +10,7 @@
 
 | URL | State |
 | --- | --- |
+| [Azure Resource Manager Templates](https://azure.microsoft.com/documentation/templates/) | 404 |
 | [alt text](images/namingConvention.png "Files, folders and naming conventions") | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/1-CONTRIBUTION-GUIDE/git-tutorial.md
@@ -29,6 +30,35 @@
 | [Best Practice Check](https://azurequickstartsservice.blob.core.windows.net/badges/path-to-sample/BestPracticeResult.svg) | 404 |
 | [Cred Scan Check](https://azurequickstartsservice.blob.core.windows.net/badges/path-to-sample/CredScanResult.svg) | 404 |
 | [Bicep Version](https://azurequickstartsservice.blob.core.windows.net/badges/path-to-sample/BicepVersion.svg) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/1-CONTRIBUTION-GUIDE/useful-tools.md
+
+| URL | State |
+| --- | --- |
+| [Creating and deploying Azure resource groups through Visual Studio](https://azure.microsoft.com/documentation/articles/vs-azure-tools-resource-groups-deployment-projects-create-deploy) | 404 |
+| [Resource manager for VS Code](https://azure.microsoft.com/documentation/articles/resource-manager-vs-code/) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/README.md
+
+| URL | State |
+| --- | --- |
+| [azure.com](https://azure.microsoft.com/documentation/templates) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/SECURITY.md
+
+| URL | State |
+| --- | --- |
+| [Microsoft's definition of a security vulnerability](https://aka.ms/opensource/security/definition) | 403 |
+| [Microsoft Security Response Center PGP Key page](https://aka.ms/opensource/security/pgpkey) | 403 |
+| [microsoft.com/msrc](https://aka.ms/opensource/security/msrc) | 403 |
+| [Microsoft Bug Bounty Program](https://aka.ms/opensource/security/bounty) | 403 |
+| [Coordinated Vulnerability Disclosure](https://aka.ms/opensource/security/cvd) | 403 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/README.md
+
+| URL | State |
+| --- | --- |
+| [azure.com](https://azure.microsoft.com/documentation/templates) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/barracuda/barracuda-waf-iis/README.md
 
@@ -64,6 +94,7 @@
 | [Concourse](http://concourse.ci/) | 0 |
 | [How to Use SSH with Linux and Mac on Azure](https://azure.microsoft.com/documentation/articles/virtual-machines-linux-use-ssh-key/) | 404 |
 | [How to Use SSH with Windows on Azure](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-use-ssh-key/) | 404 |
+| [**HERE**](https://azure.microsoft.com/documentation/articles/virtual-machines-size-specs/) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/consul/consul-on-ubuntu/README.md
 
@@ -101,6 +132,12 @@
 | [Screen](./images/azdeploy.png) | 404 |
 | [Screen](./images/azdeploy2.png) | 404 |
 
+* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/dosyago/browserbox/README.md
+
+| URL | State |
+| --- | --- |
+| [license terms](https://github.com/BrowserBox/BrowserBox/blob/boss/LICENSE.md) | 404 |
+
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/drupal/drupal8-vmss-glusterfs-mysql/README.md
 
 | URL | State |
@@ -129,6 +166,12 @@
 | [ssh public key](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-mac-create-ssh-keys) | 404 |
 | [here](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-linux-ssh-from-windows#create-a-private-key-for-putty) | 404 |
 
+* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/hazelcase/hazelcast-vm-cluster/README.md
+
+| URL | State |
+| --- | --- |
+| [upstart service](http://upstart.ubuntu.com/) | 0 |
+
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/ibm-cloud-pak/ibm-cloud-pak-for-data/README.md
 
 | URL | State |
@@ -141,39 +184,42 @@
 | [Alt text](images/Output.png "output") | 404 |
 | [Alt text](images/services.png "parameters2") | 404 |
 
-* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/informatica/informatica-adf-hdinsight-powerbi/README.md
-
-| URL | State |
-| --- | --- |
-| [Azure Marketplace test drive program](https://azure.microsoft.com/marketplace/test-drives/) | 404 |
-| [Informatica CSA](https://azure.microsoft.com/marketplace/partners/informatica-cloud/informatica-cloud/) | 404 |
-| [contact us](azuremarketplace@sysgain.com) | 404 |
-| [Azure Marketplace Test Drive Program](https://azure.microsoft.com/marketplace/test-drives/) | 404 |
-| [cloud]( images/informatica-cloud.png) | 404 |
-| [report](https://hivestorage45.blob.core.windows.net/powerbireport/reports/MachineData_09262016_latest.pbix) | 0 |
-
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/intel-lustre/intel-lustre-clients-vmss-centos/README.md
 
 | URL | State |
 | --- | --- |
+| [Why Use Lustre?](https://wiki.hpdd.intel.com/display/PUB/Why+Use+Lustre) | 0 |
 | [Intel Cloud Edition for Lustre- Software - Eval](https://azure.microsoft.com/marketplace/partners/intel/) | 404 |
 | [stripe_size and stripe_count of the mounted filesystem](https://build.hpdd.intel.com/job/lustre-manual/lastSuccessfulBuild/artifact/lustre_manual.xhtml#idp5145472) | 0 |
+| [here](https://wiki.hpdd.intel.com/display/PUB/Rebuilding+the+Lustre-client+rpms+for+a+new+kernel) | 0 |
+| [Intel Cloud Edition for Lustre on Azure](https://wiki.hpdd.intel.com/display/PUB/Intel+Cloud+Edition+for+Lustre+on+Azure) | 0 |
 | [Lustre Manual](https://build.hpdd.intel.com/job/lustre-manual/lastSuccessfulBuild/artifact/lustre_manual.xhtml) | 0 |
 
-* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/kemp/kemp-loadmaster-ha-pair/README.md
+* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/jboss/jboss-eap-clustered-multivm-rhel/README.md
 
 | URL | State |
 | --- | --- |
-| [LoadMaster Documentation](https://support.kemptechnologies.com/hc/articles/203859775-HA-for-Azure-Marketplace-Classic-Interface-) | 403 |
+| [Red Hat Cloud Access program overview](https://access.redhat.com/documentation/en/red_hat_subscription_management/1/html/red_hat_cloud_access_reference_guide/getting-started-with-ca_cloud-access#proc_new-ca-experience-option2_cloud-access) | 404 |
+| [Getting access to Gold Images](https://access.redhat.com/documentation/en/red_hat_subscription_management/1/html/red_hat_cloud_access_reference_guide/understanding-gold-images_cloud-access#getting-access-to-gold-images_cloud-access) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/jboss/jboss-eap-clustered-vmss-rhel/README.md
+
+| URL | State |
+| --- | --- |
+| [Getting access to Gold Images](https://access.redhat.com/documentation/en/red_hat_subscription_management/1/html/red_hat_cloud_access_reference_guide/understanding-gold-images_cloud-access#getting-access-to-gold-images_cloud-access) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/jboss/jboss-eap-standalone-rhel/README.md
+
+| URL | State |
+| --- | --- |
+| [Red Hat Cloud Access program overview](https://access.redhat.com/documentation/en/red_hat_subscription_management/1/html/red_hat_cloud_access_reference_guide/getting-started-with-ca_cloud-access#proc_new-ca-experience-option2_cloud-access) | 404 |
+| [Getting access to Gold Images](https://access.redhat.com/documentation/en/red_hat_subscription_management/1/html/red_hat_cloud_access_reference_guide/understanding-gold-images_cloud-access#getting-access-to-gold-images_cloud-access) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/lansa/lansa-vmss-windows-autoscale-sql-database/README.md
 
 | URL | State |
 | --- | --- |
 | [Click here](https://azure.microsoft.com/marketplace/partners/lansa/lansa-scalable-license/) | 404 |
-| [Visual LANSA](https://www.lansa.com/products/visual-lansa.htm) | 403 |
-| [Visual LANSA](https://www.lansa.com/products/visual-lansa.htm) | 403 |
-| [Azure Deployment Tutorial](http://docs.lansa.com/14/en/lansa022/index.htm#lansa/vldtoolct_0250.htm#_Toc461606162%3FTocPath%3DLANSA%2520Application%2520Deployment%2520Tool|Cloud%2520Tutorials|Microsoft%2520Azure%2520Tutorial|_____0) | 403 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/mahara/mahara-autoscale-cache/README.md
 
@@ -208,6 +254,33 @@
 | URL | State |
 | --- | --- |
 | [Running DevStack](https://openedx.atlassian.net/wiki/display/OpenOPS/Running+Devstack) | 404 |
+| [Open edX](https://github.com/edx/edx-platform/blob/master/LICENSE) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/opendx/openedx-fullstack-ubuntu/README.md
+
+| URL | State |
+| --- | --- |
+| [Running FullStack](https://openedx.atlassian.net/wiki/display/OpenOPS/Running+Fullstack) | 404 |
+| [Open edX](https://github.com/edx/edx-platform/blob/master/LICENSE) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/opendx/openedx-scalable-ubuntu/README.md
+
+| URL | State |
+| --- | --- |
+| [Running FullStack](https://openedx.atlassian.net/wiki/display/OpenOPS/Running+Fullstack) | 404 |
+| [Open edX](https://github.com/edx/edx-platform/blob/master/LICENSE) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/opendx/openedx-tutor-lilac-ubuntu/README.md
+
+| URL | State |
+| --- | --- |
+| [Open edX](https://github.com/edx/edx-platform/blob/master/LICENSE) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/orchard/orchard-cms-video-portal/README.md
+
+| URL | State |
+| --- | --- |
+| [Orchard CMS](http://www.orchardproject.net/) | 403 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/postgre/postgresql-standalone-server-ubuntu/GettingStarted.md
 
@@ -225,10 +298,19 @@
 
 | URL | State |
 | --- | --- |
+| [How to Create a (Mostly) Seamless Logon Experience For Your Remote Desktop Services Environment](http://www.rdsgurus.com/windows-2012-r2-how-to-create-a-mostly-seamless-logon-experience-for-your-remote-desktop-services-environment/) | 0 |
 | [Basic RDS Deployment Template](https://github.com/Azure/azure-quickstart-templates/tree/master/rds-deployment) | 404 |
 | [RDS Deployment using existing VNET and AD](https://github.com/Azure/azure-quickstart-templates/tree/master/rds-deployment-existing-ad) | 404 |
+| [Get started with Azure Key Vault](https://azure.microsoft.com/documentation/articles/key-vault-get-started) | 404 |
+| [Use Azure PowerShell to create a service principal to access resources](https://azure.microsoft.com/documentation/articles/resource-group-authenticate-service-principal/) | 404 |
 | [Set-RDCertificate](https://technet.microsoft.com/library/jj215464.aspx) | 404 |
 | [Set-RDClientAccessName](https://technet.microsoft.com/library/jj215484.aspx) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/sap/sap-2-tier-s4hana-fully-activated-appliance/README.md
+
+| URL | State |
+| --- | --- |
+| [alt text](images/container.png "SAP Files, folders and naming conventions") | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/sap/sap-3-tier-marketplace-image-multi-sid-apps-md/README.md
 
@@ -258,6 +340,7 @@
 | [Issues](https://github.com/azure-quickstart-templates/solace-message-router/issues) | 404 |
 | [open a new one](https://github.com/azure-quickstart-templates/solace-message-router/new) | 404 |
 | [enhancement request issue](https://github.com/azure-quickstart-templates/solace-message-router/issues/new) | 404 |
+| [Solace community](http://dev.solace.com/community/) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/solace/solace-message-router/README.md
 
@@ -275,13 +358,11 @@
 | [alt text](images/deployment.png "deployment progress") | 404 |
 | [Management Tools section](//docs.solace.com/Management-Tools.htm ) | 404 |
 | [alt text](images/remote_access.png "console with PubSub+ cli") | 404 |
+| [send and receive messages](http://dev.solace.com/get-started/send-receive-messages/) | 404 |
 | [alt text](images/solace_tutorial.png "getting started publish/subscribe") | 404 |
 | [contributors](../../graphs/contributors) | 404 |
 | [Authoring Azure Resource Manager templates](//docs.microsoft.com/azure/azure-resource-manager/resource-group-authoring-templates) | 404 |
 | [Azure Quickstart Templates](//azure.microsoft.com/resources/templates/) | 404 |
-| [solace.dev](//solace.dev/) | 404 |
-| [Solace technology](//solace.com/products/platform/) | 404 |
-| [Solace community](//dev.solace.com/community/) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/sql/sql-server-2014-alwayson-existing-vnet-and-ad/README.md
 
@@ -294,6 +375,8 @@
 | URL | State |
 | --- | --- |
 | [Availability Set](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability/) | 404 |
+| [Virtual Network](http://azure.microsoft.com/documentation/services/virtual-network/) | 404 |
+| [Virtual Network](http://azure.microsoft.com/documentation/services/virtual-network/) | 404 |
 | [Availability Set](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability/) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/tomcat/openjdk-tomcat-ubuntu-vm/gettingstarted.md
@@ -338,6 +421,12 @@
 | [101-Linux-Java-ZuluOpenJDK](https://github.com/Azure/azure-quickstart-templates/tree/master/101-Linux-Java-ZuluOpenJDK) | 404 |
 | [Azul Zulu for Azure - Enterprise Edition FAQ](https://assets.azul.com/files/Zulu-for-Azure-FAQ.pdf) | 404 |
 
+* https://github.com/Azure/azure-quickstart-templates/blob/master/demos/README.md
+
+| URL | State |
+| --- | --- |
+| [azure.com](https://azure.microsoft.com/documentation/templates/) | 404 |
+
 * https://github.com/Azure/azure-quickstart-templates/blob/master/demos/alsid-syslog-proxy/README.md
 
 | URL | State |
@@ -378,6 +467,7 @@
 | --- | --- |
 | [Azure Marketplace test drive program](https://azure.microsoft.com/marketplace/test-drives/) | 404 |
 | [Azure Marketplace Test Drive Program ](https://azure.microsoft.com/marketplace/test-drives/) | 404 |
+| [here](https://www.microsoft.com/cloud-platform/operations-management-suite) | 403 |
 | [here](https://azure.microsoft.com/documentation/articles/automation-sec-configure-azure-runas-account/) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/demos/azure-resource-optimization-toolkit/README.md
@@ -424,18 +514,30 @@
 | [alt text](images/CloudStorageInGB.png "OMS Monitoring solution for Azure backup cloud storage distribution") | 404 |
 | [alt text](images/LogAnalyticsScreen.JPG "OMS Monitoring solution for Azure backup Log search") | 404 |
 
+* https://github.com/Azure/azure-quickstart-templates/blob/master/demos/centos-2nics-lb-cluster/README.md
+
+| URL | State |
+| --- | --- |
+| [Azure Resource Manager (ARM)](https://azure.microsoft.com/documentation/articles/resource-group-overview/) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/demos/devtest-p2s-iis/README.md
+
+| URL | State |
+| --- | --- |
+| [Configure a Point-to-Site connection to a virtual network using PowerShell](https://azure.microsoft.com/documentation/articles/vpn-gateway-howto-point-to-site-rm-ps/) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/demos/dns-forwarder/README.md
+
+| URL | State |
+| --- | --- |
+| [Name resolution using your own DNS server](https://azure.microsoft.com/documentation/articles/virtual-networks-name-resolution-for-vms-and-role-instances/#name-resolution-using-your-own-dns-server) | 404 |
+
 * https://github.com/Azure/azure-quickstart-templates/blob/master/demos/dsc-pullserver-to-win-server/README.md
 
 | URL | State |
 | --- | --- |
 | [PowerShell DSC Resource for configuring Pull Server environment](http://blogs.msdn.com/b/powershell/archive/2013/11/21/powershell-dsc-resource-for-configuring-pull-server-environment.aspx) | 403 |
 | [How to retrieve node information from DSC pull server](http://blogs.msdn.com/b/powershell/archive/2014/05/29/how-to-retrieve-node-information-from-pull-server.aspx) | 403 |
-
-* https://github.com/Azure/azure-quickstart-templates/blob/master/demos/e-shop-website-with-ilb-ase/README.md
-
-| URL | State |
-| --- | --- |
-| [freenom](https://www.freenom.com) | 500 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/demos/load-balancer-gateway/README.md
 
@@ -458,6 +560,12 @@
 | URL | State |
 | --- | --- |
 | [alt text](images/diskperformance.png "Disk performance measurement output") | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/demos/monitor-action-groups/README.md
+
+| URL | State |
+| --- | --- |
+| [Introduction Video](https://azure.microsoft.com/resources/videos/azure-friday-azure-monitor-action-groups/) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/demos/nested-vms-in-virtual-network/README.md
 
@@ -559,17 +667,18 @@
 | URL | State |
 | --- | --- |
 | [2018.6](./changelog.md "See change logs") | 404 |
-| [workspace](https://documentimages.blob.core.windows.net/azurequickstarttemplatereadme/workspaceInAzure.png "workspace") | 404 |
+| [workspace](https://documentimages.blob.core.windows.net/azurequickstarttemplatereadme/workspaceInAzure.png "workspace") | 409 |
 | [Deploy to Azure](https://azuredeploy.net/deploybutton.png) | 0 |
-| [deploy](https://documentimages.blob.core.windows.net/azurequickstarttemplatereadme/deploy.png "deploy") | 404 |
+| [deploy](https://documentimages.blob.core.windows.net/azurequickstarttemplatereadme/deploy.png "deploy") | 409 |
 | [here](https://docs.microsoft.com/azure/log-analytics/log-analytics-search-reference) | 0 |
-| [resource group](https://documentimages.blob.core.windows.net/azurequickstarttemplatereadme/resourceGroup.png "resource group") | 404 |
-| [overview](https://documentimages.blob.core.windows.net/azurequickstarttemplatereadme/overview.png "overview") | 404 |
-| [view](https://documentimages.blob.core.windows.net/azurequickstarttemplatereadme/view.png "view") | 404 |
-| [alerts](https://documentimages.blob.core.windows.net/azurequickstarttemplatereadme/alerts.png "alerts") | 404 |
+| [resource group](https://documentimages.blob.core.windows.net/azurequickstarttemplatereadme/resourceGroup.png "resource group") | 409 |
+| [overview](https://documentimages.blob.core.windows.net/azurequickstarttemplatereadme/overview.png "overview") | 409 |
+| [view](https://documentimages.blob.core.windows.net/azurequickstarttemplatereadme/view.png "view") | 409 |
+| [alerts](https://documentimages.blob.core.windows.net/azurequickstarttemplatereadme/alerts.png "alerts") | 409 |
 | [query language](https://docs.loganalytics.io/docs/Language-Reference/) | 0 |
-| [log search](https://documentimages.blob.core.windows.net/azurequickstarttemplatereadme/logSearch.png "log search") | 404 |
-| [saved searches](https://documentimages.blob.core.windows.net/azurequickstarttemplatereadme/savedSearches.png "saved searches") | 404 |
+| [log search](https://documentimages.blob.core.windows.net/azurequickstarttemplatereadme/logSearch.png "log search") | 409 |
+| [saved searches](https://documentimages.blob.core.windows.net/azurequickstarttemplatereadme/savedSearches.png "saved searches") | 409 |
+| [Windows (Mobile devices)](https://www.microsoft.com/store/p/microsoft-operations-management-suite/9wzdncrfjz2r) | 403 |
 | [Android](https://play.google.com/store/apps/details?id=com.microsoft.operations.AndroidPhone) | 404 |
 | [iOS](https://itunes.apple.com/us/app/microsoft-operations-management-suite/id1042424859) | 404 |
 | [Change Logs](./changelog.md "See change logs") | 404 |
@@ -611,11 +720,15 @@
 | [alt text](images/step3deploy.png "Deployment in the portal") | 404 |
 | [alt text](images/NewGuid.png "Generate a new GUID in PowerShell") | 404 |
 
-* https://github.com/Azure/azure-quickstart-templates/blob/master/demos/private-endpoint-sql-from-appservice/README.md
+* https://github.com/Azure/azure-quickstart-templates/blob/master/demos/parameterized-linked-templates/detail/vmtemplate.md
 
 | URL | State |
 | --- | --- |
-| [Private link endpoints template format](https://docs.microsoft.com/azure/templates/microsoft.network/2020-04-01/privateendpoints) | 404 |
+| [paramvm.json](../nested/paramvm.json) | 404 |
+| [paramvm.json#L77-L94](../nested/paramvm.json#L77-L94) | 404 |
+| [paramvm.json#L221](../nested/paramvm.json#L221) | 404 |
+| [paramvm.json#L131](../nested/paramvm.json#L131) | 404 |
+| [paramvm.json#L144-L159](../nested/paramvm.json#L144-L159) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/demos/rds-deployment-full-ha/README.md
 
@@ -630,6 +743,7 @@
 | --- | --- |
 | [S2D Solution](images/s2d-1.png "S2D Solution") | 404 |
 | [S2D Solution](images/s2d-2.png "S2D Solution") | 404 |
+| [GitHub](https://github.com/slavizh/s2d-oms-mgmt-solution) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/demos/sports-analytics-architecture/README.md
 
@@ -683,12 +797,15 @@
 
 | URL | State |
 | --- | --- |
+| [description](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-sizes/) | 404 |
 | [alt text](images/bandwidth.png "Bandwidth measurement output") | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/demos/vm-to-vm-throughput-meter-multithreaded/README.md
 
 | URL | State |
 | --- | --- |
+| [See licence agreement](https://gallery.technet.microsoft.com/NTttcp-Version-528-Now-f8b12769) | 404 |
+| [description](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-sizes/) | 404 |
 | [alt text](images/throughput.png "Throughput measurement output") | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/demos/vmss-datascience/README.md
@@ -710,12 +827,11 @@
 | --- | --- |
 | [API reference documentation](https://docs.microsoft.com/rest/api/keyvault/CreateKey/CreateKey) | 404 |
 
-* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.apimanagement/api-management-logs-to-moesif-using-eventhub-webapp/README.md
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.apimanagement/api-management-create-with-reference-keyvault/README.md
 
 | URL | State |
 | --- | --- |
-| [Azure Resource Manager Template](https://azure.microsoft.com/resources/templates/201-api-management-logs-to-moesif-using-eventhub-webapp/) | 404 |
-| [`nested/microsoft.apimanagement/service/loggers.json` ARM template](nested/microsoft.apimanagement/service/loggers.json) | 404 |
+| [KeyVault as Resource Manager Reference](https://azure.microsoft.com/documentation/articles/resource-manager-keyvault-parameter/) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.appconfiguration/app-configuration-store/README.md
 
@@ -739,23 +855,98 @@
 | [Azure Policies](/governance/policy/overview) | 404 |
 | [Microsoft Purview exception tag guide](/azure/purview/create-azure-purview-portal-faq) | 404 |
 
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.azurestackhci/aksarc/README.md
+
+| URL | State |
+| --- | --- |
+| [article](/azure/azure-local/manage/manage-virtual-machines-in-azure-portal?tabs=arm) | 404 |
+| [Azure Local Virtual Networks](/azure/azure-local/manage/create-logical-networks) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.azurestackhci/create-cluster-with-prereqs/README.md
+
+| URL | State |
+| --- | --- |
+| [Prepare Active Directory for Azure Stack HCI, version 23H2 deployment](https://learn.microsoft.com/azure-stack/hci/deploy/deployment-prep-active-directory.md) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.azurestackhci/image-from-azure-marketplace/README.md
+
+| URL | State |
+| --- | --- |
+| [Azure Stack HCI Images](/azure-stack/hci/manage/virtual-machine-image-azure-marketplace) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.azurestackhci/vm-simple-ashci-linux/README.md
+
+| URL | State |
+| --- | --- |
+| [Ubuntu image creation process](/azure-stack/hci/manage/virtual-machine-image-linux-sysprep) | 404 |
+| [Arc VM creation process](/azure-stack/hci/manage/create-arc-virtual-machines) | 404 |
+| [Azure Stack HCI Logical Networks](/azure-stack/hci/manage/create-logical-networks) | 404 |
+| [Ubuntu image creation process](/azure-stack/hci/manage/virtual-machine-image-linux-sysprep) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.azurestackhci/vm-simple-ashci-windows/README.md
+
+| URL | State |
+| --- | --- |
+| [article](/azure-stack/hci/manage/manage-virtual-machines-in-azure-portal?tabs=arm) | 404 |
+| [Azure Stack HCI Virtual Networks](/azure-stack/hci/manage/create-logical-networks) | 404 |
+| [Azure Stack HCI Images](/azure-stack/hci/manage/virtual-machine-image-azure-marketplace) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.azurestackhci/vm-windows-disks-and-adjoin/README.md
+
+| URL | State |
+| --- | --- |
+| [article](/azure-stack/hci/manage/manage-virtual-machines-in-azure-portal?tabs=arm) | 404 |
+| [Azure Stack HCI Virtual Networks](/azure-stack/hci/manage/create-logical-networks) | 404 |
+| [Azure Stack HCI Images](/azure-stack/hci/manage/virtual-machine-image-azure-marketplace) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.cache/redis-cache-microsoft-entra-authentication/README.md
+
+| URL | State |
+| --- | --- |
+| [Create an Azure Cache for Redis using an ARM template](https://azure.microsoft.com/documentation/articles/cache-redis-cache-arm-provision/) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.cache/redis-cache/README.md
+
+| URL | State |
+| --- | --- |
+| [Create an Azure Cache for Redis using an ARM template](https://azure.microsoft.com/documentation/articles/cache-redis-cache-arm-provision/) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.cache/redis-enterprise-vectordb/README.md
+
+| URL | State |
+| --- | --- |
+| [Create an Azure Cache for Redis using an ARM template](https://azure.microsoft.com/documentation/articles/cache-redis-cache-arm-provision/) | 404 |
+
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.cache/redis-premium-cluster-diagnostics/README.md
 
 | URL | State |
 | --- | --- |
 | [Create Premium Redis Cache with Virtual Network and clustering](https://azure.microsoft.com/documentation/templates/201-redis-premium-vnet-cluster-diagnostics/) | 404 |
+| [How to configure Redis clustering for a Premium Azure Redis Cache](https://azure.microsoft.com/documentation/articles/cache-how-to-premium-clustering/) | 404 |
 
-* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.cdn/front-door-premium-function-private-link/README.md
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.cache/redis-premium-persistence/README.md
 
 | URL | State |
 | --- | --- |
-| [SKU that supports private endpoints](https://docs.microsoft.com/azure/-function-/networking/private-endpoint) | 404 |
+| [How to configure data persistence for a Premium Azure Redis Cache](https://azure.microsoft.com/documentation/articles/cache-how-to-premium-persistence/) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.cache/redis-premium-vnet/README.md
+
+| URL | State |
+| --- | --- |
+| [How to configure Virtual Network Support for a Premium Azure Redis Cache](https://azure.microsoft.com/documentation/articles/cache-how-to-premium-vnet/) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.cdn/front-door-standard-premium-application-gateway-public/README.md
 
 | URL | State |
 | --- | --- |
 | [Bicep Version]( https://azurequickstartsservice.blob.core.windows.net/badges/quickstarts/microsoft.cdn/front-door-standard-premium-application-gateway-public/BicepVersion.svg) | 0 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.compute/customscript-extension-public-storage-on-ubuntu/README.md
+
+| URL | State |
+| --- | --- |
+| [Bicep Version](https://azurequickstartsservice.blob.core.windows.net/microsoft.compute/customscript-extension-public-storage-on-ubuntu/BicepVersion.svg) | 400 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.compute/decrypt-running-linux-vm/README.md
 
@@ -777,11 +968,59 @@
 | --- | --- |
 | [template resources](images/resources.png "template resource objects") | 404 |
 
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.compute/vm-linux-dynamic-data-disks/README.md
+
+| URL | State |
+| --- | --- |
+| [Docs](https://docs.docker.com/machine/drivers/azure/) | 404 |
+
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.compute/vm-simple-linux/GettingStarted-linux.md
 
 | URL | State |
 | --- | --- |
 | [Screen](./images/azportaldeploy3.png) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.compute/vm-sql-existing-autobackup-update/README.md
+
+| URL | State |
+| --- | --- |
+| [here](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-sql-automated-backup/) | 404 |
+| [here](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-sql-server-agent-extension/) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.compute/vm-sql-existing-autopatching-update/README.md
+
+| URL | State |
+| --- | --- |
+| [here](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-sql-automated-patching/) | 404 |
+| [here](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-sql-server-agent-extension/) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.compute/vm-sql-existing-keyvault-update/README.md
+
+| URL | State |
+| --- | --- |
+| [here](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-ps-sql-keyvault/) | 404 |
+| [here](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-sql-server-agent-extension/) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.compute/vm-sql-full-autobackup/README.md
+
+| URL | State |
+| --- | --- |
+| [here](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-sql-automated-backup/) | 404 |
+| [here](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-sql-server-agent-extension/) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.compute/vm-sql-full-autopatching/README.md
+
+| URL | State |
+| --- | --- |
+| [here](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-sql-automated-patching/) | 404 |
+| [here](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-sql-server-agent-extension/) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.compute/vm-sql-full-keyvault/README.md
+
+| URL | State |
+| --- | --- |
+| [here](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-ps-sql-keyvault/) | 404 |
+| [here](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-sql-server-agent-extension/) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.compute/vm-trustedlaunch-linux/README.md
 
@@ -820,12 +1059,15 @@
 | --- | --- |
 | [Azure
 Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
+| [VM using secure ARM deployment](https://azure.microsoft.com/documentation/articles/resource-manager-keyvault-parameter/) | 404 |
 | [CustomScript VM extension](https://azure.microsoft.com/documentation/articles/virtual-machines-linux-classic-lamp-script/) | 404 |
+| [Access Policies](https://msdn.microsoft.com/library/mt603625.aspx) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.confidentialledger/confidential-ledger-create/README.md
 
 | URL | State |
 | --- | --- |
+| [Confidential Consortium Framework](https://www.microsoft.com/research/project/confidential-consortium-framework/) | 0 |
 | [Quickstart: Create an Confidential Ledger with an ARM template](/azure/confidential-ledger/quickstart-template) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.customproviders/custom-rp-existing-resource-deployments/README.md
@@ -846,6 +1088,12 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 | URL | State |
 | --- | --- |
 | [](images/createdcustomresource.PNG) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.databricks/databricks-all-in-one-template-for-vnet-injection-privateendpoint-default-storage-firewall/README.md
+
+| URL | State |
+| --- | --- |
+| [Databricks Admin Guide](https://docs.azuredatabricks.net/administration-guide/index.html) | 0 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.databricks/databricks-all-in-one-template-for-vnet-injection-privateendpoint/README.md
 
@@ -885,13 +1133,22 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 
 | URL | State |
 | --- | --- |
+| [Stored Procedure](https://azure.microsoft.com/documentation/articles/data-factory-stored-proc-activity/) | 404 |
+| [Overview and prerequisites](https://azure.microsoft.com/documentation/articles/data-factory-copy-data-from-azure-blob-storage-to-sql-database/) | 404 |
 | [emp](First, Last) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.datafactory/data-factory-blob-to-sql-copy/README.md
+
+| URL | State |
+| --- | --- |
+| [Overview and prerequisites](https://azure.microsoft.com/documentation/articles/data-factory-copy-data-from-azure-blob-storage-to-sql-database/) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.datafactory/data-factory-chained-copy-activities/README.md
 
 | URL | State |
 | --- | --- |
 | [AdventureWorks2014 (OLTP) database](https://github.com/Microsoft/sql-server-samples/releases/download/adventureworks2014/adventure-works-2014-oltp-full-database-backup.zip) | 404 |
+| [New-AzureRmDataFactoryEncryptValue](https://docs.microsoft.com/powershell/module/azurerm.datafactories/new-azurermdatafactoryencryptvalue?view=azurermps-4.2.0) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.datafactory/data-factory-ftp-hive-blob/README.md
 
@@ -899,6 +1156,22 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 | --- | --- |
 | [Create an Azure Virtual Machine](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-hero-tutorial) | 404 |
 | [this article](http://itq.nl/walkthrough-hosting-ftp-on-iis-7-5-a-windows-azure-vm-2/) | 404 |
+| [Overview and prerequisites](https://azure.microsoft.com/documentation/articles/data-factory-build-your-first-pipeline/) | 404 |
+| [Tutorial: Create a pipeline using Resource Manager Template](https://azure.microsoft.com/documentation/articles/data-factory-build-your-first-pipeline-using-arm/) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.datafactory/data-factory-hive-transformation/README.md
+
+| URL | State |
+| --- | --- |
+| [Overview and prerequisites](https://azure.microsoft.com/documentation/articles/data-factory-build-your-first-pipeline/) | 404 |
+| [Overview and prerequisites](https://azure.microsoft.com/documentation/articles/data-factory-build-your-first-pipeline/) | 404 |
+| [Tutorial: Create a pipeline using Resource Manager Template](https://azure.microsoft.com/documentation/articles/data-factory-build-your-first-pipeline-using-arm/) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.datafactory/data-factory-salesforce-to-blob-copy/README.md
+
+| URL | State |
+| --- | --- |
+| [Tutorial: Create a pipeline using Resource Manager Template](https://azure.microsoft.com/documentation/articles/data-factory-copy-activity-tutorial-using-azure-resource-manager-template/?rnd=1#create-data-factory) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.datafactory/data-factory-v2-blob-to-blob-copy/README.md
 
@@ -953,18 +1226,30 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 | [Deploy Azure Data Lake Store accounts with data encryption using Data Lake key management](https://azure.microsoft.com/resources/templates/101-data-lake-store-encryption-adls/) | 404 |
 | [Deploy Azure Data Lake Store accounts with data encryption using Azure Key Vault key management](https://azure.microsoft.com/resources/templates/101-data-lake-store-encryption-key-vault/) | 404 |
 
-* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.devices/iot-iothub-edgeemulator-vm/GettingStarted-Iot-EdgeEmulator.md
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.dbforpostgresql/flexible-postgresql-with-vnet/README.md
 
 | URL | State |
 | --- | --- |
-| [here](https://docs.microsoft.com/azure/templates/microsoft.devices/2019-03-22/iothubs) | 404 |
-| [here](https://docs.microsoft.com/azure/templates/microsoft.devices/2019-03-22/iothubs) | 404 |
+| [quickstart](https://docs.microsoft.com/azure/postgresql/flexible-server/quickstart-create-arm-template) | 404 |
+| [docs](https://docs.microsoft.com/azure/postgresql/select-right-deployment-type) | 404 |
 
-* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.devices/iot-iothub-edgeemulator-vm/README.md
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.devices/iothub-auto-route-messages/README.md
 
 | URL | State |
 | --- | --- |
-| [Azure IoT Edge template reference](https://docs.microsoft.com/azure/templates/microsoft.devices/2019-03-22/iothubs) | 404 |
+| [Azure Iot Hub template reference](https://docs.microsoft.com/azure/templates/microsoft.devices/iothub-allversions) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.devices/iothub-device-provisioning/README.md
+
+| URL | State |
+| --- | --- |
+| [Azure Iot Hub template reference](https://docs.microsoft.com/azure/templates/microsoft.devices/iothub-allversions) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.devices/iothub-with-consumergroup-create/README.md
+
+| URL | State |
+| --- | --- |
+| [Azure Iot Hub template reference](https://docs.microsoft.com/azure/templates/microsoft.devices/iothub-allversions) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.digitaltwins/digitaltwins-with-function-private-link/README.md
 
@@ -978,11 +1263,41 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 | --- | --- |
 | [official documentation]( https://go.microsoft.com/fwlink/?linkid=2097603) | 0 |
 
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.eventhub/event-hubs-create-event-hub-and-consumer-group/README.md
+
+| URL | State |
+| --- | --- |
+| [Create a EventHubs namespace with EventHub and ConsumerGroup using an ARM template](http://azure.microsoft.com/documentation/articles/service-bus-resource-manager-namespace-event-hub/) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.eventhub/eventhub-create-namespace-geo-recoveryconfiguration/README.md
+
+| URL | State |
+| --- | --- |
+| [Create a Event Hub namespace using an ARM template](http://azure.microsoft.com/documentation/articles/service-bus-resource-manager-namespace-event-hub/) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.eventhub/eventhubs-create-cluster-namespace-eventhub/README.md
+
+| URL | State |
+| --- | --- |
+| [Quickstart: Create an event hub cluster using Azure Resource Manager template](http://azure.microsoft.com/documentation/articles/event-hubs-resource-manager-namespace-event-hub/) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.eventhub/eventhubs-create-cluster-namespace/README.md
+
+| URL | State |
+| --- | --- |
+| [Quickstart: Create an event hub cluster using Azure Resource Manager template](http://azure.microsoft.com/documentation/articles/event-hubs-resource-manager-namespace-event-hub/) | 404 |
+
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.eventhub/eventhubs-create-namespace-and-enable-capture-for-adls/README.md
 
 | URL | State |
 | --- | --- |
 | [Create an Event Hubs namespace with Event Hub and enable Capture using an ARM template](http://azure.microsoft.com/documentation/articles/event-hubs-create-event-hub-and-enable-capture/) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.eventhub/eventhubs-create-namespace-and-eventhub/README.md
+
+| URL | State |
+| --- | --- |
+| [Quickstart: Create an event hub by using an ARM template](http://azure.microsoft.com/documentation/articles/event-hubs-resource-manager-namespace-event-hub/) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.hardwaresecuritymodules/payment-hsm-create/README.md
 
@@ -1000,12 +1315,6 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 | [Deploy a HDInsight HBase replication with the clusters in one VNet](https://azure.microsoft.com/resources/templates/101-hdinsight-hbase-replication-one-vnet/) | 404 |
 | [Deploy a HDInsight HBase replication with two VNets in one region](https://azure.microsoft.com/resources/templates/101-hdinsight-hbase-replication-two-vnets-same-region/) | 404 |
 
-* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.hdinsight/hdinsight-linux-ssh-password/README.md
-
-| URL | State |
-| --- | --- |
-| [Deploy HDInsight on Linux](https://azure.microsoft.com/resources/templates/101-hdinsight-linux-ssh-publickey/) | 404 |
-
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.hdinsight/hdinsight-rserver/README.md
 
 | URL | State |
@@ -1018,14 +1327,25 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 | --- | --- |
 | [quickstart](https://docs.microsoft.com/azure/healthcare-apis/fhir-paas-arm-template-quickstart?tabs=azure-portal) | 404 |
 
-* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.logic/logic-app-as2-send-receive/README.md
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.healthdataaiservices/deidentification-service-create/README.md
 
 | URL | State |
 | --- | --- |
-| [Screenshot that shows Azure resources](images/azure-resources.png"Azure resources") | 404 |
-| [Screenshot that shows FabrikamSales-AS2Send logic app](images/fabrikamsales-as2send.png"Run FabrikamSales-AS2Send Logic App") | 404 |
-| [Screenshot that shows Contoso-AS2Receive run history](images/contoso-as2receive-runhistory.png"Contoso-AS2Receive run history") | 404 |
-| [Screenshot that shows FabrikamFinance-AS2ReceiveMDN run history](images/fabrikamfinance-as2receivemdn-runhistory.png"FabrikamFinance-AS2ReceiveMDN run history") | 404 |
+| [quickstart](/azure/healthcare-apis/deidentification/quickstart) | 404 |
+| [What is the de-identification service?](/azure/healthcare-apis/deidentification/overview) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.insights/insights-alertrules-servicehealth/README.md
+
+| URL | State |
+| --- | --- |
+| [Create or update an alert rule](https://msdn.microsoft.com/library/azure/dn933805.aspx) | 404 |
+| [post](https://code.msdn.microsoft.com/How-To-Setup-Email-Alerts-c26cdc55) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.logic/integration-service-environment/README.md
+
+| URL | State |
+| --- | --- |
+| [the documentation](https://docs.microsoft.com/azure/logic-apps/connect-virtual-network-vnet-isolated-environment#check-network-ports) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.logic/logic-app-b2b-disaster-recovery-replication/README.md
 
@@ -1050,17 +1370,24 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 | [Image of Transform XML action](images/transform-xml-action.png"Transform XML action") | 404 |
 | [Image of sample request-response](images/request-response.png"Sample request-response") | 404 |
 
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.machinelearningservices/aifoundry-networking-aoao/README.md
+
+| URL | State |
+| --- | --- |
+| [main.bicepparam](./main.bicepparam) | 404 |
+| [main.bicepparam](./main.bicepparam) | 404 |
+
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.machinelearningservices/machine-learning-workspace-monitoring-dashboard/README.md
 
 | URL | State |
 | --- | --- |
 | [Creating Diagnostics Settings for Azure Machine Learning using Azure policy](https://github.com/Azure/data-management-zone/blob/main/docs/guidance/EnterpriseScaleAnalytics-Policies.md#all-services) | 404 |
 
-* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.mobilenetwork/mobilenetwork-create-dashboard/README.md
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.netapp/anf-oracle/anf-oracle-storage/README.md
 
 | URL | State |
 | --- | --- |
-| [full deployment quickstart template](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/quickstarts/microsoft.mobilenetwork/mobilenetwork-create-full-5gc-deployment) | 404 |
+| [Deployment through Azure NetApp Files application volume group for ORACLE (AVG)](https://docs.microsoft.com/azure/virtual-machines/workloads/sap/oracle-vm-operations-netapp#deployment-through-azure-netapp-files-application-volume-group-for-oracle-avg) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.netapp/anf-sap-hana/anf-sap-hana-crr-storage/README.md
 
@@ -1086,11 +1413,11 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 | --- | --- |
 | [DNS Forwarder VM](https://github.com/Azure/azure-quickstart-templates/tree/master/301-dns-forwarder) | 404 |
 
-* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.network/front-door-api-management/README.md
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.network/internal-loadbalancer-create/README.md
 
 | URL | State |
 | --- | --- |
-| [Get Subscription Key](images/GetSubscriptionKey.png) | 404 |
+| [quickstart](https://docs.microsoft.com/azure/load-balancer/quickstart-load-balancer-standard-internal-bicep.md) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.network/load-balancer-ip-configured-backend-pool/README.md
 
@@ -1098,6 +1425,28 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 | --- | --- |
 | [Backend Pool management](https&#58;//docs.microsoft.com/azure/load-balancer/backend-pool-management) | 404 |
 | [Create an Internet-facing Standard Load Balancer with three VMs](.../101-load-balancer-standard-create) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.network/load-balancer-ipv6-create/README.md
+
+| URL | State |
+| --- | --- |
+| [Deploy an Internet-facing load-balancer solution with IPv6 using a template](https://azure.microsoft.com/documentation/articles/load-balancer-ipv6-internet-template/) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.network/traffic-manager-vm/README.md
+
+| URL | State |
+| --- | --- |
+| [Traffic Manager routing methods for details of the different routing methods available.](https://azure.microsoft.com/documentation/articles/traffic-manager-routing-methods/) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.network/virtual-wan-multiple-address-pool/README.md
+
+| URL | State |
+| --- | --- |
+| [Figure 1](images/network-diagram.png "network diagram") | 404 |
+| [Figure 2](images/marketing-group-digital-certificate.png "digital certificate for Marketing user group") | 404 |
+| [Figure 3](images/sale-group-digital-certificate.png "digital certificate for Sale user group") | 404 |
+| [Figure 4](images/engineering-group-digital-certificate.png "digital certificate for Engineering user group") | 404 |
+| [Figure 5](images/p2s-sessions.png "P2S sessions from three clients in three different user groups") | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.recoveryservices/recovery-services-create-vm-and-configure-backup/README.md
 
@@ -1113,6 +1462,7 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 | --- | --- |
 | [Create Recovery Services Vault](https://github.com/Azure/azure-quickstart-templates/tree/master/101-recovery-services-vault-create) | 404 |
 | [Create Weekly Backup Policy](https://github.com/Azure/azure-quickstart-templates/tree/master/101-recovery-services-weekly-backup-policy-create) | 404 |
+| [Back up ARM VMs to a Recovery Services vault](https://azure.microsoft.com/documentation/articles/backup-azure-vms-first-look-arm/) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.recoveryservices/recovery-services-vm-workload-backup/README.md
 
@@ -1126,12 +1476,43 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 | --- | --- |
 | [Create Recovery Services Vault](https://github.com/Azure/azure-quickstart-templates/tree/master/101-recovery-services-vault-create) | 404 |
 | [Create Daily Backup Policy](https://github.com/Azure/azure-quickstart-templates/tree/master/101-recovery-services-daily-backup-policy-create) | 404 |
+| [Back up ARM VMs to a Recovery Services vault](https://azure.microsoft.com/documentation/articles/backup-azure-vms-first-look-arm/) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.servicebus/servicebus-create-authrule-namespace-and-queue/README.md
+
+| URL | State |
+| --- | --- |
+| [Create a Service Bus AuthorizationRule for a Namespace and a Queue using an ARM template](http://azure.microsoft.com/documentation/articles/service-bus-resource-manager-namespace-auth-rule/) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.servicebus/servicebus-create-namespace/README.md
+
+| URL | State |
+| --- | --- |
+| [Create a Service Bus namespace using an ARM template](http://azure.microsoft.com/documentation/articles/service-bus-resource-manager-namespace/) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.servicebus/servicebus-create-topic-and-subscription/README.md
+
+| URL | State |
+| --- | --- |
+| [Create a Service Bus namespace with Topic and Subscription using an ARM template](http://azure.microsoft.com/documentation/articles/service-bus-resource-manager-namespace-topic/) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.servicebus/servicebus-create-topic-subscription-rule/README.md
+
+| URL | State |
+| --- | --- |
+| [Create a Service Bus namespace with Topic, Subscription and Rule using an ARM template](https://azure.microsoft.com/documentation/articles/service-bus-resource-manager-namespace-topic-with-rule/) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.servicefabric/5-vm-ubuntu-1-nodetypes-secure/README.md
 
 | URL | State |
 | --- | --- |
 | [DownloadCert](./images/DownloadCert.PNG) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.servicefabric/service-fabric-secure-nsg-cluster-65-node-3-nodetype/README.md
+
+| URL | State |
+| --- | --- |
+| [Deploying ARM templates using ARM PS](https://azure.microsoft.com/documentation/articles/service-fabric-cluster-creation-via-arm/) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.solutions/managed-application-with-linked-templates/README.md
 
@@ -1190,32 +1571,31 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 
 | URL | State |
 | --- | --- |
-| [Azure Storage account documentation](http://azure.microsoft.com/documentation/articles/storage-create-storage-account/) | 0 |
+| [Azure Storage account documentation](http://azure.microsoft.com/documentation/articles/storage-create-storage-account/) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.storage/storage-file-share/README.md
 
 | URL | State |
 | --- | --- |
-| [Azure Storage account documentation](http://azure.microsoft.com/documentation/articles/storage-create-storage-account/) | 0 |
-| [File Share template reference](https://docs.microsoft.com/azure/templates/microsoft.storage/2019-04-01/storageaccounts/fileservices/shares) | 404 |
+| [Azure Storage account documentation](http://azure.microsoft.com/documentation/articles/storage-create-storage-account/) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.storage/storage-multi-blob-container/README.md
 
 | URL | State |
 | --- | --- |
-| [Azure Storage account documentation](http://azure.microsoft.com/documentation/articles/storage-create-storage-account/) | 0 |
+| [Azure Storage account documentation](http://azure.microsoft.com/documentation/articles/storage-create-storage-account/) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.storage/storage-multi-file-share/README.md
 
 | URL | State |
 | --- | --- |
-| [Azure Storage account documentation](http://azure.microsoft.com/documentation/articles/storage-create-storage-account/) | 0 |
+| [Azure Storage account documentation](http://azure.microsoft.com/documentation/articles/storage-create-storage-account/) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.storage/storage-sftp/README.md
 
 | URL | State |
 | --- | --- |
-| [Azure Storage account documentation](http://azure.microsoft.com/documentation/articles/storage-create-storage-account/) | 0 |
+| [Azure Storage account documentation](http://azure.microsoft.com/documentation/articles/storage-create-storage-account/) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.synapse/synapse-poc/README.md
 
@@ -1226,12 +1606,39 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 | [Deploy to Azure](https://github.com/Azure/azure-quickstart-templates/tree/master/101-synapse-poc#deploy-to-azure) | 404 |
 | [Post Deployment](https://github.com/Azure/azure-quickstart-templates/tree/master/101-synapse-poc#post-deployment) | 404 |
 
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.web/app-service-certificate-standard/README.md
+
+| URL | State |
+| --- | --- |
+| [How to Create an App Service Certificate](https://azure.microsoft.com/documentation/articles/web-sites-purchase-ssl-web-site/) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.web/app-service-certificate-wildcard/README.md
+
+| URL | State |
+| --- | --- |
+| [How to Create an App Service Certificate](https://azure.microsoft.com/documentation/articles/web-sites-purchase-ssl-web-site/) | 404 |
+
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.web/azure-web-pubsub/README.md
 
 | URL | State |
 | --- | --- |
 | [Quickstart: Create an Azure Web PubSub service by using a Bicep file]( insert link here as soon as it is available ) | 404 |
 | [Azure subscription](/azure/guides/developer/azure-developer-guide#understanding-accounts-subscriptions-and-billing) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.web/documentdb-webapp/README.md
+
+| URL | State |
+| --- | --- |
+| [Azure Cosmos DB account](https://azure.microsoft.com/documentation/articles/documentdb-introduction/#what-is-azure-documentdb) | 404 |
+| [App Service Plan](https://azure.microsoft.com/documentation/articles/azure-web-sites-web-hosting-plans-in-depth-overview/) | 404 |
+| [Web App](https://azure.microsoft.com/documentation/articles/app-service-web-overview/) | 404 |
+| [Application settings](https://azure.microsoft.com/documentation/articles/web-sites-configure/) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.web/function-app-create-dedicated/README.md
+
+| URL | State |
+| --- | --- |
+| [Azure Functions Overview](https://azure.microsoft.com/documentation/articles/functions-overview/) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.web/function-app-create-dynamic-slot/README.md
 
@@ -1244,6 +1651,13 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 | URL | State |
 | --- | --- |
 | [101-function-app-create-dedicated](https://github.com/Azure/azure-quickstart-templates/tree/master/101-function-app-create-dedicated) | 404 |
+| [Azure Functions Overview](https://azure.microsoft.com/documentation/articles/functions-overview/) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.web/function-app-dedicated-github-deploy/README.md
+
+| URL | State |
+| --- | --- |
+| [Azure Functions Overview](https://azure.microsoft.com/documentation/articles/functions-overview/) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.web/function-app-dedicated-plan/README.md
 
@@ -1270,11 +1684,41 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 | [Azure Function Networking Section](/images/function-network-settings.png) | 404 |
 | [Azure Functions Networking - approve private endpoint request](/images/function-private-endpoint-approval.png) | 404 |
 
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.web/functions-managed-identity/README.md
+
+| URL | State |
+| --- | --- |
+| [Azure Functions Overview](https://azure.microsoft.com/documentation/articles/functions-overview/) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.web/mobile-app-create/README.md
+
+| URL | State |
+| --- | --- |
+| [What are Mobile Apps?](https://azure.microsoft.com/documentation/articles/app-service-mobile-value-prop/) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.web/web-app-ase-create/README.md
+
+| URL | State |
+| --- | --- |
+| [How to Create an App Service Environment](https://azure.microsoft.com/documentation/articles/app-service-web-how-to-create-an-app-service-environment/) | 404 |
+
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.web/web-app-ase-ilb-configure-default-ssl/README.md
 
 | URL | State |
 | --- | --- |
 | [Introduction to App Service Environments](https://docs.microsoft.com/azure/app-service/app-service-environment/app-service-env-intro/) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.web/web-app-ase-ilb-create/README.md
+
+| URL | State |
+| --- | --- |
+| [How to Create an App Service Environment](https://azure.microsoft.com/documentation/articles/app-service-web-how-to-create-an-app-service-environment/) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.web/web-app-asp-app-on-ase-create/README.md
+
+| URL | State |
+| --- | --- |
+| [Create a web app in an App Service Environment](https://azure.microsoft.com/documentation/articles/app-service-web-how-to-create-a-web-app-in-an-ase/) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.web/web-app-asp-app-on-asev2-create/README.md
 
@@ -1282,11 +1726,37 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 | --- | --- |
 | [Introduction to App Service Environments](https://docs.microsoft.com/azure/app-service/app-service-environment/app-service-env-intro/) | 404 |
 
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.web/web-app-certificate-from-key-vault/README.md
+
+| URL | State |
+| --- | --- |
+| [https://azure.microsoft.com/documentation/articles/key-vault-get-started/](https://azure.microsoft.com/documentation/articles/key-vault-get-started/) | 404 |
+| [https://azure.microsoft.com/documentation/articles/web-sites-custom-domain-name/](https://azure.microsoft.com/documentation/articles/web-sites-custom-domain-name/) | 404 |
+
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.web/web-app-java-tomcat/gettingstarted.md
 
 | URL | State |
 | --- | --- |
 | [Screen](./images/aztemplate2.png) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.web/web-app-redis-cache-sql-database/README.md
+
+| URL | State |
+| --- | --- |
+| [Create a Web App plus Redis Cache using a template](https://azure.microsoft.com/documentation/articles/cache-web-app-arm-with-redis-cache-provision/) | 404 |
+| [Provision a web app with a SQL Database](https://azure.microsoft.com/documentation/articles/app-service-web-arm-with-sql-database-provision/) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.web/web-app-sql-database/README.md
+
+| URL | State |
+| --- | --- |
+| [Provision a web app with a SQL Database](https://azure.microsoft.com/documentation/articles/app-service-web-arm-with-sql-database-provision/) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.web/web-app-with-redis-cache/README.md
+
+| URL | State |
+| --- | --- |
+| [Create a Web App plus Redis Cache using a template](https://azure.microsoft.com/documentation/articles/cache-web-app-arm-with-redis-cache-provision/) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.web/webapp-linux-django/GettingStarted.md
 
@@ -1332,6 +1802,18 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 | [Azure US Gov Last Test Result](https://azurequickstartsservice.blob.core.windows.net/badges/shared_scripts/FairfaxDeployment.svg) | 404 |
 | [Best Practice Check](https://azurequickstartsservice.blob.core.windows.net/badges/shared_scripts/BestPracticeResult.svg) | 404 |
 | [Cred Scan Check](https://azurequickstartsservice.blob.core.windows.net/badges/shared_scripts/CredScanResult.svg) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/subscription-deployments/microsoft.network/virtual-network-manager-connectivity/README.md
+
+| URL | State |
+| --- | --- |
+| [Azure Public Test Date](https://azurequickstartsservice.blob.core.windows.net/badges/quickstarts/microsoft.network/virtual-network-manager-connectivity/PublicLastTestDate.svg) | 404 |
+| [Azure Public Test Result](https://azurequickstartsservice.blob.core.windows.net/badges/quickstarts/microsoft.network/virtual-network-manager-connectivity/PublicDeployment.svg) | 404 |
+| [Azure US Gov Last Test Date](https://azurequickstartsservice.blob.core.windows.net/badges/quickstarts/microsoft.network/virtual-network-manager-connectivity/FairfaxLastTestDate.svg) | 404 |
+| [Azure US Gov Last Test Result](https://azurequickstartsservice.blob.core.windows.net/badges/quickstarts/microsoft.network/virtual-network-manager-connectivity/FairfaxDeployment.svg) | 404 |
+| [Best Practice Check](https://azurequickstartsservice.blob.core.windows.net/badges/quickstarts/microsoft.network/virtual-network-manager-connectivity/BestPracticeResult.svg) | 404 |
+| [Cred Scan Check](https://azurequickstartsservice.blob.core.windows.net/badges/quickstarts/microsoft.network/virtual-network-manager-connectivity/CredScanResult.svg) | 404 |
+| [Bicep Version](https://azurequickstartsservice.blob.core.windows.net/badges/quickstarts/microsoft.network/virtual-network-manager-connectivity/BicepVersion.svg) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/test/ci-tests/data/fix-readme-tests/README.badlinks.md
 
