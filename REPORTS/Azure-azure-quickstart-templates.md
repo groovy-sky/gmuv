@@ -720,15 +720,12 @@
 | [alt text](images/step3deploy.png "Deployment in the portal") | 404 |
 | [alt text](images/NewGuid.png "Generate a new GUID in PowerShell") | 404 |
 
-* https://github.com/Azure/azure-quickstart-templates/blob/master/demos/parameterized-linked-templates/detail/vmtemplate.md
+* https://github.com/Azure/azure-quickstart-templates/blob/master/demos/parameterized-linked-templates/detail/agtemplate.md
 
 | URL | State |
 | --- | --- |
-| [paramvm.json](../nested/paramvm.json) | 404 |
-| [paramvm.json#L77-L94](../nested/paramvm.json#L77-L94) | 404 |
-| [paramvm.json#L221](../nested/paramvm.json#L221) | 404 |
-| [paramvm.json#L131](../nested/paramvm.json#L131) | 404 |
-| [paramvm.json#L144-L159](../nested/paramvm.json#L144-L159) | 404 |
+| [paramappgateway.json#L4-L35](../nested/paramappgateway.json#L4-L35) | 404 |
+| [paramappgateway.json#L78-L82](../nested/paramappgateway.json#L78-L82) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/demos/rds-deployment-full-ha/README.md
 
@@ -1067,7 +1064,7 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 
 | URL | State |
 | --- | --- |
-| [Confidential Consortium Framework](https://www.microsoft.com/research/project/confidential-consortium-framework/) | 0 |
+| [Confidential Consortium Framework](https://www.microsoft.com/research/project/confidential-consortium-framework/) | 403 |
 | [Quickstart: Create an Confidential Ledger with an ARM template](/azure/confidential-ledger/quickstart-template) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.customproviders/custom-rp-existing-resource-deployments/README.md
