@@ -4,7 +4,7 @@
 
 | URL | State |
 | --- | --- |
-| [maybe some link](https://www.microsoft.com) | 403 |
+| [maybe some link](https://www.microsoft.com) | 0 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/DataConnectors/AADUserInfo/README.MD
 
@@ -268,7 +268,7 @@
 
 | URL | State |
 | --- | --- |
-| [1-Recurrence](../Create-Incident-on-missing-Data-Source/images/1-Recurrence.png) | 404 |
+| [2-Authorize-API-Connections](../Create-Incident-on-missing-Data-Source/images/2-Authorize-API-Connections.png) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/Create-Zendesk-Ticket/readme.md
 
@@ -289,6 +289,12 @@
 | URL | State |
 | --- | --- |
 | [Community API documentation](https://developer.greynoise.io/reference/community-api#get_v3-community-ip) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/F5BigIP/Playbooks/BlockURL-F5BigIP/readme.md
+
+| URL | State |
+| --- | --- |
+| [F5 BIG-IP](../logo.jpg) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/F5BigIP/readme.md
 
@@ -499,16 +505,26 @@
 | [Command and Control - Security Control Feed](https://support.recordedfuture.com/hc/en-us/articles/360024113434-Security-Control-Feed-Command-and-Control) | 403 |
 | [Recorded Future](https://www.recordedfuture.com/integrations/azure/) | 404 |
 
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/Send-ConnectorHealthStatus/readme.md
+
+| URL | State |
+| --- | --- |
+| [0-appoverview](../Send-ConnectorHealthStatus/images/0-appoverview.png) | 404 |
+| [1-Reccurence](../Send-ConnectorHealthStatus/images/1-Reccurence.png) | 404 |
+
 * https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/Send-IngestionCostAlert/readme.md
 
 | URL | State |
 | --- | --- |
-| [05-deploymentscope](../Send-IngestionCostAlert/images/05-deploymentscope.png) | 404 |
-| [06-o365api](../Send-IngestionCostAlert/images/06-o365api.png) | 404 |
-| [11-clickrg2](../Send-IngestionCostAlert/images/11-clickrg2.png) | 404 |
-| [17-logicappsearch](../Send-IngestionCostAlert/images/17-logicappsearch.png) | 404 |
-| [28-searchteams](../Send-IngestionCostAlert/images/28-searchteams.png) | 404 |
-| [35-sendmessage](../Send-IngestionCostAlert/images/35-sendmessage.png) | 404 |
+| [02-laworkspaces](../Send-IngestionCostAlert/images/02-laworkspaces.png) | 404 |
+| [04-Azuredeploy](../Send-IngestionCostAlert/images/04-azuredeploy.png) | 404 |
+| [22-totfund](../Send-IngestionCostAlert/images/22-totfund.png) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/Send-IngestionCostAnomalyAlert/readme.md
+
+| URL | State |
+| --- | --- |
+| [02-parameters](../Send-IngestionCostAnomalyAlert/images/02-parameters.png) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/Sync-IncidentCommentToM365DOnUpdate/readme.md
 
@@ -530,7 +546,6 @@
 | [Prerequisites](prerequisites) | 404 |
 | [postdeployment](postdeployment) | 404 |
 | [authentication playbook](../authentication/readme.md) | 404 |
-| [Sentinel](../Images/Sentinel_Add_IP_To_Category.png) | 404 |
 | [authentication playbook](../authentication/) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/Zscaler/Url-Category-Lookup/readme.md
@@ -540,6 +555,7 @@
 | [Prerequisites](prerequisites) | 404 |
 | [postdeployment](postdeployment) | 404 |
 | [authentication playbook](../authentication/readme.md) | 404 |
+| [Sentinel](../Images/Sentinel_URL_Category_Lookup.png) | 404 |
 | [authentication playbook](../authentication/) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/Zscaler/readme.md
@@ -567,22 +583,14 @@
 | --- | --- |
 | [ARGOS Resources](https://www.argos-security.io/resources#integrations) | 404 |
 
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/AWS Systems Manager/Playbooks/AWSSystemsManagerPlaybooks/AWS-SSM-GetInstancePatches-HostEntityTrigger/readme.md
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/AWSAthena/Playbooks/AWSAthenaPlaybooks/AWSAthena-GetQueryResults/readme.md
 
 | URL | State |
 | --- | --- |
-| [AWS Systems Manager API Function App Connector](../../CustomConnector/AWS_SSM_FunctionAppConnector/readme.md) | 404 |
-| [AWS Systems Manager API Function App Connector](../../CustomConnector/AWS_SSM_FunctionAppConnector/readme.md) | 404 |
+| [AWS Athena API Function App Connector](../../CustomConnector/AWSAthena_FunctionAppConnector/readme.md) | 404 |
+| [AWS Athena API Function App Connector](../../CustomConnector/AWSAthena_FunctionAppConnector/readme.md) | 404 |
 
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/AWS Systems Manager/Playbooks/AWSSystemsManagerPlaybooks/AWS-SSM-StopManagedInstance/readme.md
-
-| URL | State |
-| --- | --- |
-| [AWS Systems Manager API Function App Connector](../../CustomConnector/AWS_SSM_FunctionAppConnector/) | 404 |
-| [AWS Systems Manager API Function App Connector](../../CustomConnector/AWS_SSM_FunctionAppConnector/readme.md) | 404 |
-| [AWS Systems Manager API Function App Connector](../../CustomConnector/AWS_SSM_FunctionAppConnector/readme.md) | 404 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/AWS_IAM/Playbooks/Playbooks/AWSIAM-AddTagToUser/readme.md
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/AWS_IAM/Playbooks/Playbooks/AWSIAM-DeleteAccessKeys/readme.md
 
 | URL | State |
 | --- | --- |
@@ -685,12 +693,6 @@
 | URL | State |
 | --- | --- |
 | [Configuring a Network Object Group](https://www.cisco.com/c/en/us/td/docs/security/asa/asa90/configuration/guide/asa_90_cli_config/acl_objects.html#86292) | 404 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/CiscoASA/Playbooks/CiscoASAConnector/readme.md
-
-| URL | State |
-| --- | --- |
-| [Cisco ASA](../Images/CiscoASACustomConnector.png) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/CiscoMeraki/Playbooks/Block-URL/readme.md
 
@@ -854,7 +856,7 @@
 
 | URL | State |
 | --- | --- |
-| [GCPBigQuery Logic App Custom Connector](../../CustomConnector/GCPBigQueryCustomConnector/azuredeploy.json) | 404 |
+| [GCPBigQuery Logic App Custom Connector](../../CustomConnector/GCPBigQueryCustomConnector/readme.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/GoogleCloudPlatformIAM/Playbooks/readme.md
 
@@ -972,10 +974,6 @@
 
 | URL | State |
 | --- | --- |
-| [Deploy Optional Connector : Microsoft Exchange Logs and Events](#deploy-optional-connector--microsoft-exchange-logs-and-events) | 429 |
-| [To configure each options](#to-configure-each-options) | 429 |
-| [Prerequisites](#prerequisites-1) | 429 |
-| [Parser deployment](#parser-deployment-1) | 429 |
 | [Deployment considerations](#deployment-considerations) | 429 |
 | [Azure Arc-enabled servers, Azure Monitor Agent and DCR Deployment](#azure-arc-enabled-servers-azure-monitor-agent-and-dcr-deployment) | 429 |
 | [Agents Deployment](#agents-deployment) | 429 |
@@ -1930,7 +1928,6 @@
 | URL | State |
 | --- | --- |
 | [Playbook overview](./playbook.jpg) | 429 |
-| [ReversingLabs content pack installation guide](https://reversinglabs-marketplace.azureedge.net/help/ReversingLabsSentinelContentHubInstall.pdf) | 500 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ReversingLabs/Playbooks/SpectraAnalyze-EnrichNetworkEntities/README.md
 
@@ -2209,6 +2206,18 @@
 | [Alt Text](./Media/apiconnectors.png) | 404 |
 | [@thijslecomte](https://twitter.com/thijslecomte) | 400 |
 
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/TenableIO/Playbooks/Playbooks/Tenable-EnrichIncidentWithVulnInfo/readme.md
+
+| URL | State |
+| --- | --- |
+| [TenableIO Data Connector](../../../Data%20Connectors/) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/TenableIO/Playbooks/Playbooks/Tenable-LaunchScan/readme.md
+
+| URL | State |
+| --- | --- |
+| [Tenable Vulnerability Management API Connector](../../TenableVulnerabilityManagementConnector/) | 404 |
+
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/TheHive/Playbooks/readme.md
 
 | URL | State |
@@ -2235,59 +2244,55 @@
 | URL | State |
 | --- | --- |
 | [here](https://azure.microsoft.com/en/free) | 404 |
-| [deployment](../Images/deployment1.png) | 404 |
+| [deployment](../Images/deployment7.png) | 404 |
+| [playbook1](../Images/playbook1.png) | 404 |
+| [playbook2](../Images/playbook2.png) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Training/Azure-Sentinel-Training-Lab/Modules/Module-2-Data-Connectors.md
 
 | URL | State |
 | --- | --- |
-| [azactivity4](../Images/m2-activity-scope.png) | 404 |
-| [azdefender1](../Images/azdefender2.png) | 404 |
-| [ticontent4](../Images/ticontent4.png) | 404 |
+| [azactivity8](../Images/m2-ws-target-foractivitylogs1.png) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Training/Azure-Sentinel-Training-Lab/Modules/Module-3-Analytics-Rules.md
 
 | URL | State |
 | --- | --- |
-| [Select Azure Activity source](../Images/m3-azureactivity-select.png) | 404 |
-| [Suspicious Activity analytics rule wizard](../Images/m3-azureactivity-suspiciousresourcedeployment.png) | 404 |
-| [Select fusion data source](../Images/m3-fusion02.png) | 404 |
+| [Office Activity (custom) query output](../Images/m3-distinct_Events.gif?raw=true) | 404 |
+| [Incident Entity Timeline](../Images/m3-incident-entity-tab2.png) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Training/Azure-Sentinel-Training-Lab/Modules/Module-4-Incident-Management.md
 
 | URL | State |
 | --- | --- |
-| [Security Operations Efficiency General view](../Images/m5-SecurityOperationsEfficiency.gif?raw=true) | 404 |
-| [Investigation Insights workbook subscription selection](../Images/m5-workbook-validator.gif?raw=true) | 404 |
-| [incident12](../Images/incident12.png) | 404 |
+| [Assign indicent to yourself](../Images/m5-assigen_ticket.gif?raw=true) | 404 |
+| [incident3](../Images/incident3.png) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Training/Azure-Sentinel-Training-Lab/Modules/Module-5-Hunting.md
 
 | URL | State |
 | --- | --- |
-| [incident1](../Images/hunting-5.png) | 404 |
-| [incident1](../Images/hunting-22.png) | 0 |
-| [incident1](../Images/hunting-14.png) | 404 |
+| [incident1](../Images/hunting-4.png) | 404 |
+| [watchlists](../Images/hunting-19.png) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Training/Azure-Sentinel-Training-Lab/Modules/Module-6-Watchlists.md
 
 | URL | State |
 | --- | --- |
-| [watchlists](../Images/watchlists7.png) | 404 |
-| [watchlists](../Images/watchlists10.png) | 404 |
+| [watchlists](../Images/watchlists3.png) | 404 |
+| [watchlists](../Images/watchlists4.png) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Training/Azure-Sentinel-Training-Lab/Modules/Module-7-Threat-Intelligence.md
 
 | URL | State |
 | --- | --- |
-| [ti](../Images/TI1.png) | 404 |
-| [Acitve](../Images/m7-fullnewIOC.png) | 404 |
+| [TImatching](../Images/TI5.png) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Training/Azure-Sentinel-Training-Lab/Modules/Module-8-Sentinel-Solutions.md
 
 | URL | State |
 | --- | --- |
-| [azsolutions](../Images/azsolutions11.png) | 404 |
+| [azsolutions](../Images/azsolutions5.png) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/URLhaus/Playbooks/readme.md
 
@@ -2312,8 +2317,8 @@
 | [Microsoft Entra ID](https://azure.microsoft.com/services/active-directory/) | 403 |
 | [Microsoft Defender for Office 365](https://www.microsoft.com/microsoft-365/security/office-365-defender) | 403 |
 | [Microsoft Defender for Endpoint](https://www.microsoft.com/microsoft-365/security/endpoint-defender) | 403 |
-| [Azure Information Protection](https://azure.microsoft.com/services/information-protection/) | 0 |
-| [Microsoft 365 Defender](https://www.microsoft.com/microsoft-365/security/microsoft-365-defender) | 403 |
+| [Azure Information Protection](https://azure.microsoft.com/services/information-protection/) | 403 |
+| [Microsoft 365 Defender](https://www.microsoft.com/microsoft-365/security/microsoft-365-defender) | 0 |
 | [Microsoft Defender for Cloud Apps](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/cloud-app-security) | 403 |
 | [Microsoft Defender for Identity](https://www.microsoft.com/microsoft-365/security/identity-defender) | 403 |
 
@@ -2414,12 +2419,6 @@
 | [After admin consent dialog](./Images/After-consent.png) | 404 |
 | [Start application](./Images/start-button.png) | 404 |
 | [View Console](./Images/console-menu.png) | 404 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Transformations-Library/Filtering/README.md
-
-| URL | State |
-| --- | --- |
-| [image](../Media/AAD_multi-ws.png) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Transformations-Library/Logstash/README.md
 
