@@ -1,11 +1,5 @@
 
 ## [Enterprise-Scale](https://github.com/Azure/Enterprise-Scale)
-* https://github.com/Azure/Enterprise-Scale/blob/main/README.md
-
-| URL | State |
-| --- | --- |
-| [OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/Azure/Enterprise-Scale/badge) | 400 |
-
 * https://github.com/Azure/Enterprise-Scale/blob/main/SECURITY.md
 
 | URL | State |
@@ -15,12 +9,6 @@
 | [microsoft.com/msrc](https://www.microsoft.com/msrc) | 403 |
 | [Microsoft Bug Bounty Program](https://microsoft.com/msrc/bounty) | 403 |
 | [Coordinated Vulnerability Disclosure](https://www.microsoft.com/msrc/cvd) | 403 |
-
-* https://github.com/Azure/Enterprise-Scale/blob/main/docs/Deploy/configure-own-environment.md
-
-| URL | State |
-| --- | --- |
-| [AdventureWorks](../reference/adventureworks/README.md) | 404 |
 
 * https://github.com/Azure/Enterprise-Scale/blob/main/docs/Deploy/deploy-lz-vnet.md
 
@@ -35,12 +23,6 @@ Implementations](https://github.com/azure/enterprise-scale#deploying-enterprise-
 | --- | --- |
 | [Enterprise-Scale ARM template](https://github.com/Azure/AzOps/blob/main/template/template.json) | 404 |
 | [Examples](../../../../tree/main/examples) | 404 |
-
-* https://github.com/Azure/Enterprise-Scale/blob/main/docs/reference/wingtip/README.md
-
-| URL | State |
-| --- | --- |
-| [here](../../wiki/Deploying-ALZ-Pre-requisites.md) | 404 |
 
 * https://github.com/Azure/Enterprise-Scale/blob/main/docs/wiki/ALZ-AMA-FAQ.md
 
@@ -119,8 +101,14 @@ Implementations](https://github.com/azure/enterprise-scale#deploying-enterprise-
 
 | URL | State |
 | --- | --- |
-| [trust center](https://www.microsoft.com/trustcenter) | 0 |
+| [trust center](https://www.microsoft.com/trustcenter) | 403 |
 | [Telemetry](https://azure.github.io/azure-monitor-baseline-alerts/patterns/alz/Telemetry) | 404 |
+
+* https://github.com/Azure/Enterprise-Scale/blob/main/docs/wiki/Deploying-ALZ.md
+
+| URL | State |
+| --- | --- |
+| [Reference implementation deployment](#reference-implementation-deployment) | 504 |
 
 * https://github.com/Azure/Enterprise-Scale/blob/main/docs/wiki/Deploying-Enterprise-Scale-BasicSetup.md
 
@@ -224,14 +212,15 @@ Implementations](https://github.com/azure/enterprise-scale#deploying-enterprise-
 | [How to deploy without hybrid connectivity](./Deploying-ALZ-Foundation) | 404 |
 | [Deployment with hub and spoke network topology](./Deploying-ALZ-HubAndSpoke) | 404 |
 | [Deployment with Azure VWAN network topology](./Deploying-ALZ-VWAN) | 404 |
-| [issue #978](https://github.com/Azure/Enterprise-Scale/issues/978) | 429 |
-| [issue #971](https://github.com/Azure/Enterprise-Scale/issues/971) | 429 |
-| [issue #893](https://github.com/Azure/Enterprise-Scale/issues/893) | 429 |
-| [issue #949](https://github.com/Azure/Enterprise-Scale/issues/949) | 429 |
-| [issue 944](https://github.com/Azure/Enterprise-Scale/issues/944) | 429 |
-| [issue 902](https://github.com/Azure/Enterprise-Scale/issues/902) | 429 |
+| [issue #279](https://github.com/Azure/ALZ-Bicep/issues/279) | 429 |
+| [issue #1004](https://github.com/Azure/Enterprise-Scale/issues/1004) | 429 |
+| [issue #979](https://github.com/Azure/Enterprise-Scale/issues/979) | 429 |
+| [issue #979](https://github.com/Azure/Enterprise-Scale/issues/979) | 429 |
+| [issue #962](https://github.com/Azure/Enterprise-Scale/issues/962) | 429 |
+| [issue #962](https://github.com/Azure/Enterprise-Scale/issues/962) | 429 |
 | [issue 910](https://github.com/Azure/Enterprise-Scale/issues/910) | 429 |
 | [issue 889](https://github.com/Azure/Enterprise-Scale/issues/889) | 429 |
+| [issue 923](https://github.com/Azure/Enterprise-Scale/issues/923) | 429 |
 | [#407](https://github.com/Azure/Enterprise-Scale/issues/407) | 429 |
 | [#874](https://github.com/Azure/Enterprise-Scale/issues/874) | 429 |
 | [#842](https://github.com/Azure/Enterprise-Scale/issues/842) | 429 |
@@ -305,10 +294,3 @@ Implementations](https://github.com/azure/enterprise-scale#deploying-enterprise-
 | [Report a security vulnerability](./ALZ-Contribution-Guide#report-a-security-vulnerability) | 404 |
 | [How to submit a pull request to upstream repo](./ALZ-Contribution-Guide#how-to-submit-pull-request-to-upstream-repo) | 404 |
 | [ALZ Custom Policies](./ALZ-Contribution-Guide#working-with-alz-custom-policies) | 404 |
-
-* https://github.com/Azure/Enterprise-Scale/blob/main/eslzArm/managementGroupTemplates/policyDefinitions/README.md
-
-| URL | State |
-| --- | --- |
-| [policies.bicep](../../../src/templates/policies.bicep) | 404 |
-| [initiatives.bicep](../../../src/templates/initiatives.bicep) | 404 |
