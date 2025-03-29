@@ -12,6 +12,7 @@
 | --- | --- |
 | [Azure Resource Manager Templates](https://azure.microsoft.com/documentation/templates/) | 404 |
 | [alt text](images/namingConvention.png "Files, folders and naming conventions") | 404 |
+| [.config.json](../test/ci-gen-setup/.config.json) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/1-CONTRIBUTION-GUIDE/git-tutorial.md
 
@@ -65,6 +66,12 @@
 | URL | State |
 | --- | --- |
 | [here](https://azure.microsoft.com/marketplace/partners/barracudanetworks/waf/#hourly) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/blockchain/blockchain/details/groestlcoin.md
+
+| URL | State |
+| --- | --- |
+| [Groestlcoin-Azure](../images/groestlcoin.png) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/bosh/bosh-cf-crossregion/README.md
 
@@ -146,6 +153,12 @@
 | [Resource Explorer](https://resources.azure.com/) | 401 |
 | [SSH into Drupal VMs](images/azureResourceExplorer.png"SSH into Drupal VMs") | 404 |
 
+* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/episerver/episerver-cms-in-azure/README.md
+
+| URL | State |
+| --- | --- |
+| [Here](http://world.episerver.com/documentation/Items/Developers-Guide/Episerver-CMS/9/Deployment/Deployment-scenarios/Deploying-to-Azure-webapps/) | 403 |
+
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/ethereum/go-ethereum-on-ubuntu/README.md
 
 | URL | State |
@@ -214,6 +227,12 @@
 | --- | --- |
 | [Red Hat Cloud Access program overview](https://access.redhat.com/documentation/en/red_hat_subscription_management/1/html/red_hat_cloud_access_reference_guide/getting-started-with-ca_cloud-access#proc_new-ca-experience-option2_cloud-access) | 404 |
 | [Getting access to Gold Images](https://access.redhat.com/documentation/en/red_hat_subscription_management/1/html/red_hat_cloud_access_reference_guide/understanding-gold-images_cloud-access#getting-access-to-gold-images_cloud-access) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/jenkins/jenkins-cicd-container/README.md
+
+| URL | State |
+| --- | --- |
+| [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/) | 502 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/lansa/lansa-vmss-windows-autoscale-sql-database/README.md
 
@@ -724,8 +743,57 @@
 
 | URL | State |
 | --- | --- |
+| [paramappgateway.json](../nested/paramappgateway.json) | 404 |
+| [azuredeploy.json#L521](../azuredeploy.json#L521) | 404 |
 | [paramappgateway.json#L4-L35](../nested/paramappgateway.json#L4-L35) | 404 |
+| [paramappgateway.json#L70-L77](../nested/paramappgateway.json#L70-L77) | 404 |
+| [paramappgateway.json#L95-L109](../nested/paramappgateway.json#L95-L109) | 404 |
+| [paramappgateway.json#L110-L126](../nested/paramappgateway.json#L110-L126) | 404 |
 | [paramappgateway.json#L78-L82](../nested/paramappgateway.json#L78-L82) | 404 |
+| [azuredeploy.json#L600-L602](../azuredeploy.json#L600-L602) | 404 |
+| [Home](../README.md) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/demos/parameterized-linked-templates/detail/complexvariables.md
+
+| URL | State |
+| --- | --- |
+| [azuredeploy.json#L190-L311](../azuredeploy.json#L190-L311) | 404 |
+| [azuredeploy.json#L191-L206](../azuredeploy.json#L191-L206) | 404 |
+| [azuredeploy.json#L334](../azuredeploy.json#L334) | 404 |
+| [azuredeploy.json#L354](../azuredeploy.json#L354) | 404 |
+| [azuredeploy.json#L207-L213](../azuredeploy.json#L207-L213) | 404 |
+| [azuredeploy.json#L765-L767](../azuredeploy.json#L765-L767) | 404 |
+| [azuredeploy.json#L287-L310](../azuredeploy.json#L287-L310) | 404 |
+| [azuredeploy.json#L786-L788](../azuredeploy.json#L786-L788) | 404 |
+| [azuredeploy.json#L855-L860](../azuredeploy.json#L855-L860) | 404 |
+| [Home](../README.md) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/demos/parameterized-linked-templates/detail/userfriendlyparameters.md
+
+| URL | State |
+| --- | --- |
+| [azuredeploy.json#L142-L152](../azuredeploy.json#L142-L152) | 404 |
+| [azuredeploy.json#L112-L123](../azuredeploy.json#L112-L123) | 404 |
+| [azuredeploy.json#L214-L265](../azuredeploy.json#L214-L265) | 404 |
+| [azuredeploy.json#L4-L189](../azuredeploy.json#L4-L189) | 404 |
+| [Home](../README.md) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/demos/parameterized-linked-templates/detail/vmtemplate.md
+
+| URL | State |
+| --- | --- |
+| [paramvm.json](../nested/paramvm.json) | 404 |
+| [azuredeploy.json](../azuredeploy.json) | 404 |
+| [azuredeploy.json#L805-L875](../azuredeploy.json#L805-L875) | 404 |
+| [azuredeploy.json#L734-L804](../azuredeploy.json#L734-L804) | 404 |
+| [azuredeploy.json#L542-L733](../azuredeploy.json#L542-L733) | 404 |
+| [paramvm.json#L77-L94](../nested/paramvm.json#L77-L94) | 404 |
+| [paramvm.json#L103-L113](../nested/paramvm.json#L103-L113) | 404 |
+| [paramvm.json#L221](../nested/paramvm.json#L221) | 404 |
+| [paramvm.json#L218](../nested/paramvm.json#L218) | 404 |
+| [paramvm.json#L131](../nested/paramvm.json#L131) | 404 |
+| [paramvm.json#L144-L159](../nested/paramvm.json#L144-L159) | 404 |
+| [Home](../README.md) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/demos/rds-deployment-full-ha/README.md
 
