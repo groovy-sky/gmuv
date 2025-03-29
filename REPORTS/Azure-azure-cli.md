@@ -16,6 +16,12 @@
 | --- | --- |
 | [titlemapping.json](https://github.com/Azure/azure-docs-cli/blob/master/titleMapping.json) | 404 |
 
+* https://github.com/Azure/azure-cli/blob/dev/doc/extensions/README.md
+
+| URL | State |
+| --- | --- |
+| [Command Guidelines](../command_guidelines.md) | 404 |
+
 * https://github.com/Azure/azure-cli/blob/dev/doc/how_to_bump_SDK_version_in_cli.md
 
 | URL | State |
@@ -38,4 +44,6 @@
 
 | URL | State |
 | --- | --- |
+| [reference TOC in MicrosoftDocs/azure-docs-cli](https://github.com/MicrosoftDocs/azure-docs-cli/blob/main/latest/docs-ref-autogen/TOC.yml) | 404 |
 | [article name](https://learn.microsoft.com/link) | 404 |
+| [MicrosoftDocs/azure-docs-cli/latest/docs-ref-autogen](https://github.com/MicrosoftDocs/azure-docs-cli/tree/main/latest/docs-ref-autogen) | 404 |
