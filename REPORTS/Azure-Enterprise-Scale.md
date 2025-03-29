@@ -10,6 +10,14 @@
 | [Microsoft Bug Bounty Program](https://microsoft.com/msrc/bounty) | 403 |
 | [Coordinated Vulnerability Disclosure](https://www.microsoft.com/msrc/cvd) | 403 |
 
+* https://github.com/Azure/Enterprise-Scale/blob/main/docs/Deploy/configure-own-environment.md
+
+| URL | State |
+| --- | --- |
+| [WingTip](../reference/wingtip/README.md) | 404 |
+| [AdventureWorks](../reference/adventureworks/README.md) | 404 |
+| [Contoso](../reference/contoso/Readme.md) | 404 |
+
 * https://github.com/Azure/Enterprise-Scale/blob/main/docs/Deploy/deploy-lz-vnet.md
 
 | URL | State |
@@ -17,12 +25,47 @@
 | [Enterprise-Scale Reference
 Implementations](https://github.com/azure/enterprise-scale#deploying-enterprise-scale-architecture-in-your-own-environment) | 0 |
 
+* https://github.com/Azure/Enterprise-Scale/blob/main/docs/Deploy/deploy-new-policy-assignment.md
+
+| URL | State |
+| --- | --- |
+| [deploy Landing Zones](../EnterpriseScale-Deploy-landing-zones.md) | 404 |
+
 * https://github.com/Azure/Enterprise-Scale/blob/main/docs/Deploy/es-schema.md
 
 | URL | State |
 | --- | --- |
 | [Enterprise-Scale ARM template](https://github.com/Azure/AzOps/blob/main/template/template.json) | 404 |
 | [Examples](../../../../tree/main/examples) | 404 |
+
+* https://github.com/Azure/Enterprise-Scale/blob/main/docs/reference/adventureworks/README.md
+
+| URL | State |
+| --- | --- |
+| [here](../../wiki/Deploying-ALZ-Pre-requisites.md) | 404 |
+| [here](../../wiki/media/es-hubspoke-nw.png) | 404 |
+| [Create Landing Zone(s)](../../EnterpriseScale-Deploy-landing-zones.md) | 404 |
+
+* https://github.com/Azure/Enterprise-Scale/blob/main/docs/reference/contoso/Readme.md
+
+| URL | State |
+| --- | --- |
+| [here](../../wiki/Deploying-ALZ-Pre-requisites.md) | 404 |
+| [Create Landing Zone(s)](../../EnterpriseScale-Deploy-landing-zones.md) | 404 |
+
+* https://github.com/Azure/Enterprise-Scale/blob/main/docs/reference/treyresearch/README.md
+
+| URL | State |
+| --- | --- |
+| [here](../../wiki/Deploying-ALZ-Pre-requisites.md) | 404 |
+| [Create Landing Zone(s)](../../EnterpriseScale-Deploy-landing-zones.md) | 404 |
+
+* https://github.com/Azure/Enterprise-Scale/blob/main/docs/reference/wingtip/README.md
+
+| URL | State |
+| --- | --- |
+| [here](../../wiki/Deploying-ALZ-Pre-requisites.md) | 404 |
+| [Create Landing Zone(s)](../../EnterpriseScale-Deploy-landing-zones.md) | 404 |
 
 * https://github.com/Azure/Enterprise-Scale/blob/main/docs/wiki/ALZ-AMA-FAQ.md
 
@@ -103,12 +146,6 @@ Implementations](https://github.com/azure/enterprise-scale#deploying-enterprise-
 | --- | --- |
 | [trust center](https://www.microsoft.com/trustcenter) | 403 |
 | [Telemetry](https://azure.github.io/azure-monitor-baseline-alerts/patterns/alz/Telemetry) | 404 |
-
-* https://github.com/Azure/Enterprise-Scale/blob/main/docs/wiki/Deploying-ALZ.md
-
-| URL | State |
-| --- | --- |
-| [Reference implementation deployment](#reference-implementation-deployment) | 504 |
 
 * https://github.com/Azure/Enterprise-Scale/blob/main/docs/wiki/Deploying-Enterprise-Scale-BasicSetup.md
 
@@ -218,12 +255,12 @@ Implementations](https://github.com/azure/enterprise-scale#deploying-enterprise-
 | [issue #979](https://github.com/Azure/Enterprise-Scale/issues/979) | 429 |
 | [issue #962](https://github.com/Azure/Enterprise-Scale/issues/962) | 429 |
 | [issue #962](https://github.com/Azure/Enterprise-Scale/issues/962) | 429 |
-| [issue 910](https://github.com/Azure/Enterprise-Scale/issues/910) | 429 |
-| [issue 889](https://github.com/Azure/Enterprise-Scale/issues/889) | 429 |
-| [issue 923](https://github.com/Azure/Enterprise-Scale/issues/923) | 429 |
-| [#407](https://github.com/Azure/Enterprise-Scale/issues/407) | 429 |
-| [#874](https://github.com/Azure/Enterprise-Scale/issues/874) | 429 |
-| [#842](https://github.com/Azure/Enterprise-Scale/issues/842) | 429 |
+| [issue #985](https://github.com/Azure/Enterprise-Scale/issues/985) | 429 |
+| [issue #986](https://github.com/Azure/Enterprise-Scale/issues/986) | 429 |
+| [issue #968](https://github.com/Azure/Enterprise-Scale/issues/968) | 429 |
+| [issue #978](https://github.com/Azure/Enterprise-Scale/issues/978) | 429 |
+| [issue #971](https://github.com/Azure/Enterprise-Scale/issues/971) | 429 |
+| [issue #893](https://github.com/Azure/Enterprise-Scale/issues/893) | 429 |
 | [#864](https://github.com/Azure/Enterprise-Scale/issues/864) | 429 |
 | [issue #803](https://github.com/Azure/Enterprise-Scale/issues/803) | 429 |
 | [#726](https://github.com/Azure/Enterprise-Scale/issues/726) | 429 |
@@ -294,3 +331,28 @@ Implementations](https://github.com/azure/enterprise-scale#deploying-enterprise-
 | [Report a security vulnerability](./ALZ-Contribution-Guide#report-a-security-vulnerability) | 404 |
 | [How to submit a pull request to upstream repo](./ALZ-Contribution-Guide#how-to-submit-pull-request-to-upstream-repo) | 404 |
 | [ALZ Custom Policies](./ALZ-Contribution-Guide#working-with-alz-custom-policies) | 404 |
+
+* https://github.com/Azure/Enterprise-Scale/blob/main/eslzArm/managementGroupTemplates/policyDefinitions/README.md
+
+| URL | State |
+| --- | --- |
+| [policies.bicep](../../../src/templates/policies.bicep) | 404 |
+| [initiatives.bicep](../../../src/templates/initiatives.bicep) | 404 |
+
+* https://github.com/Azure/Enterprise-Scale/blob/main/eslzArm/managementGroupTemplates/roleDefinitions/README.md
+
+| URL | State |
+| --- | --- |
+| [roles.bicep](../../../src/templates/roles.bicep) | 404 |
+
+* https://github.com/Azure/Enterprise-Scale/blob/main/examples/landing-zones/README.md
+
+| URL | State |
+| --- | --- |
+| [management group hierarchy settings](../../docs/wiki/media/mg-hierarchy-settings.png) | 404 |
+
+* https://github.com/Azure/Enterprise-Scale/blob/main/examples/management-groups/README.md
+
+| URL | State |
+| --- | --- |
+| [management group hierarchy settings](../../docs/wiki/media/mg-hierarchy-settings.png) | 404 |
