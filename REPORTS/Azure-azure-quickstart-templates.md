@@ -153,12 +153,6 @@
 | [Resource Explorer](https://resources.azure.com/) | 401 |
 | [SSH into Drupal VMs](images/azureResourceExplorer.png"SSH into Drupal VMs") | 404 |
 
-* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/episerver/episerver-cms-in-azure/README.md
-
-| URL | State |
-| --- | --- |
-| [Here](http://world.episerver.com/documentation/Items/Developers-Guide/Episerver-CMS/9/Deployment/Deployment-scenarios/Deploying-to-Azure-webapps/) | 403 |
-
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/ethereum/go-ethereum-on-ubuntu/README.md
 
 | URL | State |
@@ -227,12 +221,6 @@
 | --- | --- |
 | [Red Hat Cloud Access program overview](https://access.redhat.com/documentation/en/red_hat_subscription_management/1/html/red_hat_cloud_access_reference_guide/getting-started-with-ca_cloud-access#proc_new-ca-experience-option2_cloud-access) | 404 |
 | [Getting access to Gold Images](https://access.redhat.com/documentation/en/red_hat_subscription_management/1/html/red_hat_cloud_access_reference_guide/understanding-gold-images_cloud-access#getting-access-to-gold-images_cloud-access) | 404 |
-
-* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/jenkins/jenkins-cicd-container/README.md
-
-| URL | State |
-| --- | --- |
-| [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/) | 502 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/lansa/lansa-vmss-windows-autoscale-sql-database/README.md
 
@@ -351,6 +339,12 @@
 | --- | --- |
 | [Database servers Template](https://github.com/Azure/azure-quickstart-templates/tree/master/sap-3-tier-marketplace-image-multi-sid-db-md) | 404 |
 | [Application servers template](https://github.com/Azure/azure-quickstart-templates/tree/master/sap-3-tier-marketplace-image-multi-sid-apps-md) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/sharepoint/sharepoint-adfs/README.md
+
+| URL | State |
+| --- | --- |
+| [kb5002640](https://support.microsoft.com/help/5002640) | 429 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/solace/solace-message-router/CONTRIBUTING.md
 
@@ -486,7 +480,7 @@
 | --- | --- |
 | [Azure Marketplace test drive program](https://azure.microsoft.com/marketplace/test-drives/) | 404 |
 | [Azure Marketplace Test Drive Program ](https://azure.microsoft.com/marketplace/test-drives/) | 404 |
-| [here](https://www.microsoft.com/cloud-platform/operations-management-suite) | 403 |
+| [here](https://www.microsoft.com/cloud-platform/operations-management-suite) | 0 |
 | [here](https://azure.microsoft.com/documentation/articles/automation-sec-configure-azure-runas-account/) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/demos/azure-resource-optimization-toolkit/README.md
@@ -697,7 +691,7 @@
 | [query language](https://docs.loganalytics.io/docs/Language-Reference/) | 0 |
 | [log search](https://documentimages.blob.core.windows.net/azurequickstarttemplatereadme/logSearch.png "log search") | 409 |
 | [saved searches](https://documentimages.blob.core.windows.net/azurequickstarttemplatereadme/savedSearches.png "saved searches") | 409 |
-| [Windows (Mobile devices)](https://www.microsoft.com/store/p/microsoft-operations-management-suite/9wzdncrfjz2r) | 403 |
+| [Windows (Mobile devices)](https://www.microsoft.com/store/p/microsoft-operations-management-suite/9wzdncrfjz2r) | 0 |
 | [Android](https://play.google.com/store/apps/details?id=com.microsoft.operations.AndroidPhone) | 404 |
 | [iOS](https://itunes.apple.com/us/app/microsoft-operations-management-suite/id1042424859) | 404 |
 | [Change Logs](./changelog.md "See change logs") | 404 |
@@ -1044,6 +1038,12 @@
 | URL | State |
 | --- | --- |
 | [Screen](./images/azportaldeploy3.png) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.compute/vm-simple-windows-visualstudio2019/GettingStarted-wsvs.md
+
+| URL | State |
+| --- | --- |
+| [Screen](./images/azportaldeploy2.png) | 504 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.compute/vm-sql-existing-autobackup-update/README.md
 
@@ -1513,6 +1513,12 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 | [Figure 4](images/engineering-group-digital-certificate.png "digital certificate for Engineering user group") | 404 |
 | [Figure 5](images/p2s-sessions.png "P2S sessions from three clients in three different user groups") | 404 |
 
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.network/vnet-nsg-for-redis/README.md
+
+| URL | State |
+| --- | --- |
+| [here](https://docs.microsoft.com/azure/redis-cache/cache-how-to-premium-vnet) | 404 |
+
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.recoveryservices/recovery-services-create-vm-and-configure-backup/README.md
 
 | URL | State |
@@ -1841,7 +1847,7 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 | --- | --- |
 | [Screen](./images/aztemplate2.png) | 404 |
 | [Screen](./images/aztemplate3.png) | 404 |
-| [Screen](./images/azportaldepoy.png) | 404 |
+| [Screen](./images/azportaldepoy.png) | 504 |
 | [Screen](./images/azportaldeploy2.png) | 404 |
 | [Screen](./images/azportaldeploy3.png) | 404 |
 
