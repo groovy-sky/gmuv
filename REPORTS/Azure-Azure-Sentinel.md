@@ -399,7 +399,6 @@
 | URL | State |
 | --- | --- |
 | [forcepoint](../logo.jpg) | 404 |
-| [Forcepoint](./Images/PlaybookdesignerDark.png) | 504 |
 | [Refer here](http://www.websense.com/content/support/library/ngfw/v610/rfrnce/ngfw_6100_ug_smc-api_a_en-us.pdf ) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/ForcepointNGFW/Playbooks/ResponseOnTeamsBlockIP-ForcepointNGFW/readme.md
@@ -993,7 +992,6 @@
 | [Cisco Unified Computing System (UCS)](https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html) | 404 |
 | [Continuous Threat Detection](https://claroty.com/continuous-threat-detection/) | 404 |
 | [Investigate incidents with Microsoft Sentinel]( https://docs.microsoft.com/azure/sentinel/investigate-cases) | 0 |
-| [Juniper SRX](https://www.juniper.net/us/en/products-services/security/srx-series/) | 404 |
 | [McAfee ePO](https://www.mcafee.com/enterprise/en-us/products/epolicy-orchestrator.html) | 0 |
 | [documentation](https://docs.mcafee.com/bundle/epolicy-orchestrator-landing/page/GUID-0C40020F-5B7F-4549-B9CC-0E017BC8797F.html) | 0 |
 | [McAfee┬« Network Security Platform](https://www.mcafee.com/enterprise/en-us/products/network-security-platform.html) | 0 |
@@ -2042,7 +2040,7 @@
 | [Microsoft Entra ID](https://azure.microsoft.com/services/active-directory/) | 403 |
 | [Microsoft Defender for Office 365](https://www.microsoft.com/microsoft-365/security/office-365-defender) | 403 |
 | [Microsoft Defender for Endpoint](https://www.microsoft.com/microsoft-365/security/endpoint-defender) | 403 |
-| [Azure Information Protection](https://azure.microsoft.com/services/information-protection/) | 403 |
+| [Azure Information Protection](https://azure.microsoft.com/services/information-protection/) | 0 |
 | [Microsoft 365 Defender](https://www.microsoft.com/microsoft-365/security/microsoft-365-defender) | 403 |
 | [Microsoft Defender for Cloud Apps](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/cloud-app-security) | 403 |
 | [Microsoft Defender for Identity](https://www.microsoft.com/microsoft-365/security/identity-defender) | 403 |
