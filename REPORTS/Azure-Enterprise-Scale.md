@@ -144,7 +144,7 @@ Implementations](https://github.com/azure/enterprise-scale#deploying-enterprise-
 
 | URL | State |
 | --- | --- |
-| [trust center](https://www.microsoft.com/trustcenter) | 403 |
+| [trust center](https://www.microsoft.com/trustcenter) | 0 |
 | [Telemetry](https://azure.github.io/azure-monitor-baseline-alerts/patterns/alz/Telemetry) | 404 |
 
 * https://github.com/Azure/Enterprise-Scale/blob/main/docs/wiki/Deploying-Enterprise-Scale-BasicSetup.md
@@ -243,6 +243,7 @@ Implementations](https://github.com/azure/enterprise-scale#deploying-enterprise-
 | [ALZ Policy FAQ and Tips](./ALZ-Policies-FAQ) | 404 |
 | [ALZ Contribution Guide](./ALZ-Contribution-Guide) | 404 |
 | [Migrate ALZ custom policies to Azure builtin policies](migrate-alz-policies-to-builtin.md) | 404 |
+| [issue #1081](https://github.com/Azure/Enterprise-Scale/issues/1081) | 429 |
 | [issue #478](https://github.com/Azure/Enterprise-Scale/issues/478) | 429 |
 | [Deploy Azure landing zone portal accelerator](./Deploying-ALZ) | 404 |
 | [Deployment guidance for Small Enterprises](./Deploying-ALZ-BasicSetup) | 404 |
@@ -261,11 +262,10 @@ Implementations](https://github.com/azure/enterprise-scale#deploying-enterprise-
 | [issue #978](https://github.com/Azure/Enterprise-Scale/issues/978) | 429 |
 | [issue #971](https://github.com/Azure/Enterprise-Scale/issues/971) | 429 |
 | [issue #893](https://github.com/Azure/Enterprise-Scale/issues/893) | 429 |
-| [#864](https://github.com/Azure/Enterprise-Scale/issues/864) | 429 |
-| [issue #803](https://github.com/Azure/Enterprise-Scale/issues/803) | 429 |
-| [#726](https://github.com/Azure/Enterprise-Scale/issues/726) | 429 |
-| [#728](https://github.com/Azure/Enterprise-Scale/issues/728) | 429 |
-| [issue #668](https://github.com/Azure/Enterprise-Scale/issues/668) | 429 |
+| [issue #949](https://github.com/Azure/Enterprise-Scale/issues/949) | 429 |
+| [issue 944](https://github.com/Azure/Enterprise-Scale/issues/944) | 429 |
+| [issue 902](https://github.com/Azure/Enterprise-Scale/issues/902) | 429 |
+| [issue 910](https://github.com/Azure/Enterprise-Scale/issues/910) | 429 |
 | [#632](https://github.com/Azure/Enterprise-Scale/issues/632) | 429 |
 | [#519 on CAF repository](https://github.com/MicrosoftDocs/cloud-adoption-framework/issues/519) | 429 |
 | [Deploy Azure Red Hat OpenShift (ARO) in enterprise-scale landing zones](https://github.com/Azure/Enterprise-Scale/tree/main/workloads/ARO) | 404 |
