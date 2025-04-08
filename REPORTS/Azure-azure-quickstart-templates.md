@@ -73,12 +73,6 @@
 | --- | --- |
 | [Groestlcoin-Azure](../images/groestlcoin.png) | 404 |
 
-* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/bosh/bosh-cf-crossregion/README.md
-
-| URL | State |
-| --- | --- |
-| [**HERE**](https://github.com/cloudfoundry-incubator/bosh-azure-cpi-release/blob/master/docs/advanced/cross-region.md) | 404 |
-
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/bosh/bosh-setup/CHANGELOG.md
 
 | URL | State |
@@ -99,8 +93,6 @@
 | URL | State |
 | --- | --- |
 | [Concourse](http://concourse.ci/) | 0 |
-| [How to Use SSH with Linux and Mac on Azure](https://azure.microsoft.com/documentation/articles/virtual-machines-linux-use-ssh-key/) | 404 |
-| [How to Use SSH with Windows on Azure](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-use-ssh-key/) | 404 |
 | [**HERE**](https://azure.microsoft.com/documentation/articles/virtual-machines-size-specs/) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/consul/consul-on-ubuntu/README.md
@@ -340,12 +332,6 @@
 | [Database servers Template](https://github.com/Azure/azure-quickstart-templates/tree/master/sap-3-tier-marketplace-image-multi-sid-db-md) | 404 |
 | [Application servers template](https://github.com/Azure/azure-quickstart-templates/tree/master/sap-3-tier-marketplace-image-multi-sid-apps-md) | 404 |
 
-* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/sharepoint/sharepoint-adfs/README.md
-
-| URL | State |
-| --- | --- |
-| [kb5002640](https://support.microsoft.com/help/5002640) | 429 |
-
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/solace/solace-message-router/CONTRIBUTING.md
 
 | URL | State |
@@ -399,6 +385,7 @@
 | [Screen](./images/azsetsub.png) | 404 |
 | [Screen](./images/azssh.png) | 404 |
 | [Screen](./images/azportal.png) | 404 |
+| [Screen](./images/aztemplate.png) | 504 |
 | [Screen](./images/azportaldepoy3.png) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/visualstudio/ubuntu-mate-desktop-vscode/GettingStarted.md
@@ -480,7 +467,7 @@
 | --- | --- |
 | [Azure Marketplace test drive program](https://azure.microsoft.com/marketplace/test-drives/) | 404 |
 | [Azure Marketplace Test Drive Program ](https://azure.microsoft.com/marketplace/test-drives/) | 404 |
-| [here](https://www.microsoft.com/cloud-platform/operations-management-suite) | 0 |
+| [here](https://www.microsoft.com/cloud-platform/operations-management-suite) | 403 |
 | [here](https://azure.microsoft.com/documentation/articles/automation-sec-configure-azure-runas-account/) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/demos/azure-resource-optimization-toolkit/README.md
@@ -691,7 +678,7 @@
 | [query language](https://docs.loganalytics.io/docs/Language-Reference/) | 0 |
 | [log search](https://documentimages.blob.core.windows.net/azurequickstarttemplatereadme/logSearch.png "log search") | 409 |
 | [saved searches](https://documentimages.blob.core.windows.net/azurequickstarttemplatereadme/savedSearches.png "saved searches") | 409 |
-| [Windows (Mobile devices)](https://www.microsoft.com/store/p/microsoft-operations-management-suite/9wzdncrfjz2r) | 0 |
+| [Windows (Mobile devices)](https://www.microsoft.com/store/p/microsoft-operations-management-suite/9wzdncrfjz2r) | 403 |
 | [Android](https://play.google.com/store/apps/details?id=com.microsoft.operations.AndroidPhone) | 404 |
 | [iOS](https://itunes.apple.com/us/app/microsoft-operations-management-suite/id1042424859) | 404 |
 | [Change Logs](./changelog.md "See change logs") | 404 |
@@ -1039,12 +1026,6 @@
 | --- | --- |
 | [Screen](./images/azportaldeploy3.png) | 404 |
 
-* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.compute/vm-simple-windows-visualstudio2019/GettingStarted-wsvs.md
-
-| URL | State |
-| --- | --- |
-| [Screen](./images/azportaldeploy2.png) | 504 |
-
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.compute/vm-sql-existing-autobackup-update/README.md
 
 | URL | State |
@@ -1132,7 +1113,7 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 
 | URL | State |
 | --- | --- |
-| [Confidential Consortium Framework](https://www.microsoft.com/research/project/confidential-consortium-framework/) | 403 |
+| [Confidential Consortium Framework](https://www.microsoft.com/research/project/confidential-consortium-framework/) | 0 |
 | [Quickstart: Create an Confidential Ledger with an ARM template](/azure/confidential-ledger/quickstart-template) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.customproviders/custom-rp-existing-resource-deployments/README.md
@@ -1847,7 +1828,7 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 | --- | --- |
 | [Screen](./images/aztemplate2.png) | 404 |
 | [Screen](./images/aztemplate3.png) | 404 |
-| [Screen](./images/azportaldepoy.png) | 504 |
+| [Screen](./images/azportaldepoy.png) | 404 |
 | [Screen](./images/azportaldeploy2.png) | 404 |
 | [Screen](./images/azportaldeploy3.png) | 404 |
 
