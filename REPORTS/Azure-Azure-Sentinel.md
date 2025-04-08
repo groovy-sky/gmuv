@@ -4,7 +4,7 @@
 
 | URL | State |
 | --- | --- |
-| [maybe some link](https://www.microsoft.com) | 403 |
+| [maybe some link](https://www.microsoft.com) | 0 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/DataConnectors/AADUserInfo/README.MD
 
@@ -18,6 +18,18 @@
 | URL | State |
 | --- | --- |
 | [Cyble-Threat-Intel-App](./Images/Cyble-Threat-Intel-Logic-App.png) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/DataConnectors/ReadMe.md
+
+| URL | State |
+| --- | --- |
+| [Encrypting log messages with TLS – syslog-ng](https://support.oneidentity.com/technical-documents/syslog-ng-open-source-edition/3.22/administration-guide/60#TOPIC-1209298) | 0 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/DataConnectors/S3-Lambda/README.MD
+
+| URL | State |
+| --- | --- |
+| [PowerShell Gallery](https://www.powershellgallery.com/packages?q=AWSLambdaPSCore) | 504 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/DataConnectors/Syslog-VMSS-AMA/README.md
 
@@ -278,7 +290,7 @@
 | --- | --- |
 | [Connect to Azure virtual networks from Azure Logic Apps by using an integration service environment (ISE)](https://docs.microsoft.com/azure/logic-apps/connect-virtual-network-vnet-isolated-environment) | 404 |
 
-* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/Close-SentinelIncident-fromSNOW/readme.md
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/Close-SentinelIncident-fromServiceNow/readme.md
 
 | URL | State |
 | --- | --- |
@@ -433,6 +445,13 @@
 | [Block URL](./Playbooks/FortinetFortiGate-ResponseOnURL) | 404 |
 | [Enrich incident](./Playbooks/FortinetFortiGate-Enrichment) | 404 |
 | [Fortinet Console](https://{https://fndn.fortinet.net/index.php?/category/1-fortianswers/}) | 0 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/Get-CompromisedPasswords/readme.md
+
+| URL | State |
+| --- | --- |
+| [DeHashed API](https://www.dehashed.com/pricing) | 404 |
+| [DeHashed API](https://www.dehashed.com/pricing) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/Get-MDEInvestigationPackage/readme.md
 
@@ -1291,10 +1310,10 @@
 | --- | --- |
 | [Workbook Overview](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftPurviewInsiderRiskManagement/Workbooks/Images/InsiderRiskManagementBlack1.png?raw=true) | 404 |
 | [Microsoft Defender for Endpoint](https://www.microsoft.com/microsoft-365/security/endpoint-defender) | 403 |
-| [Microsoft Defender for Identity](https://www.microsoft.com/microsoft-365/security/identity-defender) | 403 |
+| [Microsoft Defender for Identity](https://www.microsoft.com/microsoft-365/security/identity-defender) | 0 |
 | [Microsoft Defender for Cloud Apps](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/cloud-app-security) | 403 |
 | [Microsoft 365 Defender](https://www.microsoft.com/microsoft-365/security/microsoft-365-defender) | 403 |
-| [Microsoft Defender for Office 365](https://www.microsoft.com/microsoft-365/security/office-365-defender) | 403 |
+| [Microsoft Defender for Office 365](https://www.microsoft.com/microsoft-365/security/office-365-defender) | 0 |
 | [Microsoft Entra ID](https://azure.microsoft.com/services/active-directory/) | 403 |
 | [Investigate incidents with Microsoft Sentinel]( https://docs.microsoft.com/azure/sentinel/investigate-cases) | 0 |
 
@@ -1379,11 +1398,10 @@
 
 | URL | State |
 | --- | --- |
-| [v3.0](./v3.0) | 404 |
 | [RecordedFuture-CustomConnector](../../Recorded%20Future/Playbooks/Connectors/RecordedFuture-CustomConnector/readme.md) | 404 |
 | [Integration Support Ticket form](https://support.recordedfuture.com/hc/en-us/articles/4411077373587-Requesting-API-Tokens) | 403 |
 
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future Identity/Playbooks/v3/readme.md
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future Identity/Playbooks/v3.0/readme.md
 
 | URL | State |
 | --- | --- |
@@ -2035,12 +2053,12 @@
 
 | URL | State |
 | --- | --- |
-| [Microsoft Zero Trust Model](https://www.microsoft.com/security/business/zero-trust) | 403 |
+| [Microsoft Zero Trust Model](https://www.microsoft.com/security/business/zero-trust) | 0 |
 | [Workbook Overview](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ZeroTrust(TIC3.0) | 404 |
-| [Microsoft Entra ID](https://azure.microsoft.com/services/active-directory/) | 403 |
-| [Microsoft Defender for Office 365](https://www.microsoft.com/microsoft-365/security/office-365-defender) | 403 |
+| [Microsoft Entra ID](https://azure.microsoft.com/services/active-directory/) | 0 |
+| [Microsoft Defender for Office 365](https://www.microsoft.com/microsoft-365/security/office-365-defender) | 0 |
 | [Microsoft Defender for Endpoint](https://www.microsoft.com/microsoft-365/security/endpoint-defender) | 403 |
-| [Azure Information Protection](https://azure.microsoft.com/services/information-protection/) | 0 |
+| [Azure Information Protection](https://azure.microsoft.com/services/information-protection/) | 403 |
 | [Microsoft 365 Defender](https://www.microsoft.com/microsoft-365/security/microsoft-365-defender) | 403 |
 | [Microsoft Defender for Cloud Apps](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/cloud-app-security) | 403 |
 | [Microsoft Defender for Identity](https://www.microsoft.com/microsoft-365/security/identity-defender) | 403 |
