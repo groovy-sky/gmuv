@@ -85,7 +85,6 @@
 
 | URL | State |
 | --- | --- |
-| [Node.js](https://nodejs.org/en/download) | 524 |
 | [cspell configuration](https://cspell.org/configuration/) | 404 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/code-gen/configure-cli.md
@@ -168,147 +167,25 @@
 | [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
 | [common-api-details](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/common-api-details.md#error-response-content) | 404 |
 | [common-api-contracts](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/common-api-contracts.md#system-metadata-for-all-azure-resources) | 404 |
-| [ARM](#arm-violations) | 429 |
-| [Errors](#arm-errors) | 429 |
-| [Errors](#sdk-errors) | 429 |
-| [Automated Rules](#automated-rules) | 429 |
-| [ARM](#arm-violations) | 429 |
-| [Errors](#arm-errors) | 429 |
-| [SDK](#sdk-violations) | 429 |
-| [Errors](#sdk-errors) | 429 |
-| [extensions](https://github.com/Azure/autorest/blob/master/docs/extensions/readme.md#x-ms-pageable) | 429 |
-| [Error vs. Warning](#error-vs-warning) | 429 |
-| [Automated Rules](#automated-rules) | 429 |
-| [ARM](#arm-violations) | 429 |
-| [Errors](#arm-errors) | 429 |
-| [SDK](#sdk-violations) | 429 |
-| [Index](#index) | 429 |
-| [Automated Rules](#automated-rules) | 429 |
-| [Warnings](#arm-warnings) | 429 |
-| [SDK](#sdk-violations) | 429 |
-| [Warnings](#sdk-warnings) | 429 |
 | [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
-| [Error vs. Warning](#error-vs-warning) | 429 |
-| [Errors](#arm-errors) | 429 |
-| [SDK](#sdk-violations) | 429 |
-| [Errors](#sdk-errors) | 429 |
-| [Warnings](#sdk-warnings) | 429 |
-| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 429 |
-| [Index](#index) | 429 |
-| [Automated Rules](#automated-rules) | 429 |
-| [ARM](#arm-violations) | 429 |
-| [Warnings](#arm-warnings) | 429 |
-| [SDK](#sdk-violations) | 429 |
-| [Warnings](#sdk-warnings) | 429 |
-| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 429 |
-| [Error vs. Warning](#error-vs-warning) | 429 |
-| [Automated Rules](#automated-rules) | 429 |
-| [SDK](#sdk-violations) | 429 |
-| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 429 |
-| [ARM](#arm-violations) | 429 |
-| [Errors](#arm-errors) | 429 |
-| [Errors](#sdk-errors) | 429 |
-| [Warnings](#sdk-warnings) | 429 |
-| [contract spec](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/proxy-api-reference.md#exposing-available-operations) | 429 |
-| [Index](#index) | 429 |
-| [Automated Rules](#automated-rules) | 429 |
-| [Warnings](#arm-warnings) | 429 |
-| [SDK](#sdk-violations) | 429 |
-| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md#get-resource) | 429 |
-| [Error vs. Warning](#error-vs-warning) | 429 |
-| [Automated Rules](#automated-rules) | 429 |
-| [SDK](#sdk-violations) | 429 |
-| [Index](#index) | 429 |
-| [Automated Rules](#automated-rules) | 429 |
-| [SDK](#sdk-violations) | 429 |
-| [Errors](#sdk-errors) | 429 |
-| [Warnings](#sdk-warnings) | 429 |
+| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
+| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
+| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
+| [contract spec](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/proxy-api-reference.md#exposing-available-operations) | 404 |
+| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md#get-resource) | 404 |
 | [Retirement-of-Previews](https://dev.azure.com/msazure/AzureWiki/_wiki/wikis/AzureWiki.wiki/37683/Retirement-of-Previews) | 203 |
-| [Error vs. Warning](#error-vs-warning) | 429 |
-| [Automated Rules](#automated-rules) | 429 |
-| [Warnings](#arm-warnings) | 429 |
-| [Index](#index) | 429 |
-| [Automated Rules](#automated-rules) | 429 |
-| [Errors](#arm-errors) | 429 |
-| [Index](#index) | 429 |
-| [Warnings](#arm-warnings) | 429 |
-| [SDK](#sdk-violations) | 429 |
-| [Warnings](#sdk-warnings) | 429 |
-| [Index](#index) | 429 |
-| [Error vs. Warning](#error-vs-warning) | 429 |
-| [Automated Rules](#automated-rules) | 429 |
-| [ARM](#arm-violations) | 429 |
-| [Errors](#arm-errors) | 429 |
-| [Warnings](#arm-warnings) | 429 |
-| [SDK](#sdk-violations) | 429 |
-| [Automated Rules](#automated-rules) | 429 |
-| [ARM](#arm-violations) | 429 |
-| [SDK](#sdk-violations) | 429 |
-| [Index](#index) | 429 |
-| [Automated Rules](#automated-rules) | 429 |
-| [Errors](#sdk-errors) | 429 |
 | [Azure RPC](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/Addendum.md#provisioningstate-property) | 404 |
-| [Index](#index) | 429 |
-| [Error vs. Warning](#error-vs-warning) | 429 |
-| [Automated Rules](#automated-rules) | 429 |
-| [Errors](#arm-errors) | 429 |
-| [Warnings](#arm-warnings) | 429 |
-| [Warnings](#sdk-warnings) | 429 |
-| [Index](#index) | 429 |
-| [Error vs. Warning](#error-vs-warning) | 429 |
-| [Warnings](#sdk-warnings) | 429 |
-| [Index](#index) | 429 |
-| [Error vs. Warning](#error-vs-warning) | 429 |
-| [Errors](#arm-errors) | 429 |
-| [SDK](#sdk-violations) | 429 |
-| [Errors](#sdk-errors) | 429 |
-| [privateLink](https://github.com/Azure/azure-rest-api-specs/blob/master/specification/common-types/resource-management/v1/privatelinks.json) | 429 |
-| [ARM](#arm-violations) | 429 |
-| [Errors](#arm-errors) | 429 |
-| [Warnings](#arm-warnings) | 429 |
-| [SDK](#sdk-violations) | 429 |
-| [Errors](#sdk-errors) | 429 |
-| [Errors](#arm-errors) | 429 |
-| [Errors](#sdk-errors) | 429 |
-| [Index](#index) | 429 |
-| [Errors](#arm-errors) | 429 |
-| [Warnings](#sdk-warnings) | 429 |
-| [Error vs. Warning](#error-vs-warning) | 429 |
-| [Automated Rules](#automated-rules) | 429 |
-| [ARM](#arm-violations) | 429 |
-| [Error vs. Warning](#error-vs-warning) | 429 |
-| [Errors](#arm-errors) | 429 |
-| [Index](#index) | 429 |
-| [Warnings](#arm-warnings) | 429 |
-| [SDK](#sdk-violations) | 429 |
-| [Errors](#sdk-errors) | 429 |
-| [x-ms-identifiers](https://github.com/Azure/autorest/tree/main/docs/extensions#x-ms-identifiers) | 429 |
-| [Index](#index) | 429 |
-| [ARM](#arm-violations) | 429 |
-| [Warnings](#arm-warnings) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/openapi-authoring-manual-guidelines.md
 
 | URL | State |
 | --- | --- |
 | [OpenAPI (Swagger) validation tools](https://github.com/Azure/adx-documentation-pr/blob/master/tools/tools.md) | 404 |
-| [here](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md#external-documentation-object) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/restler/MakeTestProxyRecording.md
-
-| URL | State |
-| --- | --- |
-| [QuickStart](./QuickStart.md) | 429 |
-| [how to install test-proxy](https://github.com/Azure/azure-sdk-tools/blob/main/tools/test-proxy/Azure.Sdk.Tools.TestProxy/README.md#installation) | 429 |
-| [the test-proxy headers](https://github.com/Azure/azure-sdk-tools/blob/main/tools/test-proxy/Azure.Sdk.Tools.TestProxy/README.md#run-your-tests) | 429 |
-| [QuickStart](./QuickStart.md#run-the-tests) | 429 |
-| [Test Proxy documentation](https://github.com/Azure/azure-sdk-tools/blob/main/tools/test-proxy/Azure.Sdk.Tools.TestProxy/README.md#session-and-test-level-transforms-sanitizers-and-matchers) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/samplefiles-dp/ABOUT.md
 
 | URL | State |
 | --- | --- |
-| [dataplane samples for single client](samplefiles-dp-for-single-client) | 429 |
 | [`samplefiles`](../samplefiles/ABOUT.md) | 404 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/samplefiles/ABOUT.md
