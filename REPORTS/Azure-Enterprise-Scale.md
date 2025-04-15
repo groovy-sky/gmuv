@@ -1,11 +1,5 @@
 
 ## [Enterprise-Scale](https://github.com/Azure/Enterprise-Scale)
-* https://github.com/Azure/Enterprise-Scale/blob/main/README.md
-
-| URL | State |
-| --- | --- |
-| [OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/Azure/Enterprise-Scale/badge) | 400 |
-
 * https://github.com/Azure/Enterprise-Scale/blob/main/SECURITY.md
 
 | URL | State |
@@ -150,7 +144,7 @@ Implementations](https://github.com/azure/enterprise-scale#deploying-enterprise-
 
 | URL | State |
 | --- | --- |
-| [trust center](https://www.microsoft.com/trustcenter) | 403 |
+| [trust center](https://www.microsoft.com/trustcenter) | 0 |
 | [Telemetry](https://azure.github.io/azure-monitor-baseline-alerts/patterns/alz/Telemetry) | 404 |
 
 * https://github.com/Azure/Enterprise-Scale/blob/main/docs/wiki/Deploying-Enterprise-Scale-BasicSetup.md
@@ -275,12 +269,12 @@ Implementations](https://github.com/azure/enterprise-scale#deploying-enterprise-
 | [issue 923](https://github.com/Azure/Enterprise-Scale/issues/923) | 429 |
 | [#407](https://github.com/Azure/Enterprise-Scale/issues/407) | 429 |
 | [#874](https://github.com/Azure/Enterprise-Scale/issues/874) | 429 |
-| [#842](https://github.com/Azure/Enterprise-Scale/issues/842) | 429 |
-| [#864](https://github.com/Azure/Enterprise-Scale/issues/864) | 429 |
-| [issue #803](https://github.com/Azure/Enterprise-Scale/issues/803) | 429 |
 | [#519 on CAF repository](https://github.com/MicrosoftDocs/cloud-adoption-framework/issues/519) | 404 |
 | [Deploy Azure Red Hat OpenShift (ARO) in enterprise-scale landing zones](https://github.com/Azure/Enterprise-Scale/tree/main/workloads/ARO) | 404 |
+| [#691](https://github.com/Azure/Enterprise-Scale/issues/691) | 429 |
 | ["What's New?"](./Whats-new) | 404 |
+| [#603](https://github.com/Azure/Enterprise-Scale/issues/603) | 429 |
+| [#609](https://github.com/Azure/Enterprise-Scale/issues/609) | 429 |
 | [#618](https://github.com/Azure/Enterprise-Scale/issues/618) | 429 |
 | [#604](https://github.com/Azure/Enterprise-Scale/issues/604) | 429 |
 | [#456](https://github.com/Azure/Enterprise-Scale/issues/456) | 429 |
