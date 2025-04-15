@@ -275,12 +275,6 @@
 | --- | --- |
 | [Open edX](https://github.com/edx/edx-platform/blob/master/LICENSE) | 404 |
 
-* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/orchard/orchard-cms-video-portal/README.md
-
-| URL | State |
-| --- | --- |
-| [Orchard CMS](http://www.orchardproject.net/) | 403 |
-
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/postgre/postgresql-standalone-server-ubuntu/GettingStarted.md
 
 | URL | State |
@@ -385,7 +379,6 @@
 | [Screen](./images/azsetsub.png) | 404 |
 | [Screen](./images/azssh.png) | 404 |
 | [Screen](./images/azportal.png) | 404 |
-| [Screen](./images/aztemplate.png) | 504 |
 | [Screen](./images/azportaldepoy3.png) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/visualstudio/ubuntu-mate-desktop-vscode/GettingStarted.md
@@ -519,6 +512,15 @@
 | URL | State |
 | --- | --- |
 | [Azure Resource Manager (ARM)](https://azure.microsoft.com/documentation/articles/resource-group-overview/) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/demos/ddos-attack-prevention/README.md
+
+| URL | State |
+| --- | --- |
+| [BreakingPoint Cloud](https://www.ixiacom.com/products/breakingpoint-cloud) | 403 |
+| [BreakingPoint Cloud](https://www.ixiacom.com/products/breakingpoint-cloud) | 403 |
+| [BreakingPoint Cloud](https://www.ixiacom.com/products/breakingpoint-cloud) | 403 |
+| [BreakingPoint Cloud](https://www.ixiacom.com/products/breakingpoint-cloud) | 403 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/demos/devtest-p2s-iis/README.md
 
@@ -1113,7 +1115,7 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 
 | URL | State |
 | --- | --- |
-| [Confidential Consortium Framework](https://www.microsoft.com/research/project/confidential-consortium-framework/) | 0 |
+| [Confidential Consortium Framework](https://www.microsoft.com/research/project/confidential-consortium-framework/) | 403 |
 | [Quickstart: Create an Confidential Ledger with an ARM template](/azure/confidential-ledger/quickstart-template) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.customproviders/custom-rp-existing-resource-deployments/README.md
