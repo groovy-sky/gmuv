@@ -34,6 +34,12 @@
 | --- | --- |
 | [common issues](https://github.com/Azure/azure-cli/issues?q=label%3AFAQ+is%3Aclosed) | 404 |
 
+* https://github.com/Azure/azure-cli/blob/dev/doc/onboarding_guide.md
+
+| URL | State |
+| --- | --- |
+| [PLR](http://aka.ms/plrcriteria) | 403 |
+
 * https://github.com/Azure/azure-cli/blob/dev/doc/quoting-issues-with-powershell.md
 
 | URL | State |
