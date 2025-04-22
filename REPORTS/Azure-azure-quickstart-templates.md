@@ -101,22 +101,23 @@
 | --- | --- |
 | [here](https://atlas.hashicorp.com/help/user-accounts/authentication) | 404 |
 
-* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/darktrace-vsensor-standalone/README.md
+* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/darktrace/darktrace-vsensor-autoscaling/README.md
 
 | URL | State |
 | --- | --- |
-| [alt text](images/architecture.png "Architecture") | 404 |
+| [here](https://github.com/Azure/azure-quickstart-templates/tree/master/application-workloads/darktrace-vsensor-standalone) | 404 |
+| [Darktrace vSensor Architecture Diagram](images/architecture-diagram.png "Architecture") | 404 |
 | [alt text](images/template-form.png "Template form") | 404 |
 | [alt text](images/appendixa-input-params.png "Input Parameters") | 404 |
 | [alt text](images/appendixa-custom-deployment-validation.png "Validation") | 404 |
 | [alt text](images/appendixa-completed-overview.png "Overview") | 404 |
 | [alt text](images/appendixa-completed-outputs.png "Outputs") | 404 |
 
-* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/darktrace/darktrace-vsensor-autoscaling/README.md
+* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/darktrace/darktrace-vsensor-standalone/README.md
 
 | URL | State |
 | --- | --- |
-| [Darktrace vSensor Architecture Diagram](images/architecture-diagram.png "Architecture") | 404 |
+| [alt text](images/architecture.png "Architecture") | 404 |
 | [alt text](images/template-form.png "Template form") | 404 |
 | [alt text](images/appendixa-input-params.png "Input Parameters") | 404 |
 | [alt text](images/appendixa-custom-deployment-validation.png "Validation") | 404 |
@@ -680,7 +681,7 @@
 | [query language](https://docs.loganalytics.io/docs/Language-Reference/) | 0 |
 | [log search](https://documentimages.blob.core.windows.net/azurequickstarttemplatereadme/logSearch.png "log search") | 409 |
 | [saved searches](https://documentimages.blob.core.windows.net/azurequickstarttemplatereadme/savedSearches.png "saved searches") | 409 |
-| [Windows (Mobile devices)](https://www.microsoft.com/store/p/microsoft-operations-management-suite/9wzdncrfjz2r) | 403 |
+| [Windows (Mobile devices)](https://www.microsoft.com/store/p/microsoft-operations-management-suite/9wzdncrfjz2r) | 0 |
 | [Android](https://play.google.com/store/apps/details?id=com.microsoft.operations.AndroidPhone) | 404 |
 | [iOS](https://itunes.apple.com/us/app/microsoft-operations-management-suite/id1042424859) | 404 |
 | [Change Logs](./changelog.md "See change logs") | 404 |
@@ -1115,7 +1116,7 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 
 | URL | State |
 | --- | --- |
-| [Confidential Consortium Framework](https://www.microsoft.com/research/project/confidential-consortium-framework/) | 403 |
+| [Confidential Consortium Framework](https://www.microsoft.com/research/project/confidential-consortium-framework/) | 0 |
 | [Quickstart: Create an Confidential Ledger with an ARM template](/azure/confidential-ledger/quickstart-template) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.customproviders/custom-rp-existing-resource-deployments/README.md
@@ -1285,19 +1286,19 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 
 | URL | State |
 | --- | --- |
-| [Azure Iot Hub template reference](https://docs.microsoft.com/azure/templates/microsoft.devices/iothub-allversions) | 404 |
+| [Azure IoT Hub template reference](https://docs.microsoft.com/azure/templates/microsoft.devices/iothub-allversions) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.devices/iothub-device-provisioning/README.md
 
 | URL | State |
 | --- | --- |
-| [Azure Iot Hub template reference](https://docs.microsoft.com/azure/templates/microsoft.devices/iothub-allversions) | 404 |
+| [Azure IoT Hub template reference](https://docs.microsoft.com/azure/templates/microsoft.devices/iothub-allversions) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.devices/iothub-with-consumergroup-create/README.md
 
 | URL | State |
 | --- | --- |
-| [Azure Iot Hub template reference](https://docs.microsoft.com/azure/templates/microsoft.devices/iothub-allversions) | 404 |
+| [Azure IoT Hub template reference](https://docs.microsoft.com/azure/templates/microsoft.devices/iothub-allversions) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.digitaltwins/digitaltwins-with-function-private-link/README.md
 
@@ -1607,14 +1608,6 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 | [official documentation]( https://docs.microsoft.com/azure/sql-database/sql-database-auditing) | 0 |
 | [official documentation]( https://docs.microsoft.com/azure/azure-sql/database/auditing-overview#auditing-of-microsoft-support-operations) | 0 |
 
-* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.sql/sql-logical-server-aad-only-auth/README.md
-
-| URL | State |
-| --- | --- |
-| [Azure AD-only authentication](https://docs.microsoft.com/azure/azure-sql/database/authentication-aad-only-auth) | 404 |
-| [Azure AD-only authentication](https://docs.microsoft.com/azure/azure-sql/database/authentication-aad-only-auth) | 404 |
-| [Azure AD-only authentication](https://docs.microsoft.com/azure/azure-sql/database/authentication-aad-only-auth) | 404 |
-
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.storage/storage-advanced-threat-protection-create/README.md
 
 | URL | State |
@@ -1683,7 +1676,7 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 
 | URL | State |
 | --- | --- |
-| [Azure Cosmos DB account](https://azure.microsoft.com/documentation/articles/documentdb-introduction/#what-is-azure-documentdb) | 404 |
+| [Azure Cosmos DB account](https://azure.microsoft.com/documentation/articles/documentdb-introduction/#what-is-azure-documentdb) | 0 |
 | [App Service Plan](https://azure.microsoft.com/documentation/articles/azure-web-sites-web-hosting-plans-in-depth-overview/) | 404 |
 | [Web App](https://azure.microsoft.com/documentation/articles/app-service-web-overview/) | 404 |
 | [Application settings](https://azure.microsoft.com/documentation/articles/web-sites-configure/) | 404 |
@@ -1816,23 +1809,14 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 
 | URL | State |
 | --- | --- |
-| [Screen](./images/aztemplate2.png) | 404 |
-| [Screen](./images/aztemplate3.png) | 404 |
-| [Screen](./images/azportaldeploy.png) | 404 |
-| [Screen](./images/azportaldeploy2.png) | 404 |
-| [Screen](./images/azportaldeploy3.png) | 404 |
 | [Screen](./images/build.png) | 404 |
 | [Screen](./images/new-django-app-service.png) | 404 |
 
-* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.web/webapp-windows-aspnet/GettingStarted.md
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.web/webapp-linux-sonarqube-azuresql/README.md
 
 | URL | State |
 | --- | --- |
-| [Screen](./images/aztemplate2.png) | 404 |
-| [Screen](./images/aztemplate3.png) | 404 |
-| [Screen](./images/azportaldepoy.png) | 404 |
-| [Screen](./images/azportaldeploy2.png) | 404 |
-| [Screen](./images/azportaldeploy3.png) | 404 |
+| [SonarQube 8.2](https://community.sonarsource.com/t/8-2-environment-varible-docs-are-inconsistent-confusing/21805/3) | 429 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.web/webapp-windows-with-privateendpoint-applicationgateway/README.md
 
