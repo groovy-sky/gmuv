@@ -4,7 +4,7 @@
 
 | URL | State |
 | --- | --- |
-| [maybe some link](https://www.microsoft.com) | 0 |
+| [maybe some link](https://www.microsoft.com) | 403 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/DataConnectors/AADUserInfo/README.MD
 
@@ -18,6 +18,12 @@
 | URL | State |
 | --- | --- |
 | [Cyble-Threat-Intel-App](./Images/Cyble-Threat-Intel-Logic-App.png) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/DataConnectors/ReadMe.md
+
+| URL | State |
+| --- | --- |
+| [Ship the data connector in a solution](#ship-the-data-connector-in-a-solution) | 0 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/DataConnectors/Syslog-VMSS-AMA/README.md
 
@@ -1048,18 +1054,6 @@
 | [Data Reformatting](images/Microsoft%20Sentinel%20-%20Configure%20Data%20Transformations.png "Data Reformatting") | 404 |
 | [Send to Cyware Orchestrate](images/Microsoft%20Sentinel%20-%20Send%20Data%20To%20Cyware%20Orcehstrate.png "Send to Cyware Orchestrate") | 404 |
 
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Elastic Search/Playbooks/CustomConnector/ElasticSearchCustomConnector/readme.md
-
-| URL | State |
-| --- | --- |
-| [documentation](https://www.elastic.co/guide/en/kibana/master/api-keys.html) | 404 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Elastic Search/Playbooks/ElasticSearchPlaybooks/ElasticSearch-EnrichIncident/readme.md
-
-| URL | State |
-| --- | --- |
-| [documentation](https://www.elastic.co/guide/en/kibana/master/api-keys.html) | 404 |
-
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Entrust identity as Service/Playbooks/EntrustPlaybooks/Entrust-BlockUser/readme.md
 
 | URL | State |
@@ -1172,7 +1166,7 @@
 | [Key Vault documentation](../key-vault/index.yml) | 404 |
 | [Azure Policy documentation](../governance/policy/assign-policy-portal.md) | 404 |
 | [Microsoft Defender for Cloud documentation](/azure/security-center/security-center-recommendations) | 404 |
-| [End-to-end demo video](https://www.microsoft.com/en-us/videoplayer/embed/RWPOxX?postJsllMsg=true) | 403 |
+| [End-to-end demo video](https://www.microsoft.com/en-us/videoplayer/embed/RWPOxX?postJsllMsg=true) | 0 |
 | [About Microsoft Sentinel solutions](sentinel-solutions.md) | 404 |
 | [Discover and deploy Microsoft Sentinel solutions](sentinel-solutions-deploy.md) | 404 |
 | [Microsoft Sentinel solutions catalog](sentinel-solutions-catalog.md) | 404 |
@@ -1285,379 +1279,30 @@
 | --- | --- |
 | [Entity Trigger](./entity-trigger/images/playbookDark.png) | 404 |
 
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Documentations/Deployment-MES-OnPremises.md
-
-| URL | State |
-| --- | --- |
-| [Deployment Microsoft Exchange Security for Exchange On-Premises](#deployment-microsoft-exchange-security-for-exchange-on-premises) | 429 |
-| [Install the solution](#install-the-solution) | 429 |
-| [Options deployment](#options-deployment) | 429 |
-| [Configuration of the Mandatory data Connector : Exchange Security Insights On-Premise Collector](#configuration-of-the-mandatory-data-connector--exchange-security-insights-on-premise-collector) | 429 |
-| [Prerequisites](#prerequisites) | 429 |
-| [Configuration](#configuration) | 429 |
-| [Parser deployment](#parser-deployment) | 429 |
-| [Script Deployment](#script-deployment) | 429 |
-| [Download the latest version of ESI Collector](#download-the-latest-version-of-esi-collector) | 429 |
-| [On the serveur that will run the collect](#on-the-serveur-that-will-run-the-collect) | 429 |
-| [Find the information configured by the scripts](#find-the-information-configured-by-the-scripts) | 429 |
-| [Deploy Optional Connector : Microsoft Exchange Logs and Events](#deploy-optional-connector--microsoft-exchange-logs-and-events) | 429 |
-| [To configure each options](#to-configure-each-options) | 429 |
-| [Prerequisites](#prerequisites-1) | 429 |
-| [Parser deployment](#parser-deployment-1) | 429 |
-| [Deployment considerations](#deployment-considerations) | 429 |
-| [Azure Arc-enabled servers, Azure Monitor Agent and DCR Deployment](#azure-arc-enabled-servers-azure-monitor-agent-and-dcr-deployment) | 429 |
-| [Agents Deployment](#agents-deployment) | 429 |
-| [Deployment of the Azure Arc-enabled servers](#deployment-of-the-azure-arc-enabled-servers) | 429 |
-| [Deployment Azure Monitor Agent](#deployment-azure-monitor-agent) | 429 |
-| [Option 1  -  MSExchange Management Log collection](#option-1-----msexchange-management-log-collection) | 429 |
-| [DCR Creation](#dcr-creation) | 429 |
-| [Assign DCR to all Exchange servers](#assign-dcr-to-all-exchange-servers) | 429 |
-| [Option 2 - Security, Application, System for Exchange Servers](#option-2---security-application-system-for-exchange-servers) | 429 |
-| [Security logs](#security-logs) | 429 |
-| [Application and System Event logs](#application-and-system-event-logs) | 429 |
-| [Assign DCR to all Exchange servers](#assign-dcr-to-all-exchange-servers-1) | 429 |
-| [Option 3 and 4 Security logs of Domain Controllers](#option-3-and-4-security-logs-of-domain-controllers) | 429 |
-| [Security logs](#security-logs-1) | 429 |
-| [Option 5 - IIS logs for Exchange servers](#option-5---iis-logs-for-exchange-servers) | 429 |
-| [DCE Creation](#dce-creation) | 429 |
-| [DCR Creation](#dcr-creation-1) | 429 |
-| [Assign DCR to all Exchange servers](#assign-dcr-to-all-exchange-servers-2) | 429 |
-| [Option 6 - Message tracking logs for Exchange Servers](#option-6---message-tracking-logs-for-exchange-servers) | 429 |
-| [DCE Creation](#dce-creation-1) | 429 |
-| [DCR Creation](#dcr-creation-2) | 429 |
-| [Assign DCR to all Exchange servers](#assign-dcr-to-all-exchange-servers-3) | 429 |
-| [Option 7 - HTTPProxy logs for Exchange servers](#option-7---httpproxy-logs-for-exchange-servers) | 429 |
-| [DCE Creation](#dce-creation-2) | 429 |
-| [Assign DCR to all Exchange servers](#assign-dcr-to-all-exchange-servers-4) | 429 |
-| [Legacy Agent Deployment for Options 1-2-3-4-5-6-7](#legacy-agent-deployment-for-options-1-2-3-4-5-6-7) | 429 |
-| [Download and install the agents needed to collect logs for Microsoft Sentinel](#download-and-install-the-agents-needed-to-collect-logs-for-microsoft-sentinel) | 429 |
-| [Option 1  -  MSExchange Management Log collection](#option-1-----msexchange-management-log-collection-1) | 429 |
-| [Option 2 - Security, Application, System for Exchange Servers](#option-2---security-application-system-for-exchange-servers-1) | 429 |
-| [Option 3 - Security for Domain controllers located in the Exchange AD sites](#option-3---security-for-domain-controllers-located-in-the-exchange-ad-sites) | 429 |
-| [Option 4 - Security for ALL Domain controllers](#option-4---security-for-all-domain-controllers) | 429 |
-| [Option 5 - IIS logs for Exchange servers](#option-5---iis-logs-for-exchange-servers-1) | 429 |
-| [Option 6 - Message tracking logs for Exchange Servers](#option-6---message-tracking-logs-for-exchange-servers-1) | 429 |
-| [Option 7 - HTTPProxy logs for Exchange servers](#option-7---httpproxy-logs-for-exchange-servers-1) | 429 |
-| [alt text](./Images/Image01.png "Install Solution") | 429 |
-| [alt text](./Images/Image02.png "Wait") | 429 |
-| [Readme](./../README.md) | 429 |
-| [alt text](./Images/Image15.png "Connector Deployment") | 429 |
-| [alt text](./Images/Image16.png) | 429 |
-| [Parser information](./../../Parsers/README.md) | 429 |
-| [alt text](./Images/Image07.png) | 429 |
-| [alt text](./Images/Image08.png) | 429 |
-| [alt text](./Images/Image09.png) | 429 |
-| [alt text](./Images/Image17.png) | 429 |
-| [alt text](./Images/Image18.png) | 429 |
-| [alt text](./Images/Image19.png) | 429 |
-| [alt text](./Images/Image15.png "Connector Deployment") | 429 |
-| [alt text](./Images/Image16.png) | 429 |
-| [Parser information](./../../Parsers/README.md) | 429 |
-| [alt text](./Images/Image28.png) | 429 |
-| [alt text](./Images/Image29.png) | 429 |
-| [alt text](./Images/Image30.png) | 429 |
-| [alt text](./Images/Image31.png) | 429 |
-| [alt text](./Images/Image32.png) | 429 |
-| [alt text](./Images/Image33.png) | 429 |
-| [alt text](./Images/Image34.png) | 429 |
-| [alt text](./Images/Image35.png) | 429 |
-| [alt text](./Images/Image36.png) | 429 |
-| [alt text](./Images/Image36.png) | 429 |
-| [alt text](./Images/Image30.png) | 429 |
-| [alt text](./Images/Image31.png) | 429 |
-| [alt text](./Images/Image32.png) | 429 |
-| [alt text](./Images/Image33.png) | 429 |
-| [alt text](./Images/Image40.png) | 429 |
-| [alt text](./Images/Image35.png) | 429 |
-| [alt text](./Images/Image36.png) | 429 |
-| [alt text](./Images/Image36.png) | 429 |
-| [alt text](./Images/Image31.png) | 429 |
-| [alt text](./Images/Image42.png) | 429 |
-| [alt text](./Images/Image43.png) | 429 |
-| [alt text](./Images/Image32.png) | 429 |
-| [alt text](./Images/Image33.png) | 429 |
-| [alt text](./Images/Image44.png) | 429 |
-| [alt text](./Images/Image35.png) | 429 |
-| [alt text](./Images/Image31.png) | 429 |
-| [alt text](./Images/Image42.png) | 429 |
-| [alt text](./Images/Image31.png) | 429 |
-| [alt text](./Images/Image11.png) | 429 |
-| [alt text](./Images/Image14.png) | 429 |
-| [alt text](./Images/Image21.png) | 429 |
-| [alt text](./Images/Image22.png) | 429 |
-| [alt text](./Images/Image23.png) | 429 |
-| [alt text](./Images/Image23.png) | 429 |
-| [alt text](./Images/Image21.png) | 429 |
-| [alt text](./Images/Image25.png) | 429 |
-| [alt text](./Images/Image26.png) | 429 |
-| [alt text](./Images/Image27.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Documentations/Deployment-MES-Online.md
-
-| URL | State |
-| --- | --- |
-| [Deployment Microsoft Exchange Security for Exchange Online](#deployment-microsoft-exchange-security-for-exchange-online) | 429 |
-| [Microsoft 365 Solution](#microsoft-365-solution) | 429 |
-| [Solution Installation](#solution-installation) | 429 |
-| [Solution configuration](#solution-configuration) | 429 |
-| [Microsoft Exchange Security for Exchange Online Solution](#microsoft-exchange-security-for-exchange-online-solution) | 429 |
-| [Prerequisites](#prerequisites) | 429 |
-| [Configuration](#configuration) | 429 |
-| [Parser deployment](#parser-deployment) | 429 |
-| [Connector and Azure Automation deployment](#connector-and-azure-automation-deployment) | 429 |
-| [Method 1 - Azure Resource Manager (ARM) Template](#method-1---azure-resource-manager-arm-template) | 429 |
-| [Method 2 - Manual Deployment of Azure Automation](#method-2---manual-deployment-of-azure-automation) | 429 |
-| [Assign Microsoft Graph Permission and Exchange Online Permission to Managed Identity Account](#assign-microsoft-graph-permission-and-exchange-online-permission-to-managed-identity-account) | 429 |
-| [alt text](./Images/Image49.png) | 429 |
-| [alt text](./Images/Image02.png) | 429 |
-| [alt text](./Images/Image51.png) | 429 |
-| [alt text](./Images/Image48.png "Install Solution") | 429 |
-| [alt text](./Images/Image02.png "Wait") | 429 |
-| [See the documentation to learn more](./ESICollector.md#online-collector) | 429 |
-| [See the documentation to learn more](./ESICollector.md#online-collector) | 429 |
-| [See the documentation to learn more](./ESICollector.md#online-collector) | 429 |
-| [alt text](./Images/Image50.png) | 429 |
-| [Parser information](./../../Parsers/README.md) | 429 |
-| [alt text](./Images/Image07.png) | 429 |
-| [alt text](./Images/Image80.png) | 429 |
-| [alt text](./Images/Image57.png) | 429 |
-| [alt text](./Images/Image54.png) | 429 |
-| [alt text](./Images/Image55.png) | 429 |
-| [alt text](./Images/Image56.png) | 429 |
-| [Script Location](https://aka.ms/ESI-ExchangeCollector-Script) | 429 |
-| [Permission Update script](./../Solutions/ESICollector/OnlineDeployment/ExchangeOnlinePermSetup.ps1) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Documentations/Deployment-Overview.md
-
-| URL | State |
-| --- | --- |
-| [alt text](./Images/Image58.png) | 429 |
-| [alt text](./Images/Image59.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Documentations/ESICollector.md
-
-| URL | State |
-| --- | --- |
-| [the Parameters description document](./Parameters.md) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Documentations/README.md
-
-| URL | State |
-| --- | --- |
-| [Deployment Overview](./Deployment-Overview.md) | 429 |
-| [Deployment for On-Premises Solution](./Deployment-MES-OnPremises.md) | 429 |
-| [Deployment for Online Solution](./Deployment-MES-Online.md) | 429 |
-| [Collector Information](./ESICollector.md) | 429 |
-| [Solution Workbooks information](./WorkbookDeployement.md) | 429 |
-| [VIP Management](./VIPManagement.md) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Documentations/WorkbookDelegation.md
-
-| URL | State |
-| --- | --- |
-| [Workbooks](#workbooks) | 429 |
-| [Group creation in Entra ID](#group-creation-in-entra-id) | 429 |
-| [Creation of the custom role to access Log Analytics](#creation-of-the-custom-role-to-access-log-analytics) | 429 |
-| [Create a dédicated workspace for the workbook](#create-a-dédicated-workspace-for-the-workbook) | 429 |
-| [Set Permissions on the Resource Group](#set-permissions-on-the-resource-group) | 429 |
-| [Set Permissions in Log Analytics](#set-permissions-in-log-analytics) | 429 |
-| [Save the Workbook in the dedicated Resource Group](#save-the-workbook-in-the-dedicated-resource-group) | 429 |
-| [Access to the workbook](#access-to-the-workbook) | 429 |
-| [alt text](./Images/Image64.png) | 429 |
-| [alt text](./Images/Image65.png) | 429 |
-| [alt text](./Images/Image67.png) | 429 |
-| [alt text](./Images/Image66.png) | 429 |
-| [alt text](./Images/Image68.png) | 429 |
-| [alt text](./Images/Image69.png) | 429 |
-| [alt text](./Images/Image70.png) | 429 |
-| [alt text](./Images/Image71.png) | 429 |
-| [alt text](./Images/Image72.png) | 429 |
-| [alt text](./Images/Image73.png) | 429 |
-| [alt text](./Images/Image71.png) | 429 |
-| [alt text](./Images/Image74.png) | 429 |
-| [alt text](./Images/Image75.png) | 429 |
-| [alt text](./Images/Image76.png) | 429 |
-| [alt text](./Images/Image77.png) | 429 |
-| [alt text](./Images/Image78.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Documentations/WorkbookDeployement.md
-
-| URL | State |
-| --- | --- |
-| [alt text](./Images/Image52.png) | 429 |
-| [alt text](./Images/Image53.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/README.md
-
-| URL | State |
-| --- | --- |
-| [Documentations](./Documentations/) | 429 |
-| [Deployment Microsoft Exchange Security for Exchange On-Premises](./Documentations/Deployment-MES-OnPremises.md) | 429 |
-| [Exchange Security Insights On-Premise/Online Collector](./Documentations/ESICollector.md) | 429 |
-| [Documentations](./Documentations/) | 429 |
-| [Deployment Microsoft Exchange Security for Exchange Online](./Documentations/Deployment-MES-Online.md) | 429 |
-| [Exchange Security Insights On-Premise/Online Collector](./Documentations/ESICollector.md) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Solutions/ESICollector/OnlineDeployment/Update.md
-
-| URL | State |
-| --- | --- |
-| [ESI Collector - Update](#esi-collector---update) | 429 |
-| [Overview](#overview) | 429 |
-| [Azure Automation Manual Update -- For Runbook Deployment](#azure-automation-manual-update----for-runbook-deployment) | 429 |
-| [Runbook update](#runbook-update) | 429 |
-| [Configuration update](#configuration-update) | 429 |
-| [On-Premises Script Manual Update -- For On-Premises Deployment](#on-premises-script-manual-update----for-on-premises-deployment) | 429 |
-| [Script update](#script-update) | 429 |
-| [Script Configuration update](#script-configuration-update) | 429 |
-| [Install ESI Collector Updater](#install-esi-collector-updater) | 429 |
-| [GitHub repository](./../../ESICollector/README.md) | 429 |
-| [GitHub repository](./../../ESICollector) | 429 |
-| [GitHub repository](./../../ESICollector) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Solutions/ESICollector/Parameters.md
-
-| URL | State |
-| --- | --- |
-| [ExchSecIns Configuration](#exchsecins-configuration) | 429 |
-| [Table of Contents](#table-of-contents) | 429 |
-| [Parameters](#parameters) | 429 |
-| [Global](#global) | 429 |
-| [Output](#output) | 429 |
-| [Advanced](#advanced) | 429 |
-| [LogCollection](#logcollection) | 429 |
-| [MGGraphAPIConnection](#mggraphapiconnection) | 429 |
-| [InstanceConfiguration](#instanceconfiguration) | 429 |
-| [AuditFunctionsFiles](#auditfunctionsfiles) | 429 |
-| [AuditFunctionProtectedArea](#auditfunctionprotectedarea) | 429 |
-| [Description](#description) | 429 |
-| [UDSLogProcessor](#udslogprocessor) | 429 |
-| [InstanceConfiguration](#instanceconfiguration-1) | 429 |
-| [AuditFunctionsFiles](#auditfunctionsfiles-1) | 429 |
-| [other parameters](#other-parameters) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Solutions/ESICollector/README.md
-
-| URL | State |
-| --- | --- |
-| [here](./../../Documentations/ESICollector.md) | 429 |
-| [the Parameters description document](./Parameters.md) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/Parsers/README.md
-
-| URL | State |
-| --- | --- |
-| [Microsoft Exchange Security - Parsers information](#microsoft-exchange-security---parsers-information) | 429 |
-| [ExchangeConfiguration Parser](#exchangeconfiguration-parser) | 429 |
-| [Parser Definition](#parser-definition) | 429 |
-| [Parser Description](#parser-description) | 429 |
-| [Parser Setup](#parser-setup) | 429 |
-| [Linked tables](#linked-tables) | 429 |
-| [Parameters simulation](#parameters-simulation) | 429 |
-| [Exchange Configuration Environment List Parser](#exchange-configuration-environment-list-parser) | 429 |
-| [Parser Definition](#parser-definition-1) | 429 |
-| [Parser Description](#parser-description-1) | 429 |
-| [Parser Setup](#parser-setup-1) | 429 |
-| [Linked tables](#linked-tables-1) | 429 |
-| [Parameters simulation](#parameters-simulation-1) | 429 |
-| [Microsoft Exchange Security Check VIP Parser](#microsoft-exchange-security-check-vip-parser) | 429 |
-| [Parser Definition](#parser-definition-2) | 429 |
-| [Parser Description](#parser-description-2) | 429 |
-| [Parser dependency](#parser-dependency) | 429 |
-| [Parser Setup](#parser-setup-2) | 429 |
-| [Parameters simulation](#parameters-simulation-2) | 429 |
-| [Microsoft Exchange Compare Data MRA Parser](#microsoft-exchange-compare-data-mra-parser) | 429 |
-| [Parser Definition](#parser-definition-3) | 429 |
-| [Parser Description](#parser-description-3) | 429 |
-| [Parser Setup](#parser-setup-3) | 429 |
-| [Microsoft Exchange Security - Office 365 Activity logs Parser](#microsoft-exchange-security---office-365-activity-logs-parser) | 429 |
-| [Parser Definition](#parser-definition-4) | 429 |
-| [Parser Description](#parser-description-4) | 429 |
-| [Parser Setup](#parser-setup-4) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/README.md
-
-| URL | State |
-| --- | --- |
-| [General Documentation & Artifacts](./%23%20-%20General%20Content/README.md) | 429 |
-
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Isolate-MDEMachine/readme.md
 
 | URL | State |
 | --- | --- |
-| [Incident Trigger](./Isolate-MDEMachine-incident-trigger/images/designerLight.png) | 429 |
-| [Alert Trigger](./Isolate-MDEMachine-alert-trigger/images/Isolate-MDEMachine_alert.png) | 429 |
-| [Entity Trigger](./Isolate-MDE-Machine-entity-trigger/images/playbookDark.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Restrict-MDEAppExecution/readme.md
-
-| URL | State |
-| --- | --- |
-| [Incident Trigger](./Restrict-MDEAppExecution-incident-trigger/images/designerLight.png) | 429 |
-| [Alert Trigger](./Restrict-MDEAppExecution-alert-trigger/images/Restrict-MDEAppExecution_alert.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Restrict-MDEDomain/readme.md
-
-| URL | State |
-| --- | --- |
-| [Incident Trigger](./Restrict-MDEDomain-incident-trigger/images/designerDark.png) | 429 |
-| [Incident Trigger](./Restrict-MDEDomain-incident-trigger/images/designerLight.png) | 429 |
-| [Alert Trigger](./Restrict-MDEDomain-alert-trigger/images/Restrict-MDEDomain_alert.png) | 429 |
-| [Entity Trigger Light](./Restrict-MDEDomain-entity-trigger/images/Restrict-MDEDomain-entityTrigger-light.png) | 429 |
-| [Entity Trigger Dark](./Restrict-MDEDomain-entity-trigger/images/Restrict-MDEDomain-entityTrigger-dark.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Restrict-MDEFileHash/readme.md
-
-| URL | State |
-| --- | --- |
-| [Incident Trigger](./Restrict-MDEFileHash-incident-trigger/images/designerLight.png) | 429 |
-| [Alert Trigger](./Restrict-MDEFileHash-alert-trigger/images/Restrict-MDEFileHash_alert.png) | 429 |
-| [Entity Trigger Light](./Restrict-MDEFileHash-entity-trigger/images/Restrict-MDEFileHash-entityTrigger-light.png) | 429 |
-| [Entity Trigger Dark](./Restrict-MDEFileHash-entity-trigger/images/Restrict-MDEFileHash-entityTrigger-dark.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Restrict-MDEIPAddress/readme.md
-
-| URL | State |
-| --- | --- |
-| [Incident Trigger](./Restrict-MDEIPAddress-incident-trigger/images/designerLight.png) | 429 |
-| [Alert Trigger](./Restrict-MDEIPAddress-alert-trigger/images/Restrict-MDEIpAddress_alert.png) | 429 |
-| [Entity Trigger Light](./Restrict-MDEIPAddress-entity-trigger/images/Restrict-MDEIPAddress-entityTrigger-light.png) | 429 |
-| [Entity Trigger](./Restrict-MDEIPAddress-entity-trigger/images/Restrict-MDEIPAddress-entityTrigger-dark.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Restrict-MDEUrl/readme.md
-
-| URL | State |
-| --- | --- |
-| [Incident Trigger](./Restrict-MDEUrl-incident-trigger/images/designerLight.png) | 429 |
-| [Alert Trigger](./Restrict-MDEUrl-alert-trigger/images/Restrict-MDEUrl_alert.png) | 429 |
-| [Entity Trigger Light](./Restrict-MDEUrl-entity-trigger/images/Restrict-MDEURLAddress-entityTrigger-light.png) | 429 |
-| [Entity Trigger Light](./Restrict-MDEUrl-entity-trigger/images/Restrict-MDEURLAddress-entityTrigger-dark.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Run-MDEAntivirus/readme.md
-
-| URL | State |
-| --- | --- |
-| [Incident Trigger](./Run-MDEAntivirus-incident-trigger/images/designerDark.png) | 429 |
-| [Alert Trigger](./Run-MDEAntivirus-alert-trigger/images/Run-MDEAntivirus_alert.png) | 429 |
+| [Entity Trigger](./Isolate-MDE-Machine-entity-trigger/images/playbookDark.png) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Unisolate-MDEMachine/readme.md
 
 | URL | State |
 | --- | --- |
-| [Incident Trigger](./Unisolate-MDEMachine/Unisolate-MDEMachine-incident-trigger/images/designerLight.png) | 429 |
-| [Alert Trigger](./Unisolate-MDEMachine/Unisolate-MDEMachine-alert-trigger/images/Unisolate-MDEMachine_alert.png) | 429 |
-| [Entity Trigger](./Unisolate-MDEMachine/Unisolate-MDE-Machine-entity-trigger/images/playbookDark.png) | 429 |
+| [Incident Trigger](./Unisolate-MDEMachine/Unisolate-MDEMachine-incident-trigger/images/designerLight.png) | 404 |
+| [Alert Trigger](./Unisolate-MDEMachine/Unisolate-MDEMachine-alert-trigger/images/Unisolate-MDEMachine_alert.png) | 404 |
+| [Entity Trigger](./Unisolate-MDEMachine/Unisolate-MDE-Machine-entity-trigger/images/playbookDark.png) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftPurviewInsiderRiskManagement/readme.md
 
 | URL | State |
 | --- | --- |
-| [Workbook Overview](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftPurviewInsiderRiskManagement/Workbooks/Images/InsiderRiskManagementBlack1.png?raw=true) | 429 |
+| [Workbook Overview](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftPurviewInsiderRiskManagement/Workbooks/Images/InsiderRiskManagementBlack1.png?raw=true) | 404 |
 | [Microsoft Defender for Endpoint](https://www.microsoft.com/microsoft-365/security/endpoint-defender) | 403 |
 | [Microsoft Defender for Identity](https://www.microsoft.com/microsoft-365/security/identity-defender) | 403 |
 | [Microsoft Defender for Cloud Apps](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/cloud-app-security) | 403 |
 | [Microsoft 365 Defender](https://www.microsoft.com/microsoft-365/security/microsoft-365-defender) | 403 |
-| [Microsoft Defender for Office 365](https://www.microsoft.com/microsoft-365/security/office-365-defender) | 0 |
+| [Microsoft Defender for Office 365](https://www.microsoft.com/microsoft-365/security/office-365-defender) | 403 |
 | [Microsoft Entra ID](https://azure.microsoft.com/services/active-directory/) | 403 |
 | [Investigate incidents with Microsoft Sentinel]( https://docs.microsoft.com/azure/sentinel/investigate-cases) | 0 |
 
@@ -1842,6 +1487,7 @@
 | [Recorded Future Defender playbooks](../../Playbooks/RecordedFuture-Block-IPs-and-Domains-on-Microsoft-Defender-for-Endpoint/) | 404 |
 | [Recorded Future Defender SCF playbooks](../../Playbooks/RecordedFuture_IP_SCF/) | 404 |
 | [Recorded Future Identity](../Recorded%20Future%20Identity/Playbooks/readme.md) | 404 |
+| [Learn more about Recorded Future for Microsoft Sentinel](https://www.recordedfuture.com/microsoft-azure-sentinel-integration) | 404 |
 | [More about Threat Hunt](https://support.recordedfuture.com/hc/en-us/articles/20849290045203-Automated-Threat-Hunting-with-Recorded-Future) | 403 |
 | [About Risk Lists](https://support.recordedfuture.com/hc/en-us/articles/115000897248-Recorded-Future-Risk-Lists) | 403 |
 | [Risk List Download Recommendations](https://support.recordedfuture.com/hc/en-us/articles/115010401968-Risk-List-Download-Recommendations) | 403 |
@@ -2023,6 +1669,18 @@
 | --- | --- |
 | [connect to Rubrik Security Cloud API end points using a Service Account](https://docs.rubrik.com/en-us/saas/saas/polaris_api_access_with_service_accounts.html) | 403 |
 
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/RubrikSecurityCloud/Playbooks/RubrikUpdateAnomalyStatus/README.md
+
+| URL | State |
+| --- | --- |
+| [connect to Rubrik Security Cloud API end points using a Service Account](https://docs.rubrik.com/en-us/saas/saas/polaris_api_access_with_service_accounts.html) | 403 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/RubrikSecurityCloud/Playbooks/RubrikUpdateAnomalyStatusViaIncident/README.md
+
+| URL | State |
+| --- | --- |
+| [connect to Rubrik Security Cloud API end points using a Service Account](https://docs.rubrik.com/en-us/saas/saas/polaris_api_access_with_service_accounts.html) | 403 |
+
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/RubrikSecurityCloud/Playbooks/RubrikUserIntelligenceAnalysis/README.md
 
 | URL | State |
@@ -2175,6 +1833,12 @@
 | URL | State |
 | --- | --- |
 | [Tenable Vulnerability Management API Connector](../../TenableVulnerabilityManagementConnector/) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/TenableIO/Playbooks/readme.md
+
+| URL | State |
+| --- | --- |
+| [Tenable-LaunchScan](./Playbooks/Tenable-LaunchScan/) | 0 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/TheHive/Playbooks/readme.md
 
@@ -2399,12 +2063,12 @@
 | --- | --- |
 | [Microsoft Zero Trust Model](https://www.microsoft.com/security/business/zero-trust) | 403 |
 | [Workbook Overview](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ZeroTrust(TIC3.0) | 404 |
-| [Microsoft Entra ID](https://azure.microsoft.com/services/active-directory/) | 403 |
+| [Microsoft Entra ID](https://azure.microsoft.com/services/active-directory/) | 0 |
 | [Microsoft Defender for Office 365](https://www.microsoft.com/microsoft-365/security/office-365-defender) | 403 |
 | [Microsoft Defender for Endpoint](https://www.microsoft.com/microsoft-365/security/endpoint-defender) | 403 |
 | [Azure Information Protection](https://azure.microsoft.com/services/information-protection/) | 403 |
 | [Microsoft 365 Defender](https://www.microsoft.com/microsoft-365/security/microsoft-365-defender) | 403 |
-| [Microsoft Defender for Cloud Apps](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/cloud-app-security) | 403 |
+| [Microsoft Defender for Cloud Apps](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/cloud-app-security) | 0 |
 | [Microsoft Defender for Identity](https://www.microsoft.com/microsoft-365/security/identity-defender) | 403 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Zscaler Internet Access/Playbooks/Add-Url-To-Category/readme.md
@@ -2472,7 +2136,6 @@
 
 | URL | State |
 | --- | --- |
-| [their website](https://nodejs.org/) | 524 |
 | [Microsoft
  content and support documentation](https://aka.ms/sentinelcontentsupportmodel) | 0 |
 
@@ -2501,17 +2164,6 @@
 | --- | --- |
 | [sort](https://docs.microsoft.com/azure/data-explorer/kusto/query/sortoperator) | 404 |
 | [arg_min](https://docs.microsoft.com/azure/data-explorer/kusto/query/arg-min-<sub>**aggfunction) | 400 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Sample Code/AzureSentinel-ManagementAPICsharp/README.md
-
-| URL | State |
-| --- | --- |
-| [Azure Sentinel permission](./Images/AzureSentinel-permission.png) | 404 |
-| [Logic Apps permission](./Images/LogicApp-permission.png) | 404 |
-| [Scope consent dialog](./Images/admin-consent.png) | 404 |
-| [After admin consent dialog](./Images/After-consent.png) | 404 |
-| [Start application](./Images/start-button.png) | 404 |
-| [View Console](./Images/console-menu.png) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Transformations-Library/Filtering/README.md
 
