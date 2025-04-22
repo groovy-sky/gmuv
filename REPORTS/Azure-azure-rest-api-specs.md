@@ -4,26 +4,48 @@
 
 | URL | State |
 | --- | --- |
+| [OpenAPI specs PR creation guidance](https://aka.ms/azsdkdocs/createopenapispec) | 403 |
+| [OpenAPI spec to TypeSpec spec](https://aka.ms/typespec/conversion) | 403 |
 | [Resource Provider guidelines](https://aka.ms/rpguidelines) | 401 |
+| [suppressions guide](https://aka.ms/azsdk/pr-suppressions) | 403 |
+| [aka.ms/azsdk/access#request-access-to-rest-api-or-sdk-repositories](https://aka.ms/azsdk/access#request-access-to-rest-api-or-sdk-repositories) | 403 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/.github/PULL_REQUEST_TEMPLATE/data_plane_template.md
 
 | URL | State |
 | --- | --- |
+| [*API Spec engagement record*](https://aka.ms/azsdk/onboarding/restapischedule) | 403 |
+| [Swagger-Suppression-Process](https://aka.ms/pr-suppressions) | 403 |
+| [Azure API Review Board](https://aka.ms/azsdk/onboarding/restapischedule) | 403 |
+| [wiki](https://aka.ms/azsdk/onboarding/restapischedule) | 403 |
+| [Open API validation tools](https://aka.ms/swaggertools) | 403 |
 | [Azure Breaking Change Policy](https://aka.ms/AzBreakingChangesPolicy) | 401 |
+| [Schedule a data plane REST API spec review](https://aka.ms/azsdk/onboarding/restapischedule) | 403 |
+| [aka.ms/azsdk/access#request-access-to-rest-api-or-sdk-repositories](https://aka.ms/azsdk/access#request-access-to-rest-api-or-sdk-repositories) | 403 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/.github/PULL_REQUEST_TEMPLATE/sdk_configuration_template.md
+
+| URL | State |
+| --- | --- |
+| [aka.ms/azsdk/access#request-access-to-rest-api-or-sdk-repositories](https://aka.ms/azsdk/access#request-access-to-rest-api-or-sdk-repositories) | 403 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/CONTRIBUTING.md
 
 | URL | State |
 | --- | --- |
 | [Azure Breaking Changes Policy](https://aka.ms/AzBreakingChangesPolicy) | 401 |
+| [here](https://eng.ms/docs/products/azure-developer-experience/design/api-specs/api-specs) | 403 |
+| [Create high-level Azure REST API design](https://eng.ms/docs/products/azure-developer-experience/design/api-design) | 403 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/README.md
 
 | URL | State |
 | --- | --- |
+| [here](https://eng.ms/docs/products/azure-developer-experience/design/api-specs-pr/api-repos) | 403 |
+| [aka.ms/azsdk/join](https://aka.ms/azsdk/join) | 403 |
 | [Product Taxonomy](https://dev.azure.com/msazure/AzureWiki/_wiki/wikis/AzureWiki.wiki/40783/Service-Tree-Product-Taxonomy) | 203 |
 | [Resource Provider Registration](https://armwiki.azurewebsites.net/rp_onboarding/ResourceProviderRegistration.html) | 401 |
+| [Azure SDK - Internal Wiki](https://aka.ms/jointhesdk) | 403 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/SECURITY.md
 
@@ -40,6 +62,15 @@
 | URL | State |
 | --- | --- |
 | [breaking change policy](https://aka.ms/AzBreakingChangesPolicy) | 401 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/FAQ.md
+
+| URL | State |
+| --- | --- |
+| [document](https://eng.ms/docs/products/azure-developer-experience/design/api-specs/api-specs#create-your-rest-api-definition) | 403 |
+| [document](https://eng.ms/docs/products/azure-developer-experience/onboard/access) | 403 |
+| [document](https://eng.ms/docs/products/azure-developer-experience/develop/sdk-generate) | 403 |
+| [document](https://eng.ms/docs/products/azure-developer-experience/design/api-docs) | 403 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/Getting started with OpenAPI specifications.md
 
@@ -68,6 +99,7 @@
 | URL | State |
 | --- | --- |
 | [API scenario file sample](../samplefiles/Microsoft.YourServiceName/stable/YYYY-MM-DD/scenarios/quickStart.yaml) | 404 |
+| [aka.ms/azsdk/support](https://aka.ms/azsdk/support) | 403 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/api-scenario/how-to/QuickStart.md
 
@@ -85,7 +117,11 @@
 
 | URL | State |
 | --- | --- |
+| [troubleshooting REST API documentation](https://eng.ms/docs/products/azure-developer-experience/design/api-docs-troubleshooting) | 403 |
+| [aka.ms/azsdk/pr-brch-deep](https://aka.ms/azsdk/pr-brch-deep) | 403 |
+| [the `summary` section](https://aka.ms/azsdk/pr-brch-deep#summary) | 403 |
 | [cspell configuration](https://cspell.org/configuration/) | 404 |
+| [suppression guide](https://aka.ms/pr-suppressions) | 403 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/code-gen/configure-cli.md
 
@@ -117,6 +153,13 @@
 | --- | --- |
 | [SDK Automation Pipeline Framework](../sdkautomation/README.md) | 404 |
 
+* https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/onboard-dpg-in-sdkautomation/README.md
+
+| URL | State |
+| --- | --- |
+| [Guide to design and creation of Data Plane REST API and Client Libraries](https://aka.ms/azsdk/dpcodegen) | 403 |
+| [Get your PR merged](https://eng.ms/docs/products/azure-developer-experience/design/api-specs-pr/api-specs-pr?tabs=dataplane) | 403 |
+
 * https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/onboard-dpg-in-sdkautomation/add-autorest-configuration-for-dataplane-sdk.md
 
 | URL | State |
@@ -127,6 +170,7 @@
 
 | URL | State |
 | --- | --- |
+| [Review process](https://eng.ms/docs/products/azure-developer-experience/develop/namespace-review) | 403 |
 | [api-specs.yaml in SDK repository](https://github.com/Azure/azure-sdk-for-java/blob/main/eng/mgmt/automation/api-specs.yaml) | 404 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/onboard-dpg-in-sdkautomation/js/README.md
@@ -145,6 +189,7 @@
 
 | URL | State |
 | --- | --- |
+| [suppression process](https://aka.ms/pr-suppressions) | 403 |
 | [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
 | [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
 | [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
@@ -152,11 +197,6 @@
 | [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
 | [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
 | [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
-| [Error vs. Warning](#error-vs-warning) | 429 |
-| [Automated Rules](#automated-rules) | 429 |
-| [ARM](#arm-violations) | 429 |
-| [Errors](#arm-errors) | 429 |
-| [Warnings](#arm-warnings) | 429 |
 | [SDK](#sdk-violations) | 429 |
 | [Errors](#sdk-errors) | 429 |
 | [Warnings](#sdk-warnings) | 429 |
@@ -1127,6 +1167,12 @@
 | [`x-ms-mutability` extension](https://github.com/Azure/autorest/tree/master/docs/extensions#x-ms-mutability) | 429 |
 | [here](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md#external-documentation-object) | 429 |
 
+* https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/release-request/rules-for-release-request.md
+
+| URL | State |
+| --- | --- |
+| [azsdk/releases/partnerinfo](https://aka.ms/azsdk/releases/partnerinfo) | 403 |
+
 * https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/restler/MakeTestProxyRecording.md
 
 | URL | State |
@@ -1142,9 +1188,11 @@
 
 | URL | State |
 | --- | --- |
+| [aka.ms/azsdk/typespec](https://aka.ms/azsdk/typespec) | 403 |
 | [dataplane samples for single client](samplefiles-dp-for-single-client) | 429 |
 | [dataplane samples for multi client](samplefiles-dp-for-multi-client) | 429 |
 | [aka.ms/azsdk/spec-dirs#advanced-scenario-service-group](https://aka.ms/azsdk/spec-dirs#advanced-scenario-service-group) | 429 |
+| [aka.ms/azsdk/autorest](https://aka.ms/azsdk/autorest) | 403 |
 | [aka.ms/azsdk/spec-dirs](https://aka.ms/azsdk/spec-dirs) | 429 |
 | [`samplefiles`](../samplefiles/ABOUT.md) | 429 |
 
@@ -1164,7 +1212,9 @@
 
 | URL | State |
 | --- | --- |
+| [aka.ms/azsdk/typespec](https://aka.ms/azsdk/typespec) | 403 |
 | [`api-scenario`](../api-scenario/README.md) | 429 |
+| [aka.ms/azsdk/autorest](https://aka.ms/azsdk/autorest) | 403 |
 | [aka.ms/azsdk/spec-dirs](https://aka.ms/azsdk/spec-dirs) | 429 |
 | [`samplefiles-dp`](../samplefiles-dp/ABOUT.md) | 429 |
 
@@ -1341,6 +1391,7 @@
 | [Utilizing feature branches](#utilizing-feature-branches) | 429 |
 | [Publishing specifications](#publishing-specifications) | 429 |
 | [specification](https://aka.ms/azsdk/spec-dirs) | 429 |
+| [aka.ms/azsdk/typespec](aka.ms/azsdk/typespec) | 403 |
 | [sample project](https://github.com/Azure/azure-rest-api-specs/blob/main/specification/contosowidgetmanager/Contoso.WidgetManager/tspconfig.yaml) | 429 |
 | [emitter-package.json](https://github.com/Azure/azure-sdk-for-net/blob/main/eng/emitter-package.json) | 429 |
 | [TypeSpec-Project-Scripts](https://github.com/Azure/azure-sdk-tools/blob/main/doc/common/TypeSpec-Project-Scripts.md) | 429 |
@@ -2028,6 +2079,12 @@
 | [readme.java.md](./readme.java.md) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
 
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/carbon/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/cdn/resource-manager/readme.md
 
 | URL | State |
@@ -2447,7 +2504,6 @@
 | [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.az.md](./readme.az.md) | 429 |
 | [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
 | [readme.typescript.md](./readme.typescript.md) | 429 |
 | [readme.csharp.md](./readme.csharp.md) | 429 |
 
@@ -2496,7 +2552,6 @@
 | [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.go.md](./readme.go.md) | 429 |
 | [readme.csharp.md](./readme.csharp.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/connectedvmware/resource-manager/readme.md
 
@@ -4394,6 +4449,18 @@
 | [readme.python.md](./readme.python.md) | 429 |
 | [readme.typescript.md](./readme.typescript.md) | 429 |
 | [readme.csharp.md](./readme.csharp.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/onlineexperimentation/data-plane/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/onlineexperimentation/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/operationalinsights/data-plane/readme.md
 
