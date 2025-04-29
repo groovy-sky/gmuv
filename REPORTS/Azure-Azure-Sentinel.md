@@ -19,12 +19,6 @@
 | --- | --- |
 | [Cyble-Threat-Intel-App](./Images/Cyble-Threat-Intel-Logic-App.png) | 404 |
 
-* https://github.com/Azure/Azure-Sentinel/blob/master/DataConnectors/ReadMe.md
-
-| URL | State |
-| --- | --- |
-| [Ship the data connector in a solution](#ship-the-data-connector-in-a-solution) | 0 |
-
 * https://github.com/Azure/Azure-Sentinel/blob/master/DataConnectors/Syslog-VMSS-AMA/README.md
 
 | URL | State |
@@ -205,38 +199,668 @@
 | --- | --- |
 | [AS_Add_Azure_AD_User_Job_Title_to_Incident_Deploy_7](Images/AS_Add_Azure_AD_User_Job_Title_to_Incident_Deploy_7.png) | 404 |
 
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/AS-Blob-Storage-Add-Domains-to-Zscaler-URL-Category/README.md
+
+| URL | State |
+| --- | --- |
+| [Zscaler_Integration_Account_3](Images/Zscaler_Integration_Account_3.png) | 429 |
+| [Zscaler_Integration_Account_4](Images/Zscaler_Integration_Account_4.png) | 429 |
+| [Zscaler_Blob_Storage_1](Images/Zscaler_Blob_Storage_1.png) | 429 |
+| [Zscaler_Blob_Storage_2](Images/Zscaler_Blob_Storage_2.png) | 429 |
+| [Zscaler_Blob_Storage_3](Images/Zscaler_Blob_Storage_3.png) | 429 |
+| [Zscaler_Blob_Storage_4](Images/Zscaler_Blob_Storage_4.png) | 429 |
+| [Zscaler_Deploy_1](Images/Zscaler_Deploy_1.png) | 429 |
+| [Zscaler_Deploy_2](Images/Zscaler_Deploy_2.png) | 429 |
+| [Zscaler_Deploy_3](Images/Zscaler_Deploy_3.png) | 429 |
+| [Zscaler_Deploy_4](Images/Zscaler_Deploy_4.png) | 429 |
+| [Zscaler_Deploy_5](Images/Zscaler_Deploy_5.png) | 429 |
+| [Zscaler_Deploy_6](Images/Zscaler_Deploy_6.png) | 429 |
+| [Zscaler_Deploy_7](Images/Zscaler_Deploy_7.png) | 429 |
+| [Zscaler_Deploy_8](Images/Zscaler_Deploy_8.png) | 429 |
+| [Zscaler_Deploy_9](Images/Zscaler_Deploy_9.png) | 429 |
+| [Zscaler_Deploy_10](Images/Zscaler_Deploy_10.png) | 429 |
+| [Zscaler_Deploy_11](Images/Zscaler_Deploy_11.png) | 429 |
+| [Zscaler_Deploy_12](Images/Zscaler_Deploy_12.png) | 429 |
+| [Zscaler_Deploy_13](Images/Zscaler_Deploy_13.png) | 429 |
+| [Zscaler_Access_1](Images/Zscaler_Access_1.png) | 429 |
+| [Zscaler_Access_2](Images/Zscaler_Access_2.png) | 429 |
+| [Zscaler_Access_3](Images/Zscaler_Access_3.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/AS-Block-GitHub-User/README.md
+
+| URL | State |
+| --- | --- |
+| [BlockGitHubUser_Demo_1](Images/BlockGitHubUser_Demo_1.png) | 429 |
+| [BlockGitHubUser_Demo_2](Images/BlockGitHubUser_Demo_2.png) | 429 |
+| [BlockGitHubUser_Install_GitHub_App_1](Images/BlockGitHubUser_Install_GitHub_App_1.png) | 429 |
+| [BlockGitHubUser_Install_GitHub_App_2](Images/BlockGitHubUser_Install_GitHub_App_2.png) | 429 |
+| [BlockGitHubUser_Install_GitHub_App_3](Images/BlockGitHubUser_Install_GitHub_App_3.png) | 429 |
+| [BlockGitHubUser_Install_GitHub_App_4](Images/BlockGitHubUser_Install_GitHub_App_4.png) | 429 |
+| [BlockGitHubUser_Encode_Private_Key_1](Images/BlockGitHubUser_Encode_Private_Key_1.png) | 429 |
+| [BlockGitHubUser_Key_Vault_Create_Secret_1](Images/BlockGitHubUser_Key_Vault_Create_Secret_1.png) | 429 |
+| [BlockGitHubUser_Key_Vault_Create_Secret_2](Images/BlockGitHubUser_Key_Vault_Create_Secret_2.png) | 429 |
+| [BlockGitHubUser_Key_Vault_Create_Secret_3](Images/BlockGitHubUser_Key_Vault_Create_Secret_3.png) | 429 |
+| [BlockGitHubUser_Configure_VSCode_1](Images/BlockGitHubUser_Configure_VSCode_1.png) | 429 |
+| [BlockGitHubUser_Configure_VSCode_2](Images/BlockGitHubUser_Configure_VSCode_2.png) | 429 |
+| [BlockGitHubUser_Configure_VSCode_3](Images/BlockGitHubUser_Configure_VSCode_3.png) | 429 |
+| [BlockGitHubUser_Configure_VSCode_4](Images/BlockGitHubUser_Configure_VSCode_4.png) | 429 |
+| [BlockGitHubUser_Configure_VSCode_5](Images/BlockGitHubUser_Configure_VSCode_5.png) | 429 |
+| [BlockGitHubUser_Configure_VSCode_6](Images/BlockGitHubUser_Configure_VSCode_6.png) | 429 |
+| [BlockGitHubUser_Configure_VSCode_7](Images/BlockGitHubUser_Configure_VSCode_7.png) | 429 |
+| [BlockGitHubUser_Configure_VSCode_8](Images/BlockGitHubUser_Configure_VSCode_8.png) | 429 |
+| [BlockGitHubUser_Configure_VSCode_9](Images/BlockGitHubUser_Configure_VSCode_9.png) | 429 |
+| [BlockGitHubUser_Configure_VSCode_10](Images/BlockGitHubUser_Configure_VSCode_10.png) | 429 |
+| [BlockGitHubUser_Configure_VSCode_11](Images/BlockGitHubUser_Configure_VSCode_11.png) | 429 |
+| [BlockGitHubUser_Deploy_Azure_Function_1](Images/BlockGitHubUser_Deploy_Azure_Function_1.png) | 429 |
+| [BlockGitHubUser_Deploy_Azure_Function_2](Images/BlockGitHubUser_Deploy_Azure_Function_2.png) | 429 |
+| [BlockGitHubUser_Deploy_Azure_Function_3](Images/BlockGitHubUser_Deploy_Azure_Function_3.png) | 429 |
+| [BlockGitHubUser_Deploy_Azure_Function_4](Images/BlockGitHubUser_Deploy_Azure_Function_4.png) | 429 |
+| [BlockGitHubUser_Deploy_1](Images/BlockGitHubUser_Deploy_1.png) | 429 |
+| [BlockGitHubUser_Deploy_2](Images/BlockGitHubUser_Deploy_2.png) | 429 |
+| [BlockGitHubUser_Deploy_3](Images/BlockGitHubUser_Deploy_3.png) | 429 |
+| [BlockGitHubUser_Key_Vault_Access_1](Images/BlockGitHubUser_Key_Vault_Access_1.png) | 429 |
+| [BlockGitHubUser_Key_Vault_Access_2](Images/BlockGitHubUser_Key_Vault_Access_2.png) | 429 |
+| [BlockGitHubUser_Key_Vault_Access_3](Images/BlockGitHubUser_Key_Vault_Access_3.png) | 429 |
+| [BlockGitHubUser_Key_Vault_Access_4](Images/BlockGitHubUser_Key_Vault_Access_4.png) | 429 |
+| [BlockGitHubUser_Add_Contributor_Role_1](Images/BlockGitHubUser_Add_Contributor_Role_1.png) | 429 |
+| [BlockGitHubUser_Add_Contributor_Role_2](Images/BlockGitHubUser_Add_Contributor_Role_2.png) | 429 |
+| [BlockGitHubUser_Add_Contributor_Role_3](Images/BlockGitHubUser_Add_Contributor_Role_3.png) | 429 |
+| [BlockGitHubUser_Add_Contributor_Role_4](Images/BlockGitHubUser_Add_Contributor_Role_4.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/AS-Block-Hash-in-Defender/README.md
+
+| URL | State |
+| --- | --- |
+| [BlockHashInDefender_Demo_1](Images/BlockHashInDefender_Demo_1.png) | 429 |
+| [BlockHashInDefender_Demo_2](Images/BlockHashInDefender_Demo_2.png) | 429 |
+| [BlockHashInDefender_App_Registration_1](Images/BlockHashInDefender_App_Registration_1.png) | 429 |
+| [BlockHashInDefender_App_Registration_2](Images/BlockHashInDefender_App_Registration_2.png) | 429 |
+| [BlockHashInDefender_App_Registration_3](Images/BlockHashInDefender_App_Registration_3.png) | 429 |
+| [BlockHashInDefender_App_Registration_4](Images/BlockHashInDefender_App_Registration_4.png) | 429 |
+| [BlockHashInDefender_App_Registration_5](Images/BlockHashInDefender_App_Registration_5.png) | 429 |
+| [BlockHashInDefender_App_Registration_6](Images/BlockHashInDefender_App_Registration_6.png) | 429 |
+| [BlockHashInDefender_App_Registration_7](Images/BlockHashInDefender_App_Registration_7.png) | 429 |
+| [BlockHashInDefender_App_Registration_8](Images/BlockHashInDefender_App_Registration_8.png) | 429 |
+| [BlockHashInDefender_App_Registration_9](Images/BlockHashInDefender_App_Registration_9.png) | 429 |
+| [BlockHashInDefender_App_Registration_10](Images/BlockHashInDefender_App_Registration_10.png) | 429 |
+| [BlockHashInDefender_Key_Vault_1](Images/BlockHashInDefender_Key_Vault_1.png) | 429 |
+| [BlockHashInDefender_Key_Vault_2](Images/BlockHashInDefender_Key_Vault_2.png) | 429 |
+| [BlockHashInDefender_Key_Vault_3](Images/BlockHashInDefender_Key_Vault_3.png) | 429 |
+| [BlockHashInDefender_Deploy_1](Images/BlockHashInDefender_Deploy_1.png) | 429 |
+| [BlockHashInDefender_Deploy_2](Images/BlockHashInDefender_Deploy_2.png) | 429 |
+| [BlockHashInDefender_Deploy_3](Images/BlockHashInDefender_Deploy_3.png) | 429 |
+| [BlockHashInDefender_Key_Vault_Access_1](Images/BlockHashInDefender_Key_Vault_Access_1.png) | 429 |
+| [BlockHashInDefender_Key_Vault_Access_2](Images/BlockHashInDefender_Key_Vault_Access_2.png) | 429 |
+| [BlockHashInDefender_Key_Vault_Access_3](Images/BlockHashInDefender_Key_Vault_Access_3.png) | 429 |
+| [BlockHashInDefender_Key_Vault_Access_4](Images/BlockHashInDefender_Key_Vault_Access_4.png) | 429 |
+| [BlockHashInDefender_Add_Contributor_Role_1](Images/BlockHashInDefender_Add_Contributor_Role_1.png) | 429 |
+| [BlockHashInDefender_Add_Contributor_Role_2](Images/BlockHashInDefender_Add_Contributor_Role_2.png) | 429 |
+| [BlockHashInDefender_Add_Contributor_Role_3](Images/BlockHashInDefender_Add_Contributor_Role_3.png) | 429 |
+| [BlockHashInDefender_Add_Contributor_Role_4](Images/BlockHashInDefender_Add_Contributor_Role_4.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/AS-Clear-Okta-Network-Zone-List/README.md
+
+| URL | State |
+| --- | --- |
+| [NetworkZone_Demo_1](Images/NetworkZone_Demo_1.png) | 429 |
+| [NetworkZone_Key_Vault_1](Images/NetworkZone_Key_Vault_1.png) | 429 |
+| [NetworkZone_Key_Vault_2](Images/NetworkZone_Key_Vault_2.png) | 429 |
+| [NetworkZone_Key_Vault_3](Images/NetworkZone_Key_Vault_3.png) | 429 |
+| [NetworkZone_Deploy_1](Images/NetworkZone_Deploy_1.png) | 429 |
+| [NetworkZone_Deploy_2](Images/NetworkZone_Deploy_2.png) | 429 |
+| [NetworkZone_Deploy_3](Images/NetworkZone_Deploy_3.png) | 429 |
+| [NetworkZone_Access_1](Images/NetworkZone_Access_1.png) | 429 |
+| [NetworkZone_Access_2](Images/NetworkZone_Access_2.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/AS-Disable-Microsoft-Entra-ID-User-From-Entity/README.md
+
+| URL | State |
+| --- | --- |
+| [Azure_AD_Disable_User_Key_Vault_1](Images/Azure_AD_Disable_User_Key_Vault_1.png) | 429 |
+| [Azure_AD_Disable_User_Key_Vault_2](Images/Azure_AD_Disable_User_Key_Vault_2.png) | 429 |
+| [Azure_AD_Disable_User_Key_Vault_3](Images/Azure_AD_Disable_User_Key_Vault_3.png) | 429 |
+| [Azure_AD_Disable_User_Deploy_1](Images/Azure_AD_Disable_User_Deploy_1.png) | 429 |
+| [Azure_AD_Disable_User_Deploy_2](Images/Azure_AD_Disable_User_Deploy_2.png) | 429 |
+| [Azure_AD_Disable_User_Deploy_3](Images/Azure_AD_Disable_User_Deploy_3.png) | 429 |
+| [Azure_AD_Disable_User_Key_Vault_Access_1](Images/Azure_AD_Disable_User_Key_Vault_Access_1.png) | 429 |
+| [Azure_AD_Disable_User_Key_Vault_Access_2](Images/Azure_AD_Disable_User_Key_Vault_Access_2.png) | 429 |
+| [Azure_AD_Disable_User_Key_Vault_Access_3](Images/Azure_AD_Disable_User_Key_Vault_Access_3.png) | 429 |
+| [Azure_AD_Disable_User_Key_Vault_Access_4](Images/Azure_AD_Disable_User_Key_Vault_Access_4.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/AS-Edgescan-Integration/README.md
+
+| URL | State |
+| --- | --- |
+| [Edgescan_Integration_Demo_1](Images/Edgescan_Integration_Demo_1.png) | 429 |
+| [Edgescan_Integration_URL_1](Images/Edgescan_Integration_URL_1.png) | 429 |
+| [Edgescan_Integration_API_Token_1](Images/Edgescan_Integration_API_Token_1.png) | 429 |
+| [Edgescan_Integration_API_Token_2](Images/Edgescan_Integration_API_Token_2.png) | 429 |
+| [Edgescan_Integration_API_Token_3](Images/Edgescan_Integration_API_Token_3.png) | 429 |
+| [Edgescan_Integration_Key_Vault_1](Images/Edgescan_Integration_Key_Vault_1.png) | 429 |
+| [Edgescan_Integration_Key_Vault_2](Images/Edgescan_Integration_Key_Vault_2.png) | 429 |
+| [Edgescan_Integration_Key_Vault_3](Images/Edgescan_Integration_Key_Vault_3.png) | 429 |
+| [Edgescan_Integration_Deploy_1](Images/Edgescan_Integration_Deploy_1.png) | 429 |
+| [Edgescan_Integration_Deploy_2](Images/Edgescan_Integration_Deploy_2.png) | 429 |
+| [Edgescan_Integration_Deploy_3](Images/Edgescan_Integration_Deploy_3.png) | 429 |
+| [Edgescan_Integration_Deploy_4](Images/Edgescan_Integration_Deploy_4.png) | 429 |
+| [Edgescan_Integration_Deploy_5](Images/Edgescan_Integration_Deploy_5.png) | 429 |
+| [Edgescan_Integration_Deploy_6](Images/Edgescan_Integration_Deploy_6.png) | 429 |
+| [Edgescan_Integration_Deploy_7](Images/Edgescan_Integration_Deploy_7.png) | 429 |
+| [Edgescan_Integration_Deploy_8](Images/Edgescan_Integration_Deploy_8.png) | 429 |
+| [Edgescan_Integration_Deploy_9](Images/Edgescan_Integration_Deploy_9.png) | 429 |
+| [Edgescan_Integration_Limit_1](Images/Edgescan_Integration_Limit_1.png) | 429 |
+| [Edgescan_Integration_Limit_2](Images/Edgescan_Integration_Limit_2.png) | 429 |
+| [Edgescan_Integration_Key_Vault_Access_1](Images/Edgescan_Integration_Key_Vault_Access_1.png) | 429 |
+| [Edgescan_Integration_Key_Vault_Access_2](Images/Edgescan_Integration_Key_Vault_Access_2.png) | 429 |
+| [Edgescan_Integration_Key_Vault_Access_3](Images/Edgescan_Integration_Key_Vault_Access_3.png) | 429 |
+| [Edgescan_Integration_Key_Vault_Access_4](Images/Edgescan_Integration_Key_Vault_Access_4.png) | 429 |
+| [Edgescan_Integration_Initial_Run_1](Images/Edgescan_Integration_Initial_Run_1.png) | 429 |
+| [Edgescan_Integration_Initial_Run_2](Images/Edgescan_Integration_Initial_Run_2.png) | 429 |
+| [Edgescan_Integration_Custom_Logs_1](Images/Edgescan_Integration_Custom_Logs_1.png) | 429 |
+| [Edgescan_Integration_Final_Set_Up_1](Images/Edgescan_Integration_Final_Set_Up_1.png) | 429 |
+| [Edgescan_Integration_Final_Set_Up_2](Images/Edgescan_Integration_Final_Set_Up_2.png) | 429 |
+| [Edgescan_Integration_Final_Set_Up_3](Images/Edgescan_Integration_Final_Set_Up_3.png) | 429 |
+| [Edgescan_Integration_Final_Set_Up_4](Images/Edgescan_Integration_Final_Set_Up_4.png) | 429 |
+| [Edgescan_Integration_Final_Set_Up_5](Images/Edgescan_Integration_Final_Set_Up_5.png) | 429 |
+| [Edgescan_Integration_Final_Set_Up_6](Images/Edgescan_Integration_Final_Set_Up_6.png) | 429 |
+| [Edgescan_Integration_Final_Set_Up_7](Images/Edgescan_Integration_Final_Set_Up_7.png) | 429 |
+| [Edgescan_Integration_Final_Set_Up_8](Images/Edgescan_Integration_Final_Set_Up_8.png) | 429 |
+| [Edgescan_Integration_Final_Set_Up_9](Images/Edgescan_Integration_Final_Set_Up_9.png) | 429 |
+
 * https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/AS-Enable-Microsoft-Entra-ID-User-From-Entity/README.md
 
 | URL | State |
 | --- | --- |
+| [Azure_AD_Enable_User_Demo_1](Images/Azure_AD_Enable_User_Demo_1.png) | 429 |
+| [Azure_AD_Enable_User_Demo_2](Images/Azure_AD_Enable_User_Demo_2.png) | 429 |
+| [Azure_AD_Enable_User_App_Registration_1](Images/Azure_AD_Enable_User_App_Registration_1.png) | 429 |
+| [Azure_AD_Enable_User_App_Registration_2](Images/Azure_AD_Enable_User_App_Registration_2.png) | 429 |
+| [Azure_AD_Enable_User_App_Registration_3](Images/Azure_AD_Enable_User_App_Registration_3.png) | 429 |
+| [Azure_AD_Enable_User_App_Registration_4](Images/Azure_AD_Enable_User_App_Registration_4.png) | 429 |
+| [Azure_AD_Enable_User_App_Registration_5](Images/Azure_AD_Enable_User_App_Registration_5.png) | 429 |
+| [Azure_AD_Enable_User_App_Registration_6](Images/Azure_AD_Enable_User_App_Registration_6.png) | 429 |
+| [Azure_AD_Enable_User_App_Registration_7](Images/Azure_AD_Enable_User_App_Registration_7.png) | 429 |
+| [Azure_AD_Enable_User_App_Registration_8](Images/Azure_AD_Enable_User_App_Registration_8.png) | 429 |
+| [Azure_AD_Enable_User_App_Registration_9](Images/Azure_AD_Enable_User_App_Registration_9.png) | 429 |
+| [Azure_AD_Enable_User_App_Registration_10](Images/Azure_AD_Enable_User_App_Registration_10.png) | 429 |
 | [Create an Azure Key Vault Secret](https://github.com/Accelerynt-Security/AS-Disable-Microsoft-Entra-ID-User-From-Entity#create-an-azure-key-vault-secret) | 404 |
+| [Azure_AD_Enable_User_App_Registration_11](Images/Azure_AD_Enable_User_App_Registration_11.png) | 429 |
+| [Azure_AD_Enable_User_Key_Vault_1](Images/Azure_AD_Enable_User_Key_Vault_1.png) | 429 |
+| [Azure_AD_Enable_User_Key_Vault_2](Images/Azure_AD_Enable_User_Key_Vault_2.png) | 429 |
+| [Azure_AD_Enable_User_Key_Vault_3](Images/Azure_AD_Enable_User_Key_Vault_3.png) | 429 |
+| [Azure_AD_Enable_User_Deploy_1](Images/Azure_AD_Enable_User_Deploy_1.png) | 429 |
+| [Azure_AD_Enable_User_Deploy_2](Images/Azure_AD_Enable_User_Deploy_2.png) | 429 |
+| [Azure_AD_Enable_User_Deploy_3](Images/Azure_AD_Enable_User_Deploy_3.png) | 429 |
+| [Azure_AD_Enable_User_Key_Vault_Access_1](Images/Azure_AD_Enable_User_Key_Vault_Access_1.png) | 429 |
+| [Azure_AD_Enable_User_Key_Vault_Access_2](Images/Azure_AD_Enable_User_Key_Vault_Access_2.png) | 429 |
+| [Azure_AD_Enable_User_Key_Vault_Access_3](Images/Azure_AD_Enable_User_Key_Vault_Access_3.png) | 429 |
+| [Azure_AD_Enable_User_Key_Vault_Access_4](Images/Azure_AD_Enable_User_Key_Vault_Access_4.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/AS-IAM-Entra-ID-Master-Playbook/AS-IP-Blocklist-HTTP/README.md
+
+| URL | State |
+| --- | --- |
+| [NamedLocations_Demo](Images/NamedLocations_Demo.png) | 429 |
+| [NamedLocations_Create_List_1](Images/NamedLocations_Create_List_1.png) | 429 |
+| [NamedLocations_Create_List_2](Images/NamedLocations_Create_List_2.png) | 429 |
+| [NamedLocations_Create_List_3](Images/NamedLocations_Create_List_3.png) | 429 |
+| [NamedLocations_Create_App_Registration_1](Images/NamedLocations_Create_App_Registration_1.png) | 429 |
+| [NamedLocations_Create_App_Registration_2](Images/NamedLocations_Create_App_Registration_2.png) | 429 |
+| [NamedLocations_Create_App_Registration_3](Images/NamedLocations_Create_App_Registration_3.png) | 429 |
+| [NamedLocations_Create_App_Registration_4](Images/NamedLocations_Create_App_Registration_4.png) | 429 |
+| [NamedLocations_Create_App_Registration_5_consent](Images/NamedLocations_Create_App_Registration_5_consent.png) | 429 |
+| [NamedLocations_Create_App_Registration_5](Images/NamedLocations_Create_App_Registration_5.png) | 429 |
+| [NamedLocations_Create_App_Registration_6](Images/NamedLocations_Create_App_Registration_6.png) | 429 |
+| [NamedLocations_Create_App_Registration_7](Images/NamedLocations_Create_App_Registration_7.png) | 429 |
+| [NamedLocations_Key_Vault_1](Images/NamedLocations_Key_Vault_1.png) | 429 |
+| [NamedLocations_Key_Vault_2](Images/NamedLocations_Key_Vault_2.png) | 429 |
+| [NamedLocations_Key_Vault_3](Images/NamedLocations_Key_Vault_3.png) | 429 |
+| [NamedLocations_Deploy_1](Images/NamedLocations_Deploy_1.png) | 429 |
+| [NamedLocations_Deploy_2](Images/NamedLocations_Deploy_2.png) | 429 |
+| [NamedLocations_Deploy_3](Images/NamedLocations_Deploy_3.png) | 429 |
+| [NamedLocations_Access_1](Images/NamedLocations_Access_1.png) | 429 |
+| [NamedLocations_Access_2](Images/NamedLocations_Access_2.png) | 429 |
+| [NamedLocations_Access_3](Images/NamedLocations_Access_3.png) | 429 |
+| [NamedLocations_Add_Contributor_Role_1](Images/NamedLocations_Add_Contributor_Role_1.png) | 429 |
+| [NamedLocations_Add_Contributor_Role_2](Images/NamedLocations_Add_Contributor_Role_2.png) | 429 |
+| [NamedLocations_Add_Contributor_Role_3](Images/NamedLocations_Add_Contributor_Role_3.png) | 429 |
+| [NamedLocations_Add_Contributor_Role_4](Images/NamedLocations_Add_Contributor_Role_4.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/AS-IAM-Entra-ID-Master-Playbook/AS-Microsoft-Entra-ID-Revoke-User-Sessions-HTTP/README.md
+
+| URL | State |
+| --- | --- |
+| [RevokeUserSession_Demo_1](Images/RevokeUserSession_Demo_1.png) | 429 |
+| [RevokeUserSession_Demo_2](Images/RevokeUserSession_Demo_2.png) | 429 |
+| [RevokeUserSession_App_Registration_1](Images/RevokeUserSession_App_Registration_1.png) | 429 |
+| [RevokeUserSession_App_Registration_2](Images/RevokeUserSession_App_Registration_2.png) | 429 |
+| [RevokeUserSession_App_Registration_3](Images/RevokeUserSession_App_Registration_3.png) | 429 |
+| [RevokeUserSession_App_Registration_4](Images/RevokeUserSession_App_Registration_4.png) | 429 |
+| [RevokeUserSession_App_Registration_5](Images/RevokeUserSession_App_Registration_5.png) | 429 |
+| [RevokeUserSession_App_Registration_6](Images/RevokeUserSession_App_Registration_6.png) | 429 |
+| [RevokeUserSession_App_Registration_7](Images/RevokeUserSession_App_Registration_7.png) | 429 |
+| [RevokeUserSession_App_Registration_8](Images/RevokeUserSession_App_Registration_8.png) | 429 |
+| [RevokeUserSession_App_Registration_9](Images/RevokeUserSession_App_Registration_9.png) | 429 |
+| [RevokeUserSession_App_Registration_10](Images/RevokeUserSession_App_Registration_10.png) | 429 |
+| [RevokeUserSession_Key_Vault_1](Images/RevokeUserSession_Key_Vault_1.png) | 429 |
+| [RevokeUserSession_Key_Vault_2](Images/RevokeUserSession_Key_Vault_2.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/AS-IAM-Master-Playbook/README.md
+
+| URL | State |
+| --- | --- |
+| [MasterPlaybook_Demo_1](Images/MasterPlaybook_Demo_1.png) | 429 |
+| [MasterPlaybook_Demo_2](Images/MasterPlaybook_Demo_2.png) | 429 |
+| [MasterPlaybook_Deploy_1](Images/MasterPlaybook_Deploy_1.png) | 429 |
+| [MasterPlaybook_Deploy_2](Images/MasterPlaybook_Deploy_2.png) | 429 |
+| [MasterPlaybook_Deploy_3](Images/MasterPlaybook_Deploy_3.png) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/AS-IP-Blocklist-Remove-IPs/README.md
 
 | URL | State |
 | --- | --- |
+| [NamedLocations_Demo](Images/NamedLocations_Demo.png) | 429 |
 | [Named Locations List](https://github.com/%2FAzure%2FAzure-Sentinel%2Fmaster%2FPlaybooks%2FAS-IP-Blocklist-Remove-IPs%2Fcreate-a-named-locations-list) | 404 |
 | [App Registration](https://github.com/%2FAzure%2FAzure-Sentinel%2Fmaster%2FPlaybooks%2FAS-IP-Blocklist-Remove-IPs%2Fcreate-an-app-registration) | 404 |
 | [Azure Key Vault Secret](https://github.com/%2FAzure%2FAzure-Sentinel%2Fmaster%2FPlaybooks%2FAS-IP-Blocklist-Remove-IPs%2Fcreate-an-azure-key-vault-secret) | 404 |
+| [NamedLocations_Create_List_1](Images/NamedLocations_Create_List_1.png) | 429 |
+| [NamedLocations_Create_List_2](Images/NamedLocations_Create_List_2.png) | 429 |
+| [NamedLocations_Create_List_3](Images/NamedLocations_Create_List_3.png) | 429 |
+| [NamedLocations_Create_App_Registration_1](Images/NamedLocations_Create_App_Registration_1.png) | 429 |
+| [NamedLocations_Create_App_Registration_2](Images/NamedLocations_Create_App_Registration_2.png) | 429 |
+| [NamedLocations_Create_App_Registration_3](Images/NamedLocations_Create_App_Registration_3.png) | 429 |
+| [NamedLocations_Create_App_Registration_4](Images/NamedLocations_Create_App_Registration_4.png) | 429 |
+| [NamedLocations_Create_App_Registration_5](Images/NamedLocations_Create_App_Registration_5.png) | 429 |
+| [NamedLocations_Create_App_Registration_6](Images/NamedLocations_Create_App_Registration_6.png) | 429 |
+| [NamedLocations_Create_App_Registration_7](Images/NamedLocations_Create_App_Registration_7.png) | 429 |
+| [NamedLocations_Create_App_Registration_8](Images/NamedLocations_Create_App_Registration_8.png) | 429 |
+| [NamedLocations_Create_App_Registration_9](Images/NamedLocations_Create_App_Registration_9.png) | 429 |
 | [Create an Azure Key Vault Secret](https://github.com/%2FAzure%2FAzure-Sentinel%2Fmaster%2FPlaybooks%2FAS-IP-Blocklist-Remove-IPs%2Fcreate-an-azure-key-vault-secret) | 404 |
+| [NamedLocations_Create_App_Registration_10](Images/NamedLocations_Create_App_Registration_10.png) | 429 |
+| [NamedLocations_Key_Vault_1](Images/NamedLocations_Key_Vault_1.png) | 429 |
+| [NamedLocations_Key_Vault_2](Images/NamedLocations_Key_Vault_2.png) | 429 |
 | [Granting Access to Azure Key Vault](https://github.com/%2FAzure%2FAzure-Sentinel%2Fmaster%2FPlaybooks%2FAS-IP-Blocklist-Remove-IPs%2Fgranting-access-to-azure-key-vault) | 404 |
+| [NamedLocations_Key_Vault_3](Images/NamedLocations_Key_Vault_3.png) | 429 |
 | [Create a Named Locations list](https://github.com/%2FAzure%2FAzure-Sentinel%2Fmaster%2FPlaybooks%2FAS-IP-Blocklist-Remove-IPs%2Fcreate-a-named-locations-list) | 404 |
 | [Create a Named Locations list](https://github.com/%2FAzure%2FAzure-Sentinel%2Fmaster%2FPlaybooks%2FAS-IP-Blocklist-Remove-IPs%2Fcreate-a-named-locations-list) | 404 |
 | [Create an App Registration](https://github.com/%2FAzure%2FAzure-Sentinel%2Fmaster%2FPlaybooks%2FAS-IP-Blocklist-Remove-IPs%2Fcreate-an-app-registration) | 404 |
 | [Create an App Registration](https://github.com/%2FAzure%2FAzure-Sentinel%2Fmaster%2FPlaybooks%2FAS-IP-Blocklist-Remove-IPs%2Fcreate-an-app-registration) | 404 |
 | [Create an Azure Key Vault Secret](https://github.com/%2FAzure%2FAzure-Sentinel%2Fmaster%2FPlaybooks%2FAS-IP-Blocklist-Remove-IPs%2Fcreate-an-azure-key-vault-secret) | 404 |
 | [Create an Azure Key Vault Secret](https://github.com/%2FAzure%2FAzure-Sentinel%2Fmaster%2FPlaybooks%2FAS-IP-Blocklist-Remove-IPs%2Fcreate-an-azure-key-vault-secret) | 404 |
+| [NamedLocations_Deploy_1](Images/NamedLocations_Deploy_1.png) | 429 |
+| [NamedLocations_Deploy_2](Images/NamedLocations_Deploy_2.png) | 429 |
+| [NamedLocations_Deploy_3](Images/NamedLocations_Deploy_3.png) | 429 |
+| [NamedLocations_Access_1](Images/NamedLocations_Access_1.png) | 429 |
+| [NamedLocations_Access_2](Images/NamedLocations_Access_2.png) | 429 |
+| [NamedLocations_Access_3](Images/NamedLocations_Access_3.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/AS-IP-Blocklist/README.md
+
+| URL | State |
+| --- | --- |
+| [NamedLocations_Demo](Images/NamedLocations_Demo.png) | 429 |
+| [NamedLocations_Create_List_1](Images/NamedLocations_Create_List_1.png) | 429 |
+| [NamedLocations_Create_List_2](Images/NamedLocations_Create_List_2.png) | 429 |
+| [NamedLocations_Create_List_3](Images/NamedLocations_Create_List_3.png) | 429 |
+| [NamedLocations_Create_App_Registration_1](Images/NamedLocations_Create_App_Registration_1.png) | 429 |
+| [NamedLocations_Create_App_Registration_2](Images/NamedLocations_Create_App_Registration_2.png) | 429 |
+| [NamedLocations_Create_App_Registration_3](Images/NamedLocations_Create_App_Registration_3.png) | 429 |
+| [NamedLocations_Create_App_Registration_4](Images/NamedLocations_Create_App_Registration_4.png) | 429 |
+| [NamedLocations_Create_App_Registration_5_consent](Images/NamedLocations_Create_App_Registration_5_consent.png) | 429 |
+| [NamedLocations_Create_App_Registration_5](Images/NamedLocations_Create_App_Registration_5.png) | 429 |
+| [NamedLocations_Create_App_Registration_6](Images/NamedLocations_Create_App_Registration_6.png) | 429 |
+| [NamedLocations_Create_App_Registration_7](Images/NamedLocations_Create_App_Registration_7.png) | 429 |
+| [NamedLocations_Key_Vault_1](Images/NamedLocations_Key_Vault_1.png) | 429 |
+| [NamedLocations_Key_Vault_2](Images/NamedLocations_Key_Vault_2.png) | 429 |
+| [NamedLocations_Key_Vault_3](Images/NamedLocations_Key_Vault_3.png) | 429 |
+| [NamedLocations_Deploy_1](Images/NamedLocations_Deploy_1.png) | 429 |
+| [NamedLocations_Deploy_2](Images/NamedLocations_Deploy_2.png) | 429 |
+| [NamedLocations_Deploy_3](Images/NamedLocations_Deploy_3.png) | 429 |
+| [NamedLocations_Deploy_4](Images/NamedLocations_Deploy_4.png) | 429 |
+| [NamedLocations_Deploy_5](Images/NamedLocations_Deploy_5.png) | 429 |
+| [NamedLocations_Deploy_6](Images/NamedLocations_Deploy_6.png) | 429 |
+| [NamedLocations_Deploy_7](Images/NamedLocations_Deploy_7.png) | 429 |
+| [NamedLocations_Deploy_8](Images/NamedLocations_Deploy_8.png) | 429 |
+| [NamedLocations_Access_1](Images/NamedLocations_Access_1.png) | 429 |
+| [NamedLocations_Access_2](Images/NamedLocations_Access_2.png) | 429 |
+| [NamedLocations_Access_3](Images/NamedLocations_Access_3.png) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/AS-Import-Azure-AD-Group-Users-to-MS-Watchlist/README.md
 
 | URL | State |
 | --- | --- |
+| [AS_Group_Watchlist_Demo](Images/AS_Group_Watchlist_Demo.png) | 429 |
 | [Azure Active Directory group Id](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks/AS-Import-AD-Group-Users-to-MS-Watchlist#azure-active-directory-group-id) | 404 |
 | [Microsoft Sentinel watchlist](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks/AS-Import-AD-Group-Users-to-MS-Watchlist#create-a-microsoft-sentinel-watchlist) | 404 |
 | [Microsoft Sentinel workspace Id](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks/AS-Import-AD-Group-Users-to-MS-Watchlist#microsoft-sentinel-workspace-id) | 404 |
+| [AS_Group_Watchlist_Group_Id_1](Images/AS_Group_Watchlist_Group_Id_1.png) | 429 |
+| [AS_Group_Watchlist_Group_Id_2](Images/AS_Group_Watchlist_Group_Id_2.png) | 429 |
+| [AS_Group_Watchlist_Create_Watchlist_2](Images/AS_Group_Watchlist_Create_Watchlist_2.png) | 429 |
+| [AS_Group_Watchlist_Create_Watchlist_3](Images/AS_Group_Watchlist_Create_Watchlist_3.png) | 429 |
+| [AS_Group_Watchlist_Create_Watchlist_4](Images/AS_Group_Watchlist_Create_Watchlist_4.png) | 429 |
+| [AS_Group_Watchlist_Create_Watchlist_5](Images/AS_Group_Watchlist_Create_Watchlist_5.png) | 429 |
+| [AS_Group_Watchlist_Create_Watchlist_6](Images/AS_Group_Watchlist_Create_Watchlist_6.png) | 429 |
+| [AS_Group_Watchlist_Create_Watchlist_7](Images/AS_Group_Watchlist_Create_Watchlist_7.png) | 429 |
+| [AS_Group_Watchlist_Workspace_Id_1](Images/AS_Group_Watchlist_Workspace_Id_1.png) | 429 |
+| [AS_Group_Watchlist_Workspace_Id_2](Images/AS_Group_Watchlist_Workspace_Id_2.png) | 429 |
 | [Azure Active Directory group Id](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks/AS-Import-AD-Group-Users-to-MS-Watchlist#azure-active-directory-group-id) | 404 |
 | [Create a Microsoft Sentinel Watchlist](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks/AS-Import-AD-Group-Users-to-MS-Watchlist#create-a-microsoft-sentinel-watchlist) | 404 |
 | [Microsoft Sentinel workspace Id](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks/AS-Import-AD-Group-Users-to-MS-Watchlist#microsoft-sentinel-workspace-id) | 404 |
+| [AS_Group_Watchlist_Deploy_1](Images/AS_Group_Watchlist_Deploy_1.png) | 429 |
+| [AS_Group_Watchlist_Deploy_2](Images/AS_Group_Watchlist_Deploy_2.png) | 429 |
+| [AS_Group_Watchlist_Deploy_3](Images/AS_Group_Watchlist_Deploy_3.png) | 429 |
+| [AS_Group_Watchlist_Deploy_4](Images/AS_Group_Watchlist_Deploy_4.png) | 429 |
+| [AS_Group_Watchlist_Deploy_5](Images/AS_Group_Watchlist_Deploy_5.png) | 429 |
+| [AS_Group_Watchlist_Deploy_6](Images/AS_Group_Watchlist_Deploy_6.png) | 429 |
+| [AS_Group_Watchlist_Deploy_7](Images/AS_Group_Watchlist_Deploy_7.png) | 429 |
+| [AS_Group_Watchlist_Deploy_8](Images/AS_Group_Watchlist_Deploy_8.png) | 429 |
+| [AS_Group_Watchlist_Deploy_9](Images/AS_Group_Watchlist_Deploy_9.png) | 429 |
+| [AS_Group_Watchlist_Add_Role_1](Images/AS_Group_Watchlist_Add_Role_1.png) | 429 |
+| [AS_Group_Watchlist_Add_Role_2](Images/AS_Group_Watchlist_Add_Role_2.png) | 429 |
+| [AS_Group_Watchlist_Add_Role_3](Images/AS_Group_Watchlist_Add_Role_3.png) | 429 |
+| [AS_Group_Watchlist_Add_Role_4](Images/AS_Group_Watchlist_Add_Role_4.png) | 429 |
+| [AS_Group_Watchlist_View_Watchlist_2](Images/AS_Group_Watchlist_View_Watchlist_2.png) | 429 |
+| [AS_Group_Watchlist_View_Watchlist_3](Images/AS_Group_Watchlist_View_Watchlist_3.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/AS-Incident-Host-Exposure-Level/README.md
+
+| URL | State |
+| --- | --- |
+| [ExposureLevel_Demo](Images/ExposureLevel_Demo.png) | 429 |
+| [ExposureLevel_Prereq](Images/ExposureLevel_Prereq.png) | 429 |
+| [ExposureLevel_Add_Role_1](Images/ExposureLevel_Add_Role_1.png) | 429 |
+| [ExposureLevel_Add_Role_2](Images/ExposureLevel_Add_Role_2.png) | 429 |
+| [ExposureLevel_Add_Role_3](Images/ExposureLevel_Add_Role_3.png) | 429 |
+| [ExposureLevel_Add_Role_4](Images/ExposureLevel_Add_Role_4.png) | 429 |
+| [ExposureLevel_Deploy_1](Images/ExposureLevel_Deploy_1.png) | 429 |
+| [ExposureLevel_Deploy_2](Images/ExposureLevel_Deploy_2.png) | 429 |
+| [ExposureLevel_Deploy_3](Images/ExposureLevel_Deploy_3.png) | 429 |
+| [ExposureLevel_Deploy_4](Images/ExposureLevel_Deploy_4.png) | 429 |
+| [ExposureLevel_Deploy_5](Images/ExposureLevel_Deploy_5.png) | 429 |
+| [ExposureLevel_Deploy_6](Images/ExposureLevel_Deploy_6.png) | 429 |
+| [ExposureLevel_Deploy_7](Images/ExposureLevel_Deploy_7.png) | 429 |
+| [ExposureLevel_Run_1](Images/ExposureLevel_Run_1.png) | 429 |
+| [ExposureLevel_Run_2](Images/ExposureLevel_Run_2.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/AS-Incident-IP-Matched-on-Watchlist/README.md
+
+| URL | State |
+| --- | --- |
+| [IPMatchedOnWatchlist_Demo_1](Images/IPMatchedOnWatchlist_Demo_1.png) | 429 |
+| [IPMatchedOnWatchlist_Demo_2](Images/IPMatchedOnWatchlist_Demo_2.png) | 429 |
+| [IPMatchedOnWatchlist_Create_Watchlist_1](Images/IPMatchedOnWatchlist_Create_Watchlist_1.png) | 429 |
+| [IPMatchedOnWatchlist_Create_Watchlist_2](Images/IPMatchedOnWatchlist_Create_Watchlist_2.png) | 429 |
+| [IPMatchedOnWatchlist_Create_Watchlist_3](Images/IPMatchedOnWatchlist_Create_Watchlist_3.png) | 429 |
+| [IPMatchedOnWatchlist_Create_Watchlist_4](Images/IPMatchedOnWatchlist_Create_Watchlist_4.png) | 429 |
+| [IPMatchedOnWatchlist_Create_Watchlist_5](Images/IPMatchedOnWatchlist_Create_Watchlist_5.png) | 429 |
+| [IPMatchedOnWatchlist_Resource_Group_Name_1](Images/IPMatchedOnWatchlist_Resource_Group_Name_1.png) | 429 |
+| [IPMatchedOnWatchlist_Resource_Group_Name_2](Images/IPMatchedOnWatchlist_Resource_Group_Name_2.png) | 429 |
+| [IPMatchedOnWatchlist_Deploy_1](Images/IPMatchedOnWatchlist_Deploy_1.png) | 429 |
+| [IPMatchedOnWatchlist_Deploy_2](Images/IPMatchedOnWatchlist_Deploy_2.png) | 429 |
+| [IPMatchedOnWatchlist_Deploy_3](Images/IPMatchedOnWatchlist_Deploy_3.png) | 429 |
+| [IPMatchedOnWatchlist_Add_Contributor_Role_1](Images/IPMatchedOnWatchlist_Add_Contributor_Role_1.png) | 429 |
+| [IPMatchedOnWatchlist_Add_Contributor_Role_2](Images/IPMatchedOnWatchlist_Add_Contributor_Role_2.png) | 429 |
+| [IPMatchedOnWatchlist_Add_Contributor_Role_3](Images/IPMatchedOnWatchlist_Add_Contributor_Role_3.png) | 429 |
+| [IPMatchedOnWatchlist_Add_Contributor_Role_4](Images/IPMatchedOnWatchlist_Add_Contributor_Role_4.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/AS-Incident-Response-Approval-Email/README.md
+
+| URL | State |
+| --- | --- |
+| [ApprovalEmail_Demo](Images/ApprovalEmail_Demo.png) | 429 |
+| [ApprovalEmail_Create_App_Registration_1](Images/ApprovalEmail_Create_App_Registration_1.png) | 429 |
+| [ApprovalEmail_Create_App_Registration_2](Images/ApprovalEmail_Create_App_Registration_2.png) | 429 |
+| [ApprovalEmail_Create_App_Registration_3](Images/ApprovalEmail_Create_App_Registration_3.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/AS-Make-GitHub-Repository-Private/README.md
+
+| URL | State |
+| --- | --- |
+| [MakeGitHubRepoPrivate_Configure_VSCode_3](Images/MakeGitHubRepoPrivate_Configure_VSCode_3.png) | 429 |
+| [MakeGitHubRepoPrivate_Configure_VSCode_4](Images/MakeGitHubRepoPrivate_Configure_VSCode_4.png) | 429 |
+| [MakeGitHubRepoPrivate_Configure_VSCode_5](Images/MakeGitHubRepoPrivate_Configure_VSCode_5.png) | 429 |
+| [MakeGitHubRepoPrivate_Configure_VSCode_6](Images/MakeGitHubRepoPrivate_Configure_VSCode_6.png) | 429 |
+| [MakeGitHubRepoPrivate_Configure_VSCode_7](Images/MakeGitHubRepoPrivate_Configure_VSCode_7.png) | 429 |
+| [MakeGitHubRepoPrivate_Configure_VSCode_8](Images/MakeGitHubRepoPrivate_Configure_VSCode_8.png) | 429 |
+| [MakeGitHubRepoPrivate_Configure_VSCode_9](Images/MakeGitHubRepoPrivate_Configure_VSCode_9.png) | 429 |
+| [MakeGitHubRepoPrivate_Configure_VSCode_10](Images/MakeGitHubRepoPrivate_Configure_VSCode_10.png) | 429 |
+| [MakeGitHubRepoPrivate_Configure_VSCode_11](Images/MakeGitHubRepoPrivate_Configure_VSCode_11.png) | 429 |
+| [MakeGitHubRepoPrivate_Deploy_Azure_Function_1](Images/MakeGitHubRepoPrivate_Deploy_Azure_Function_1.png) | 429 |
+| [MakeGitHubRepoPrivate_Deploy_Azure_Function_2](Images/MakeGitHubRepoPrivate_Deploy_Azure_Function_2.png) | 429 |
+| [MakeGitHubRepoPrivate_Deploy_Azure_Function_3](Images/MakeGitHubRepoPrivate_Deploy_Azure_Function_3.png) | 429 |
+| [MakeGitHubRepoPrivate_Deploy_Azure_Function_4](Images/MakeGitHubRepoPrivate_Deploy_Azure_Function_4.png) | 429 |
+| [MakeGitHubRepoPrivate_Deploy_1](Images/MakeGitHubRepoPrivate_Deploy_1.png) | 429 |
+| [MakeGitHubRepoPrivate_Deploy_2](Images/MakeGitHubRepoPrivate_Deploy_2.png) | 429 |
+| [MakeGitHubRepoPrivate_Deploy_3](Images/MakeGitHubRepoPrivate_Deploy_3.png) | 429 |
+| [MakeGitHubRepoPrivate_Key_Vault_Access_1](Images/MakeGitHubRepoPrivate_Key_Vault_Access_1.png) | 429 |
+| [MakeGitHubRepoPrivate_Key_Vault_Access_2](Images/MakeGitHubRepoPrivate_Key_Vault_Access_2.png) | 429 |
+| [MakeGitHubRepoPrivate_Key_Vault_Access_3](Images/MakeGitHubRepoPrivate_Key_Vault_Access_3.png) | 429 |
+| [MakeGitHubRepoPrivate_Key_Vault_Access_4](Images/MakeGitHubRepoPrivate_Key_Vault_Access_4.png) | 429 |
+| [MakeGitHubRepoPrivate_Add_Contributor_Role_1](Images/MakeGitHubRepoPrivate_Add_Contributor_Role_1.png) | 429 |
+| [MakeGitHubRepoPrivate_Add_Contributor_Role_2](Images/MakeGitHubRepoPrivate_Add_Contributor_Role_2.png) | 429 |
+| [MakeGitHubRepoPrivate_Add_Contributor_Role_3](Images/MakeGitHubRepoPrivate_Add_Contributor_Role_3.png) | 429 |
+| [MakeGitHubRepoPrivate_Add_Contributor_Role_4](Images/MakeGitHubRepoPrivate_Add_Contributor_Role_4.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/AS-Microsoft-DCR-Log-Ingestion/README.md
+
+| URL | State |
+| --- | --- |
+| [DCRLogIngestion_Demo_1](Images/DCRLogIngestion_Demo_1.png) | 429 |
+| [DCRLogIngestion_Demo_2](Images/DCRLogIngestion_Demo_2.png) | 429 |
+| [DCRLogIngestion_App_Registration_1](Images/DCRLogIngestion_App_Registration_1.png) | 429 |
+| [DCRLogIngestion_App_Registration_2](Images/DCRLogIngestion_App_Registration_2.png) | 429 |
+| [DCRLogIngestion_App_Registration_3](Images/DCRLogIngestion_App_Registration_3.png) | 429 |
+| [DCRLogIngestion_App_Registration_4](Images/DCRLogIngestion_App_Registration_4.png) | 429 |
+| [DCRLogIngestion_App_Registration_5](Images/DCRLogIngestion_App_Registration_5.png) | 429 |
+| [DCRLogIngestion_App_Registration_6](Images/DCRLogIngestion_App_Registration_6.png) | 429 |
+| [DCRLogIngestion_App_Registration_7](Images/DCRLogIngestion_App_Registration_7.png) | 429 |
+| [DCRLogIngestion_App_Registration_8](Images/DCRLogIngestion_App_Registration_8.png) | 429 |
+| [DCRLogIngestion_App_Registration_9](Images/DCRLogIngestion_App_Registration_9.png) | 429 |
+| [DCRLogIngestion_App_Registration_10](Images/DCRLogIngestion_App_Registration_10.png) | 429 |
+| [DCRLogIngestion_App_Registration_11](Images/DCRLogIngestion_App_Registration_11.png) | 429 |
+| [DCRLogIngestion_App_Registration_12](Images/DCRLogIngestion_App_Registration_12.png) | 429 |
+| [DCRLogIngestion_Key_Vault_1](Images/DCRLogIngestion_Key_Vault_1.png) | 429 |
+| [DCRLogIngestion_Key_Vault_2](Images/DCRLogIngestion_Key_Vault_2.png) | 429 |
+| [DCRLogIngestion_Data_Collection_Endpoint_1](Images/DCRLogIngestion_Data_Collection_Endpoint_1.png) | 429 |
+| [DCRLogIngestion_Data_Collection_Endpoint_2](Images/DCRLogIngestion_Data_Collection_Endpoint_2.png) | 429 |
+| [DCRLogIngestion_Data_Collection_Endpoint_3](Images/DCRLogIngestion_Data_Collection_Endpoint_3.png) | 429 |
+| [DCRLogIngestion_Data_Collection_Endpoint_4](Images/DCRLogIngestion_Data_Collection_Endpoint_4.png) | 429 |
+| [DCRLogIngestion_Data_Collection_Endpoint_5](Images/DCRLogIngestion_Data_Collection_Endpoint_5.png) | 429 |
+| [DCRLogIngestion_Data_Collection_Endpoint_6](Images/DCRLogIngestion_Data_Collection_Endpoint_6.png) | 429 |
+| [DCRLogIngestion_Data_Collection_Rule_1](Images/DCRLogIngestion_Data_Collection_Rule_1.png) | 429 |
+| [DCRLogIngestion_Data_Collection_Rule_2](Images/DCRLogIngestion_Data_Collection_Rule_2.png) | 429 |
+| [DCRLogIngestion_Data_Collection_Rule_3](Images/DCRLogIngestion_Data_Collection_Rule_3.png) | 429 |
+| [DCRLogIngestion_Data_Collection_Rule_4](Images/DCRLogIngestion_Data_Collection_Rule_4.png) | 429 |
+| [DCRLogIngestion_Data_Collection_Rule_5](Images/DCRLogIngestion_Data_Collection_Rule_5.png) | 429 |
+| [Samples/SignInLogsSample.json](https://github.com/Accelerynt-Security/AS-Microsoft-DCR-Log-Ingestion/blob/main/Samples/SignInLogsSample.json) | 429 |
+| [DCRLogIngestion_Data_Collection_Rule_6](Images/DCRLogIngestion_Data_Collection_Rule_6.png) | 429 |
+| [DCRLogIngestion_Data_Collection_Rule_7](Images/DCRLogIngestion_Data_Collection_Rule_7.png) | 429 |
+| [DCRLogIngestion_Data_Collection_Rule_8](Images/DCRLogIngestion_Data_Collection_Rule_8.png) | 429 |
+| [Samples/AuditLogsSample.json](https://github.com/Accelerynt-Security/AS-Microsoft-DCR-Log-Ingestion/blob/main/Samples/AuditLogsSample.json) | 429 |
+| [DCRLogIngestion_Data_Collection_Rule_9](Images/DCRLogIngestion_Data_Collection_Rule_9.png) | 429 |
+| [DCRLogIngestion_Data_Collection_Rule_10](Images/DCRLogIngestion_Data_Collection_Rule_10.png) | 429 |
+| [DCRLogIngestion_Data_Collection_Rule_11](Images/DCRLogIngestion_Data_Collection_Rule_11.png) | 429 |
+| [Samples/OfficeActivityLogsSample.json](https://github.com/Accelerynt-Security/AS-Microsoft-DCR-Log-Ingestion/blob/main/Samples/O365GeneralAuditLogsSample.json) | 429 |
+| [DCRLogIngestion_Data_Collection_Rule_12](Images/DCRLogIngestion_Data_Collection_Rule_12.png) | 429 |
+| [DCRLogIngestion_Data_Collection_Rule_13](Images/DCRLogIngestion_Data_Collection_Rule_13.png) | 429 |
+| [DCRLogIngestion_Data_Collection_Rule_14](Images/DCRLogIngestion_Data_Collection_Rule_14.png) | 429 |
+| [DCRLogIngestion_Data_Collection_Rule_15](Images/DCRLogIngestion_Data_Collection_Rule_15.png) | 429 |
+| [DCRLogIngestion_App_Registration_DCR_1](Images/DCRLogIngestion_App_Registration_DCR_1.png) | 429 |
+| [DCRLogIngestion_App_Registration_DCR_2](Images/DCRLogIngestion_App_Registration_DCR_2.png) | 429 |
+| [DCRLogIngestion_App_Registration_DCR_3](Images/DCRLogIngestion_App_Registration_DCR_3.png) | 429 |
+| [DCRLogIngestion_App_Registration_DCR_4](Images/DCRLogIngestion_App_Registration_DCR_4.png) | 429 |
+| [DCRLogIngestion_App_Registration_DCR_5](Images/DCRLogIngestion_App_Registration_DCR_5.png) | 429 |
+| [DCRLogIngestion_App_Registration_DCR_6](Images/DCRLogIngestion_App_Registration_DCR_6.png) | 429 |
+| [DCRLogIngestion_App_Registration_DCR_7](Images/DCRLogIngestion_App_Registration_DCR_7.png) | 429 |
+| [DCRLogIngestion_App_Registration_DCR_8](Images/DCRLogIngestion_App_Registration_DCR_8.png) | 429 |
+| [DCRLogIngestion_App_Registration_DCR_9](Images/DCRLogIngestion_App_Registration_DCR_9.png) | 429 |
+| [DCRLogIngestion_App_Registration_DCR_10](Images/DCRLogIngestion_App_Registration_DCR_10.png) | 429 |
+| [DCRLogIngestion_App_Registration_DCR_11](Images/DCRLogIngestion_App_Registration_DCR_11.png) | 429 |
+| [DCRLogIngestion_Receiving_Key_Vault_1](Images/DCRLogIngestion_Receiving_Key_Vault_1.png) | 429 |
+| [DCRLogIngestion_Receiving_Key_Vault_2](Images/DCRLogIngestion_Receiving_Key_Vault_2.png) | 429 |
+| [DCRLogIngestion_Deploy_1](Images/DCRLogIngestion_Deploy_1.png) | 429 |
+| [DCRLogIngestion_Deploy_2](Images/DCRLogIngestion_Deploy_2.png) | 429 |
+| [DCRLogIngestion_Deploy_3](Images/DCRLogIngestion_Deploy_3.png) | 429 |
+| [DCRLogIngestion_Key_Vault_Access_1](Images/DCRLogIngestion_Key_Vault_Access_1.png) | 429 |
+| [DCRLogIngestion_Key_Vault_Access_2](Images/DCRLogIngestion_Key_Vault_Access_2.png) | 429 |
+| [OfficeAuditSubscriptionEnable](https://github.com/Accelerynt-Security/AS-Microsoft-DCR-Log-Ingestion/blob/main/Scripts/OfficeAuditSubscriptionEnable.ps1) | 429 |
+| [DCRLogIngestion_Azure_Cloud_Shell_1](Images/DCRLogIngestion_Azure_Cloud_Shell_1.png) | 429 |
+| [DCRLogIngestion_Azure_Cloud_Shell_2](Images/DCRLogIngestion_Azure_Cloud_Shell_2.png) | 429 |
+| [DCRLogIngestion_Azure_Cloud_Shell_3](Images/DCRLogIngestion_Azure_Cloud_Shell_3.png) | 429 |
+| [DCRLogIngestion_Azure_Cloud_Shell_4](Images/DCRLogIngestion_Azure_Cloud_Shell_4.png) | 429 |
+| [DCRLogIngestion_Logic_App_Enable_1](Images/DCRLogIngestion_Logic_App_Enable_1.png) | 429 |
+| [DCRLogIngestion_Logic_App_Enable_2](Images/DCRLogIngestion_Logic_App_Enable_2.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/AS-Okta-NetworkZoneUpdate/README.md
+
+| URL | State |
+| --- | --- |
+| [NetworkZone_Demo_1](Images/NetworkZone_Demo_1.png) | 429 |
+| [NetworkZone_Demo_2](Images/NetworkZone_Demo_2.png) | 429 |
+| [NetworkZone_Key_Vault_1](Images/NetworkZone_Key_Vault_1.png) | 429 |
+| [NetworkZone_Key_Vault_2](Images/NetworkZone_Key_Vault_2.png) | 429 |
+| [NetworkZone_Key_Vault_3](Images/NetworkZone_Key_Vault_3.png) | 429 |
+| [NetworkZone_Deploy_1](Images/NetworkZone_Deploy_1.png) | 429 |
+| [NetworkZone_Deploy_2](Images/NetworkZone_Deploy_2.png) | 429 |
+| [NetworkZone_Deploy_3](Images/NetworkZone_Deploy_3.png) | 429 |
+| [NetworkZone_Deploy_4](Images/NetworkZone_Deploy_4.png) | 429 |
+| [NetworkZone_Deploy_5](Images/NetworkZone_Deploy_5.png) | 429 |
+| [NetworkZone_Deploy_6](Images/NetworkZone_Deploy_6.png) | 429 |
+| [NetworkZone_Deploy_7](Images/NetworkZone_Deploy_7.png) | 429 |
+| [NetworkZone_Deploy_8](Images/NetworkZone_Deploy_8.png) | 429 |
+| [NetworkZone_Access_1](Images/NetworkZone_Access_1.png) | 429 |
+| [NetworkZone_Access_2](Images/NetworkZone_Access_2.png) | 429 |
+| [NetworkZone_Access_3](Images/NetworkZone_Access_3.png) | 429 |
+| [NetworkZone_Access_4](Images/NetworkZone_Access_4.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/AS-PagerDuty-Integration/README.md
+
+| URL | State |
+| --- | --- |
+| [PagerDuty_Demo](Images/PagerDuty_Demo.png) | 429 |
+| [PagerDuty_Create_Integration_Key_1](Images/PagerDuty_Create_Integration_Key_1.png) | 429 |
+| [PagerDuty_Create_Integration_Key_2](Images/PagerDuty_Create_Integration_Key_2.png) | 429 |
+| [PagerDuty_Create_Integration_Key_3](Images/PagerDuty_Create_Integration_Key_3.png) | 429 |
+| [PagerDuty_Create_Integration_Key_3.5](Images/PagerDuty_Create_Integration_Key_3.5.png) | 429 |
+| [PagerDuty_Create_Integration_Key_4](Images/PagerDuty_Create_Integration_Key_4.png) | 429 |
+| [PagerDuty_Create_Integration_Key_5](Images/PagerDuty_Create_Integration_Key_5.png) | 429 |
+| [PagerDuty_Deploy_1](Images/PagerDuty_Deploy_1.png) | 429 |
+| [PagerDuty_Deploy_2](Images/PagerDuty_Deploy_2.png) | 429 |
+| [PagerDuty_Deploy_3](Images/PagerDuty_Deploy_3.png) | 429 |
+| [PagerDuty_Deploy_4](Images/PagerDuty_Deploy_4.png) | 429 |
+| [PagerDuty_Deploy_5](Images/PagerDuty_Deploy_5.png) | 429 |
+| [PagerDuty_Deploy_6](Images/PagerDuty_Deploy_6.png) | 429 |
+| [PagerDuty_Deploy_7](Images/PagerDuty_Deploy_7.png) | 429 |
+| [PagerDuty_Deploy_8](Images/PagerDuty_Deploy_8.png) | 429 |
+| [Nav_1](Images/Nav_1.png) | 429 |
+| [Nav_2](Images/Nav_2.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/AS-Recurring-Host-Entity/README.md
+
+| URL | State |
+| --- | --- |
+| [RecurringHostEntity_Demo_1](Images/RecurringHostEntity_Demo_1.png) | 429 |
+| [RecurringHostEntity_Sentinel_Workspace_1](Images/RecurringHostEntity_Sentinel_Workspace_1.png) | 429 |
+| [RecurringHostEntity_Deploy_1](Images/RecurringHostEntity_Deploy_1.png) | 429 |
+| [RecurringHostEntity_Deploy_2](Images/RecurringHostEntity_Deploy_2.png) | 429 |
+| [RecurringHostEntity_Deploy_3](Images/RecurringHostEntity_Deploy_3.png) | 429 |
+| [RecurringHostEntity_Deploy_4](Images/RecurringHostEntity_Deploy_4.png) | 429 |
+| [RecurringHostEntity_Deploy_5](Images/RecurringHostEntity_Deploy_5.png) | 429 |
+| [RecurringHostEntity_Deploy_6](Images/RecurringHostEntity_Deploy_6.png) | 429 |
+| [RecurringHostEntity_Add_Contributor_Role_1](Images/RecurringHostEntity_Add_Contributor_Role_1.png) | 429 |
+| [RecurringHostEntity_Add_Contributor_Role_2](Images/RecurringHostEntity_Add_Contributor_Role_2.png) | 429 |
+| [RecurringHostEntity_Add_Contributor_Role_3](Images/RecurringHostEntity_Add_Contributor_Role_3.png) | 429 |
+| [RecurringHostEntity_Add_Contributor_Role_4](Images/RecurringHostEntity_Add_Contributor_Role_4.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/AS-Remove-Domains-from-Zscaler-URL-Category/README.md
+
+| URL | State |
+| --- | --- |
+| [Zscaler_Demo_1](Images/Zscaler_Demo_1.png) | 429 |
+| [Zscaler_Demo_2](Images/Zscaler_Demo_2.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/AS-Sign-Out-Google-User/README.md
+
+| URL | State |
+| --- | --- |
+| [SignOutGoogleUser_Deploy_Azure_Function_2](Images/SignOutGoogleUser_Deploy_Azure_Function_2.png) | 429 |
+| [SignOutGoogleUser_Deploy_Azure_Function_3](Images/SignOutGoogleUser_Deploy_Azure_Function_3.png) | 429 |
+| [SignOutGoogleUser_Deploy_Azure_Function_4](Images/SignOutGoogleUser_Deploy_Azure_Function_4.png) | 429 |
+| [SignOutGoogleUser_Deploy_1](Images/SignOutGoogleUser_Deploy_1.png) | 429 |
+| [SignOutGoogleUser_Deploy_2](Images/SignOutGoogleUser_Deploy_2.png) | 429 |
+| [SignOutGoogleUser_Deploy_3](Images/SignOutGoogleUser_Deploy_3.png) | 429 |
+| [SignOutGoogleUser_Key_Vault_Access_1](Images/SignOutGoogleUser_Key_Vault_Access_1.png) | 429 |
+| [SignOutGoogleUser_Key_Vault_Access_2](Images/SignOutGoogleUser_Key_Vault_Access_2.png) | 429 |
+| [SignOutGoogleUser_Key_Vault_Access_3](Images/SignOutGoogleUser_Key_Vault_Access_3.png) | 429 |
+| [SignOutGoogleUser_Key_Vault_Access_4](Images/SignOutGoogleUser_Key_Vault_Access_4.png) | 429 |
+| [SignOutGoogleUser_Add_Contributor_Role_1](Images/SignOutGoogleUser_Add_Contributor_Role_1.png) | 429 |
+| [SignOutGoogleUser_Add_Contributor_Role_2](Images/SignOutGoogleUser_Add_Contributor_Role_2.png) | 429 |
+| [SignOutGoogleUser_Add_Contributor_Role_3](Images/SignOutGoogleUser_Add_Contributor_Role_3.png) | 429 |
+| [SignOutGoogleUser_Add_Contributor_Role_4](Images/SignOutGoogleUser_Add_Contributor_Role_4.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/AS-Slack-Integration/README.md
+
+| URL | State |
+| --- | --- |
+| [Slack_Demo](Images/Slack_Demo.png) | 429 |
+| [Slack_App_1](Images/Slack_App_1.png) | 429 |
+| [Slack_App_1.5](Images/Slack_App_1.5.png) | 429 |
+| [Slack_App_2](Images/Slack_App_2.png) | 429 |
+| [Slack_App_3](Images/Slack_App_3.png) | 429 |
+| [Slack_App_4](Images/Slack_App_4.png) | 429 |
+| [Slack_App_5](Images/Slack_App_5.png) | 429 |
+| [Slack_App_6](Images/Slack_App_6.png) | 429 |
+| [Slack_App_7](Images/Slack_App_7.png) | 429 |
+| [Slack_App_8](Images/Slack_App_8.png) | 429 |
+| [Slack_App_9](Images/Slack_App_9.png) | 429 |
+| [Slack_Deploy_1](Images/Slack_Deploy_1.png) | 429 |
+| [Slack_Deploy_2](Images/Slack_Deploy_2.png) | 429 |
+| [Slack_Deploy_3](Images/Slack_Deploy_3.png) | 429 |
+| [Slack_Deploy_4](Images/Slack_Deploy_4.png) | 429 |
+| [Slack_Deploy_5](Images/Slack_Deploy_5.png) | 429 |
+| [Slack_Deploy_6](Images/Slack_Deploy_6.png) | 429 |
+| [Slack_Deploy_7](Images/Slack_Deploy_7.png) | 429 |
+| [Nav_1](Images/Nav_1.png) | 429 |
+| [Nav_2](Images/Nav_2.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/AS-Terminate-Okta-User-Session-From-Entity/README.md
+
+| URL | State |
+| --- | --- |
+| [UserSessions_Demo_1](Images/UserSessions_Demo_1.png) | 429 |
+| [UserSessions_Key_Vault_1](Images/UserSessions_Key_Vault_1.png) | 429 |
+| [UserSessions_Key_Vault_2](Images/UserSessions_Key_Vault_2.png) | 429 |
+| [UserSessions_Key_Vault_3](Images/UserSessions_Key_Vault_3.png) | 429 |
+| [UserSessions_Deploy_1](Images/UserSessions_Deploy_1.png) | 429 |
+| [UserSessions_Deploy_2](Images/UserSessions_Deploy_2.png) | 429 |
+| [UserSessions_Deploy_3](Images/UserSessions_Deploy_3.png) | 429 |
+| [UserSessions_Access_1](Images/UserSessions_Access_1.png) | 429 |
+| [UserSessions_Access_2](Images/UserSessions_Access_2.png) | 429 |
+| [UserSessions_Access_3](Images/UserSessions_Access_3.png) | 429 |
+| [UserSessions_Access_4](Images/UserSessions_Access_4.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/AS-Update-Okta-Network-Zone-From-Entity/README.md
+
+| URL | State |
+| --- | --- |
+| [NetworkZone_Demo_1](Images/NetworkZone_Demo_1.png) | 429 |
+| [NetworkZone_Demo_2](Images/NetworkZone_Demo_2.png) | 429 |
+| [NetworkZone_Key_Vault_1](Images/NetworkZone_Key_Vault_1.png) | 429 |
+| [NetworkZone_Key_Vault_2](Images/NetworkZone_Key_Vault_2.png) | 429 |
+| [NetworkZone_Key_Vault_3](Images/NetworkZone_Key_Vault_3.png) | 429 |
+| [NetworkZone_Deploy_1](Images/NetworkZone_Deploy_1.png) | 429 |
+| [NetworkZone_Deploy_2](Images/NetworkZone_Deploy_2.png) | 429 |
+| [NetworkZone_Deploy_3](Images/NetworkZone_Deploy_3.png) | 429 |
+| [NetworkZone_Access_1](Images/NetworkZone_Access_1.png) | 429 |
+| [NetworkZone_Access_2](Images/NetworkZone_Access_2.png) | 429 |
+| [NetworkZone_Access_3](Images/NetworkZone_Access_3.png) | 429 |
+| [NetworkZone_Access_4](Images/NetworkZone_Access_4.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/Add-IP-Entity-To-NSG/readme.md
+
+| URL | State |
+| --- | --- |
+| [Designer](images/designer-light.jpg) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/Add-IP-Entity-To-Named-Location/readme.md
 
@@ -245,15 +869,32 @@
 | [AddApiPermissions.ps1](https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Solutions/Standalone/Playbooks/Add-IP-Entity-To-Named-Location/AddApiPermissions.ps1) | 404 |
 | [Designer](https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Solutions/Standalone/Playbooks/Add-IP-Entity-To-Named-Location/images/designer-light.jpg) | 404 |
 
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/Affected-Key-Credentials-CVE-2021-42306/README.md
+
+| URL | State |
+| --- | --- |
+| [Apiconnections](./images/Apiconnections.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/Block-AADUserOrAdmin/readme.md
+
+| URL | State |
+| --- | --- |
+| [Incident Trigger](./incident-trigger/images/IncidentTriggerDark.png) | 429 |
+| [Incident Trigger light](./incident-trigger/images/IncidentTriggerLight.png) | 429 |
+| [Alert Trigger](./alert-trigger/images/AlertTriggerDark.png) | 429 |
+| [Alert Trigger light](./alert-trigger/images/AlertTriggerLight.png) | 429 |
+| [Manager notification](./images/managerNotificationDark.png) | 429 |
+| [Manager notification light](./images/managerNotificationLight.png) | 429 |
+
 * https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/Block-OnPremADUser/Readme.md
 
 | URL | State |
 | --- | --- |
-| [01-appoverview](../Block-OnPremADUser/images/01-overview.png) | 404 |
-| [0-automation](../Block-OnPremADUser/images/02-Automationacc.png) | 404 |
-| [03-marketplace](../Block-OnPremADUser/images/03-marketplace.png) | 404 |
-| [06-hybridWorkergroup](../Block-OnPremADUser/images/06-HybridWorkerGroup.png) | 404 |
-| [05-credentials](../Block-OnPremADUser/images/05-credentials.png) | 404 |
+| [01-appoverview](../Block-OnPremADUser/images/01-overview.png) | 429 |
+| [0-automation](../Block-OnPremADUser/images/02-Automationacc.png) | 429 |
+| [03-marketplace](../Block-OnPremADUser/images/03-marketplace.png) | 429 |
+| [06-hybridWorkergroup](../Block-OnPremADUser/images/06-HybridWorkerGroup.png) | 429 |
+| [05-credentials](../Block-OnPremADUser/images/05-credentials.png) | 429 |
 | [05-createrunbook](../Block-OnPremADUser/images/05-createrunbook.png) | 404 |
 | [07-azurereg](../Block-OnPremADUser/images/07-azurereg.png) | 404 |
 | [08-hybridconfirm](../Block-OnPremADUser/images/08-HybridWorker.png) | 404 |
@@ -703,6 +1344,12 @@
 | URL | State |
 | --- | --- |
 | [documentation]("https://docs.microsoft.com/azure/sentinel/normalization") | 0 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/1Password/README.md
+
+| URL | State |
+| --- | --- |
+| [Microsoft Sentinel](https://azure.microsoft.com/products/microsoft-sentinel/) | 403 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ARGOSCloudSecurity/Data Connectors/ARGOS_REST_API_Connector.md
 
@@ -1166,7 +1813,7 @@
 | [Key Vault documentation](../key-vault/index.yml) | 404 |
 | [Azure Policy documentation](../governance/policy/assign-policy-portal.md) | 404 |
 | [Microsoft Defender for Cloud documentation](/azure/security-center/security-center-recommendations) | 404 |
-| [End-to-end demo video](https://www.microsoft.com/en-us/videoplayer/embed/RWPOxX?postJsllMsg=true) | 0 |
+| [End-to-end demo video](https://www.microsoft.com/en-us/videoplayer/embed/RWPOxX?postJsllMsg=true) | 403 |
 | [About Microsoft Sentinel solutions](sentinel-solutions.md) | 404 |
 | [Discover and deploy Microsoft Sentinel solutions](sentinel-solutions-deploy.md) | 404 |
 | [Microsoft Sentinel solutions catalog](sentinel-solutions-catalog.md) | 404 |
@@ -1298,12 +1945,12 @@
 | URL | State |
 | --- | --- |
 | [Workbook Overview](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftPurviewInsiderRiskManagement/Workbooks/Images/InsiderRiskManagementBlack1.png?raw=true) | 404 |
-| [Microsoft Defender for Endpoint](https://www.microsoft.com/microsoft-365/security/endpoint-defender) | 403 |
+| [Microsoft Defender for Endpoint](https://www.microsoft.com/microsoft-365/security/endpoint-defender) | 0 |
 | [Microsoft Defender for Identity](https://www.microsoft.com/microsoft-365/security/identity-defender) | 403 |
-| [Microsoft Defender for Cloud Apps](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/cloud-app-security) | 403 |
+| [Microsoft Defender for Cloud Apps](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/cloud-app-security) | 0 |
 | [Microsoft 365 Defender](https://www.microsoft.com/microsoft-365/security/microsoft-365-defender) | 403 |
 | [Microsoft Defender for Office 365](https://www.microsoft.com/microsoft-365/security/office-365-defender) | 403 |
-| [Microsoft Entra ID](https://azure.microsoft.com/services/active-directory/) | 403 |
+| [Microsoft Entra ID](https://azure.microsoft.com/services/active-directory/) | 0 |
 | [Investigate incidents with Microsoft Sentinel]( https://docs.microsoft.com/azure/sentinel/investigate-cases) | 0 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/NISTSP80053/readme.md
@@ -1790,6 +2437,12 @@
 | [Web Access log Assessment](./Playbooks/SlashNextLogAssessment) | 404 |
 | [Phishing Incident Investigation](./Playbooks/SlashNextIncident) | 404 |
 
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/SpyCloud Enterprise Protection/Playbooks/SpyCloud-Get-Domain-Breach-Data-Playbook/readme.md
+
+| URL | State |
+| --- | --- |
+| [deployment](images/deployment.png) | 429 |
+
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Teams/Playbooks/Advanced-ServiceNow-Teams-Integration/README.md
 
 | URL | State |
@@ -1833,12 +2486,6 @@
 | URL | State |
 | --- | --- |
 | [Tenable Vulnerability Management API Connector](../../TenableVulnerabilityManagementConnector/) | 404 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/TenableIO/Playbooks/readme.md
-
-| URL | State |
-| --- | --- |
-| [Tenable-LaunchScan](./Playbooks/Tenable-LaunchScan/) | 0 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/TheHive/Playbooks/readme.md
 
@@ -1954,94 +2601,141 @@
 | [incident6](../Images/incident6.png) | 404 |
 | [incident7](../Images/incident7.png) | 404 |
 | [incident8](../Images/incident8.png) | 404 |
-| [incident9](../Images/incident9.png) | 404 |
-| [incident10](../Images/incident10.png) | 404 |
-| [incident11](../Images/incident11.png) | 404 |
-| [incident12](../Images/incident12.png) | 404 |
-| [incident13](../Images/incident13.png) | 404 |
-| [incident14](../Images/incident14.png) | 404 |
+| [incident9](../Images/incident9.png) | 429 |
+| [incident10](../Images/incident10.png) | 429 |
+| [incident11](../Images/incident11.png) | 429 |
+| [incident12](../Images/incident12.png) | 429 |
+| [incident13](../Images/incident13.png) | 429 |
+| [incident14](../Images/incident14.png) | 429 |
+| [Module 5 - Hunting](./Module-5-Hunting.md) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Training/Azure-Sentinel-Training-Lab/Modules/Module-5-Hunting.md
 
 | URL | State |
 | --- | --- |
-| [incident1](../Images/hunting-1.png) | 404 |
-| [incident1](../Images/hunting-20.png) | 404 |
-| [incident1](../Images/hunting-2.png) | 404 |
-| [incident1](../Images/hunting-3.png) | 404 |
-| [incident1](../Images/hunting-4.png) | 404 |
-| [incident1](../Images/hunting-5.png) | 404 |
-| [this CSV file](../Artifacts/Telemetry/HighRiskApps.csv) | 404 |
-| [watchlists](../Images/watchlists1.png) | 404 |
-| [watchlists](../Images/hunting-18.png) | 404 |
-| [CSV file](../Artifacts/Telemetry/HighRiskApps.csv) | 404 |
-| [watchlists](../Images/hunting-19.png) | 404 |
-| [watchlists](../Images/hunting-21.png) | 404 |
-| [incident1](../Images/hunting-22.png) | 404 |
-| [incident1](../Images/hunting-23.png) | 404 |
-| [incident1](../Images/hunting-12.png) | 404 |
-| [incident1](../Images/hunting-13.png) | 404 |
-| [incident1](../Images/hunting-14.png) | 404 |
-| [incident1](../Images/hunting-15.png) | 404 |
+| [incident1](../Images/hunting-1.png) | 429 |
+| [incident1](../Images/hunting-20.png) | 429 |
+| [incident1](../Images/hunting-2.png) | 429 |
+| [incident1](../Images/hunting-3.png) | 429 |
+| [incident1](../Images/hunting-4.png) | 429 |
+| [incident1](../Images/hunting-5.png) | 429 |
+| [this CSV file](../Artifacts/Telemetry/HighRiskApps.csv) | 429 |
+| [watchlists](../Images/watchlists1.png) | 429 |
+| [watchlists](../Images/hunting-18.png) | 429 |
+| [CSV file](../Artifacts/Telemetry/HighRiskApps.csv) | 429 |
+| [watchlists](../Images/hunting-19.png) | 429 |
+| [watchlists](../Images/hunting-21.png) | 429 |
+| [incident1](../Images/hunting-22.png) | 429 |
+| [incident1](../Images/hunting-23.png) | 429 |
+| [incident1](../Images/hunting-12.png) | 429 |
+| [incident1](../Images/hunting-13.png) | 429 |
+| [incident1](../Images/hunting-14.png) | 429 |
+| [incident1](../Images/hunting-15.png) | 429 |
+| [Module 6 - Watchlists](./Module-6-Watchlists.md) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Training/Azure-Sentinel-Training-Lab/Modules/Module-6-Watchlists.md
 
 | URL | State |
 | --- | --- |
-| [this CSV file](../Artifacts/Telemetry/PenTestsIPaddresses.csv) | 404 |
-| [watchlists](../Images/watchlists1.png) | 404 |
-| [watchlists](../Images/watchlists2.png) | 404 |
-| [CSV file](../Artifacts/Telemetry/PenTestsIPaddresses.csv) | 404 |
-| [watchlists](../Images/watchlists3.png) | 404 |
-| [watchlists](../Images/watchlists4.png) | 404 |
-| [watchlists](../Images/watchlists5.png) | 404 |
-| [watchlists11](../Images/watchlists11.png) | 404 |
-| [watchlists](../Images/watchlists6.png) | 404 |
-| [watchlists](../Images/watchlists7.png) | 404 |
-| [watchlists](../Images/watchlists8.png) | 404 |
-| [watchlists](../Images/watchlists9.png) | 404 |
-| [watchlists](../Images/watchlists10.png) | 404 |
+| [Module 1](Module-1-Setting-up-the-environment.md) | 429 |
+| [this CSV file](../Artifacts/Telemetry/PenTestsIPaddresses.csv) | 429 |
+| [watchlists](../Images/watchlists1.png) | 429 |
+| [watchlists](../Images/watchlists2.png) | 429 |
+| [CSV file](../Artifacts/Telemetry/PenTestsIPaddresses.csv) | 429 |
+| [watchlists](../Images/watchlists3.png) | 429 |
+| [watchlists](../Images/watchlists4.png) | 429 |
+| [watchlists](../Images/watchlists5.png) | 429 |
+| [watchlists11](../Images/watchlists11.png) | 429 |
+| [watchlists](../Images/watchlists6.png) | 429 |
+| [watchlists](../Images/watchlists7.png) | 429 |
+| [watchlists](../Images/watchlists8.png) | 429 |
+| [watchlists](../Images/watchlists9.png) | 429 |
+| [watchlists](../Images/watchlists10.png) | 429 |
+| [Module 7 - Threat Intelligence](./Module-7-Threat-Intelligence.md) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Training/Azure-Sentinel-Training-Lab/Modules/Module-7-Threat-Intelligence.md
 
 | URL | State |
 | --- | --- |
-| [ti](../Images/TI1.png) | 404 |
-| [ti](../Images/TI9.png) | 404 |
-| [schema](../Images/TI-schema.png) | 404 |
-| [Acitve](../Images/TI-active.png) | 404 |
-| [Acitve](../Images/m7-Tiblade.png) | 404 |
-| [Acitve](../Images/m7-Tiblade1.png) | 404 |
-| [Acitve](../Images/m7-ITbladeFilter.png) | 404 |
-| [Acitve](../Images/TI2.png) | 404 |
-| [Acitve](../Images/m7-tibladeaddtag.png) | 404 |
-| [Acitve](../Images/m7-fullnewIOC.png) | 404 |
-| [Acitve](../Images/m7-tibladecolumnorder.png) | 404 |
-| [Acitve](../Images/m7-deleteTI.png) | 404 |
-| [TImapping](../Images/TI10.png) | 404 |
-| [TImatching](../Images/TI3.png) | 404 |
-| [TImatching](../Images/TI5.png) | 404 |
-| [TIworkbook](../Images/TI6.png) | 404 |
-| [TIworkbook](../Images/TI7.png) | 404 |
-| [TIworkbook](../Images/TI8.png) | 404 |
+| [Module 2](Module-2-Data-Connectors.md) | 429 |
+| [Module 1](Module-1-Setting-up-the-environment.md) | 429 |
+| [Module 2](Module-2-Data-Connectors.md) | 429 |
+| [ti](../Images/TI1.png) | 429 |
+| [ti](../Images/TI9.png) | 429 |
+| [schema](../Images/TI-schema.png) | 429 |
+| [Acitve](../Images/TI-active.png) | 429 |
+| [Acitve](../Images/m7-Tiblade.png) | 429 |
+| [Acitve](../Images/m7-Tiblade1.png) | 429 |
+| [Acitve](../Images/m7-ITbladeFilter.png) | 429 |
+| [Acitve](../Images/TI2.png) | 429 |
+| [Acitve](../Images/m7-tibladeaddtag.png) | 429 |
+| [Acitve](../Images/m7-fullnewIOC.png) | 429 |
+| [Acitve](../Images/m7-tibladecolumnorder.png) | 429 |
+| [Acitve](../Images/m7-deleteTI.png) | 429 |
+| [TImapping](../Images/TI10.png) | 429 |
+| [TImatching](../Images/TI3.png) | 429 |
+| [TImatching](../Images/TI5.png) | 429 |
+| [TIworkbook](../Images/TI6.png) | 429 |
+| [TIworkbook](../Images/TI7.png) | 429 |
+| [TIworkbook](../Images/TI8.png) | 429 |
+| [Module 8 - Microsoft Sentinel Solutions](./Module-8-Sentinel-Solutions.md) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Training/Azure-Sentinel-Training-Lab/Modules/Module-8-Sentinel-Solutions.md
 
 | URL | State |
 | --- | --- |
-| [azsolutions](../Images/azsolutions1.png) | 404 |
-| [azsolutions](../Images/azsolutions2.png) | 404 |
-| [azsolutions](../Images/azsolutions2bis.png) | 404 |
-| [azsolutions](../Images/azsolutions3.png) | 404 |
-| [azsolutions](../Images/azsolutions12.png) | 404 |
-| [azsolutions](../Images/azsolutions5.png) | 404 |
-| [azsolutions](../Images/azsolutions6.png) | 404 |
-| [azsolutions](../Images/azsolutions7.png) | 404 |
-| [azsolutions](../Images/azsolutions8.png) | 404 |
-| [azsolutions](../Images/azsolutions9.png) | 404 |
-| [azsolutions](../Images/azsolutions10.png) | 404 |
-| [azsolutions](../Images/azsolutions11.png) | 404 |
-| [azsolutions](../Images/azsolutions13.png) | 404 |
+| [Module 1](Module-1-Setting-up-the-environment.md) | 429 |
+| [azsolutions](../Images/azsolutions1.png) | 429 |
+| [azsolutions](../Images/azsolutions2.png) | 429 |
+| [azsolutions](../Images/azsolutions2bis.png) | 429 |
+| [azsolutions](../Images/azsolutions3.png) | 429 |
+| [azsolutions](../Images/azsolutions12.png) | 429 |
+| [azsolutions](../Images/azsolutions5.png) | 429 |
+| [azsolutions](../Images/azsolutions6.png) | 429 |
+| [azsolutions](../Images/azsolutions7.png) | 429 |
+| [azsolutions](../Images/azsolutions8.png) | 429 |
+| [azsolutions](../Images/azsolutions9.png) | 429 |
+| [azsolutions](../Images/azsolutions10.png) | 429 |
+| [azsolutions](../Images/azsolutions11.png) | 429 |
+| [azsolutions](../Images/azsolutions13.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Training/Azure-Sentinel-Training-Lab/README.md
+
+| URL | State |
+| --- | --- |
+| [modules](#Modules) | 429 |
+| [Module 1](./Modules/Module-1-Setting-up-the-environment.md) | 429 |
+| [**Module 1 - Setting up the environment**](./Modules/Module-1-Setting-up-the-environment.md) | 429 |
+| [The Microsoft Sentinel workspace](./Modules/Module-1-Setting-up-the-environment.md#exercise-1-the-azure-sentinel-workspace) | 429 |
+| [Deploy the Microsoft Sentinel Training Lab Solution](./Modules/Module-1-Setting-up-the-environment.md#exercise-2-deploy-the-azure-sentinel-training-lab-solution) | 429 |
+| [Configure Microsoft Sentinel Playbook](./Modules/Module-1-Setting-up-the-environment.md#exercise-3-configure-azure-sentinel-playbook) | 429 |
+| [**Module 2 - Data Connectors**](./Modules/Module-2-Data-Connectors.md) | 429 |
+| [Enable Azure Activity data connector](./Modules/Module-2-Data-Connectors.md#exercise-1-enable-azure-activity-data-connector) | 429 |
+| [Enable Azure Defender data connector](./Modules/Module-2-Data-Connectors.md#exercise-2-enable-azure-defender-data-connector) | 429 |
+| [Enable Threat Intelligence TAXII data connector](./Modules/Module-2-Data-Connectors.md#exercise-3-enable-threat-intelligence-taxii-data-connector) | 429 |
+| [**Module 3 - Analytics Rules**](./Modules/Module-3-Analytics-Rules.md) | 429 |
+| [Analytics Rules overview](./Modules/Module-3-Analytics-Rules.md#exercise-1-analytics-rules-overview) | 429 |
+| [Enable Microsoft incident creation rule](./Modules/Module-3-Analytics-Rules.md#exercise-2-enable-microsoft-incident-creation-rule) | 429 |
+| [Review the Fusion rule (Advanced Multistage Attack Detection)](./Modules/Module-3-Analytics-Rules.md#exercise-3-review-fusion-rule-advanced-multistage-attack-detection) | 429 |
+| [Create a custom analytics rule](./Modules/Module-3-Analytics-Rules.md#exercise-4-create-azure-sentinel-custom-analytics-rule) | 429 |
+| [Review the resulting security incident](./Modules/Module-3-Analytics-Rules.md#exercise-5-review-resulting-security-incident) | 429 |
+| [**Module 4 - Incident Management**](./Modules/Module-4-Incident-Management.md) | 429 |
+| [Review Microsoft Sentinel incident tools and capabilities](./Modules/Module-4-Incident-Management.md#exercise-1-review-azure-sentinel-incident-tools-and-capabilities) | 429 |
+| [Handling the Incident "Sign-ins from IPs that attempt sign-ins to disabled accounts"](./Modules/Module-4-Incident-Management.md#exercise-2-handling-incident-sign-ins-from-ips-that-attempt-sign-ins-to-disabled-accounts) | 429 |
+| [Handling the incident "Solorigate Network Beacon"](./Modules/Module-4-Incident-Management.md#exercise-3-Handling-solorigate-network-beacon-incident) | 429 |
+| [Hunting for more evidence](./Modules/Module-4-Incident-Management.md#exercise-4-Hunting-for-more-evidence) | 429 |
+| [Addding IOCs to Threat Intelligence](./Modules/Module-4-Incident-Management.md#exercise-5-Add-IOC-to-Threat-Intelligence) | 429 |
+| [Incident handover](./Modules/Module-4-Incident-Management.md#exercise-6-Handover-incident) | 429 |
+| [**Module 5 - Hunting**](./Modules/Module-5-Hunting.md) | 429 |
+| [Hunt for a specific MITRE technique](./Modules/Module-5-Hunting.md#exercise-1-Hunting-on-a-specific-MITRE-technique) | 429 |
+| [Bookmark hunting query results](./Modules/Module-5-Hunting.md#exercise-2-Bookmarking-hunting-query-results) | 429 |
+| [Promote a bookmark to an incident](./Modules/Module-5-Hunting.md#exercise-3-Promote-a-bookmark-to-an-incident) | 429 |
+| [**Module 6 - Watchlists**](./Modules/Module-6-Watchlists.md) | 429 |
+| [Create a Watchlist](./Modules/Module-6-Watchlists.md#exercise-1-create-a-watchlist) | 429 |
+| [Allow-list IP addresses in an analytics rule](./Modules/Module-6-Watchlists.md#exercise-2-whitelist-ip-addresses-in-the-analytics-rule) | 429 |
+| [**Module 7 - Threat Intelligence**](./Modules/Module-7-Threat-Intelligence.md) | 429 |
+| [Threat Intelligence data connectors](./Modules/Module-7-Threat-Intelligence.md#exercise-1-threat-intelligence-data-connectors) | 429 |
+| [Explore the Threat Intelligence menu](./Modules/Module-7-Threat-Intelligence.md#exercise-2-explore-the-threat-intelligence-menu) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/URLhaus/Playbooks/readme.md
 
@@ -2063,12 +2757,12 @@
 | --- | --- |
 | [Microsoft Zero Trust Model](https://www.microsoft.com/security/business/zero-trust) | 403 |
 | [Workbook Overview](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ZeroTrust(TIC3.0) | 404 |
-| [Microsoft Entra ID](https://azure.microsoft.com/services/active-directory/) | 0 |
+| [Microsoft Entra ID](https://azure.microsoft.com/services/active-directory/) | 403 |
 | [Microsoft Defender for Office 365](https://www.microsoft.com/microsoft-365/security/office-365-defender) | 403 |
 | [Microsoft Defender for Endpoint](https://www.microsoft.com/microsoft-365/security/endpoint-defender) | 403 |
 | [Azure Information Protection](https://azure.microsoft.com/services/information-protection/) | 403 |
 | [Microsoft 365 Defender](https://www.microsoft.com/microsoft-365/security/microsoft-365-defender) | 403 |
-| [Microsoft Defender for Cloud Apps](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/cloud-app-security) | 0 |
+| [Microsoft Defender for Cloud Apps](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/cloud-app-security) | 403 |
 | [Microsoft Defender for Identity](https://www.microsoft.com/microsoft-365/security/identity-defender) | 403 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Zscaler Internet Access/Playbooks/Add-Url-To-Category/readme.md
