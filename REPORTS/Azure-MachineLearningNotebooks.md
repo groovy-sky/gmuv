@@ -124,6 +124,26 @@
 | URL | State |
 | --- | --- |
 | [Impressions](https://PixelServer20190423114238.azurewebsites.net/api/impressions/MachineLearningNotebooks/Index.png) | 0 |
+| [Hyperparameter tuning and warm start using the TensorFlow estimator](https://github.com/Azure/MachineLearningNotebooks/blob/master//how-to-use-azureml/ml-frameworks/tensorflow/hyperparameter-tune-and-warm-start-with-tensorflow/hyperparameter-tune-and-warm-start-with-tensorflow.ipynb) | 429 |
+| [Resuming a model](https://github.com/Azure/MachineLearningNotebooks/blob/master//how-to-use-azureml/ml-frameworks/tensorflow/train-tensorflow-resume-training/train-tensorflow-resume-training.ipynb) | 429 |
+| [Using Tensorboard](https://github.com/Azure/MachineLearningNotebooks/blob/master//how-to-use-azureml/track-and-monitor-experiments/tensorboard/export-run-history-to-tensorboard/export-run-history-to-tensorboard.ipynb) | 429 |
+| [Training in Spark](https://github.com/Azure/MachineLearningNotebooks/blob/master//how-to-use-azureml/training/train-in-spark/train-in-spark.ipynb) | 429 |
+| [Train on Azure Machine Learning Compute](https://github.com/Azure/MachineLearningNotebooks/blob/master//how-to-use-azureml/training/train-on-amlcompute/train-on-amlcompute.ipynb) | 429 |
+| [Train on local compute](https://github.com/Azure/MachineLearningNotebooks/blob/master//how-to-use-azureml/training/train-on-local/train-on-local.ipynb) | 429 |
+| [Train in a remote Linux virtual machine](https://github.com/Azure/MachineLearningNotebooks/blob/master//how-to-use-azureml/training/train-on-remote-vm/train-on-remote-vm.ipynb) | 429 |
+| [Managing your training runs](https://github.com/Azure/MachineLearningNotebooks/blob/master//how-to-use-azureml/track-and-monitor-experiments/manage-runs/manage-runs.ipynb) | 429 |
+| [Tensorboard integration with run history](https://github.com/Azure/MachineLearningNotebooks/blob/master//how-to-use-azureml/track-and-monitor-experiments/tensorboard/tensorboard/tensorboard.ipynb) | 429 |
+| [Use MLflow with AML for a local training run](https://github.com/Azure/MachineLearningNotebooks/blob/master//how-to-use-azureml/track-and-monitor-experiments/using-mlflow/train-local/train-local.ipynb) | 429 |
+| [Use MLflow with AML for a remote training run](https://github.com/Azure/MachineLearningNotebooks/blob/master//how-to-use-azureml/track-and-monitor-experiments/using-mlflow/train-remote/train-remote.ipynb) | 429 |
+| [configuration](https://github.com/Azure/MachineLearningNotebooks/blob/master/configuration.ipynb) | 429 |
+| [azure-ml-with-nvidia-rapids](https://github.com/Azure/MachineLearningNotebooks/blob/master//contrib/RAPIDS/azure-ml-with-nvidia-rapids.ipynb) | 429 |
+| [auto-ml-continuous-retraining](https://github.com/Azure/MachineLearningNotebooks/blob/master//how-to-use-azureml/automated-machine-learning/continuous-retraining/auto-ml-continuous-retraining.ipynb) | 429 |
+| [codegen-for-autofeaturization](https://github.com/Azure/MachineLearningNotebooks/blob/master//how-to-use-azureml/automated-machine-learning/experimental/autofeaturization-codegen/codegen-for-autofeaturization.ipynb) | 429 |
+| [custom-model-training-from-autofeaturization-run](https://github.com/Azure/MachineLearningNotebooks/blob/master//how-to-use-azureml/automated-machine-learning/experimental/autofeaturization-custom-model-training/custom-model-training-from-autofeaturization-run.ipynb) | 429 |
+| [auto-ml-regression-model-proxy](https://github.com/Azure/MachineLearningNotebooks/blob/master//how-to-use-azureml/automated-machine-learning/experimental/regression-model-proxy/auto-ml-regression-model-proxy.ipynb) | 429 |
+| [auto-ml-forecasting-backtest-many-models](https://github.com/Azure/MachineLearningNotebooks/blob/master//how-to-use-azureml/automated-machine-learning/forecasting-backtest-many-models/auto-ml-forecasting-backtest-many-models.ipynb) | 429 |
+| [auto-ml-forecasting-energy-demand](https://github.com/Azure/MachineLearningNotebooks/blob/master//how-to-use-azureml/automated-machine-learning/forecasting-energy-demand/auto-ml-forecasting-energy-demand.ipynb) | 429 |
+| [auto-ml-forecasting-github-dau](https://github.com/Azure/MachineLearningNotebooks/blob/master//how-to-use-azureml/automated-machine-learning/forecasting-github-dau/auto-ml-forecasting-github-dau.ipynb) | 429 |
 
 * https://github.com/Azure/MachineLearningNotebooks/blob/master/tutorials/README.md
 
