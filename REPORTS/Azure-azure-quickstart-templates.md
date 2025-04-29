@@ -146,6 +146,12 @@
 | [Resource Explorer](https://resources.azure.com/) | 401 |
 | [SSH into Drupal VMs](images/azureResourceExplorer.png"SSH into Drupal VMs") | 404 |
 
+* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/episerver/episerver-cms-in-azure/README.md
+
+| URL | State |
+| --- | --- |
+| [Click Here](https://azure.microsoft.com/blog/announcing-episerver-cms-in-azure-marketplace-3/) | 0 |
+
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/ethereum/go-ethereum-on-ubuntu/README.md
 
 | URL | State |
@@ -214,6 +220,18 @@
 | --- | --- |
 | [Red Hat Cloud Access program overview](https://access.redhat.com/documentation/en/red_hat_subscription_management/1/html/red_hat_cloud_access_reference_guide/getting-started-with-ca_cloud-access#proc_new-ca-experience-option2_cloud-access) | 404 |
 | [Getting access to Gold Images](https://access.redhat.com/documentation/en/red_hat_subscription_management/1/html/red_hat_cloud_access_reference_guide/understanding-gold-images_cloud-access#getting-access-to-gold-images_cloud-access) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/jenkins/jenkins-cicd-vmss/README.md
+
+| URL | State |
+| --- | --- |
+| [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) | 0 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/jenkins/jenkins-cicd-webapp/README.md
+
+| URL | State |
+| --- | --- |
+| [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) | 0 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/lansa/lansa-vmss-windows-autoscale-sql-database/README.md
 
@@ -662,14 +680,21 @@
 | [alt text](images/knguid.png "guid") | 404 |
 | [alt text](images/vminventory_template.png "template") | 404 |
 | [alt text](images/vminventory_deployedres.png "Solutions") | 404 |
-| [alt text](images/vminventory_inv1.png "Azure VM Inventory view") | 404 |
-| [alt text](images/runasaccounts.PNG "Azure Automation Runas Accounts") | 404 |
+| [alt text](images/vminventory_inv1.png "Azure VM Inventory view") | 429 |
+| [alt text](images/runasaccounts.PNG "Azure Automation Runas Accounts") | 429 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/demos/oms-azurensg-solution/README.md
+
+| URL | State |
+| --- | --- |
+| [image of Azure Network Security Group analytics dashboard](images/log-analytics-nsg01.png) | 429 |
+| [image of Azure Network Security Group analytics dashboard](images/log-analytics-nsg02.png) | 429 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/demos/oms-cloudfoundry-solution/README.md
 
 | URL | State |
 | --- | --- |
-| [2018.6](./changelog.md "See change logs") | 404 |
+| [2018.6](./changelog.md "See change logs") | 429 |
 | [workspace](https://documentimages.blob.core.windows.net/azurequickstarttemplatereadme/workspaceInAzure.png "workspace") | 409 |
 | [Deploy to Azure](https://azuredeploy.net/deploybutton.png) | 0 |
 | [deploy](https://documentimages.blob.core.windows.net/azurequickstarttemplatereadme/deploy.png "deploy") | 409 |
@@ -681,7 +706,7 @@
 | [query language](https://docs.loganalytics.io/docs/Language-Reference/) | 0 |
 | [log search](https://documentimages.blob.core.windows.net/azurequickstarttemplatereadme/logSearch.png "log search") | 409 |
 | [saved searches](https://documentimages.blob.core.windows.net/azurequickstarttemplatereadme/savedSearches.png "saved searches") | 409 |
-| [Windows (Mobile devices)](https://www.microsoft.com/store/p/microsoft-operations-management-suite/9wzdncrfjz2r) | 0 |
+| [Windows (Mobile devices)](https://www.microsoft.com/store/p/microsoft-operations-management-suite/9wzdncrfjz2r) | 403 |
 | [Android](https://play.google.com/store/apps/details?id=com.microsoft.operations.AndroidPhone) | 404 |
 | [iOS](https://itunes.apple.com/us/app/microsoft-operations-management-suite/id1042424859) | 404 |
 | [Change Logs](./changelog.md "See change logs") | 404 |
@@ -1116,7 +1141,7 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 
 | URL | State |
 | --- | --- |
-| [Confidential Consortium Framework](https://www.microsoft.com/research/project/confidential-consortium-framework/) | 0 |
+| [Confidential Consortium Framework](https://www.microsoft.com/research/project/confidential-consortium-framework/) | 403 |
 | [Quickstart: Create an Confidential Ledger with an ARM template](/azure/confidential-ledger/quickstart-template) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.customproviders/custom-rp-existing-resource-deployments/README.md
@@ -1676,7 +1701,7 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 
 | URL | State |
 | --- | --- |
-| [Azure Cosmos DB account](https://azure.microsoft.com/documentation/articles/documentdb-introduction/#what-is-azure-documentdb) | 0 |
+| [Azure Cosmos DB account](https://azure.microsoft.com/documentation/articles/documentdb-introduction/#what-is-azure-documentdb) | 404 |
 | [App Service Plan](https://azure.microsoft.com/documentation/articles/azure-web-sites-web-hosting-plans-in-depth-overview/) | 404 |
 | [Web App](https://azure.microsoft.com/documentation/articles/app-service-web-overview/) | 404 |
 | [Application settings](https://azure.microsoft.com/documentation/articles/web-sites-configure/) | 404 |
@@ -1811,12 +1836,6 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 | --- | --- |
 | [Screen](./images/build.png) | 404 |
 | [Screen](./images/new-django-app-service.png) | 404 |
-
-* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.web/webapp-linux-sonarqube-azuresql/README.md
-
-| URL | State |
-| --- | --- |
-| [SonarQube 8.2](https://community.sonarsource.com/t/8-2-environment-varible-docs-are-inconsistent-confusing/21805/3) | 429 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.web/webapp-windows-with-privateendpoint-applicationgateway/README.md
 
