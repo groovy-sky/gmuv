@@ -221,18 +221,6 @@
 | [Red Hat Cloud Access program overview](https://access.redhat.com/documentation/en/red_hat_subscription_management/1/html/red_hat_cloud_access_reference_guide/getting-started-with-ca_cloud-access#proc_new-ca-experience-option2_cloud-access) | 404 |
 | [Getting access to Gold Images](https://access.redhat.com/documentation/en/red_hat_subscription_management/1/html/red_hat_cloud_access_reference_guide/understanding-gold-images_cloud-access#getting-access-to-gold-images_cloud-access) | 404 |
 
-* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/jenkins/jenkins-cicd-vmss/README.md
-
-| URL | State |
-| --- | --- |
-| [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) | 0 |
-
-* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/jenkins/jenkins-cicd-webapp/README.md
-
-| URL | State |
-| --- | --- |
-| [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) | 0 |
-
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/lansa/lansa-vmss-windows-autoscale-sql-database/README.md
 
 | URL | State |
@@ -680,21 +668,14 @@
 | [alt text](images/knguid.png "guid") | 404 |
 | [alt text](images/vminventory_template.png "template") | 404 |
 | [alt text](images/vminventory_deployedres.png "Solutions") | 404 |
-| [alt text](images/vminventory_inv1.png "Azure VM Inventory view") | 429 |
-| [alt text](images/runasaccounts.PNG "Azure Automation Runas Accounts") | 429 |
-
-* https://github.com/Azure/azure-quickstart-templates/blob/master/demos/oms-azurensg-solution/README.md
-
-| URL | State |
-| --- | --- |
-| [image of Azure Network Security Group analytics dashboard](images/log-analytics-nsg01.png) | 429 |
-| [image of Azure Network Security Group analytics dashboard](images/log-analytics-nsg02.png) | 429 |
+| [alt text](images/vminventory_inv1.png "Azure VM Inventory view") | 404 |
+| [alt text](images/runasaccounts.PNG "Azure Automation Runas Accounts") | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/demos/oms-cloudfoundry-solution/README.md
 
 | URL | State |
 | --- | --- |
-| [2018.6](./changelog.md "See change logs") | 429 |
+| [2018.6](./changelog.md "See change logs") | 404 |
 | [workspace](https://documentimages.blob.core.windows.net/azurequickstarttemplatereadme/workspaceInAzure.png "workspace") | 409 |
 | [Deploy to Azure](https://azuredeploy.net/deploybutton.png) | 0 |
 | [deploy](https://documentimages.blob.core.windows.net/azurequickstarttemplatereadme/deploy.png "deploy") | 409 |
@@ -706,7 +687,7 @@
 | [query language](https://docs.loganalytics.io/docs/Language-Reference/) | 0 |
 | [log search](https://documentimages.blob.core.windows.net/azurequickstarttemplatereadme/logSearch.png "log search") | 409 |
 | [saved searches](https://documentimages.blob.core.windows.net/azurequickstarttemplatereadme/savedSearches.png "saved searches") | 409 |
-| [Windows (Mobile devices)](https://www.microsoft.com/store/p/microsoft-operations-management-suite/9wzdncrfjz2r) | 403 |
+| [Windows (Mobile devices)](https://www.microsoft.com/store/p/microsoft-operations-management-suite/9wzdncrfjz2r) | 0 |
 | [Android](https://play.google.com/store/apps/details?id=com.microsoft.operations.AndroidPhone) | 404 |
 | [iOS](https://itunes.apple.com/us/app/microsoft-operations-management-suite/id1042424859) | 404 |
 | [Change Logs](./changelog.md "See change logs") | 404 |
@@ -900,6 +881,12 @@
 | URL | State |
 | --- | --- |
 | [API reference documentation](https://docs.microsoft.com/rest/api/keyvault/CreateKey/CreateKey) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/canonical/anbox/README.md
+
+| URL | State |
+| --- | --- |
+| [these instructions](https://anbox-cloud.io/docs/tutorial/installing-appliance#initialise-the-appliance-6) | 503 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.apimanagement/api-management-create-with-reference-keyvault/README.md
 
