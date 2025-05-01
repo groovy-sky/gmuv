@@ -47,6 +47,8 @@
 | URL | State |
 | --- | --- |
 | [Dominick's Orange Juice Dataset](http://www.cs.unitn.it/~taufer/QMMA/L10-OJ-Data.html#(1) | 0 |
+| [ParallelRunStep](https://docs.microsoft.com/en-us/python/api/azureml-pipeline-steps/azureml.pipeline.steps.parallel_run_step.parallelrunstep?view=azure-ml-py) | 404 |
+| [python script steps](https://docs.microsoft.com/python/api/azureml-pipeline-steps/azureml.pipeline.steps.python_script_step.pythonscriptstep?view=azure-ml-py) | 404 |
 | [contributing](../../../CONTRIBUTING.md) | 404 |
 
 * https://github.com/Azure/MachineLearningNotebooks/blob/master/how-to-use-azureml/automated-machine-learning/sql-server/README.md
@@ -117,6 +119,33 @@
 
 | URL | State |
 | --- | --- |
+| [documentation](https://aka.ms/tabulardataset-api-reference) | 404 |
+| [Dataset.get()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.dataset.dataset?view=azure-ml-py#get-workspace--name-none--id-none-) | 404 |
+| [Dataset.get_by_name()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.dataset.dataset?view=azure-ml-py#get-by-name-workspace--name--version--latest--) | 404 |
+| [Dataset.from_pandas_dataframe()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.dataset.dataset?view=azure-ml-py#from-pandas-dataframe-dataframe--path-none--in-memory-false-) | 404 |
+| [Dataset.Tabular.from_parquet_files()](https://docs.microsoft.com/python/api/azureml-core/azureml.data.dataset_factory.tabulardatasetfactory?view=azure-ml-py#from-parquet-files-path--validate-true--include-path-false--set-column-types-none-) | 404 |
+| [Dataset.from_delimited_files()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.dataset.dataset?view=azure-ml-py#from-delimited-files-path--separator------header--promoteheadersbehavior-all-files-have-same-headers--3---encoding--fileencoding-utf8--0---quoting-false--infer-column-types-true--skip-rows-0--skip-mode--skiplinesbehavior-no-rows--0---comment-none--include-path-false--archive-options-none--partition-format-none-) | 404 |
+| [Dataset.Tabular.from_delimited_files()](https://docs.microsoft.com/python/api/azureml-core/azureml.data.dataset_factory.tabulardatasetfactory?view=azure-ml-py#from-delimited-files-path--validate-true--include-path-false--infer-column-types-true--set-column-types-none--separator------header--promoteheadersbehavior-all-files-have-same-headers--3--) | 404 |
+| [Dataset.auto_read_files()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.dataset.dataset?view=azure-ml-py#auto-read-files-path--include-path-false--partition-format-none-) | 404 |
+| [Dataset.Tabular.from_parquet_files()](https://docs.microsoft.com/python/api/azureml-core/azureml.data.dataset_factory.tabulardatasetfactory?view=azure-ml-py#from-parquet-files-path--validate-true--include-path-false--set-column-types-none-) | 404 |
+| [Dataset.Tabular.from_delimited_files()](https://docs.microsoft.com/python/api/azureml-core/azureml.data.dataset_factory.tabulardatasetfactory?view=azure-ml-py#from-delimited-files-path--validate-true--include-path-false--infer-column-types-true--set-column-types-none--separator------header--promoteheadersbehavior-all-files-have-same-headers--3--) | 404 |
+| [Dataset.from_parquet_files()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.dataset.dataset?view=azure-ml-py#from-parquet-files-path--include-path-false--partition-format-none-) | 404 |
+| [Dataset.Tabular.from_parquet_files()](https://docs.microsoft.com/python/api/azureml-core/azureml.data.dataset_factory.tabulardatasetfactory?view=azure-ml-py#from-parquet-files-path--validate-true--include-path-false--set-column-types-none-) | 404 |
+| [Dataset.from_sql_query()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.dataset.dataset?view=azure-ml-py#from-sql-query-data-source--query-) | 404 |
+| [Dataset.Tabular.from_sql_query()](https://docs.microsoft.com/python/api/azureml-core/azureml.data.dataset_factory.tabulardatasetfactory?view=azure-ml-py#from-sql-query-query--validate-true--set-column-types-none-) | 404 |
+| [Dataset.from_excel_files()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.dataset.dataset?view=azure-ml-py#from-excel-files-path--sheet-name-none--use-column-headers-false--skip-rows-0--include-path-false--infer-column-types-true--partition-format-none-) | 404 |
+| [Dataset.from_json_files()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.dataset.dataset?view=azure-ml-py#from-json-files-path--encoding--fileencoding-utf8--0---flatten-nested-arrays-false--include-path-false--partition-format-none-) | 404 |
+| [Dataset.Tabular.from_json_lines_files](https://docs.microsoft.com/python/api/azureml-core/azureml.data.dataset_factory.tabulardatasetfactory?view=azure-ml-py#from-json-lines-files-path--validate-true--include-path-false--set-column-types-none--partition-format-none-) | 404 |
+| [Dataset.to_pandas_dataframe()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.dataset.dataset?view=azure-ml-py#to-pandas-dataframe--) | 404 |
+| [TabularDataset.to_pandas_dataframe()](https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.data.tabulardataset?view=azure-ml-py#to-pandas-dataframe--) | 404 |
+| [Dataset.to_spark_dataframe()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.dataset.dataset?view=azure-ml-py#to-spark-dataframe--) | 404 |
+| [TabularDataset.to_spark_dataframe()](https://docs.microsoft.com/python/api/azureml-core/azureml.data.tabulardataset?view=azure-ml-py#to-spark-dataframe--) | 404 |
+| [Dataset.head(3)](https://docs.microsoft.com/python/api/azureml-core/azureml.core.dataset.dataset?view=azure-ml-py#head-count-) | 404 |
+| [TabularDataset.take(3).to_pandas_dataframe()](https://docs.microsoft.com/python/api/azureml-core/azureml.data.tabulardataset?view=azure-ml-py#take-count-) | 404 |
+| [Dataset.sample()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.dataset.dataset?view=azure-ml-py#sample-sample-strategy--arguments-) | 404 |
+| [TabularDataset.take_sample()](https://docs.microsoft.com/python/api/azureml-core/azureml.data.tabulardataset?view=azure-ml-py#take-sample-probability--seed-none-) | 404 |
+| [Dataset.from_binary_files()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.dataset.dataset?view=azure-ml-py#from-binary-files-path-) | 404 |
+| [Dataset.get_by_name](https://docs.microsoft.com/python/api/azureml-core/azureml.core.dataset.dataset?view=azure-ml-py#get-by-name-workspace--name--version--latest--) | 404 |
 | [Impressions](https://PixelServer20190423114238.azurewebsites.net/api/impressions/MachineLearningNotebooks/work-with-data/dataset-api-change-notice.png) | 0 |
 
 * https://github.com/Azure/MachineLearningNotebooks/blob/master/index.md
@@ -144,6 +173,8 @@
 | [auto-ml-forecasting-backtest-many-models](https://github.com/Azure/MachineLearningNotebooks/blob/master//how-to-use-azureml/automated-machine-learning/forecasting-backtest-many-models/auto-ml-forecasting-backtest-many-models.ipynb) | 429 |
 | [auto-ml-forecasting-energy-demand](https://github.com/Azure/MachineLearningNotebooks/blob/master//how-to-use-azureml/automated-machine-learning/forecasting-energy-demand/auto-ml-forecasting-energy-demand.ipynb) | 429 |
 | [auto-ml-forecasting-github-dau](https://github.com/Azure/MachineLearningNotebooks/blob/master//how-to-use-azureml/automated-machine-learning/forecasting-github-dau/auto-ml-forecasting-github-dau.ipynb) | 429 |
+| [auto-ml-forecasting-hierarchical-timeseries](https://github.com/Azure/MachineLearningNotebooks/blob/master//how-to-use-azureml/automated-machine-learning/forecasting-hierarchical-timeseries/auto-ml-forecasting-hierarchical-timeseries.ipynb) | 429 |
+| [auto-ml-forecasting-many-models](https://github.com/Azure/MachineLearningNotebooks/blob/master//how-to-use-azureml/automated-machine-learning/forecasting-many-models/auto-ml-forecasting-many-models.ipynb) | 429 |
 
 * https://github.com/Azure/MachineLearningNotebooks/blob/master/tutorials/README.md
 
