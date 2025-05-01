@@ -144,7 +144,7 @@ Implementations](https://github.com/azure/enterprise-scale#deploying-enterprise-
 
 | URL | State |
 | --- | --- |
-| [trust center](https://www.microsoft.com/trustcenter) | 403 |
+| [trust center](https://www.microsoft.com/trustcenter) | 0 |
 | [Telemetry](https://azure.github.io/azure-monitor-baseline-alerts/patterns/alz/Telemetry) | 404 |
 
 * https://github.com/Azure/Enterprise-Scale/blob/main/docs/wiki/Deploying-Enterprise-Scale-BasicSetup.md
@@ -210,12 +210,72 @@ Implementations](https://github.com/azure/enterprise-scale#deploying-enterprise-
 | [**Adventure Works**](./ALZ-Deploy-reference-implementations#deploy-a-reference-implementation) | 404 |
 | [**Contoso**](./ALZ-Deploy-reference-implementations#deploy-a-reference-implementation) | 404 |
 
+* https://github.com/Azure/Enterprise-Scale/blob/main/docs/wiki/Migrate-ALZ-Policies-to-Built‐in.md
+
+| URL | State |
+| --- | --- |
+| [alz-delete-initiative-assignments](media/alz-update-initiative-with-builtin-04.png) | 429 |
+| [alz-custom-initiative-def-search](media/alz-update-initiative-with-builtin-01.png) | 429 |
+
+* https://github.com/Azure/Enterprise-Scale/blob/main/docs/wiki/Update-ALZ-Custom-Policies-to-Latest.md
+
+| URL | State |
+| --- | --- |
+| [AzGovViz-ALZ-Policy-Checker](media/AzGovViz-ALZ-Policy-outDated.png) | 429 |
+| [alz-custom-policy-def-search](media/1.1.update-alz-custom-policy-def-search.png) | 429 |
+| [alz-custom-policy-def-name](media/1.2.update-alz-custom-policy-def-name.png) | 429 |
+| [disclaimer](https://github.com/Azure/Enterprise-Scale/blob/main/SUPPORT.md) | 429 |
+| [alz-custom-policy-def-search](media/1.1.update-alz-custom-policy-def-search.png) | 429 |
+| [alz-custom-policy-def-name](media/1.2.update-alz-custom-policy-def-name.png) | 429 |
+| [alz-custom-policy-assignments](media/2.1.update-alz-custom-policy-assignments.png) | 429 |
+| [alz-delete-policy-assignments](media/2.2.update-alz-custom-policy-delete-assignments.png) | 429 |
+| [alz-custom-policy-def-search](media/2.3.update-alz-custom-policy-search.png) | 429 |
+| [disclaimer](https://github.com/Azure/Enterprise-Scale/blob/main/SUPPORT.md) | 429 |
+| [alz-custom-policy-def-search](media/2.4.update-alz-custom-policy-search.png) | 429 |
+| [alz-custom-initiative-def-name](media/alz-update-initiative-with-builtin-02.png) | 429 |
+| [alz-custom-initiative-assignments](media/alz-update-initiative-with-builtin-03.png) | 429 |
+| [alz-delete-initiative-assignments](media/alz-update-initiative-with-builtin-04.png) | 429 |
+| [alz-custom-initiative-def-search](media/alz-update-initiative-with-builtin-01.png) | 429 |
+| [disclaimer](https://github.com/Azure/Enterprise-Scale/blob/main/SUPPORT.md) | 429 |
+
+* https://github.com/Azure/Enterprise-Scale/blob/main/docs/wiki/What-is-Enterprise-Scale.md
+
+| URL | State |
+| --- | --- |
+| [What if I already have an existing Azure footprint?](#what-if-i-already-have-an-existing-azure-footprint) | 429 |
+
 * https://github.com/Azure/Enterprise-Scale/blob/main/docs/wiki/Whats-new.md
 
 | URL | State |
 | --- | --- |
-| [dataCollectionRule-DefenderSQL.json](Enterprise-Scale/eslzArm/resourceGroupTemplates/dataCollectionRule-DefenderSQL.json) | 404 |
-| [ALZ Policies Extra](./ALZ-Policies-Extra) | 404 |
+| [Updates](#updates) | 429 |
+| [April 2025](#april-2025) | 429 |
+| [March 2025](#march-2025) | 429 |
+| [February 2025](#february-2025) | 429 |
+| [January 2025](#january-2025) | 429 |
+| [🔃 Policy Refresh Q2 FY25](#-policy-refresh-q2-fy25) | 429 |
+| [December 2024](#december-2024) | 429 |
+| [November 2024](#november-2024) | 429 |
+| [🔃 Policy Refresh Q1 FY25](#-policy-refresh-q1-fy25) | 429 |
+| [October 2024](#october-2024) | 429 |
+| [September 2024](#september-2024) | 429 |
+| [August 2024](#august-2024) | 429 |
+| [July 2024](#july-2024) | 429 |
+| [June 2024](#june-2024) | 429 |
+| [🆕 AMA Updates](#-ama-updates) | 429 |
+| [🔃 Policy Refresh H2 FY24](#-policy-refresh-h2-fy24) | 429 |
+| [May 2024](#may-2024) | 429 |
+| [February 2024](#february-2024) | 429 |
+| [AMA Update for the Portal Accelerator](#ama-update-for-the-portal-accelerator) | 429 |
+| [🔃 Policy Refresh Q2 FY24](#-policy-refresh-q2-fy24) | 429 |
+| [January 2024](#january-2024) | 429 |
+| [December 2023](#december-2023) | 429 |
+| [November 2023](#november-2023) | 429 |
+| [October 2023](#october-2023) | 429 |
+| [September 2023](#september-2023) | 429 |
+| [Previous Updates](#august-2023) | 429 |
+| [dataCollectionRule-DefenderSQL.json](Enterprise-Scale/eslzArm/resourceGroupTemplates/dataCollectionRule-DefenderSQL.json) | 429 |
+| [ALZ Policies Extra](./ALZ-Policies-Extra) | 429 |
 | [Known Issues](ALZ-Known-Issues) | 404 |
 | [ALZ Policies](./ALZ-Policies) | 404 |
 | [ALZ Deprecated Services](./ALZ-Deprecated-Services) | 404 |
@@ -243,19 +303,27 @@ Implementations](https://github.com/azure/enterprise-scale#deploying-enterprise-
 | [ALZ Policy FAQ and Tips](./ALZ-Policies-FAQ) | 404 |
 | [ALZ Contribution Guide](./ALZ-Contribution-Guide) | 404 |
 | [Migrate ALZ custom policies to Azure builtin policies](migrate-alz-policies-to-builtin.md) | 404 |
-| [issue #1081](https://github.com/Azure/Enterprise-Scale/issues/1081) | 429 |
-| [issue #478](https://github.com/Azure/Enterprise-Scale/issues/478) | 429 |
 | [Deploy Azure landing zone portal accelerator](./Deploying-ALZ) | 404 |
 | [Deployment guidance for Small Enterprises](./Deploying-ALZ-BasicSetup) | 404 |
 | [How to deploy without hybrid connectivity](./Deploying-ALZ-Foundation) | 404 |
 | [Deployment with hub and spoke network topology](./Deploying-ALZ-HubAndSpoke) | 404 |
 | [Deployment with Azure VWAN network topology](./Deploying-ALZ-VWAN) | 404 |
+| [issue #279](https://github.com/Azure/ALZ-Bicep/issues/279) | 429 |
+| [issue #1004](https://github.com/Azure/Enterprise-Scale/issues/1004) | 429 |
+| [issue #979](https://github.com/Azure/Enterprise-Scale/issues/979) | 429 |
+| [issue #979](https://github.com/Azure/Enterprise-Scale/issues/979) | 429 |
+| [issue #962](https://github.com/Azure/Enterprise-Scale/issues/962) | 429 |
+| [issue #962](https://github.com/Azure/Enterprise-Scale/issues/962) | 429 |
+| [issue #985](https://github.com/Azure/Enterprise-Scale/issues/985) | 429 |
+| [issue #986](https://github.com/Azure/Enterprise-Scale/issues/986) | 429 |
+| [issue #968](https://github.com/Azure/Enterprise-Scale/issues/968) | 429 |
 | [issue #978](https://github.com/Azure/Enterprise-Scale/issues/978) | 429 |
 | [issue #971](https://github.com/Azure/Enterprise-Scale/issues/971) | 429 |
 | [issue #893](https://github.com/Azure/Enterprise-Scale/issues/893) | 429 |
 | [issue #949](https://github.com/Azure/Enterprise-Scale/issues/949) | 429 |
 | [issue 944](https://github.com/Azure/Enterprise-Scale/issues/944) | 429 |
 | [issue 902](https://github.com/Azure/Enterprise-Scale/issues/902) | 429 |
+| [issue 910](https://github.com/Azure/Enterprise-Scale/issues/910) | 429 |
 | [issue 889](https://github.com/Azure/Enterprise-Scale/issues/889) | 429 |
 | [issue 923](https://github.com/Azure/Enterprise-Scale/issues/923) | 429 |
 | [#407](https://github.com/Azure/Enterprise-Scale/issues/407) | 429 |
