@@ -14,64 +14,14 @@
 
 | URL | State |
 | --- | --- |
-| [](imgs/WorkSpaceSetUp.png) | 429 |
-| [](imgs/saved_workspace.png) | 429 |
-| [](imgs/target_creation.png) | 429 |
-| [](imgs/targeterror1.png) | 429 |
-| [](imgs/targeterror2.png) | 429 |
-| [](imgs/targetsuccess.png) | 429 |
-| [RAPIDS E2E example](https://github.com/rapidsai/notebooks/blob/master/mortgage/E2E.ipynb) | 429 |
-| [](imgs/scriptuploading.png) | 429 |
-| [](imgs/dcf1.png) | 429 |
-| [](imgs/dcf2.png) | 429 |
-| [](imgs/dcf3.png) | 429 |
-| [](imgs/dcf4.png) | 429 |
-| [](imgs/downamddecom.png) | 429 |
-| [](imgs/datastore.png) | 429 |
-| [](imgs/install2.png) | 429 |
-| [](imgs/wrapper.png) | 429 |
-| [](imgs/submission1.png) | 429 |
-| [](imgs/queue.png) | 429 |
-| [](imgs/running.png) | 429 |
-| [](imgs/completed.png) | 429 |
-| [](imgs/2GPUs.png) | 429 |
-| [](imgs/3GPUs.png) | 429 |
-| [](imgs/4gpus.png) | 429 |
-| [](imgs/CPUBase.png) | 429 |
-| [](imgs/OOM.png) | 429 |
-| [](imgs/clusterdelete.png) | 429 |
-| [](imgs/wap1.png) | 429 |
-| [](imgs/wap2.png) | 429 |
-| [](imgs/wap3.png) | 429 |
-| [](imgs/wap4.png) | 429 |
-| [](imgs/DLF1.png) | 429 |
-| [](imgs/DLF2.png) | 429 |
-| [](imgs/DLF3.png) | 429 |
-| [](imgs/fef1.png) | 429 |
-| [](imgs/fef2.png) | 429 |
-| [](imgs/fef3.png) | 429 |
-| [](imgs/fef4.png) | 429 |
-| [](imgs/fef5.png) | 429 |
-| [](imgs/fef6.png) | 429 |
-| [](imgs/fef7.png) | 429 |
-| [](imgs/fef8.png) | 429 |
-| [](imgs/fef9.png) | 429 |
-| [](imgs/daskini.png) | 429 |
-| [](imgs/daskoutput.png) | 429 |
-| [](imgs/ETL.png) | 429 |
-| [](imgs/Dask2.png) | 429 |
-| [](imgs/PArameters.png) | 429 |
-| [](imgs/training.png) | 429 |
+| [RAPIDS E2E example](https://github.com/rapidsai/notebooks/blob/master/mortgage/E2E.ipynb) | 404 |
 
 * https://github.com/Azure/MachineLearningNotebooks/blob/master/how-to-use-azureml/README.md
 
 | URL | State |
 | --- | --- |
-| [configuration Notebook](../configuration.ipynb) | 429 |
-| [train-within-notebook](./training/train-within-notebook) | 429 |
-| [train-on-local](./training/train-on-local) | 429 |
-| [train-on-amlcompute](./training/train-on-amlcompute) | 429 |
-| [train-on-remote-vm](./training/train-on-remote-vm) | 429 |
+| [configuration Notebook](../configuration.ipynb) | 404 |
+| [train-within-notebook](./training/train-within-notebook) | 404 |
 | [logging-api](./track-and-monitor-experiments/logging-api) | 429 |
 | [enable-app-insights-in-production-service](./deployment/enable-app-insights-in-production-service) | 429 |
 
@@ -139,78 +89,41 @@
 | [Energy demand example using SQL Server Management Studio](#ssmsenergydemand) | 429 |
 | [https://www.microsoft.com/en-us/sql-server/sql-server-downloads](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) | 403 |
 | [https://docs.microsoft.com/en-us/sql/azure-data-studio/sql-notebooks?view=sql-server-2017](https://docs.microsoft.com/en-us/sql/azure-data-studio/sql-notebooks?view=sql-server-2017) | 404 |
-| [https://www.microsoft.com/en-us/sql-server/sql-server-downloads](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) | 0 |
-| [https://www.microsoft.com/en-us/sql-server/sql-server-downloads](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) | 0 |
+| [https://www.microsoft.com/en-us/sql-server/sql-server-downloads](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) | 403 |
+| [https://www.microsoft.com/en-us/sql-server/sql-server-downloads](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) | 403 |
 
 * https://github.com/Azure/MachineLearningNotebooks/blob/master/how-to-use-azureml/machine-learning-pipelines/README.md
 
 | URL | State |
 | --- | --- |
-| [intro-to-pipelines](./intro-to-pipelines/) | 429 |
-| [pipeline-batch-scoring.ipynb](https://aka.ms/pl-batch-score) | 429 |
-| [pipeline-style-transfer.ipynb](https://aka.ms/pl-style-trans) | 429 |
-| [nyc-taxi-data-regression-model-building.ipynb](https://aka.ms/pl-nyctaxi-tutorial) | 429 |
-| [file-dataset-image-inference-mnist.ipynb](https://aka.ms/pl-pr-filedata) | 429 |
-| [tabular-dataset-inference-iris.ipynb](https://aka.ms/pl-pr-tabulardata) | 429 |
+| [pipeline-style-transfer.ipynb](https://aka.ms/pl-style-trans) | 404 |
 | [Impressions](https://PixelServer20190423114238.azurewebsites.net/api/impressions/MachineLearningNotebooks/how-to-use-azureml/machine-learning-pipelines/README.png) | 0 |
 
 * https://github.com/Azure/MachineLearningNotebooks/blob/master/how-to-use-azureml/machine-learning-pipelines/intro-to-pipelines/README.md
 
 | URL | State |
 | --- | --- |
-| [aml-pipelines-getting-started.ipynb](https://aka.ms/pl-get-started) | 429 |
-| [aml-pipelines-with-data-dependency-steps.ipynb](https://aka.ms/pl-data-dep) | 429 |
-| [aml-pipelines-publish-and-run-using-rest-endpoint.ipynb](https://aka.ms/pl-pub-rep) | 429 |
-| [aml-pipelines-data-transfer.ipynb](https://aka.ms/pl-data-trans) | 429 |
-| [aml-pipelines-use-databricks-as-compute-target.ipynb](https://aka.ms/pl-databricks) | 429 |
-| [aml-pipelines-use-adla-as-compute-target.ipynb](https://aka.ms/pl-adla) | 429 |
-| [aml-pipelines-with-commandstep.ipynb](aml-pipelines-with-commandstep.ipynb) | 429 |
-| [aml-pipelines-parameter-tuning-with-hyperdrive.ipynb](https://aka.ms/pl-hyperdrive) | 429 |
-| [aml-pipelines-how-to-use-azurebatch-to-run-a-windows-executable.ipynb](https://aka.ms/pl-azbatch) | 429 |
-| [aml-pipelines-setup-schedule-for-a-published-pipeline.ipynb](https://aka.ms/pl-schedule) | 429 |
-| [aml-pipelines-with-automated-machine-learning-step.ipynb](https://aka.ms/pl-automl) | 429 |
-| [aml-pipelines-setup-versioned-pipeline-endpoints.ipynb](https://aka.ms/pl-ver-endpoint) | 429 |
-| [aml-pipelines-showcasing-datapath-and-pipelineparameter.ipynb](https://aka.ms/pl-datapath) | 429 |
-| [aml-pipelines-how-to-use-pipeline-drafts.ipynb](http://aka.ms/pl-pl-draft) | 429 |
-| [aml-pipelines-hot-to-use-modulestep.ipynb](https://aka.ms/pl-modulestep) | 429 |
-| [aml-pipelines-with-notebook-runner-step.ipynb](https://aka.ms/pl-nbrstep) | 429 |
-| [aml-pipelines-with-commandstep-r.ipynb](aml-pipelines-with-commandstep-r.ipynb) | 429 |
 | [Impressions](https://PixelServer20190423114238.azurewebsites.net/api/impressions/MachineLearningNotebooks/how-to-use-azureml/machine-learning-pipelines/intro-to-pipelines/README.png) | 0 |
 
 * https://github.com/Azure/MachineLearningNotebooks/blob/master/how-to-use-azureml/machine-learning-pipelines/parallel-run/README.md
 
 | URL | State |
 | --- | --- |
-| [configuration Notebook](https://aka.ms/pl-config) | 429 |
-| [file-dataset-partition-per-folder.ipynb](./file-dataset-partition-per-folder.ipynb) | 429 |
-| [tabular-dataset-partition-per-column.ipynb](./tabular-dataset-partition-per-column.ipynb) | 429 |
-| [Example GPU environment](./file-dataset-image-inference-mnist.ipynb#specify-the-environment-to-run-the-script) | 429 |
 | [a-z\]([-a-z0-9]*[a-z0-9]) | 404 |
-| [file-dataset-image-inference-mnist.ipynb](./file-dataset-image-inference-mnist.ipynb) | 429 |
-| [tabular-dataset-inference-iris.ipynb](./tabular-dataset-inference-iris.ipynb) | 429 |
-| [pipeline-style-transfer.ipynb](../pipeline-style-transfer/pipeline-style-transfer-parallel-run.ipynb) | 429 |
-| [file-dataset-partition-per-folder.ipynb](./file-dataset-partition-per-folder.ipynb) | 429 |
-| [tabular-dataset-partition-per-column.ipynb](./tabular-dataset-partition-per-column.ipynb) | 429 |
+| [pipeline-style-transfer.ipynb](../pipeline-style-transfer/pipeline-style-transfer-parallel-run.ipynb) | 404 |
 | [Impressions](https://PixelServer20190423114238.azurewebsites.net/api/impressions/MachineLearningNotebooks/how-to-use-azureml/machine-learning-pipelines/parallel-run/README.png) | 0 |
 
 * https://github.com/Azure/MachineLearningNotebooks/blob/master/how-to-use-azureml/ml-frameworks/README.md
 
 | URL | State |
 | --- | --- |
-| [Scikit-learn](scikit-learn) | 429 |
-| [PyTorch](pytorch) | 429 |
-| [TensorFlow](tensorflow) | 429 |
-| [Keras](keras) | 429 |
-| [Chainer](chainer) | 429 |
-| [Fastai](fastai) | 429 |
+| [Chainer](chainer) | 404 |
 | [Impressions](https://PixelServer20190423114238.azurewebsites.net/api/impressions/MachineLearningNotebooks/how-to-use-azureml/ml-frameworks/README.png) | 0 |
 
 * https://github.com/Azure/MachineLearningNotebooks/blob/master/how-to-use-azureml/reinforcement-learning/README.md
 
 | URL | State |
 | --- | --- |
-| [this section](#contents) | 429 |
-| [pong_rllib.ipynb](atari-on-distributed-compute/pong_rllib.ipynb) | 429 |
 | [feedback](https://github.com/Azure/MachineLearningNotebooks/labels/Reinforcement%20Learning) | 404 |
 | [Impressions](https://PixelServer20190423114238.azurewebsites.net/api/impressions/MachineLearningNotebooks/how-to-use-azureml/reinforcement-learning/README.png) | 0 |
 
@@ -218,34 +131,20 @@
 
 | URL | State |
 | --- | --- |
-| [Logging API](./logging-api/logging-api.ipynb) | 429 |
-| [Manage runs](./manage-runs/manage-runs.ipynb) | 429 |
-| [Tensorboard to monitor runs](./tensorboard/tensorboard.ipynb) | 429 |
-| [Use MLflow with Azure Machine Learning for Local Training Run](./using-mlflow/train-local/train-local.ipynb) | 429 |
-| [Use MLflow with Azure Machine Learning for Remote Training Run](./using-mlflow/train-remote/train-remote.ipynb) | 429 |
-| [Use MLflow with Azure Machine Learning to submit runs locally with MLflow projects](./using-mlflow/train-projects-local/train-projects-local.ipynb) | 429 |
-| [Use MLflow with Azure Machine Learning to submit runs on AzureML compute with MLflow projects](./using-mlflow/train-projects-remote/train-projects-remote.ipynb) | 429 |
+| [Tensorboard to monitor runs](./tensorboard/tensorboard.ipynb) | 404 |
 | [Impressions](https://PixelServer20190423114238.azurewebsites.net/api/impressions/MachineLearningNotebooks/how-to-use-azureml/track-and-monitor-experiments/README.png) | 0 |
 
 * https://github.com/Azure/MachineLearningNotebooks/blob/master/how-to-use-azureml/training/README.md
 
 | URL | State |
 | --- | --- |
-| [Train within notebook](train-within-notebook) | 429 |
-| [Train on local](train-on-local) | 429 |
-| [Train on remote VM](train-on-remote-vm) | 429 |
-| [Train on ML Compute](train-on-amlcompute) | 429 |
-| [Train in an HDI Spark cluster](train-in-spark) | 429 |
+| [Train within notebook](train-within-notebook) | 404 |
 | [Impressions](https://PixelServer20190423114238.azurewebsites.net/api/impressions/MachineLearningNotebooks/how-to-use-azureml/training/README.png) | 0 |
 
 * https://github.com/Azure/MachineLearningNotebooks/blob/master/how-to-use-azureml/work-with-data/README.md
 
 | URL | State |
 | --- | --- |
-| [Datasets in training](datasets-tutorial/train-with-datasets/train-with-datasets.ipynb) | 429 |
-| [automated machine learning training](https://aka.ms/automl-dataset) | 429 |
-| [image classification](https://aka.ms/filedataset-samplenotebook) | 429 |
-| [Dataset API change notice](dataset-api-change-notice.md) | 429 |
 | [Impressions](https://PixelServer20190423114238.azurewebsites.net/api/impressions/MachineLearningNotebooks/work-with-data/README.png) | 0 |
 
 * https://github.com/Azure/MachineLearningNotebooks/blob/master/how-to-use-azureml/work-with-data/dataset-api-change-notice.md
@@ -278,7 +177,6 @@
 | [Dataset.sample()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.dataset.dataset?view=azure-ml-py#sample-sample-strategy--arguments-) | 404 |
 | [TabularDataset.take_sample()](https://docs.microsoft.com/python/api/azureml-core/azureml.data.tabulardataset?view=azure-ml-py#take-sample-probability--seed-none-) | 404 |
 | [Dataset.from_binary_files()](https://docs.microsoft.com/python/api/azureml-core/azureml.core.dataset.dataset?view=azure-ml-py#from-binary-files-path-) | 404 |
-| [Learn How](https://aka.ms/automl-dataset) | 429 |
 | [Learn How](https://aka.ms/pl-datasets) | 429 |
 | [Dataset.get_by_name](https://docs.microsoft.com/python/api/azureml-core/azureml.core.dataset.dataset?view=azure-ml-py#get-by-name-workspace--name--version--latest--) | 404 |
 | [Impressions](https://PixelServer20190423114238.azurewebsites.net/api/impressions/MachineLearningNotebooks/work-with-data/dataset-api-change-notice.png) | 0 |
