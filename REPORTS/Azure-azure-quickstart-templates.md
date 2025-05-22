@@ -105,7 +105,6 @@
 
 | URL | State |
 | --- | --- |
-| [here](https://github.com/Azure/azure-quickstart-templates/tree/master/application-workloads/darktrace-vsensor-standalone) | 404 |
 | [Darktrace vSensor Architecture Diagram](images/architecture-diagram.png "Architecture") | 404 |
 | [alt text](images/template-form.png "Template form") | 404 |
 | [alt text](images/appendixa-input-params.png "Input Parameters") | 404 |
@@ -215,17 +214,6 @@
 | [Red Hat Cloud Access program overview](https://access.redhat.com/documentation/en/red_hat_subscription_management/1/html/red_hat_cloud_access_reference_guide/getting-started-with-ca_cloud-access#proc_new-ca-experience-option2_cloud-access) | 404 |
 | [Getting access to Gold Images](https://access.redhat.com/documentation/en/red_hat_subscription_management/1/html/red_hat_cloud_access_reference_guide/understanding-gold-images_cloud-access#getting-access-to-gold-images_cloud-access) | 404 |
 
-* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/jupyter/jupyterhub-classroom/README.md
-
-| URL | State |
-| --- | --- |
-| [Screen](./images/TLJHPortal.png) | 429 |
-| [Screen](./images/ipConnect.png) | 429 |
-| [Screen](./images/loginJupyter.png) | 429 |
-| [Screen](./images/loginJupyter2.png) | 429 |
-| [Screen](./images/httpsConfig1.png) | 429 |
-| [Screen](./images/httpsConfig2.png) | 429 |
-
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/lansa/lansa-vmss-windows-autoscale-sql-database/README.md
 
 | URL | State |
@@ -238,7 +226,7 @@
 
 | URL | State |
 | --- | --- |
-| [network_diagram](images/stack_diagram.png "Diagram of deployed stack") | 429 |
+| [network_diagram](images/stack_diagram.png "Diagram of deployed stack") | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/moodle/moodle-scalable-cluster-ubuntu/README.md
 
@@ -515,11 +503,11 @@
 | URL | State |
 | --- | --- |
 | [alt text](images/DiagnosticSettings.JPG "Azure log analytics workspace diagnostic setting") | 404 |
-| [alt text](images/OverviewTile.JPG "OMS Monitoring solution for Azure backup monitoring tile") | 429 |
-| [alt text](images/KeyBackupJobsParameters.jpg "OMS Monitoring solution for Azure backup alerts, backups, restores") | 429 |
-| [alt text](images/ActiveDatasources.png "OMS Monitoring solution for Azure backup active data sources distribution") | 429 |
-| [alt text](images/CloudStorageInGB.png "OMS Monitoring solution for Azure backup cloud storage distribution") | 429 |
-| [alt text](images/LogAnalyticsScreen.JPG "OMS Monitoring solution for Azure backup Log search") | 429 |
+| [alt text](images/OverviewTile.JPG "OMS Monitoring solution for Azure backup monitoring tile") | 404 |
+| [alt text](images/KeyBackupJobsParameters.jpg "OMS Monitoring solution for Azure backup alerts, backups, restores") | 404 |
+| [alt text](images/ActiveDatasources.png "OMS Monitoring solution for Azure backup active data sources distribution") | 404 |
+| [alt text](images/CloudStorageInGB.png "OMS Monitoring solution for Azure backup cloud storage distribution") | 404 |
+| [alt text](images/LogAnalyticsScreen.JPG "OMS Monitoring solution for Azure backup Log search") | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/demos/centos-2nics-lb-cluster/README.md
 
@@ -1403,6 +1391,24 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 | [Create or update an alert rule](https://msdn.microsoft.com/library/azure/dn933805.aspx) | 404 |
 | [post](https://code.msdn.microsoft.com/How-To-Setup-Email-Alerts-c26cdc55) | 404 |
 
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.kubernetes/fleet-hubful-private/README.md
+
+| URL | State |
+| --- | --- |
+| [quickstart](https://docs.microsoft.com/azure/fleet/quickstart-create-fleet-and-members-arm-template) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.kubernetes/fleet-hubful/README.md
+
+| URL | State |
+| --- | --- |
+| [quickstart](https://docs.microsoft.com/azure/fleet/quickstart-create-fleet-and-members-arm-template) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.kubernetes/fleet-hubless/README.md
+
+| URL | State |
+| --- | --- |
+| [quickstart](https://docs.microsoft.com/azure/fleet/quickstart-create-fleet-and-members-arm-template) | 404 |
+
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.logic/integration-service-environment/README.md
 
 | URL | State |
@@ -1824,39 +1830,6 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 | --- | --- |
 | [Screen](./images/build.png) | 404 |
 | [Screen](./images/new-django-app-service.png) | 404 |
-
-* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.web/webapp-linux-node/GettingStarted.md
-
-| URL | State |
-| --- | --- |
-| [Screen](./images/azportaldeploy.png) | 429 |
-| [Screen](./images/azportaldeploy2.png) | 429 |
-| [Screen](./images/azportaldeploy3.png) | 429 |
-| [Screen](./images/az-webapp-up.png) | 429 |
-| [Screen](./images/delete-rsc.png) | 429 |
-| [Screen](./images/stop-rsc.png) | 429 |
-
-* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.web/webapp-linux-sonarqube-postgresql-private-vnet/README.md
-
-| URL | State |
-| --- | --- |
-| [SonarQube on Web App with PostgreSQL (Flexible Servers), VNet integration and private DNS](images/flexible-pg-vnet-diagram.png) | 429 |
-
-* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.web/webapp-windows-aspnet/GettingStarted.md
-
-| URL | State |
-| --- | --- |
-| [Screen](./images/az-log.png) | 429 |
-| [Screen](./images/az-groupcreate.png) | 429 |
-| [Screen](./images/az-group-deploy.png) | 429 |
-| [Screen](./images/portal-resource.png) | 429 |
-| [Screen](./images/aztemplate2.PNG) | 429 |
-| [Screen](./images/aztemplate3.PNG) | 429 |
-| [Screen](./images/azportaldepoy.PNG) | 429 |
-| [Screen](./images/azportaldeploy2.PNG) | 429 |
-| [Screen](./images/azportaldeploy3.PNG) | 429 |
-| [Screen](./images/delete-rsc.png) | 429 |
-| [Screen](./images/stop-rsc.png) | 429 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.web/webapp-windows-with-privateendpoint-applicationgateway/README.md
 
