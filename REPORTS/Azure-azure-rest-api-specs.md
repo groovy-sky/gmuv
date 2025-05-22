@@ -31,6 +31,12 @@
 | --- | --- |
 | [aka.ms/azsdk/access#request-access-to-rest-api-or-sdk-repositories](https://aka.ms/azsdk/access#request-access-to-rest-api-or-sdk-repositories) | 403 |
 
+* https://github.com/Azure/azure-rest-api-specs/blob/main/.github/copilot-instructions.md
+
+| URL | State |
+| --- | --- |
+| [here](https://eng.ms/docs/products/azure-developer-experience/plan/release-plan-create) | 403 |
+
 * https://github.com/Azure/azure-rest-api-specs/blob/main/CONTRIBUTING.md
 
 | URL | State |
@@ -64,107 +70,28 @@
 | URL | State |
 | --- | --- |
 | [breaking change policy](https://aka.ms/AzBreakingChangesPolicy) | 401 |
-| [1046 - RemovedOptionalParameter](https://github.com/Azure/openapi-diff/blob/main/docs/rules/1046.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/FAQ.md
 
 | URL | State |
 | --- | --- |
-| [I am new to API specs, where should I start?](#Onboard) | 429 |
-| [How to fix validation failure?](#validation) | 429 |
-| [How to generate SDK from API specs?](#SDK) | 429 |
-| [How to generate document](#doc) | 429 |
-| [How to generate swagger examples](#examplegen) | 429 |
 | [document](https://eng.ms/docs/products/azure-developer-experience/design/api-specs/api-specs#create-your-rest-api-definition) | 403 |
 | [document](https://eng.ms/docs/products/azure-developer-experience/onboard/access) | 403 |
-| [Model Validation](https://github.com/Azure/azure-rest-api-specs/blob/master/documentation/Semantic-and-Model-Violations-Reference.md) | 429 |
-| [Here](https://aka.ms/ci-fix#model-validation) | 429 |
-| [automated rules checklist](https://github.com/Azure/azure-rest-api-specs/blob/master/documentation/openapi-authoring-automated-guidelines.md) | 429 |
-| [Here](https://aka.ms/ci-fix#linter-validation) | 429 |
-| [breaking changes rules](https://github.com/Azure/openapi-diff/blob/master/docs/README.md) | 429 |
-| [Here](https://aka.ms/ci-fix#breaking-change-check) | 429 |
-| [Avocado](https://github.com/Azure/avocado/blob/master/README.md) | 429 |
-| [Here](https://aka.ms/ci-fix#avocado) | 429 |
-| [Semantic](https://github.com/Azure/azure-rest-api-specs/blob/master/documentation/Semantic-and-Model-Violations-Reference.md) | 429 |
-| [Here](https://aka.ms/ci-fix#semantic-validation) | 429 |
-| [Here](https://aka.ms/ci-fix#prettier-check) | 429 |
-| [Document](https://aka.ms/ci-fix) | 429 |
 | [document](https://eng.ms/docs/products/azure-developer-experience/develop/sdk-generate) | 403 |
 | [document](https://eng.ms/docs/products/azure-developer-experience/design/api-docs) | 403 |
-| [Swagger-Example-Generation](https://github.com/Azure/oav/blob/develop/documentation/example-generation.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/Getting started with OpenAPI specifications.md
 
 | URL | State |
 | --- | --- |
-| [`CONTRIBUTING.md`](https://github.com/Azure/azure-rest-api-specs/blob/main/CONTRIBUTING.md) | 429 |
-| [`Azure REST API guidelines`](https://github.com/microsoft/api-guidelines/blob/vNext/azure/Guidelines.md) | 429 |
-| [`Azure OpenAPI Style Guide`](https://github.com/Azure/azure-api-style-guide/blob/main/openapi-style-guide.md) | 429 |
 | [`Resource Provider Guidelines`](https://aka.ms/rpguidelines) | 401 |
-| [`Directory structure`](https://github.com/Azure/azure-rest-api-specs/blob/main/README.md#directory-structure) | 429 |
-| [`Structure of a Swagger specification`](https://github.com/Azure/azure-rest-api-specs/blob/master/documentation/creating-swagger.md) | 429 |
-| [`Sample Swagger specification`](https://github.com/Azure/azure-rest-api-specs/blob/master/documentation/samplefiles/Microsoft.YourServiceName/stable/YYYY-MM-DD/YourServiceName.json) | 429 |
-| [`Sample Readme.md`](https://github.com/Azure/azure-rest-api-specs/blob/master/documentation/samplefiles/samplereadme.md) | 429 |
-| [`Authoring good Swagger descriptions`](https://github.com/Azure/azure-rest-api-specs/blob/master/documentation/swagger-authoring-descriptions.md) | 429 |
-| [`Validation tools`](https://github.com/Azure/azure-rest-api-specs/blob/master/documentation/SwaggerValidationTools.md) | 429 |
-| [`Validation checks through automated tools`](https://github.com/Azure/azure-rest-api-specs/blob/master/documentation/openapi-authoring-automated-guidelines.md) | 429 |
-| [`Validation checks done manually`](https://github.com/Azure/azure-rest-api-specs/blob/master/documentation/openapi-authoring-manual-guidelines.md) | 429 |
-| [`OAV Validation checks`](https://github.com/Azure/azure-rest-api-specs/blob/master/documentation/Semantic-and-Model-Violations-Reference.md) | 429 |
+| [`Sample Readme.md`](https://github.com/Azure/azure-rest-api-specs/blob/master/documentation/samplefiles/samplereadme.md) | 404 |
 | [`Breaking Changes guidelines`](https://aka.ms/AzBreakingChangesPolicy) | 401 |
-| [`x-ms-examples`](https://github.com/Azure/azure-rest-api-specs/blob/master/documentation/x-ms-examples.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/Getting-started-with-TypeSpec-specifications.md
-
-| URL | State |
-| --- | --- |
-| [ARM template](https://github.com/Azure/azure-rest-api-specs/blob/main/specification/contosowidgetmanager/Contoso.Management/tspconfig.yaml) | 429 |
-| [Data-plane](https://github.com/Azure/azure-rest-api-specs/blob/main/specification/contosowidgetmanager/Contoso.WidgetManager/tspconfig.yaml) | 429 |
-| [Setting up local environment for TypeSpec](./typespec-rest-api-dev-process.md#2-repo-setup--prerequisites) | 429 |
-| [Folder Structure for TypeSpec](./typespec-structure-guidelines.md) | 429 |
-| [Setting up a new TypeSpec project](./typespec-rest-api-dev-process.md#3-creating-a-new-typespec-project) | 429 |
-| [Setting up and regenerate SDK projects](./typespec-rest-api-dev-process.md#4-generate-or-refresh-sdk-code-from-a-typespec-project) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/Semantic-and-Model-Violations-Reference.md
 
 | URL | State |
 | --- | --- |
-| [INVALID_REFERENCE](#INVALID_REFERENCE) | 429 |
-| [CIRCULAR_INHERITANCE](#CIRCULAR_INHERITANCE) | 429 |
-| [DUPLICATE_PARAMETER](#DUPLICATE_PARAMETER) | 429 |
-| [EMPTY_PATH_PARAMETER_DECLARATION](#EMPTY_PATH_PARAMETER_DECLARATION) | 429 |
-| [EQUIVALENT_PATH](#EQUIVALENT_PATH) | 429 |
-| [OBJECT_MISSING_REQUIRED_PROPERTY_DEFINITION](#OBJECT_MISSING_REQUIRED_PROPERTY_DEFINITION) | 429 |
-| [OBJECT_MISSING_REQUIRED_PROPERTY_SCHEMA](#OBJECT_MISSING_REQUIRED_PROPERTY_SCHEMA) | 429 |
-| [DUPLICATE_OPERATIONID](#DUPLICATE_OPERATIONID) | 429 |
-| [MULTIPLE_BODY_PARAMETERS](#MULTIPLE_BODY_PARAMETERS) | 429 |
-| [INVALID_PARAMETER_COMBINATION](#INVALID_PARAMETER_COMBINATION) | 429 |
-| [MISSING_PATH_PARAMETER_DEFINITION](#MISSING_PATH_PARAMETER_DEFINITION) | 429 |
-| [MISSING_PATH_PARAMETER_DECLARATION](#MISSING_PATH_PARAMETER_DECLARATION) | 429 |
-| [INVALID_CONTENT_TYPE](#INVALID_CONTENT_TYPE) | 429 |
-| [INVALID_FORMAT](#INVALID_FORMAT) | 429 |
-| [INVALID_TYPE](#INVALID_TYPE) | 429 |
-| [ENUM_CASE_MISMATCH](#ENUM_CASE_MISMATCH) | 429 |
-| [ENUM_MISMATCH](#ENUM_MISMATCH) | 429 |
-| [ANY_OF_MISSING](#ANY_OF_MISSING) | 429 |
-| [ONE_OF_MISSING](#ONE_OF_MISSING) | 429 |
-| [ONE_OF_MULTIPLE](#ONE_OF_MULTIPLE) | 429 |
-| [NOT_PASSED](#NOT_PASSED) | 429 |
-| [ARRAY_LENGTH_SHORT](#ARRAY_LENGTH_SHORT) | 429 |
-| [ARRAY_LENGTH_LONG](#ARRAY_LENGTH_LONG) | 429 |
-| [ARRAY_UNIQUE](#ARRAY_UNIQUE) | 429 |
-| [ARRAY_ADDITIONAL_ITEMS](#ARRAY_ADDITIONAL_ITEMS) | 429 |
-| [MULTIPLE_OF](#MULTIPLE_OF) | 429 |
-| [MINIMUM](#MINIMUM) | 429 |
-| [MINIMUM_EXCLUSIVE](#MINIMUM_EXCLUSIVE) | 429 |
-| [MAXIMUM](#MAXIMUM) | 429 |
-| [MAXIMUM_EXCLUSIVE](#MAXIMUM_EXCLUSIVE) | 429 |
-| [OBJECT_PROPERTIES_MINIMUM](#OBJECT_PROPERTIES_MINIMUM) | 429 |
-| [OBJECT_PROPERTIES_MAXIMUM](#OBJECT_PROPERTIES_MAXIMUM) | 429 |
-| [OBJECT_MISSING_REQUIRED_PROPERTY](#OBJECT_MISSING_REQUIRED_PROPERTY) | 429 |
-| [OBJECT_ADDITIONAL_PROPERTIES](#OBJECT_ADDITIONAL_PROPERTIES) | 429 |
-| [OBJECT_DEPENDENCY_KEY](#OBJECT_DEPENDENCY_KEY) | 429 |
-| [MIN_LENGTH](#MIN_LENGTH) | 429 |
-| [MAX_LENGTH](#MAX_LENGTH) | 429 |
 | [Property Design Best Practices](https://armwiki.azurewebsites.net/rp_onboarding/process/property_design_best_practices.html#readwrite-properties-with-static-default-values) | 401 |
 | [ARM PRC](https://github.com/Azure/azure-resource-manager-rpc/blob/eec9f32c0357d0421be13c82ced767943013901a/v1.0/resource-api-reference.md#put-resource) | 404 |
 | [RPC - Asynchronous Operations](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/Addendum.md#asynchronous-operations) | 404 |
@@ -238,8 +165,7 @@
 
 | URL | State |
 | --- | --- |
-| [SDK Automation Pipeline Framework](../sdkautomation/README.md) | 429 |
-| [integrate-dpg-and-apiview](imgs/integrate-dpg-and-apiview.png) | 429 |
+| [SDK Automation Pipeline Framework](../sdkautomation/README.md) | 404 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/onboard-dpg-in-sdkautomation/README.md
 
@@ -278,49 +204,407 @@
 | URL | State |
 | --- | --- |
 | [suppression process](https://aka.ms/pr-suppressions) | 403 |
-| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
-| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
-| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
-| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
-| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
-| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
-| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
-| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
-| [ARM SDK guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/common-api-details.md#client-request-headers) | 404 |
-| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
+| [R2001](#r2001) | 429 |
+| [AvoidNestedProperties](#r2001) | 429 |
+| [R4002](#r4002) | 429 |
+| [LocationMustHaveXmsMutability](#r4002) | 429 |
+| [R2066](#r2066) | 429 |
+| [PostOperationIdContainsUrlVerb](#r2066) | 429 |
+| [R2015](#r2015) | 429 |
+| [ParameterNotDefinedInGlobalParameters](#r2015) | 429 |
+| [R1010](#r1010) | 429 |
+| [AvoidMSDNReferences](#r1010) | 429 |
+| [R2017](#r2017) | 429 |
+| [PutRequestResponseScheme](#r2017) | 429 |
+| [R1009](#r1009) | 429 |
+| [DeleteInOperationName](#r1009) | 429 |
+| [R1005](#r1005) | 429 |
+| [GetInOperationName](#r1005) | 429 |
+| [R1003](#r1003) | 429 |
+| [ListInOperationName](#r1003) | 429 |
+| [R1006](#r1006) | 429 |
+| [PutInOperationName](#r1006) | 429 |
+| [R1007](#r1007) | 429 |
+| [PatchInOperationName](#r1007) | 429 |
+| [R1011](#r1011) | 429 |
+| [HttpsSupportedScheme](#r1011) | 429 |
+| [R2065](#r2065) | 429 |
+| [LicenseHeaderMustNotBeSpecified](#r2065) | 429 |
+| [R3060](#r3060) | 429 |
+| [XmsPageableListByRGAndSubscriptions](#r3060) | 429 |
+| [R2063](#r2063) | 429 |
+| [OperationIdNounConflictingModelNames](#r2063) | 429 |
+| [R2064](#r2064) | 429 |
+| [LROStatusCodesReturnTypeSchema](#r2064) | 429 |
+| [R2023](#r2023) | 429 |
+| [SummaryAndDescriptionMustNotBeSame](#r2023) | 429 |
+| [R2010](#r2010) | 429 |
+| [LongRunningOperationsOptionsValidator](#r2010) | 429 |
+| [R2007](#r2007) | 429 |
+| [LongRunningOperationsWithLongRunningExtension](#r2007) | 429 |
+| [R2029](#r2029) | 429 |
+| [PageableOperation](#r2029) | 429 |
+| [R4006](#r4006) | 429 |
+| [DeprecatedXmsCodeGenerationSetting](#r4006) | 429 |
+| [R4024](#r4024) | 429 |
+| [PreviewVersionOverOneYear](#r4024) | 429 |
+| [R4030](#r4030) | 429 |
+| [UniqueXmsExample](#r4030) | 429 |
+| [R4023](#r4023) | 429 |
+| [RPaasPutLongRunningOperation201Only](#r4023) | 429 |
+| [R4026](#r4026) | 429 |
+| [RPaasPostLongRunningOperation202Only](#r4026) | 429 |
+| [R4031](#r4031) | 429 |
+| [RPaasResourceProvisioningState](#r4031) | 429 |
+| [R4038](#r4038) | 429 |
+| [ExtensionResourcePathPattern](#r4038) | 429 |
+| [D5001](#d5001) | 429 |
+| [XmsExamplesRequired](#d5001) | 429 |
+| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [R3016](#r3016) | 429 |
+| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [x-ms-enum extension](https://github.com/Azure/autorest/blob/master/docs/extensions/readme.md#x-ms-enum) | 429 |
+| [x-ms-enum extension](https://github.com/Azure/autorest/blob/master/docs/extensions/readme.md#x-ms-enum) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [`x-ms-client-name`](https://github.com/Azure/autorest/tree/master/docs/extensions#x-ms-client-name) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [`x-ms-client-name`](https://github.com/Azure/autorest/tree/master/docs/extensions#x-ms-client-name) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [`x-ms-client-name`](https://github.com/Azure/autorest/tree/master/docs/extensions#x-ms-client-name) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [x-ms-pageable](https://github.com/Azure/autorest/tree/master/docs/extensions#x-ms-pageable) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [ARM SDK guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/common-api-details.md#client-request-headers) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 429 |
+| [Literate Configuration](https://github.com/Azure/autorest/blob/185e337137c990b9cc1b8ebbb272e76eeeef43a1/docs/user/literate-file-formats/configuration.md) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
 | [here]( https://github.com/Azure/autorest/blob/master/docs/extensions/readme.md#x-ms-mutability) | 0 |
-| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
 | [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
 | [ARM](#arm-violations) | 429 |
 | [Errors](#arm-errors) | 429 |
 | [Warnings](#arm-warnings) | 429 |
 | [SDK](#sdk-violations) | 429 |
 | [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [here](https://github.com/Azure/azure-rest-api-specs/blob/dce4da0d748565efd2ab97a43d0683c2979a974a/documentation/swagger-extensions.md#x-ms-paths) | 429 |
+| [Index](#index) | 429 |
 | [Error vs. Warning](#error-vs-warning) | 429 |
 | [Automated Rules](#automated-rules) | 429 |
-| [Errors](#arm-errors) | 429 |
-| [SDK](#sdk-violations) | 429 |
-| [Errors](#sdk-errors) | 429 |
-| [Warnings](#sdk-warnings) | 429 |
-| [Index](#index) | 429 |
-| [Error vs. Warning](#error-vs-warning) | 429 |
-| [Errors](#arm-errors) | 429 |
-| [SDK](#sdk-violations) | 429 |
-| [Warnings](#sdk-warnings) | 429 |
-| [Index](#index) | 429 |
-| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
 | [ARM](#arm-violations) | 429 |
-| [SDK](#sdk-violations) | 429 |
-| [Errors](#sdk-errors) | 429 |
-| [Warnings](#sdk-warnings) | 429 |
-| [Error vs. Warning](#error-vs-warning) | 429 |
-| [Automated Rules](#automated-rules) | 429 |
 | [Errors](#arm-errors) | 429 |
 | [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
 | [Errors](#sdk-errors) | 429 |
-| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
+| [Warnings](#sdk-warnings) | 429 |
+| [here](https://github.com/Azure/azure-rest-api-specs/blob/dce4da0d748565efd2ab97a43d0683c2979a974a/documentation/swagger-extensions.md#x-ms-client-flatten) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [here](https://github.com/Azure/azure-rest-api-specs/blob/master/documentation/swagger-extensions.md#x-ms-pageable) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 429 |
 | [here](https://github.com/Azure/azure-rest-api-specs/blob/master/specification/common-types/resource-management/v1/types.json#L9) | 429 |
 | [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
 | [Warnings](#arm-warnings) | 429 |
 | [SDK](#sdk-violations) | 429 |
 | [Errors](#sdk-errors) | 429 |
@@ -329,57 +613,729 @@
 | [Error vs. Warning](#error-vs-warning) | 429 |
 | [Automated Rules](#automated-rules) | 429 |
 | [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
 | [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
 | [Warnings](#sdk-warnings) | 429 |
 | [Index](#index) | 429 |
-| [ARM](#arm-violations) | 429 |
-| [Warnings](#arm-warnings) | 429 |
-| [Errors](#sdk-errors) | 429 |
 | [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
 | [Warnings](#arm-warnings) | 429 |
 | [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [here](https://github.com/Azure/autorest/blob/81d4d31d06637f4f9ef042d7f2ec64cfea29892f/docs/developer/validation-rules/valid-formats.md) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
 | [Warnings](#sdk-warnings) | 429 |
 | [x-ms-examples](https://github.com/Azure/azure-rest-api-specs/blob/master/documentation/x-ms-examples.md#why-x-ms-examples) | 429 |
+| [x-ms-examples](https://github.com/Azure/azure-rest-api-specs/blob/master/documentation/x-ms-examples.md#why-x-ms-examples) | 429 |
 | [Benefits](https://github.com/Azure/azure-rest-api-specs/blob/master/documentation/x-ms-examples.md#benefits-of-x-ms-examples-extension) | 429 |
+| [x-ms-examples](https://github.com/Azure/azure-rest-api-specs/blob/master/documentation/x-ms-examples.md#why-x-ms-examples) | 429 |
+| [x-ms-examples](https://github.com/Azure/azure-rest-api-specs/blob/master/documentation/x-ms-examples.md#why-x-ms-examples) | 429 |
 | [Index](#index) | 429 |
-| [Automated Rules](#automated-rules) | 429 |
-| [Errors](#arm-errors) | 429 |
-| [Errors](#sdk-errors) | 429 |
-| [Index](#index) | 429 |
-| [ARM](#arm-violations) | 429 |
-| [SDK](#sdk-violations) | 429 |
-| [Errors](#sdk-errors) | 429 |
-| [x-ms-pageable extension](https://github.com/Azure/autorest/blob/master/docs/extensions/readme.md#x-ms-pageable) | 429 |
-| [x-ms-pageable](https://github.com/Azure/autorest/blob/master/docs/extensions/readme.md#x-ms-pageable) | 429 |
 | [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
 | [ARM](#arm-violations) | 429 |
 | [Errors](#arm-errors) | 429 |
 | [Warnings](#arm-warnings) | 429 |
 | [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
 | [Warnings](#sdk-warnings) | 429 |
-| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
-| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
-| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
-| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
-| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
-| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
-| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
-| [common-api-details](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/common-api-details.md#error-response-content) | 404 |
-| [common-api-contracts](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/common-api-contracts.md#system-metadata-for-all-azure-resources) | 404 |
-| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
-| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
-| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
-| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
-| [contract spec](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/proxy-api-reference.md#exposing-available-operations) | 404 |
-| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md#get-resource) | 404 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [x-ms-pageable extension](https://github.com/Azure/autorest/blob/master/docs/extensions/readme.md#x-ms-pageable) | 429 |
+| [x-ms-pageable](https://github.com/Azure/autorest/blob/master/docs/extensions/readme.md#x-ms-pageable) | 429 |
+| [x-ms-pageable](https://github.com/Azure/autorest/blob/master/docs/extensions/readme.md#x-ms-pageable) | 429 |
+| [examples](https://github.com/Azure/azure-rest-api-specs/tree/master/documentation/x-ms-pageable) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [x-ms-pageable extension](https://github.com/Azure/autorest/blob/master/docs/extensions/readme.md#x-ms-pageable) | 429 |
+| [x-ms-pageable](https://github.com/Azure/autorest/blob/master/docs/extensions/readme.md#x-ms-pageable) | 429 |
+| [x-ms-pageable](https://github.com/Azure/autorest/blob/master/docs/extensions/readme.md#x-ms-pageable) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 429 |
+| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 429 |
+| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 429 |
+| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [x-ms-enum extension](https://github.com/Azure/autorest/blob/master/docs/extensions/readme.md#x-ms-enum) | 429 |
+| [x-ms-enum extension](https://github.com/Azure/autorest/blob/master/docs/extensions/readme.md#x-ms-enum) | 429 |
+| [x-ms-enum extension](https://github.com/Azure/autorest/blob/master/docs/extensions/readme.md#x-ms-enum) | 429 |
+| [x-ms-enum extension](https://github.com/Azure/autorest/blob/master/docs/extensions/readme.md#x-ms-enum) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [here](https://github.com/Azure/azure-openapi-validator/blob/master/docs/security-definitions-structure-validation.md) | 429 |
+| [here](https://github.com/Azure/azure-openapi-validator/blob/master/docs/security-definitions-structure-validation.md) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [here](./swagger-extensions.md#x-ms-azure-resource) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [here](./swagger-extensions.md#x-ms-long-running-operation) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [here](./swagger-extensions.md#x-ms-azure-resource) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [here](./swagger-extensions.md#x-ms-pageable) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [here](./swagger-extensions.md#x-ms-long-running-operation) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [here](https://github.com/Azure/autorest/blob/master/docs/extensions/readme.md#x-ms-long-running-operation) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [creating-swagger](creating-swagger.md#Paths) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [x-ms-long-running-operation](./swagger-extensions.md#x-ms-long-running-operation) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [common-api-details](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/common-api-details.md#error-response-content) | 429 |
+| [v2/types.json](https://github.com/Azure/azure-rest-api-specs/blob/master/specification/common-types/resource-management/v2/types.json#L273) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [common-api-contracts](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/common-api-contracts.md#system-metadata-for-all-azure-resources) | 429 |
+| [v2/types.json](https://github.com/Azure/azure-rest-api-specs/blob/7dddc4bf1e402b6e6737c132ecf05b74e2b53b08/specification/common-types/resource-management/v2/types.json#L445) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [extensions](https://github.com/Azure/autorest/blob/master/docs/extensions/readme.md#x-ms-pageable) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [contract spec](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/proxy-api-reference.md#exposing-available-operations) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md#get-resource) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
 | [Retirement-of-Previews](https://dev.azure.com/msazure/AzureWiki/_wiki/wikis/AzureWiki.wiki/37683/Retirement-of-Previews) | 203 |
-| [Azure RPC](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/Addendum.md#provisioningstate-property) | 404 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Azure RPC](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/Addendum.md#provisioningstate-property) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [v2/types.json](https://github.com/Azure/azure-rest-api-specs/blob/0e18f46fd2c210f85b5ec0f9dd9be664242bee82/specification/common-types/resource-management/v2/types.json#L146) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [privateLink](https://github.com/Azure/azure-rest-api-specs/blob/master/specification/common-types/resource-management/v1/privatelinks.json) | 429 |
+| [privateLink](https://github.com/Azure/azure-rest-api-specs/blob/master/specification/common-types/resource-management/v1/privatelinks.json) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [x-ms-identifiers](https://github.com/Azure/autorest/tree/main/docs/extensions#x-ms-identifiers) | 429 |
+| [x-ms-identifiers](https://github.com/Azure/autorest/tree/main/docs/extensions#x-ms-identifiers) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/openapi-authoring-manual-guidelines.md
 
 | URL | State |
 | --- | --- |
-| [OpenAPI (Swagger) validation tools](https://github.com/Azure/adx-documentation-pr/blob/master/tools/tools.md) | 404 |
+| [OpenAPI (Swagger) validation tools](https://github.com/Azure/adx-documentation-pr/blob/master/tools/tools.md) | 429 |
+| [Automated rules document](openapi-authoring-automated-guidelines.md) | 429 |
+| [`x-ms-mutability` extension](https://github.com/Azure/autorest/tree/master/docs/extensions#x-ms-mutability) | 429 |
+| [here](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md#external-documentation-object) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/release-request/rules-for-release-request.md
 
@@ -387,49 +1343,146 @@
 | --- | --- |
 | [azsdk/releases/partnerinfo](https://aka.ms/azsdk/releases/partnerinfo) | 403 |
 
+* https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/restler/MakeTestProxyRecording.md
+
+| URL | State |
+| --- | --- |
+| [QuickStart](./QuickStart.md) | 429 |
+| [how to install test-proxy](https://github.com/Azure/azure-sdk-tools/blob/main/tools/test-proxy/Azure.Sdk.Tools.TestProxy/README.md#installation) | 429 |
+| [here](./QuickStart.md) | 429 |
+| [the test-proxy headers](https://github.com/Azure/azure-sdk-tools/blob/main/tools/test-proxy/Azure.Sdk.Tools.TestProxy/README.md#run-your-tests) | 429 |
+| [QuickStart](./QuickStart.md#run-the-tests) | 429 |
+| [Test Proxy documentation](https://github.com/Azure/azure-sdk-tools/blob/main/tools/test-proxy/Azure.Sdk.Tools.TestProxy/README.md#session-and-test-level-transforms-sanitizers-and-matchers) | 429 |
+
 * https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/samplefiles-dp/ABOUT.md
 
 | URL | State |
 | --- | --- |
 | [aka.ms/azsdk/typespec](https://aka.ms/azsdk/typespec) | 403 |
+| [dataplane samples for single client](samplefiles-dp-for-single-client) | 429 |
+| [dataplane samples for multi client](samplefiles-dp-for-multi-client) | 429 |
+| [aka.ms/azsdk/spec-dirs#advanced-scenario-service-group](https://aka.ms/azsdk/spec-dirs#advanced-scenario-service-group) | 429 |
 | [aka.ms/azsdk/autorest](https://aka.ms/azsdk/autorest) | 403 |
-| [`samplefiles`](../samplefiles/ABOUT.md) | 404 |
+| [aka.ms/azsdk/spec-dirs](https://aka.ms/azsdk/spec-dirs) | 429 |
+| [`samplefiles`](../samplefiles/ABOUT.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/samplefiles-dp/samplefiles-dp-for-multi-client/README.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/samplefiles-dp/samplefiles-dp-for-single-client/README.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/samplefiles/ABOUT.md
 
 | URL | State |
 | --- | --- |
 | [aka.ms/azsdk/typespec](https://aka.ms/azsdk/typespec) | 403 |
-| [`api-scenario`](../api-scenario/README.md) | 404 |
+| [`api-scenario`](../api-scenario/README.md) | 429 |
 | [aka.ms/azsdk/autorest](https://aka.ms/azsdk/autorest) | 403 |
-| [`samplefiles-dp`](../samplefiles-dp/ABOUT.md) | 404 |
+| [aka.ms/azsdk/spec-dirs](https://aka.ms/azsdk/spec-dirs) | 429 |
+| [`samplefiles-dp`](../samplefiles-dp/ABOUT.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/samplefiles/README.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.az.md](./readme.az.md) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.typescript.md](./readme.typescript.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 429 |
+| [readme.java.md](./readme.java.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/sdkautomation/README.md
+
+| URL | State |
+| --- | --- |
+| [SpecRepoConfig](#specrepoconfig) | 429 |
+| [SwaggerToSdkConfig](#swaggertosdkconfig) | 429 |
+| [SwaggerToSdkConfig](#swaggertosdkconfig) | 429 |
+| [SwaggerToSdkConfig](#swaggertosdkconfig) | 429 |
+| [generateInput.json](#generateinput) | 429 |
+| [generateOutput.json](#generateoutput) | 429 |
+| [SwaggerToSdkConfig Schema](#swaggertosdkconfig-schema) | 429 |
+| [generateOutput.json](#generateoutput) | 429 |
+| [SwaggerToSdkConfig](#swaggertosdkconfig) | 429 |
+| [generateOutput.json](#generateoutput) | 429 |
+| [generateOutput.json](#generateoutput) | 429 |
+| [generateOutput.json](#generateoutput) | 429 |
+| [SpecConfigSchema.json](https://github.com/Azure/azure-sdk-tools/blob/main/tools/spec-gen-sdk/src/types/SpecConfigSchema.json) | 429 |
+| [SwaggerToSdkConfigSchema.json](https://github.com/Azure/azure-sdk-tools/blob/main/tools/spec-gen-sdk/src/types/SwaggerToSdkConfigSchema.json) | 429 |
+| [GenerateInputSchema.json](https://github.com/Azure/azure-sdk-tools/blob/main/tools/spec-gen-sdk/src/types/GenerateInputSchema.json) | 429 |
+| [GenerateOutputSchema.json](https://github.com/Azure/azure-sdk-tools/blob/main/tools/spec-gen-sdk/src/types/GenerateOutputSchema.json) | 429 |
+| [InstallInstructionScriptInput.json](https://github.com/Azure/azure-sdk-tools/blob/main/tools/spec-gen-sdk/src/types/InstallInstructionScriptInputSchema.json) | 429 |
+| [InstallInstructionScriptOutput.json](https://github.com/Azure/azure-sdk-tools/blob/main/tools/spec-gen-sdk/src/types/InstallInstructionScriptOutputSchema.json) | 429 |
+| [InitOutputSchema.json](https://github.com/Azure/azure-sdk-tools/blob/main/tools/spec-gen-sdk/src/types/InitOutputSchema.json) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/sdkautomation/sdk-automation-faq.md
 
 | URL | State |
 | --- | --- |
-| [image](https://github.com/user-attachments/assets/72fb239d-d36a-45ae-8d56-50a25c37239a) | 404 |
-| [image](https://github.com/user-attachments/assets/69f552bf-e226-40a4-96a8-035a7ec65f2f) | 404 |
-| [image](https://github.com/user-attachments/assets/a6f1d800-4b3a-42ff-863a-45b50c201047) | 404 |
-| [image](https://github.com/user-attachments/assets/a8dfc245-333c-497f-a0a2-f7e2451b3863) | 404 |
-| [image](https://github.com/user-attachments/assets/b0c50b7f-6ce7-4276-a2fb-2fa55d3b69c7) | 404 |
-| [image](https://github.com/user-attachments/assets/64caa353-a54c-4ebb-b8fa-800d50ae5dfe) | 404 |
-| [Image](https://github.com/user-attachments/assets/42627c1e-6610-4bb3-9cf4-c7c4209080d7) | 404 |
-| [Image](https://github.com/user-attachments/assets/d9ea22f3-bdd1-42a0-9610-c9cd0339b8e5) | 404 |
+| [aka.ms/azsdk/sdk-automation-faq](https://aka.ms/azsdk/sdk-automation-faq) | 429 |
+| [FAQ](#faq) | 429 |
+| [How to Download the Generated Artifacts](#how-to-download-the-generated-artifacts) | 429 |
+| [Prerequisites](#prerequisites) | 429 |
+| [Steps to Download Artifacts](#steps-to-download-artifacts) | 429 |
+| [How to View the Html Report of `spec-gen-sdk` Checks Result](#how-to-view-the-html-report-of-spec-gen-sdk-checks-result) | 429 |
+| [How to View the Detailed SDK Generation Errors](#how-to-view-the-detailed-sdk-generation-errors) | 429 |
+| [Locating an Automatically Generated SDK Pull Request from Your API Specs](#locating-an-automatically-generated-sdk-pull-request-from-your-api-specs) | 429 |
+| [.NET SDK Generation Error Fix Guidance](#net-sdk-generation-error-fix-guidance) | 429 |
+| [How to Fix Naming Violations for Management Plane SDK](#how-to-fix-naming-violations-for-management-plane-sdk) | 429 |
+| [image](https://github.com/user-attachments/assets/109f7d90-52f6-45ed-ac12-ce2ae3e49af8) | 429 |
+| [image](https://github.com/user-attachments/assets/72fb239d-d36a-45ae-8d56-50a25c37239a) | 429 |
+| [image](https://github.com/user-attachments/assets/69f552bf-e226-40a4-96a8-035a7ec65f2f) | 429 |
+| [image](https://github.com/Azure/azure-rest-api-specs/assets/20296335/b2c4c307-a430-4dec-bb09-5ac7e659a418) | 429 |
+| [image](https://github.com/user-attachments/assets/a6f1d800-4b3a-42ff-863a-45b50c201047) | 429 |
+| [image](https://github.com/user-attachments/assets/a8dfc245-333c-497f-a0a2-f7e2451b3863) | 429 |
+| [image](https://github.com/user-attachments/assets/b0c50b7f-6ce7-4276-a2fb-2fa55d3b69c7) | 429 |
+| [image](https://github.com/user-attachments/assets/64caa353-a54c-4ebb-b8fa-800d50ae5dfe) | 429 |
+| [Image](https://github.com/user-attachments/assets/42627c1e-6610-4bb3-9cf4-c7c4209080d7) | 429 |
+| [Image](https://github.com/user-attachments/assets/d9ea22f3-bdd1-42a0-9610-c9cd0339b8e5) | 429 |
 | [Using the SDK Generation Pipelines](https://aka.ms/azsdk/spec-gen-sdk-pipeline-doc) | 403 |
+| [Naming Conventions](https://github.com/Azure/azure-sdk-for-net/blob/main/doc/dev/Mgmt-Naming-Conventions.md) | 429 |
+| [Polishing Configurations](https://github.com/Azure/azure-sdk-for-net/blob/main/doc/dev/Mgmt-Polishing-Configurations.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/sdkautomation/sdk-suppressions.md
+
+| URL | State |
+| --- | --- |
+| [aka.ms/azsdk/sdk-suppression](https://aka.ms/azsdk/sdk-suppression) | 429 |
+| [Contoso.Management](https://github.com/Azure/azure-rest-api-specs/tree/main/specification/contosowidgetmanager/Contoso.Management) | 429 |
+| [contosowidgetmanager resource provider](https://github.com/Azure/azure-rest-api-specs/tree/main/specification/contosowidgetmanager/resource-manager) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/swagger-accuracy-report.md
 
 | URL | State |
 | --- | --- |
-| [Engine Settings](github) | 404 |
-| [Engine Settings](https://github.com/microsoft/restler-fuzzer/blob/main/docs/user-guide/EngineSettings.md) | 404 |
+| [RESTler](https://github.com/microsoft/restler-fuzzer) | 429 |
+| [OAV](https://github.com/azure/oav) | 429 |
+| [traffic-validation-pipeline-comment](./images/traffic-validation-pipeline-comment.png) | 429 |
+| [traffic-validation-pipeline-artifacts](./images/traffic-validation-pipeline-artifacts.png) | 429 |
+| [Test](https://github.com/microsoft/restler-fuzzer/blob/main/docs/user-guide/Testing.md) | 429 |
+| [README](https://github.com/microsoft/restler-fuzzer) | 429 |
+| [README](https://github.com/microsoft/restler-fuzzer) | 429 |
+| [Dictionary](https://github.com/microsoft/restler-fuzzer/blob/main/docs/user-guide/FuzzingDictionary.md) | 429 |
+| [Annotations](https://github.com/microsoft/restler-fuzzer/blob/main/docs/user-guide/Annotations.md) | 429 |
+| [Engine Settings](github) | 429 |
+| [Improving Coverage](https://github.com/microsoft/restler-fuzzer/blob/main/docs/user-guide/ImprovingCoverage.md) | 429 |
+| [Engine Settings](https://github.com/microsoft/restler-fuzzer/blob/main/docs/user-guide/EngineSettings.md) | 429 |
+| [](./images/check-in-restler-config.png) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/swagger-authoring-descriptions.md
 
 | URL | State |
 | --- | --- |
-| [OpenAPI Linting Extension](https://github.com/Azure/openapi-lint-extension#preview) | 404 |
+| [OpenAPI Linting Extension](https://github.com/Azure/openapi-lint-extension#preview) | 429 |
 | [Microsoft Writing Style Guide](https://worldready.cloudapp.net/StyleGuide/Read?id=2700) | 0 |
 | [Microsoft Cloud Style Guide](https://worldready.cloudapp.net/StyleGuide/Read?id=2696) | 0 |
 
@@ -437,6 +1490,12 @@
 
 | URL | State |
 | --- | --- |
+| [Automated Rules of Checklist](openapi-authoring-automated-guidelines.md) | 429 |
+| [validation tools](#validation-tools-for-swagger-checklist) | 429 |
+| [Manual Rules of Checklist](openapi-authoring-manual-guidelines.md) | 429 |
+| [AutoRest OpenAPI Validator](https://github.com/Azure/autorest/blob/master/docs/user/command-line-interface.md#validation) | 429 |
+| [Swagger Model Validator](https://github.com/Azure/openapi-validation-tools) | 429 |
+| ["x-ms-examples"](https://github.com/Azure/azure-rest-api-specs/blob/master/documentation/x-ms-examples.md) | 429 |
 | [Redis Cache Swagger](https://github.com/Azure/azure-rest-api-specs/blob/master/arm-redis/2016-04-01/swagger/redis.json ) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/swagger-extensions.md
@@ -449,15 +1508,30 @@
 
 | URL | State |
 | --- | --- |
+| [TypeSpec end to end scenarios](#typespec-end-to-end-scenarios) | 429 |
+| [Scenario definitions](#scenario-definitions) | 429 |
+| [Four main user scenarios to support](#four-main-user-scenarios-to-support) | 429 |
+| [1. TypeSpec project scaffolding](#1-typespec-project-scaffolding) | 429 |
+| [Flowchart](#flowchart) | 429 |
+| [Remaining Tasks](#remaining-tasks) | 429 |
+| [Details \& Open questions](#details--open-questions) | 429 |
 | [2. SDK code generation](#2-sdk-code-generation) | 429 |
+| [Flowchart](#flowchart-1) | 429 |
+| [Remaining Tasks](#remaining-tasks-1) | 429 |
+| [3. Inner Dev loop SDK generation local scenario](#3-inner-dev-loop-sdk-generation-local-scenario) | 429 |
 | [Flowchart](#flowchart-2) | 429 |
 | [Remaining Tasks](#remaining-tasks-2) | 429 |
 | [Details \& Open questions](#details--open-questions-1) | 429 |
 | [4.Dev Outer loop](#4dev-outer-loop) | 429 |
 | [Use case](#use-case) | 429 |
+| [4.1 Outer Dev loop azure-rest-api-specs pipeline](#41-outer-dev-loop-azure-rest-api-specs-pipeline) | 429 |
 | [Flowchart](#flowchart-3) | 429 |
 | [Details \& Open questions](#details--open-questions-2) | 429 |
+| [4.2 Outer Dev loop SDK repo pipeline](#42-outer-dev-loop-sdk-repo-pipeline) | 429 |
+| [Flowchart](#flowchart-4) | 429 |
 | [Details \& Open questions](#details--open-questions-3) | 429 |
+| [4. Outer loop Overall Status and tracking](#4-outer-loop-overall-status-and-tracking) | 429 |
+| [Remaining Tasks](#remaining-tasks-3) | 429 |
 | [Folder layout doc](./typespec-structure-guidelines.md) | 429 |
 | [create recommended folder structures](https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/typespec-structure-guidelines.md) | 429 |
 | [GenerateInputSchema](https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/sdkautomation/GenerateInputSchema.json) | 429 |
@@ -467,8 +1541,10 @@
 
 | URL | State |
 | --- | --- |
-| [azure-rest-api-specs-pr](https://github.com/azure/azure-rest-api-specs-pr) | 404 |
+| [azure-rest-api-specs](https://github.com/azure/azure-rest-api-specs) | 429 |
+| [azure-rest-api-specs-pr](https://github.com/azure/azure-rest-api-specs-pr) | 429 |
 | [this document](https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/typespec-structure-guidelines.md) | 429 |
+| [oav](https://github.com/Azure/oav) | 429 |
 | [API Test section](getstarted/providerhub/step03-api-testing.md) | 429 |
 | [generating client with autorest](https://github.com/Azure/autorest/blob/main/docs/generate/readme.md#keeping-your-options-in-one-place-the-preferred-option) | 429 |
 | [sample-readme](https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/samplefiles/samplereadme.md) | 429 |
@@ -479,7 +1555,14 @@
 
 | URL | State |
 | --- | --- |
+| [Guidelines for TypeSpec project repositories](#guidelines-for-typespec-project-repositories) | 429 |
+| [Objective](#objective) | 429 |
 | [Overview](#overview) | 429 |
+| [Service folder structure](#service-folder-structure) | 429 |
+| [Libraries for service groups](#libraries-for-service-groups) | 429 |
+| [Specification versioning](#specification-versioning) | 429 |
+| [Organizing services in folders](#organizing-services-in-folders) | 429 |
+| [Utilizing feature branches](#utilizing-feature-branches) | 429 |
 | [Publishing specifications](#publishing-specifications) | 429 |
 | [specification](https://aka.ms/azsdk/spec-dirs) | 429 |
 | [aka.ms/azsdk/typespec](aka.ms/azsdk/typespec) | 403 |
@@ -511,6 +1594,17 @@
 | --- | --- |
 | [common engineering system docs](https://github.com/Azure/azure-sdk-tools/blob/main/doc/common/common_engsys.md) | 429 |
 
+* https://github.com/Azure/azure-rest-api-specs/blob/main/eng/common/mcp/README.md
+
+| URL | State |
+| --- | --- |
+| [MCP servers](https://github.com/modelcontextprotocol) | 429 |
+| [tools releases](https://github.com/Azure/azure-sdk-tools/releases) | 429 |
+| [azure-sdk-tools/tools/mcp/dotnet](https://github.com/Azure/azure-sdk-tools/tree/main/tools/mcp/dotnet) | 429 |
+| [stdio and sse transports](https://modelcontextprotocol.io/docs/concepts/transports#server-sent-events-sse) | 524 |
+| [C# MCP SDK](https://github.com/modelcontextprotocol/csharp-sdk) | 429 |
+| [SSE transport](https://github.com/modelcontextprotocol/csharp-sdk/tree/main/samples/AspNetCoreSseServer) | 429 |
+
 * https://github.com/Azure/azure-rest-api-specs/blob/main/eng/common/scripts/job-matrix/README.md
 
 | URL | State |
@@ -522,54 +1616,202 @@
 | URL | State |
 | --- | --- |
 | [internal](https://dev.azure.com/azure-sdk/internal/) | 203 |
+| [pull requests](https://github.com/Azure/azure-sdk-for-python/pulls) | 429 |
 | [matrix creation.](https://github.com/Azure/azure-sdk-tools/blob/main/eng/common/scripts/job-matrix/Create-PrJobMatrix.ps1) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/eng/common/testproxy/onboarding/README.md
 
 | URL | State |
 | --- | --- |
+| [assets repo](https://github.com/Azure/azure-sdk-assets) | 429 |
 | [generate-assets-json.ps1](https://github.com/Azure/azure-sdk-tools/blob/main/eng/common/testproxy/onboarding/generate-assets-json.ps1) | 429 |
 | [here](https://github.com/Azure/azure-sdk-tools/blob/main/tools/test-proxy/Azure.Sdk.Tools.TestProxy/README.md#installation) | 429 |
+| [planned work](https://github.com/Azure/azure-sdk-tools/issues/4298) | 429 |
+| [`sdk/data/aztables/assets.json`](https://github.com/Azure/azure-sdk-for-go/blob/main/sdk/data/aztables/assets.json) | 429 |
+| [`sdk/keyvault/azure-keyvault-keys/assets.json`](https://github.com/Azure/azure-sdk-for-python/blob/main/sdk/keyvault/azure-keyvault-keys/assets.json) | 429 |
+| [generate-assets-json.ps1](https://github.com/Azure/azure-sdk-tools/blob/main/eng/common/testproxy/onboarding/generate-assets-json.ps1) | 429 |
+| [defined above](#download-the-transition-script-locally) | 429 |
+| [Azure/azure-sdk-assets](https://github.com/Azure/azure-sdk-assets) | 429 |
+| [recording directories within a repository are named](https://github.com/Azure/azure-sdk-tools/blob/main/eng/common/testproxy/onboarding/generate-assets-json.ps1#L47) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/eng/tools/lint-diff/test/fixtures/getAllTags/readme.md
 
 | URL | State |
 | --- | --- |
-| [readme.python.md](./readme.python.md) | 404 |
-| [readme.go.md](./readme.go.md) | 404 |
-| [readme.java.md](./readme.java.md) | 404 |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.java.md](./readme.java.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/eng/tools/lint-diff/test/fixtures/getRelatedArmRpcFromDoc/lro-patch202.md
 
 | URL | State |
 | --- | --- |
-| [updating-using-patch](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/async-api-reference.md#updating-using-patch) | 404 |
+| [updating-using-patch](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/async-api-reference.md#updating-using-patch) | 429 |
 
-* https://github.com/Azure/azure-rest-api-specs/blob/main/eng/tools/lint-diff/test/fixtures/getTagsAndInputFiles/readme.md
+* https://github.com/Azure/azure-rest-api-specs/blob/main/eng/tools/lint-diff/test/fixtures/getRelatedArmRpcFromDoc/system-data-definitions-common-types.md
 
 | URL | State |
 | --- | --- |
-| [readme.python.md](./readme.python.md) | 404 |
-| [readme.go.md](./readme.go.md) | 404 |
-| [readme.java.md](./readme.java.md) | 404 |
+| [here](https://github.com/Azure/azure-rest-api-specs/blob/main/specification/common-types/resource-management/) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/eng/tools/spec-gen-sdk-runner/test/fixtures/specification/contosowidgetmanager/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/EnterpriseKnowledgeGraph/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/addons/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/adhybridhealthservice/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.java.md](./readme.java.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/advisor/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.java.md](./readme.java.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/agricultureplatform/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.az.md](./readme.az.md) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/agrifood/data-plane/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/agrifood/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
-| [readme.csharp.md](./readme.csharp.md) | 404 |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.typescript.md](./readme.typescript.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/ai/data-plane/ImageAnalysis/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/alertsmanagement/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.java.md](./readme.java.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/analysisservices/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/apicenter/data-plane/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/apicenter/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.az.md](./readme.az.md) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.typescript.md](./readme.typescript.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 429 |
+| [readme.java.md](./readme.java.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/apimanagement/control-plane/readme.md
+
+| URL | State |
+| --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/apimanagement/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.java.md](./readme.java.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/app/data-plane/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/app/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
-| [readme.csharp.md](./readme.csharp.md) | 404 |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.az.md](./readme.az.md) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.typescript.md](./readme.typescript.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/appcomplianceautomation/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.az.md](./readme.az.md) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/appconfiguration/data-plane/readme.md
+
+| URL | State |
+| --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/appconfiguration/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
-| [readme.csharp.md](./readme.csharp.md) | 404 |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.java.md](./readme.java.md) | 429 |
 | [readme.go.md](./readme.go.md) | 429 |
 | [readme.ruby.md](./readme.ruby.md) | 429 |
 | [readme.cli.md](./readme.cli.md) | 429 |
@@ -580,17 +1822,33 @@
 | --- | --- |
 | [OAV
    tool](https://github.com/Azure/oav) | 0 |
+| [azure-rest-api-specs](https://github.com/Azure/azure-rest-api-specs) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/applicationinsights/data-plane/LiveMetrics/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/applicationinsights/data-plane/Monitor.Exporters/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/applicationinsights/data-plane/readme.md
 
 | URL | State |
 | --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.go.md](./readme.go.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/applicationinsights/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [Azure/azure-sdk-for-rust#563](https://github.com/Azure/azure-sdk-for-rust/issues/563) | 429 |
 | [API Spec & SDK Package Versioning Considerations](https://dev.azure.com/azure-sdk/internal/_wiki/wikis/internal.wiki/481/API-Spec-SDK-Package-Versioning-Considerations) | 203 |
 | [Manual Process: Adding new API version](https://dev.azure.com/azure-sdk/internal/_wiki/wikis/internal.wiki/83/Manual-Process-Adding-new-API-version) | 203 |
 | [readme.go.md](./readme.go.md) | 429 |
@@ -601,6 +1859,7 @@
 
 | URL | State |
 | --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.go.md](./readme.go.md) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
 | [readme.java.md](./readme.java.md) | 429 |
@@ -609,6 +1868,8 @@
 
 | URL | State |
 | --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [AutoRest](https://aka.ms/autorest) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
 | [readme.go.md](./readme.go.md) | 429 |
 
@@ -616,6 +1877,7 @@
 
 | URL | State |
 | --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
 | [readme.go.md](./readme.go.md) | 429 |
 | [readme.terraform.md](./readme.terraform.md) | 429 |
@@ -624,6 +1886,7 @@
 
 | URL | State |
 | --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.go.md](./readme.go.md) | 429 |
 | [readme.java.md](./readme.java.md) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
@@ -632,12 +1895,14 @@
 
 | URL | State |
 | --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/automation/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
 | [readme.go.md](./readme.go.md) | 429 |
 
@@ -702,6 +1967,12 @@
 | [Install AutoRest](https://aka.ms/autorest/install) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/azsadmin/resource-manager/deployment/readme.azsautogen.md
+
+| URL | State |
+| --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/azsadmin/resource-manager/deployment/readme.md
 
 | URL | State |
 | --- | --- |
@@ -849,9 +2120,7 @@
 | --- | --- |
 | [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.az.md](./readme.az.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
 | [readme.csharp.md](./readme.csharp.md) | 429 |
 | [readme.java.md](./readme.java.md) | 429 |
 
@@ -932,6 +2201,9 @@
 | URL | State |
 | --- | --- |
 | [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [this GitHub bug](https://github.com/Azure/azure-openapi-validator/issues/68) | 429 |
+| [this GitHub bug](https://github.com/Azure/azure-openapi-validator/issues/68) | 429 |
+| [this GitHub bug](https://github.com/Azure/azure-openapi-validator/issues/69) | 429 |
 | [readme.go.md](./readme.go.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/batch/resource-manager/readme.md
@@ -939,6 +2211,7 @@
 | URL | State |
 | --- | --- |
 | [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [this GitHub bug](https://github.com/Azure/azure-openapi-validator/issues/68) | 429 |
 | [readme.go.md](./readme.go.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/billing/resource-manager/readme.md
@@ -1014,7 +2287,6 @@
 | [readme.az.md](./readme.az.md) | 429 |
 | [readme.go.md](./readme.go.md) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
 | [readme.csharp.md](./readme.csharp.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/cloudshell/resource-manager/readme.md
@@ -1030,36 +2302,197 @@
 | [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.az.md](./readme.az.md) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
 | [readme.csharp.md](./readme.csharp.md) | 429 |
+| [readme.java.md](./readme.java.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/cognitiveservices/data-plane/AnomalyDetector/readme.md
 
 | URL | State |
 | --- | --- |
-| [readme.java.md](./readme.java.md) | 404 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.java.md](./readme.java.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/cognitiveservices/data-plane/AutoSuggest/readme.md
+
+| URL | State |
+| --- | --- |
+| [readme.go.md](./readme.go.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/cognitiveservices/data-plane/ComputerVision/readme.md
+
+| URL | State |
+| --- | --- |
+| [readme.go.md](./readme.go.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/cognitiveservices/data-plane/ContentModerator/readme.md
+
+| URL | State |
+| --- | --- |
+| [readme.go.md](./readme.go.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/cognitiveservices/data-plane/ContentSafety/readme.md
 
 | URL | State |
 | --- | --- |
-| [readme.az.md](./readme.az.md) | 404 |
-| [readme.go.md](./readme.go.md) | 404 |
-| [readme.python.md](./readme.python.md) | 404 |
-| [readme.typescript.md](./readme.typescript.md) | 404 |
-| [readme.csharp.md](./readme.csharp.md) | 404 |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.az.md](./readme.az.md) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.typescript.md](./readme.typescript.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/cognitiveservices/data-plane/CustomImageSearch/readme.md
+
+| URL | State |
+| --- | --- |
+| [readme.go.md](./readme.go.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/cognitiveservices/data-plane/CustomVision/Prediction/readme.md
+
+| URL | State |
+| --- | --- |
+| [readme.go.md](./readme.go.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/cognitiveservices/data-plane/CustomVision/Training/readme.md
+
+| URL | State |
+| --- | --- |
+| [readme.go.md](./readme.go.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/cognitiveservices/data-plane/CustomWebSearch/readme.md
+
+| URL | State |
+| --- | --- |
+| [readme.go.md](./readme.go.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/cognitiveservices/data-plane/EntitySearch/readme.md
+
+| URL | State |
+| --- | --- |
+| [readme.go.md](./readme.go.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/cognitiveservices/data-plane/Face/readme.md
+
+| URL | State |
+| --- | --- |
+| [readme.go.md](./readme.go.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/cognitiveservices/data-plane/FormRecognizer/readme.md
+
+| URL | State |
+| --- | --- |
+| [readme.go.md](./readme.go.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/cognitiveservices/data-plane/ImageSearch/readme.md
+
+| URL | State |
+| --- | --- |
+| [readme.go.md](./readme.go.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/cognitiveservices/data-plane/LUIS/Authoring/readme.md
+
+| URL | State |
+| --- | --- |
+| [readme.go.md](./readme.go.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/cognitiveservices/data-plane/LUIS/Runtime/readme.md
+
+| URL | State |
+| --- | --- |
+| [readme.go.md](./readme.go.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/cognitiveservices/data-plane/LocalSearch/readme.md
+
+| URL | State |
+| --- | --- |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.typescript.md](./readme.typescript.md) | 429 |
+| [readme.nodejs.md](./readme.nodejs.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/cognitiveservices/data-plane/NewsSearch/readme.md
+
+| URL | State |
+| --- | --- |
+| [readme.go.md](./readme.go.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/cognitiveservices/data-plane/QnAMaker/readme.md
+
+| URL | State |
+| --- | --- |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/cognitiveservices/data-plane/SpeakerRecognition/Identification/readme.md
+
+| URL | State |
+| --- | --- |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/cognitiveservices/data-plane/SpeakerRecognition/Verification/readme.md
+
+| URL | State |
+| --- | --- |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/cognitiveservices/data-plane/SpellCheck/readme.md
+
+| URL | State |
+| --- | --- |
+| [readme.go.md](./readme.go.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/cognitiveservices/data-plane/TextAnalytics/readme.md
 
 | URL | State |
 | --- | --- |
-| [endpoint and access key](../How-tos/text-analytics-how-to-access-key.md) | 404 |
+| [Autorest](https://aka.ms/autorest) | 429 |
+| [endpoint and access key](../How-tos/text-analytics-how-to-access-key.md) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/cognitiveservices/data-plane/TranslatorText/readme.md
+
+| URL | State |
+| --- | --- |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/cognitiveservices/data-plane/VideoSearch/readme.md
+
+| URL | State |
+| --- | --- |
+| [readme.go.md](./readme.go.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/cognitiveservices/data-plane/VisualSearch/readme.md
+
+| URL | State |
+| --- | --- |
+| [readme.go.md](./readme.go.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/cognitiveservices/data-plane/WebSearch/readme.md
+
+| URL | State |
+| --- | --- |
+| [readme.go.md](./readme.go.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/cognitiveservices/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
 | [Online Services Terms](https://www.microsoft.com/en-us/Licensing/product-licensing/products.aspx) | 403 |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/commerce/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/communication/Communication.JobRouter/README.md
 
@@ -1067,6 +2500,7 @@
 | --- | --- |
 | [OAV
    tool](https://github.com/Azure/oav) | 0 |
+| [azure-rest-api-specs](https://github.com/Azure/azure-rest-api-specs) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/communication/Communication.Messages/README.md
 
@@ -1074,23 +2508,54 @@
 | --- | --- |
 | [OAV
    tool](https://github.com/Azure/oav) | 0 |
+| [azure-rest-api-specs](https://github.com/Azure/azure-rest-api-specs) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/communication/data-plane/CallAutomation/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/communication/data-plane/CallingServer/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/communication/data-plane/Chat/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.ruby.md](./readme.ruby.md) | 429 |
+| [readme.typescript.md](./readme.typescript.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/communication/data-plane/Common/readme.md
 
 | URL | State |
 | --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.ruby.md](./readme.ruby.md) | 429 |
+| [readme.typescript.md](./readme.typescript.md) | 429 |
 | [readme.csharp.md](./readme.csharp.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/communication/data-plane/Email/readme.md
 
 | URL | State |
 | --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.csharp.md](./readme.csharp.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/communication/data-plane/Identity/readme.md
 
 | URL | State |
 | --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
 | [readme.ruby.md](./readme.ruby.md) | 429 |
 | [readme.typescript.md](./readme.typescript.md) | 429 |
@@ -1100,13 +2565,27 @@
 
 | URL | State |
 | --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.csharp.md](./readme.csharp.md) | 429 |
 | [readme.typescript.md](./readme.typescript.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/communication/data-plane/MediaComposition/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/communication/data-plane/Messages/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/communication/data-plane/NetworkTraversal/readme.md
 
 | URL | State |
 | --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
 | [readme.ruby.md](./readme.ruby.md) | 429 |
 | [readme.typescript.md](./readme.typescript.md) | 429 |
@@ -1116,12 +2595,14 @@
 
 | URL | State |
 | --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.typescript.md](./readme.typescript.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/communication/data-plane/PhoneNumbers/readme.md
 
 | URL | State |
 | --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
 | [readme.ruby.md](./readme.ruby.md) | 429 |
 | [readme.typescript.md](./readme.typescript.md) | 429 |
@@ -1137,6 +2618,7 @@
 
 | URL | State |
 | --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
 | [readme.ruby.md](./readme.ruby.md) | 429 |
 | [readme.typescript.md](./readme.typescript.md) | 429 |
@@ -1146,6 +2628,7 @@
 
 | URL | State |
 | --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
 | [readme.ruby.md](./readme.ruby.md) | 429 |
 | [readme.typescript.md](./readme.typescript.md) | 429 |
@@ -1167,6 +2650,7 @@
 
 | URL | State |
 | --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.az.md](./readme.az.md) | 429 |
 | [readme.go.md](./readme.go.md) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
@@ -1188,13 +2672,19 @@
 | [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.az.md](./readme.az.md) | 429 |
 | [readme.go.md](./readme.go.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
 | [readme.csharp.md](./readme.csharp.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/confidentialledger/data-plane/notes.md
+
+| URL | State |
+| --- | --- |
+| [MutualTLS is not available until Openapi 3.1.0](https://github.com/OAI/OpenAPI-Specification/pull/1764) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/confidentialledger/data-plane/readme.md
 
 | URL | State |
 | --- | --- |
+| [Python](https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/confidentialledger/azure-confidentialledger/azure/confidentialledger) | 429 |
 | [Javascript/Typescript](https://github.com/Azure/azure-sdk-for-js/blob/main/sdk/confidentialledger/confidential-ledger-rest/swagger/README.md) | 429 |
 | [Java](https://github.com/Azure/azure-sdk-for-java/blob/main/sdk/confidentialledger/azure-security-confidentialledger/swagger/README.md) | 429 |
 | [C#](https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/confidentialledger/Azure.Security.ConfidentialLedger/src/autorest.md) | 429 |
@@ -1213,6 +2703,7 @@
 
 | URL | State |
 | --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.csharp.md](./readme.csharp.md) | 429 |
 | [readme.go.md](./readme.go.md) | 429 |
 | [readme.java.md](./readme.java.md) | 429 |
@@ -1226,7 +2717,6 @@
 | URL | State |
 | --- | --- |
 | [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
 | [readme.csharp.md](./readme.csharp.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/connectedvmware/resource-manager/readme.md
@@ -1303,6 +2793,7 @@
 | --- | --- |
 | [OAV
    tool](https://github.com/Azure/oav) | 0 |
+| [azure-rest-api-specs](https://github.com/Azure/azure-rest-api-specs) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/containerstorage/resource-manager/readme.md
 
@@ -1396,7 +2887,6 @@
 | [readme.go.md](./readme.go.md) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
 | [readme.java.md](./readme.java.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/databasewatcher/resource-manager/readme.md
 
@@ -1404,9 +2894,7 @@
 | --- | --- |
 | [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.az.md](./readme.az.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
 | [readme.csharp.md](./readme.csharp.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/databox/resource-manager/readme.md
@@ -1520,41 +3008,158 @@
 | --- | --- |
 | [Install AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/dell/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/desktopvirtualization/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
-| [readme.csharp.md](./readme.csharp.md) | 404 |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.java.md](./readme.java.md) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.typescript.md](./readme.typescript.md) | 429 |
+| [readme.node.md](./readme.node.md) | 429 |
+| [readme.ruby.md](./readme.ruby.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/devcenter/data-plane/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/devcenter/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
-| [readme.csharp.md](./readme.csharp.md) | 404 |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.az.md](./readme.az.md) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.typescript.md](./readme.typescript.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/developerhub/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.java.md](./readme.java.md) | 429 |
+| [readme.typescript.md](./readme.typescript.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/deviceprovisioningservices/data-plane/readme.md
+
+| URL | State |
+| --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/deviceprovisioningservices/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
-| [readme.csharp.md](./readme.csharp.md) | 404 |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.java.md](./readme.java.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/deviceregistry/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/deviceupdate/data-plane/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.typescript.md](./readme.typescript.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/deviceupdate/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
-| [readme.csharp.md](./readme.csharp.md) | 404 |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/devops/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
-| [readme.csharp.md](./readme.csharp.md) | 404 |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.ruby.md](./readme.ruby.md) | 429 |
+| [readme.typescript.md](./readme.typescript.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/devopsinfrastructure/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.az.md](./readme.az.md) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/devspaces/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/devtestlabs/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.java.md](./readme.java.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/dfp/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.az.md](./readme.az.md) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.typescript.md](./readme.typescript.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/digitaltwins/data-plane/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.ruby.md](./readme.ruby.md) | 429 |
+| [readme.typescript.md](./readme.typescript.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 429 |
+| [readme.java.md](./readme.java.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/digitaltwins/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.go.md](./readme.go.md) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
 | [readme.ruby.md](./readme.ruby.md) | 429 |
@@ -1566,6 +3171,7 @@
 
 | URL | State |
 | --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.go.md](./readme.go.md) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
 
@@ -1573,6 +3179,7 @@
 
 | URL | State |
 | --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.go.md](./readme.go.md) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
 | [readme.java.md](./readme.java.md) | 429 |
@@ -1581,6 +3188,7 @@
 
 | URL | State |
 | --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
 | [readme.go.md](./readme.go.md) | 429 |
 
@@ -1588,6 +3196,7 @@
 
 | URL | State |
 | --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.go.md](./readme.go.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/durabletask/resource-manager/readme.md
@@ -1611,10 +3220,9 @@
 
 | URL | State |
 | --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.az.md](./readme.az.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
 | [readme.csharp.md](./readme.csharp.md) | 429 |
 | [readme.java.md](./readme.java.md) | 429 |
 
@@ -1622,10 +3230,9 @@
 
 | URL | State |
 | --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.az.md](./readme.az.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
 | [readme.csharp.md](./readme.csharp.md) | 429 |
 | [readme.java.md](./readme.java.md) | 429 |
 
@@ -1658,10 +3265,9 @@
 
 | URL | State |
 | --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.az.md](./readme.az.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
 | [readme.csharp.md](./readme.csharp.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/education/resource-manager/readme.md
@@ -1679,6 +3285,7 @@
 
 | URL | State |
 | --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.az.md](./readme.az.md) | 429 |
 | [readme.go.md](./readme.go.md) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
@@ -1714,6 +3321,7 @@
 | URL | State |
 | --- | --- |
 | [Azure Breaking Changes Policy](http://aka.ms/AzBreakingChangesPolicy/) | 401 |
+| [tool](https://github.com/robece/schema-converter) | 429 |
 | [Install AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.go.md](./readme.go.md) | 429 |
 
@@ -1739,6 +3347,7 @@
 
 | URL | State |
 | --- | --- |
+| [oav](https://github.com/Azure/oav) | 429 |
 | [here](https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/typespec-rest-api-dev-process.md#4-prepare-and-submit-a-pull-request-for-reviewing) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/ews/resource-manager/readme.md
@@ -1762,10 +3371,9 @@
 
 | URL | State |
 | --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.az.md](./readme.az.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
 | [readme.csharp.md](./readme.csharp.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/fist/resource-manager/readme.md
@@ -1794,6 +3402,7 @@
 | URL | State |
 | --- | --- |
 | [FrontDoor.json](./FrontDoor.json) | 429 |
+| [`oav`](https://github.com/Azure/oav) | 429 |
 | [Generated UML snapshot](./assets/frontdoor.svg) | 429 |
 | [OpenAPI specification v2.0 (aka Swagger 2.0)](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md) | 429 |
 
@@ -1802,6 +3411,7 @@
 | URL | State |
 | --- | --- |
 | [FrontDoor.json](./FrontDoor.json) | 429 |
+| [`oav`](https://github.com/Azure/oav) | 429 |
 | [Generated UML snapshot](./assets/frontdoor.svg) | 429 |
 | [OpenAPI specification v2.0 (aka Swagger 2.0)](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md) | 429 |
 
@@ -1810,6 +3420,7 @@
 | URL | State |
 | --- | --- |
 | [FrontDoor.json](./FrontDoor.json) | 429 |
+| [`oav`](https://github.com/Azure/oav) | 429 |
 | [Generated UML snapshot](./assets/frontdoor.svg) | 429 |
 | [OpenAPI specification v2.0 (aka Swagger 2.0)](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md) | 429 |
 
@@ -1818,6 +3429,7 @@
 | URL | State |
 | --- | --- |
 | [frontdoor.json](./frontdoor.json) | 429 |
+| [`oav`](https://github.com/Azure/oav) | 429 |
 | [Generated UML snapshot](./assets/frontdoor.svg) | 429 |
 | [OpenAPI specification v2.0 (aka Swagger 2.0)](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md) | 429 |
 
@@ -1826,6 +3438,7 @@
 | URL | State |
 | --- | --- |
 | [frontdoor.json](./frontdoor.json) | 429 |
+| [`oav`](https://github.com/Azure/oav) | 429 |
 | [Generated UML snapshot](./assets/frontdoor.svg) | 429 |
 | [OpenAPI specification v2.0 (aka Swagger 2.0)](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md) | 429 |
 
@@ -1834,6 +3447,7 @@
 | URL | State |
 | --- | --- |
 | [frontdoor.json](./frontdoor.json) | 429 |
+| [`oav`](https://github.com/Azure/oav) | 429 |
 | [Generated UML snapshot](./assets/frontdoor.svg) | 429 |
 | [OpenAPI specification v2.0 (aka Swagger 2.0)](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md) | 429 |
 
@@ -1842,6 +3456,7 @@
 | URL | State |
 | --- | --- |
 | [frontdoor.json](./frontdoor.json) | 429 |
+| [`oav`](https://github.com/Azure/oav) | 429 |
 | [Generated UML snapshot](./assets/frontdoor.svg) | 429 |
 | [OpenAPI specification v2.0 (aka Swagger 2.0)](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md) | 429 |
 
@@ -1964,9 +3579,7 @@
 | --- | --- |
 | [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.az.md](./readme.az.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
 | [readme.csharp.md](./readme.csharp.md) | 429 |
 | [readme.java.md](./readme.java.md) | 429 |
 
@@ -2012,6 +3625,7 @@
 | [readme.csharp.md](./readme.csharp.md) | 429 |
 | [readme.go.md](./readme.go.md) | 429 |
 | [readme.java.md](./readme.java.md) | 429 |
+| [Azure PowerShell repo](https://github.com/Azure/azure-powershell/tree/generation/src/ConnectedMachine) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
 | [readme.ruby.md](./readme.ruby.md) | 429 |
 | [readme.typescript](./readme.typescript.md) | 429 |
@@ -2022,9 +3636,7 @@
 | --- | --- |
 | [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.az.md](./readme.az.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
 | [readme.csharp.md](./readme.csharp.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/hybriddatamanager/resource-manager/readme.md
@@ -2032,113 +3644,233 @@
 | URL | State |
 | --- | --- |
 | [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.ruby.md](./readme.ruby.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/hybridkubernetes/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
-| [readme.csharp.md](./readme.csharp.md) | 404 |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.ruby.md](./readme.ruby.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 429 |
+| [readme.java.md](./readme.java.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/hybridnetwork/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.ruby.md](./readme.ruby.md) | 429 |
+| [readme.typescript.md](./readme.typescript.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/imagebuilder/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.java.md](./readme.java.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/imds/data-plane/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/impact/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.az.md](./readme.az.md) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/informatica/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
-| [readme.ruby.md](./readme.ruby.md) | 404 |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.ruby.md](./readme.ruby.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 429 |
+| [readme.java.md](./readme.java.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/intune/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/iotcentral/data-plane/readme.md
+
+| URL | State |
+| --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.typescript.md](./readme.typescript.md) | 429 |
+| [readme.nodejs.md](./readme.nodejs.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/iotcentral/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/iothub/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.java.md](./readme.go.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/iotoperations/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/iotoperationsdataprocessor/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/iotoperationsmq/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/iotoperationsorchestrator/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/iotspaces/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/keyvault/data-plane/Microsoft.KeyVault/preview/7.0/index.md
 
 | URL | State |
 | --- | --- |
-| [About keys, secrets, certificates and storage](link) | 404 |
+| [About keys, secrets, certificates and storage](link) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/keyvault/data-plane/Microsoft.KeyVault/preview/7.1/index.md
 
 | URL | State |
 | --- | --- |
-| [About keys, secrets, certificates and storage](link) | 404 |
+| [About keys, secrets, certificates and storage](link) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/keyvault/data-plane/Microsoft.KeyVault/preview/7.2-preview/index.md
 
 | URL | State |
 | --- | --- |
-| [About keys, secrets, certificates and storage](link) | 404 |
+| [About keys, secrets, certificates and storage](link) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/keyvault/data-plane/Microsoft.KeyVault/preview/7.3-preview/index.md
 
 | URL | State |
 | --- | --- |
-| [About keys, secrets, certificates and storage](link) | 404 |
+| [About keys, secrets, certificates and storage](link) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/keyvault/data-plane/Microsoft.KeyVault/preview/7.4-preview.1/index.md
 
 | URL | State |
 | --- | --- |
-| [About keys, secrets, certificates and storage](link) | 404 |
+| [About keys, secrets, certificates and storage](link) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/keyvault/data-plane/Microsoft.KeyVault/preview/7.5-preview.1/index.md
 
 | URL | State |
 | --- | --- |
-| [About keys, secrets, certificates and storage](link) | 404 |
+| [About keys, secrets, certificates and storage](link) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/keyvault/data-plane/Microsoft.KeyVault/preview/7.6-preview.1/index.md
 
 | URL | State |
 | --- | --- |
-| [About keys, secrets, certificates and storage](link) | 404 |
+| [About keys, secrets, certificates and storage](link) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/keyvault/data-plane/Microsoft.KeyVault/preview/7.6-preview.2/index.md
 
 | URL | State |
 | --- | --- |
-| [About keys, secrets, certificates and storage](link) | 404 |
+| [About keys, secrets, certificates and storage](link) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/keyvault/data-plane/Microsoft.KeyVault/stable/2016-10-01/index.md
 
 | URL | State |
 | --- | --- |
-| [About keys, secrets, certificates and storage](link) | 404 |
+| [About keys, secrets, certificates and storage](link) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/keyvault/data-plane/Microsoft.KeyVault/stable/7.0/index.md
 
 | URL | State |
 | --- | --- |
-| [About keys, secrets, certificates and storage](link) | 404 |
+| [About keys, secrets, certificates and storage](link) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/keyvault/data-plane/Microsoft.KeyVault/stable/7.1/index.md
 
 | URL | State |
 | --- | --- |
-| [About keys, secrets, certificates and storage](link) | 404 |
+| [About keys, secrets, certificates and storage](link) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/keyvault/data-plane/Microsoft.KeyVault/stable/7.2/index.md
 
 | URL | State |
 | --- | --- |
-| [About keys, secrets, certificates and storage](link) | 404 |
+| [About keys, secrets, certificates and storage](link) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/keyvault/data-plane/Microsoft.KeyVault/stable/7.3/index.md
 
 | URL | State |
 | --- | --- |
-| [About keys, secrets, certificates and storage](link) | 404 |
+| [About keys, secrets, certificates and storage](link) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/keyvault/data-plane/Microsoft.KeyVault/stable/7.4/index.md
 
 | URL | State |
 | --- | --- |
-| [About keys, secrets, certificates and storage](link) | 404 |
+| [About keys, secrets, certificates and storage](link) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/keyvault/data-plane/Microsoft.KeyVault/stable/7.5/index.md
 
 | URL | State |
 | --- | --- |
-| [About keys, secrets, certificates and storage](link) | 404 |
+| [About keys, secrets, certificates and storage](link) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/keyvault/data-plane/readme.md
+
+| URL | State |
+| --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/keyvault/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
 | [readme.java.md](./readme.java.md) | 429 |
 
@@ -2146,6 +3878,7 @@
 
 | URL | State |
 | --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.go.md](./readme.go.md) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
 | [readme.ruby.md](./readme.ruby.md) | 429 |
@@ -2156,6 +3889,7 @@
 
 | URL | State |
 | --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.go.md](./readme.go.md) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
 | [readme.ruby.md](./readme.ruby.md) | 429 |
@@ -2166,6 +3900,7 @@
 
 | URL | State |
 | --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.go.md](./readme.go.md) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
 | [readme.ruby.md](./readme.ruby.md) | 429 |
@@ -2189,14 +3924,18 @@
 | [readme.typescript.md](./readme.typescript.md) | 429 |
 | [readme.csharp.md](./readme.csharp.md) | 429 |
 
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/kubernetesconfiguration/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/kubernetesruntime/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
 | [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
 | [readme.ruby.md](./readme.ruby.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
 | [readme.csharp.md](./readme.csharp.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/labservices/resource-manager/readme.md
@@ -2207,17 +3946,28 @@
 | [readme.python.md](./readme.python.md) | 429 |
 | [readme.go.md](./readme.go.md) | 429 |
 
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/liftrarize/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/liftrastronomer/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
 | [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
 | [readme.java.md](./readme.java.md) | 429 |
 | [readme.go.md](./readme.go.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/liftrhyperexecute/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/liftrmongodb/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
@@ -2239,10 +3989,10 @@
 
 | URL | State |
 | --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.az.md](./readme.az.md) | 429 |
 | [readme.go.md](./readme.go.md) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
 | [readme.csharp.md](./readme.csharp.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/liftrweightsandbiases/resource-manager/readme.md
@@ -2265,7 +4015,6 @@
 | [readme.go.md](./readme.go.md) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
 | [readme.ruby.md](./readme.ruby.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
 | [readme.csharp.md](./readme.csharp.md) | 429 |
 | [readme.java.md](./readme.java.md) | 429 |
 
@@ -2291,6 +4040,12 @@
 | --- | --- |
 | [Install AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.go.md](./readme.go.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/machinelearningservices/data-plane/readme.md
+
+| URL | State |
+| --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/machinelearningservices/resource-manager/readme.md
 
@@ -2387,6 +4142,7 @@
 | URL | State |
 | --- | --- |
 | [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [this](https://github.com/Azure/autorest/issues/3718) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
 | [readme.java.md](./readme.java.md) | 429 |
 | [readme.typescript.md](./readme.typescript.md) | 429 |
@@ -2398,12 +4154,14 @@
 | URL | State |
 | --- | --- |
 | [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [this](https://github.com/Azure/autorest/issues/3718) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/maps/data-plane/Geolocation/readme.md
 
 | URL | State |
 | --- | --- |
 | [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [this](https://github.com/Azure/autorest/issues/3718) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
 | [readme.java.md](./readme.java.md) | 429 |
 | [readme.typescript.md](./readme.typescript.md) | 429 |
@@ -2448,12 +4206,14 @@
 | URL | State |
 | --- | --- |
 | [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [this](https://github.com/Azure/autorest/issues/3718) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/maps/data-plane/Timezone/readme.md
 
 | URL | State |
 | --- | --- |
 | [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [this](https://github.com/Azure/autorest/issues/3718) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
 | [readme.java.md](./readme.java.md) | 429 |
 | [readme.typescript.md](./readme.typescript.md) | 429 |
@@ -2465,6 +4225,7 @@
 | URL | State |
 | --- | --- |
 | [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [this](https://github.com/Azure/autorest/issues/3718) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
 | [readme.java.md](./readme.java.md) | 429 |
 | [readme.typescript.md](./readme.typescript.md) | 429 |
@@ -2476,6 +4237,7 @@
 | URL | State |
 | --- | --- |
 | [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [this](https://github.com/Azure/autorest/issues/3718) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
 | [readme.java.md](./readme.java.md) | 429 |
 | [readme.typescript.md](./readme.typescript.md) | 429 |
@@ -2663,6 +4425,7 @@
 | URL | State |
 | --- | --- |
 | [here](https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/typespec-rest-api-dev-process.md#21-with-local-machine-development) | 429 |
+| [documentation](https://github.com/Azure/azure-rest-api-specs/tree/main/documentation/api-scenario) | 429 |
 | [Quickstart guide](https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/api-scenario/how-to/QuickStart.md#authoring-steps) | 429 |
 | [API scenario definition reference](https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/api-scenario/references/ApiScenarioDefinition.md) | 429 |
 | [wiki page here](https://msdata.visualstudio.com/CosmosDB/_git/pgmongo?path=/docs/pgmongo/mongo_arm/api_specification/typespec-authoring.md&version=GBolivert/arm_spec_docs&_a=preview) | 203 |
@@ -2673,44 +4436,153 @@
 | --- | --- |
 | [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.az.md](./readme.az.md) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/monitor/data-plane/readme.md
+
+| URL | State |
+| --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/monitor/resource-manager/Microsoft.Insights/PrivateLinkScopes/readme.md
 
 | URL | State |
 | --- | --- |
-| [readme.python.md](./readme.python.md) | 404 |
-| [readme.java.md](./readme.java.md) | 404 |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.java.md](./readme.java.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/monitor/resource-manager/Microsoft.Monitor/Operations/readme.md
 
 | URL | State |
 | --- | --- |
-| [readme.python.md](./readme.python.md) | 404 |
-| [readme.java.md](./readme.java.md) | 404 |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.java.md](./readme.java.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/monitor/resource-manager/Microsoft.Monitor/PipelineGroups/readme.md
 
 | URL | State |
 | --- | --- |
-| [readme.python.md](./readme.python.md) | 404 |
-| [readme.java.md](./readme.java.md) | 404 |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.java.md](./readme.java.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/monitor/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.java.md](./readme.java.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/msi/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/mysql/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.java.md](./readme.java.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/mysqldiscovery/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.typescript.md](./readme.typescript.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/netapp/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
-| [readme.csharp.md](./readme.csharp.md) | 404 |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.typescript.md](./readme.typescript.md) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.java.md](./readme.java.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/network/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.java.md](./readme.java.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/networkcloud/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.typescript.md](./readme.typescript.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/networkfunction/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.ruby.md](./readme.ruby.md) | 429 |
+| [readme.typescript.md](./readme.typescript.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/newrelic/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.ruby.md](./readme.ruby.md) | 429 |
+| [readme.typescript.md](./readme.typescript.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/nginx/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
-| [readme.csharp.md](./readme.csharp.md) | 404 |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 429 |
+| [readme.java.md](./readme.java.md) | 429 |
+| [readme.typescript.md](./readme.typescript.md) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/notificationhubs/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.python.md](./readme.python.md) | 429 |
+| [readme.go.md](./readme.go.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/oep/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.az.md](./readme.az.md) | 429 |
 | [readme.go.md](./readme.go.md) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
@@ -2721,110 +4593,56 @@
 
 | URL | State |
 | --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.go.md](./readme.go.md) | 429 |
 | [readme.python.md](./readme.java.md) | 429 |
 | [readme.python.md](./readme.python.md) | 429 |
 | [readme.typescript.md](./readme.typescript.md) | 429 |
 | [readme.csharp.md](./readme.csharp.md) | 429 |
 
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/onlineexperimentation/data-plane/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/onlineexperimentation/resource-manager/readme.md
+
+| URL | State |
+| --- | --- |
+| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/operationalinsights/data-plane/readme.md
 
 | URL | State |
 | --- | --- |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.go.md](./readme.go.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/operationalinsights/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
+| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
 | [readme.java.md](./readme.java.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/operationsmanagement/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/oracle/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [readme.az.md](./readme.az.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/orbital/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.az.md](./readme.az.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/paloaltonetworks/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.az.md](./readme.az.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 404 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/peering/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.cli.md](./readme.cli.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/playwrighttesting/data-plane/readme.md
-
-| URL | State |
-| --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/playwrighttesting/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.az.md](./readme.az.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-| [readme.java.md](./readme.java.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/policyinsights/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 404 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/portal/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.ruby.md](./readme.ruby.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-| [readme.nodejs.md](./readme.nodejs.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 404 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/portalservices/CopilotSettings.Management/howtocompile.md
 
@@ -2838,479 +4656,78 @@
 | --- | --- |
 | [TypeSpec installations](https://typespec.io/docs/introduction/installation) | 404 |
 
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/portalservices/resource-manager/Microsoft.PortalServices/extensions/readme.md
-
-| URL | State |
-| --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/portalservices/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/postgresql/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.java.md](./readme.java.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/postgresqlhsc/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.java.md](./readme.java.md) | 429 |
-| [readme.ruby.md](./readme.ruby.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/powerbidedicated/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/powerbiembedded/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.java.md](./readme.java.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/powerbiprivatelinks/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [readme.az.md](./readme.az.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/powerplatform/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.ruby.md](./readme.ruby.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/privatedns/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 404 |
+| [readme.csharp.md](./readme.csharp.md) | 404 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/professionalservice/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.az.md](./readme.az.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/programmableconnectivity/data-plane/readme.md
-
-| URL | State |
-| --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.az.md](./readme.az.md) | 404 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/programmableconnectivity/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.ruby.md](./readme.ruby.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
+| [readme.ruby.md](./readme.ruby.md) | 404 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/providerhub/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.ruby.md](./readme.ruby.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.java.md](./readme.java.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/purestorage/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/purview/data-plane/Azure.Analytics.Purview.Account/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/purview/data-plane/Azure.Analytics.Purview.PDS/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/purview/data-plane/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/purview/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/purviewpolicy/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 404 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/quantum/Quantum.Workspace/CONTRIBUTING.md
 
 | URL | State |
 | --- | --- |
-| [Contributing guidelines](https://github.com/Azure/azure-rest-api-specs/blob/main/CONTRIBUTING.md) | 429 |
 | [Install TypeSpec](https://microsoft.github.io/typespec/introduction/installation) | 404 |
-| [View section](#view) | 429 |
-| [CI-Fix](https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/ci-fix.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/quantum/Quantum.Workspace/README.md
 
 | URL | State |
 | --- | --- |
-| [repository README](../../../README.md) | 429 |
-| [CONTRIBUTING](./CONTRIBUTING.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/quantum/data-plane/readme.md
-
-| URL | State |
-| --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-| [readme.java.md](./readme.java.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
+| [repository README](../../../README.md) | 404 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/quantum/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/quota/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.cli.md](./readme.cli.md) | 429 |
-| [readme.az.md](./readme.az.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.java.md](./readme.java.md) | 429 |
-| [readme.ruby.md](./readme.ruby.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 404 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/recommendationsservice/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-| [readme.cli.md](./readme.cli.md) | 429 |
-| [readme.az.md](./readme.az.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.java.md](./readme.java.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/recoveryservices/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/recoveryservicesbackup/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.java.md](./readme.java.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/recoveryservicesdatareplication/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.az.md](./readme.az.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-| [readme.java.md](./readme.java.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/recoveryservicessiterecovery/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.java.md](./readme.java.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/openshiftclusters/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/redis/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.java.md](./readme.java.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 404 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/redisenterprise/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.ruby.md](./readme.ruby.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/relationships/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/relay/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.java.md](./readme.java.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/reservations/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.cli.md](./readme.cli.md) | 429 |
-| [readme.az.md](./readme.az.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 404 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/resourceconnector/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.ruby.md](./readme.ruby.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-| [readme.java.md](./readme.java.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/resourcegraph/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.java.md](./readme.java.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/resourcehealth/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 404 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/resourcemover/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.ruby.md](./readme.ruby.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-| [readme.java.md](./readme.java.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/resources/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.java.md](./readme.java.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/riskiq/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.java.md](./readme.java.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/saas/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.ruby.md](./readme.ruby.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/scheduler/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/schemaregistry/data-plane/readme.md
-
-| URL | State |
-| --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/scom/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.az.md](./readme.az.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-| [readme.azureresourceschema.md](./readme.azureresourceschema.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/scvmm/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/search/data-plane/Azure.Search/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/search/data-plane/Microsoft.Azure.Search.Data/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/search/data-plane/Microsoft.Azure.Search.Service/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/search/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 404 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/security/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
 | [readme.csharp.md](./readme.csharp.md) | 404 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/securityinsights/data-plane/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/service-map/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/servicebus/data-plane/readme.md
-
-| URL | State |
-| --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/servicefabricmanagedclusters/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/servicefabricmesh/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/softwareplan/resource-manager/readme.md
 
@@ -3329,441 +4746,57 @@
 | URL | State |
 | --- | --- |
 | [readme.csharp.md](./readme.csharp.md) | 404 |
-| [readme.nodejs.md](./readme.nodejs.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.ruby.md](./readme.ruby.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.azureresourceschema.md](./readme.azureresourceschema.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/sql/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.java.md](./readme.java.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/sqlvirtualmachine/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.java.md](./readme.java.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/standbypool/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/storSimple1200Series/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [readme.go.md](./readme.go.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/storage/data-plane/Azure.Storage.Files.DataLake/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/storage/data-plane/Microsoft.BlobStorage/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/storage/data-plane/Microsoft.FileStorage/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/storage/data-plane/Microsoft.QueueStorage/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/storage/data-plane/Microsoft.StorageDataLake/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/storage/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.java.md](./readme.java.md) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/storageactions/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 404 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/storagecache/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-| [readme.java.md](./readme.java.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.ruby.md](./readme.ruby.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/storageimportexport/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/storagemover/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.az.md](./readme.az.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 404 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/storagepool/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.ruby.md](./readme.ruby.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/storagesync/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.java.md](./readme.java.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/storsimple8000series/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/streamanalytics/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/subscription/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.Python.md](./readme.python.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 404 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/support/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.java.md](./readme.java.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.ruby.md](./readme.ruby.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/synapse/data-plane/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/synapse/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.java.md](./readme.java.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/syntex/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.az.md](./readme.az.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/terraform/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/testbase/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-| [readme.azureresourceschema.md](./readme.azureresourceschema.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/timeseriesinsights/data-plane/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/timeseriesinsights/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/trafficmanager/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/trustedsigning/data-plane/readme.md
-
-| URL | State |
-| --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/verifiedid/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.az.md](./readme.az.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/vi/resource-manager/readme.design.md
-
-| URL | State |
-| --- | --- |
-| [here](./Microsoft.VideoIndexer/stable/2022-08-01/vi.json#L413) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 404 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/vi/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.ruby.md](./readme.ruby.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-| [readme.nodejs.md](./readme.nodejs.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/videoanalyzer/data-plane/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 404 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/videoanalyzer/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.az.md](./readme.az.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-| [readme.java.md](./readme.java.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 404 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/vmware/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.java.md](./readme.java.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 404 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/vmwarecloudsimple/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.ruby.md](./readme.ruby.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-| [readme.java.md](./readme.java.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/voiceservices/data-plane/Microsoft.VoiceServices/readme.md
-
-| URL | State |
-| --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/voiceservices/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.az.md](./readme.az.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/web/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.java.md](./readme.java.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/webpubsub/data-plane/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/webpubsub/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.java.md](./readme.java.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/windowsesu/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.ruby.md](./readme.ruby.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/windowsiot/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.java.md](./readme.java.md) | 429 |
-| [readme.ruby.md](./readme.ruby.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/workloadmonitor/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Install AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
+| [readme.csharp.md](./readme.csharp.md) | 404 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/workloads/resource-manager/Microsoft.Workloads/SAPDiscoverySites/readme.md
 
 | URL | State |
 | --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.az.md](./readme.az.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/workloads/resource-manager/Microsoft.Workloads/SAPVirtualInstance/readme.md
-
-| URL | State |
-| --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.az.md](./readme.az.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/workloads/resource-manager/Microsoft.Workloads/connectors/readme.md
-
-| URL | State |
-| --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.az.md](./readme.az.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/workloads/resource-manager/Microsoft.Workloads/monitors/readme.md
-
-| URL | State |
-| --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.az.md](./readme.az.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/workloads/resource-manager/readme.md
-
-| URL | State |
-| --- | --- |
-| [Installing AutoRest](https://aka.ms/autorest/install) | 429 |
-| [readme.az.md](./readme.az.md) | 429 |
-| [readme.go.md](./readme.go.md) | 429 |
-| [readme.python.md](./readme.python.md) | 429 |
-| [readme.typescript.md](./readme.typescript.md) | 429 |
-| [readme.csharp.md](./readme.csharp.md) | 429 |
+| [readme.typescript.md](./readme.typescript.md) | 404 |
