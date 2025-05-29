@@ -45,16 +45,6 @@
 | --- | --- |
 | [azure.com](https://azure.microsoft.com/documentation/templates) | 404 |
 
-* https://github.com/Azure/azure-quickstart-templates/blob/master/SECURITY.md
-
-| URL | State |
-| --- | --- |
-| [Microsoft's definition of a security vulnerability](https://aka.ms/opensource/security/definition) | 403 |
-| [Microsoft Security Response Center PGP Key page](https://aka.ms/opensource/security/pgpkey) | 403 |
-| [microsoft.com/msrc](https://aka.ms/opensource/security/msrc) | 403 |
-| [Microsoft Bug Bounty Program](https://aka.ms/opensource/security/bounty) | 403 |
-| [Coordinated Vulnerability Disclosure](https://aka.ms/opensource/security/cvd) | 403 |
-
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/README.md
 
 | URL | State |
@@ -301,6 +291,12 @@
 | [Set-RDCertificate](https://technet.microsoft.com/library/jj215464.aspx) | 404 |
 | [Set-RDClientAccessName](https://technet.microsoft.com/library/jj215484.aspx) | 404 |
 
+* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/safekit/safekit-cluster-mirror/README.md
+
+| URL | State |
+| --- | --- |
+| [Azure: The Simplest High Availability Cluster with Synchronous Replication and Failover](https://www.evidian.com/products/high-availability-software-for-application-clustering/azure-high-availability-cluster-synchronous-replication-failover/) | 0 |
+
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/sap/sap-2-tier-s4hana-fully-activated-appliance/README.md
 
 | URL | State |
@@ -415,6 +411,7 @@
 | --- | --- |
 | [101-Linux-Java-ZuluOpenJDK](https://github.com/Azure/azure-quickstart-templates/tree/master/101-Linux-Java-ZuluOpenJDK) | 404 |
 | [Azul Zulu for Azure - Enterprise Edition FAQ](https://assets.azul.com/files/Zulu-for-Azure-FAQ.pdf) | 404 |
+| [Java on Azure](https://azure.microsoft.com/develop/java/) | 503 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/demos/README.md
 
@@ -462,7 +459,6 @@
 | --- | --- |
 | [Azure Marketplace test drive program](https://azure.microsoft.com/marketplace/test-drives/) | 404 |
 | [Azure Marketplace Test Drive Program ](https://azure.microsoft.com/marketplace/test-drives/) | 404 |
-| [here](https://www.microsoft.com/cloud-platform/operations-management-suite) | 403 |
 | [here](https://azure.microsoft.com/documentation/articles/automation-sec-configure-azure-runas-account/) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/demos/azure-resource-optimization-toolkit/README.md
@@ -682,7 +678,6 @@
 | [query language](https://docs.loganalytics.io/docs/Language-Reference/) | 0 |
 | [log search](https://documentimages.blob.core.windows.net/azurequickstarttemplatereadme/logSearch.png "log search") | 409 |
 | [saved searches](https://documentimages.blob.core.windows.net/azurequickstarttemplatereadme/savedSearches.png "saved searches") | 409 |
-| [Windows (Mobile devices)](https://www.microsoft.com/store/p/microsoft-operations-management-suite/9wzdncrfjz2r) | 403 |
 | [Android](https://play.google.com/store/apps/details?id=com.microsoft.operations.AndroidPhone) | 404 |
 | [iOS](https://itunes.apple.com/us/app/microsoft-operations-management-suite/id1042424859) | 404 |
 | [Change Logs](./changelog.md "See change logs") | 404 |
@@ -1117,7 +1112,6 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 
 | URL | State |
 | --- | --- |
-| [Confidential Consortium Framework](https://www.microsoft.com/research/project/confidential-consortium-framework/) | 403 |
 | [Quickstart: Create an Confidential Ledger with an ARM template](/azure/confidential-ledger/quickstart-template) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.customproviders/custom-rp-existing-resource-deployments/README.md
