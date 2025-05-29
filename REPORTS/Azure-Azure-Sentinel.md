@@ -1,11 +1,5 @@
 
 ## [Azure-Sentinel](https://github.com/Azure/Azure-Sentinel)
-* https://github.com/Azure/Azure-Sentinel/blob/master/.script/tests/documentsLinkValidatorTest/nodoclinks.md
-
-| URL | State |
-| --- | --- |
-| [maybe some link](https://www.microsoft.com) | 403 |
-
 * https://github.com/Azure/Azure-Sentinel/blob/master/DataConnectors/AADUserInfo/README.MD
 
 | URL | State |
@@ -19,17 +13,17 @@
 | --- | --- |
 | [Cyble-Threat-Intel-App](./Images/Cyble-Threat-Intel-Logic-App.png) | 404 |
 
-* https://github.com/Azure/Azure-Sentinel/blob/master/DataConnectors/ReadMe.md
-
-| URL | State |
-| --- | --- |
-| [Encrypting log messages with TLS – syslog-ng](https://support.oneidentity.com/technical-documents/syslog-ng-open-source-edition/3.22/administration-guide/60#TOPIC-1209298) | 502 |
-
 * https://github.com/Azure/Azure-Sentinel/blob/master/DataConnectors/Syslog-VMSS-AMA/README.md
 
 | URL | State |
 | --- | --- |
 | [CEF-VMSS]( https://github.com/mariavaladas/Azure-Sentinel/tree/master/DataConnectors/CEF-VMSS) | 0 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/DataConnectors/Templates/Connector_REST_API_AzureFunctionApp_template/README.md
+
+| URL | State |
+| --- | --- |
+| [Record type and properties formatting details and examples](https://docs.microsoft.com/azure/azure-monitor/platform/data-collector-api#record-type-and-properties) | 502 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/DataConnectors/microsoft-logstash-output-azure-loganalytics/README.md
 
@@ -171,13 +165,6 @@
 | [Master](./Images/PlaybookDesignerLight.png) | 404 |
 | [Master](./Images/InputSchema.PNG) | 404 |
 | [Master](./Images/AddNestedPlaybook.PNG) | 404 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASim Microsoft Defender for IoT - Endpoint/README.md
-
-| URL | State |
-| --- | --- |
-| [Microsoft Defender for IoT - Endpoint](https://azure.microsoft.com/services/azure-defender-for-iot/) | 403 |
-| [Microsoft Defender for IoT - Endpoint](https://azure.microsoft.com/services/azure-defender-for-iot/) | 403 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASim Sysmon for Linux/README.md
 
@@ -701,12 +688,6 @@
 | --- | --- |
 | [documentation]("https://docs.microsoft.com/azure/sentinel/normalization") | 0 |
 
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/1Password/README.md
-
-| URL | State |
-| --- | --- |
-| [Microsoft Sentinel](https://azure.microsoft.com/products/microsoft-sentinel/) | 403 |
-
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ARGOSCloudSecurity/Data Connectors/ARGOS_REST_API_Connector.md
 
 | URL | State |
@@ -776,6 +757,13 @@
 | [AWS Athena API Function App Connector](../../CustomConnector/AWSAthena_FunctionAppConnector/) | 404 |
 | [AWS Athena API Function App Connector](../../CustomConnector/AWSAthena_FunctionAppConnector/readme.md) | 404 |
 | [AWS Athena API Function App Connector](../../CustomConnector/AWSAthena_FunctionAppConnector/readme.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/AWS_IAM/Playbooks/Playbooks/AWS-DisableS3BucketPublicAccess/readme.md
+
+| URL | State |
+| --- | --- |
+| [AWS IAM Function App Connector](../../AWS_IAM_FunctionAppConnector/) | 404 |
+| [AWS IAM Function App Connector](../../AWS_IAM_FunctionAppConnector/readme.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/AWS_IAM/Playbooks/Playbooks/AWSIAM-AddTagToUser/readme.md
 
@@ -969,12 +957,6 @@
 | [Rest API Request And Response Sample to Get Security Score Information for Domain](https://developer.cisco.com/docs/cloud-security/secure-access-api-guides-request-and-response-samples-investigate-investigate/#get-security-score-information-for-domain) | 404 |
 | [Rest API Request And Response Sample to Get Risk Score for Domain](https://developer.cisco.com/docs/cloud-security/secure-access-api-guides-request-and-response-samples-investigate-investigate/#get-risk-score-for-domain) | 404 |
 
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/CohesitySecurity/Data Connectors/Helios2Sentinel/IncidentProducer/readme.md
-
-| URL | State |
-| --- | --- |
-| [this](https://github.com/Azure/Azure-Sentinel/tree/master/Solutions/CohesitySecurity/Data%20Connectors/Helios2Sentinel/azuredeploy.json.sh) | 0 |
-
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/CohesitySecurity/Playbooks/Cohesity_Close_Helios_Incident/readme.md
 
 | URL | State |
@@ -1012,7 +994,6 @@
 | [Akamai Security Events](https://www.akamai.com/us/en/products/security/) | 0 |
 | [Akamai SIEM Integration documentation](https://developer.akamai.com/tools/integrations/siem) | 0 |
 | [Aruba ClearPass](https://www.arubanetworks.com/products/security/network-access-control/secure-access/) | 403 |
-| [Get Azure Active Directory Premium P1/P2 ](https://aka.ms/asi-ipcconnectorgetlink) | 403 |
 | [Bitglass](https://www.bitglass.com/) | 0 |
 | [Cisco ISE logging mechanism documentation](https://www.cisco.com/c/en/us/td/docs/security/ise/2-7/admin_guide/b_ise_27_admin_guide/b_ISE_admin_27_maintain_monitor.html#reference_BAFBA5FA046A45938810A5DF04C00591) | 404 |
 | [Cisco Stealthwatch events](https://www.cisco.com/c/dam/en/us/td/docs/security/stealthwatch/management_console/securit_events_alarm_categories/SW_7_2_1_Security_Events_and_Alarm_Categories_DV_1_0.pdf) | 404 |
@@ -1025,8 +1006,6 @@
 | [McAfee┬« Network Security Platform](https://www.mcafee.com/enterprise/en-us/products/network-security-platform.html) | 0 |
 | [McAfee┬« Network Security Platform events](https://docs.mcafee.com/bundle/network-security-platform-10.1.x-integration-guide-unmanaged/page/GUID-8C706BE9-6AC9-4641-8A53-8910B51207D8.html) | 0 |
 | [McAfee┬« Network Security Platform](https://docs.mcafee.com/bundle/network-security-platform-10.1.x-integration-guide-unmanaged/page/GUID-F7D281EC-1CC9-4962-A7A3-5A9D9584670E.html) | 0 |
-| [Try now >](https://aka.ms/AtpTryNow) | 403 |
-| [Microsoft Defender for Cloud Apps](https://aka.ms/asi-mcas-connector-description) | 403 |
 | [MuleSoft Cloudhub](https://www.mulesoft.com/platform/saas/cloudhub-ipaas-cloud-based-integration) | 0 |
 | [Blog](http://www.austintaylor.io/detect/beaconing/intrusion/detection/system/command/control/flare/elastic/stack/2017/06/10/detect-beaconing-with-flare-elasticsearch-and-intrusion-detection-systems/) | 0 |
 | [PingFederate events](https://docs.pingidentity.com/bundle/pingfederate-102/page/lly1564002980532.html) | 404 |
@@ -1034,12 +1013,6 @@
 | [account settings](https://community.riskiq.com/settings) | 0 |
 | [RSA┬« SecurID Authentication Manager events](https://community.rsa.com/t5/rsa-authentication-manager/rsa-authentication-manager-log-messages/ta-p/630160) | 401 |
 | [RSA┬« SecurID Authentication Manager documentation](https://community.rsa.com/t5/rsa-authentication-manager/getting-started-with-rsa-authentication-manager/ta-p/569582) | 401 |
-| [Microsoft Sentinel documentation](https://go.microsoft.com/fwlink/p/?linkid=2220093&wt.mc_id=sentinel_dataconnectordocs_content_cnl_csasci) | 0 |
-| [Microsoft Sentinel documentation](https://go.microsoft.com/fwlink/p/?linkid=2220225&wt.mc_id=sentinel_dataconnectordocs_content_cnl_csasci) | 0 |
-| [Microsoft Sentinel documentation](https://go.microsoft.com/fwlink/p/?linkid=2223807&wt.mc_id=sentinel_dataconnectordocs_content_cnl_csasci) | 0 |
-| [Syslog](https://aka.ms/sysLogInfo) | 0 |
-| [ASIM](https://aka.ms/AboutASIM) | 0 |
-| [ASIM](https://aka.ms/AboutASIM) | 0 |
 | [Advanced Security Information Model (ASIM)](https:/aka.ms/AboutASIM) | 0 |
 | [Ubiquiti UniFi firewall, dns, ssh, AP events](https://help.ui.com/hc/en-us/articles/204959834-UniFi-How-to-View-Log-Files) | 403 |
 | [vCenter](https://www.vmware.com/in/products/vcenter-server.html) | 404 |
@@ -1058,7 +1031,6 @@
 | --- | --- |
 | [CMMC 2.0](https://www.acq.osd.mil/cmmc/index.html) | 0 |
 | [Workbook Overview](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/CybersecurityMaturityModelCertification(CMMC) | 404 |
-| [Planning: Review Microsoft Product Placemat for CMMC 2.0](https://aka.ms/cmmc/productplacemat) | 403 |
 | [CMMC Accreditation Body](https://www.cmmcab.org/c3pao-lp) | 0 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Cyware/Playbooks/Send_Incident_To_Cyware_Orchestrate/README.md
@@ -1129,43 +1101,6 @@
 | --- | --- |
 | [GCPBigQuery Logic App Custom Connector](../../CustomConnector/GCPBigQueryCustomConnector/azuredeploy.json) | 404 |
 | [GCPBigQuery Logic App Custom Connector](../../CustomConnector/GCPBigQueryCustomConnector/readme.md) | 404 |
-| [documentation](https://docs.microsoft.com/azure/sentinel/tutorial-respond-threats-playbook) | 0 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Google Threat Intelligence/Playbooks/readme.md
-
-| URL | State |
-| --- | --- |
-| [here](https://learn.microsoft.com/en-us/azure/sentinel/automation/run-playbooks?tabs=after-onboarding%2Cincidents%2Cazure%2Cincident-details-new) | 0 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/GoogleCloudPlatformCDN/Data Connectors/README.md
-
-| URL | State |
-| --- | --- |
-| [Click Here](https://learn.microsoft.com/en-us/azure/sentinel/connect-google-cloud-platform?tabs=terraform%2Cauditlogs#gcp-authentication-setup) | 0 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/GoogleCloudPlatformDNS/Data Connectors/README.md
-
-| URL | State |
-| --- | --- |
-| [Click Here](https://learn.microsoft.com/en-us/azure/sentinel/connect-google-cloud-platform?tabs=terraform%2Cauditlogs#gcp-authentication-setup) | 0 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/GoogleCloudPlatformIAM/Data Connectors/README.md
-
-| URL | State |
-| --- | --- |
-| [Click Here](https://learn.microsoft.com/en-us/azure/sentinel/connect-google-cloud-platform?tabs=terraform%2Cauditlogs#gcp-authentication-setup) | 0 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/GoogleCloudPlatformIAM/Playbooks/GCP-DisableServiceAccountFromTeams/readme.md
-
-| URL | State |
-| --- | --- |
-| [documentation](https://docs.microsoft.com/azure/sentinel/surface-custom-details-in-alerts) | 0 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/GoogleCloudPlatformIAM/Playbooks/GCP-DisableServiceAccountKey/readme.md
-
-| URL | State |
-| --- | --- |
-| [documentation](https://docs.microsoft.com/azure/sentinel/surface-custom-details-in-alerts) | 0 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/GoogleCloudPlatformIAM/Playbooks/readme.md
 
@@ -1217,7 +1152,6 @@
 | [Key Vault documentation](../key-vault/index.yml) | 404 |
 | [Azure Policy documentation](../governance/policy/assign-policy-portal.md) | 404 |
 | [Microsoft Defender for Cloud documentation](/azure/security-center/security-center-recommendations) | 404 |
-| [End-to-end demo video](https://www.microsoft.com/en-us/videoplayer/embed/RWPOxX?postJsllMsg=true) | 403 |
 | [About Microsoft Sentinel solutions](sentinel-solutions.md) | 404 |
 | [Discover and deploy Microsoft Sentinel solutions](sentinel-solutions-deploy.md) | 404 |
 | [Microsoft Sentinel solutions catalog](sentinel-solutions-catalog.md) | 404 |
@@ -1349,12 +1283,6 @@
 | URL | State |
 | --- | --- |
 | [Workbook Overview](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftPurviewInsiderRiskManagement/Workbooks/Images/InsiderRiskManagementBlack1.png?raw=true) | 404 |
-| [Microsoft Defender for Endpoint](https://www.microsoft.com/microsoft-365/security/endpoint-defender) | 0 |
-| [Microsoft Defender for Identity](https://www.microsoft.com/microsoft-365/security/identity-defender) | 403 |
-| [Microsoft Defender for Cloud Apps](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/cloud-app-security) | 403 |
-| [Microsoft 365 Defender](https://www.microsoft.com/microsoft-365/security/microsoft-365-defender) | 403 |
-| [Microsoft Defender for Office 365](https://www.microsoft.com/microsoft-365/security/office-365-defender) | 0 |
-| [Microsoft Entra ID](https://azure.microsoft.com/services/active-directory/) | 403 |
 | [Investigate incidents with Microsoft Sentinel]( https://docs.microsoft.com/azure/sentinel/investigate-cases) | 0 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/NISTSP80053/readme.md
@@ -1788,14 +1716,6 @@
 | --- | --- |
 | [Shodan Logic App Custom Connector](../../CustomConnector/ShodanCustomConnector/azuredeploy.json) | 404 |
 | [Shodan Logic App Custom Connector](../../CustomConnector/ShodanCustomConnector/readme.md) | 404 |
-| [documentation](https://docs.microsoft.com/azure/sentinel/map-data-fields-to-entities) | 0 |
-| [documentation](https://docs.microsoft.com/azure/sentinel/tutorial-respond-threats-playbook) | 0 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/SlashNext/Playbooks/SlashNextPhishingIncidentInvestigation/readme.md
-
-| URL | State |
-| --- | --- |
-| [Learn more about automation rules](https://docs.microsoft.com/azure/sentinel/automate-incident-handling-with-automation-rules#creating-and-managing-automation-rules) | 0 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/SlashNext/Playbooks/readme.md
 
@@ -1804,25 +1724,6 @@
 | [SlashNext URL Investigation Connector](./Playbook/SlashNextVerdictCustomconnector) | 404 |
 | [Web Access log Assessment](./Playbooks/SlashNextLogAssessment) | 404 |
 | [Phishing Incident Investigation](./Playbooks/SlashNextIncident) | 404 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Tanium/Playbooks/Tanium-Apply-SecurityPatches-WithReboot/README.md
-
-| URL | State |
-| --- | --- |
-| [Azure Key Vault Connector reference | Microsoft Docs](https://docs.microsoft.com/connectors/keyvault/) | 0 |
-| [Secure access and data - Azure Logic Apps | Microsoft Docs](https://docs.microsoft.com/azure/logic-apps/logic-apps-securing-a-logic-app?tabs=azure-portal#secure-inputs-and-outputs-in-the-designer) | 0 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Tanium/Playbooks/Tanium-Apply-SecurityPatches-WithoutReboot/README.md
-
-| URL | State |
-| --- | --- |
-| [Azure Key Vault Connector reference | Microsoft Docs](https://docs.microsoft.com/connectors/keyvault/) | 0 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Tanium/Playbooks/Tanium-ComplyFindings/README.md
-
-| URL | State |
-| --- | --- |
-| [Azure Key Vault Connector reference | Microsoft Docs](https://docs.microsoft.com/connectors/keyvault/) | 0 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Teams/Playbooks/Advanced-ServiceNow-Teams-Integration/README.md
 
@@ -2047,7 +1948,6 @@
 | [Acitve](../Images/m7-tibladecolumnorder.png) | 404 |
 | [Acitve](../Images/m7-deleteTI.png) | 404 |
 | [TImapping](../Images/TI10.png) | 404 |
-| [here](https://docs.microsoft.com/azure/sentinel/work-with-threat-indicators#detect-threats-with-threat-indicator-based-analytics) | 0 |
 | [TImatching](../Images/TI3.png) | 404 |
 | [TImatching](../Images/TI5.png) | 404 |
 | [TIworkbook](../Images/TI6.png) | 404 |
@@ -2090,15 +1990,7 @@
 
 | URL | State |
 | --- | --- |
-| [Microsoft Zero Trust Model](https://www.microsoft.com/security/business/zero-trust) | 0 |
 | [Workbook Overview](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ZeroTrust(TIC3.0) | 404 |
-| [Microsoft Entra ID](https://azure.microsoft.com/services/active-directory/) | 403 |
-| [Microsoft Defender for Office 365](https://www.microsoft.com/microsoft-365/security/office-365-defender) | 403 |
-| [Microsoft Defender for Endpoint](https://www.microsoft.com/microsoft-365/security/endpoint-defender) | 0 |
-| [Azure Information Protection](https://azure.microsoft.com/services/information-protection/) | 403 |
-| [Microsoft 365 Defender](https://www.microsoft.com/microsoft-365/security/microsoft-365-defender) | 403 |
-| [Microsoft Defender for Cloud Apps](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/cloud-app-security) | 403 |
-| [Microsoft Defender for Identity](https://www.microsoft.com/microsoft-365/security/identity-defender) | 403 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Zscaler Internet Access/Playbooks/Add-Url-To-Category/readme.md
 
