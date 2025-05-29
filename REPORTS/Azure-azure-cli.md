@@ -1,15 +1,5 @@
 
 ## [azure-cli](https://github.com/Azure/azure-cli)
-* https://github.com/Azure/azure-cli/blob/dev/SECURITY.md
-
-| URL | State |
-| --- | --- |
-| [Microsoft's definition of a security vulnerability](https://aka.ms/opensource/security/definition) | 403 |
-| [Microsoft Security Response Center PGP Key page](https://aka.ms/opensource/security/pgpkey) | 403 |
-| [microsoft.com/msrc](https://aka.ms/opensource/security/msrc) | 403 |
-| [Microsoft Bug Bounty Program](https://aka.ms/opensource/security/bounty) | 403 |
-| [Coordinated Vulnerability Disclosure](https://aka.ms/opensource/security/cvd) | 403 |
-
 * https://github.com/Azure/azure-cli/blob/dev/doc/authoring_help.md
 
 | URL | State |
@@ -60,3 +50,59 @@
 | URL | State |
 | --- | --- |
 | [here](https://stackoverflow.com/questions/7250130/how-to-stop-mingw-and-msys-from-mangling-path-names-given-at-the-command-line#34386471) | 403 |
+
+* https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/synapse/report.md
+
+| URL | State |
+| --- | --- |
+| [Example](#ExamplesKustoPoolsListFollowerDatabases) | 429 |
+| [az synapse kusto pool list-language-extension](#KustoPoolsListLanguageExtensions) | 429 |
+| [Parameters](#ParametersKustoPoolsListLanguageExtensions) | 429 |
+| [Example](#ExamplesKustoPoolsListLanguageExtensions) | 429 |
+| [az synapse kusto pool list-sku](#KustoPoolsListSkusByResource) | 429 |
+| [Parameters](#ParametersKustoPoolsListSkusByResource) | 429 |
+| [Example](#ExamplesKustoPoolsListSkusByResource) | 429 |
+| [az synapse kusto pool start](#KustoPoolsStart) | 429 |
+| [Parameters](#ParametersKustoPoolsStart) | 429 |
+| [Example](#ExamplesKustoPoolsStart) | 429 |
+| [az synapse kusto pool stop](#KustoPoolsStop) | 429 |
+| [Parameters](#ParametersKustoPoolsStop) | 429 |
+| [Example](#ExamplesKustoPoolsStop) | 429 |
+| [az synapse kusto pool-principal-assignment list](#KustoPoolPrincipalAssignmentsList) | 429 |
+| [Parameters](#ParametersKustoPoolPrincipalAssignmentsList) | 429 |
+| [Example](#ExamplesKustoPoolPrincipalAssignmentsList) | 429 |
+| [az synapse kusto pool-principal-assignment show](#KustoPoolPrincipalAssignmentsGet) | 429 |
+| [Parameters](#ParametersKustoPoolPrincipalAssignmentsGet) | 429 |
+| [Example](#ExamplesKustoPoolPrincipalAssignmentsGet) | 429 |
+| [az synapse kusto pool-principal-assignment create](#KustoPoolPrincipalAssignmentsCreateOrUpdate#Create) | 429 |
+| [Parameters](#ParametersKustoPoolPrincipalAssignmentsCreateOrUpdate#Create) | 429 |
+| [Example](#ExamplesKustoPoolPrincipalAssignmentsCreateOrUpdate#Create) | 429 |
+| [az synapse kusto pool-principal-assignment update](#KustoPoolPrincipalAssignmentsCreateOrUpdate#Update) | 429 |
+| [Parameters](#ParametersKustoPoolPrincipalAssignmentsCreateOrUpdate#Update) | 429 |
+| [az synapse kusto pool-principal-assignment delete](#KustoPoolPrincipalAssignmentsDelete) | 429 |
+| [Parameters](#ParametersKustoPoolPrincipalAssignmentsDelete) | 429 |
+| [Example](#ExamplesKustoPoolPrincipalAssignmentsDelete) | 429 |
+| [az synapse kusto-operation list](#KustoOperationsList) | 429 |
+| [Parameters](#ParametersKustoOperationsList) | 429 |
+| [Example](#ExamplesKustoOperationsList) | 429 |
+
+* https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/vm/report.md
+
+| URL | State |
+| --- | --- |
+| [groups](#CommandGroups) | 429 |
+| [commands](#CommandsInSshPublicKeys) | 429 |
+| [az sshkey list](#SshPublicKeysListByResourceGroup) | 429 |
+| [Parameters](#ParametersSshPublicKeysListByResourceGroup) | 429 |
+| [az sshkey list](#SshPublicKeysListBySubscription) | 429 |
+| [Parameters](#ParametersSshPublicKeysListBySubscription) | 429 |
+| [az sshkey show](#SshPublicKeysGet) | 429 |
+| [Parameters](#ParametersSshPublicKeysGet) | 429 |
+| [Example](#ExamplesSshPublicKeysGet) | 429 |
+| [az sshkey create](#SshPublicKeysCreate) | 429 |
+| [Parameters](#ParametersSshPublicKeysCreate) | 429 |
+| [Example](#ExamplesSshPublicKeysCreate) | 429 |
+| [az sshkey update](#SshPublicKeysUpdate) | 429 |
+| [Parameters](#ParametersSshPublicKeysUpdate) | 429 |
+| [az sshkey delete](#SshPublicKeysDelete) | 429 |
+| [Parameters](#ParametersSshPublicKeysDelete) | 429 |
