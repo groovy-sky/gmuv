@@ -1,15 +1,5 @@
 
 ## [MachineLearningNotebooks](https://github.com/Azure/MachineLearningNotebooks)
-* https://github.com/Azure/MachineLearningNotebooks/blob/master/SECURITY.md
-
-| URL | State |
-| --- | --- |
-| [Microsoft's definition of a security vulnerability](https://aka.ms/opensource/security/definition) | 403 |
-| [Microsoft Security Response Center PGP Key page](https://aka.ms/opensource/security/pgpkey) | 403 |
-| [microsoft.com/msrc](https://aka.ms/opensource/security/msrc) | 403 |
-| [Microsoft Bug Bounty Program](https://aka.ms/opensource/security/bounty) | 403 |
-| [Coordinated Vulnerability Disclosure](https://aka.ms/opensource/security/cvd) | 403 |
-
 * https://github.com/Azure/MachineLearningNotebooks/blob/master/contrib/RAPIDS/README.md
 
 | URL | State |
@@ -53,10 +43,7 @@
 
 | URL | State |
 | --- | --- |
-| [https://www.microsoft.com/en-us/sql-server/sql-server-downloads](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) | 403 |
 | [https://docs.microsoft.com/en-us/sql/azure-data-studio/sql-notebooks?view=sql-server-2017](https://docs.microsoft.com/en-us/sql/azure-data-studio/sql-notebooks?view=sql-server-2017) | 404 |
-| [https://www.microsoft.com/en-us/sql-server/sql-server-downloads](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) | 0 |
-| [https://www.microsoft.com/en-us/sql-server/sql-server-downloads](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) | 403 |
 
 * https://github.com/Azure/MachineLearningNotebooks/blob/master/how-to-use-azureml/machine-learning-pipelines/README.md
 
