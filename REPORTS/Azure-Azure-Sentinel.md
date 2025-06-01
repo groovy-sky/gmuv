@@ -19,12 +19,6 @@
 | --- | --- |
 | [CEF-VMSS]( https://github.com/mariavaladas/Azure-Sentinel/tree/master/DataConnectors/CEF-VMSS) | 0 |
 
-* https://github.com/Azure/Azure-Sentinel/blob/master/DataConnectors/Templates/Connector_REST_API_AzureFunctionApp_template/README.md
-
-| URL | State |
-| --- | --- |
-| [Record type and properties formatting details and examples](https://docs.microsoft.com/azure/azure-monitor/platform/data-collector-api#record-type-and-properties) | 502 |
-
 * https://github.com/Azure/Azure-Sentinel/blob/master/DataConnectors/microsoft-logstash-output-azure-loganalytics/README.md
 
 | URL | State |
@@ -1662,22 +1656,7 @@
 | --- | --- |
 | [Success](./images/successDark.jpg) | 404 |
 
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/SentinelSOARessentials/Playbooks/Notify-IncidentClosed/readme.md
-
-| URL | State |
-| --- | --- |
-| [Automation Rule Example](./images/AutomationRuleExample.jpg) | 404 |
-| [teams notification](./images/TeamsNotification.jpg) | 404 |
-| [outlook notification](./images/OutlookNotification.jpg) | 404 |
-
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/SentinelSOARessentials/Playbooks/Notify-IncidentReopened/readme.md
-
-| URL | State |
-| --- | --- |
-| [Automation Rule Example](./images/AutomationRuleExample.jpg) | 404 |
-| [outlook notification](./images/OutlookNotification.jpg) | 404 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/SentinelSOARessentials/Playbooks/Notify-IncidentSeverityChanged/readme.md
 
 | URL | State |
 | --- | --- |
@@ -1689,6 +1668,20 @@
 | URL | State |
 | --- | --- |
 | [Slack](./images/slackLight.png) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/SentinelSOARessentials/Playbooks/Post-Message-Teams/alert-trigger/readme.md
+
+| URL | State |
+| --- | --- |
+| [Teams Message Light](../images/TeamsLight.png) | 404 |
+| [Teams Message Dark](../images/TeamsDark.png) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/SentinelSOARessentials/Playbooks/Post-Message-Teams/incident-trigger/readme.md
+
+| URL | State |
+| --- | --- |
+| [Teams Message Light](../images/TeamsLight.png) | 404 |
+| [Teams Message Dark](../images/TeamsDark.png) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ShadowByte Aria/Playbooks/readme.md
 
