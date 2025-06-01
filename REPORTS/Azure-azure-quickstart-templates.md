@@ -204,6 +204,18 @@
 | [Red Hat Cloud Access program overview](https://access.redhat.com/documentation/en/red_hat_subscription_management/1/html/red_hat_cloud_access_reference_guide/getting-started-with-ca_cloud-access#proc_new-ca-experience-option2_cloud-access) | 404 |
 | [Getting access to Gold Images](https://access.redhat.com/documentation/en/red_hat_subscription_management/1/html/red_hat_cloud_access_reference_guide/understanding-gold-images_cloud-access#getting-access-to-gold-images_cloud-access) | 404 |
 
+* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/jenkins/jenkins-cicd-vmss/README.md
+
+| URL | State |
+| --- | --- |
+| [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) | 0 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/jenkins/jenkins-cicd-webapp/README.md
+
+| URL | State |
+| --- | --- |
+| [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) | 0 |
+
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/lansa/lansa-vmss-windows-autoscale-sql-database/README.md
 
 | URL | State |
@@ -290,12 +302,6 @@
 | [Use Azure PowerShell to create a service principal to access resources](https://azure.microsoft.com/documentation/articles/resource-group-authenticate-service-principal/) | 404 |
 | [Set-RDCertificate](https://technet.microsoft.com/library/jj215464.aspx) | 404 |
 | [Set-RDClientAccessName](https://technet.microsoft.com/library/jj215484.aspx) | 404 |
-
-* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/safekit/safekit-cluster-mirror/README.md
-
-| URL | State |
-| --- | --- |
-| [Azure: The Simplest High Availability Cluster with Synchronous Replication and Failover](https://www.evidian.com/products/high-availability-software-for-application-clustering/azure-high-availability-cluster-synchronous-replication-failover/) | 0 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/sap/sap-2-tier-s4hana-fully-activated-appliance/README.md
 
@@ -411,7 +417,6 @@
 | --- | --- |
 | [101-Linux-Java-ZuluOpenJDK](https://github.com/Azure/azure-quickstart-templates/tree/master/101-Linux-Java-ZuluOpenJDK) | 404 |
 | [Azul Zulu for Azure - Enterprise Edition FAQ](https://assets.azul.com/files/Zulu-for-Azure-FAQ.pdf) | 404 |
-| [Java on Azure](https://azure.microsoft.com/develop/java/) | 503 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/demos/README.md
 
