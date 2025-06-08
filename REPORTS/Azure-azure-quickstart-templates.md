@@ -204,18 +204,6 @@
 | [Red Hat Cloud Access program overview](https://access.redhat.com/documentation/en/red_hat_subscription_management/1/html/red_hat_cloud_access_reference_guide/getting-started-with-ca_cloud-access#proc_new-ca-experience-option2_cloud-access) | 404 |
 | [Getting access to Gold Images](https://access.redhat.com/documentation/en/red_hat_subscription_management/1/html/red_hat_cloud_access_reference_guide/understanding-gold-images_cloud-access#getting-access-to-gold-images_cloud-access) | 404 |
 
-* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/jenkins/jenkins-cicd-vmss/README.md
-
-| URL | State |
-| --- | --- |
-| [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) | 0 |
-
-* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/jenkins/jenkins-cicd-webapp/README.md
-
-| URL | State |
-| --- | --- |
-| [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/) | 0 |
-
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/lansa/lansa-vmss-windows-autoscale-sql-database/README.md
 
 | URL | State |
