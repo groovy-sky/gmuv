@@ -55,8 +55,6 @@
 
 | URL | State |
 | --- | --- |
-| [az databoxedge bandwidth-schedule update](#BandwidthSchedulesCreateOrUpdate#Update) | 429 |
-| [Parameters](#ParametersBandwidthSchedulesCreateOrUpdate#Update) | 429 |
 | [az databoxedge bandwidth-schedule delete](#BandwidthSchedulesDelete) | 429 |
 | [Parameters](#ParametersBandwidthSchedulesDelete) | 429 |
 | [Example](#ExamplesBandwidthSchedulesDelete) | 429 |
