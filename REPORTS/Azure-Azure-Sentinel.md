@@ -308,6 +308,12 @@
 | --- | --- |
 | [Community API documentation](https://developer.greynoise.io/reference/community-api#get_v3-community-ip) | 404 |
 
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/Export-Incidents-With-Comments/readme.md
+
+| URL | State |
+| --- | --- |
+| [https://www.bridewellconsulting.com/automating-azure-sentinel-using-playbooks-to-extract-data](https://www.bridewellconsulting.com/automating-azure-sentinel-using-playbooks-to-extract-data) | 0 |
+
 * https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/F5BigIP/Playbooks/BasePlaybook-F5BigIP/readme.md
 
 | URL | State |
@@ -1300,6 +1306,13 @@
 | --- | --- |
 | [Neustar IP GeoPoint](https://ipintelligence.neustar.biz/apps/login/?CL=gp.od.dev.nsr) | 403 |
 
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/NordPass/README.md
+
+| URL | State |
+| --- | --- |
+| [Token for Microsoft Sentinel integration](https://support.nordpass.com/hc/en-us/articles/31972037289873) | 403 |
+| [Contact Support](https://support.nordpass.com/hc/en-us/requests/new) | 403 |
+
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ProofPointTap/Playbooks/readme.md
 
 | URL | State |
@@ -1717,6 +1730,12 @@
 | [SlashNext URL Investigation Connector](./Playbook/SlashNextVerdictCustomconnector) | 404 |
 | [Web Access log Assessment](./Playbooks/SlashNextLogAssessment) | 404 |
 | [Phishing Incident Investigation](./Playbooks/SlashNextIncident) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Tanium/Workbooks/README.md
+
+| URL | State |
+| --- | --- |
+| [JSON file found here](./Workbooks/connect-module-connections.json) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Teams/Playbooks/Advanced-ServiceNow-Teams-Integration/README.md
 
