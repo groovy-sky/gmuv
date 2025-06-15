@@ -1126,41 +1126,32 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 | --- | --- |
 | [](images/createdcustomresource.PNG) | 404 |
 
-* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.databricks/databricks-all-in-one-template-for-vnet-injection-privateendpoint-default-storage-firewall/README.md
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.databricks/databricks-all-in-one-template-for-vnet-injection-privateendpoint-default-storage-firewall-with-natgateway/README.md
+
+| URL | State |
+| --- | --- |
+| [Azure Public Test Date](https://azurequickstartsservice.blob.core.windows.net/badges/quickstarts/microsoft.databricks/databricks-all-in-one-template-for-vnet-injection-privateendpoint-default-storage-firewall-with-nat-gateway/PublicLastTestDate.svg) | 404 |
+| [Azure Public Test Result](https://azurequickstartsservice.blob.core.windows.net/badges/quickstarts/microsoft.databricks/databricks-all-in-one-template-for-vnet-injection-privateendpoint-default-storage-firewall-with-nat-gateway/PublicDeployment.svg) | 404 |
+| [Azure US Gov Last Test Date](https://azurequickstartsservice.blob.core.windows.net/badges/quickstarts/microsoft.databricks/databricks-all-in-one-template-for-vnet-injection-privateendpoint-default-storage-firewall-with-nat-gateway/FairfaxLastTestDate.svg) | 404 |
+| [Azure US Gov Last Test Result](https://azurequickstartsservice.blob.core.windows.net/badges/quickstarts/microsoft.databricks/databricks-all-in-one-template-for-vnet-injection-privateendpoint-default-storage-firewall-with-nat-gateway/FairfaxDeployment.svg) | 404 |
+| [Best Practice Check](https://azurequickstartsservice.blob.core.windows.net/badges/quickstarts/microsoft.databricks/databricks-all-in-one-template-for-vnet-injection-privateendpoint-default-storage-firewall-with-nat-gateway/BestPracticeResult.svg) | 404 |
+| [Cred Scan Check](https://azurequickstartsservice.blob.core.windows.net/badges/quickstarts/microsoft.databricks/databricks-all-in-one-template-for-vnet-injection-privateendpoint-default-storage-firewall-with-nat-gateway/CredScanResult.svg) | 404 |
+| [Bicep Version](https://azurequickstartsservice.blob.core.windows.net/badges/quickstarts/microsoft.databricks/databricks-all-in-one-template-for-vnet-injection-privateendpoint-default-storage-firewall-with-nat-gateway/BicepVersion.svg) | 404 |
+| [Databricks Admin Guide](https://docs.azuredatabricks.net/administration-guide/index.html) | 0 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.databricks/databricks-all-in-one-template-for-vnet-injection-privateendpoint-with-nat-gateway/README.md
 
 | URL | State |
 | --- | --- |
 | [Databricks Admin Guide](https://docs.azuredatabricks.net/administration-guide/index.html) | 0 |
 
-* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.databricks/databricks-all-in-one-template-for-vnet-injection-privateendpoint/README.md
-
-| URL | State |
-| --- | --- |
-| [Databricks Admin Guide](https://docs.azuredatabricks.net/administration-guide/index.html) | 0 |
-
-* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.databricks/databricks-all-in-one-template-for-vnet-injection-with-load-balancer/README.md
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.databricks/databricks-all-in-one-template-for-vnet-injection-with-load-balancer-with-nat-gateway/README.md
 
 | URL | State |
 | --- | --- |
 | [Data Bricks Admin Guide](https://docs.azuredatabricks.net/administration-guide/index.html) | 0 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.databricks/databricks-all-in-one-template-for-vnet-injection-with-nat-gateway/README.md
-
-| URL | State |
-| --- | --- |
-| [Data Bricks Admin Guide](https://docs.azuredatabricks.net/administration-guide/index.html) | 0 |
-
-* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.databricks/databricks-all-in-one-template-for-vnet-injection/GettingStarted.md
-
-| URL | State |
-| --- | --- |
-| [Screen](./images/AzurePortal.png) | 404 |
-| [Screen](./images/DatabricksPortal.png) | 404 |
-| [Screen](./images/AzurePortal.png) | 404 |
-| [Screen](./images/off1.png) | 404 |
-| [Screen](./images/off2.png) | 404 |
-
-* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.databricks/databricks-all-in-one-template-for-vnet-injection/README.md
 
 | URL | State |
 | --- | --- |
