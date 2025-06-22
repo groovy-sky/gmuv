@@ -77,7 +77,6 @@
 
 | URL | State |
 | --- | --- |
-| [feedback](https://github.com/Azure/MachineLearningNotebooks/labels/Reinforcement%20Learning) | 404 |
 | [Impressions](https://PixelServer20190423114238.azurewebsites.net/api/impressions/MachineLearningNotebooks/how-to-use-azureml/reinforcement-learning/README.png) | 0 |
 
 * https://github.com/Azure/MachineLearningNotebooks/blob/master/how-to-use-azureml/track-and-monitor-experiments/README.md
