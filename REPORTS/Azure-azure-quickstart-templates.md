@@ -63,13 +63,6 @@
 | --- | --- |
 | [Groestlcoin-Azure](../images/groestlcoin.png) | 404 |
 
-* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/bosh/bosh-setup/CHANGELOG.md
-
-| URL | State |
-| --- | --- |
-| [v1.0.0](https://github.com/cloudfoundry/bosh-deployment/tree/v1.0.0) | 404 |
-| [use-external-blobstore.yml](https://raw.githubusercontent.com/cloudfoundry/cf-deployment/v2-fast/operations/use-external-blobstore.yml) | 404 |
-
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/chef/datameer-trend-chef-riskanalysis/README.md
 
 | URL | State |
@@ -83,6 +76,7 @@
 | URL | State |
 | --- | --- |
 | [Concourse](http://concourse.ci/) | 0 |
+| [azuredeploy.json](https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/bosh/bosh-setup/azuredeploy.json) | 404 |
 | [**HERE**](https://azure.microsoft.com/documentation/articles/virtual-machines-size-specs/) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/consul/consul-on-ubuntu/README.md
