@@ -19,6 +19,8 @@
 | URL | State |
 | --- | --- |
 | [configuration](../../configuration.ipynb) | 404 |
+| [Kaggle's credit card fraud detection dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud) | 403 |
+| [UCI's bank marketing dataset](https://www.kaggle.com/janiobachmann/bank-marketing-dataset) | 403 |
 | [Jupyter Notebook](classification-text-dnn/auto-ml-classification-text-dnn.ipynb) | 404 |
 | [Monthly beer production data](forecasting-beer-remote/Beer_no_valid_split_train.csv) | 404 |
 | [Jupyter Notebook](forecasting-beer-remote/auto-ml-forecasting-beer-remote.ipynb) | 404 |
