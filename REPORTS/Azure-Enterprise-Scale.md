@@ -254,7 +254,7 @@ Implementations](https://github.com/azure/enterprise-scale#deploying-enterprise-
 | [issue #978](https://github.com/Azure/Enterprise-Scale/issues/978) | 429 |
 | [issue #971](https://github.com/Azure/Enterprise-Scale/issues/971) | 429 |
 | [issue #893](https://github.com/Azure/Enterprise-Scale/issues/893) | 429 |
-| [#864](https://github.com/Azure/Enterprise-Scale/issues/864) | 429 |
+| [issue #949](https://github.com/Azure/Enterprise-Scale/issues/949) | 429 |
 | [issue #803](https://github.com/Azure/Enterprise-Scale/issues/803) | 429 |
 | [#726](https://github.com/Azure/Enterprise-Scale/issues/726) | 429 |
 | [#728](https://github.com/Azure/Enterprise-Scale/issues/728) | 429 |
