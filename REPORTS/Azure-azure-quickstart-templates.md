@@ -399,6 +399,7 @@
 | --- | --- |
 | [101-Linux-Java-ZuluOpenJDK](https://github.com/Azure/azure-quickstart-templates/tree/master/101-Linux-Java-ZuluOpenJDK) | 404 |
 | [Azul Zulu for Azure - Enterprise Edition FAQ](https://assets.azul.com/files/Zulu-for-Azure-FAQ.pdf) | 404 |
+| [Java on Azure](https://azure.microsoft.com/develop/java/) | 503 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/demos/README.md
 
@@ -668,6 +669,12 @@
 | [Android](https://play.google.com/store/apps/details?id=com.microsoft.operations.AndroidPhone) | 404 |
 | [iOS](https://itunes.apple.com/us/app/microsoft-operations-management-suite/id1042424859) | 404 |
 | [Change Logs](./changelog.md "See change logs") | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/demos/oms-cloudfoundry-solution/changelog.md
+
+| URL | State |
+| --- | --- |
+| [official KPI](https://docs.pivotal.io/pivotalcf/1-11/monitoring/kpi.html) | 0 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/demos/oms-hyperv-replica-solution/README.md
 
@@ -1332,7 +1339,7 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 
 | URL | State |
 | --- | --- |
-| [Deploy a HDInsight HBase cluster](https://azure.microsoft.com/resources/templates/101-hdinsight-hbase-linux/) | 404 |
+| [Deploy a HDInsight HBase cluster](https://azure.microsoft.com/resources/templates/101-hdinsight-hbase-linux/) | 0 |
 | [Deploy a HDInsight HBase cluster within a VNet](https://azure.microsoft.com/resources/templates/101-hdinsight-hbase-linux-vnet/) | 404 |
 | [Deploy a HDInsight HBase replication with the clusters in one VNet](https://azure.microsoft.com/resources/templates/101-hdinsight-hbase-replication-one-vnet/) | 404 |
 | [Deploy a HDInsight HBase replication with two VNets in one region](https://azure.microsoft.com/resources/templates/101-hdinsight-hbase-replication-two-vnets-same-region/) | 404 |
