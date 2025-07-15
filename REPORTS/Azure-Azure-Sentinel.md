@@ -426,7 +426,9 @@
 | URL | State |
 | --- | --- |
 | [DeHashed API](https://www.dehashed.com/pricing) | 404 |
+| [Secure authentication for Conditional Access automation](https://github.com/Azure-Samples/azure-ad-conditional-access-apis/blob/main/00-prereq/readme.md) | 404 |
 | [DeHashed API](https://www.dehashed.com/pricing) | 404 |
+| [Secure authentication for Conditional Access automation](https://github.com/Azure-Samples/azure-ad-conditional-access-apis/blob/main/00-prereq/readme.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/Get-MDEInvestigationPackage/readme.md
 
@@ -640,6 +642,13 @@
 | URL | State |
 | --- | --- |
 | [Community API documentation](https://developer.greynoise.io/reference/community-api#get_v3-community-ip) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/Update-NamedLocations-TOR/readme.md
+
+| URL | State |
+| --- | --- |
+| [Secure authentication for Conditional Access automation](https://github.com/Azure-Samples/azure-ad-conditional-access-apis/blob/main/00-prereq/readme.md) | 404 |
+| [Secure authentication for Conditional Access automation](https://github.com/Azure-Samples/azure-ad-conditional-access-apis/blob/main/00-prereq/readme.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/Zscaler/Add-IP-To-Category/readme.md
 
@@ -1235,22 +1244,22 @@
 
 | URL | State |
 | --- | --- |
-| [Incident Trigger](./incident-trigger/images/Confirm-AADRiskyUser_incident.png) | 404 |
+| [Microsoft Graph API documentation](https://learn.microsoft.com/en-us/graph/api/resources-riskyuser?view=graph-rest-beta) | 404 |
+| [Microsoft Graph API Documentation](https://learn.microsoft.com/en-us/graph/api/resources-riskyuser?view=graph-rest-beta) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Entra ID Protection/Playbooks/Dismiss-EntraIDRiskyUser/readme.md
 
 | URL | State |
 | --- | --- |
-| [Incident Trigger](./incident-trigger/images/Dismiss-AADRiskyUser_incident.png) | 404 |
-| [Alert Trigger](./alert-trigger/images/Dismiss-AADRiskyUser_alert.png) | 404 |
+| [Microsoft Graph API documentation](https://learn.microsoft.com/en-us/graph/api/resources-riskyuser?view=graph-rest-beta) | 404 |
+| [Microsoft Graph API Documentation](https://learn.microsoft.com/en-us/graph/api/resources-riskyuser?view=graph-rest-beta) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Entra ID Protection/Playbooks/IdentityProtection-TeamsBotResponse/readme.md
 
 | URL | State |
 | --- | --- |
-| [Learn more about Microsoft Entra ID Protection
-](https://docs.microsoft.com/azure/active-directory/identity-protection/overview-identity-protection) | 0 |
-| [](./images/commmentLight.png) | 404 |
+| [Response Part](./images/commmentLight.png) | 404 |
+| [Microsoft Graph API Documentation](https://docs.microsoft.com/graph/api/resources-riskyuser?view=graph-rest-beta) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Entra ID/Playbooks/Revoke-AADSignInSessions/readme.md
 
