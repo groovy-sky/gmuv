@@ -110,7 +110,6 @@
 | URL | State |
 | --- | --- |
 | [Impressions](https://PixelServer20190423114238.azurewebsites.net/api/impressions/MachineLearningNotebooks/Index.png) | 0 |
-| [save-retrieve-explanations-run-history](https://github.com/Azure/MachineLearningNotebooks/blob/master//how-to-use-azureml/explain-model/azure-integration/run-history/save-retrieve-explanations-run-history.ipynb) | 503 |
 
 * https://github.com/Azure/MachineLearningNotebooks/blob/master/tutorials/README.md
 
