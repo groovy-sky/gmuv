@@ -236,22 +236,12 @@ Implementations](https://github.com/azure/enterprise-scale#deploying-enterprise-
 | [ALZ Policy FAQ and Tips](./ALZ-Policies-FAQ) | 404 |
 | [ALZ Contribution Guide](./ALZ-Contribution-Guide) | 404 |
 | [Migrate ALZ custom policies to Azure builtin policies](migrate-alz-policies-to-builtin.md) | 404 |
+| [issue #478](https://github.com/Azure/Enterprise-Scale/issues/478) | 429 |
 | [Deploy Azure landing zone portal accelerator](./Deploying-ALZ) | 404 |
 | [Deployment guidance for Small Enterprises](./Deploying-ALZ-BasicSetup) | 404 |
 | [How to deploy without hybrid connectivity](./Deploying-ALZ-Foundation) | 404 |
 | [Deployment with hub and spoke network topology](./Deploying-ALZ-HubAndSpoke) | 404 |
 | [Deployment with Azure VWAN network topology](./Deploying-ALZ-VWAN) | 404 |
-| [issue #279](https://github.com/Azure/ALZ-Bicep/issues/279) | 429 |
-| [issue #1004](https://github.com/Azure/Enterprise-Scale/issues/1004) | 429 |
-| [issue #979](https://github.com/Azure/Enterprise-Scale/issues/979) | 429 |
-| [issue #979](https://github.com/Azure/Enterprise-Scale/issues/979) | 429 |
-| [issue #962](https://github.com/Azure/Enterprise-Scale/issues/962) | 429 |
-| [issue #962](https://github.com/Azure/Enterprise-Scale/issues/962) | 429 |
-| [issue #985](https://github.com/Azure/Enterprise-Scale/issues/985) | 429 |
-| [issue #986](https://github.com/Azure/Enterprise-Scale/issues/986) | 429 |
-| [issue #968](https://github.com/Azure/Enterprise-Scale/issues/968) | 429 |
-| [issue #978](https://github.com/Azure/Enterprise-Scale/issues/978) | 429 |
-| [issue #971](https://github.com/Azure/Enterprise-Scale/issues/971) | 429 |
 | [issue #893](https://github.com/Azure/Enterprise-Scale/issues/893) | 429 |
 | [issue #949](https://github.com/Azure/Enterprise-Scale/issues/949) | 429 |
 | [issue 944](https://github.com/Azure/Enterprise-Scale/issues/944) | 429 |
