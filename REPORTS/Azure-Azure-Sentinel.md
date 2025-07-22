@@ -13,6 +13,12 @@
 | --- | --- |
 | [Cyble-Threat-Intel-App](./Images/Cyble-Threat-Intel-Logic-App.png) | 404 |
 
+* https://github.com/Azure/Azure-Sentinel/blob/master/DataConnectors/ReadMe.md
+
+| URL | State |
+| --- | --- |
+| [Encrypting Syslog Traffic with TLS - rsyslog](https://www.rsyslog.com/doc/v8-stable/tutorials/tls_cert_summary.html) | 404 |
+
 * https://github.com/Azure/Azure-Sentinel/blob/master/DataConnectors/Syslog-VMSS-AMA/README.md
 
 | URL | State |
@@ -997,6 +1003,8 @@
 | [Akamai Security Events](https://www.akamai.com/us/en/products/security/) | 0 |
 | [Akamai SIEM Integration documentation](https://developer.akamai.com/tools/integrations/siem) | 0 |
 | [Aruba ClearPass](https://www.arubanetworks.com/products/security/network-access-control/secure-access/) | 403 |
+| [Atlassian Confluence](https://www.atlassian.com/software/confluence) | 202 |
+| [Atlassian Jira](https://www.atlassian.com/software/jira) | 202 |
 | [Bitglass](https://www.bitglass.com/) | 0 |
 | [Cisco ISE logging mechanism documentation](https://www.cisco.com/c/en/us/td/docs/security/ise/2-7/admin_guide/b_ise_27_admin_guide/b_ISE_admin_27_maintain_monitor.html#reference_BAFBA5FA046A45938810A5DF04C00591) | 404 |
 | [Cisco Stealthwatch events](https://www.cisco.com/c/dam/en/us/td/docs/security/stealthwatch/management_console/securit_events_alarm_categories/SW_7_2_1_Security_Events_and_Alarm_Categories_DV_1_0.pdf) | 404 |
@@ -2040,6 +2048,12 @@
 | URL | State |
 | --- | --- |
 | [Animated Usage of Script](https://swiftsolvesblog.blob.core.windows.net/images/genstoragectxkql-ps1-animation.gif) | 0 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Workbooks/README.md
+
+| URL | State |
+| --- | --- |
+| [directory](https://github.com/Azure/Azure-Sentinel/tree/master/Solutions/[SolutionName]/Workbooks) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/docs/New Playbooks Contribution Guide/readme.md
 
