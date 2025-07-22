@@ -18,12 +18,6 @@
 | --- | --- |
 | [Regression Test Pipeline](https://dev.azure.com/azclitools/internal/_build?definitionId=220) | 203 |
 
-* https://github.com/Azure/azure-cli/blob/dev/doc/install_troubleshooting.md
-
-| URL | State |
-| --- | --- |
-| [Failed to install Python Cryptography package with PIP and setup.py](http://stackoverflow.com/questions/22073516/failed-to-install-python-cryptography-package-with-pip-and-setup-py) | 403 |
-
 * https://github.com/Azure/azure-cli/blob/dev/doc/onboarding_guide.md
 
 | URL | State |
