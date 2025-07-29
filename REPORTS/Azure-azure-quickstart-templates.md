@@ -261,6 +261,12 @@
 | --- | --- |
 | [Open edX](https://github.com/edx/edx-platform/blob/master/LICENSE) | 404 |
 
+* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/phabricator/phabricator-on-ubuntu/README.md
+
+| URL | State |
+| --- | --- |
+| [Phabricator](http://phabricator.org/) | 503 |
+
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/postgre/postgresql-standalone-server-ubuntu/GettingStarted.md
 
 | URL | State |
