@@ -37,9 +37,3 @@
 | [reference TOC in MicrosoftDocs/azure-docs-cli](https://github.com/MicrosoftDocs/azure-docs-cli/blob/main/latest/docs-ref-autogen/TOC.yml) | 404 |
 | [article name](https://learn.microsoft.com/link) | 404 |
 | [MicrosoftDocs/azure-docs-cli/latest/docs-ref-autogen](https://github.com/MicrosoftDocs/azure-docs-cli/tree/main/latest/docs-ref-autogen) | 404 |
-
-* https://github.com/Azure/azure-cli/blob/dev/doc/use_cli_with_git_bash.md
-
-| URL | State |
-| --- | --- |
-| [here](https://stackoverflow.com/questions/7250130/how-to-stop-mingw-and-msys-from-mangling-path-names-given-at-the-command-line#34386471) | 403 |
