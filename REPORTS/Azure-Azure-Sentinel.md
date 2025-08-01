@@ -296,6 +296,18 @@
 | [ticketsQueue](https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Solutions/Standalone/Playbooks/Create-Zendesk-Ticket/images/ticketsQueue.png) | 404 |
 | [designer](https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Solutions/Standalone/Playbooks/Create-Zendesk-Ticket/images/designerLight.png) | 404 |
 
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/CrowdStrike/Playbooks/CrowdStrike_ResponsefromTeams/readme.md
+
+| URL | State |
+| --- | --- |
+| [Refer the below link to get the channel id and group id](https://docs.microsoft.com/powershell/module/teams/get-teamchannel?view=teams-ps) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/CrowdStrike/readme.md
+
+| URL | State |
+| --- | --- |
+| [Refer the below link to get the channel id and group id](https://docs.microsoft.com/powershell/module/teams/get-teamchannel?view=teams-ps) | 404 |
+
 * https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/Dynamic-Summaries-API-Upsert/readme.md
 
 | URL | State |
@@ -427,6 +439,7 @@
 | [Block URL](./Playbooks/FortinetFortiGate-ResponseOnURL) | 404 |
 | [Enrich incident](./Playbooks/FortinetFortiGate-Enrichment) | 404 |
 | [Fortinet Console](https://{https://fndn.fortinet.net/index.php?/category/1-fortianswers/}) | 0 |
+| [Refer the below link to get the channel id and group id](https://docs.microsoft.com/powershell/module/teams/get-teamchannel?view=teams-ps) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/Get-CompromisedPasswords/readme.md
 
@@ -506,12 +519,19 @@
 | --- | --- |
 | [Refer this link on how to generate the API Key](https://paloaltolactest.trafficmanager.net/restapi-doc/#tag/key-generation) | 0 |
 
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/PaloAlto-PAN-OS/Playbooks/PaloAlto-PAN-OS-BlockIP/readme.md
+
+| URL | State |
+| --- | --- |
+| [Refer the below link to get the channel id and group id](https://docs.microsoft.com/powershell/module/teams/get-teamchannel?view=teams-ps) | 404 |
+
 * https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/PaloAlto-PAN-OS/Playbooks/PaloAlto-PAN-OS-BlockURL/readme.md
 
 | URL | State |
 | --- | --- |
 | [PaloAlto-PAN-OS-BlockURL](./designerScreenshot.PNG) | 404 |
 | [Refer this link on how to generate the API Key](https://paloaltolactest.trafficmanager.net/restapi-doc/#tag/key-generation) | 0 |
+| [Refer the below link to get the channel id and group id](https://docs.microsoft.com/powershell/module/teams/get-teamchannel?view=teams-ps) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/PaloAlto-PAN-OS/Playbooks/PaloAlto-PAN-OS-GetSystemInfo/readme.md
 
@@ -537,6 +557,7 @@
 | --- | --- |
 | [API Key authentication](https://paloaltolactest.trafficmanager.net/restapi-doc/#tag/key-generation) | 0 |
 | [Refer this link on how to generate the API Key](https://paloaltolactest.trafficmanager.net/restapi-doc/#tag/key-generation) | 0 |
+| [Refer the below link to get the channel id and group id](https://docs.microsoft.com/powershell/module/teams/get-teamchannel?view=teams-ps) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/PaloAlto-Wildfire/Playbooks/Block-URL-From-Teams/readme.md
 
@@ -853,6 +874,30 @@
 | --- | --- |
 | [Australian Cyber Security Centre](https://www.cyber.gov.au/) | 0 |
 
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Azure Firewall/Playbooks/AzureFirewall-AddIPtoTIAllowList/readme.md
+
+| URL | State |
+| --- | --- |
+| [Refer the below link to get the channel id and group id](https://docs.microsoft.com/powershell/module/teams/get-teamchannel?view=teams-ps) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Azure Firewall/Playbooks/AzureFirewall-BlockIP-addNewRule/readme.md
+
+| URL | State |
+| --- | --- |
+| [Refer the below link to get the channel id and group id](https://docs.microsoft.com/powershell/module/teams/get-teamchannel?view=teams-ps) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Azure Firewall/Playbooks/AzureFirewall-BlockIP-addToIPGroup/readme.md
+
+| URL | State |
+| --- | --- |
+| [Refer the below link to get the channel id and group id](https://docs.microsoft.com/powershell/module/teams/get-teamchannel?view=teams-ps) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Azure Firewall/Playbooks/readme.md
+
+| URL | State |
+| --- | --- |
+| [Refer the below link to get the channel id and group id](https://docs.microsoft.com/powershell/module/teams/get-teamchannel?view=teams-ps) | 404 |
+
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/AzureSecurityBenchmark/readme.md
 
 | URL | State |
@@ -1096,6 +1141,7 @@
 | URL | State |
 | --- | --- |
 | [Fortinet Console](https://{https://fndn.fortinet.net/index.php?/category/1-fortianswers/}) | 0 |
+| [Refer the below link to get the channel id and group id](https://docs.microsoft.com/powershell/module/teams/get-teamchannel?view=teams-ps) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Google Cloud Platform BigQuery/Playbooks/GCPBigQueryPlaybooks/GCPBigQuery-CreateWatchlist-From-BigQueryTable/readme.md
 
@@ -1290,7 +1336,6 @@
 
 | URL | State |
 | --- | --- |
-| [Parser Description](#parser-description-4) | 429 |
 | [Parser Setup](#parser-setup-4) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange On-Premises/README.md
@@ -1330,11 +1375,16 @@
 | [Security logs](#security-logs) | 429 |
 | [Application and System Event logs](#application-and-system-event-logs) | 429 |
 | [Assign DCR to all Exchange servers](#assign-dcr-to-all-exchange-servers-1) | 429 |
+| [Option 3 and 4 Security logs of Domain Controllers](#option-3-and-4-security-logs-of-domain-controllers) | 429 |
 | [Security logs](#security-logs-1) | 429 |
+| [Option 5 - IIS logs for Exchange servers](#option-5---iis-logs-for-exchange-servers) | 429 |
 | [DCE Creation](#dce-creation) | 429 |
 | [DCR Creation](#dcr-creation-1) | 429 |
+| [Assign DCR to all Exchange servers](#assign-dcr-to-all-exchange-servers-2) | 429 |
+| [Option 6 - Message tracking logs for Exchange Servers](#option-6---message-tracking-logs-for-exchange-servers) | 429 |
 | [DCE Creation](#dce-creation-1) | 429 |
 | [DCR Creation](#dcr-creation-2) | 429 |
+| [Assign DCR to all Exchange servers](#assign-dcr-to-all-exchange-servers-3) | 429 |
 | [Option 7 - HTTPProxy logs for Exchange servers](#option-7---httpproxy-logs-for-exchange-servers) | 429 |
 | [DCE Creation](#dce-creation-2) | 429 |
 | [Assign DCR to all Exchange servers](#assign-dcr-to-all-exchange-servers-4) | 429 |
@@ -1343,6 +1393,7 @@
 | [Option 1  -  MSExchange Management Log collection](#option-1-----msexchange-management-log-collection-1) | 429 |
 | [Option 2 - Security, Application, System for Exchange Servers](#option-2---security-application-system-for-exchange-servers-1) | 429 |
 | [Option 3 - Security for Domain controllers located in the Exchange AD sites](#option-3---security-for-domain-controllers-located-in-the-exchange-ad-sites) | 429 |
+| [Option 4 - Security for ALL Domain controllers](#option-4---security-for-all-domain-controllers) | 429 |
 | [Option 5 - IIS logs for Exchange servers](#option-5---iis-logs-for-exchange-servers-1) | 429 |
 | [Option 6 - Message tracking logs for Exchange Servers](#option-6---message-tracking-logs-for-exchange-servers-1) | 429 |
 | [Option 7 - HTTPProxy logs for Exchange servers](#option-7---httpproxy-logs-for-exchange-servers-1) | 429 |
@@ -1350,12 +1401,14 @@
 | [alt text](./Images/Image02.png "Wait") | 429 |
 | [Readme](./../README.md) | 429 |
 | [alt text](./Images/Image15.png "Connector Deployment") | 429 |
+| [alt text](./Images/Image16.png) | 429 |
 | [Parser information](./../../Parsers/README.md) | 429 |
 | [alt text](./Images/Image07.png) | 429 |
 | [alt text](./Images/Image08.png) | 429 |
 | [alt text](./Images/Image09.png) | 429 |
 | [alt text](./Images/Image17.png) | 429 |
 | [alt text](./Images/Image18.png) | 429 |
+| [alt text](./Images/Image19.png) | 429 |
 | [alt text](./Images/Image15.png "Connector Deployment") | 429 |
 | [alt text](./Images/Image16.png) | 429 |
 | [Parser information](./../../Parsers/README.md) | 429 |
@@ -1368,7 +1421,10 @@
 | [alt text](./Images/Image34.png) | 429 |
 | [alt text](./Images/Image35.png) | 429 |
 | [alt text](./Images/Image36.png) | 429 |
+| [alt text](./Images/Image36.png) | 429 |
+| [alt text](./Images/Image30.png) | 429 |
 | [alt text](./Images/Image31.png) | 429 |
+| [alt text](./Images/Image32.png) | 429 |
 | [alt text](./Images/Image33.png) | 429 |
 | [alt text](./Images/Image40.png) | 429 |
 | [alt text](./Images/Image35.png) | 429 |
@@ -1378,6 +1434,7 @@
 | [alt text](./Images/Image42.png) | 429 |
 | [alt text](./Images/Image43.png) | 429 |
 | [alt text](./Images/Image32.png) | 429 |
+| [alt text](./Images/Image33.png) | 429 |
 | [alt text](./Images/Image44.png) | 429 |
 | [alt text](./Images/Image35.png) | 429 |
 | [alt text](./Images/Image31.png) | 429 |
@@ -1388,8 +1445,10 @@
 | [alt text](./Images/Image21.png) | 429 |
 | [alt text](./Images/Image22.png) | 429 |
 | [alt text](./Images/Image23.png) | 429 |
+| [alt text](./Images/Image23.png) | 429 |
 | [alt text](./Images/Image21.png) | 429 |
 | [alt text](./Images/Image25.png) | 429 |
+| [alt text](./Images/Image26.png) | 429 |
 | [alt text](./Images/Image27.png) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Documentations/Deployment-MES-Online.md
@@ -1416,11 +1475,15 @@
 | [See the documentation to learn more about workspace keys](https://learn.microsoft.com/en-us/azure/azure-monitor/agents/agent-windows?tabs=setup-wizard#obtain-workspace-id-and-key) | 0 |
 | [See the documentation to learn more](./ESICollector.md#online-collector) | 429 |
 | [See the documentation to learn more](./ESICollector.md#online-collector) | 429 |
+| [See the documentation to learn more](./ESICollector.md#online-collector) | 429 |
 | [alt text](./Images/Image50.png) | 429 |
+| [Parser information](./../../Parsers/README.md) | 429 |
 | [alt text](./Images/Image07.png) | 429 |
 | [alt text](./Images/Image80.png) | 429 |
 | [alt text](./Images/Image57.png) | 429 |
+| [alt text](./Images/Image54.png) | 429 |
 | [alt text](./Images/Image55.png) | 429 |
+| [alt text](./Images/Image56.png) | 429 |
 | [Script Location](https://aka.ms/ESI-ExchangeCollector-Script) | 429 |
 | [Permission Update script](./../Solutions/ESICollector/OnlineDeployment/ExchangeOnlinePermSetup.ps1) | 429 |
 
@@ -1441,6 +1504,7 @@
 
 | URL | State |
 | --- | --- |
+| [Deployment Overview](./Deployment-Overview.md) | 429 |
 | [Deployment for On-Premises Solution](./Deployment-MES-OnPremises.md) | 429 |
 | [Deployment for Online Solution](./Deployment-MES-Online.md) | 429 |
 | [Collector Information](./ESICollector.md) | 429 |
@@ -1457,11 +1521,16 @@
 | [Create a dédicated workspace for the workbook](#create-a-dédicated-workspace-for-the-workbook) | 429 |
 | [Set Permissions on the Resource Group](#set-permissions-on-the-resource-group) | 429 |
 | [Set Permissions in Log Analytics](#set-permissions-in-log-analytics) | 429 |
+| [Save the Workbook in the dedicated Resource Group](#save-the-workbook-in-the-dedicated-resource-group) | 429 |
 | [Access to the workbook](#access-to-the-workbook) | 429 |
 | [alt text](./Images/Image64.png) | 429 |
 | [alt text](./Images/Image65.png) | 429 |
 | [alt text](./Images/Image67.png) | 429 |
+| [alt text](./Images/Image66.png) | 429 |
 | [alt text](./Images/Image68.png) | 429 |
+| [alt text](./Images/Image69.png) | 429 |
+| [alt text](./Images/Image70.png) | 429 |
+| [alt text](./Images/Image71.png) | 429 |
 | [alt text](./Images/Image72.png) | 429 |
 | [alt text](./Images/Image73.png) | 429 |
 | [alt text](./Images/Image71.png) | 429 |
@@ -1485,6 +1554,7 @@
 | [Documentations](./Documentations/) | 429 |
 | [Deployment Microsoft Exchange Security for Exchange On-Premises](./Documentations/Deployment-MES-OnPremises.md) | 429 |
 | [Exchange Security Insights On-Premise/Online Collector](./Documentations/ESICollector.md) | 429 |
+| [Documentations](./Documentations/) | 429 |
 | [Deployment Microsoft Exchange Security for Exchange Online](./Documentations/Deployment-MES-Online.md) | 429 |
 | [Exchange Security Insights On-Premise/Online Collector](./Documentations/ESICollector.md) | 429 |
 
@@ -1494,9 +1564,11 @@
 | --- | --- |
 | [ESI Collector - Update](#esi-collector---update) | 429 |
 | [Overview](#overview) | 429 |
+| [Azure Automation Manual Update -- For Runbook Deployment](#azure-automation-manual-update----for-runbook-deployment) | 429 |
 | [Runbook update](#runbook-update) | 429 |
 | [Configuration update](#configuration-update) | 429 |
 | [On-Premises Script Manual Update -- For On-Premises Deployment](#on-premises-script-manual-update----for-on-premises-deployment) | 429 |
+| [Script update](#script-update) | 429 |
 | [Script Configuration update](#script-configuration-update) | 429 |
 | [Install ESI Collector Updater](#install-esi-collector-updater) | 429 |
 | [GitHub repository](./../../ESICollector/README.md) | 429 |
@@ -1511,6 +1583,7 @@
 | [Table of Contents](#table-of-contents) | 429 |
 | [Parameters](#parameters) | 429 |
 | [Global](#global) | 429 |
+| [Output](#output) | 429 |
 | [Advanced](#advanced) | 429 |
 | [LogCollection](#logcollection) | 429 |
 | [MGGraphAPIConnection](#mggraphapiconnection) | 429 |
@@ -1536,22 +1609,31 @@
 | --- | --- |
 | [Microsoft Exchange Security - Parsers information](#microsoft-exchange-security---parsers-information) | 429 |
 | [ExchangeConfiguration Parser](#exchangeconfiguration-parser) | 429 |
+| [Parser Definition](#parser-definition) | 429 |
 | [Parser Description](#parser-description) | 429 |
+| [Parser Setup](#parser-setup) | 429 |
 | [Linked tables](#linked-tables) | 429 |
 | [Parameters simulation](#parameters-simulation) | 429 |
 | [Exchange Configuration Environment List Parser](#exchange-configuration-environment-list-parser) | 429 |
 | [Parser Definition](#parser-definition-1) | 429 |
+| [Parser Description](#parser-description-1) | 429 |
 | [Parser Setup](#parser-setup-1) | 429 |
 | [Linked tables](#linked-tables-1) | 429 |
+| [Parameters simulation](#parameters-simulation-1) | 429 |
+| [Microsoft Exchange Security Check VIP Parser](#microsoft-exchange-security-check-vip-parser) | 429 |
 | [Parser Definition](#parser-definition-2) | 429 |
 | [Parser Description](#parser-description-2) | 429 |
 | [Parser dependency](#parser-dependency) | 429 |
+| [Parser Setup](#parser-setup-2) | 429 |
+| [Parameters simulation](#parameters-simulation-2) | 429 |
 | [Microsoft Exchange Compare Data MRA Parser](#microsoft-exchange-compare-data-mra-parser) | 429 |
+| [Parser Definition](#parser-definition-3) | 429 |
 | [Parser Description](#parser-description-3) | 429 |
 | [Parser Setup](#parser-setup-3) | 429 |
 | [Microsoft Exchange Security - Office 365 Activity logs Parser](#microsoft-exchange-security---office-365-activity-logs-parser) | 429 |
 | [Parser Definition](#parser-definition-4) | 429 |
 | [Parser Description](#parser-description-4) | 429 |
+| [Parser Setup](#parser-setup-4) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/README.md
 
@@ -1563,6 +1645,8 @@
 
 | URL | State |
 | --- | --- |
+| [Incident Trigger](./Isolate-MDEMachine-incident-trigger/images/designerLight.png) | 429 |
+| [Alert Trigger](./Isolate-MDEMachine-alert-trigger/images/Isolate-MDEMachine_alert.png) | 429 |
 | [Entity Trigger](./Isolate-MDE-Machine-entity-trigger/images/playbookDark.png) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Restrict-MDEAppExecution/readme.md
@@ -1570,6 +1654,7 @@
 | URL | State |
 | --- | --- |
 | [Incident Trigger](./Restrict-MDEAppExecution-incident-trigger/images/designerLight.png) | 429 |
+| [Alert Trigger](./Restrict-MDEAppExecution-alert-trigger/images/Restrict-MDEAppExecution_alert.png) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Restrict-MDEDomain/readme.md
 
@@ -1577,6 +1662,7 @@
 | --- | --- |
 | [Incident Trigger](./Restrict-MDEDomain-incident-trigger/images/designerDark.png) | 429 |
 | [Incident Trigger](./Restrict-MDEDomain-incident-trigger/images/designerLight.png) | 429 |
+| [Alert Trigger](./Restrict-MDEDomain-alert-trigger/images/Restrict-MDEDomain_alert.png) | 429 |
 | [Entity Trigger Light](./Restrict-MDEDomain-entity-trigger/images/Restrict-MDEDomain-entityTrigger-light.png) | 429 |
 | [Entity Trigger Dark](./Restrict-MDEDomain-entity-trigger/images/Restrict-MDEDomain-entityTrigger-dark.png) | 429 |
 
@@ -1585,6 +1671,7 @@
 | URL | State |
 | --- | --- |
 | [Incident Trigger](./Restrict-MDEFileHash-incident-trigger/images/designerLight.png) | 429 |
+| [Alert Trigger](./Restrict-MDEFileHash-alert-trigger/images/Restrict-MDEFileHash_alert.png) | 429 |
 | [Entity Trigger Light](./Restrict-MDEFileHash-entity-trigger/images/Restrict-MDEFileHash-entityTrigger-light.png) | 429 |
 | [Entity Trigger Dark](./Restrict-MDEFileHash-entity-trigger/images/Restrict-MDEFileHash-entityTrigger-dark.png) | 429 |
 
@@ -1603,6 +1690,7 @@
 | --- | --- |
 | [Incident Trigger](./Restrict-MDEUrl-incident-trigger/images/designerLight.png) | 429 |
 | [Alert Trigger](./Restrict-MDEUrl-alert-trigger/images/Restrict-MDEUrl_alert.png) | 429 |
+| [Entity Trigger Light](./Restrict-MDEUrl-entity-trigger/images/Restrict-MDEURLAddress-entityTrigger-light.png) | 429 |
 | [Entity Trigger Light](./Restrict-MDEUrl-entity-trigger/images/Restrict-MDEURLAddress-entityTrigger-dark.png) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Run-MDEAntivirus/readme.md
@@ -1633,6 +1721,7 @@
 | --- | --- |
 | [Summary](#Summary) | 429 |
 | [Prerequisites](#Prerequisites) | 429 |
+| [Deployment instructions](#Deployment-instructions) | 429 |
 | [Post-Deployment instructions](#Post-Deployment-instructions) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Minemeld/Playbooks/MinemeldPlaybooks/Minemeld-CreateIndicator/readme.md
@@ -1651,7 +1740,9 @@
 
 | URL | State |
 | --- | --- |
+| [Workbook Overview](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/NISTSP80053/Workbooks/Images/NISTSP80053Black.png?raw=true) | 429 |
 | [Details of the NIST SP 800-53 Rev. 4 Regulatory Compliance built-in initiative](https://docs.microsoft.com/azure/governance/policy/samples/nist-sp-800-53-) | 404 |
+| [GitHub Commit History](https://github.com/Azure/azure-policy/commits/master/built-in-policies/policySetDefinitions/Regulatory%20Compliance/NIST80053_audit.json) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Netskopev2/Playbooks/NetskopeDataConnectorsTriggerSync/Readme.md
 
@@ -1660,6 +1751,7 @@
 | [Summary](#Summary) | 429 |
 | [Prerequisites](#Prerequisites) | 429 |
 | [Deployment instructions](#Deployment-instructions) | 429 |
+| [Post-Deployment instructions](#Post-Deployment-instructions) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Netskopev2/Playbooks/NetskopeWebTxErrorEmail/Readme.md
 
@@ -1696,6 +1788,7 @@
 | URL | State |
 | --- | --- |
 | [Comment example](./images/Incident_Comment.png) | 429 |
+| [Playbook Designer view](./Okta-EnrichIncidentwithuserdetails.PNG) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Okta Single Sign-On/Playbooks/OktaPlaybooks/Okta-PromptUser/readme.md
 
@@ -1704,12 +1797,15 @@
 | [Playbook Designer view](./Okta-PromptUser.PNG) | 429 |
 | [Adaptive Card example](./images/AdaptivecardtotheEnduser.PNG) | 429 |
 | [Adaptive Card example](./images/AdaptivecardtoSOCadminon%20teamschannel.PNG) | 429 |
+| [Refer the below link to get the channel id and group id](https://docs.microsoft.com/powershell/module/teams/get-teamchannel?view=teams-ps) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Okta Single Sign-On/Playbooks/OktaPlaybooks/Okta-ResponseFromTeams/readme.md
 
 | URL | State |
 | --- | --- |
+| [Playbook Designer view](./Okta-ResponseFromTeams.PNG) | 429 |
 | [Adaptive Card example](./images/AdaptiveCardtoSOCuser.PNG) | 429 |
+| [Refer the below link to get the channel id and group id](https://docs.microsoft.com/powershell/module/teams/get-teamchannel?view=teams-ps) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Okta Single Sign-On/Playbooks/readme.md
 
@@ -1722,6 +1818,8 @@
 | [Deployment](#deployment) | 429 |
 | [Post Deployment Steps](#postdeployment) | 429 |
 | [Components of this integration](#components) | 429 |
+| [Refer the below link to get the channel id and group id](https://docs.microsoft.com/powershell/module/teams/get-teamchannel?view=teams-ps) | 404 |
+| [OktaCustomConnector](https://github.com/Azure/Azure-Sentinel/tree/master/Solutions/Okta%20Single%20Sign-On/Playbooks/OktaCustomConnector) | 429 |
 | [Okta-Response From Teams : Playbook to perform different actions on user on Okta and add user deatils to incident](https://github.com/Azure/Azure-Sentinel/tree/master/Solutions/Okta%20Single%20Sign-On/Playbooks/OktaPlaybooks/Okta-EnrichIncidentWithUserDetails) | 429 |
 | [Okta-Enrich incident with user details : Playbook to enrich incident with user deatils and user groupdetails ](https://github.com/Azure/Azure-Sentinel/tree/master/Solutions/Okta%20Single%20Sign-On/Playbooks/OktaPlaybooks/Okta-EnrichIncidentWithUserDetails) | 429 |
 | [Okta-PromptUser : Playbook to prompt risky user about the malicious activity](https://github.com/Azure/Azure-Sentinel/tree/master/Solutions/Okta%20Single%20Sign-On/Playbooks/OktaPlaybooks/Okta-PromptUser) | 429 |
@@ -1730,6 +1828,7 @@
 
 | URL | State |
 | --- | --- |
+| [Comment example](./images/IncidentCommentCreateindicator.png) | 429 |
 | [Playbook Designer view](./images/CreateIndicatorOpenCTIworkflow.png) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/OpenCTI/Playbooks/OpenCTIPlaybooks/OpenCTI-EnrichIncident/readme.md
@@ -1768,6 +1867,7 @@
 
 | URL | State |
 | --- | --- |
+| [Prisma_console_portal](Images/console_portal.png) | 429 |
 | [Setting](Images/setting.png) | 429 |
 | [access_control](Images/access_control.png) | 429 |
 | [add_option](Images/add_option.png) | 429 |
@@ -1779,8 +1879,10 @@
 
 | URL | State |
 | --- | --- |
+| [PaloAlto-PAN-OS-BlockIP](./images/designerscreenshot_lighttheme.PNG) | 429 |
 | [Adaptive Card example](./images/AdaptiveCardtoBlockorUnblock.PNG) | 429 |
 | [Consolidated Adaptive Card example](./images/SummarizedAdaptiveCard.PNG) | 429 |
+| [Refer the below link to get the channel id and group id](https://docs.microsoft.com/powershell/module/teams/get-teamchannel?view=teams-ps) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/PaloAlto-PAN-OS/Playbooks/PaloAltoPlaybooks/PaloAlto-PAN-OS-BlockIP/readme.md
 
@@ -1789,6 +1891,7 @@
 | [PaloAlto-PAN-OS-BlockIP](./designerscreenshot.PNG) | 429 |
 | [Adaptive Card example](./AdaptiveCardtoBlockorUnblock.PNG) | 429 |
 | [Consolidated Adaptive Card example](./SummarizedAdaptiveCard.PNG) | 429 |
+| [Refer the below link to get the channel id and group id](https://docs.microsoft.com/powershell/module/teams/get-teamchannel?view=teams-ps) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/PaloAlto-PAN-OS/Playbooks/PaloAltoPlaybooks/PaloAlto-PAN-OS-BlockURL-EntityTrigger/readme.md
 
@@ -1797,13 +1900,16 @@
 | [PaloAlto-PAN-OS-BlockURL](./images/designerscreenshot_lighttheme.PNG) | 429 |
 | [Adaptive Card example](./images/AdaptiveCardtoBlockorUnblock.PNG) | 429 |
 | [Consolidated Adaptive Card example](./images/SummarizedAdaptiveCard.PNG) | 429 |
+| [Refer the below link to get the channel id and group id](https://docs.microsoft.com/powershell/module/teams/get-teamchannel?view=teams-ps) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/PaloAlto-PAN-OS/Playbooks/PaloAltoPlaybooks/PaloAlto-PAN-OS-BlockURL/readme.md
 
 | URL | State |
 | --- | --- |
+| [PaloAlto-PAN-OS-BlockURL](./designerscreenshot.PNG) | 429 |
 | [Adaptive Card example](./AdaptiveCardtoBlockorUnblock.PNG) | 429 |
 | [Consolidated Adaptive Card example](./SummarizedAdaptiveCard.PNG) | 429 |
+| [Refer the below link to get the channel id and group id](https://docs.microsoft.com/powershell/module/teams/get-teamchannel?view=teams-ps) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/PaloAlto-PAN-OS/Playbooks/PaloAltoPlaybooks/PaloAlto-PAN-OS-GetURLCategoryInfo/readme.md
 
@@ -1815,12 +1921,15 @@
 
 | URL | State |
 | --- | --- |
+| [Overview](#overview) | 429 |
 | [Deploy Custom Connector + 3 Playbook templates](#deployall) | 429 |
 | [Authentication](#authentication) | 429 |
 | [Prerequisites](#prerequisites) | 429 |
 | [Deployment](#deployment) | 429 |
+| [Post Deployment Steps](#postdeployment) | 429 |
 | [Known issues and limitations](#knownissues) | 429 |
 | [various actions](./PaloAltoCustomConnector#actions-supported-by-palo-alto-custom-connector) | 429 |
+| [Refer the below link to get the channel id and group id](https://docs.microsoft.com/powershell/module/teams/get-teamchannel?view=teams-ps) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/PaloAltoPrismaCloud/Data Connectors/Readme.md
 
@@ -1836,14 +1945,16 @@
 | URL | State |
 | --- | --- |
 | [Overview](#overview) | 429 |
+| [Custom Connector + 3 Playbook templates deployment](#deployall) | 429 |
 | [Authentication](#importantnotes) | 429 |
 | [Prerequisites](#prerequisites) | 429 |
+| [Deployment](#deployment) | 429 |
 | [Post-Deployment Steps](#postdeployment) | 429 |
 | [References](#references) | 429 |
 | [Known issues and limitations](#limitations) | 429 |
 | [Logic Apps custom connector for Proofpoint TAP](./ProofpointTAPConnector) | 429 |
-| [Enrichment – add information to incidents](./Playbooks/ProofpointTAP-CheckAccountInVAP) | 404 |
-| [Enrichment - add forensics info to incident](./Playbooks/ProofpointTAP-AddForensicsInfoToIncident) | 404 |
+| [Enrichment – add information to incidents](./Playbooks/ProofpointTAP-CheckAccountInVAP) | 429 |
+| [Enrichment - add forensics info to incident](./Playbooks/ProofpointTAP-AddForensicsInfoToIncident) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/QualysVM/Playbooks/QualysVMPlaybooks/QualysVM-GetAssetDetails/readme.md
 
@@ -1900,7 +2011,7 @@
 
 | URL | State |
 | --- | --- |
-| [Rapid7 InsightVM API Connector](../../Rapid7InsightVMCloudAPIConnector/) | 404 |
+| [Rapid7 InsightVM API Connector](../../Rapid7InsightVMCloudAPIConnector/) | 429 |
 | [Rapid7 InsightVM API Connector](../../Rapid7InsightVMCloudAPIConnector/) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Rapid7InsightVM/Playbooks/Playbooks/Rapid7InsightVM-RunScan/readme.md
@@ -1914,6 +2025,7 @@
 
 | URL | State |
 | --- | --- |
+| [Overview](#overview) | 429 |
 | [Custom Connectors + 3 Playbook templates deployment](#deployall) | 429 |
 | [Authentication](#authentication) | 429 |
 | [Prerequisites](#prerequisites) | 429 |
@@ -1921,28 +2033,41 @@
 | [Post-Deployment Steps](#postdeployment) | 429 |
 | [Logic Apps custom connector for Rapid7 InsightVM Cloud Integrations API](./Rapid7InsightVMCloudAPIConnector) | 429 |
 | [Rapid7InsightVM-EnrichIncidentWithAssetInfo](./Playbooks/Rapid7InsightVM-EnrichIncidentWithAssetInfo) | 429 |
+| [Rapid7InsightVM-EnrichVulnerabilityInfo](./Playbooks/Rapid7InsightVM-EnrichVulnerabilityInfo) | 429 |
+| [Rapid7InsightVM-RunScan](./Playbooks/Rapid7InsightVM-RunScan) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future Identity/Playbooks/readme.md
 
 | URL | State |
 | --- | --- |
+| [Recorded Future Identity main readme](../readme.md) | 429 |
+| [Overview](#overview) | 429 |
 | [Deployment](#deployment) | 429 |
 | [Prerequisites](#prerequisites) | 429 |
 | [Playbooks](#playbooks) | 429 |
+| ["Connector" playbooks](#connector_playbooks) | 429 |
 | [RFI-CustomConnector](#RFI-CustomConnector) | 429 |
+| ["Alert" playbooks](#alert_playbooks) | 429 |
+| [RFI-playbook-alert-importer](#RFI-playbook-alert-importer) | 429 |
+| [RFI-playbook-alert-importer-law](#RFI-playbook-alert-importer-law) | 429 |
 | [RFI-playbook-alert-importer-law-sentinel](#RFI-playbook-alert-importer-law-sentinel) | 429 |
 | [How to configure playbooks](#configuration) | 429 |
 | [How to find the playbooks (Logic Apps) after deployment](#find_playbooks_after_deployment) | 429 |
 | [Configuring Playbooks Connections](#configuration_connections) | 429 |
 | [API connector authorization](#API-connector-authorization) | 429 |
 | [Configuring Playbooks Parameters](#configuration_parameters) | 429 |
+| [How to Run Playbooks](#how_to_run_playbooks) | 429 |
+| [Suggestions for advanced users](#suggestions_for_advanced_users) | 429 |
+| [How to access Log Analytics Custom Logs](#how_to_access_log_analytics_custom_logs) | 429 |
 | [Customization](#customization) | 429 |
 | [Known Issues](#known-issues) | 429 |
+| [Useful Azure documentation](#useful_documentation) | 429 |
 | [How to obtain Recorded Future API token](#how_to_obtain_Recorded_Future_API_token) | 429 |
 | [How to contact Recorded Future](#how_to_contact_Recorded_Future) | 429 |
 | [v3.0](./v3.0/readme.md) | 429 |
 | [this section](#how_to_obtain_Recorded_Future_API_token) | 429 |
 | [RecordedFuture-CustomConnector](../../Recorded%20Future/Playbooks/Connectors/RecordedFuture-CustomConnector/readme.md) | 429 |
+| [How to obtain Recorded Future API token](#how_to_obtain_Recorded_Future_API_token) | 429 |
 | [apiconnection](images/apiconnection.png) | 429 |
 | [managedidentity1](images/managedidentity1.png) | 429 |
 | [managedidentity2](images/managedidentity2.png) | 429 |
@@ -1970,6 +2095,8 @@
 | [How to configure playbooks](#configuration) | 429 |
 | [How to find the playbooks (Logic Apps) after deployment](#find_playbooks_after_deployment) | 429 |
 | [Configuring Playbooks Connections](#configuration_connections) | 429 |
+| [API connector authorization](#API-connector-authorization) | 429 |
+| [Configuring Playbooks Parameters](#configuration_parameters) | 429 |
 | [How to Run Playbooks](#how_to_run_playbooks) | 429 |
 | [Suggestions for advanced users](#suggestions_for_advanced_users) | 429 |
 | [How to access Log Analytics Custom Logs](#how_to_access_log_analytics_custom_logs) | 429 |
@@ -1987,6 +2114,7 @@
 | --- | --- |
 | [Recorded Future main readme](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded%20Future/readme.md) | 429 |
 | [Installation guide](Playbooks/readme.md) | 429 |
+| [Installation guide](Playbooks/readme.md) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future/Playbooks/Alerts/readme.md
 
@@ -1995,9 +2123,11 @@
 | [readme](../readme.md) | 429 |
 | [Connector authorization](../readme.md#connector-authorization) | 429 |
 | [Connector authorization](../readme.md#connector-authorization) | 429 |
-| [](../Images/2023-08-09-18-05-46.png) | 404 |
+| [](../Images/2023-08-09-18-05-46.png) | 429 |
 | [Connector authorization](#connector-authorization) | 429 |
 | [Connector authorization](../readme.md#connector-authorization) | 429 |
+| [alt text](create_incident.png) | 429 |
+| [Playbook Alert categories within logic app](./pba_categories.png) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future/Playbooks/Connectors/RecordedFuture-CustomConnector/readme.md
 
@@ -2010,6 +2140,7 @@
 | URL | State |
 | --- | --- |
 | [readme](../readme.md) | 429 |
+| [RecordedFuture-DOMAIN-C2_DNS_Name-IndicatorProcessor](RecordedFuture-DOMAIN-C2_DNS_Name-IndicatorProcessor/readme.md) | 429 |
 | [RecordedFuture-HASH-Observed_in_Underground_Virus_Test_Sites-IndicatorProcessor](RecordedFuture-HASH-Observed_in_Underground_Virus_Test_Sites-IndicatorProcessor/readme.md) | 429 |
 | [RecordedFuture-ImportToSentinel](RecordedFuture-ImportToSentinel/readme.md) | 429 |
 | [RecordedFuture-IP-Actively_Comm_C2_Server-IndicatorProcessor](RecordedFuture-IP-Actively_Comm_C2_Server-IndicatorProcessor/readme.md) | 429 |
@@ -2022,8 +2153,12 @@
 | --- | --- |
 | [readme](../readme.md) | 429 |
 | [](Images/permissions.png) | 429 |
+| [](Images/playbookInstallation.png) | 429 |
 | [](Images/auth.png) | 429 |
+| [](Images/automation.png) | 429 |
+| [](Images/incidentComment.png) | 429 |
 | [](Images/secops.png) | 429 |
+| [Overview on Recorded Future Integrations](../../readme.md) | 429 |
 | [Enrichment playbooks](./readme.md) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future/Playbooks/Enrichment/readme.md
@@ -2050,7 +2185,7 @@
 | [Connector authorization](../readme.md##connector-authorization) | 429 |
 | [Connector authorization](../readme.md#connector-authorization) | 429 |
 | [](../Images/2023-04-19-16-49-53.png) | 429 |
-| [](../Images/2023-04-19-16-51-12.png) | 404 |
+| [](../Images/2023-04-19-16-51-12.png) | 429 |
 | [](../Images/2023-09-08-12-01-37.png) | 429 |
 | [](../Images/2023-12-12-10-02-11.png) | 429 |
 | [](../Images/2023-04-18-16-39-00.png) | 429 |
@@ -2076,16 +2211,17 @@
 | URL | State |
 | --- | --- |
 | [readme](../readme.md) | 429 |
-| [**/RecordedFuture-CustomConnector**](../Connectors/RecordedFuture-CustomConnector/readme.md) | 404 |
+| [**/RecordedFuture-CustomConnector**](../Connectors/RecordedFuture-CustomConnector/readme.md) | 429 |
 | [Connector authorization](../readme.md#connector-authorization) | 429 |
 | [Connector authorization](../readme.md#connector-authorization) | 429 |
 | [**/RecordedFuture-CustomConnector**](../Connectors/RecordedFuture-CustomConnector/readme.md) | 429 |
 | [Connector authorization](../readme.md#connectors-authorization) | 429 |
 | [Connector authorization](../readme.md#connectors-authorization) | 429 |
 | [**/RecordedFuture-CustomConnector**](../Connectors/RecordedFuture-CustomConnector/readme.md) | 429 |
+| [Connector authorization](../readme.md#connectors-authorization) | 429 |
 | [Connector authorization](../readme.md#connectors-authorization) | 429 |
 | [here](../readme.md#analytic-rules) | 429 |
-| [Recorded Future Enrichment](../Enrichment/readme.md#recordedfuture-ioc_enrichment) | 404 |
+| [Recorded Future Enrichment](../Enrichment/readme.md#recordedfuture-ioc_enrichment) | 429 |
 | [](Images/2023-10-26-19-50-43.png) | 429 |
 | [**/RecordedFuture-CustomConnector**](../Connectors/RecordedFuture-CustomConnector/readme.md) | 429 |
 | [Connector authorization](../readme.md#connectors-authorization) | 429 |
@@ -2112,18 +2248,21 @@
 | [Key Features](../readme.md#key-features) | 429 |
 | [Enrichment Playbooks](Enrichment/readme.md) | 429 |
 | [Indicator Import/Risk List Playbooks](IndicatorImport/readme.md) | 429 |
+| [Alert Playbooks](Alerts/readme.md) | 429 |
 | [Sandbox Playbooks](./Sandboxing/readme.md) | 429 |
 | [Threat Hunt Playbooks](./ThreatHunting/readme.md) | 429 |
 | [Custom Connector](./Connectors/RecordedFuture-CustomConnector/readme.md) | 429 |
 | [Deprecated Risk List Playbooks](Deprecated/readme.md) | 429 |
 | [apiconnection](Images/apiconnection.png) | 429 |
 | [managedidentity1](Images/managedidentity1.png) | 429 |
+| [managedidentity2](Images/managedidentity2.png) | 429 |
 | [Workbooks](Images/workbook.png) | 429 |
 | [Analyticrule](Images/analyticrules.png) | 429 |
 | [release notes](../ReleaseNotes.md) | 429 |
 | [alt text](Images/ioc_enrichment_error_not.png) | 429 |
 | [alt text](Images/LogicAppVersion.png) | 429 |
 | [](Images/2023-09-13-19-16-24.png) | 429 |
+| [](Images/2023-09-13-19-24-54.png) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future/readme.md
 
@@ -2132,7 +2271,7 @@
 | [readme.md](Playbooks/readme.md) | 429 |
 | [Installation guide](Playbooks/readme.md) | 429 |
 | [Recorded Future Defender playbooks](../../Playbooks/RecordedFuture-Block-IPs-and-Domains-on-Microsoft-Defender-for-Endpoint/) | 429 |
-| [Recorded Future Defender SCF playbooks](../../Playbooks/RecordedFuture_IP_SCF/) | 404 |
+| [Recorded Future Defender SCF playbooks](../../Playbooks/RecordedFuture_IP_SCF/) | 429 |
 | [Recorded Future Identity](../Recorded%20Future%20Identity/Playbooks/readme.md) | 429 |
 | [Learn more about Recorded Future for Microsoft Sentinel](https://www.recordedfuture.com/microsoft-azure-sentinel-integration) | 404 |
 | [](Playbooks/Images/2023-04-19-17-08-46.png) | 429 |
@@ -2147,6 +2286,12 @@
 | --- | --- |
 | [Azure Marketplace listing description](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Images/ReleaseNotes_OfferListing.png) | 429 |
 | [here](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ReleaseNotesSample.md) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ReversingLabs/Playbooks/ReversingLabs-CheckQuota/README.md
+
+| URL | State |
+| --- | --- |
+| [Playbook overview](./images/playbook.jpg) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ReversingLabs/Playbooks/SpectraAnalyze-EnrichFileHash/README.md
 
