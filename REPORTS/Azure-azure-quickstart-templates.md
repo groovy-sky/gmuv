@@ -1255,12 +1255,6 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 | [quickstart](https://docs.microsoft.com/azure/postgresql/flexible-server/quickstart-create-arm-template) | 404 |
 | [docs](https://docs.microsoft.com/azure/postgresql/select-right-deployment-type) | 404 |
 
-* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.devcenter/devbox-with-customized-image/README.md
-
-| URL | State |
-| --- | --- |
-| [Dev Portal](https://devportal.microsoft.com) | 404 |
-
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.devices/iothub-auto-route-messages/README.md
 
 | URL | State |
