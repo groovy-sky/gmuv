@@ -237,14 +237,11 @@ Implementations](https://github.com/azure/enterprise-scale#deploying-enterprise-
 | [ALZ Policy FAQ and Tips](./ALZ-Policies-FAQ) | 404 |
 | [ALZ Contribution Guide](./ALZ-Contribution-Guide) | 404 |
 | [Migrate ALZ custom policies to Azure builtin policies](migrate-alz-policies-to-builtin.md) | 404 |
-| [issue #1081](https://github.com/Azure/Enterprise-Scale/issues/1081) | 429 |
-| [issue #478](https://github.com/Azure/Enterprise-Scale/issues/478) | 429 |
 | [Deploy Azure landing zone portal accelerator](./Deploying-ALZ) | 404 |
 | [Deployment guidance for Small Enterprises](./Deploying-ALZ-BasicSetup) | 404 |
 | [How to deploy without hybrid connectivity](./Deploying-ALZ-Foundation) | 404 |
 | [Deployment with hub and spoke network topology](./Deploying-ALZ-HubAndSpoke) | 404 |
 | [Deployment with Azure VWAN network topology](./Deploying-ALZ-VWAN) | 404 |
-| [issue #279](https://github.com/Azure/ALZ-Bicep/issues/279) | 429 |
 | [issue #1004](https://github.com/Azure/Enterprise-Scale/issues/1004) | 429 |
 | [issue #979](https://github.com/Azure/Enterprise-Scale/issues/979) | 429 |
 | [issue #979](https://github.com/Azure/Enterprise-Scale/issues/979) | 429 |
@@ -256,11 +253,18 @@ Implementations](https://github.com/azure/enterprise-scale#deploying-enterprise-
 | [issue #978](https://github.com/Azure/Enterprise-Scale/issues/978) | 429 |
 | [issue #971](https://github.com/Azure/Enterprise-Scale/issues/971) | 429 |
 | [issue #893](https://github.com/Azure/Enterprise-Scale/issues/893) | 429 |
-| [Azure Firewall Updates](https://azure.microsoft.com/blog/boost-your-network-security-with-new-updates-to-azure-firewall/) | 0 |
+| [issue #949](https://github.com/Azure/Enterprise-Scale/issues/949) | 429 |
+| [issue 944](https://github.com/Azure/Enterprise-Scale/issues/944) | 429 |
+| [issue 902](https://github.com/Azure/Enterprise-Scale/issues/902) | 429 |
+| [issue 910](https://github.com/Azure/Enterprise-Scale/issues/910) | 429 |
+| [issue 889](https://github.com/Azure/Enterprise-Scale/issues/889) | 429 |
+| [issue 923](https://github.com/Azure/Enterprise-Scale/issues/923) | 429 |
+| [#407](https://github.com/Azure/Enterprise-Scale/issues/407) | 429 |
+| [#874](https://github.com/Azure/Enterprise-Scale/issues/874) | 429 |
+| [#842](https://github.com/Azure/Enterprise-Scale/issues/842) | 429 |
 | [#864](https://github.com/Azure/Enterprise-Scale/issues/864) | 429 |
 | [issue #803](https://github.com/Azure/Enterprise-Scale/issues/803) | 429 |
 | [#726](https://github.com/Azure/Enterprise-Scale/issues/726) | 429 |
-| [#728](https://github.com/Azure/Enterprise-Scale/issues/728) | 429 |
 | [issue #668](https://github.com/Azure/Enterprise-Scale/issues/668) | 429 |
 | [#632](https://github.com/Azure/Enterprise-Scale/issues/632) | 429 |
 | [#519 on CAF repository](https://github.com/MicrosoftDocs/cloud-adoption-framework/issues/519) | 429 |
