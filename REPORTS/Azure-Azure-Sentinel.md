@@ -160,12 +160,6 @@
 | [Master](./Images/InputSchema.PNG) | 404 |
 | [Master](./Images/AddNestedPlaybook.PNG) | 404 |
 
-* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASim Sysmon for Linux/README.md
-
-| URL | State |
-| --- | --- |
-| [upcoming Sysmon for Linux](https://twitter.com/markrussinovich/status/1283039153920368651?lang=en) | 400 |
-
 * https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimProcessEvent/README.md
 
 | URL | State |
@@ -768,6 +762,13 @@
 | [AWS Athena API Function App Connector](../../CustomConnector/AWSAthena_FunctionAppConnector/readme.md) | 404 |
 | [AWS Athena API Function App Connector](../../CustomConnector/AWSAthena_FunctionAppConnector/readme.md) | 404 |
 
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/AWS_AccessLogs/CloudFormationTemplates/readme.md
+
+| URL | State |
+| --- | --- |
+| [OIDCWebIdProvider.json](https://github.com/Alekhya0824/GithubValidationREPO/blob/main/AWS%20S3%20Server%20Access%20Logs/OIDCWebIdProvider.json) | 404 |
+| [AWSS3ServerAccessAndConfig.json](https://github.com/Alekhya0824/GithubValidationREPO/blob/main/AWS%20S3%20Server%20Access%20Logs/AWSS3ServerAccessAndConfig.json) | 404 |
+
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/AWS_IAM/Playbooks/Playbooks/AWS-DisableS3BucketPublicAccess/readme.md
 
 | URL | State |
@@ -828,7 +829,6 @@
 | [Switch](https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Playbooks/Sync-IncidentsWithJIRA/Images/Azure%20-%20Switch%20Organization.png) | 404 |
 | [in this repository](Sync-Comments/Sync-Comment.ps1) | 404 |
 | [Automation Rule](https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Playbooks/Sync-IncidentsWithJIRA/Images/Sentinel%20-%20Automation%20Rule.png) | 404 |
-| [Twitter](https://twitter.com/thijslecomte) | 400 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/AtlassianJiraAudit/Playbooks/Sync-Incidents/readme.md
 
@@ -837,7 +837,6 @@
 | [Blog post with more background information](https://www.thecollective.eu/en/insights/setting-up-a-bidirectional-sync-between-sentinel-and-jira) | 404 |
 | [Switch](https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Playbooks/Sync-IncidentsWithJIRA/Images/Azure%20-%20Switch%20Organization.png) | 404 |
 | [in this repository](Sync-Comments/Sync-Comment.ps1) | 404 |
-| [Twitter](https://twitter.com/thijslecomte) | 400 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/AtlassianJiraAudit/Playbooks/readme.md
 
@@ -845,7 +844,6 @@
 | --- | --- |
 | [Blog post with more background information](https://www.thecollective.eu/en/insights/setting-up-a-bidirectional-sync-between-sentinel-and-jira) | 404 |
 | [Switch](https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Playbooks/Sync-IncidentsWithJIRA/Images/Azure%20-%20Switch%20Organization.png) | 404 |
-| [Twitter](https://twitter.com/thijslecomte) | 400 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Australian Cyber Security Centre/Playbooks/AusCtisExportTaggedIndicators/readme.md
 
@@ -1216,7 +1214,6 @@
 | URL | State |
 | --- | --- |
 | [JamfProtect_Alert_Status_Resolved](https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Solutions/Jamf%20Protect%/Playbooks/JamfProtect_Alert_Status_Resolved/images/designerOverviewCollapsedLight.png) | 0 |
-| [learn how](https://learn.jamf.com/bundle/jamf-protect-documentation/page/Jamf_Protect_API.html#ariaid-title3) | 0 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Jamf Protect/Playbooks/JamfProtect_LockComputer_with_JamfPro/readme.md
 
@@ -1293,170 +1290,38 @@
 | --- | --- |
 | [See the documentation to learn more about workspace keys](https://learn.microsoft.com/en-us/azure/azure-monitor/agents/agent-windows?tabs=setup-wizard#obtain-workspace-id-and-key) | 0 |
 
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Solutions/ESICollector/README.md
-
-| URL | State |
-| --- | --- |
-| [the Parameters description document](./Parameters.md) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/Parsers/README.md
-
-| URL | State |
-| --- | --- |
-| [Microsoft Exchange Security - Parsers information](#microsoft-exchange-security---parsers-information) | 429 |
-| [ExchangeConfiguration Parser](#exchangeconfiguration-parser) | 429 |
-| [Parser Definition](#parser-definition) | 429 |
-| [Parser Description](#parser-description) | 429 |
-| [Parser Setup](#parser-setup) | 429 |
-| [Linked tables](#linked-tables) | 429 |
-| [Parameters simulation](#parameters-simulation) | 429 |
-| [Exchange Configuration Environment List Parser](#exchange-configuration-environment-list-parser) | 429 |
-| [Parser Definition](#parser-definition-1) | 429 |
-| [Parser Description](#parser-description-1) | 429 |
-| [Parser Setup](#parser-setup-1) | 429 |
-| [Linked tables](#linked-tables-1) | 429 |
-| [Parameters simulation](#parameters-simulation-1) | 429 |
-| [Microsoft Exchange Security Check VIP Parser](#microsoft-exchange-security-check-vip-parser) | 429 |
-| [Parser Definition](#parser-definition-2) | 429 |
-| [Parser Description](#parser-description-2) | 429 |
-| [Parser dependency](#parser-dependency) | 429 |
-| [Parser Setup](#parser-setup-2) | 429 |
-| [Parameters simulation](#parameters-simulation-2) | 429 |
-| [Microsoft Exchange Compare Data MRA Parser](#microsoft-exchange-compare-data-mra-parser) | 429 |
-| [Parser Definition](#parser-definition-3) | 429 |
-| [Parser Description](#parser-description-3) | 429 |
-| [Parser Setup](#parser-setup-3) | 429 |
-| [Microsoft Exchange Security - Office 365 Activity logs Parser](#microsoft-exchange-security---office-365-activity-logs-parser) | 429 |
-| [Parser Definition](#parser-definition-4) | 429 |
-| [Parser Description](#parser-description-4) | 429 |
-| [Parser Setup](#parser-setup-4) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/README.md
-
-| URL | State |
-| --- | --- |
-| [General Documentation & Artifacts](./%23%20-%20General%20Content/README.md) | 429 |
-
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Isolate-MDEMachine/readme.md
 
 | URL | State |
 | --- | --- |
-| [Incident Trigger](./Isolate-MDEMachine-incident-trigger/images/designerLight.png) | 429 |
-| [Alert Trigger](./Isolate-MDEMachine-alert-trigger/images/Isolate-MDEMachine_alert.png) | 429 |
-| [Entity Trigger](./Isolate-MDE-Machine-entity-trigger/images/playbookDark.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Restrict-MDEAppExecution/readme.md
-
-| URL | State |
-| --- | --- |
-| [Incident Trigger](./Restrict-MDEAppExecution-incident-trigger/images/designerLight.png) | 429 |
-| [Alert Trigger](./Restrict-MDEAppExecution-alert-trigger/images/Restrict-MDEAppExecution_alert.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Restrict-MDEDomain/readme.md
-
-| URL | State |
-| --- | --- |
-| [Incident Trigger](./Restrict-MDEDomain-incident-trigger/images/designerDark.png) | 429 |
-| [Incident Trigger](./Restrict-MDEDomain-incident-trigger/images/designerLight.png) | 429 |
-| [Alert Trigger](./Restrict-MDEDomain-alert-trigger/images/Restrict-MDEDomain_alert.png) | 429 |
-| [Entity Trigger Light](./Restrict-MDEDomain-entity-trigger/images/Restrict-MDEDomain-entityTrigger-light.png) | 429 |
-| [Entity Trigger Dark](./Restrict-MDEDomain-entity-trigger/images/Restrict-MDEDomain-entityTrigger-dark.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Restrict-MDEFileHash/readme.md
-
-| URL | State |
-| --- | --- |
-| [Incident Trigger](./Restrict-MDEFileHash-incident-trigger/images/designerLight.png) | 429 |
-| [Alert Trigger](./Restrict-MDEFileHash-alert-trigger/images/Restrict-MDEFileHash_alert.png) | 429 |
-| [Entity Trigger Light](./Restrict-MDEFileHash-entity-trigger/images/Restrict-MDEFileHash-entityTrigger-light.png) | 429 |
-| [Entity Trigger Dark](./Restrict-MDEFileHash-entity-trigger/images/Restrict-MDEFileHash-entityTrigger-dark.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Restrict-MDEIPAddress/readme.md
-
-| URL | State |
-| --- | --- |
-| [Incident Trigger](./Restrict-MDEIPAddress-incident-trigger/images/designerLight.png) | 429 |
-| [Alert Trigger](./Restrict-MDEIPAddress-alert-trigger/images/Restrict-MDEIpAddress_alert.png) | 429 |
-| [Entity Trigger Light](./Restrict-MDEIPAddress-entity-trigger/images/Restrict-MDEIPAddress-entityTrigger-light.png) | 429 |
-| [Entity Trigger](./Restrict-MDEIPAddress-entity-trigger/images/Restrict-MDEIPAddress-entityTrigger-dark.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Restrict-MDEUrl/readme.md
-
-| URL | State |
-| --- | --- |
-| [Incident Trigger](./Restrict-MDEUrl-incident-trigger/images/designerLight.png) | 429 |
-| [Alert Trigger](./Restrict-MDEUrl-alert-trigger/images/Restrict-MDEUrl_alert.png) | 429 |
-| [Entity Trigger Light](./Restrict-MDEUrl-entity-trigger/images/Restrict-MDEURLAddress-entityTrigger-light.png) | 429 |
-| [Entity Trigger Light](./Restrict-MDEUrl-entity-trigger/images/Restrict-MDEURLAddress-entityTrigger-dark.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Run-MDEAntivirus/readme.md
-
-| URL | State |
-| --- | --- |
-| [Incident Trigger](./Run-MDEAntivirus-incident-trigger/images/designerDark.png) | 429 |
-| [Alert Trigger](./Run-MDEAntivirus-alert-trigger/images/Run-MDEAntivirus_alert.png) | 429 |
+| [Entity Trigger](./Isolate-MDE-Machine-entity-trigger/images/playbookDark.png) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Unisolate-MDEMachine/readme.md
 
 | URL | State |
 | --- | --- |
-| [Incident Trigger](./Unisolate-MDEMachine/Unisolate-MDEMachine-incident-trigger/images/designerLight.png) | 429 |
-| [Alert Trigger](./Unisolate-MDEMachine/Unisolate-MDEMachine-alert-trigger/images/Unisolate-MDEMachine_alert.png) | 429 |
-| [Entity Trigger](./Unisolate-MDEMachine/Unisolate-MDE-Machine-entity-trigger/images/playbookDark.png) | 429 |
+| [Incident Trigger](./Unisolate-MDEMachine/Unisolate-MDEMachine-incident-trigger/images/designerLight.png) | 404 |
+| [Alert Trigger](./Unisolate-MDEMachine/Unisolate-MDEMachine-alert-trigger/images/Unisolate-MDEMachine_alert.png) | 404 |
+| [Entity Trigger](./Unisolate-MDEMachine/Unisolate-MDE-Machine-entity-trigger/images/playbookDark.png) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftPurviewInsiderRiskManagement/readme.md
 
 | URL | State |
 | --- | --- |
-| [Workbook Overview](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftPurviewInsiderRiskManagement/Workbooks/Images/InsiderRiskManagementBlack1.png?raw=true) | 429 |
+| [Workbook Overview](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftPurviewInsiderRiskManagement/Workbooks/Images/InsiderRiskManagementBlack1.png?raw=true) | 404 |
 | [Investigate incidents with Microsoft Sentinel]( https://docs.microsoft.com/azure/sentinel/investigate-cases) | 0 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Mimecast/Playbooks/Mimecast Data Connector Trigger Sync/README.md
-
-| URL | State |
-| --- | --- |
-| [Summary](#Summary) | 429 |
-| [Prerequisites](#Prerequisites) | 429 |
-| [Deployment instructions](#Deployment-instructions) | 429 |
-| [Post-Deployment instructions](#Post-Deployment-instructions) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Minemeld/Playbooks/MinemeldPlaybooks/Minemeld-CreateIndicator/readme.md
-
-| URL | State |
-| --- | --- |
-| [Minemeld documentation](https://github.com/PaloAltoNetworks/minemeld/wiki) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Minemeld/Playbooks/MinemeldPlaybooks/Minemeld-EnrichIncident/readme.md
-
-| URL | State |
-| --- | --- |
-| [Minemeld documentation](https://github.com/PaloAltoNetworks/minemeld/wiki) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/NISTSP80053/readme.md
 
 | URL | State |
 | --- | --- |
-| [Workbook Overview](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/NISTSP80053/Workbooks/Images/NISTSP80053Black.png?raw=true) | 429 |
 | [Details of the NIST SP 800-53 Rev. 4 Regulatory Compliance built-in initiative](https://docs.microsoft.com/azure/governance/policy/samples/nist-sp-800-53-) | 404 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Netskopev2/Playbooks/NetskopeDataConnectorsTriggerSync/Readme.md
-
-| URL | State |
-| --- | --- |
-| [Prerequisites](#Prerequisites) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Netskopev2/Playbooks/NetskopeWebTxErrorEmail/Readme.md
-
-| URL | State |
-| --- | --- |
-| [Summary](#Summary) | 429 |
-| [Deployment instructions](#Deployment-instructions) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Neustar IP GeoPoint/Playbooks/Neustar-GetIPGeoInfo/readme.md
 
 | URL | State |
 | --- | --- |
-| [Neustar IP GeoPoint API Function App Connector](../NeustarIPGeoPoint_FunctionAppConnector/) | 429 |
+| [Neustar IP GeoPoint API Function App Connector](../NeustarIPGeoPoint_FunctionAppConnector/) | 404 |
 | [Neustar IP GeoPoint API Function App Connector](../NeustarIPGeoPoint_FunctionAppConnector/readme.md) | 404 |
 | [Neustar IP GeoPoint API Function App Connector](../NeustarIPGeoPoint_FunctionAppConnector/readme.md) | 404 |
 | [Neustar IP GeoPoint API Guide](https://ipintelligence.neustar.biz/portal/pc/portal/docs/doc_rest_api.html) | 403 |
@@ -1474,73 +1339,11 @@
 | [Token for Microsoft Sentinel integration](https://support.nordpass.com/hc/en-us/articles/31972037289873) | 403 |
 | [Contact Support](https://support.nordpass.com/hc/en-us/requests/new) | 403 |
 
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Okta Single Sign-On/Playbooks/OktaPlaybooks/Okta-EnrichIncidentWithUserDetails/readme.md
-
-| URL | State |
-| --- | --- |
-| [Playbook Designer view](./Okta-EnrichIncidentwithuserdetails.PNG) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Okta Single Sign-On/Playbooks/OktaPlaybooks/Okta-PromptUser/readme.md
-
-| URL | State |
-| --- | --- |
-| [Adaptive Card example](./images/AdaptivecardtoSOCadminon%20teamschannel.PNG) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Okta Single Sign-On/Playbooks/readme.md
-
-| URL | State |
-| --- | --- |
-| [Post Deployment Steps](#postdeployment) | 429 |
-| [Okta-Response From Teams : Playbook to perform different actions on user on Okta and add user deatils to incident](https://github.com/Azure/Azure-Sentinel/tree/master/Solutions/Okta%20Single%20Sign-On/Playbooks/OktaPlaybooks/Okta-EnrichIncidentWithUserDetails) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/OpenCTI/Playbooks/OpenCTIPlaybooks/OpenCTI-ImportToSentinel/readme.md
-
-| URL | State |
-| --- | --- |
-| [LogicApp System Identity TenantId view](./images/LogicAppSystemIdentity.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Palo Alto - XDR (Cortex)/Playbook/README.md
-
-| URL | State |
-| --- | --- |
-| [Deployment Instructions](#instructions) | 429 |
-| [Post-Deployment Instructions](#postdeployment) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Palo Alto Prisma Cloud CWPP/Data Connectors/readme.md
-
-| URL | State |
-| --- | --- |
-| [Setting](Images/setting.png) | 429 |
-| [access_control](Images/access_control.png) | 429 |
-| [add_option](Images/add_option.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/PaloAlto-PAN-OS/Playbooks/PaloAltoPlaybooks/PaloAlto-PAN-OS-BlockIP/readme.md
-
-| URL | State |
-| --- | --- |
-| [Consolidated Adaptive Card example](./SummarizedAdaptiveCard.PNG) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/PaloAlto-PAN-OS/Playbooks/readme.md
-
-| URL | State |
-| --- | --- |
-| [Overview](#overview) | 429 |
-| [various actions](./PaloAltoCustomConnector#actions-supported-by-palo-alto-custom-connector) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/PaloAltoPrismaCloud/Data Connectors/Readme.md
-
-| URL | State |
-| --- | --- |
-| [Steps to get the Access Key & Secret Key from the PrismaCloudCSPM](#Key) | 429 |
-| [Steps to get the Base URL](#url) | 429 |
-
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ProofPointTap/Playbooks/readme.md
 
 | URL | State |
 | --- | --- |
-| [Overview](#overview) | 429 |
-| [References](#references) | 429 |
-| [Enrichment – add information to incidents](./Playbooks/ProofpointTAP-CheckAccountInVAP) | 429 |
+| [Enrichment – add information to incidents](./Playbooks/ProofpointTAP-CheckAccountInVAP) | 404 |
 | [Enrichment - add forensics info to incident](./Playbooks/ProofpointTAP-AddForensicsInfoToIncident) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/QualysVM/Playbooks/QualysVMPlaybooks/QualysVM-GetAssetDetails/readme.md
@@ -1554,7 +1357,7 @@
 
 | URL | State |
 | --- | --- |
-| [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/) | 429 |
+| [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/) | 404 |
 | [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/readme.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/QualysVM/Playbooks/QualysVMPlaybooks/QualysVM-GetAssets-ByOpenPort/readme.md
@@ -1562,7 +1365,7 @@
 | URL | State |
 | --- | --- |
 | [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/) | 404 |
-| [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/readme.md) | 429 |
+| [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/readme.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/QualysVM/Playbooks/QualysVMPlaybooks/QualysVM-LaunchVMScan-GenerateReport/readme.md
 
@@ -1570,13 +1373,6 @@
 | --- | --- |
 | [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/) | 404 |
 | [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/readme.md) | 404 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/README.md
-
-| URL | State |
-| --- | --- |
-| [this](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/CrowdStrike%20Falcon%20Endpoint%20Protection/Parsers/CrowdStrikeReplicatorV2.yaml) | 429 |
-| [solutions packaging tool guidance](https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Create-Azure-Sentinel-Solution/V3/README.md) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Rapid7InsightVM/Playbooks/Playbooks/Rapid7InsightVM-EnrichIncidentWithAssetInfo/readme.md
 
@@ -1596,91 +1392,42 @@
 
 | URL | State |
 | --- | --- |
-| [Rapid7 InsightVM API Connector](../../Rapid7InsightVMCloudAPIConnector/) | 429 |
-| [Rapid7 InsightVM API Connector](../../Rapid7InsightVMCloudAPIConnector/) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Rapid7InsightVM/Playbooks/readme.md
-
-| URL | State |
-| --- | --- |
-| [Authentication](#authentication) | 429 |
+| [Rapid7 InsightVM API Connector](../../Rapid7InsightVMCloudAPIConnector/) | 404 |
+| [Rapid7 InsightVM API Connector](../../Rapid7InsightVMCloudAPIConnector/) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future Identity/Playbooks/readme.md
 
 | URL | State |
 | --- | --- |
-| [Overview](#overview) | 429 |
-| [Prerequisites](#prerequisites) | 429 |
-| ["Connector" playbooks](#connector_playbooks) | 429 |
-| [RFI-CustomConnector](#RFI-CustomConnector) | 429 |
-| [Configuring Playbooks Connections](#configuration_connections) | 429 |
-| [Customization](#customization) | 429 |
-| [How to contact Recorded Future](#how_to_contact_Recorded_Future) | 429 |
-| [this section](#how_to_obtain_Recorded_Future_API_token) | 429 |
-| [RecordedFuture-CustomConnector](../../Recorded%20Future/Playbooks/Connectors/RecordedFuture-CustomConnector/readme.md) | 429 |
-| [managedidentity2](images/managedidentity2.png) | 429 |
-| [API request form](images/APIRequest2.png) | 429 |
+| [RecordedFuture-CustomConnector](../../Recorded%20Future/Playbooks/Connectors/RecordedFuture-CustomConnector/readme.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future Identity/Playbooks/v3.0/readme.md
 
 | URL | State |
 | --- | --- |
-| [Overview](#overview) | 429 |
-| [Base playbooks](#Base-playbooks) | 429 |
-| [Add risky user to Microsoft EntraID Group](#RFI-add-EntraID-security-group-user) | 429 |
-| [Lookup risky user and save results](#RFI-lookup-and-save-user) | 429 |
-| [RFI-search-workforce-user](#RFI-search-workforce-user) | 429 |
-| [How to Run Playbooks](#how_to_run_playbooks) | 429 |
-| [Suggestions for advanced users](#suggestions_for_advanced_users) | 429 |
-| [How to obtain Recorded Future API token](#how_to_obtain_Recorded_Future_API_token) | 429 |
-| [How to contact Recorded Future](#how_to_contact_Recorded_Future) | 429 |
-| [RecordedFuture-CustomConnector](../../../Recorded%20Future/Playbooks/Connectors/RecordedFuture-CustomConnector/readme.md) | 429 |
-| [API request form](../images/APIRequest.png) | 429 |
+| [RecordedFuture-CustomConnector](../../../Recorded%20Future/Playbooks/Connectors/RecordedFuture-CustomConnector/readme.md) | 404 |
+| [API request form](../images/APIRequest.png) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future/Playbooks/Alerts/readme.md
 
 | URL | State |
 | --- | --- |
 | [](../Images/2023-08-09-18-05-46.png) | 404 |
-| [Connector authorization](../readme.md#connector-authorization) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future/Playbooks/Connectors/RecordedFuture-CustomConnector/readme.md
-
-| URL | State |
-| --- | --- |
-| [readme](../../../readme.md) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future/Playbooks/Deprecated/readme.md
-
-| URL | State |
-| --- | --- |
-| [readme](../readme.md) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future/Playbooks/Enrichment/quickstart.md
-
-| URL | State |
-| --- | --- |
-| [](Images/secops.png) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future/Playbooks/IndicatorImport/readme.md
 
 | URL | State |
 | --- | --- |
-| [Connector authorization](../readme.md##connector-authorization) | 429 |
-| [Connector authorization](../readme.md#connector-authorization) | 429 |
-| [Connector authorization](../readme.md#connector-authorization) | 429 |
-| [Connector authorization](../readme.md##connector-authorization) | 429 |
 | [](../Images/2023-04-19-16-49-53.png) | 404 |
 | [](../Images/2023-04-19-16-51-12.png) | 404 |
 | [](../Images/2023-09-08-12-01-37.png) | 404 |
 | [](../Images/2023-12-12-10-02-11.png) | 404 |
-| [](../Images/2023-04-18-16-39-00.png) | 429 |
+| [](../Images/2023-04-18-16-39-00.png) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future/Playbooks/Sandboxing/readme.md
 
 | URL | State |
 | --- | --- |
-| [Recorded Future API Key](../readme.md#recorded-future-api-key) | 429 |
 | [](../Images/2023-06-26-10-04-42.png) | 404 |
 | [](../Images/2023-05-05-15-37-58.png) | 404 |
 | [](../Images/2023-05-05-15-29-37.png) | 404 |
@@ -1691,64 +1438,29 @@
 
 | URL | State |
 | --- | --- |
-| [readme](../readme.md) | 429 |
 | [**/RecordedFuture-CustomConnector**](../Connectors/RecordedFuture-CustomConnector/readme.md) | 404 |
 | [**/RecordedFuture-CustomConnector**](../Connectors/RecordedFuture-CustomConnector/readme.md) | 404 |
 | [**/RecordedFuture-CustomConnector**](../Connectors/RecordedFuture-CustomConnector/readme.md) | 404 |
-| [here](../readme.md#analytic-rules) | 429 |
-| [Recorded Future Enrichment](../Enrichment/readme.md#recordedfuture-ioc_enrichment) | 429 |
+| [Recorded Future Enrichment](../Enrichment/readme.md#recordedfuture-ioc_enrichment) | 404 |
 | [](Images/2023-10-26-19-50-43.png) | 404 |
 | [**/RecordedFuture-CustomConnector**](../Connectors/RecordedFuture-CustomConnector/readme.md) | 404 |
-| [here](../readme.md#analytic-rules) | 429 |
-| [Recorded Future Enrichment](../Enrichment/readme.md#recordedfuture-ioc_enrichment) | 429 |
+| [Recorded Future Enrichment](../Enrichment/readme.md#recordedfuture-ioc_enrichment) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future/Playbooks/readme.md
 
 | URL | State |
 | --- | --- |
-| [RecordedFuture-CustomConnector](Connectors/RecordedFuture-CustomConnector/readme.md) | 429 |
-| [Playbooks](#playbooks) | 429 |
-| [Indicator Import/Risk List Playbooks](IndicatorImport/readme.md) | 429 |
-| [Alert Playbooks](Alerts/readme.md) | 429 |
-| [Deprecated Risk List Playbooks](Deprecated/readme.md) | 429 |
-| [apiconnection](Images/apiconnection.png) | 429 |
-| [Analyticrule](Images/analyticrules.png) | 429 |
-| [release notes](../ReleaseNotes.md) | 429 |
-| [](Images/2023-09-13-19-16-24.png) | 429 |
+| [release notes](../ReleaseNotes.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future/readme.md
 
 | URL | State |
 | --- | --- |
 | [Recorded Future Defender playbooks](../../Playbooks/RecordedFuture-Block-IPs-and-Domains-on-Microsoft-Defender-for-Endpoint/) | 404 |
-| [Recorded Future Defender SCF playbooks](../../Playbooks/RecordedFuture_IP_SCF/) | 429 |
+| [Recorded Future Defender SCF playbooks](../../Playbooks/RecordedFuture_IP_SCF/) | 404 |
 | [Recorded Future Identity](../Recorded%20Future%20Identity/Playbooks/readme.md) | 404 |
 | [Learn more about Recorded Future for Microsoft Sentinel](https://www.recordedfuture.com/microsoft-azure-sentinel-integration) | 404 |
-| [](Playbooks/Images/2023-06-26-10-04-42.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ReleaseNotesGuidance.md
-
-| URL | State |
-| --- | --- |
-| [Azure Marketplace listing description](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Images/ReleaseNotes_OfferListing.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ReversingLabs/Playbooks/SpectraAnalyze-EnrichNetworkEntities/README.md
-
-| URL | State |
-| --- | --- |
-| [Playbook overview](./playbook.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ReversingLabs/Playbooks/SpectraIntelligence-EnrichFileHash/README.md
-
-| URL | State |
-| --- | --- |
-| [Playbook overview](./playbook.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ReversingLabs/Playbooks/SpectraIntelligence-EnrichNetworkEntities/README.md
-
-| URL | State |
-| --- | --- |
-| [Playbook overview](./playbook.png) | 429 |
+| [Manage Risk Lists](https://www.recordedfuture.com/support/install-configure-manage-risk-lists) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/RiskIQ/Playbooks/RiskIQ-Automated-Triage/readme.md
 
@@ -1981,7 +1693,6 @@
 | [URL Decoder Link](https://www.urldecoder.org/) | 403 |
 | [Alt Text](./Media/teams.png) | 404 |
 | [Alt Text](./Media/apiconnectors.png) | 404 |
-| [@thijslecomte](https://twitter.com/thijslecomte) | 400 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Tenable App/Playbooks/Playbooks/Tenable-EnrichIncidentWithAssetsInfo/readme.md
 
@@ -2027,12 +1738,6 @@
 | [Create a Case](./Playbooks/TheHive-CreateCase) | 404 |
 | [Create an Alert](./Playbooks/TheHive-CreateAlert) | 404 |
 | [Lock User](./Playbooks/TheHive-LockUser) | 404 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ThreatAnalysis&Response/readme.md
-
-| URL | State |
-| --- | --- |
-| [Workbook Overview](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ThreatAnalysis%26Response/Workbooks/Images/ThreatAnalysis%26ResponseWhite1.png?raw=true) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ThreatXCloud/Playbooks/ThreatXPlaybooks/ThreatX-BlockIP-URL/readme.md
 
