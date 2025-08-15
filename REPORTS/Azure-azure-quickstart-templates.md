@@ -859,6 +859,12 @@
 | --- | --- |
 | [API reference documentation](https://docs.microsoft.com/rest/api/keyvault/CreateKey/CreateKey) | 404 |
 
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/canonical/anbox/README.md
+
+| URL | State |
+| --- | --- |
+| [Anbox Cloud](https://anbox-cloud.io/) | 504 |
+
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.apimanagement/api-management-create-with-reference-keyvault/README.md
 
 | URL | State |
