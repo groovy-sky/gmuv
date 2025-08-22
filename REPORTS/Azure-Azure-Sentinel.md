@@ -1054,40 +1054,64 @@
 | [Data Reformatting](images/Microsoft%20Sentinel%20-%20Configure%20Data%20Transformations.png "Data Reformatting") | 404 |
 | [Send to Cyware Orchestrate](images/Microsoft%20Sentinel%20-%20Send%20Data%20To%20Cyware%20Orcehstrate.png "Send to Cyware Orchestrate") | 404 |
 
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/DomainTools/Playbooks/DomainTools-ASIM-DNS-Playbook/readme.md
+
+| URL | State |
+| --- | --- |
+| [API Key authentication](https://www.domaintools.com/integrations) | 0 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/DomainTools/Playbooks/DomainTools-IP-Address-Playbook/readme.md
+
+| URL | State |
+| --- | --- |
+| [API Key authentication](https://www.domaintools.com/integrations) | 0 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/DomainTools/Playbooks/DomainTools-Iris-Enrich-Playbook/readme.md
+
+| URL | State |
+| --- | --- |
+| [API Key authentication](https://www.domaintools.com/integrations) | 0 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/DomainTools/Playbooks/DomainTools-Iris-Investigate-Playbook/readme.md
+
+| URL | State |
+| --- | --- |
+| [API Key authentication](https://www.domaintools.com/integrations) | 0 |
+
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Entrust identity as Service/Playbooks/EntrustPlaybooks/Entrust-BlockUser/readme.md
 
 | URL | State |
 | --- | --- |
-| [Entrust Product Review](https://www.entrust.com/-/media/documentation/datasheets/entrust-identity-as-a-service-ss.pdf) | 403 |
-| [Entrust documentation](https://www.entrust.com/documentation) | 403 |
+| [Entrust Product Review](https://www.entrust.com/-/media/documentation/datasheets/entrust-identity-as-a-service-ss.pdf) | 0 |
+| [Entrust documentation](https://www.entrust.com/documentation) | 0 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Entrust identity as Service/Playbooks/EntrustPlaybooks/Entrust-EnrichIP-EntityTrigger/readme.md
 
 | URL | State |
 | --- | --- |
-| [Entrust Product Review](https://www.entrust.com/-/media/documentation/datasheets/entrust-identity-as-a-service-ss.pdf) | 403 |
-| [Entrust documentation](https://www.entrust.com/documentation) | 403 |
+| [Entrust Product Review](https://www.entrust.com/-/media/documentation/datasheets/entrust-identity-as-a-service-ss.pdf) | 0 |
+| [Entrust documentation](https://www.entrust.com/documentation) | 0 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Entrust identity as Service/Playbooks/EntrustPlaybooks/Entrust-EnrichIncidentWithIPDetails/readme.md
 
 | URL | State |
 | --- | --- |
-| [Entrust Product Review](https://www.entrust.com/-/media/documentation/datasheets/entrust-identity-as-a-service-ss.pdf) | 403 |
-| [Entrust documentation](https://www.entrust.com/documentation) | 403 |
+| [Entrust Product Review](https://www.entrust.com/-/media/documentation/datasheets/entrust-identity-as-a-service-ss.pdf) | 0 |
+| [Entrust documentation](https://www.entrust.com/documentation) | 0 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Entrust identity as Service/Playbooks/EntrustPlaybooks/Entrust-EnrichIncidentWithUserDetails/readme.md
 
 | URL | State |
 | --- | --- |
-| [Entrust Product Review](https://www.entrust.com/-/media/documentation/datasheets/entrust-identity-as-a-service-ss.pdf) | 403 |
-| [Entrust documentation](https://www.entrust.com/documentation) | 403 |
+| [Entrust Product Review](https://www.entrust.com/-/media/documentation/datasheets/entrust-identity-as-a-service-ss.pdf) | 0 |
+| [Entrust documentation](https://www.entrust.com/documentation) | 0 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Entrust identity as Service/Playbooks/EntrustPlaybooks/Entrust-EnrichUser-EntityTrigger/readme.md
 
 | URL | State |
 | --- | --- |
-| [Entrust Product Review](https://www.entrust.com/-/media/documentation/datasheets/entrust-identity-as-a-service-ss.pdf) | 403 |
-| [Entrust documentation](https://www.entrust.com/documentation) | 403 |
+| [Entrust Product Review](https://www.entrust.com/-/media/documentation/datasheets/entrust-identity-as-a-service-ss.pdf) | 0 |
+| [Entrust documentation](https://www.entrust.com/documentation) | 0 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Fortinet FortiGate Next-Generation Firewall connector for Microsoft Sentinel/Playbooks/readme.md
 
@@ -1220,6 +1244,7 @@
 | URL | State |
 | --- | --- |
 | [JamfProtect_LockComputer_with_JamfPro](https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Solutions/Jamf%20Protect%/Playbooks/JamfProtect_LockComputer_with_JamfPro/images/designerOverviewCollapsedLight.png) | 0 |
+| [learn how](https://learn.jamf.com/search?bundle=jamf-pro-documentation-current&q=api%20client) | 0 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Defender for Office 365/Playbooks/O365DefenderPlaybooks/o365-BlockMalwareFileExtension/readme.md
 
