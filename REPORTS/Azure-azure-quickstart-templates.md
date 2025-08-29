@@ -526,12 +526,6 @@
 | [PowerShell DSC Resource for configuring Pull Server environment](http://blogs.msdn.com/b/powershell/archive/2013/11/21/powershell-dsc-resource-for-configuring-pull-server-environment.aspx) | 403 |
 | [How to retrieve node information from DSC pull server](http://blogs.msdn.com/b/powershell/archive/2014/05/29/how-to-retrieve-node-information-from-pull-server.aspx) | 403 |
 
-* https://github.com/Azure/azure-quickstart-templates/blob/master/demos/e-shop-website-with-ilb-ase/README.md
-
-| URL | State |
-| --- | --- |
-| [freenom](https://www.freenom.com) | 502 |
-
 * https://github.com/Azure/azure-quickstart-templates/blob/master/demos/load-balancer-gateway/README.md
 
 | URL | State |
@@ -571,7 +565,6 @@
 | URL | State |
 | --- | --- |
 | [cluster_diagram](images/NFS-HA-Arch.png "Diagram of deployed cluster") | 404 |
-| [Pacemaker](https://wiki.clusterlabs.org/wiki/Pacemaker) | 503 |
 | [split-brain](https://en.wikipedia.org/wiki/Split-brain_(computing) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/demos/oms-active-directory-security-audit-solution/README.md
@@ -876,7 +869,7 @@
 
 | URL | State |
 | --- | --- |
-| [App Configuration](https://azure.microsoft.com/resources/templates/101-app-configuration/) | 404 |
+| [App Configuration](https://azure.microsoft.com/resources/templates/101-app-configuration/) | 503 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.appconfiguration/app-configuration/README.md
 
