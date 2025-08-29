@@ -1001,6 +1001,12 @@
 | --- | --- |
 | [Cohesity support documentation](https://docs.cohesity.com/ui/login?redirectPath=%2FHomePage%2FContent%2FTechGuides%2FTechnicalGuides.htm) | 404 |
 
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Commvault Security IQ/README.md
+
+| URL | State |
+| --- | --- |
+| [Creating an Access Token](https://documentation.commvault.com/2024e/essential/creating_access_token.html) | 404 |
+
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ContentHubSolutionsCatalog.md
 
 | URL | State |
@@ -1244,7 +1250,6 @@
 | URL | State |
 | --- | --- |
 | [JamfProtect_LockComputer_with_JamfPro](https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Solutions/Jamf%20Protect%/Playbooks/JamfProtect_LockComputer_with_JamfPro/images/designerOverviewCollapsedLight.png) | 0 |
-| [learn how](https://learn.jamf.com/search?bundle=jamf-pro-documentation-current&q=api%20client) | 0 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Defender for Office 365/Playbooks/O365DefenderPlaybooks/o365-BlockMalwareFileExtension/readme.md
 
