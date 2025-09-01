@@ -869,7 +869,7 @@
 
 | URL | State |
 | --- | --- |
-| [App Configuration](https://azure.microsoft.com/resources/templates/101-app-configuration/) | 503 |
+| [App Configuration](https://azure.microsoft.com/resources/templates/101-app-configuration/) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.appconfiguration/app-configuration/README.md
 
