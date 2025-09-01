@@ -246,12 +246,11 @@ Implementations](https://github.com/azure/enterprise-scale#deploying-enterprise-
 | [issue #279](https://github.com/Azure/ALZ-Bicep/issues/279) | 429 |
 | [issue #1004](https://github.com/Azure/Enterprise-Scale/issues/1004) | 429 |
 | [issue #979](https://github.com/Azure/Enterprise-Scale/issues/979) | 429 |
-| [issue #979](https://github.com/Azure/Enterprise-Scale/issues/979) | 429 |
+| [issue 944](https://github.com/Azure/Enterprise-Scale/issues/944) | 429 |
 | [issue 902](https://github.com/Azure/Enterprise-Scale/issues/902) | 429 |
 | [issue 910](https://github.com/Azure/Enterprise-Scale/issues/910) | 429 |
 | [issue 889](https://github.com/Azure/Enterprise-Scale/issues/889) | 429 |
 | [issue 923](https://github.com/Azure/Enterprise-Scale/issues/923) | 429 |
-| [#407](https://github.com/Azure/Enterprise-Scale/issues/407) | 429 |
 | [#874](https://github.com/Azure/Enterprise-Scale/issues/874) | 429 |
 | [#842](https://github.com/Azure/Enterprise-Scale/issues/842) | 429 |
 | [#864](https://github.com/Azure/Enterprise-Scale/issues/864) | 429 |
