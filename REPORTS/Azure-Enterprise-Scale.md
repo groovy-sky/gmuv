@@ -208,6 +208,7 @@ Implementations](https://github.com/azure/enterprise-scale#deploying-enterprise-
 
 | URL | State |
 | --- | --- |
+| [Deploy-Encryption-CMK_20250218](https://www.azadvertizer.net/azpolicyinitiativesadvertizer/Deploy-Encryption-CMK_20250218.html) | 404 |
 | [dataCollectionRule-DefenderSQL.json](Enterprise-Scale/eslzArm/resourceGroupTemplates/dataCollectionRule-DefenderSQL.json) | 404 |
 | [ALZ Policies Extra](./ALZ-Policies-Extra) | 404 |
 | [Known Issues](ALZ-Known-Issues) | 404 |
@@ -246,22 +247,25 @@ Implementations](https://github.com/azure/enterprise-scale#deploying-enterprise-
 | [issue #279](https://github.com/Azure/ALZ-Bicep/issues/279) | 429 |
 | [issue #1004](https://github.com/Azure/Enterprise-Scale/issues/1004) | 429 |
 | [issue #979](https://github.com/Azure/Enterprise-Scale/issues/979) | 429 |
+| [issue #979](https://github.com/Azure/Enterprise-Scale/issues/979) | 429 |
+| [issue #962](https://github.com/Azure/Enterprise-Scale/issues/962) | 429 |
+| [issue #962](https://github.com/Azure/Enterprise-Scale/issues/962) | 429 |
+| [issue #985](https://github.com/Azure/Enterprise-Scale/issues/985) | 429 |
+| [issue #986](https://github.com/Azure/Enterprise-Scale/issues/986) | 429 |
+| [issue #968](https://github.com/Azure/Enterprise-Scale/issues/968) | 429 |
+| [issue #978](https://github.com/Azure/Enterprise-Scale/issues/978) | 429 |
+| [issue #971](https://github.com/Azure/Enterprise-Scale/issues/971) | 429 |
+| [issue #893](https://github.com/Azure/Enterprise-Scale/issues/893) | 429 |
+| [issue #949](https://github.com/Azure/Enterprise-Scale/issues/949) | 429 |
 | [issue 944](https://github.com/Azure/Enterprise-Scale/issues/944) | 429 |
 | [issue 902](https://github.com/Azure/Enterprise-Scale/issues/902) | 429 |
 | [issue 910](https://github.com/Azure/Enterprise-Scale/issues/910) | 429 |
 | [issue 889](https://github.com/Azure/Enterprise-Scale/issues/889) | 429 |
 | [issue 923](https://github.com/Azure/Enterprise-Scale/issues/923) | 429 |
+| [#407](https://github.com/Azure/Enterprise-Scale/issues/407) | 429 |
 | [#874](https://github.com/Azure/Enterprise-Scale/issues/874) | 429 |
-| [#842](https://github.com/Azure/Enterprise-Scale/issues/842) | 429 |
-| [#864](https://github.com/Azure/Enterprise-Scale/issues/864) | 429 |
-| [issue #803](https://github.com/Azure/Enterprise-Scale/issues/803) | 429 |
-| [#726](https://github.com/Azure/Enterprise-Scale/issues/726) | 429 |
-| [#728](https://github.com/Azure/Enterprise-Scale/issues/728) | 429 |
-| [issue #668](https://github.com/Azure/Enterprise-Scale/issues/668) | 429 |
-| [#632](https://github.com/Azure/Enterprise-Scale/issues/632) | 429 |
-| [#519 on CAF repository](https://github.com/MicrosoftDocs/cloud-adoption-framework/issues/519) | 429 |
+| [#519 on CAF repository](https://github.com/MicrosoftDocs/cloud-adoption-framework/issues/519) | 404 |
 | [Deploy Azure Red Hat OpenShift (ARO) in enterprise-scale landing zones](https://github.com/Azure/Enterprise-Scale/tree/main/workloads/ARO) | 404 |
-| [#517](https://github.com/Azure/Enterprise-Scale/issues/517) | 429 |
 | [#691](https://github.com/Azure/Enterprise-Scale/issues/691) | 429 |
 | ["What's New?"](./Whats-new) | 404 |
 | [#603](https://github.com/Azure/Enterprise-Scale/issues/603) | 429 |
