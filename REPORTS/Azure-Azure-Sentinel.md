@@ -309,6 +309,12 @@
 | --- | --- |
 | [Community API documentation](https://developer.greynoise.io/reference/community-api#get_v3-community-ip) | 404 |
 
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/Export-Incidents-With-Comments/readme.md
+
+| URL | State |
+| --- | --- |
+| [https://www.bridewellconsulting.com/automating-azure-sentinel-using-playbooks-to-extract-data](https://www.bridewellconsulting.com/automating-azure-sentinel-using-playbooks-to-extract-data) | 504 |
+
 * https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/F5BigIP/Playbooks/BasePlaybook-F5BigIP/readme.md
 
 | URL | State |
@@ -1318,82 +1324,12 @@
 
 | URL | State |
 | --- | --- |
-| [Microsoft 365 Solution](#microsoft-365-solution) | 429 |
-| [Solution Installation](#solution-installation) | 429 |
-| [Solution configuration](#solution-configuration) | 429 |
-| [Microsoft Exchange Security for Exchange Online Solution](#microsoft-exchange-security-for-exchange-online-solution) | 429 |
-| [Prerequisites](#prerequisites) | 429 |
-| [Configuration](#configuration) | 429 |
-| [Parser deployment](#parser-deployment) | 429 |
-| [Connector and Azure Automation deployment](#connector-and-azure-automation-deployment) | 429 |
-| [Method 1 - Azure Resource Manager (ARM) Template](#method-1---azure-resource-manager-arm-template) | 429 |
-| [Method 2 - Manual Deployment of Azure Automation](#method-2---manual-deployment-of-azure-automation) | 429 |
-| [Assign Microsoft Graph Permission and Exchange Online Permission to Managed Identity Account](#assign-microsoft-graph-permission-and-exchange-online-permission-to-managed-identity-account) | 429 |
-| [alt text](./Images/Image49.png) | 429 |
-| [alt text](./Images/Image02.png) | 429 |
-| [alt text](./Images/Image51.png) | 429 |
-| [alt text](./Images/Image48.png "Install Solution") | 429 |
-| [alt text](./Images/Image02.png "Wait") | 429 |
 | [See the documentation to learn more about workspace keys](https://learn.microsoft.com/en-us/azure/azure-monitor/agents/agent-windows?tabs=setup-wizard#obtain-workspace-id-and-key) | 0 |
-| [See the documentation to learn more](./ESICollector.md#online-collector) | 429 |
-| [See the documentation to learn more](./ESICollector.md#online-collector) | 429 |
-| [See the documentation to learn more](./ESICollector.md#online-collector) | 429 |
-| [alt text](./Images/Image50.png) | 429 |
-| [Parser information](./../../Parsers/README.md) | 429 |
-| [alt text](./Images/Image07.png) | 429 |
-| [alt text](./Images/Image80.png) | 429 |
-| [alt text](./Images/Image57.png) | 429 |
-| [alt text](./Images/Image54.png) | 429 |
-| [alt text](./Images/Image55.png) | 429 |
-| [alt text](./Images/Image56.png) | 429 |
-| [Script Location](https://aka.ms/ESI-ExchangeCollector-Script) | 429 |
-| [Permission Update script](./../Solutions/ESICollector/OnlineDeployment/ExchangeOnlinePermSetup.ps1) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Documentations/Deployment-Overview.md
-
-| URL | State |
-| --- | --- |
-| [alt text](./Images/Image58.png) | 429 |
-| [alt text](./Images/Image59.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Documentations/ESICollector.md
-
-| URL | State |
-| --- | --- |
-| [the Parameters description document](./Parameters.md) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Documentations/README.md
-
-| URL | State |
-| --- | --- |
-| [Deployment Overview](./Deployment-Overview.md) | 429 |
-| [Deployment for On-Premises Solution](./Deployment-MES-OnPremises.md) | 429 |
-| [Deployment for Online Solution](./Deployment-MES-Online.md) | 429 |
-| [Collector Information](./ESICollector.md) | 429 |
-| [Solution Workbooks information](./WorkbookDeployement.md) | 429 |
-| [VIP Management](./VIPManagement.md) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Documentations/WorkbookDelegation.md
 
 | URL | State |
 | --- | --- |
-| [Workbooks](#workbooks) | 429 |
-| [Group creation in Entra ID](#group-creation-in-entra-id) | 429 |
-| [Creation of the custom role to access Log Analytics](#creation-of-the-custom-role-to-access-log-analytics) | 429 |
-| [Create a dédicated workspace for the workbook](#create-a-dédicated-workspace-for-the-workbook) | 429 |
-| [Set Permissions on the Resource Group](#set-permissions-on-the-resource-group) | 429 |
-| [Set Permissions in Log Analytics](#set-permissions-in-log-analytics) | 429 |
-| [Save the Workbook in the dedicated Resource Group](#save-the-workbook-in-the-dedicated-resource-group) | 429 |
-| [Access to the workbook](#access-to-the-workbook) | 429 |
-| [alt text](./Images/Image64.png) | 429 |
-| [alt text](./Images/Image65.png) | 429 |
-| [alt text](./Images/Image67.png) | 429 |
-| [alt text](./Images/Image66.png) | 429 |
-| [alt text](./Images/Image68.png) | 429 |
-| [alt text](./Images/Image69.png) | 429 |
-| [alt text](./Images/Image70.png) | 429 |
-| [alt text](./Images/Image71.png) | 429 |
-| [alt text](./Images/Image72.png) | 429 |
 | [alt text](./Images/Image73.png) | 429 |
 | [alt text](./Images/Image71.png) | 429 |
 | [alt text](./Images/Image74.png) | 429 |
@@ -1837,22 +1773,6 @@
 | --- | --- |
 | [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/) | 429 |
 | [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/readme.md) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/README.md
-
-| URL | State |
-| --- | --- |
-| [Microsoft Sentinel solutions build process](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Images/solutions_steps.png) | 429 |
-| [Get started documentation](https://github.com/Azure/Azure-Sentinel/wiki#get-started) | 429 |
-| [Solutions](https://github.com/Azure/Azure-Sentinel/tree/master/Solutions) | 429 |
-| [Solutions](https://github.com/Azure/Azure-Sentinel/tree/master/Solutions) | 429 |
-| [this](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/CrowdStrike%20Falcon%20Endpoint%20Protection/Parsers/CrowdStrikeReplicatorV2.yaml) | 429 |
-| [Cisco ISE solution](https://github.com/Azure/Azure-Sentinel/tree/master/Solutions/Cisco%20ISE) | 429 |
-| [Logos](https://github.com/Azure/Azure-Sentinel/tree/master/Logos) | 429 |
-| [sample data folder](https://github.com/Azure/Azure-Sentinel/tree/master/Sample%20Data) | 429 |
-| [Address potential errors](https://github.com/Azure/Azure-Sentinel/wiki#test-your-contribution) | 429 |
-| [package creation tool](https://github.com/Azure/Azure-Sentinel/tree/master/Tools/Create-Azure-Sentinel-Solution/V3) | 429 |
-| [solutions packaging tool guidance](https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Create-Azure-Sentinel-Solution/V3/README.md) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Rapid7InsightVM/Playbooks/Playbooks/Rapid7InsightVM-EnrichIncidentWithAssetInfo/readme.md
 
@@ -2780,12 +2700,6 @@
 | URL | State |
 | --- | --- |
 | [Animated Usage of Script](https://swiftsolvesblog.blob.core.windows.net/images/genstoragectxkql-ps1-animation.gif) | 0 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Workbooks/README.md
-
-| URL | State |
-| --- | --- |
-| [directory](https://github.com/Azure/Azure-Sentinel/tree/master/Solutions/[SolutionName]/Workbooks) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/docs/New Playbooks Contribution Guide/readme.md
 
