@@ -83,7 +83,8 @@
 
 | URL | State |
 | --- | --- |
-| [here](https://atlas.hashicorp.com/help/user-accounts/authentication) | 404 |
+| [Consul](https://www.consul.io/) | 429 |
+| [here](https://atlas.hashicorp.com/help/user-accounts/authentication) | 429 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/darktrace/darktrace-vsensor-autoscaling/README.md
 
@@ -353,6 +354,7 @@
 
 | URL | State |
 | --- | --- |
+| [Consul](https://consul.io/) | 429 |
 | [Availability Set](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability/) | 404 |
 | [Virtual Network](http://azure.microsoft.com/documentation/services/virtual-network/) | 404 |
 | [Virtual Network](http://azure.microsoft.com/documentation/services/virtual-network/) | 404 |
