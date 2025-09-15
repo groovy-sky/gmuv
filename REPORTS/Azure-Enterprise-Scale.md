@@ -194,6 +194,8 @@ Implementations](https://github.com/azure/enterprise-scale#deploying-enterprise-
 | URL | State |
 | --- | --- |
 | [Policies included in enterprise-scale landing zones reference implementations](./ALZ-Policies) | 404 |
+| [state](https://www.terraform.io/docs/language/state/index.html) | 429 |
+| [import](https://www.terraform.io/docs/cli/import/index.html) | 429 |
 | [here]( https://azure.microsoft.com/updates/were-retiring-the-log-analytics-agent-in-azure-monitor-on-31-august-2024/) | 0 |
 
 * https://github.com/Azure/Enterprise-Scale/blob/main/docs/wiki/How-Enterprise-Scale-Works.md
@@ -238,13 +240,13 @@ Implementations](https://github.com/azure/enterprise-scale#deploying-enterprise-
 | [ALZ Policy FAQ and Tips](./ALZ-Policies-FAQ) | 404 |
 | [ALZ Contribution Guide](./ALZ-Contribution-Guide) | 404 |
 | [Migrate ALZ custom policies to Azure builtin policies](migrate-alz-policies-to-builtin.md) | 404 |
+| [issue #1081](https://github.com/Azure/Enterprise-Scale/issues/1081) | 429 |
 | [issue #478](https://github.com/Azure/Enterprise-Scale/issues/478) | 429 |
 | [Deploy Azure landing zone portal accelerator](./Deploying-ALZ) | 404 |
 | [Deployment guidance for Small Enterprises](./Deploying-ALZ-BasicSetup) | 404 |
 | [How to deploy without hybrid connectivity](./Deploying-ALZ-Foundation) | 404 |
 | [Deployment with hub and spoke network topology](./Deploying-ALZ-HubAndSpoke) | 404 |
 | [Deployment with Azure VWAN network topology](./Deploying-ALZ-VWAN) | 404 |
-| [issue #279](https://github.com/Azure/ALZ-Bicep/issues/279) | 429 |
 | [issue #1004](https://github.com/Azure/Enterprise-Scale/issues/1004) | 429 |
 | [issue #979](https://github.com/Azure/Enterprise-Scale/issues/979) | 429 |
 | [issue #979](https://github.com/Azure/Enterprise-Scale/issues/979) | 429 |
@@ -256,20 +258,18 @@ Implementations](https://github.com/azure/enterprise-scale#deploying-enterprise-
 | [issue #978](https://github.com/Azure/Enterprise-Scale/issues/978) | 429 |
 | [issue #971](https://github.com/Azure/Enterprise-Scale/issues/971) | 429 |
 | [issue #893](https://github.com/Azure/Enterprise-Scale/issues/893) | 429 |
-| [issue #949](https://github.com/Azure/Enterprise-Scale/issues/949) | 429 |
-| [issue 944](https://github.com/Azure/Enterprise-Scale/issues/944) | 429 |
-| [issue 902](https://github.com/Azure/Enterprise-Scale/issues/902) | 429 |
-| [issue 910](https://github.com/Azure/Enterprise-Scale/issues/910) | 429 |
-| [issue 889](https://github.com/Azure/Enterprise-Scale/issues/889) | 429 |
-| [issue 923](https://github.com/Azure/Enterprise-Scale/issues/923) | 429 |
-| [#407](https://github.com/Azure/Enterprise-Scale/issues/407) | 429 |
-| [#874](https://github.com/Azure/Enterprise-Scale/issues/874) | 429 |
-| [#519 on CAF repository](https://github.com/MicrosoftDocs/cloud-adoption-framework/issues/519) | 404 |
+| [#864](https://github.com/Azure/Enterprise-Scale/issues/864) | 429 |
+| [issue #803](https://github.com/Azure/Enterprise-Scale/issues/803) | 429 |
+| [#726](https://github.com/Azure/Enterprise-Scale/issues/726) | 429 |
+| [#728](https://github.com/Azure/Enterprise-Scale/issues/728) | 429 |
+| [issue #668](https://github.com/Azure/Enterprise-Scale/issues/668) | 429 |
+| [#632](https://github.com/Azure/Enterprise-Scale/issues/632) | 429 |
+| [#519 on CAF repository](https://github.com/MicrosoftDocs/cloud-adoption-framework/issues/519) | 429 |
 | [Deploy Azure Red Hat OpenShift (ARO) in enterprise-scale landing zones](https://github.com/Azure/Enterprise-Scale/tree/main/workloads/ARO) | 404 |
+| [#517](https://github.com/Azure/Enterprise-Scale/issues/517) | 429 |
 | [#691](https://github.com/Azure/Enterprise-Scale/issues/691) | 429 |
 | ["What's New?"](./Whats-new) | 404 |
 | [#603](https://github.com/Azure/Enterprise-Scale/issues/603) | 429 |
-| [#609](https://github.com/Azure/Enterprise-Scale/issues/609) | 429 |
 | [#618](https://github.com/Azure/Enterprise-Scale/issues/618) | 429 |
 | [#604](https://github.com/Azure/Enterprise-Scale/issues/604) | 429 |
 | [#456](https://github.com/Azure/Enterprise-Scale/issues/456) | 429 |
