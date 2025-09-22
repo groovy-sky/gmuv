@@ -35,6 +35,7 @@
 
 | URL | State |
 | --- | --- |
+| [typespec docs](../eng/common/instructions/azsdk-tools/typespec-docs.instructions.md) | 404 |
 | [typespec to sdk](..\eng\common\instructions\azsdk-tools\typespec-to-sdk.instructions.md) | 404 |
 | [run sdk gen pipeline](..\eng\common\instructions\azsdk-tools\run-sdk-gen-pipeline.instructions.md) | 404 |
 | [validate service label](..\eng\common\instructions\azsdk-tools\validate-service-label.instructions.md) | 404 |
@@ -110,6 +111,12 @@
 | [API scenario file sample](../samplefiles/Microsoft.YourServiceName/stable/YYYY-MM-DD/scenarios/quickStart.yaml) | 404 |
 | [aka.ms/azsdk/support](https://aka.ms/azsdk/support) | 403 |
 
+* https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/api-scenario/how-to/GenerateABasicApiScenario.md
+
+| URL | State |
+| --- | --- |
+| [oav](https://www.npmjs.com/package/oav) | 403 |
+
 * https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/api-scenario/how-to/QuickStart.md
 
 | URL | State |
@@ -129,6 +136,7 @@
 | [troubleshooting REST API documentation](https://eng.ms/docs/products/azure-developer-experience/design/api-docs-troubleshooting) | 403 |
 | [aka.ms/azsdk/pr-brch-deep](https://aka.ms/azsdk/pr-brch-deep) | 403 |
 | [the `summary` section](https://aka.ms/azsdk/pr-brch-deep#summary) | 403 |
+| [`prettier` npm package](https://www.npmjs.com/package/prettier) | 403 |
 | [cspell configuration](https://cspell.org/configuration/) | 404 |
 | [suppression guide](https://aka.ms/pr-suppressions) | 403 |
 
@@ -212,13 +220,227 @@
 | [here]( https://github.com/Azure/autorest/blob/master/docs/extensions/readme.md#x-ms-mutability) | 0 |
 | [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
 | [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [here](https://github.com/Azure/autorest/blob/81d4d31d06637f4f9ef042d7f2ec64cfea29892f/docs/developer/validation-rules/valid-formats.md) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [x-ms-examples](https://github.com/Azure/azure-rest-api-specs/blob/master/documentation/x-ms-examples.md#why-x-ms-examples) | 429 |
+| [x-ms-examples](https://github.com/Azure/azure-rest-api-specs/blob/master/documentation/x-ms-examples.md#why-x-ms-examples) | 429 |
+| [Index](#index) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [x-ms-pageable extension](https://github.com/Azure/autorest/blob/master/docs/extensions/readme.md#x-ms-pageable) | 429 |
+| [x-ms-pageable](https://github.com/Azure/autorest/blob/master/docs/extensions/readme.md#x-ms-pageable) | 429 |
+| [examples](https://github.com/Azure/azure-rest-api-specs/tree/master/documentation/x-ms-pageable) | 429 |
+| [Index](#index) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [x-ms-pageable extension](https://github.com/Azure/autorest/blob/master/docs/extensions/readme.md#x-ms-pageable) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Index](#index) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Errors](#sdk-errors) | 429 |
 | [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
 | [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 429 |
+| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 429 |
 | [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
+| [Errors](#arm-errors) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [x-ms-enum extension](https://github.com/Azure/autorest/blob/master/docs/extensions/readme.md#x-ms-enum) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [here](https://github.com/Azure/azure-openapi-validator/blob/master/docs/security-definitions-structure-validation.md) | 429 |
+| [here](https://github.com/Azure/azure-openapi-validator/blob/master/docs/security-definitions-structure-validation.md) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [here](./swagger-extensions.md#x-ms-azure-resource) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
 | [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
-| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
-| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
-| [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [here](./swagger-extensions.md#x-ms-azure-resource) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [here](./swagger-extensions.md#x-ms-pageable) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [here](https://github.com/Azure/autorest/blob/master/docs/extensions/readme.md#x-ms-long-running-operation) | 429 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Errors](#arm-errors) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
 | [common-api-details](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/common-api-details.md#error-response-content) | 404 |
 | [common-api-contracts](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/common-api-contracts.md#system-metadata-for-all-azure-resources) | 404 |
 | [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
@@ -622,7 +844,7 @@
 | [readme.typescript.md](./readme.typescript.md) | 404 |
 | [readme.csharp.md](./readme.csharp.md) | 404 |
 
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/hybridcloud/resource-manager/readme.md
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/hybridcloud/resource-manager/Microsoft.HybridCloud/HybridCloud/readme.md
 
 | URL | State |
 | --- | --- |
@@ -946,7 +1168,7 @@
 | --- | --- |
 | [readme.csharp.md](./readme.csharp.md) | 404 |
 
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/storagepool/resource-manager/readme.md
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/storagepool/resource-manager/Microsoft.StoragePool/StoragePool/readme.md
 
 | URL | State |
 | --- | --- |
@@ -976,7 +1198,7 @@
 | --- | --- |
 | [readme.csharp.md](./readme.csharp.md) | 404 |
 
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/vmwarecloudsimple/resource-manager/readme.md
+* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/vmwarecloudsimple/resource-manager/Microsoft.VMwareCloudSimple/VmwareCloudSimple/readme.md
 
 | URL | State |
 | --- | --- |
