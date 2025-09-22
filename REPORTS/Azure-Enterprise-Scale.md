@@ -240,41 +240,14 @@ Implementations](https://github.com/azure/enterprise-scale#deploying-enterprise-
 | [ALZ Policy FAQ and Tips](./ALZ-Policies-FAQ) | 404 |
 | [ALZ Contribution Guide](./ALZ-Contribution-Guide) | 404 |
 | [Migrate ALZ custom policies to Azure builtin policies](migrate-alz-policies-to-builtin.md) | 404 |
-| [issue #1081](https://github.com/Azure/Enterprise-Scale/issues/1081) | 429 |
-| [issue #478](https://github.com/Azure/Enterprise-Scale/issues/478) | 429 |
 | [Deploy Azure landing zone portal accelerator](./Deploying-ALZ) | 404 |
 | [Deployment guidance for Small Enterprises](./Deploying-ALZ-BasicSetup) | 404 |
 | [How to deploy without hybrid connectivity](./Deploying-ALZ-Foundation) | 404 |
 | [Deployment with hub and spoke network topology](./Deploying-ALZ-HubAndSpoke) | 404 |
 | [Deployment with Azure VWAN network topology](./Deploying-ALZ-VWAN) | 404 |
-| [issue #1004](https://github.com/Azure/Enterprise-Scale/issues/1004) | 429 |
-| [issue #979](https://github.com/Azure/Enterprise-Scale/issues/979) | 429 |
-| [issue #979](https://github.com/Azure/Enterprise-Scale/issues/979) | 429 |
-| [issue #962](https://github.com/Azure/Enterprise-Scale/issues/962) | 429 |
-| [issue #962](https://github.com/Azure/Enterprise-Scale/issues/962) | 429 |
-| [issue #985](https://github.com/Azure/Enterprise-Scale/issues/985) | 429 |
-| [issue #986](https://github.com/Azure/Enterprise-Scale/issues/986) | 429 |
-| [issue #968](https://github.com/Azure/Enterprise-Scale/issues/968) | 429 |
-| [issue #978](https://github.com/Azure/Enterprise-Scale/issues/978) | 429 |
-| [issue #971](https://github.com/Azure/Enterprise-Scale/issues/971) | 429 |
-| [issue #893](https://github.com/Azure/Enterprise-Scale/issues/893) | 429 |
-| [#864](https://github.com/Azure/Enterprise-Scale/issues/864) | 429 |
-| [issue #803](https://github.com/Azure/Enterprise-Scale/issues/803) | 429 |
-| [#726](https://github.com/Azure/Enterprise-Scale/issues/726) | 429 |
-| [#728](https://github.com/Azure/Enterprise-Scale/issues/728) | 429 |
-| [issue #668](https://github.com/Azure/Enterprise-Scale/issues/668) | 429 |
-| [#632](https://github.com/Azure/Enterprise-Scale/issues/632) | 429 |
-| [#519 on CAF repository](https://github.com/MicrosoftDocs/cloud-adoption-framework/issues/519) | 429 |
+| [#519 on CAF repository](https://github.com/MicrosoftDocs/cloud-adoption-framework/issues/519) | 404 |
 | [Deploy Azure Red Hat OpenShift (ARO) in enterprise-scale landing zones](https://github.com/Azure/Enterprise-Scale/tree/main/workloads/ARO) | 404 |
-| [#517](https://github.com/Azure/Enterprise-Scale/issues/517) | 429 |
-| [#691](https://github.com/Azure/Enterprise-Scale/issues/691) | 429 |
 | ["What's New?"](./Whats-new) | 404 |
-| [#603](https://github.com/Azure/Enterprise-Scale/issues/603) | 429 |
-| [#618](https://github.com/Azure/Enterprise-Scale/issues/618) | 429 |
-| [#604](https://github.com/Azure/Enterprise-Scale/issues/604) | 429 |
-| [#456](https://github.com/Azure/Enterprise-Scale/issues/456) | 429 |
-| [#583](https://github.com/Azure/Enterprise-Scale/issues/583) | 429 |
-| [#440](https://github.com/Azure/Enterprise-Scale/issues/440) | 429 |
 
 * https://github.com/Azure/Enterprise-Scale/blob/main/docs/wiki/_Sidebar.md
 
