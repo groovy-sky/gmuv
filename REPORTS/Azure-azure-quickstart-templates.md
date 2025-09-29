@@ -83,8 +83,7 @@
 
 | URL | State |
 | --- | --- |
-| [Consul](https://www.consul.io/) | 429 |
-| [here](https://atlas.hashicorp.com/help/user-accounts/authentication) | 429 |
+| [here](https://atlas.hashicorp.com/help/user-accounts/authentication) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/darktrace/darktrace-vsensor-autoscaling/README.md
 
@@ -198,12 +197,6 @@
 | --- | --- |
 | [Red Hat Cloud Access program overview](https://access.redhat.com/documentation/en/red_hat_subscription_management/1/html/red_hat_cloud_access_reference_guide/getting-started-with-ca_cloud-access#proc_new-ca-experience-option2_cloud-access) | 404 |
 | [Getting access to Gold Images](https://access.redhat.com/documentation/en/red_hat_subscription_management/1/html/red_hat_cloud_access_reference_guide/understanding-gold-images_cloud-access#getting-access-to-gold-images_cloud-access) | 404 |
-
-* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/jupyter/jupyterhub-classroom/README.md
-
-| URL | State |
-| --- | --- |
-| [Quickstart templates](https://azure.microsoft.com/resources/templates/?resourceType=Microsoft.Compute&pageNumber=1&sort=Popular) | 503 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/lansa/lansa-vmss-windows-autoscale-sql-database/README.md
 
@@ -349,7 +342,6 @@
 | [contributors](../../graphs/contributors) | 404 |
 | [Authoring Azure Resource Manager templates](//docs.microsoft.com/azure/azure-resource-manager/resource-group-authoring-templates) | 404 |
 | [Azure Quickstart Templates](//azure.microsoft.com/resources/templates/) | 404 |
-| [Solace community](https://solace.community/) | 0 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/sql/sql-server-2014-alwayson-existing-vnet-and-ad/README.md
 
@@ -361,10 +353,9 @@
 
 | URL | State |
 | --- | --- |
-| [Consul](https://consul.io/) | 429 |
 | [Availability Set](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability/) | 404 |
 | [Virtual Network](http://azure.microsoft.com/documentation/services/virtual-network/) | 404 |
-| [Virtual Network](http://azure.microsoft.com/documentation/services/virtual-network/) | 404 |
+| [Virtual Network](http://azure.microsoft.com/documentation/services/virtual-network/) | 503 |
 | [Availability Set](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability/) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/tomcat/openjdk-tomcat-ubuntu-vm/gettingstarted.md
@@ -574,6 +565,7 @@
 | URL | State |
 | --- | --- |
 | [cluster_diagram](images/NFS-HA-Arch.png "Diagram of deployed cluster") | 404 |
+| [Pacemaker](https://wiki.clusterlabs.org/wiki/Pacemaker) | 502 |
 | [split-brain](https://en.wikipedia.org/wiki/Split-brain_(computing) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/demos/oms-active-directory-security-audit-solution/README.md
@@ -1013,7 +1005,7 @@
 
 | URL | State |
 | --- | --- |
-| [Docs](https://docs.docker.com/machine/drivers/azure/) | 404 |
+| [Docs](https://docs.docker.com/machine/drivers/azure/) | 403 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.compute/vm-simple-linux/GettingStarted-linux.md
 
@@ -1425,12 +1417,6 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 | --- | --- |
 | [main.bicepparam](./main.bicepparam) | 404 |
 | [main.bicepparam](./main.bicepparam) | 404 |
-
-* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.machinelearningservices/machine-learning-compute-attach-aks/README.md
-
-| URL | State |
-| --- | --- |
-| [Quickstart templates](https://azure.microsoft.com/resources/templates/) | 503 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.machinelearningservices/machine-learning-workspace-monitoring-dashboard/README.md
 
