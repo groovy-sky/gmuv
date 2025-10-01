@@ -239,27 +239,18 @@
 | URL | State |
 | --- | --- |
 | [Running DevStack](https://openedx.atlassian.net/wiki/display/OpenOPS/Running+Devstack) | 404 |
-| [Open edX](https://github.com/edx/edx-platform/blob/master/LICENSE) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/opendx/openedx-fullstack-ubuntu/README.md
 
 | URL | State |
 | --- | --- |
 | [Running FullStack](https://openedx.atlassian.net/wiki/display/OpenOPS/Running+Fullstack) | 404 |
-| [Open edX](https://github.com/edx/edx-platform/blob/master/LICENSE) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/opendx/openedx-scalable-ubuntu/README.md
 
 | URL | State |
 | --- | --- |
 | [Running FullStack](https://openedx.atlassian.net/wiki/display/OpenOPS/Running+Fullstack) | 404 |
-| [Open edX](https://github.com/edx/edx-platform/blob/master/LICENSE) | 404 |
-
-* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/opendx/openedx-tutor-lilac-ubuntu/README.md
-
-| URL | State |
-| --- | --- |
-| [Open edX](https://github.com/edx/edx-platform/blob/master/LICENSE) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/postgre/postgresql-standalone-server-ubuntu/GettingStarted.md
 
@@ -355,7 +346,7 @@
 | --- | --- |
 | [Availability Set](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability/) | 404 |
 | [Virtual Network](http://azure.microsoft.com/documentation/services/virtual-network/) | 404 |
-| [Virtual Network](http://azure.microsoft.com/documentation/services/virtual-network/) | 503 |
+| [Virtual Network](http://azure.microsoft.com/documentation/services/virtual-network/) | 404 |
 | [Availability Set](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability/) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/tomcat/openjdk-tomcat-ubuntu-vm/gettingstarted.md
@@ -565,7 +556,6 @@
 | URL | State |
 | --- | --- |
 | [cluster_diagram](images/NFS-HA-Arch.png "Diagram of deployed cluster") | 404 |
-| [Pacemaker](https://wiki.clusterlabs.org/wiki/Pacemaker) | 502 |
 | [split-brain](https://en.wikipedia.org/wiki/Split-brain_(computing) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/demos/oms-active-directory-security-audit-solution/README.md
