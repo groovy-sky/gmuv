@@ -6,6 +6,12 @@
 | --- | --- |
 | [titlemapping.json](https://github.com/Azure/azure-docs-cli/blob/master/titleMapping.json) | 404 |
 
+* https://github.com/Azure/azure-cli/blob/dev/doc/configuring_your_machine.md
+
+| URL | State |
+| --- | --- |
+| [documentation](https://code.visualstudio.com/docs/python/environments#_choose-a-debugging-environment) | 0 |
+
 * https://github.com/Azure/azure-cli/blob/dev/doc/extensions/README.md
 
 | URL | State |
