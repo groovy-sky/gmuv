@@ -83,7 +83,8 @@
 
 | URL | State |
 | --- | --- |
-| [here](https://atlas.hashicorp.com/help/user-accounts/authentication) | 404 |
+| [Consul](https://www.consul.io/) | 429 |
+| [here](https://atlas.hashicorp.com/help/user-accounts/authentication) | 429 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/darktrace/darktrace-vsensor-autoscaling/README.md
 
@@ -344,6 +345,7 @@
 
 | URL | State |
 | --- | --- |
+| [Consul](https://consul.io/) | 429 |
 | [Availability Set](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability/) | 404 |
 | [Virtual Network](http://azure.microsoft.com/documentation/services/virtual-network/) | 404 |
 | [Virtual Network](http://azure.microsoft.com/documentation/services/virtual-network/) | 404 |
@@ -516,6 +518,12 @@
 | --- | --- |
 | [PowerShell DSC Resource for configuring Pull Server environment](http://blogs.msdn.com/b/powershell/archive/2013/11/21/powershell-dsc-resource-for-configuring-pull-server-environment.aspx) | 403 |
 | [How to retrieve node information from DSC pull server](http://blogs.msdn.com/b/powershell/archive/2014/05/29/how-to-retrieve-node-information-from-pull-server.aspx) | 403 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/demos/e-shop-website-with-ilb-ase/README.md
+
+| URL | State |
+| --- | --- |
+| [freenom](https://www.freenom.com) | 502 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/demos/load-balancer-gateway/README.md
 
