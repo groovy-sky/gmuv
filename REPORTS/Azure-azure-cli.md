@@ -6,12 +6,6 @@
 | --- | --- |
 | [titlemapping.json](https://github.com/Azure/azure-docs-cli/blob/master/titleMapping.json) | 404 |
 
-* https://github.com/Azure/azure-cli/blob/dev/doc/configuring_your_machine.md
-
-| URL | State |
-| --- | --- |
-| [documentation](https://code.visualstudio.com/docs/python/environments#_choose-a-debugging-environment) | 0 |
-
 * https://github.com/Azure/azure-cli/blob/dev/doc/extensions/README.md
 
 | URL | State |
@@ -43,3 +37,32 @@
 | [reference TOC in MicrosoftDocs/azure-docs-cli](https://github.com/MicrosoftDocs/azure-docs-cli/blob/main/latest/docs-ref-autogen/TOC.yml) | 404 |
 | [article name](https://learn.microsoft.com/link) | 404 |
 | [MicrosoftDocs/azure-docs-cli/latest/docs-ref-autogen](https://github.com/MicrosoftDocs/azure-docs-cli/tree/main/latest/docs-ref-autogen) | 404 |
+
+* https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/synapse/report.md
+
+| URL | State |
+| --- | --- |
+| [az synapse kusto-operation list](#KustoOperationsList) | 429 |
+| [Parameters](#ParametersKustoOperationsList) | 429 |
+| [Example](#ExamplesKustoOperationsList) | 429 |
+
+* https://github.com/Azure/azure-cli/blob/dev/src/azure-cli/azure/cli/command_modules/vm/report.md
+
+| URL | State |
+| --- | --- |
+| [groups](#CommandGroups) | 429 |
+| [commands](#CommandsInSshPublicKeys) | 429 |
+| [az sshkey list](#SshPublicKeysListByResourceGroup) | 429 |
+| [Parameters](#ParametersSshPublicKeysListByResourceGroup) | 429 |
+| [az sshkey list](#SshPublicKeysListBySubscription) | 429 |
+| [Parameters](#ParametersSshPublicKeysListBySubscription) | 429 |
+| [az sshkey show](#SshPublicKeysGet) | 429 |
+| [Parameters](#ParametersSshPublicKeysGet) | 429 |
+| [Example](#ExamplesSshPublicKeysGet) | 429 |
+| [az sshkey create](#SshPublicKeysCreate) | 429 |
+| [Parameters](#ParametersSshPublicKeysCreate) | 429 |
+| [Example](#ExamplesSshPublicKeysCreate) | 429 |
+| [az sshkey update](#SshPublicKeysUpdate) | 429 |
+| [Parameters](#ParametersSshPublicKeysUpdate) | 429 |
+| [az sshkey delete](#SshPublicKeysDelete) | 429 |
+| [Parameters](#ParametersSshPublicKeysDelete) | 429 |
