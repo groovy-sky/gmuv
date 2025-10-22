@@ -71,6 +71,14 @@
 | [contact us](azuremarketplace@avyanconsulting.com) | 404 |
 | [Azure Marketplace Test Drive Program ](https://azure.microsoft.com/marketplace/test-drives/) | 404 |
 
+* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/chef/multi-vm-chef-template-ubuntu-vm/README.md
+
+| URL | State |
+| --- | --- |
+| [installing and configuring Chef Automate in the Azure Marketplace](https://docs.chef.io/azure_portal.html) | 404 |
+| [ARM template documentation](https://docs.chef.io/azure_portal.html#azure-resource-manager-arm-templates) | 404 |
+| [Using Chef Server in the Azure Marketplace](https://docs.chef.io/azure_portal.html) | 404 |
+
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/concourse/concourse-ci/README.md
 
 | URL | State |
@@ -794,12 +802,6 @@
 | --- | --- |
 | [Server Response](images/serverhit.png "Backend server response") | 404 |
 
-* https://github.com/Azure/azure-quickstart-templates/blob/master/demos/two-tier-nodejsapp-migration-to-containers-on-azure/README.md
-
-| URL | State |
-| --- | --- |
-| [here](https://azuremarketplace.microsoft.com/marketplace/apps/Canonical.UbuntuServer?tab=PlansAndPrice) | 404 |
-
 * https://github.com/Azure/azure-quickstart-templates/blob/master/demos/ubuntu-desktop-gnome-rdp/GettingStarted.md
 
 | URL | State |
@@ -838,13 +840,6 @@
 | [See licence agreement](https://gallery.technet.microsoft.com/NTttcp-Version-528-Now-f8b12769) | 404 |
 | [description](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-sizes/) | 404 |
 | [alt text](images/throughput.png "Throughput measurement output") | 404 |
-
-* https://github.com/Azure/azure-quickstart-templates/blob/master/demos/vmss-datascience/README.md
-
-| URL | State |
-| --- | --- |
-| [Windows 2016](https://azuremarketplace.microsoft.com/marketplace/apps/microsoft-ads.windows-data-science-vm?tab=Overview) | 404 |
-| [Ubuntu 16.04-LTS](https://azuremarketplace.microsoft.com/marketplace/apps/microsoft-ads.linux-data-science-vm-ubuntu?tab=Overview) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/demos/web-app-regional-vnet-private-endpoint-sql-storage/README.md
 
@@ -1640,6 +1635,7 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 | URL | State |
 | --- | --- |
 | [Azure Storage account documentation](http://azure.microsoft.com/documentation/articles/storage-create-storage-account/) | 404 |
+| [Quickstart templates](https://azure.microsoft.com/resources/templates/?resourceType=Microsoft.Storage&pageNumber=1&sort=Popular) | 503 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.synapse/synapse-poc/README.md
 
