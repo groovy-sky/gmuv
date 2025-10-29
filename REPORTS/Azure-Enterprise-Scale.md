@@ -194,8 +194,6 @@ Implementations](https://github.com/azure/enterprise-scale#deploying-enterprise-
 | URL | State |
 | --- | --- |
 | [Policies included in enterprise-scale landing zones reference implementations](./ALZ-Policies) | 404 |
-| [state](https://www.terraform.io/docs/language/state/index.html) | 429 |
-| [import](https://www.terraform.io/docs/cli/import/index.html) | 429 |
 | [here]( https://azure.microsoft.com/updates/were-retiring-the-log-analytics-agent-in-azure-monitor-on-31-august-2024/) | 0 |
 
 * https://github.com/Azure/Enterprise-Scale/blob/main/docs/wiki/How-Enterprise-Scale-Works.md
