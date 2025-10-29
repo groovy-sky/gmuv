@@ -91,8 +91,7 @@
 
 | URL | State |
 | --- | --- |
-| [Consul](https://www.consul.io/) | 429 |
-| [here](https://atlas.hashicorp.com/help/user-accounts/authentication) | 429 |
+| [here](https://atlas.hashicorp.com/help/user-accounts/authentication) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/darktrace/darktrace-vsensor-autoscaling/README.md
 
@@ -353,7 +352,6 @@
 
 | URL | State |
 | --- | --- |
-| [Consul](https://consul.io/) | 429 |
 | [Availability Set](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability/) | 404 |
 | [Virtual Network](http://azure.microsoft.com/documentation/services/virtual-network/) | 404 |
 | [Virtual Network](http://azure.microsoft.com/documentation/services/virtual-network/) | 404 |
@@ -998,7 +996,7 @@
 
 | URL | State |
 | --- | --- |
-| [Docs](https://docs.docker.com/machine/drivers/azure/) | 403 |
+| [Docs](https://docs.docker.com/machine/drivers/azure/) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.compute/vm-simple-linux/GettingStarted-linux.md
 
@@ -1635,7 +1633,6 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 | URL | State |
 | --- | --- |
 | [Azure Storage account documentation](http://azure.microsoft.com/documentation/articles/storage-create-storage-account/) | 404 |
-| [Quickstart templates](https://azure.microsoft.com/resources/templates/?resourceType=Microsoft.Storage&pageNumber=1&sort=Popular) | 503 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.synapse/synapse-poc/README.md
 
