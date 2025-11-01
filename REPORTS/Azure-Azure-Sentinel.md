@@ -103,6 +103,7 @@
 | URL | State |
 | --- | --- |
 | [Refer here](http://www.websense.com/content/support/library/ngfw/v610/rfrnce/ngfw_6100_ug_smc-api_a_en-us.pdf ) | 404 |
+| [Refer here](https://help.stonesoft.com/onlinehelp/StoneGate/SMC/) | 0 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/MasterPlaybooks/Remediation-IP/Fortinet-BlockIP-Nested-Remediation/readme.md
 
@@ -138,6 +139,7 @@
 | URL | State |
 | --- | --- |
 | [Refer here](http://www.websense.com/content/support/library/ngfw/v610/rfrnce/ngfw_6100_ug_smc-api_a_en-us.pdf ) | 404 |
+| [Refer here](https://help.stonesoft.com/onlinehelp/StoneGate/SMC/) | 0 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/MasterPlaybooks/Remediation-URL/PaloAlto-PAN-OS-Remediation-URL/readme.md
 
@@ -159,6 +161,630 @@
 | [Master](./Images/PlaybookDesignerLight.png) | 404 |
 | [Master](./Images/InputSchema.PNG) | 404 |
 | [Master](./Images/AddNestedPlaybook.PNG) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASim Microsoft Defender for IoT - Endpoint/README.md
+
+| URL | State |
+| --- | --- |
+| [Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASim Sysmon for Linux/README.md
+
+| URL | State |
+| --- | --- |
+| [Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASim Sysmon for Windows/README.md
+
+| URL | State |
+| --- | --- |
+| [Sysmon for Windows](https://docs.microsoft.com/sysinternals/downloads/sysmon) | 503 |
+| [Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASim WindowsEvent/ARM/README.md
+
+| URL | State |
+| --- | --- |
+| [Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASim WindowsEvent/README.md
+
+| URL | State |
+| --- | --- |
+| [Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAlertEvent/ARM/ASimAlertEvent/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAlertEvent/ARM/ASimAlertEventMicrosoftDefenderXDR/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAlertEvent/ARM/ASimAlertEventSentinelOneSingularity/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAlertEvent/ARM/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAlertEvent/ARM/imAlertEvent/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAlertEvent/ARM/vimAlertEventEmpty/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAlertEvent/ARM/vimAlertEventMicrosoftDefenderXDR/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAlertEvent/ARM/vimAlertEventSentinelOneSingularity/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAlertEvent/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuditEvent/ARM/ASimAuditEvent/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+| [ASIM AuditEvent normalization schema reference](https://aka.ms/ASimAuditEventDoc) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuditEvent/ARM/ASimAuditEventAzureAdminActivity/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+| [ASIM AuditEvent normalization schema reference](https://aka.ms/ASimAuditEventDoc) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuditEvent/ARM/ASimAuditEventBarracudaCEF/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+| [ASIM AuditEvent normalization schema reference](https://aka.ms/ASimAuditEventDoc) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuditEvent/ARM/ASimAuditEventBarracudaWAF/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+| [ASIM AuditEvent normalization schema reference](https://aka.ms/ASimAuditEventDoc) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuditEvent/ARM/ASimAuditEventCiscoISE/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/ASimAuthenticationCrowdStrikeFalconHost/README.md
+
+| URL | State |
+| --- | --- |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 502 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/ASimAuthenticationGoogleWorkspace/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 502 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 502 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/ASimAuthenticationIllumioSaaSCore/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 502 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 502 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/ASimAuthenticationM365Defender/README.md
+
+| URL | State |
+| --- | --- |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 502 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/ASimAuthenticationMicrosoftMD4IoT/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 502 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 502 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/ASimAuthenticationMicrosoftWindowsEvent/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 502 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 502 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/ASimAuthenticationNative/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 502 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 502 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/ASimAuthenticationOktaOSS/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 502 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 502 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/ASimAuthenticationOktaV2/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 502 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 502 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/ASimAuthenticationPaloAltoCortexDataLake/README.md
+
+| URL | State |
+| --- | --- |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 502 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/ASimAuthenticationPostgreSQL/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 502 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 502 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/ASimAuthenticationSalesforceSC/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 502 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 502 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/ASimAuthenticationSentinelOne/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 502 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 502 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/ASimAuthenticationSshd/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 502 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 502 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/ASimAuthenticationSu/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 502 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 502 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/ASimAuthenticationSudo/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 502 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/ASimAuthenticationVMwareCarbonBlackCloud/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 502 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 502 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/ASimAuthenticationVectraXDRAudit/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 502 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 502 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 502 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 502 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/imAuthentication/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 502 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 502 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/vimAuthenticationAADManagedIdentity/README.md
+
+| URL | State |
+| --- | --- |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 502 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/vimAuthenticationAADNonInteractive/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 502 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 502 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/vimAuthenticationAADServicePrincipalSignInLogs/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 502 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/vimAuthenticationAADSigninLogs/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 502 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 502 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/vimAuthenticationAWSCloudTrail/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 502 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 502 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/vimAuthenticationBarracudaWAF/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 502 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 502 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/vimAuthenticationCiscoASA/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 502 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 502 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/vimAuthenticationCiscoISE/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 502 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 502 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/vimAuthenticationCiscoMeraki/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 502 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 502 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/vimAuthenticationCiscoMerakiSyslog/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 502 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 502 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/vimAuthenticationCrowdStrikeFalconHost/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 502 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 502 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/vimAuthenticationEmpty/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 502 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 502 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/vimAuthenticationGoogleWorkspace/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 502 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 502 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/vimAuthenticationIllumioSaaSCore/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 502 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 502 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/vimAuthenticationM365Defender/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 502 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 502 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/vimAuthenticationMicrosoftMD4IoT/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 502 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/vimAuthenticationMicrosoftWindowsEvent/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/vimAuthenticationNative/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/vimAuthenticationOktaOSS/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/vimAuthenticationOktaV2/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/vimAuthenticationPaloAltoCortexDataLake/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/vimAuthenticationPostgreSQL/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/vimAuthenticationSalesforceSC/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/vimAuthenticationSentinelOne/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/vimAuthenticationSshd/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/vimAuthenticationSu/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/vimAuthenticationSudo/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/vimAuthenticationVMwareCarbonBlackCloud/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/ARM/vimAuthenticationVectraXDRAudit/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+| [ASIM Authentication normalization schema reference](https://aka.ms/ASimAuthenticationDoc) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimAuthentication/test/README.md
+
+| URL | State |
+| --- | --- |
+| [contributing parsers](https://learn.microsoft.com/azure/sentinel/normalization-develop-parsers#test-results-submission-guidelines) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimDhcpEvent/ARM/ASimDhcpEvent/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimDhcpEvent/ARM/ASimDhcpEventInfobloxBloxOne/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimDhcpEvent/ARM/ASimDhcpEventNative/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimDhcpEvent/ARM/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimDhcpEvent/ARM/imDhcpEvent/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimDhcpEvent/ARM/vimDhcpEventEmpty/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimDhcpEvent/ARM/vimDhcpEventInfobloxBloxOne/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimDhcpEvent/ARM/vimDhcpEventNative/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimDhcpEvent/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimDns/ARM/ASimDns/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+| [ASIM Dns normalization schema reference](https://aka.ms/ASimDnsDoc) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimDns/ARM/ASimDnsAzureFirewall/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+| [ASIM Dns normalization schema reference](https://aka.ms/ASimDnsDoc) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimDns/ARM/ASimDnsCiscoUmbrella/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+| [ASIM Dns normalization schema reference](https://aka.ms/ASimDnsDoc) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimDns/ARM/ASimDnsCorelightZeek/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+| [ASIM Dns normalization schema reference](https://aka.ms/ASimDnsDoc) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimDns/ARM/ASimDnsFortinetFortigate/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+| [ASIM Dns normalization schema reference](https://aka.ms/ASimDnsDoc) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimDns/ARM/ASimDnsGcp/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+| [ASIM Dns normalization schema reference](https://aka.ms/ASimDnsDoc) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimDns/ARM/ASimDnsInfobloxBloxOne/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+| [ASIM Dns normalization schema reference](https://aka.ms/ASimDnsDoc) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimDns/ARM/ASimDnsInfobloxNIOS/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+| [ASIM Dns normalization schema reference](https://aka.ms/ASimDnsDoc) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimDns/ARM/ASimDnsMicrosoftNXlog/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+| [ASIM Dns normalization schema reference](https://aka.ms/ASimDnsDoc) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimDns/ARM/ASimDnsMicrosoftOMS/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+| [ASIM Dns normalization schema reference](https://aka.ms/ASimDnsDoc) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimDns/ARM/ASimDnsMicrosoftSysmon/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+| [ASIM Dns normalization schema reference](https://aka.ms/ASimDnsDoc) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimDns/ARM/ASimDnsMicrosoftSysmonWindowsEvent/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+| [ASIM Dns normalization schema reference](https://aka.ms/ASimDnsDoc) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimDns/ARM/ASimDnsNative/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+| [ASIM Dns normalization schema reference](https://aka.ms/ASimDnsDoc) | 503 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimDns/ARM/ASimDnsSentinelOne/README.md
+
+| URL | State |
+| --- | --- |
+| [Normalization and the Advanced Security Information Model (ASIM)](https://aka.ms/AboutASIM) | 503 |
+| [ASIM Dns normalization schema reference](https://aka.ms/ASimDnsDoc) | 503 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/ASimProcessEvent/README.md
 
@@ -369,6 +995,7 @@
 | [Forcepoint](./Images/PlaybookdesignerLight.png) | 404 |
 | [Forcepoint](./Images/PlaybookdesignerDark.png) | 404 |
 | [Refer here](http://www.websense.com/content/support/library/ngfw/v610/rfrnce/ngfw_6100_ug_smc-api_a_en-us.pdf ) | 404 |
+| [Refer here](https://help.stonesoft.com/onlinehelp/StoneGate/SMC/) | 0 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/ForcepointNGFW/Playbooks/BlockIPbyUsername-ForcepointNGFW/readme.md
 
@@ -378,6 +1005,7 @@
 | [Forcepoint](./Images/PlaybookdesignerLight.png) | 404 |
 | [Forcepoint](./Images/PlaybookdesignerDark.png) | 404 |
 | [Refer here](http://www.websense.com/content/support/library/ngfw/v610/rfrnce/ngfw_6100_ug_smc-api_a_en-us.pdf ) | 404 |
+| [Refer here](https://help.stonesoft.com/onlinehelp/StoneGate/SMC/) | 0 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/ForcepointNGFW/Playbooks/BlockURL-ForcepointNGFW/readme.md
 
@@ -387,6 +1015,7 @@
 | [Forcepoint](./Images/PlaybookdesignerLight.png) | 404 |
 | [Forcepoint](./Images/PlaybookdesignerDark.png) | 404 |
 | [Refer here](http://www.websense.com/content/support/library/ngfw/v610/rfrnce/ngfw_6100_ug_smc-api_a_en-us.pdf ) | 404 |
+| [Refer here](https://help.stonesoft.com/onlinehelp/StoneGate/SMC/) | 0 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/ForcepointNGFW/Playbooks/Enrichment-IP-ForcepointNGFW/readme.md
 
@@ -394,6 +1023,7 @@
 | --- | --- |
 | [forcepoint](../logo.jpg) | 404 |
 | [Refer here](http://www.websense.com/content/support/library/ngfw/v610/rfrnce/ngfw_6100_ug_smc-api_a_en-us.pdf ) | 404 |
+| [Refer here](https://help.stonesoft.com/onlinehelp/StoneGate/SMC/) | 0 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/ForcepointNGFW/Playbooks/Enrichment-URL-ForcepointNGFW/readme.md
 
@@ -401,6 +1031,7 @@
 | --- | --- |
 | [forcepoint](../logo.jpg) | 404 |
 | [Refer here](http://www.websense.com/content/support/library/ngfw/v610/rfrnce/ngfw_6100_ug_smc-api_a_en-us.pdf ) | 404 |
+| [Refer here](https://help.stonesoft.com/onlinehelp/StoneGate/SMC/) | 0 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/ForcepointNGFW/Playbooks/ResponseOnTeamsBlockIP-ForcepointNGFW/readme.md
 
@@ -410,6 +1041,7 @@
 | [Forcepoint](./Images/PlaybookdesignerLight.png) | 404 |
 | [Forcepoint](./Images/PlaybookdesignerDark.png) | 404 |
 | [Refer here](http://www.websense.com/content/support/library/ngfw/v610/rfrnce/ngfw_6100_ug_smc-api_a_en-us.pdf ) | 404 |
+| [Refer here](https://help.stonesoft.com/onlinehelp/StoneGate/SMC/) | 0 |
 | [forcepoint](./Images/ResponseOnAction.png) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/ForcepointNGFW/readme.md
@@ -417,6 +1049,7 @@
 | URL | State |
 | --- | --- |
 | [Refer here](http://www.websense.com/content/support/library/ngfw/v610/rfrnce/ngfw_6100_ug_smc-api_a_en-us.pdf ) | 404 |
+| [Refer here](https://help.stonesoft.com/onlinehelp/StoneGate/SMC/) | 0 |
 | [Forcepoint SMC Connector](/Connector/ForcepointSMCApiConnector/readme.md) | 404 |
 | [ResponseOnTeamsBlockIP-ForcepointNGFW](/Playbooks/ResponseOnTeamsBlockIP-ForcepointNGFW/readme.md) | 404 |
 | [BlockIPbyUsername-ForcepointNGFW](/Playbooks/BlockIPbyUsername-ForcepointNGFW/readme.md) | 404 |
@@ -978,12 +1611,6 @@
 | [Rest API Request And Response Sample to Get Security Score Information for Domain](https://developer.cisco.com/docs/cloud-security/secure-access-api-guides-request-and-response-samples-investigate-investigate/#get-security-score-information-for-domain) | 404 |
 | [Rest API Request And Response Sample to Get Risk Score for Domain](https://developer.cisco.com/docs/cloud-security/secure-access-api-guides-request-and-response-samples-investigate-investigate/#get-risk-score-for-domain) | 404 |
 
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/CofenseTriage/Data Connectors/CofenseTriageDataConnector/README.md
-
-| URL | State |
-| --- | --- |
-| [See the documentation to learn more about workspace keys](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows#obtain-workspace-id-and-key) | 0 |
-
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/CohesitySecurity/Playbooks/Cohesity_Close_Helios_Incident/readme.md
 
 | URL | State |
@@ -1052,6 +1679,7 @@
 | [VMware Carbon Black Cloud](https://www.vmware.com/products/carbon-black-cloud.html) | 404 |
 | [Suricata](https://suricata-ids.org/) | 0 |
 | [CyberArk documentation](https://docs.cyberark.com/Product-Doc/OnlineHelp/PAS/Latest/en/Content/PASIMP/DV-Integrating-with-SIEM-Applications.htm) | 404 |
+| [Cynerio](https://www.cynerio.com/) | 429 |
 | [Lookout](https://enterprise.support.lookout.com/hc/en-us/articles/115002741773-Mobile-Risk-API-Guide#commoneventfields) | 0 |
 | [API documentation](https://enterprise.support.lookout.com/hc/en-us/articles/115002741773-Mobile-Risk-API-Guide) | 0 |
 | [SecurityScorecard](https://www.SecurityScorecard.com/) | 0 |
@@ -1234,6 +1862,12 @@
 | [see these instructions from Microsoft](https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/sentinel/connect-syslog.md) | 404 |
 | [see these instructions from Microsoft](https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/sentinel/connect-syslog.md) | 404 |
 
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Infoblox Cloud Data Connector/Playbooks/readme.md
+
+| URL | State |
+| --- | --- |
+| [here](https://docs.infoblox.com/space/BloxOneThreatDefense/117014574/Query+Active+Threats) | 0 |
+
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Intel471/Playbooks/Intel471-ImportMalwareIntelligenceToGraphSecurity/README.md
 
 | URL | State |
@@ -1321,403 +1955,46 @@
 | --- | --- |
 | [Entity Trigger](./entity-trigger/images/playbookDark.png) | 404 |
 
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange On-Premises/# - General Content/Documentations/Deployment-MES-Online.md
-
-| URL | State |
-| --- | --- |
-| [See the documentation to learn more about workspace keys](https://learn.microsoft.com/en-us/azure/azure-monitor/agents/agent-windows?tabs=setup-wizard#obtain-workspace-id-and-key) | 0 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Documentations/Deployment-MES-OnPremises.md
-
-| URL | State |
-| --- | --- |
-| [Download and install the agents needed to collect logs for Microsoft Sentinel](#download-and-install-the-agents-needed-to-collect-logs-for-microsoft-sentinel) | 429 |
-| [Option 1  -  MSExchange Management Log collection](#option-1-----msexchange-management-log-collection-1) | 429 |
-| [Option 2 - Security, Application, System for Exchange Servers](#option-2---security-application-system-for-exchange-servers-1) | 429 |
-| [Option 3 - Security for Domain controllers located in the Exchange AD sites](#option-3---security-for-domain-controllers-located-in-the-exchange-ad-sites) | 429 |
-| [Option 4 - Security for ALL Domain controllers](#option-4---security-for-all-domain-controllers) | 429 |
-| [Option 5 - IIS logs for Exchange servers](#option-5---iis-logs-for-exchange-servers-1) | 429 |
-| [Option 6 - Message tracking logs for Exchange Servers](#option-6---message-tracking-logs-for-exchange-servers-1) | 429 |
-| [Option 7 - HTTPProxy logs for Exchange servers](#option-7---httpproxy-logs-for-exchange-servers-1) | 429 |
-| [alt text](./Images/Image01.png "Install Solution") | 429 |
-| [alt text](./Images/Image02.png "Wait") | 429 |
-| [Readme](./../README.md) | 429 |
-| [alt text](./Images/Image15.png "Connector Deployment") | 429 |
-| [alt text](./Images/Image16.png) | 429 |
-| [Parser information](./../../Parsers/README.md) | 429 |
-| [alt text](./Images/Image07.png) | 429 |
-| [alt text](./Images/Image08.png) | 429 |
-| [alt text](./Images/Image09.png) | 429 |
-| [alt text](./Images/Image17.png) | 429 |
-| [alt text](./Images/Image18.png) | 429 |
-| [alt text](./Images/Image19.png) | 429 |
-| [alt text](./Images/Image15.png "Connector Deployment") | 429 |
-| [alt text](./Images/Image16.png) | 429 |
-| [Parser information](./../../Parsers/README.md) | 429 |
-| [alt text](./Images/Image28.png) | 429 |
-| [alt text](./Images/Image29.png) | 429 |
-| [alt text](./Images/Image30.png) | 429 |
-| [alt text](./Images/Image31.png) | 429 |
-| [alt text](./Images/Image32.png) | 429 |
-| [alt text](./Images/Image33.png) | 429 |
-| [alt text](./Images/Image34.png) | 429 |
-| [alt text](./Images/Image35.png) | 429 |
-| [alt text](./Images/Image36.png) | 429 |
-| [alt text](./Images/Image36.png) | 429 |
-| [alt text](./Images/Image30.png) | 429 |
-| [alt text](./Images/Image31.png) | 429 |
-| [alt text](./Images/Image32.png) | 429 |
-| [alt text](./Images/Image33.png) | 429 |
-| [alt text](./Images/Image40.png) | 429 |
-| [alt text](./Images/Image35.png) | 429 |
-| [alt text](./Images/Image36.png) | 429 |
-| [alt text](./Images/Image36.png) | 429 |
-| [alt text](./Images/Image31.png) | 429 |
-| [alt text](./Images/Image42.png) | 429 |
-| [alt text](./Images/Image43.png) | 429 |
-| [alt text](./Images/Image32.png) | 429 |
-| [alt text](./Images/Image33.png) | 429 |
-| [alt text](./Images/Image44.png) | 429 |
-| [alt text](./Images/Image35.png) | 429 |
-| [alt text](./Images/Image31.png) | 429 |
-| [alt text](./Images/Image42.png) | 429 |
-| [alt text](./Images/Image31.png) | 429 |
-| [alt text](./Images/Image11.png) | 429 |
-| [alt text](./Images/Image14.png) | 429 |
-| [alt text](./Images/Image21.png) | 429 |
-| [alt text](./Images/Image22.png) | 429 |
-| [alt text](./Images/Image23.png) | 429 |
-| [alt text](./Images/Image23.png) | 429 |
-| [alt text](./Images/Image21.png) | 429 |
-| [alt text](./Images/Image25.png) | 429 |
-| [alt text](./Images/Image26.png) | 429 |
-| [alt text](./Images/Image27.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Documentations/Deployment-MES-Online.md
-
-| URL | State |
-| --- | --- |
-| [Deployment Microsoft Exchange Security for Exchange Online](#deployment-microsoft-exchange-security-for-exchange-online) | 429 |
-| [Microsoft 365 Solution](#microsoft-365-solution) | 429 |
-| [Solution Installation](#solution-installation) | 429 |
-| [Solution configuration](#solution-configuration) | 429 |
-| [Microsoft Exchange Security for Exchange Online Solution](#microsoft-exchange-security-for-exchange-online-solution) | 429 |
-| [Prerequisites](#prerequisites) | 429 |
-| [Configuration](#configuration) | 429 |
-| [Parser deployment](#parser-deployment) | 429 |
-| [Connector and Azure Automation deployment](#connector-and-azure-automation-deployment) | 429 |
-| [Method 1 - Azure Resource Manager (ARM) Template](#method-1---azure-resource-manager-arm-template) | 429 |
-| [Method 2 - Manual Deployment of Azure Automation](#method-2---manual-deployment-of-azure-automation) | 429 |
-| [Assign Microsoft Graph Permission and Exchange Online Permission to Managed Identity Account](#assign-microsoft-graph-permission-and-exchange-online-permission-to-managed-identity-account) | 429 |
-| [alt text](./Images/Image49.png) | 429 |
-| [alt text](./Images/Image02.png) | 429 |
-| [alt text](./Images/Image51.png) | 429 |
-| [alt text](./Images/Image48.png "Install Solution") | 429 |
-| [alt text](./Images/Image02.png "Wait") | 429 |
-| [See the documentation to learn more about workspace keys](https://learn.microsoft.com/en-us/azure/azure-monitor/agents/agent-windows?tabs=setup-wizard#obtain-workspace-id-and-key) | 0 |
-| [See the documentation to learn more](./ESICollector.md#online-collector) | 429 |
-| [See the documentation to learn more](./ESICollector.md#online-collector) | 429 |
-| [See the documentation to learn more](./ESICollector.md#online-collector) | 429 |
-| [alt text](./Images/Image50.png) | 429 |
-| [Parser information](./../../Parsers/README.md) | 429 |
-| [alt text](./Images/Image07.png) | 429 |
-| [alt text](./Images/Image80.png) | 429 |
-| [alt text](./Images/Image57.png) | 429 |
-| [alt text](./Images/Image54.png) | 429 |
-| [alt text](./Images/Image55.png) | 429 |
-| [alt text](./Images/Image56.png) | 429 |
-| [Script Location](https://aka.ms/ESI-ExchangeCollector-Script) | 429 |
-| [Permission Update script](./../Solutions/ESICollector/OnlineDeployment/ExchangeOnlinePermSetup.ps1) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Documentations/Deployment-Overview.md
-
-| URL | State |
-| --- | --- |
-| [alt text](./Images/Image58.png) | 429 |
-| [alt text](./Images/Image59.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Documentations/ESICollector.md
-
-| URL | State |
-| --- | --- |
-| [the Parameters description document](./Parameters.md) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Documentations/README.md
-
-| URL | State |
-| --- | --- |
-| [Deployment Overview](./Deployment-Overview.md) | 429 |
-| [Deployment for On-Premises Solution](./Deployment-MES-OnPremises.md) | 429 |
-| [Deployment for Online Solution](./Deployment-MES-Online.md) | 429 |
-| [Collector Information](./ESICollector.md) | 429 |
-| [Solution Workbooks information](./WorkbookDeployement.md) | 429 |
-| [VIP Management](./VIPManagement.md) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Documentations/WorkbookDelegation.md
-
-| URL | State |
-| --- | --- |
-| [Workbooks](#workbooks) | 429 |
-| [Group creation in Entra ID](#group-creation-in-entra-id) | 429 |
-| [Creation of the custom role to access Log Analytics](#creation-of-the-custom-role-to-access-log-analytics) | 429 |
-| [Create a dédicated workspace for the workbook](#create-a-dédicated-workspace-for-the-workbook) | 429 |
-| [Set Permissions on the Resource Group](#set-permissions-on-the-resource-group) | 429 |
-| [Set Permissions in Log Analytics](#set-permissions-in-log-analytics) | 429 |
-| [Save the Workbook in the dedicated Resource Group](#save-the-workbook-in-the-dedicated-resource-group) | 429 |
-| [Access to the workbook](#access-to-the-workbook) | 429 |
-| [alt text](./Images/Image64.png) | 429 |
-| [alt text](./Images/Image65.png) | 429 |
-| [alt text](./Images/Image67.png) | 429 |
-| [alt text](./Images/Image66.png) | 429 |
-| [alt text](./Images/Image68.png) | 429 |
-| [alt text](./Images/Image69.png) | 429 |
-| [alt text](./Images/Image70.png) | 429 |
-| [alt text](./Images/Image71.png) | 429 |
-| [alt text](./Images/Image72.png) | 429 |
-| [alt text](./Images/Image73.png) | 429 |
-| [alt text](./Images/Image71.png) | 429 |
-| [alt text](./Images/Image74.png) | 429 |
-| [alt text](./Images/Image75.png) | 429 |
-| [alt text](./Images/Image76.png) | 429 |
-| [alt text](./Images/Image77.png) | 429 |
-| [alt text](./Images/Image78.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Documentations/WorkbookDeployement.md
-
-| URL | State |
-| --- | --- |
-| [alt text](./Images/Image52.png) | 429 |
-| [alt text](./Images/Image53.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/README.md
-
-| URL | State |
-| --- | --- |
-| [Documentations](./Documentations/) | 429 |
-| [Deployment Microsoft Exchange Security for Exchange On-Premises](./Documentations/Deployment-MES-OnPremises.md) | 429 |
-| [Exchange Security Insights On-Premise/Online Collector](./Documentations/ESICollector.md) | 429 |
-| [Documentations](./Documentations/) | 429 |
-| [Deployment Microsoft Exchange Security for Exchange Online](./Documentations/Deployment-MES-Online.md) | 429 |
-| [Exchange Security Insights On-Premise/Online Collector](./Documentations/ESICollector.md) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Solutions/ESICollector/OnlineDeployment/Update.md
-
-| URL | State |
-| --- | --- |
-| [ESI Collector - Update](#esi-collector---update) | 429 |
-| [Overview](#overview) | 429 |
-| [Azure Automation Manual Update -- For Runbook Deployment](#azure-automation-manual-update----for-runbook-deployment) | 429 |
-| [Runbook update](#runbook-update) | 429 |
-| [Configuration update](#configuration-update) | 429 |
-| [On-Premises Script Manual Update -- For On-Premises Deployment](#on-premises-script-manual-update----for-on-premises-deployment) | 429 |
-| [Script update](#script-update) | 429 |
-| [Script Configuration update](#script-configuration-update) | 429 |
-| [Install ESI Collector Updater](#install-esi-collector-updater) | 429 |
-| [GitHub repository](./../../ESICollector/README.md) | 429 |
-| [GitHub repository](./../../ESICollector) | 429 |
-| [GitHub repository](./../../ESICollector) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Solutions/ESICollector/Parameters.md
-
-| URL | State |
-| --- | --- |
-| [ExchSecIns Configuration](#exchsecins-configuration) | 429 |
-| [Table of Contents](#table-of-contents) | 429 |
-| [Parameters](#parameters) | 429 |
-| [Global](#global) | 429 |
-| [Output](#output) | 429 |
-| [Advanced](#advanced) | 429 |
-| [LogCollection](#logcollection) | 429 |
-| [MGGraphAPIConnection](#mggraphapiconnection) | 429 |
-| [InstanceConfiguration](#instanceconfiguration) | 429 |
-| [AuditFunctionsFiles](#auditfunctionsfiles) | 429 |
-| [AuditFunctionProtectedArea](#auditfunctionprotectedarea) | 429 |
-| [Description](#description) | 429 |
-| [UDSLogProcessor](#udslogprocessor) | 429 |
-| [InstanceConfiguration](#instanceconfiguration-1) | 429 |
-| [AuditFunctionsFiles](#auditfunctionsfiles-1) | 429 |
-| [other parameters](#other-parameters) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Solutions/ESICollector/README.md
-
-| URL | State |
-| --- | --- |
-| [here](./../../Documentations/ESICollector.md) | 429 |
-| [the Parameters description document](./Parameters.md) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/Parsers/README.md
-
-| URL | State |
-| --- | --- |
-| [Microsoft Exchange Security - Parsers information](#microsoft-exchange-security---parsers-information) | 429 |
-| [ExchangeConfiguration Parser](#exchangeconfiguration-parser) | 429 |
-| [Parser Definition](#parser-definition) | 429 |
-| [Parser Description](#parser-description) | 429 |
-| [Parser Setup](#parser-setup) | 429 |
-| [Linked tables](#linked-tables) | 429 |
-| [Parameters simulation](#parameters-simulation) | 429 |
-| [Exchange Configuration Environment List Parser](#exchange-configuration-environment-list-parser) | 429 |
-| [Parser Definition](#parser-definition-1) | 429 |
-| [Parser Description](#parser-description-1) | 429 |
-| [Parser Setup](#parser-setup-1) | 429 |
-| [Linked tables](#linked-tables-1) | 429 |
-| [Parameters simulation](#parameters-simulation-1) | 429 |
-| [Microsoft Exchange Security Check VIP Parser](#microsoft-exchange-security-check-vip-parser) | 429 |
-| [Parser Definition](#parser-definition-2) | 429 |
-| [Parser Description](#parser-description-2) | 429 |
-| [Parser dependency](#parser-dependency) | 429 |
-| [Parser Setup](#parser-setup-2) | 429 |
-| [Parameters simulation](#parameters-simulation-2) | 429 |
-| [Microsoft Exchange Compare Data MRA Parser](#microsoft-exchange-compare-data-mra-parser) | 429 |
-| [Parser Definition](#parser-definition-3) | 429 |
-| [Parser Description](#parser-description-3) | 429 |
-| [Parser Setup](#parser-setup-3) | 429 |
-| [Microsoft Exchange Security - Office 365 Activity logs Parser](#microsoft-exchange-security---office-365-activity-logs-parser) | 429 |
-| [Parser Definition](#parser-definition-4) | 429 |
-| [Parser Description](#parser-description-4) | 429 |
-| [Parser Setup](#parser-setup-4) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/README.md
-
-| URL | State |
-| --- | --- |
-| [General Documentation & Artifacts](./%23%20-%20General%20Content/README.md) | 429 |
-
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Isolate-MDEMachine/readme.md
 
 | URL | State |
 | --- | --- |
-| [Incident Trigger](./Isolate-MDEMachine-incident-trigger/images/designerLight.png) | 429 |
-| [Alert Trigger](./Isolate-MDEMachine-alert-trigger/images/Isolate-MDEMachine_alert.png) | 429 |
-| [Entity Trigger](./Isolate-MDE-Machine-entity-trigger/images/playbookDark.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Restrict-MDEAppExecution/readme.md
-
-| URL | State |
-| --- | --- |
-| [Incident Trigger](./Restrict-MDEAppExecution-incident-trigger/images/designerLight.png) | 429 |
-| [Alert Trigger](./Restrict-MDEAppExecution-alert-trigger/images/Restrict-MDEAppExecution_alert.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Restrict-MDEDomain/readme.md
-
-| URL | State |
-| --- | --- |
-| [Incident Trigger](./Restrict-MDEDomain-incident-trigger/images/designerDark.png) | 429 |
-| [Incident Trigger](./Restrict-MDEDomain-incident-trigger/images/designerLight.png) | 429 |
-| [Alert Trigger](./Restrict-MDEDomain-alert-trigger/images/Restrict-MDEDomain_alert.png) | 429 |
-| [Entity Trigger Light](./Restrict-MDEDomain-entity-trigger/images/Restrict-MDEDomain-entityTrigger-light.png) | 429 |
-| [Entity Trigger Dark](./Restrict-MDEDomain-entity-trigger/images/Restrict-MDEDomain-entityTrigger-dark.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Restrict-MDEFileHash/readme.md
-
-| URL | State |
-| --- | --- |
-| [Incident Trigger](./Restrict-MDEFileHash-incident-trigger/images/designerLight.png) | 429 |
-| [Alert Trigger](./Restrict-MDEFileHash-alert-trigger/images/Restrict-MDEFileHash_alert.png) | 429 |
-| [Entity Trigger Light](./Restrict-MDEFileHash-entity-trigger/images/Restrict-MDEFileHash-entityTrigger-light.png) | 429 |
-| [Entity Trigger Dark](./Restrict-MDEFileHash-entity-trigger/images/Restrict-MDEFileHash-entityTrigger-dark.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Restrict-MDEIPAddress/readme.md
-
-| URL | State |
-| --- | --- |
-| [Incident Trigger](./Restrict-MDEIPAddress-incident-trigger/images/designerLight.png) | 429 |
-| [Alert Trigger](./Restrict-MDEIPAddress-alert-trigger/images/Restrict-MDEIpAddress_alert.png) | 429 |
-| [Entity Trigger Light](./Restrict-MDEIPAddress-entity-trigger/images/Restrict-MDEIPAddress-entityTrigger-light.png) | 429 |
-| [Entity Trigger](./Restrict-MDEIPAddress-entity-trigger/images/Restrict-MDEIPAddress-entityTrigger-dark.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Restrict-MDEUrl/readme.md
-
-| URL | State |
-| --- | --- |
-| [Incident Trigger](./Restrict-MDEUrl-incident-trigger/images/designerLight.png) | 429 |
-| [Alert Trigger](./Restrict-MDEUrl-alert-trigger/images/Restrict-MDEUrl_alert.png) | 429 |
-| [Entity Trigger Light](./Restrict-MDEUrl-entity-trigger/images/Restrict-MDEURLAddress-entityTrigger-light.png) | 429 |
-| [Entity Trigger Light](./Restrict-MDEUrl-entity-trigger/images/Restrict-MDEURLAddress-entityTrigger-dark.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Run-MDEAntivirus/readme.md
-
-| URL | State |
-| --- | --- |
-| [Incident Trigger](./Run-MDEAntivirus-incident-trigger/images/designerDark.png) | 429 |
-| [Alert Trigger](./Run-MDEAntivirus-alert-trigger/images/Run-MDEAntivirus_alert.png) | 429 |
+| [Entity Trigger](./Isolate-MDE-Machine-entity-trigger/images/playbookDark.png) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Unisolate-MDEMachine/readme.md
 
 | URL | State |
 | --- | --- |
-| [Incident Trigger](./Unisolate-MDEMachine/Unisolate-MDEMachine-incident-trigger/images/designerLight.png) | 429 |
-| [Alert Trigger](./Unisolate-MDEMachine/Unisolate-MDEMachine-alert-trigger/images/Unisolate-MDEMachine_alert.png) | 429 |
-| [Entity Trigger](./Unisolate-MDEMachine/Unisolate-MDE-Machine-entity-trigger/images/playbookDark.png) | 429 |
+| [Incident Trigger](./Unisolate-MDEMachine/Unisolate-MDEMachine-incident-trigger/images/designerLight.png) | 404 |
+| [Alert Trigger](./Unisolate-MDEMachine/Unisolate-MDEMachine-alert-trigger/images/Unisolate-MDEMachine_alert.png) | 404 |
+| [Entity Trigger](./Unisolate-MDEMachine/Unisolate-MDE-Machine-entity-trigger/images/playbookDark.png) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftPurviewInsiderRiskManagement/readme.md
 
 | URL | State |
 | --- | --- |
-| [Workbook Overview](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftPurviewInsiderRiskManagement/Workbooks/Images/InsiderRiskManagementBlack1.png?raw=true) | 429 |
+| [Workbook Overview](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftPurviewInsiderRiskManagement/Workbooks/Images/InsiderRiskManagementBlack1.png?raw=true) | 404 |
 | [Investigate incidents with Microsoft Sentinel]( https://docs.microsoft.com/azure/sentinel/investigate-cases) | 0 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Mimecast/Playbooks/Mimecast Data Connector Trigger Sync/README.md
-
-| URL | State |
-| --- | --- |
-| [Summary](#Summary) | 429 |
-| [Prerequisites](#Prerequisites) | 429 |
-| [Deployment instructions](#Deployment-instructions) | 429 |
-| [Post-Deployment instructions](#Post-Deployment-instructions) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Minemeld/Playbooks/MinemeldPlaybooks/Minemeld-CreateIndicator/readme.md
-
-| URL | State |
-| --- | --- |
-| [Minemeld documentation](https://github.com/PaloAltoNetworks/minemeld/wiki) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Minemeld/Playbooks/MinemeldPlaybooks/Minemeld-EnrichIncident/readme.md
-
-| URL | State |
-| --- | --- |
-| [Minemeld documentation](https://github.com/PaloAltoNetworks/minemeld/wiki) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MongoDBAtlas/README.md
 
 | URL | State |
 | --- | --- |
-| [Release Notes](releaseNotes.md) | 429 |
-| [Pre-requisites](#pre-requisites) | 429 |
-| [Deployment Process](#deployment-process) | 429 |
+| [Release Notes](releaseNotes.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/NISTSP80053/readme.md
 
 | URL | State |
 | --- | --- |
-| [Workbook Overview](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/NISTSP80053/Workbooks/Images/NISTSP80053Black.png?raw=true) | 429 |
 | [Details of the NIST SP 800-53 Rev. 4 Regulatory Compliance built-in initiative](https://docs.microsoft.com/azure/governance/policy/samples/nist-sp-800-53-) | 404 |
-| [GitHub Commit History](https://github.com/Azure/azure-policy/commits/master/built-in-policies/policySetDefinitions/Regulatory%20Compliance/NIST80053_audit.json) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Netskopev2/Playbooks/NetskopeDataConnectorsTriggerSync/Readme.md
-
-| URL | State |
-| --- | --- |
-| [Summary](#Summary) | 429 |
-| [Prerequisites](#Prerequisites) | 429 |
-| [Deployment instructions](#Deployment-instructions) | 429 |
-| [Post-Deployment instructions](#Post-Deployment-instructions) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Netskopev2/Playbooks/NetskopeWebTxErrorEmail/Readme.md
-
-| URL | State |
-| --- | --- |
-| [Summary](#Summary) | 429 |
-| [Deployment instructions](#Deployment-instructions) | 429 |
-| [Post-Deployment instructions](#Post-Deployment-instructions) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Neustar IP GeoPoint/Playbooks/Neustar-GetIPGeoInfo/readme.md
 
 | URL | State |
 | --- | --- |
-| [Neustar IP GeoPoint API Function App Connector](../NeustarIPGeoPoint_FunctionAppConnector/) | 429 |
-| [Neustar IP GeoPoint API Function App Connector](../NeustarIPGeoPoint_FunctionAppConnector/readme.md) | 429 |
-| [Neustar IP GeoPoint API Function App Connector](../NeustarIPGeoPoint_FunctionAppConnector/readme.md) | 429 |
+| [Neustar IP GeoPoint API Function App Connector](../NeustarIPGeoPoint_FunctionAppConnector/) | 404 |
+| [Neustar IP GeoPoint API Function App Connector](../NeustarIPGeoPoint_FunctionAppConnector/readme.md) | 404 |
+| [Neustar IP GeoPoint API Function App Connector](../NeustarIPGeoPoint_FunctionAppConnector/readme.md) | 404 |
 | [Neustar IP GeoPoint API Guide](https://ipintelligence.neustar.biz/portal/pc/portal/docs/doc_rest_api.html) | 403 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Neustar IP GeoPoint/Playbooks/NeustarIPGeoPoint_FunctionAppConnector/readme.md
@@ -1733,532 +2010,128 @@
 | [Token for Microsoft Sentinel integration](https://support.nordpass.com/hc/en-us/articles/31972037289873) | 403 |
 | [Contact Support](https://support.nordpass.com/hc/en-us/requests/new) | 403 |
 
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Okta Single Sign-On/Playbooks/OktaPlaybooks/Okta-EnrichIncidentWithUserDetails/readme.md
-
-| URL | State |
-| --- | --- |
-| [Comment example](./images/Incident_Comment.png) | 429 |
-| [Playbook Designer view](./Okta-EnrichIncidentwithuserdetails.PNG) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Okta Single Sign-On/Playbooks/OktaPlaybooks/Okta-PromptUser/readme.md
-
-| URL | State |
-| --- | --- |
-| [Playbook Designer view](./Okta-PromptUser.PNG) | 429 |
-| [Adaptive Card example](./images/AdaptivecardtotheEnduser.PNG) | 429 |
-| [Adaptive Card example](./images/AdaptivecardtoSOCadminon%20teamschannel.PNG) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Okta Single Sign-On/Playbooks/OktaPlaybooks/Okta-ResponseFromTeams/readme.md
-
-| URL | State |
-| --- | --- |
-| [Playbook Designer view](./Okta-ResponseFromTeams.PNG) | 429 |
-| [Adaptive Card example](./images/AdaptiveCardtoSOCuser.PNG) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Okta Single Sign-On/Playbooks/readme.md
-
-| URL | State |
-| --- | --- |
-| [Overview](#overview) | 429 |
-| [Deploy Custom Connector + 3 Playbook templates](#deployall) | 429 |
-| [Authentication](#importantnotes) | 429 |
-| [Prerequisites](#prerequisites) | 429 |
-| [Deployment](#deployment) | 429 |
-| [Post Deployment Steps](#postdeployment) | 429 |
-| [Components of this integration](#components) | 429 |
-| [OktaCustomConnector](https://github.com/Azure/Azure-Sentinel/tree/master/Solutions/Okta%20Single%20Sign-On/Playbooks/OktaCustomConnector) | 429 |
-| [Okta-Response From Teams : Playbook to perform different actions on user on Okta and add user deatils to incident](https://github.com/Azure/Azure-Sentinel/tree/master/Solutions/Okta%20Single%20Sign-On/Playbooks/OktaPlaybooks/Okta-EnrichIncidentWithUserDetails) | 429 |
-| [Okta-Enrich incident with user details : Playbook to enrich incident with user deatils and user groupdetails ](https://github.com/Azure/Azure-Sentinel/tree/master/Solutions/Okta%20Single%20Sign-On/Playbooks/OktaPlaybooks/Okta-EnrichIncidentWithUserDetails) | 429 |
-| [Okta-PromptUser : Playbook to prompt risky user about the malicious activity](https://github.com/Azure/Azure-Sentinel/tree/master/Solutions/Okta%20Single%20Sign-On/Playbooks/OktaPlaybooks/Okta-PromptUser) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/OpenCTI/Playbooks/OpenCTIPlaybooks/OpenCTI-CreateIndicator/readme.md
-
-| URL | State |
-| --- | --- |
-| [Comment example](./images/IncidentCommentCreateindicator.png) | 429 |
-| [Playbook Designer view](./images/CreateIndicatorOpenCTIworkflow.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/OpenCTI/Playbooks/OpenCTIPlaybooks/OpenCTI-EnrichIncident/readme.md
-
-| URL | State |
-| --- | --- |
-| [Comment example](./images/CommentGetIndicatorInfofromOpenCTI.png) | 429 |
-| [Playbook Designer view](./images/GetIndicatorInfoOpenCTI.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/OpenCTI/Playbooks/OpenCTIPlaybooks/OpenCTI-GetIndicatorsStream/readme.md
-
-| URL | State |
-| --- | --- |
-| [Playbook Designer view](./images/ImportToSentinel.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/OpenCTI/Playbooks/OpenCTIPlaybooks/OpenCTI-ImportToSentinel/readme.md
-
-| URL | State |
-| --- | --- |
-| [Playbook Designer view](./images/BatchImportToSentinel.png) | 429 |
-| [AAD TenantId view](./images/AADTenantId.png) | 429 |
-| [LogicApp System Identity TenantId view](./images/LogicAppSystemIdentity.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Palo Alto - XDR (Cortex)/Playbook/README.md
-
-| URL | State |
-| --- | --- |
-| [Overview](#overview) | 429 |
-| [Prerequisites](#prerequisites) | 429 |
-| [Deploy Palo Alot XDR playbook](#deployall) | 429 |
-| [Deployment Instructions](#instructions) | 429 |
-| [Post-Deployment Instructions](#postdeployment) | 429 |
-| [References](#references) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Palo Alto Prisma Cloud CWPP/Data Connectors/readme.md
-
-| URL | State |
-| --- | --- |
-| [Prisma_console_portal](Images/console_portal.png) | 429 |
-| [Setting](Images/setting.png) | 429 |
-| [access_control](Images/access_control.png) | 429 |
-| [add_option](Images/add_option.png) | 429 |
-| [New_Service_account](Images/New_Service_account.png) | 429 |
-| [Accesskey_details](Images/Accesskey_details.png) | 429 |
-| [Accesskey_results](Images/Accesskey_results.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/PaloAlto-PAN-OS/Playbooks/PaloAltoPlaybooks/PaloAlto-PAN-OS-BlockIP-EntityTrigger/readme.md
-
-| URL | State |
-| --- | --- |
-| [PaloAlto-PAN-OS-BlockIP](./images/designerscreenshot_lighttheme.PNG) | 429 |
-| [Adaptive Card example](./images/AdaptiveCardtoBlockorUnblock.PNG) | 429 |
-| [Consolidated Adaptive Card example](./images/SummarizedAdaptiveCard.PNG) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/PaloAlto-PAN-OS/Playbooks/PaloAltoPlaybooks/PaloAlto-PAN-OS-BlockIP/readme.md
-
-| URL | State |
-| --- | --- |
-| [PaloAlto-PAN-OS-BlockIP](./designerscreenshot.PNG) | 429 |
-| [Adaptive Card example](./AdaptiveCardtoBlockorUnblock.PNG) | 429 |
-| [Consolidated Adaptive Card example](./SummarizedAdaptiveCard.PNG) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/PaloAlto-PAN-OS/Playbooks/PaloAltoPlaybooks/PaloAlto-PAN-OS-BlockURL-EntityTrigger/readme.md
-
-| URL | State |
-| --- | --- |
-| [PaloAlto-PAN-OS-BlockURL](./images/designerscreenshot_lighttheme.PNG) | 429 |
-| [Adaptive Card example](./images/AdaptiveCardtoBlockorUnblock.PNG) | 429 |
-| [Consolidated Adaptive Card example](./images/SummarizedAdaptiveCard.PNG) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/PaloAlto-PAN-OS/Playbooks/PaloAltoPlaybooks/PaloAlto-PAN-OS-BlockURL/readme.md
-
-| URL | State |
-| --- | --- |
-| [PaloAlto-PAN-OS-BlockURL](./designerscreenshot.PNG) | 429 |
-| [Adaptive Card example](./AdaptiveCardtoBlockorUnblock.PNG) | 429 |
-| [Consolidated Adaptive Card example](./SummarizedAdaptiveCard.PNG) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/PaloAlto-PAN-OS/Playbooks/PaloAltoPlaybooks/PaloAlto-PAN-OS-GetURLCategoryInfo/readme.md
-
-| URL | State |
-| --- | --- |
-| [PaloAlto-PAN-OS-GetURLCategoryInfo](./designerscreenshot.PNG) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/PaloAlto-PAN-OS/Playbooks/readme.md
-
-| URL | State |
-| --- | --- |
-| [Overview](#overview) | 429 |
-| [Deploy Custom Connector + 3 Playbook templates](#deployall) | 429 |
-| [Authentication](#authentication) | 429 |
-| [Prerequisites](#prerequisites) | 429 |
-| [Deployment](#deployment) | 429 |
-| [Post Deployment Steps](#postdeployment) | 429 |
-| [Known issues and limitations](#knownissues) | 429 |
-| [various actions](./PaloAltoCustomConnector#actions-supported-by-palo-alto-custom-connector) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/PaloAltoPrismaCloud/Data Connectors/Readme.md
-
-| URL | State |
-| --- | --- |
-| [Introduction](#intro) | 429 |
-| [Prerequisites](#step2) | 429 |
-| [Steps to get the Access Key & Secret Key from the PrismaCloudCSPM](#Key) | 429 |
-| [Steps to get the Base URL](#url) | 429 |
-
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ProofPointTap/Playbooks/readme.md
 
 | URL | State |
 | --- | --- |
-| [Overview](#overview) | 429 |
-| [Custom Connector + 3 Playbook templates deployment](#deployall) | 429 |
-| [Authentication](#importantnotes) | 429 |
-| [Prerequisites](#prerequisites) | 429 |
-| [Deployment](#deployment) | 429 |
-| [Post-Deployment Steps](#postdeployment) | 429 |
-| [References](#references) | 429 |
-| [Known issues and limitations](#limitations) | 429 |
-| [Logic Apps custom connector for Proofpoint TAP](./ProofpointTAPConnector) | 429 |
-| [Enrichment – add information to incidents](./Playbooks/ProofpointTAP-CheckAccountInVAP) | 429 |
-| [Enrichment - add forensics info to incident](./Playbooks/ProofpointTAP-AddForensicsInfoToIncident) | 429 |
+| [Enrichment – add information to incidents](./Playbooks/ProofpointTAP-CheckAccountInVAP) | 404 |
+| [Enrichment - add forensics info to incident](./Playbooks/ProofpointTAP-AddForensicsInfoToIncident) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/QualysVM/Playbooks/QualysVMPlaybooks/QualysVM-GetAssetDetails/readme.md
 
 | URL | State |
 | --- | --- |
-| [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/) | 429 |
-| [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/readme.md) | 429 |
+| [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/) | 404 |
+| [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/readme.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/QualysVM/Playbooks/QualysVMPlaybooks/QualysVM-GetAssets-ByCVEID/readme.md
 
 | URL | State |
 | --- | --- |
-| [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/) | 429 |
-| [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/readme.md) | 429 |
+| [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/) | 404 |
+| [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/readme.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/QualysVM/Playbooks/QualysVMPlaybooks/QualysVM-GetAssets-ByOpenPort/readme.md
 
 | URL | State |
 | --- | --- |
-| [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/) | 429 |
-| [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/readme.md) | 429 |
+| [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/) | 404 |
+| [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/readme.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/QualysVM/Playbooks/QualysVMPlaybooks/QualysVM-LaunchVMScan-GenerateReport/readme.md
 
 | URL | State |
 | --- | --- |
-| [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/) | 429 |
-| [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/readme.md) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/README.md
-
-| URL | State |
-| --- | --- |
-| [Microsoft Sentinel solutions build process](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Images/solutions_steps.png) | 429 |
-| [Get started documentation](https://github.com/Azure/Azure-Sentinel/wiki#get-started) | 429 |
-| [Solutions](https://github.com/Azure/Azure-Sentinel/tree/master/Solutions) | 429 |
-| [Solutions](https://github.com/Azure/Azure-Sentinel/tree/master/Solutions) | 429 |
-| [this](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/CrowdStrike%20Falcon%20Endpoint%20Protection/Parsers/CrowdStrikeReplicatorV2.yaml) | 429 |
-| [Cisco ISE solution](https://github.com/Azure/Azure-Sentinel/tree/master/Solutions/Cisco%20ISE) | 429 |
-| [Logos](https://github.com/Azure/Azure-Sentinel/tree/master/Logos) | 429 |
-| [sample data folder](https://github.com/Azure/Azure-Sentinel/tree/master/Sample%20Data) | 429 |
-| [Address potential errors](https://github.com/Azure/Azure-Sentinel/wiki#test-your-contribution) | 429 |
-| [package creation tool](https://github.com/Azure/Azure-Sentinel/tree/master/Tools/Create-Azure-Sentinel-Solution/V3) | 429 |
-| [solutions packaging tool guidance](https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Create-Azure-Sentinel-Solution/V3/README.md) | 429 |
+| [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/) | 404 |
+| [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/readme.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Rapid7InsightVM/Playbooks/Playbooks/Rapid7InsightVM-EnrichIncidentWithAssetInfo/readme.md
 
 | URL | State |
 | --- | --- |
-| [Rapid7 InsightVM API Connector](../../Rapid7InsightVMCloudAPIConnector/) | 429 |
-| [Rapid7 InsightVM API Connector](../../Rapid7InsightVMCloudAPIConnector/) | 429 |
+| [Rapid7 InsightVM API Connector](../../Rapid7InsightVMCloudAPIConnector/) | 404 |
+| [Rapid7 InsightVM API Connector](../../Rapid7InsightVMCloudAPIConnector/) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Rapid7InsightVM/Playbooks/Playbooks/Rapid7InsightVM-EnrichVulnerabilityInfo/readme.md
 
 | URL | State |
 | --- | --- |
-| [Rapid7 InsightVM API Connector](../../Rapid7InsightVMCloudAPIConnector/) | 429 |
-| [Rapid7 InsightVM API Connector](../../Rapid7InsightVMCloudAPIConnector/) | 429 |
+| [Rapid7 InsightVM API Connector](../../Rapid7InsightVMCloudAPIConnector/) | 404 |
+| [Rapid7 InsightVM API Connector](../../Rapid7InsightVMCloudAPIConnector/) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Rapid7InsightVM/Playbooks/Playbooks/Rapid7InsightVM-RunScan/readme.md
 
 | URL | State |
 | --- | --- |
-| [Rapid7 InsightVM API Connector](../../Rapid7InsightVMCloudAPIConnector/) | 429 |
-| [Rapid7 InsightVM API Connector](../../Rapid7InsightVMCloudAPIConnector/) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Rapid7InsightVM/Playbooks/readme.md
-
-| URL | State |
-| --- | --- |
-| [Overview](#overview) | 429 |
-| [Custom Connectors + 3 Playbook templates deployment](#deployall) | 429 |
-| [Authentication](#authentication) | 429 |
-| [Prerequisites](#prerequisites) | 429 |
-| [Deployment](#deployment) | 429 |
-| [Post-Deployment Steps](#postdeployment) | 429 |
-| [Logic Apps custom connector for Rapid7 InsightVM Cloud Integrations API](./Rapid7InsightVMCloudAPIConnector) | 429 |
-| [Rapid7InsightVM-EnrichIncidentWithAssetInfo](./Playbooks/Rapid7InsightVM-EnrichIncidentWithAssetInfo) | 429 |
-| [Rapid7InsightVM-EnrichVulnerabilityInfo](./Playbooks/Rapid7InsightVM-EnrichVulnerabilityInfo) | 429 |
-| [Rapid7InsightVM-RunScan](./Playbooks/Rapid7InsightVM-RunScan) | 429 |
+| [Rapid7 InsightVM API Connector](../../Rapid7InsightVMCloudAPIConnector/) | 404 |
+| [Rapid7 InsightVM API Connector](../../Rapid7InsightVMCloudAPIConnector/) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future Identity/Playbooks/readme.md
 
 | URL | State |
 | --- | --- |
-| [Recorded Future Identity main readme](../readme.md) | 429 |
-| [Overview](#overview) | 429 |
-| [Deployment](#deployment) | 429 |
-| [Prerequisites](#prerequisites) | 429 |
-| [Playbooks](#playbooks) | 429 |
-| ["Connector" playbooks](#connector_playbooks) | 429 |
-| [RFI-CustomConnector](#RFI-CustomConnector) | 429 |
-| ["Alert" playbooks](#alert_playbooks) | 429 |
-| [RFI-playbook-alert-importer](#RFI-playbook-alert-importer) | 429 |
-| [RFI-playbook-alert-importer-law](#RFI-playbook-alert-importer-law) | 429 |
-| [RFI-playbook-alert-importer-law-sentinel](#RFI-playbook-alert-importer-law-sentinel) | 429 |
-| [How to configure playbooks](#configuration) | 429 |
-| [How to find the playbooks (Logic Apps) after deployment](#find_playbooks_after_deployment) | 429 |
-| [Configuring Playbooks Connections](#configuration_connections) | 429 |
-| [API connector authorization](#API-connector-authorization) | 429 |
-| [Configuring Playbooks Parameters](#configuration_parameters) | 429 |
-| [How to Run Playbooks](#how_to_run_playbooks) | 429 |
-| [Suggestions for advanced users](#suggestions_for_advanced_users) | 429 |
-| [How to access Log Analytics Custom Logs](#how_to_access_log_analytics_custom_logs) | 429 |
-| [Customization](#customization) | 429 |
-| [Known Issues](#known-issues) | 429 |
-| [Useful Azure documentation](#useful_documentation) | 429 |
-| [How to obtain Recorded Future API token](#how_to_obtain_Recorded_Future_API_token) | 429 |
-| [How to contact Recorded Future](#how_to_contact_Recorded_Future) | 429 |
-| [v3.0](./v3.0/readme.md) | 429 |
-| [this section](#how_to_obtain_Recorded_Future_API_token) | 429 |
-| [RecordedFuture-CustomConnector](../../Recorded%20Future/Playbooks/Connectors/RecordedFuture-CustomConnector/readme.md) | 429 |
-| [How to obtain Recorded Future API token](#how_to_obtain_Recorded_Future_API_token) | 429 |
-| [apiconnection](images/apiconnection.png) | 429 |
-| [managedidentity1](images/managedidentity1.png) | 429 |
-| [managedidentity2](images/managedidentity2.png) | 429 |
-| [API request form](images/APIRequest2.png) | 429 |
-| [Changing the Added actions taken parameter](images/added_actions_taken.png) | 429 |
+| [RecordedFuture-CustomConnector](../../Recorded%20Future/Playbooks/Connectors/RecordedFuture-CustomConnector/readme.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future Identity/Playbooks/v3.0/readme.md
 
 | URL | State |
 | --- | --- |
-| [readme](../readme.md) | 429 |
-| [Overview](#overview) | 429 |
-| [Deployment](#deployment) | 429 |
-| [Prerequisites](#prerequisites) | 429 |
-| [Playbooks](#playbooks) | 429 |
-| ["Connector" playbooks](#connector_playbooks) | 429 |
-| [RFI-CustomConnector](#RFI-CustomConnector) | 429 |
-| [Base playbooks](#Base-playbooks) | 429 |
-| [Add risky user to Microsoft EntraID Group](#RFI-add-EntraID-security-group-user) | 429 |
-| [Microsoft EntraID Protection - confirm user is compromised](#entraid_identity_protection_confirm_user_is_compromised) | 429 |
-| [Lookup risky user and save results](#RFI-lookup-and-save-user) | 429 |
-| ["Search" playbooks (Workforce and External)](#search_playbooks) | 429 |
-| [RFI-search-workforce-user](#RFI-search-workforce-user) | 429 |
-| [RFI-search-external-user](#RFI-search-external-user) | 429 |
-| [How to configure playbooks](#configuration) | 429 |
-| [How to find the playbooks (Logic Apps) after deployment](#find_playbooks_after_deployment) | 429 |
-| [Configuring Playbooks Connections](#configuration_connections) | 429 |
-| [API connector authorization](#API-connector-authorization) | 429 |
-| [Configuring Playbooks Parameters](#configuration_parameters) | 429 |
-| [How to Run Playbooks](#how_to_run_playbooks) | 429 |
-| [Suggestions for advanced users](#suggestions_for_advanced_users) | 429 |
-| [How to access Log Analytics Custom Logs](#how_to_access_log_analytics_custom_logs) | 429 |
-| [Useful Azure documentation](#useful_documentation) | 429 |
-| [How to obtain Recorded Future API token](#how_to_obtain_Recorded_Future_API_token) | 429 |
-| [How to contact Recorded Future](#how_to_contact_Recorded_Future) | 429 |
-| [this section](#how_to_obtain_Recorded_Future_API_token) | 429 |
-| [How to obtain Recorded Future API token](#how_to_obtain_Recorded_Future_API_token) | 429 |
-| [RecordedFuture-CustomConnector](../../../Recorded%20Future/Playbooks/Connectors/RecordedFuture-CustomConnector/readme.md) | 429 |
-| [API request form](../images/APIRequest.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future Identity/readme.md
-
-| URL | State |
-| --- | --- |
-| [Recorded Future main readme](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded%20Future/readme.md) | 429 |
-| [Installation guide](Playbooks/readme.md) | 429 |
-| [Installation guide](Playbooks/readme.md) | 429 |
+| [RecordedFuture-CustomConnector](../../../Recorded%20Future/Playbooks/Connectors/RecordedFuture-CustomConnector/readme.md) | 404 |
+| [API request form](../images/APIRequest.png) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future/Playbooks/Alerts/readme.md
 
 | URL | State |
 | --- | --- |
-| [readme](../readme.md) | 429 |
-| [Connector authorization](../readme.md#connector-authorization) | 429 |
-| [Connector authorization](../readme.md#connector-authorization) | 429 |
-| [](../Images/2023-08-09-18-05-46.png) | 429 |
-| [Connector authorization](#connector-authorization) | 429 |
-| [Connector authorization](../readme.md#connector-authorization) | 429 |
-| [alt text](create_incident.png) | 429 |
-| [Playbook Alert categories within logic app](./pba_categories.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future/Playbooks/Connectors/RecordedFuture-CustomConnector/readme.md
-
-| URL | State |
-| --- | --- |
-| [readme](../../../readme.md) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future/Playbooks/Deprecated/readme.md
-
-| URL | State |
-| --- | --- |
-| [readme](../readme.md) | 429 |
-| [RecordedFuture-DOMAIN-C2_DNS_Name-IndicatorProcessor](RecordedFuture-DOMAIN-C2_DNS_Name-IndicatorProcessor/readme.md) | 429 |
-| [RecordedFuture-HASH-Observed_in_Underground_Virus_Test_Sites-IndicatorProcessor](RecordedFuture-HASH-Observed_in_Underground_Virus_Test_Sites-IndicatorProcessor/readme.md) | 429 |
-| [RecordedFuture-ImportToSentinel](RecordedFuture-ImportToSentinel/readme.md) | 429 |
-| [RecordedFuture-IP-Actively_Comm_C2_Server-IndicatorProcessor](RecordedFuture-IP-Actively_Comm_C2_Server-IndicatorProcessor/readme.md) | 429 |
-| [RecordedFuture-Ukraine-IndicatorProcessor](RecordedFuture-Ukraine-IndicatorProcessor/readme.md) | 429 |
-| [RecordedFuture-URL-Recent_Rep_by_Insikt_Group-IndicatorProcessor](RecordedFuture-URL-Recent_Rep_by_Insikt_Group-IndicatorProcessor/readme.md) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future/Playbooks/Enrichment/quickstart.md
-
-| URL | State |
-| --- | --- |
-| [readme](../readme.md) | 429 |
-| [](Images/permissions.png) | 429 |
-| [](Images/playbookInstallation.png) | 429 |
-| [](Images/auth.png) | 429 |
-| [](Images/automation.png) | 429 |
-| [](Images/incidentComment.png) | 429 |
-| [](Images/secops.png) | 429 |
-| [Overview on Recorded Future Integrations](../../readme.md) | 429 |
-| [Enrichment playbooks](./readme.md) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future/Playbooks/Enrichment/readme.md
-
-| URL | State |
-| --- | --- |
-| [readme](../readme.md) | 429 |
-| [Connector authorization](../readme.md#connector-authorization) | 429 |
-| [Connector authorization](../readme.md#connector-authorization) | 429 |
-| [](./RecordedFuture-IOC_Enrichment/images/CreateAutomationRuleMenu.png) | 429 |
+| [](../Images/2023-08-09-18-05-46.png) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future/Playbooks/IndicatorImport/readme.md
 
 | URL | State |
 | --- | --- |
-| [readme](../readme.md) | 429 |
-| [Connector authorization](../readme.md#connector-authorization) | 429 |
-| [Connector authorization](../readme.md##connector-authorization) | 429 |
-| [Connector authorization](../readme.md#connector-authorization) | 429 |
-| [Connector authorization](../readme.md##connector-authorization) | 429 |
-| [Connector authorization](../readme.md#connector-authorization) | 429 |
-| [Connector authorization](../readme.md##connector-authorization) | 429 |
-| [Connector authorization](../readme.md#connector-authorization) | 429 |
-| [Connector authorization](../readme.md##connector-authorization) | 429 |
-| [Connector authorization](../readme.md#connector-authorization) | 429 |
-| [](../Images/2023-04-19-16-49-53.png) | 429 |
-| [](../Images/2023-04-19-16-51-12.png) | 429 |
-| [](../Images/2023-09-08-12-01-37.png) | 429 |
-| [](../Images/2023-12-12-10-02-11.png) | 429 |
-| [](../Images/2023-04-18-16-39-00.png) | 429 |
+| [](../Images/2023-04-19-16-49-53.png) | 404 |
+| [](../Images/2023-04-19-16-51-12.png) | 404 |
+| [](../Images/2023-09-08-12-01-37.png) | 404 |
+| [](../Images/2023-12-12-10-02-11.png) | 404 |
+| [](../Images/2023-04-18-16-39-00.png) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future/Playbooks/Sandboxing/readme.md
 
 | URL | State |
 | --- | --- |
-| [readme](../readme.md) | 429 |
-| [Recorded Future API Key](../readme.md#recorded-future-api-key) | 429 |
-| [](../Images/2023-06-26-10-04-42.png) | 429 |
-| [Connector authorization](../readme.md#connector-authorization) | 429 |
-| [Connector authorization](../readme.md#connector-authorization) | 429 |
-| [Connector authorization](../readme.md#connector-authorization) | 429 |
-| [](../Images/2023-05-05-15-37-58.png) | 429 |
-| [Connector authorization](../readme.md#connector-authorization) | 429 |
-| [](../Images/2023-05-05-15-29-37.png) | 429 |
-| [](../Enrichment/RecordedFuture-IOC_Enrichment/images/CreateAutomationRuleMenu.png) | 429 |
-| [](../Enrichment/RecordedFuture-IOC_Enrichment/images/CreateAutomationRule.png) | 429 |
+| [](../Images/2023-06-26-10-04-42.png) | 404 |
+| [](../Images/2023-05-05-15-37-58.png) | 404 |
+| [](../Images/2023-05-05-15-29-37.png) | 404 |
+| [](../Enrichment/RecordedFuture-IOC_Enrichment/images/CreateAutomationRuleMenu.png) | 404 |
+| [](../Enrichment/RecordedFuture-IOC_Enrichment/images/CreateAutomationRule.png) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future/Playbooks/ThreatHunting/readme.md
 
 | URL | State |
 | --- | --- |
-| [readme](../readme.md) | 429 |
-| [**/RecordedFuture-CustomConnector**](../Connectors/RecordedFuture-CustomConnector/readme.md) | 429 |
-| [Connector authorization](../readme.md#connector-authorization) | 429 |
-| [Connector authorization](../readme.md#connector-authorization) | 429 |
-| [**/RecordedFuture-CustomConnector**](../Connectors/RecordedFuture-CustomConnector/readme.md) | 429 |
-| [Connector authorization](../readme.md#connectors-authorization) | 429 |
-| [Connector authorization](../readme.md#connectors-authorization) | 429 |
-| [**/RecordedFuture-CustomConnector**](../Connectors/RecordedFuture-CustomConnector/readme.md) | 429 |
-| [Connector authorization](../readme.md#connectors-authorization) | 429 |
-| [Connector authorization](../readme.md#connectors-authorization) | 429 |
-| [here](../readme.md#analytic-rules) | 429 |
-| [Recorded Future Enrichment](../Enrichment/readme.md#recordedfuture-ioc_enrichment) | 429 |
-| [](Images/2023-10-26-19-50-43.png) | 429 |
-| [**/RecordedFuture-CustomConnector**](../Connectors/RecordedFuture-CustomConnector/readme.md) | 429 |
-| [Connector authorization](../readme.md#connectors-authorization) | 429 |
-| [Connector authorization](../readme.md#connectors-authorization) | 429 |
-| [here](../readme.md#analytic-rules) | 429 |
-| [Recorded Future Enrichment](../Enrichment/readme.md#recordedfuture-ioc_enrichment) | 429 |
-| [alt text](Images/AdvancedParameters.png) | 429 |
-| [alt text](Images/GenericDetails.png) | 429 |
-| [alt text](Images/advanceindicatorconfig.png) | 429 |
-| [alt text](Images/GenericDetails.png) | 429 |
+| [**/RecordedFuture-CustomConnector**](../Connectors/RecordedFuture-CustomConnector/readme.md) | 404 |
+| [**/RecordedFuture-CustomConnector**](../Connectors/RecordedFuture-CustomConnector/readme.md) | 404 |
+| [**/RecordedFuture-CustomConnector**](../Connectors/RecordedFuture-CustomConnector/readme.md) | 404 |
+| [Recorded Future Enrichment](../Enrichment/readme.md#recordedfuture-ioc_enrichment) | 404 |
+| [](Images/2023-10-26-19-50-43.png) | 404 |
+| [**/RecordedFuture-CustomConnector**](../Connectors/RecordedFuture-CustomConnector/readme.md) | 404 |
+| [Recorded Future Enrichment](../Enrichment/readme.md#recordedfuture-ioc_enrichment) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future/Playbooks/readme.md
 
 | URL | State |
 | --- | --- |
-| [](Images/2023-11-17-22-53-18.png) | 429 |
-| [RecordedFuture-CustomConnector](Connectors/RecordedFuture-CustomConnector/readme.md) | 429 |
-| [Playbooks](#playbooks) | 429 |
-| [](Images/2023-04-18-08-39-58.png) | 429 |
-| [](Images/2023-11-20-12-13-25.png) | 429 |
-| [here](#playbooks) | 429 |
-| [](Images/2023-11-20-12-34-15.png) | 429 |
-| [](Images/2023-04-18-08-43-42.png) | 429 |
-| [Key Features](../readme.md#key-features) | 429 |
-| [Enrichment Playbooks](Enrichment/readme.md) | 429 |
-| [Indicator Import/Risk List Playbooks](IndicatorImport/readme.md) | 429 |
-| [Alert Playbooks](Alerts/readme.md) | 429 |
-| [Sandbox Playbooks](./Sandboxing/readme.md) | 429 |
-| [Threat Hunt Playbooks](./ThreatHunting/readme.md) | 429 |
-| [Custom Connector](./Connectors/RecordedFuture-CustomConnector/readme.md) | 429 |
-| [Deprecated Risk List Playbooks](Deprecated/readme.md) | 429 |
-| [apiconnection](Images/apiconnection.png) | 429 |
-| [managedidentity1](Images/managedidentity1.png) | 429 |
-| [managedidentity2](Images/managedidentity2.png) | 429 |
-| [Workbooks](Images/workbook.png) | 429 |
-| [Analyticrule](Images/analyticrules.png) | 429 |
-| [release notes](../ReleaseNotes.md) | 429 |
-| [alt text](Images/ioc_enrichment_error_not.png) | 429 |
-| [alt text](Images/LogicAppVersion.png) | 429 |
-| [](Images/2023-09-13-19-16-24.png) | 429 |
-| [](Images/2023-09-13-19-24-54.png) | 429 |
+| [release notes](../ReleaseNotes.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future/readme.md
 
 | URL | State |
 | --- | --- |
-| [readme.md](Playbooks/readme.md) | 429 |
-| [Installation guide](Playbooks/readme.md) | 429 |
-| [Recorded Future Defender playbooks](../../Playbooks/RecordedFuture-Block-IPs-and-Domains-on-Microsoft-Defender-for-Endpoint/) | 429 |
-| [Recorded Future Defender SCF playbooks](../../Playbooks/RecordedFuture_IP_SCF/) | 429 |
-| [Recorded Future Identity](../Recorded%20Future%20Identity/Playbooks/readme.md) | 429 |
+| [Recorded Future Defender playbooks](../../Playbooks/RecordedFuture-Block-IPs-and-Domains-on-Microsoft-Defender-for-Endpoint/) | 404 |
+| [Recorded Future Defender SCF playbooks](../../Playbooks/RecordedFuture_IP_SCF/) | 404 |
+| [Recorded Future Identity](../Recorded%20Future%20Identity/Playbooks/readme.md) | 404 |
 | [Learn more about Recorded Future for Microsoft Sentinel](https://www.recordedfuture.com/microsoft-azure-sentinel-integration) | 404 |
-| [](Playbooks/Images/2023-04-19-17-08-46.png) | 429 |
-| [](Playbooks/Images/2023-04-19-17-46-32.png) | 429 |
-| [](Playbooks/Images/2023-04-19-17-46-13.png) | 429 |
-| [](Playbooks/Images/2023-06-26-10-04-42.png) | 429 |
 | [Manage Risk Lists](https://www.recordedfuture.com/support/install-configure-manage-risk-lists) | 404 |
-| [ThreatHunting](Playbooks/ThreatHunting/readme.md) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ReleaseNotesGuidance.md
-
-| URL | State |
-| --- | --- |
-| [Azure Marketplace listing description](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Images/ReleaseNotes_OfferListing.png) | 429 |
-| [here](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ReleaseNotesSample.md) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ReversingLabs/Playbooks/ReversingLabs-CheckQuota/README.md
-
-| URL | State |
-| --- | --- |
-| [Playbook overview](./images/playbook.jpg) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ReversingLabs/Playbooks/SpectraAnalyze-EnrichFileHash/README.md
-
-| URL | State |
-| --- | --- |
-| [Playbook overview](./playbook.jpg) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ReversingLabs/Playbooks/SpectraAnalyze-EnrichNetworkEntities/README.md
-
-| URL | State |
-| --- | --- |
-| [Playbook overview](./playbook.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ReversingLabs/Playbooks/SpectraIntelligence-EnrichFileHash/README.md
-
-| URL | State |
-| --- | --- |
-| [Playbook overview](./playbook.png) | 429 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ReversingLabs/Playbooks/SpectraIntelligence-EnrichNetworkEntities/README.md
-
-| URL | State |
-| --- | --- |
-| [Playbook overview](./playbook.png) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/RiskIQ/Playbooks/RiskIQ-Automated-Triage/readme.md
 
@@ -2369,12 +2242,6 @@
 | [register for free](https://community.riskiq.com/) | 0 |
 | [API documentation](https://api.passivetotal.org/index.html) | 0 |
 | [account settings](https://community.riskiq.com/settings) | 0 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/RubrikSecurityCloud/Playbooks/RubrikAdvanceThreatHunt/README.md
-
-| URL | State |
-| --- | --- |
-| [connect to Rubrik Security Cloud API end points using a Service Account](https://docs.rubrik.com/en-us/saas/saas/polaris_api_access_with_service_accounts.html) | 0 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/SAP/CR/README.MD
 
