@@ -91,8 +91,7 @@
 
 | URL | State |
 | --- | --- |
-| [Consul](https://www.consul.io/) | 429 |
-| [here](https://atlas.hashicorp.com/help/user-accounts/authentication) | 429 |
+| [here](https://atlas.hashicorp.com/help/user-accounts/authentication) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/darktrace/darktrace-vsensor-autoscaling/README.md
 
@@ -175,6 +174,7 @@
 | [Cloud Pak for Data terms and conditions](https://ibm.biz/BdqyB2) | 504 |
 | [Alt text](images/Output.png "output") | 404 |
 | [Alt text](images/services.png "parameters2") | 404 |
+| [Cloud Pak for Data Service Catalog](https://www.ibm.com/support/producthub/icpdata/docs/content/SSQNUZ_current/cpd/svc/services.html) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/intel-lustre/intel-lustre-clients-vmss-centos/README.md
 
@@ -199,7 +199,6 @@
 | URL | State |
 | --- | --- |
 | [Getting access to Gold Images](https://access.redhat.com/documentation/en/red_hat_subscription_management/1/html/red_hat_cloud_access_reference_guide/understanding-gold-images_cloud-access#getting-access-to-gold-images_cloud-access) | 404 |
-| [az monitor autoscale rule](https://docs.microsoft.com/cli/azure/monitor/autoscale/rule?view=azure-cli-latest) | 504 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/jboss/jboss-eap-standalone-rhel/README.md
 
@@ -207,20 +206,6 @@
 | --- | --- |
 | [Red Hat Cloud Access program overview](https://access.redhat.com/documentation/en/red_hat_subscription_management/1/html/red_hat_cloud_access_reference_guide/getting-started-with-ca_cloud-access#proc_new-ca-experience-option2_cloud-access) | 404 |
 | [Getting access to Gold Images](https://access.redhat.com/documentation/en/red_hat_subscription_management/1/html/red_hat_cloud_access_reference_guide/understanding-gold-images_cloud-access#getting-access-to-gold-images_cloud-access) | 404 |
-| [Signing in with Azure CLI](https://docs.microsoft.com/cli/azure/authenticate-azure-cli?view=azure-cli-latest) | 502 |
-| [associate the Public IP to the VM](https://docs.microsoft.com/azure/virtual-network/associate-public-ip-address-vm) | 502 |
-| [Add a new subnet](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-subnet#add-a-subnet) | 502 |
-| [Create a Windows Virtual Machine](https://docs.microsoft.com/azure/virtual-machines/windows/quick-create-portal#create-virtual-machine) | 502 |
-| [Create a Load Balancer](https://docs.microsoft.com/azure/load-balancer/tutorial-load-balancer-standard-manage-portal#create-a-standard-load-balancer) | 502 |
-| [create Load Balancer resources](https://docs.microsoft.com/azure/load-balancer/tutorial-load-balancer-standard-manage-portal#create-load-balancer-resources) | 502 |
-| [Using the Azure Custom Script Extension Version 2 with Linux VMs](https://docs.microsoft.com/azure/virtual-machines/extensions/custom-script-linux) | 502 |
-
-* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/jenkins/jenkins-cicd-container/README.md
-
-| URL | State |
-| --- | --- |
-| [Azure CLI](https://docs.microsoft.com/cli/azure/install-azure-cli?view=azure-cli-latest) | 502 |
-| [Create an Azure service principal with Azure CLI 2.0](https://docs.microsoft.com/cli/azure/create-an-azure-service-principal-azure-cli?view=azure-cli-latest) | 502 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/lansa/lansa-vmss-windows-autoscale-sql-database/README.md
 
@@ -262,19 +247,28 @@
 
 | URL | State |
 | --- | --- |
+| [Open edX](https://open.edx.org) | 202 |
 | [Running DevStack](https://openedx.atlassian.net/wiki/display/OpenOPS/Running+Devstack) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/opendx/openedx-fullstack-ubuntu/README.md
 
 | URL | State |
 | --- | --- |
+| [Open edX](https://open.edx.org) | 202 |
 | [Running FullStack](https://openedx.atlassian.net/wiki/display/OpenOPS/Running+Fullstack) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/opendx/openedx-scalable-ubuntu/README.md
 
 | URL | State |
 | --- | --- |
+| [Open edX](https://open.edx.org) | 202 |
 | [Running FullStack](https://openedx.atlassian.net/wiki/display/OpenOPS/Running+Fullstack) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/opendx/openedx-tutor-lilac-ubuntu/README.md
+
+| URL | State |
+| --- | --- |
+| [Open edX](https://open.edx.org) | 202 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/postgre/postgresql-standalone-server-ubuntu/GettingStarted.md
 
@@ -333,7 +327,7 @@
 | --- | --- |
 | [Issues](https://github.com/azure-quickstart-templates/solace-message-router/issues) | 404 |
 | [open a new one](https://github.com/azure-quickstart-templates/solace-message-router/new) | 404 |
-| [enhancement request issue](https://github.com/azure-quickstart-templates/solace-message-router/issues/new) | 404 |
+| [enhancement request issue](https://github.com/azure-quickstart-templates/solace-message-router/issues/new) | 500 |
 | [Solace community](http://dev.solace.com/community/) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/solace/solace-message-router/README.md
@@ -368,7 +362,6 @@
 
 | URL | State |
 | --- | --- |
-| [Consul](https://consul.io/) | 429 |
 | [Availability Set](https://azure.microsoft.com/documentation/articles/virtual-machines-manage-availability/) | 404 |
 | [Virtual Network](http://azure.microsoft.com/documentation/services/virtual-network/) | 404 |
 | [Virtual Network](http://azure.microsoft.com/documentation/services/virtual-network/) | 404 |
@@ -587,6 +580,7 @@
 | URL | State |
 | --- | --- |
 | [cluster_diagram](images/NFS-HA-Arch.png "Diagram of deployed cluster") | 404 |
+| [Pacemaker](https://wiki.clusterlabs.org/wiki/Pacemaker) | 503 |
 | [split-brain](https://en.wikipedia.org/wiki/Split-brain_(computing) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/demos/oms-active-directory-security-audit-solution/README.md
