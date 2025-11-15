@@ -707,6 +707,7 @@
 | URL | State |
 | --- | --- |
 | [AzureSentinel@microsoft.com](AzureSentinel@microsoft.com) | 404 |
+| [How to download .Net](https://dotnet.microsoft.com/download) | 504 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Sample Data/README.md
 
@@ -1037,6 +1038,7 @@
 | [Cisco Unified Computing System (UCS)](https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html) | 404 |
 | [Continuous Threat Detection](https://claroty.com/continuous-threat-detection/) | 404 |
 | [Investigate incidents with Microsoft Sentinel]( https://docs.microsoft.com/azure/sentinel/investigate-cases) | 0 |
+| [Juniper SRX](https://www.juniper.net/us/en/products-services/security/srx-series/) | 403 |
 | [McAfee ePO](https://www.mcafee.com/enterprise/en-us/products/epolicy-orchestrator.html) | 0 |
 | [documentation](https://docs.mcafee.com/bundle/epolicy-orchestrator-landing/page/GUID-0C40020F-5B7F-4549-B9CC-0E017BC8797F.html) | 0 |
 | [McAfee┬« Network Security Platform](https://www.mcafee.com/enterprise/en-us/products/network-security-platform.html) | 0 |
@@ -1047,8 +1049,8 @@
 | [PingFederate events](https://docs.pingidentity.com/bundle/pingfederate-102/page/lly1564002980532.html) | 404 |
 | [PingFederate documentation](https://docs.pingidentity.com/bundle/pingfederate-102/page/tle1564002955874.html) | 404 |
 | [account settings](https://community.riskiq.com/settings) | 0 |
-| [RSA┬« SecurID Authentication Manager events](https://community.rsa.com/t5/rsa-authentication-manager/rsa-authentication-manager-log-messages/ta-p/630160) | 0 |
-| [RSA┬« SecurID Authentication Manager documentation](https://community.rsa.com/t5/rsa-authentication-manager/getting-started-with-rsa-authentication-manager/ta-p/569582) | 0 |
+| [RSA┬« SecurID Authentication Manager events](https://community.rsa.com/t5/rsa-authentication-manager/rsa-authentication-manager-log-messages/ta-p/630160) | 401 |
+| [RSA┬« SecurID Authentication Manager documentation](https://community.rsa.com/t5/rsa-authentication-manager/getting-started-with-rsa-authentication-manager/ta-p/569582) | 401 |
 | [Advanced Security Information Model (ASIM)](https:/aka.ms/AboutASIM) | 0 |
 | [Ubiquiti UniFi firewall, dns, ssh, AP events](https://help.ui.com/hc/en-us/articles/204959834-UniFi-How-to-View-Log-Files) | 403 |
 | [vCenter](https://www.vmware.com/in/products/vcenter-server.html) | 404 |
@@ -1100,13 +1102,6 @@
 | URL | State |
 | --- | --- |
 | [API Key authentication](https://www.domaintools.com/integrations) | 0 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Elastic Search/Playbooks/CustomConnector/ElasticSearchCustomConnector/readme.md
-
-| URL | State |
-| --- | --- |
-| [More Details](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-search.html) | 503 |
-| [More Details](https://www.elastic.co/guide/en/elasticsearch/reference/current/async-search.html#submit-async-search) | 503 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Entrust identity as Service/Playbooks/EntrustPlaybooks/Entrust-BlockUser/readme.md
 
@@ -1331,15 +1326,6 @@
 | URL | State |
 | --- | --- |
 | [Entity Trigger](./entity-trigger/images/playbookDark.png) | 404 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Documentations/Deployment-MES-OnPremises.md
-
-| URL | State |
-| --- | --- |
-| [Configuration of the Mandatory data Connector : Exchange Security Insights On-Premise Collector](#configuration-of-the-mandatory-data-connector--exchange-security-insights-on-premise-collector) | 429 |
-| [Prerequisites](#prerequisites) | 429 |
-| [Configuration](#configuration) | 429 |
-| [Parser deployment](#parser-deployment) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Isolate-MDEMachine/readme.md
 
