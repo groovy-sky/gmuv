@@ -247,28 +247,19 @@
 
 | URL | State |
 | --- | --- |
-| [Open edX](https://open.edx.org) | 202 |
 | [Running DevStack](https://openedx.atlassian.net/wiki/display/OpenOPS/Running+Devstack) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/opendx/openedx-fullstack-ubuntu/README.md
 
 | URL | State |
 | --- | --- |
-| [Open edX](https://open.edx.org) | 202 |
 | [Running FullStack](https://openedx.atlassian.net/wiki/display/OpenOPS/Running+Fullstack) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/opendx/openedx-scalable-ubuntu/README.md
 
 | URL | State |
 | --- | --- |
-| [Open edX](https://open.edx.org) | 202 |
 | [Running FullStack](https://openedx.atlassian.net/wiki/display/OpenOPS/Running+Fullstack) | 404 |
-
-* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/opendx/openedx-tutor-lilac-ubuntu/README.md
-
-| URL | State |
-| --- | --- |
-| [Open edX](https://open.edx.org) | 202 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/postgre/postgresql-standalone-server-ubuntu/GettingStarted.md
 
@@ -327,7 +318,7 @@
 | --- | --- |
 | [Issues](https://github.com/azure-quickstart-templates/solace-message-router/issues) | 404 |
 | [open a new one](https://github.com/azure-quickstart-templates/solace-message-router/new) | 404 |
-| [enhancement request issue](https://github.com/azure-quickstart-templates/solace-message-router/issues/new) | 500 |
+| [enhancement request issue](https://github.com/azure-quickstart-templates/solace-message-router/issues/new) | 404 |
 | [Solace community](http://dev.solace.com/community/) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/solace/solace-message-router/README.md
@@ -580,7 +571,6 @@
 | URL | State |
 | --- | --- |
 | [cluster_diagram](images/NFS-HA-Arch.png "Diagram of deployed cluster") | 404 |
-| [Pacemaker](https://wiki.clusterlabs.org/wiki/Pacemaker) | 503 |
 | [split-brain](https://en.wikipedia.org/wiki/Split-brain_(computing) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/demos/oms-active-directory-security-audit-solution/README.md
