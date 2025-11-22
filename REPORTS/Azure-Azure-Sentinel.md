@@ -707,7 +707,6 @@
 | URL | State |
 | --- | --- |
 | [AzureSentinel@microsoft.com](AzureSentinel@microsoft.com) | 404 |
-| [How to download .Net](https://dotnet.microsoft.com/download) | 504 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Sample Data/README.md
 
@@ -1037,6 +1036,7 @@
 | [Cisco Stealthwatch documentation](https://www.cisco.com/c/dam/en/us/td/docs/security/stealthwatch/system_installation_configuration/SW_7_3_2_System_Configuration_Guide_DV_1_0.pdf) | 404 |
 | [Cisco Unified Computing System (UCS)](https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html) | 404 |
 | [Continuous Threat Detection](https://claroty.com/continuous-threat-detection/) | 404 |
+| [Digital Guardian Data Loss Prevention (DLP)](https://digitalguardian.com/platform-overview) | 403 |
 | [Investigate incidents with Microsoft Sentinel]( https://docs.microsoft.com/azure/sentinel/investigate-cases) | 0 |
 | [Juniper SRX](https://www.juniper.net/us/en/products-services/security/srx-series/) | 403 |
 | [McAfee ePO](https://www.mcafee.com/enterprise/en-us/products/epolicy-orchestrator.html) | 0 |
@@ -1331,6 +1331,7 @@
 
 | URL | State |
 | --- | --- |
+| [Incident Trigger](./Isolate-MDEMachine-incident-trigger/images/designerLight.png) | 502 |
 | [Entity Trigger](./Isolate-MDE-Machine-entity-trigger/images/playbookDark.png) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Unisolate-MDEMachine/readme.md
@@ -1891,6 +1892,7 @@
 
 | URL | State |
 | --- | --- |
+| [Identifying UNC2452-Related Techniques for ATT&CK ](https://medium.com/mitre-attack/identifying-unc2452-related-techniques-9f7b6c7f3714) | 403 |
 | [incident1](../Images/hunting-1.png) | 404 |
 | [incident1](../Images/hunting-20.png) | 404 |
 | [incident1](../Images/hunting-2.png) | 404 |
