@@ -1038,7 +1038,6 @@
 | [Continuous Threat Detection](https://claroty.com/continuous-threat-detection/) | 404 |
 | [Digital Guardian Data Loss Prevention (DLP)](https://digitalguardian.com/platform-overview) | 403 |
 | [Investigate incidents with Microsoft Sentinel]( https://docs.microsoft.com/azure/sentinel/investigate-cases) | 0 |
-| [Juniper SRX](https://www.juniper.net/us/en/products-services/security/srx-series/) | 403 |
 | [McAfee ePO](https://www.mcafee.com/enterprise/en-us/products/epolicy-orchestrator.html) | 0 |
 | [documentation](https://docs.mcafee.com/bundle/epolicy-orchestrator-landing/page/GUID-0C40020F-5B7F-4549-B9CC-0E017BC8797F.html) | 0 |
 | [McAfee┬« Network Security Platform](https://www.mcafee.com/enterprise/en-us/products/network-security-platform.html) | 0 |
@@ -1107,36 +1106,36 @@
 
 | URL | State |
 | --- | --- |
-| [Entrust Product Review](https://www.entrust.com/-/media/documentation/datasheets/entrust-identity-as-a-service-ss.pdf) | 0 |
-| [Entrust documentation](https://www.entrust.com/documentation) | 0 |
+| [Entrust Product Review](https://www.entrust.com/-/media/documentation/datasheets/entrust-identity-as-a-service-ss.pdf) | 403 |
+| [Entrust documentation](https://www.entrust.com/documentation) | 403 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Entrust identity as Service/Playbooks/EntrustPlaybooks/Entrust-EnrichIP-EntityTrigger/readme.md
 
 | URL | State |
 | --- | --- |
-| [Entrust Product Review](https://www.entrust.com/-/media/documentation/datasheets/entrust-identity-as-a-service-ss.pdf) | 0 |
-| [Entrust documentation](https://www.entrust.com/documentation) | 0 |
+| [Entrust Product Review](https://www.entrust.com/-/media/documentation/datasheets/entrust-identity-as-a-service-ss.pdf) | 403 |
+| [Entrust documentation](https://www.entrust.com/documentation) | 403 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Entrust identity as Service/Playbooks/EntrustPlaybooks/Entrust-EnrichIncidentWithIPDetails/readme.md
 
 | URL | State |
 | --- | --- |
-| [Entrust Product Review](https://www.entrust.com/-/media/documentation/datasheets/entrust-identity-as-a-service-ss.pdf) | 0 |
-| [Entrust documentation](https://www.entrust.com/documentation) | 0 |
+| [Entrust Product Review](https://www.entrust.com/-/media/documentation/datasheets/entrust-identity-as-a-service-ss.pdf) | 403 |
+| [Entrust documentation](https://www.entrust.com/documentation) | 403 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Entrust identity as Service/Playbooks/EntrustPlaybooks/Entrust-EnrichIncidentWithUserDetails/readme.md
 
 | URL | State |
 | --- | --- |
-| [Entrust Product Review](https://www.entrust.com/-/media/documentation/datasheets/entrust-identity-as-a-service-ss.pdf) | 0 |
-| [Entrust documentation](https://www.entrust.com/documentation) | 0 |
+| [Entrust Product Review](https://www.entrust.com/-/media/documentation/datasheets/entrust-identity-as-a-service-ss.pdf) | 403 |
+| [Entrust documentation](https://www.entrust.com/documentation) | 403 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Entrust identity as Service/Playbooks/EntrustPlaybooks/Entrust-EnrichUser-EntityTrigger/readme.md
 
 | URL | State |
 | --- | --- |
-| [Entrust Product Review](https://www.entrust.com/-/media/documentation/datasheets/entrust-identity-as-a-service-ss.pdf) | 0 |
-| [Entrust documentation](https://www.entrust.com/documentation) | 0 |
+| [Entrust Product Review](https://www.entrust.com/-/media/documentation/datasheets/entrust-identity-as-a-service-ss.pdf) | 403 |
+| [Entrust documentation](https://www.entrust.com/documentation) | 403 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Fortinet FortiGate Next-Generation Firewall connector for Microsoft Sentinel/Playbooks/readme.md
 
@@ -1327,11 +1326,129 @@
 | --- | --- |
 | [Entity Trigger](./entity-trigger/images/playbookDark.png) | 404 |
 
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Documentations/Deployment-MES-Online.md
+
+| URL | State |
+| --- | --- |
+| [Assign Microsoft Graph Permission and Exchange Online Permission to Managed Identity Account](#assign-microsoft-graph-permission-and-exchange-online-permission-to-managed-identity-account) | 429 |
+| [alt text](./Images/Image49.png) | 429 |
+| [alt text](./Images/Image02.png) | 429 |
+| [alt text](./Images/Image51.png) | 429 |
+| [alt text](./Images/Image48.png "Install Solution") | 429 |
+| [alt text](./Images/Image02.png "Wait") | 429 |
+| [See the documentation to learn more](./ESICollector.md#online-collector) | 429 |
+| [See the documentation to learn more](./ESICollector.md#online-collector) | 429 |
+| [See the documentation to learn more](./ESICollector.md#online-collector) | 429 |
+| [alt text](./Images/Image50.png) | 429 |
+| [Parser information](./../../Parsers/README.md) | 429 |
+| [alt text](./Images/Image80.png) | 429 |
+| [alt text](./Images/Image55.png) | 429 |
+| [alt text](./Images/Image56.png) | 429 |
+| [Script Location](https://aka.ms/ESI-ExchangeCollector-Script) | 429 |
+| [Permission Update script](./../Solutions/ESICollector/OnlineDeployment/ExchangeOnlinePermSetup.ps1) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Documentations/Deployment-Overview.md
+
+| URL | State |
+| --- | --- |
+| [alt text](./Images/Image58.png) | 429 |
+| [alt text](./Images/Image59.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Documentations/README.md
+
+| URL | State |
+| --- | --- |
+| [Deployment Overview](./Deployment-Overview.md) | 429 |
+| [Deployment for On-Premises Solution](./Deployment-MES-OnPremises.md) | 429 |
+| [Deployment for Online Solution](./Deployment-MES-Online.md) | 429 |
+| [Collector Information](./ESICollector.md) | 429 |
+| [Solution Workbooks information](./WorkbookDeployement.md) | 429 |
+| [VIP Management](./VIPManagement.md) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Documentations/WorkbookDelegation.md
+
+| URL | State |
+| --- | --- |
+| [Workbooks](#workbooks) | 429 |
+| [Group creation in Entra ID](#group-creation-in-entra-id) | 429 |
+| [Access to the workbook](#access-to-the-workbook) | 429 |
+| [alt text](./Images/Image64.png) | 429 |
+| [alt text](./Images/Image65.png) | 429 |
+| [alt text](./Images/Image67.png) | 429 |
+| [alt text](./Images/Image66.png) | 429 |
+| [alt text](./Images/Image68.png) | 429 |
+| [alt text](./Images/Image69.png) | 429 |
+| [alt text](./Images/Image70.png) | 429 |
+| [alt text](./Images/Image71.png) | 429 |
+| [alt text](./Images/Image73.png) | 429 |
+| [alt text](./Images/Image71.png) | 429 |
+| [alt text](./Images/Image74.png) | 429 |
+| [alt text](./Images/Image75.png) | 429 |
+| [alt text](./Images/Image77.png) | 429 |
+| [alt text](./Images/Image78.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Documentations/WorkbookDeployement.md
+
+| URL | State |
+| --- | --- |
+| [alt text](./Images/Image53.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/README.md
+
+| URL | State |
+| --- | --- |
+| [Documentations](./Documentations/) | 429 |
+| [Deployment Microsoft Exchange Security for Exchange On-Premises](./Documentations/Deployment-MES-OnPremises.md) | 429 |
+| [Exchange Security Insights On-Premise/Online Collector](./Documentations/ESICollector.md) | 429 |
+| [Deployment Microsoft Exchange Security for Exchange Online](./Documentations/Deployment-MES-Online.md) | 429 |
+| [Exchange Security Insights On-Premise/Online Collector](./Documentations/ESICollector.md) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Solutions/ESICollector/OnlineDeployment/Update.md
+
+| URL | State |
+| --- | --- |
+| [Azure Automation Manual Update -- For Runbook Deployment](#azure-automation-manual-update----for-runbook-deployment) | 429 |
+| [Runbook update](#runbook-update) | 429 |
+| [On-Premises Script Manual Update -- For On-Premises Deployment](#on-premises-script-manual-update----for-on-premises-deployment) | 429 |
+| [Script update](#script-update) | 429 |
+| [Script Configuration update](#script-configuration-update) | 429 |
+| [GitHub repository](./../../ESICollector/README.md) | 429 |
+| [GitHub repository](./../../ESICollector) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Solutions/ESICollector/Parameters.md
+
+| URL | State |
+| --- | --- |
+| [ExchSecIns Configuration](#exchsecins-configuration) | 429 |
+| [Table of Contents](#table-of-contents) | 429 |
+| [Parameters](#parameters) | 429 |
+| [Global](#global) | 429 |
+| [Advanced](#advanced) | 429 |
+| [LogCollection](#logcollection) | 429 |
+| [MGGraphAPIConnection](#mggraphapiconnection) | 429 |
+| [InstanceConfiguration](#instanceconfiguration) | 429 |
+| [AuditFunctionsFiles](#auditfunctionsfiles) | 429 |
+| [Description](#description) | 429 |
+| [InstanceConfiguration](#instanceconfiguration-1) | 429 |
+| [AuditFunctionsFiles](#auditfunctionsfiles-1) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Solutions/ESICollector/README.md
+
+| URL | State |
+| --- | --- |
+| [here](./../../Documentations/ESICollector.md) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/Parsers/README.md
+
+| URL | State |
+| --- | --- |
+| [Microsoft Exchange Security - Parsers information](#microsoft-exchange-security---parsers-information) | 429 |
+| [ExchangeConfiguration Parser](#exchangeconfiguration-parser) | 429 |
+
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Isolate-MDEMachine/readme.md
 
 | URL | State |
 | --- | --- |
-| [Incident Trigger](./Isolate-MDEMachine-incident-trigger/images/designerLight.png) | 502 |
 | [Entity Trigger](./Isolate-MDE-Machine-entity-trigger/images/playbookDark.png) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Unisolate-MDEMachine/readme.md
