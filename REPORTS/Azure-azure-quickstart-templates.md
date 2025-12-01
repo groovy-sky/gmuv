@@ -666,7 +666,7 @@
 | [log search](https://documentimages.blob.core.windows.net/azurequickstarttemplatereadme/logSearch.png "log search") | 409 |
 | [saved searches](https://documentimages.blob.core.windows.net/azurequickstarttemplatereadme/savedSearches.png "saved searches") | 409 |
 | [Android](https://play.google.com/store/apps/details?id=com.microsoft.operations.AndroidPhone) | 404 |
-| [iOS](https://itunes.apple.com/us/app/microsoft-operations-management-suite/id1042424859) | 429 |
+| [iOS](https://itunes.apple.com/us/app/microsoft-operations-management-suite/id1042424859) | 404 |
 | [Change Logs](./changelog.md "See change logs") | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/demos/oms-hyperv-replica-solution/README.md
