@@ -318,7 +318,7 @@
 | --- | --- |
 | [Issues](https://github.com/azure-quickstart-templates/solace-message-router/issues) | 404 |
 | [open a new one](https://github.com/azure-quickstart-templates/solace-message-router/new) | 404 |
-| [enhancement request issue](https://github.com/azure-quickstart-templates/solace-message-router/issues/new) | 500 |
+| [enhancement request issue](https://github.com/azure-quickstart-templates/solace-message-router/issues/new) | 404 |
 | [Solace community](http://dev.solace.com/community/) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/solace/solace-message-router/README.md
