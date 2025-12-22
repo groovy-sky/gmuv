@@ -227,7 +227,6 @@
 | URL | State |
 | --- | --- |
 | [AddApiPermissions.ps1](https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Solutions/Standalone/Playbooks/Add-IP-Entity-To-Named-Location/AddApiPermissions.ps1) | 404 |
-| [Designer](https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Solutions/Standalone/Playbooks/Add-IP-Entity-To-Named-Location/images/designer-light.jpg) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/Block-OnPremADUser/Readme.md
 
@@ -303,7 +302,20 @@
 
 | URL | State |
 | --- | --- |
+| [learn how](https://falcon.crowdstrike.com/support/documentation/71/real-time-response-and-network-containment#rtr_custom_scripts) | 0 |
 | [Understand and assign Real Time Responder roles](https://falcon.crowdstrike.com/support/documentation/71/real-time-response-and-network-containment#rtr_roles) | 0 |
+| [Response Policies](https://falcon.crowdstrike.com/support/documentation/71/real-time-response-and-network-containment#rtr-policy-config) | 0 |
+| [Real time resonse policy settings](https://falcon.crowdstrike.com/support/documentation/71/real-time-response-and-network-containment#rtr-policy-config) | 0 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/CrowdStrike/readme.md
+
+| URL | State |
+| --- | --- |
+| [oauth2 authentication](https://falcon.crowdstrike.com/support/documentation/46/crowdstrike-oauth2-based-apis#authenticating) | 0 |
+| [learn how to create scripts](https://falcon.crowdstrike.com/support/documentation/71/real-time-response-and-network-containment#rtr_custom_scripts) | 0 |
+| [Understand and assign Real Time Responder roles](https://falcon.crowdstrike.com/support/documentation/71/real-time-response-and-network-containment#rtr_roles) | 0 |
+| [Response Policies](https://falcon.crowdstrike.com/support/documentation/71/real-time-response-and-network-containment#rtr-policy-config) | 0 |
+| [Real time response policy settings](https://falcon.crowdstrike.com/support/documentation/71/real-time-response-and-network-containment#rtr-policy-config) | 0 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/Dynamic-Summaries-API-Upsert/readme.md
 
@@ -825,7 +837,7 @@
 | [AWS IAM Function App Connector](../../AWS_IAM_FunctionAppConnector/) | 404 |
 | [AWS IAM Function App Connector](../../AWS_IAM_FunctionAppConnector/readme.md) | 404 |
 
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/AbuseIPDB/Playbooks/AbuseIPDB-ReportaIPsToAbuselPDBAfterCheckingByUserInMSTeams/readme.md
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/AbuseIPDB/Playbooks/AbuseIPDB-ReportIPsAfterUserResponseInMSTeams/readme.md
 
 | URL | State |
 | --- | --- |
@@ -837,7 +849,7 @@
 | --- | --- |
 | [Response – blacklist IP`s to tiIndicators](./Playbooks/AbuseIPDB-BlacklistIpToThreatIntelligence) | 404 |
 | [Response - enrich incedent by IP info](./Playbooks/AbuseIPDB-EnrichIncidentByIPInfo) | 404 |
-| [Response - Report IP to AbuseIPDB from the incident](./Playbooks/AbuseIPDB-ReportaIPsToAbuselPDBAfterCheckingByUserInMSTeams) | 404 |
+| [Response - Report IP to AbuseIPDB from the incident](./Playbooks/AbuseIPDB-ReportIPsAfterUserResponseInMSTeams) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/AtlassianJiraAudit/Playbooks/Create-Jira-Issue/readme.md
 
@@ -1034,7 +1046,7 @@
 | URL | State |
 | --- | --- |
 | [Akamai Security Events](https://www.akamai.com/us/en/products/security/) | 0 |
-| [Akamai SIEM Integration documentation](https://developer.akamai.com/tools/integrations/siem) | 0 |
+| [Akamai SIEM Integration documentation](https://developer.akamai.com/tools/integrations/siem) | 403 |
 | [Aruba ClearPass](https://www.arubanetworks.com/products/security/network-access-control/secure-access/) | 403 |
 | [Bitglass](https://www.bitglass.com/) | 0 |
 | [Cisco ISE logging mechanism documentation](https://www.cisco.com/c/en/us/td/docs/security/ise/2-7/admin_guide/b_ise_27_admin_guide/b_ISE_admin_27_maintain_monitor.html#reference_BAFBA5FA046A45938810A5DF04C00591) | 404 |
@@ -1057,6 +1069,8 @@
 | [account settings](https://community.riskiq.com/settings) | 0 |
 | [RSA┬« SecurID Authentication Manager events](https://community.rsa.com/t5/rsa-authentication-manager/rsa-authentication-manager-log-messages/ta-p/630160) | 401 |
 | [RSA┬« SecurID Authentication Manager documentation](https://community.rsa.com/t5/rsa-authentication-manager/getting-started-with-rsa-authentication-manager/ta-p/569582) | 401 |
+| [Sophos Endpoint Protection](https://www.sophos.com/en-us/products/endpoint-antivirus.aspx) | 404 |
+| [Sophos XG Firewall](https://www.sophos.com/products/next-gen-firewall.aspx) | 404 |
 | [Advanced Security Information Model (ASIM)](https:/aka.ms/AboutASIM) | 0 |
 | [Ubiquiti UniFi firewall, dns, ssh, AP events](https://help.ui.com/hc/en-us/articles/204959834-UniFi-How-to-View-Log-Files) | 403 |
 | [vCenter](https://www.vmware.com/in/products/vcenter-server.html) | 404 |
@@ -1069,6 +1083,7 @@
 | [SecurityScorecard](https://www.SecurityScorecard.com/) | 0 |
 | [SecurityScorecard](https://www.SecurityScorecard.com/) | 0 |
 | [SecurityScorecard](https://www.SecurityScorecard.com/) | 0 |
+| [Sophos Cloud Optix](https://www.sophos.com/products/cloud-optix.aspx) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/CybersecurityMaturityModelCertification(CMMC)2.0/readme.md
 
@@ -1252,12 +1267,6 @@
 | --- | --- |
 | [Intel 471 Malware Intelligence Logic App](malware-intelligence-screenshot.png "Intel 471 Malware Intelligence Logic App") | 404 |
 
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Intel471/Playbooks/Intel471-ImportMalwareIntelligenceToSentinel/README.md
-
-| URL | State |
-| --- | --- |
-| [Intel 471 Malware Intelligence Logic App](malware-intelligence-screenshot.png "Intel 471 Malware Intelligence Logic App") | 404 |
-
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Jamf Protect/Playbooks/JamfProtect_Alert_Status_InProgress/readme.md
 
 | URL | State |
@@ -1275,6 +1284,33 @@
 | URL | State |
 | --- | --- |
 | [JamfProtect_LockComputer_with_JamfPro](https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Solutions/Jamf%20Protect%/Playbooks/JamfProtect_LockComputer_with_JamfPro/images/designerOverviewCollapsedLight.png) | 0 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Lookout/Data Connectors/LookoutMRAv2_Deployment_Guide.md
+
+| URL | State |
+| --- | --- |
+| [Lookout API Documentation](https://docs.lookout.com) | 0 |
+| [Lookout Support](https://support.lookout.com) | 0 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Lookout/README.md
+
+| URL | State |
+| --- | --- |
+| [`DEPLOYMENT_GUIDE.md`](DEPLOYMENT_GUIDE.md) | 404 |
+| [`DEV_TESTING_GUIDE.md`](DEV_TESTING_GUIDE.md) | 404 |
+| [`CODELESS_CONNECTOR_GUIDE.md`](CODELESS_CONNECTOR_GUIDE.md) | 404 |
+| [`DEPLOYMENT_GUIDE.md`](DEPLOYMENT_GUIDE.md) | 404 |
+| [`V2_FIELD_MAPPING.md`](V2_FIELD_MAPPING.md) | 404 |
+| [`UPGRADE_ANALYSIS.md`](UPGRADE_ANALYSIS.md) | 404 |
+| [`DEV_TESTING_GUIDE.md`](DEV_TESTING_GUIDE.md) | 404 |
+| [`DEPLOYMENT_GUIDE.md`](DEPLOYMENT_GUIDE.md) | 404 |
+| [`DEV_TESTING_GUIDE.md`](DEV_TESTING_GUIDE.md) | 404 |
+| [`V2_FIELD_MAPPING.md`](V2_FIELD_MAPPING.md) | 404 |
+| [`CODELESS_CONNECTOR_GUIDE.md`](CODELESS_CONNECTOR_GUIDE.md) | 404 |
+| [`TEST_DATA_SAMPLES.json`](TEST_DATA_SAMPLES.json) | 404 |
+| [`TEST_DATA_SAMPLES.md`](TEST_DATA_SAMPLES.md) | 404 |
+| [`DEPLOYMENT_GUIDE.md`](DEPLOYMENT_GUIDE.md) | 404 |
+| [`DEV_TESTING_GUIDE.md`](DEV_TESTING_GUIDE.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Defender for Office 365/Playbooks/O365DefenderPlaybooks/o365-BlockMalwareFileExtension/readme.md
 
@@ -1333,46 +1369,426 @@
 | --- | --- |
 | [Entity Trigger](./entity-trigger/images/playbookDark.png) | 404 |
 
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Documentations/Deployment-MES-OnPremises.md
+
+| URL | State |
+| --- | --- |
+| [Deploy Optional Connector : Microsoft Exchange Logs and Events](#deploy-optional-connector--microsoft-exchange-logs-and-events) | 429 |
+| [To configure each options](#to-configure-each-options) | 429 |
+| [Prerequisites](#prerequisites-1) | 429 |
+| [Parser deployment](#parser-deployment-1) | 429 |
+| [Deployment considerations](#deployment-considerations) | 429 |
+| [Azure Arc-enabled servers, Azure Monitor Agent and DCR Deployment](#azure-arc-enabled-servers-azure-monitor-agent-and-dcr-deployment) | 429 |
+| [Agents Deployment](#agents-deployment) | 429 |
+| [Deployment of the Azure Arc-enabled servers](#deployment-of-the-azure-arc-enabled-servers) | 429 |
+| [Deployment Azure Monitor Agent](#deployment-azure-monitor-agent) | 429 |
+| [Option 1  -  MSExchange Management Log collection](#option-1-----msexchange-management-log-collection) | 429 |
+| [DCR Creation](#dcr-creation) | 429 |
+| [Assign DCR to all Exchange servers](#assign-dcr-to-all-exchange-servers) | 429 |
+| [Option 2 - Security, Application, System for Exchange Servers](#option-2---security-application-system-for-exchange-servers) | 429 |
+| [Security logs](#security-logs) | 429 |
+| [Application and System Event logs](#application-and-system-event-logs) | 429 |
+| [Assign DCR to all Exchange servers](#assign-dcr-to-all-exchange-servers-1) | 429 |
+| [Option 3 and 4 Security logs of Domain Controllers](#option-3-and-4-security-logs-of-domain-controllers) | 429 |
+| [Security logs](#security-logs-1) | 429 |
+| [Option 5 - IIS logs for Exchange servers](#option-5---iis-logs-for-exchange-servers) | 429 |
+| [DCE Creation](#dce-creation) | 429 |
+| [DCR Creation](#dcr-creation-1) | 429 |
+| [Assign DCR to all Exchange servers](#assign-dcr-to-all-exchange-servers-2) | 429 |
+| [Option 6 - Message tracking logs for Exchange Servers](#option-6---message-tracking-logs-for-exchange-servers) | 429 |
+| [DCE Creation](#dce-creation-1) | 429 |
+| [DCR Creation](#dcr-creation-2) | 429 |
+| [Assign DCR to all Exchange servers](#assign-dcr-to-all-exchange-servers-3) | 429 |
+| [Option 7 - HTTPProxy logs for Exchange servers](#option-7---httpproxy-logs-for-exchange-servers) | 429 |
+| [DCE Creation](#dce-creation-2) | 429 |
+| [Assign DCR to all Exchange servers](#assign-dcr-to-all-exchange-servers-4) | 429 |
+| [Legacy Agent Deployment for Options 1-2-3-4-5-6-7](#legacy-agent-deployment-for-options-1-2-3-4-5-6-7) | 429 |
+| [Download and install the agents needed to collect logs for Microsoft Sentinel](#download-and-install-the-agents-needed-to-collect-logs-for-microsoft-sentinel) | 429 |
+| [Option 1  -  MSExchange Management Log collection](#option-1-----msexchange-management-log-collection-1) | 429 |
+| [Option 2 - Security, Application, System for Exchange Servers](#option-2---security-application-system-for-exchange-servers-1) | 429 |
+| [Option 3 - Security for Domain controllers located in the Exchange AD sites](#option-3---security-for-domain-controllers-located-in-the-exchange-ad-sites) | 429 |
+| [Option 4 - Security for ALL Domain controllers](#option-4---security-for-all-domain-controllers) | 429 |
+| [Option 5 - IIS logs for Exchange servers](#option-5---iis-logs-for-exchange-servers-1) | 429 |
+| [Option 6 - Message tracking logs for Exchange Servers](#option-6---message-tracking-logs-for-exchange-servers-1) | 429 |
+| [Option 7 - HTTPProxy logs for Exchange servers](#option-7---httpproxy-logs-for-exchange-servers-1) | 429 |
+| [alt text](./Images/Image01.png "Install Solution") | 429 |
+| [alt text](./Images/Image02.png "Wait") | 429 |
+| [Readme](./../README.md) | 429 |
+| [alt text](./Images/Image15.png "Connector Deployment") | 429 |
+| [alt text](./Images/Image16.png) | 429 |
+| [Parser information](./../../Parsers/README.md) | 429 |
+| [alt text](./Images/Image07.png) | 429 |
+| [alt text](./Images/Image08.png) | 429 |
+| [alt text](./Images/Image09.png) | 429 |
+| [alt text](./Images/Image17.png) | 429 |
+| [alt text](./Images/Image18.png) | 429 |
+| [alt text](./Images/Image19.png) | 429 |
+| [alt text](./Images/Image15.png "Connector Deployment") | 429 |
+| [alt text](./Images/Image16.png) | 429 |
+| [Parser information](./../../Parsers/README.md) | 429 |
+| [alt text](./Images/Image28.png) | 429 |
+| [alt text](./Images/Image29.png) | 429 |
+| [alt text](./Images/Image30.png) | 429 |
+| [alt text](./Images/Image31.png) | 429 |
+| [alt text](./Images/Image32.png) | 429 |
+| [alt text](./Images/Image33.png) | 429 |
+| [alt text](./Images/Image34.png) | 429 |
+| [alt text](./Images/Image35.png) | 429 |
+| [alt text](./Images/Image36.png) | 429 |
+| [alt text](./Images/Image36.png) | 429 |
+| [alt text](./Images/Image30.png) | 429 |
+| [alt text](./Images/Image31.png) | 429 |
+| [alt text](./Images/Image32.png) | 429 |
+| [alt text](./Images/Image33.png) | 429 |
+| [alt text](./Images/Image40.png) | 429 |
+| [alt text](./Images/Image35.png) | 429 |
+| [alt text](./Images/Image36.png) | 429 |
+| [alt text](./Images/Image36.png) | 429 |
+| [alt text](./Images/Image31.png) | 429 |
+| [alt text](./Images/Image42.png) | 429 |
+| [alt text](./Images/Image43.png) | 429 |
+| [alt text](./Images/Image32.png) | 429 |
+| [alt text](./Images/Image33.png) | 429 |
+| [alt text](./Images/Image44.png) | 429 |
+| [alt text](./Images/Image35.png) | 429 |
+| [alt text](./Images/Image31.png) | 429 |
+| [alt text](./Images/Image42.png) | 429 |
+| [alt text](./Images/Image31.png) | 429 |
+| [alt text](./Images/Image11.png) | 429 |
+| [alt text](./Images/Image14.png) | 429 |
+| [alt text](./Images/Image21.png) | 429 |
+| [alt text](./Images/Image22.png) | 429 |
+| [alt text](./Images/Image23.png) | 429 |
+| [alt text](./Images/Image23.png) | 429 |
+| [alt text](./Images/Image21.png) | 429 |
+| [alt text](./Images/Image25.png) | 429 |
+| [alt text](./Images/Image26.png) | 429 |
+| [alt text](./Images/Image27.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Documentations/Deployment-MES-Online.md
+
+| URL | State |
+| --- | --- |
+| [Deployment Microsoft Exchange Security for Exchange Online](#deployment-microsoft-exchange-security-for-exchange-online) | 429 |
+| [Microsoft 365 Solution](#microsoft-365-solution) | 429 |
+| [Solution Installation](#solution-installation) | 429 |
+| [Solution configuration](#solution-configuration) | 429 |
+| [Microsoft Exchange Security for Exchange Online Solution](#microsoft-exchange-security-for-exchange-online-solution) | 429 |
+| [Prerequisites](#prerequisites) | 429 |
+| [Configuration](#configuration) | 429 |
+| [Parser deployment](#parser-deployment) | 429 |
+| [Connector and Azure Automation deployment](#connector-and-azure-automation-deployment) | 429 |
+| [Method 1 - Azure Resource Manager (ARM) Template](#method-1---azure-resource-manager-arm-template) | 429 |
+| [Method 2 - Manual Deployment of Azure Automation](#method-2---manual-deployment-of-azure-automation) | 429 |
+| [Assign Microsoft Graph Permission and Exchange Online Permission to Managed Identity Account](#assign-microsoft-graph-permission-and-exchange-online-permission-to-managed-identity-account) | 429 |
+| [alt text](./Images/Image49.png) | 429 |
+| [alt text](./Images/Image02.png) | 429 |
+| [alt text](./Images/Image51.png) | 429 |
+| [alt text](./Images/Image48.png "Install Solution") | 429 |
+| [alt text](./Images/Image02.png "Wait") | 429 |
+| [See the documentation to learn more](./ESICollector.md#online-collector) | 429 |
+| [See the documentation to learn more](./ESICollector.md#online-collector) | 429 |
+| [See the documentation to learn more](./ESICollector.md#online-collector) | 429 |
+| [alt text](./Images/Image50.png) | 429 |
+| [Parser information](./../../Parsers/README.md) | 429 |
+| [alt text](./Images/Image07.png) | 429 |
+| [alt text](./Images/Image80.png) | 429 |
+| [alt text](./Images/Image57.png) | 429 |
+| [alt text](./Images/Image54.png) | 429 |
+| [alt text](./Images/Image55.png) | 429 |
+| [alt text](./Images/Image56.png) | 429 |
+| [Script Location](https://aka.ms/ESI-ExchangeCollector-Script) | 429 |
+| [Permission Update script](./../Solutions/ESICollector/OnlineDeployment/ExchangeOnlinePermSetup.ps1) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Documentations/Deployment-Overview.md
+
+| URL | State |
+| --- | --- |
+| [alt text](./Images/Image58.png) | 429 |
+| [alt text](./Images/Image59.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Documentations/ESICollector.md
+
+| URL | State |
+| --- | --- |
+| [the Parameters description document](./Parameters.md) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Documentations/README.md
+
+| URL | State |
+| --- | --- |
+| [Deployment Overview](./Deployment-Overview.md) | 429 |
+| [Deployment for On-Premises Solution](./Deployment-MES-OnPremises.md) | 429 |
+| [Deployment for Online Solution](./Deployment-MES-Online.md) | 429 |
+| [Collector Information](./ESICollector.md) | 429 |
+| [Solution Workbooks information](./WorkbookDeployement.md) | 429 |
+| [VIP Management](./VIPManagement.md) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Documentations/WorkbookDelegation.md
+
+| URL | State |
+| --- | --- |
+| [Workbooks](#workbooks) | 429 |
+| [Group creation in Entra ID](#group-creation-in-entra-id) | 429 |
+| [Creation of the custom role to access Log Analytics](#creation-of-the-custom-role-to-access-log-analytics) | 429 |
+| [Create a dédicated workspace for the workbook](#create-a-dédicated-workspace-for-the-workbook) | 429 |
+| [Set Permissions on the Resource Group](#set-permissions-on-the-resource-group) | 429 |
+| [Set Permissions in Log Analytics](#set-permissions-in-log-analytics) | 429 |
+| [Save the Workbook in the dedicated Resource Group](#save-the-workbook-in-the-dedicated-resource-group) | 429 |
+| [Access to the workbook](#access-to-the-workbook) | 429 |
+| [alt text](./Images/Image64.png) | 429 |
+| [alt text](./Images/Image65.png) | 429 |
+| [alt text](./Images/Image67.png) | 429 |
+| [alt text](./Images/Image66.png) | 429 |
+| [alt text](./Images/Image68.png) | 429 |
+| [alt text](./Images/Image69.png) | 429 |
+| [alt text](./Images/Image70.png) | 429 |
+| [alt text](./Images/Image71.png) | 429 |
+| [alt text](./Images/Image72.png) | 429 |
+| [alt text](./Images/Image73.png) | 429 |
+| [alt text](./Images/Image71.png) | 429 |
+| [alt text](./Images/Image74.png) | 429 |
+| [alt text](./Images/Image75.png) | 429 |
+| [alt text](./Images/Image76.png) | 429 |
+| [alt text](./Images/Image77.png) | 429 |
+| [alt text](./Images/Image78.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Documentations/WorkbookDeployement.md
+
+| URL | State |
+| --- | --- |
+| [alt text](./Images/Image52.png) | 429 |
+| [alt text](./Images/Image53.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/README.md
+
+| URL | State |
+| --- | --- |
+| [Documentations](./Documentations/) | 429 |
+| [Deployment Microsoft Exchange Security for Exchange On-Premises](./Documentations/Deployment-MES-OnPremises.md) | 429 |
+| [Exchange Security Insights On-Premise/Online Collector](./Documentations/ESICollector.md) | 429 |
+| [Documentations](./Documentations/) | 429 |
+| [Deployment Microsoft Exchange Security for Exchange Online](./Documentations/Deployment-MES-Online.md) | 429 |
+| [Exchange Security Insights On-Premise/Online Collector](./Documentations/ESICollector.md) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Solutions/ESICollector/OnlineDeployment/Update.md
+
+| URL | State |
+| --- | --- |
+| [ESI Collector - Update](#esi-collector---update) | 429 |
+| [Overview](#overview) | 429 |
+| [Azure Automation Manual Update -- For Runbook Deployment](#azure-automation-manual-update----for-runbook-deployment) | 429 |
+| [Runbook update](#runbook-update) | 429 |
+| [Configuration update](#configuration-update) | 429 |
+| [On-Premises Script Manual Update -- For On-Premises Deployment](#on-premises-script-manual-update----for-on-premises-deployment) | 429 |
+| [Script update](#script-update) | 429 |
+| [Script Configuration update](#script-configuration-update) | 429 |
+| [Install ESI Collector Updater](#install-esi-collector-updater) | 429 |
+| [GitHub repository](./../../ESICollector/README.md) | 429 |
+| [GitHub repository](./../../ESICollector) | 429 |
+| [GitHub repository](./../../ESICollector) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Solutions/ESICollector/Parameters.md
+
+| URL | State |
+| --- | --- |
+| [ExchSecIns Configuration](#exchsecins-configuration) | 429 |
+| [Table of Contents](#table-of-contents) | 429 |
+| [Parameters](#parameters) | 429 |
+| [Global](#global) | 429 |
+| [Output](#output) | 429 |
+| [Advanced](#advanced) | 429 |
+| [LogCollection](#logcollection) | 429 |
+| [MGGraphAPIConnection](#mggraphapiconnection) | 429 |
+| [InstanceConfiguration](#instanceconfiguration) | 429 |
+| [AuditFunctionsFiles](#auditfunctionsfiles) | 429 |
+| [AuditFunctionProtectedArea](#auditfunctionprotectedarea) | 429 |
+| [Description](#description) | 429 |
+| [UDSLogProcessor](#udslogprocessor) | 429 |
+| [InstanceConfiguration](#instanceconfiguration-1) | 429 |
+| [AuditFunctionsFiles](#auditfunctionsfiles-1) | 429 |
+| [other parameters](#other-parameters) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/# - General Content/Solutions/ESICollector/README.md
+
+| URL | State |
+| --- | --- |
+| [here](./../../Documentations/ESICollector.md) | 429 |
+| [the Parameters description document](./Parameters.md) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/Parsers/README.md
+
+| URL | State |
+| --- | --- |
+| [Microsoft Exchange Security - Parsers information](#microsoft-exchange-security---parsers-information) | 429 |
+| [ExchangeConfiguration Parser](#exchangeconfiguration-parser) | 429 |
+| [Parser Definition](#parser-definition) | 429 |
+| [Parser Description](#parser-description) | 429 |
+| [Parser Setup](#parser-setup) | 429 |
+| [Linked tables](#linked-tables) | 429 |
+| [Parameters simulation](#parameters-simulation) | 429 |
+| [Exchange Configuration Environment List Parser](#exchange-configuration-environment-list-parser) | 429 |
+| [Parser Definition](#parser-definition-1) | 429 |
+| [Parser Description](#parser-description-1) | 429 |
+| [Parser Setup](#parser-setup-1) | 429 |
+| [Linked tables](#linked-tables-1) | 429 |
+| [Parameters simulation](#parameters-simulation-1) | 429 |
+| [Microsoft Exchange Security Check VIP Parser](#microsoft-exchange-security-check-vip-parser) | 429 |
+| [Parser Definition](#parser-definition-2) | 429 |
+| [Parser Description](#parser-description-2) | 429 |
+| [Parser dependency](#parser-dependency) | 429 |
+| [Parser Setup](#parser-setup-2) | 429 |
+| [Parameters simulation](#parameters-simulation-2) | 429 |
+| [Microsoft Exchange Compare Data MRA Parser](#microsoft-exchange-compare-data-mra-parser) | 429 |
+| [Parser Definition](#parser-definition-3) | 429 |
+| [Parser Description](#parser-description-3) | 429 |
+| [Parser Setup](#parser-setup-3) | 429 |
+| [Microsoft Exchange Security - Office 365 Activity logs Parser](#microsoft-exchange-security---office-365-activity-logs-parser) | 429 |
+| [Parser Definition](#parser-definition-4) | 429 |
+| [Parser Description](#parser-description-4) | 429 |
+| [Parser Setup](#parser-setup-4) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Exchange Security - Exchange Online/README.md
+
+| URL | State |
+| --- | --- |
+| [General Documentation & Artifacts](./%23%20-%20General%20Content/README.md) | 429 |
+
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Isolate-MDEMachine/readme.md
 
 | URL | State |
 | --- | --- |
-| [Entity Trigger](./Isolate-MDE-Machine-entity-trigger/images/playbookDark.png) | 404 |
+| [Incident Trigger](./Isolate-MDEMachine-incident-trigger/images/designerLight.png) | 429 |
+| [Alert Trigger](./Isolate-MDEMachine-alert-trigger/images/Isolate-MDEMachine_alert.png) | 429 |
+| [Entity Trigger](./Isolate-MDE-Machine-entity-trigger/images/playbookDark.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Restrict-MDEAppExecution/readme.md
+
+| URL | State |
+| --- | --- |
+| [Incident Trigger](./Restrict-MDEAppExecution-incident-trigger/images/designerLight.png) | 429 |
+| [Alert Trigger](./Restrict-MDEAppExecution-alert-trigger/images/Restrict-MDEAppExecution_alert.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Restrict-MDEDomain/readme.md
+
+| URL | State |
+| --- | --- |
+| [Incident Trigger](./Restrict-MDEDomain-incident-trigger/images/designerDark.png) | 429 |
+| [Incident Trigger](./Restrict-MDEDomain-incident-trigger/images/designerLight.png) | 429 |
+| [Alert Trigger](./Restrict-MDEDomain-alert-trigger/images/Restrict-MDEDomain_alert.png) | 429 |
+| [Entity Trigger Light](./Restrict-MDEDomain-entity-trigger/images/Restrict-MDEDomain-entityTrigger-light.png) | 429 |
+| [Entity Trigger Dark](./Restrict-MDEDomain-entity-trigger/images/Restrict-MDEDomain-entityTrigger-dark.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Restrict-MDEFileHash/readme.md
+
+| URL | State |
+| --- | --- |
+| [Incident Trigger](./Restrict-MDEFileHash-incident-trigger/images/designerLight.png) | 429 |
+| [Alert Trigger](./Restrict-MDEFileHash-alert-trigger/images/Restrict-MDEFileHash_alert.png) | 429 |
+| [Entity Trigger Light](./Restrict-MDEFileHash-entity-trigger/images/Restrict-MDEFileHash-entityTrigger-light.png) | 429 |
+| [Entity Trigger Dark](./Restrict-MDEFileHash-entity-trigger/images/Restrict-MDEFileHash-entityTrigger-dark.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Restrict-MDEIPAddress/readme.md
+
+| URL | State |
+| --- | --- |
+| [Incident Trigger](./Restrict-MDEIPAddress-incident-trigger/images/designerLight.png) | 429 |
+| [Alert Trigger](./Restrict-MDEIPAddress-alert-trigger/images/Restrict-MDEIpAddress_alert.png) | 429 |
+| [Entity Trigger Light](./Restrict-MDEIPAddress-entity-trigger/images/Restrict-MDEIPAddress-entityTrigger-light.png) | 429 |
+| [Entity Trigger](./Restrict-MDEIPAddress-entity-trigger/images/Restrict-MDEIPAddress-entityTrigger-dark.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Restrict-MDEUrl/readme.md
+
+| URL | State |
+| --- | --- |
+| [Incident Trigger](./Restrict-MDEUrl-incident-trigger/images/designerLight.png) | 429 |
+| [Alert Trigger](./Restrict-MDEUrl-alert-trigger/images/Restrict-MDEUrl_alert.png) | 429 |
+| [Entity Trigger Light](./Restrict-MDEUrl-entity-trigger/images/Restrict-MDEURLAddress-entityTrigger-light.png) | 429 |
+| [Entity Trigger Light](./Restrict-MDEUrl-entity-trigger/images/Restrict-MDEURLAddress-entityTrigger-dark.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Run-MDEAntivirus/readme.md
+
+| URL | State |
+| --- | --- |
+| [Incident Trigger](./Run-MDEAntivirus-incident-trigger/images/designerDark.png) | 429 |
+| [Alert Trigger](./Run-MDEAntivirus-alert-trigger/images/Run-MDEAntivirus_alert.png) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftDefenderForEndpoint/Playbooks/Unisolate-MDEMachine/readme.md
 
 | URL | State |
 | --- | --- |
-| [Incident Trigger](./Unisolate-MDEMachine/Unisolate-MDEMachine-incident-trigger/images/designerLight.png) | 404 |
-| [Alert Trigger](./Unisolate-MDEMachine/Unisolate-MDEMachine-alert-trigger/images/Unisolate-MDEMachine_alert.png) | 404 |
-| [Entity Trigger](./Unisolate-MDEMachine/Unisolate-MDE-Machine-entity-trigger/images/playbookDark.png) | 404 |
+| [Incident Trigger](./Unisolate-MDEMachine/Unisolate-MDEMachine-incident-trigger/images/designerLight.png) | 429 |
+| [Alert Trigger](./Unisolate-MDEMachine/Unisolate-MDEMachine-alert-trigger/images/Unisolate-MDEMachine_alert.png) | 429 |
+| [Entity Trigger](./Unisolate-MDEMachine/Unisolate-MDE-Machine-entity-trigger/images/playbookDark.png) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftPurviewInsiderRiskManagement/readme.md
 
 | URL | State |
 | --- | --- |
-| [Workbook Overview](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftPurviewInsiderRiskManagement/Workbooks/Images/InsiderRiskManagementBlack1.png?raw=true) | 404 |
+| [Workbook Overview](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MicrosoftPurviewInsiderRiskManagement/Workbooks/Images/InsiderRiskManagementBlack1.png?raw=true) | 429 |
 | [Investigate incidents with Microsoft Sentinel]( https://docs.microsoft.com/azure/sentinel/investigate-cases) | 0 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Mimecast/Playbooks/Mimecast Data Connector Trigger Sync/README.md
+
+| URL | State |
+| --- | --- |
+| [Summary](#Summary) | 429 |
+| [Prerequisites](#Prerequisites) | 429 |
+| [Deployment instructions](#Deployment-instructions) | 429 |
+| [Post-Deployment instructions](#Post-Deployment-instructions) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Minemeld/Playbooks/MinemeldPlaybooks/Minemeld-CreateIndicator/readme.md
+
+| URL | State |
+| --- | --- |
+| [Minemeld documentation](https://github.com/PaloAltoNetworks/minemeld/wiki) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Minemeld/Playbooks/MinemeldPlaybooks/Minemeld-EnrichIncident/readme.md
+
+| URL | State |
+| --- | --- |
+| [Minemeld documentation](https://github.com/PaloAltoNetworks/minemeld/wiki) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MongoDBAtlas/README.md
 
 | URL | State |
 | --- | --- |
-| [Release Notes](releaseNotes.md) | 404 |
+| [Release Notes](releaseNotes.md) | 429 |
+| [Pre-requisites](#pre-requisites) | 429 |
+| [Deployment Process](#deployment-process) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/NISTSP80053/readme.md
 
 | URL | State |
 | --- | --- |
+| [Workbook Overview](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/NISTSP80053/Workbooks/Images/NISTSP80053Black.png?raw=true) | 429 |
 | [Details of the NIST SP 800-53 Rev. 4 Regulatory Compliance built-in initiative](https://docs.microsoft.com/azure/governance/policy/samples/nist-sp-800-53-) | 404 |
+| [GitHub Commit History](https://github.com/Azure/azure-policy/commits/master/built-in-policies/policySetDefinitions/Regulatory%20Compliance/NIST80053_audit.json) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Netskopev2/Playbooks/NetskopeDataConnectorsTriggerSync/Readme.md
+
+| URL | State |
+| --- | --- |
+| [Summary](#Summary) | 429 |
+| [Prerequisites](#Prerequisites) | 429 |
+| [Deployment instructions](#Deployment-instructions) | 429 |
+| [Post-Deployment instructions](#Post-Deployment-instructions) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Netskopev2/Playbooks/NetskopeWebTxErrorEmail/Readme.md
+
+| URL | State |
+| --- | --- |
+| [Summary](#Summary) | 429 |
+| [Deployment instructions](#Deployment-instructions) | 429 |
+| [Post-Deployment instructions](#Post-Deployment-instructions) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Neustar IP GeoPoint/Playbooks/Neustar-GetIPGeoInfo/readme.md
 
 | URL | State |
 | --- | --- |
-| [Neustar IP GeoPoint API Function App Connector](../NeustarIPGeoPoint_FunctionAppConnector/) | 404 |
-| [Neustar IP GeoPoint API Function App Connector](../NeustarIPGeoPoint_FunctionAppConnector/readme.md) | 404 |
-| [Neustar IP GeoPoint API Function App Connector](../NeustarIPGeoPoint_FunctionAppConnector/readme.md) | 404 |
+| [Neustar IP GeoPoint API Function App Connector](../NeustarIPGeoPoint_FunctionAppConnector/) | 429 |
+| [Neustar IP GeoPoint API Function App Connector](../NeustarIPGeoPoint_FunctionAppConnector/readme.md) | 429 |
+| [Neustar IP GeoPoint API Function App Connector](../NeustarIPGeoPoint_FunctionAppConnector/readme.md) | 429 |
 | [Neustar IP GeoPoint API Guide](https://ipintelligence.neustar.biz/portal/pc/portal/docs/doc_rest_api.html) | 403 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Neustar IP GeoPoint/Playbooks/NeustarIPGeoPoint_FunctionAppConnector/readme.md
@@ -1388,128 +1804,532 @@
 | [Token for Microsoft Sentinel integration](https://support.nordpass.com/hc/en-us/articles/31972037289873) | 403 |
 | [Contact Support](https://support.nordpass.com/hc/en-us/requests/new) | 403 |
 
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Okta Single Sign-On/Playbooks/OktaPlaybooks/Okta-EnrichIncidentWithUserDetails/readme.md
+
+| URL | State |
+| --- | --- |
+| [Comment example](./images/Incident_Comment.png) | 429 |
+| [Playbook Designer view](./Okta-EnrichIncidentwithuserdetails.PNG) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Okta Single Sign-On/Playbooks/OktaPlaybooks/Okta-PromptUser/readme.md
+
+| URL | State |
+| --- | --- |
+| [Playbook Designer view](./Okta-PromptUser.PNG) | 429 |
+| [Adaptive Card example](./images/AdaptivecardtotheEnduser.PNG) | 429 |
+| [Adaptive Card example](./images/AdaptivecardtoSOCadminon%20teamschannel.PNG) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Okta Single Sign-On/Playbooks/OktaPlaybooks/Okta-ResponseFromTeams/readme.md
+
+| URL | State |
+| --- | --- |
+| [Playbook Designer view](./Okta-ResponseFromTeams.PNG) | 429 |
+| [Adaptive Card example](./images/AdaptiveCardtoSOCuser.PNG) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Okta Single Sign-On/Playbooks/readme.md
+
+| URL | State |
+| --- | --- |
+| [Overview](#overview) | 429 |
+| [Deploy Custom Connector + 3 Playbook templates](#deployall) | 429 |
+| [Authentication](#importantnotes) | 429 |
+| [Prerequisites](#prerequisites) | 429 |
+| [Deployment](#deployment) | 429 |
+| [Post Deployment Steps](#postdeployment) | 429 |
+| [Components of this integration](#components) | 429 |
+| [OktaCustomConnector](https://github.com/Azure/Azure-Sentinel/tree/master/Solutions/Okta%20Single%20Sign-On/Playbooks/OktaCustomConnector) | 429 |
+| [Okta-Response From Teams : Playbook to perform different actions on user on Okta and add user deatils to incident](https://github.com/Azure/Azure-Sentinel/tree/master/Solutions/Okta%20Single%20Sign-On/Playbooks/OktaPlaybooks/Okta-EnrichIncidentWithUserDetails) | 429 |
+| [Okta-Enrich incident with user details : Playbook to enrich incident with user deatils and user groupdetails ](https://github.com/Azure/Azure-Sentinel/tree/master/Solutions/Okta%20Single%20Sign-On/Playbooks/OktaPlaybooks/Okta-EnrichIncidentWithUserDetails) | 429 |
+| [Okta-PromptUser : Playbook to prompt risky user about the malicious activity](https://github.com/Azure/Azure-Sentinel/tree/master/Solutions/Okta%20Single%20Sign-On/Playbooks/OktaPlaybooks/Okta-PromptUser) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/OpenCTI/Playbooks/OpenCTIPlaybooks/OpenCTI-CreateIndicator/readme.md
+
+| URL | State |
+| --- | --- |
+| [Comment example](./images/IncidentCommentCreateindicator.png) | 429 |
+| [Playbook Designer view](./images/CreateIndicatorOpenCTIworkflow.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/OpenCTI/Playbooks/OpenCTIPlaybooks/OpenCTI-EnrichIncident/readme.md
+
+| URL | State |
+| --- | --- |
+| [Comment example](./images/CommentGetIndicatorInfofromOpenCTI.png) | 429 |
+| [Playbook Designer view](./images/GetIndicatorInfoOpenCTI.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/OpenCTI/Playbooks/OpenCTIPlaybooks/OpenCTI-GetIndicatorsStream/readme.md
+
+| URL | State |
+| --- | --- |
+| [Playbook Designer view](./images/ImportToSentinel.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/OpenCTI/Playbooks/OpenCTIPlaybooks/OpenCTI-ImportToSentinel/readme.md
+
+| URL | State |
+| --- | --- |
+| [Playbook Designer view](./images/BatchImportToSentinel.png) | 429 |
+| [AAD TenantId view](./images/AADTenantId.png) | 429 |
+| [LogicApp System Identity TenantId view](./images/LogicAppSystemIdentity.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Palo Alto - XDR (Cortex)/Playbook/README.md
+
+| URL | State |
+| --- | --- |
+| [Overview](#overview) | 429 |
+| [Prerequisites](#prerequisites) | 429 |
+| [Deploy Palo Alot XDR playbook](#deployall) | 429 |
+| [Deployment Instructions](#instructions) | 429 |
+| [Post-Deployment Instructions](#postdeployment) | 429 |
+| [References](#references) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Palo Alto Prisma Cloud CWPP/Data Connectors/readme.md
+
+| URL | State |
+| --- | --- |
+| [Prisma_console_portal](Images/console_portal.png) | 429 |
+| [Setting](Images/setting.png) | 429 |
+| [access_control](Images/access_control.png) | 429 |
+| [add_option](Images/add_option.png) | 429 |
+| [New_Service_account](Images/New_Service_account.png) | 429 |
+| [Accesskey_details](Images/Accesskey_details.png) | 429 |
+| [Accesskey_results](Images/Accesskey_results.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/PaloAlto-PAN-OS/Playbooks/PaloAltoPlaybooks/PaloAlto-PAN-OS-BlockIP-EntityTrigger/readme.md
+
+| URL | State |
+| --- | --- |
+| [PaloAlto-PAN-OS-BlockIP](./images/designerscreenshot_lighttheme.PNG) | 429 |
+| [Adaptive Card example](./images/AdaptiveCardtoBlockorUnblock.PNG) | 429 |
+| [Consolidated Adaptive Card example](./images/SummarizedAdaptiveCard.PNG) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/PaloAlto-PAN-OS/Playbooks/PaloAltoPlaybooks/PaloAlto-PAN-OS-BlockIP/readme.md
+
+| URL | State |
+| --- | --- |
+| [PaloAlto-PAN-OS-BlockIP](./designerscreenshot.PNG) | 429 |
+| [Adaptive Card example](./AdaptiveCardtoBlockorUnblock.PNG) | 429 |
+| [Consolidated Adaptive Card example](./SummarizedAdaptiveCard.PNG) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/PaloAlto-PAN-OS/Playbooks/PaloAltoPlaybooks/PaloAlto-PAN-OS-BlockURL-EntityTrigger/readme.md
+
+| URL | State |
+| --- | --- |
+| [PaloAlto-PAN-OS-BlockURL](./images/designerscreenshot_lighttheme.PNG) | 429 |
+| [Adaptive Card example](./images/AdaptiveCardtoBlockorUnblock.PNG) | 429 |
+| [Consolidated Adaptive Card example](./images/SummarizedAdaptiveCard.PNG) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/PaloAlto-PAN-OS/Playbooks/PaloAltoPlaybooks/PaloAlto-PAN-OS-BlockURL/readme.md
+
+| URL | State |
+| --- | --- |
+| [PaloAlto-PAN-OS-BlockURL](./designerscreenshot.PNG) | 429 |
+| [Adaptive Card example](./AdaptiveCardtoBlockorUnblock.PNG) | 429 |
+| [Consolidated Adaptive Card example](./SummarizedAdaptiveCard.PNG) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/PaloAlto-PAN-OS/Playbooks/PaloAltoPlaybooks/PaloAlto-PAN-OS-GetURLCategoryInfo/readme.md
+
+| URL | State |
+| --- | --- |
+| [PaloAlto-PAN-OS-GetURLCategoryInfo](./designerscreenshot.PNG) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/PaloAlto-PAN-OS/Playbooks/readme.md
+
+| URL | State |
+| --- | --- |
+| [Overview](#overview) | 429 |
+| [Deploy Custom Connector + 3 Playbook templates](#deployall) | 429 |
+| [Authentication](#authentication) | 429 |
+| [Prerequisites](#prerequisites) | 429 |
+| [Deployment](#deployment) | 429 |
+| [Post Deployment Steps](#postdeployment) | 429 |
+| [Known issues and limitations](#knownissues) | 429 |
+| [various actions](./PaloAltoCustomConnector#actions-supported-by-palo-alto-custom-connector) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/PaloAltoPrismaCloud/Data Connectors/Readme.md
+
+| URL | State |
+| --- | --- |
+| [Introduction](#intro) | 429 |
+| [Prerequisites](#step2) | 429 |
+| [Steps to get the Access Key & Secret Key from the PrismaCloudCSPM](#Key) | 429 |
+| [Steps to get the Base URL](#url) | 429 |
+
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ProofPointTap/Playbooks/readme.md
 
 | URL | State |
 | --- | --- |
-| [Enrichment – add information to incidents](./Playbooks/ProofpointTAP-CheckAccountInVAP) | 404 |
-| [Enrichment - add forensics info to incident](./Playbooks/ProofpointTAP-AddForensicsInfoToIncident) | 404 |
+| [Overview](#overview) | 429 |
+| [Custom Connector + 3 Playbook templates deployment](#deployall) | 429 |
+| [Authentication](#importantnotes) | 429 |
+| [Prerequisites](#prerequisites) | 429 |
+| [Deployment](#deployment) | 429 |
+| [Post-Deployment Steps](#postdeployment) | 429 |
+| [References](#references) | 429 |
+| [Known issues and limitations](#limitations) | 429 |
+| [Logic Apps custom connector for Proofpoint TAP](./ProofpointTAPConnector) | 429 |
+| [Enrichment – add information to incidents](./Playbooks/ProofpointTAP-CheckAccountInVAP) | 429 |
+| [Enrichment - add forensics info to incident](./Playbooks/ProofpointTAP-AddForensicsInfoToIncident) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/QualysVM/Playbooks/QualysVMPlaybooks/QualysVM-GetAssetDetails/readme.md
 
 | URL | State |
 | --- | --- |
-| [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/) | 404 |
-| [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/readme.md) | 404 |
+| [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/) | 429 |
+| [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/readme.md) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/QualysVM/Playbooks/QualysVMPlaybooks/QualysVM-GetAssets-ByCVEID/readme.md
 
 | URL | State |
 | --- | --- |
-| [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/) | 404 |
-| [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/readme.md) | 404 |
+| [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/) | 429 |
+| [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/readme.md) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/QualysVM/Playbooks/QualysVMPlaybooks/QualysVM-GetAssets-ByOpenPort/readme.md
 
 | URL | State |
 | --- | --- |
-| [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/) | 404 |
-| [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/readme.md) | 404 |
+| [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/) | 429 |
+| [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/readme.md) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/QualysVM/Playbooks/QualysVMPlaybooks/QualysVM-LaunchVMScan-GenerateReport/readme.md
 
 | URL | State |
 | --- | --- |
-| [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/) | 404 |
-| [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/readme.md) | 404 |
+| [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/) | 429 |
+| [Qualys Logic App Custom Connector](../../CustomConnector/QualysCustomConnector/readme.md) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/README.md
+
+| URL | State |
+| --- | --- |
+| [Microsoft Sentinel solutions build process](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Images/solutions_steps.png) | 429 |
+| [Get started documentation](https://github.com/Azure/Azure-Sentinel/wiki#get-started) | 429 |
+| [Solutions](https://github.com/Azure/Azure-Sentinel/tree/master/Solutions) | 429 |
+| [Solutions](https://github.com/Azure/Azure-Sentinel/tree/master/Solutions) | 429 |
+| [this](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/CrowdStrike%20Falcon%20Endpoint%20Protection/Parsers/CrowdStrikeReplicatorV2.yaml) | 429 |
+| [Cisco ISE solution](https://github.com/Azure/Azure-Sentinel/tree/master/Solutions/Cisco%20ISE) | 429 |
+| [Logos](https://github.com/Azure/Azure-Sentinel/tree/master/Logos) | 429 |
+| [sample data folder](https://github.com/Azure/Azure-Sentinel/tree/master/Sample%20Data) | 429 |
+| [Address potential errors](https://github.com/Azure/Azure-Sentinel/wiki#test-your-contribution) | 429 |
+| [package creation tool](https://github.com/Azure/Azure-Sentinel/tree/master/Tools/Create-Azure-Sentinel-Solution/V3) | 429 |
+| [solutions packaging tool guidance](https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Create-Azure-Sentinel-Solution/V3/README.md) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Rapid7InsightVM/Playbooks/Playbooks/Rapid7InsightVM-EnrichIncidentWithAssetInfo/readme.md
 
 | URL | State |
 | --- | --- |
-| [Rapid7 InsightVM API Connector](../../Rapid7InsightVMCloudAPIConnector/) | 404 |
-| [Rapid7 InsightVM API Connector](../../Rapid7InsightVMCloudAPIConnector/) | 404 |
+| [Rapid7 InsightVM API Connector](../../Rapid7InsightVMCloudAPIConnector/) | 429 |
+| [Rapid7 InsightVM API Connector](../../Rapid7InsightVMCloudAPIConnector/) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Rapid7InsightVM/Playbooks/Playbooks/Rapid7InsightVM-EnrichVulnerabilityInfo/readme.md
 
 | URL | State |
 | --- | --- |
-| [Rapid7 InsightVM API Connector](../../Rapid7InsightVMCloudAPIConnector/) | 404 |
-| [Rapid7 InsightVM API Connector](../../Rapid7InsightVMCloudAPIConnector/) | 404 |
+| [Rapid7 InsightVM API Connector](../../Rapid7InsightVMCloudAPIConnector/) | 429 |
+| [Rapid7 InsightVM API Connector](../../Rapid7InsightVMCloudAPIConnector/) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Rapid7InsightVM/Playbooks/Playbooks/Rapid7InsightVM-RunScan/readme.md
 
 | URL | State |
 | --- | --- |
-| [Rapid7 InsightVM API Connector](../../Rapid7InsightVMCloudAPIConnector/) | 404 |
-| [Rapid7 InsightVM API Connector](../../Rapid7InsightVMCloudAPIConnector/) | 404 |
+| [Rapid7 InsightVM API Connector](../../Rapid7InsightVMCloudAPIConnector/) | 429 |
+| [Rapid7 InsightVM API Connector](../../Rapid7InsightVMCloudAPIConnector/) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Rapid7InsightVM/Playbooks/readme.md
+
+| URL | State |
+| --- | --- |
+| [Overview](#overview) | 429 |
+| [Custom Connectors + 3 Playbook templates deployment](#deployall) | 429 |
+| [Authentication](#authentication) | 429 |
+| [Prerequisites](#prerequisites) | 429 |
+| [Deployment](#deployment) | 429 |
+| [Post-Deployment Steps](#postdeployment) | 429 |
+| [Logic Apps custom connector for Rapid7 InsightVM Cloud Integrations API](./Rapid7InsightVMCloudAPIConnector) | 429 |
+| [Rapid7InsightVM-EnrichIncidentWithAssetInfo](./Playbooks/Rapid7InsightVM-EnrichIncidentWithAssetInfo) | 429 |
+| [Rapid7InsightVM-EnrichVulnerabilityInfo](./Playbooks/Rapid7InsightVM-EnrichVulnerabilityInfo) | 429 |
+| [Rapid7InsightVM-RunScan](./Playbooks/Rapid7InsightVM-RunScan) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future Identity/Playbooks/readme.md
 
 | URL | State |
 | --- | --- |
-| [RecordedFuture-CustomConnector](../../Recorded%20Future/Playbooks/Connectors/RecordedFuture-CustomConnector/readme.md) | 404 |
+| [Recorded Future Identity main readme](../readme.md) | 429 |
+| [Overview](#overview) | 429 |
+| [Deployment](#deployment) | 429 |
+| [Prerequisites](#prerequisites) | 429 |
+| [Playbooks](#playbooks) | 429 |
+| ["Connector" playbooks](#connector_playbooks) | 429 |
+| [RFI-CustomConnector](#RFI-CustomConnector) | 429 |
+| ["Alert" playbooks](#alert_playbooks) | 429 |
+| [RFI-playbook-alert-importer](#RFI-playbook-alert-importer) | 429 |
+| [RFI-playbook-alert-importer-law](#RFI-playbook-alert-importer-law) | 429 |
+| [RFI-playbook-alert-importer-law-sentinel](#RFI-playbook-alert-importer-law-sentinel) | 429 |
+| [How to configure playbooks](#configuration) | 429 |
+| [How to find the playbooks (Logic Apps) after deployment](#find_playbooks_after_deployment) | 429 |
+| [Configuring Playbooks Connections](#configuration_connections) | 429 |
+| [API connector authorization](#API-connector-authorization) | 429 |
+| [Configuring Playbooks Parameters](#configuration_parameters) | 429 |
+| [How to Run Playbooks](#how_to_run_playbooks) | 429 |
+| [Suggestions for advanced users](#suggestions_for_advanced_users) | 429 |
+| [How to access Log Analytics Custom Logs](#how_to_access_log_analytics_custom_logs) | 429 |
+| [Customization](#customization) | 429 |
+| [Known Issues](#known-issues) | 429 |
+| [Useful Azure documentation](#useful_documentation) | 429 |
+| [How to obtain Recorded Future API token](#how_to_obtain_Recorded_Future_API_token) | 429 |
+| [How to contact Recorded Future](#how_to_contact_Recorded_Future) | 429 |
+| [v3.0](./v3.0/readme.md) | 429 |
+| [this section](#how_to_obtain_Recorded_Future_API_token) | 429 |
+| [RecordedFuture-CustomConnector](../../Recorded%20Future/Playbooks/Connectors/RecordedFuture-CustomConnector/readme.md) | 429 |
+| [How to obtain Recorded Future API token](#how_to_obtain_Recorded_Future_API_token) | 429 |
+| [apiconnection](images/apiconnection.png) | 429 |
+| [managedidentity1](images/managedidentity1.png) | 429 |
+| [managedidentity2](images/managedidentity2.png) | 429 |
+| [API request form](images/APIRequest2.png) | 429 |
+| [Changing the Added actions taken parameter](images/added_actions_taken.png) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future Identity/Playbooks/v3.0/readme.md
 
 | URL | State |
 | --- | --- |
-| [RecordedFuture-CustomConnector](../../../Recorded%20Future/Playbooks/Connectors/RecordedFuture-CustomConnector/readme.md) | 404 |
-| [API request form](../images/APIRequest.png) | 404 |
+| [readme](../readme.md) | 429 |
+| [Overview](#overview) | 429 |
+| [Deployment](#deployment) | 429 |
+| [Prerequisites](#prerequisites) | 429 |
+| [Playbooks](#playbooks) | 429 |
+| ["Connector" playbooks](#connector_playbooks) | 429 |
+| [RFI-CustomConnector](#RFI-CustomConnector) | 429 |
+| [Base playbooks](#Base-playbooks) | 429 |
+| [Add risky user to Microsoft EntraID Group](#RFI-add-EntraID-security-group-user) | 429 |
+| [Microsoft EntraID Protection - confirm user is compromised](#entraid_identity_protection_confirm_user_is_compromised) | 429 |
+| [Lookup risky user and save results](#RFI-lookup-and-save-user) | 429 |
+| ["Search" playbooks (Workforce and External)](#search_playbooks) | 429 |
+| [RFI-search-workforce-user](#RFI-search-workforce-user) | 429 |
+| [RFI-search-external-user](#RFI-search-external-user) | 429 |
+| [How to configure playbooks](#configuration) | 429 |
+| [How to find the playbooks (Logic Apps) after deployment](#find_playbooks_after_deployment) | 429 |
+| [Configuring Playbooks Connections](#configuration_connections) | 429 |
+| [API connector authorization](#API-connector-authorization) | 429 |
+| [Configuring Playbooks Parameters](#configuration_parameters) | 429 |
+| [How to Run Playbooks](#how_to_run_playbooks) | 429 |
+| [Suggestions for advanced users](#suggestions_for_advanced_users) | 429 |
+| [How to access Log Analytics Custom Logs](#how_to_access_log_analytics_custom_logs) | 429 |
+| [Useful Azure documentation](#useful_documentation) | 429 |
+| [How to obtain Recorded Future API token](#how_to_obtain_Recorded_Future_API_token) | 429 |
+| [How to contact Recorded Future](#how_to_contact_Recorded_Future) | 429 |
+| [this section](#how_to_obtain_Recorded_Future_API_token) | 429 |
+| [How to obtain Recorded Future API token](#how_to_obtain_Recorded_Future_API_token) | 429 |
+| [RecordedFuture-CustomConnector](../../../Recorded%20Future/Playbooks/Connectors/RecordedFuture-CustomConnector/readme.md) | 429 |
+| [API request form](../images/APIRequest.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future Identity/readme.md
+
+| URL | State |
+| --- | --- |
+| [Recorded Future main readme](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded%20Future/readme.md) | 429 |
+| [Installation guide](Playbooks/readme.md) | 429 |
+| [Installation guide](Playbooks/readme.md) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future/Playbooks/Alerts/readme.md
 
 | URL | State |
 | --- | --- |
-| [](../Images/2023-08-09-18-05-46.png) | 404 |
+| [readme](../readme.md) | 429 |
+| [Connector authorization](../readme.md#connector-authorization) | 429 |
+| [Connector authorization](../readme.md#connector-authorization) | 429 |
+| [](../Images/2023-08-09-18-05-46.png) | 429 |
+| [Connector authorization](#connector-authorization) | 429 |
+| [Connector authorization](../readme.md#connector-authorization) | 429 |
+| [alt text](create_incident.png) | 429 |
+| [Playbook Alert categories within logic app](./pba_categories.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future/Playbooks/Connectors/RecordedFuture-CustomConnector/readme.md
+
+| URL | State |
+| --- | --- |
+| [readme](../../../readme.md) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future/Playbooks/Deprecated/readme.md
+
+| URL | State |
+| --- | --- |
+| [readme](../readme.md) | 429 |
+| [RecordedFuture-DOMAIN-C2_DNS_Name-IndicatorProcessor](RecordedFuture-DOMAIN-C2_DNS_Name-IndicatorProcessor/readme.md) | 429 |
+| [RecordedFuture-HASH-Observed_in_Underground_Virus_Test_Sites-IndicatorProcessor](RecordedFuture-HASH-Observed_in_Underground_Virus_Test_Sites-IndicatorProcessor/readme.md) | 429 |
+| [RecordedFuture-ImportToSentinel](RecordedFuture-ImportToSentinel/readme.md) | 429 |
+| [RecordedFuture-IP-Actively_Comm_C2_Server-IndicatorProcessor](RecordedFuture-IP-Actively_Comm_C2_Server-IndicatorProcessor/readme.md) | 429 |
+| [RecordedFuture-Ukraine-IndicatorProcessor](RecordedFuture-Ukraine-IndicatorProcessor/readme.md) | 429 |
+| [RecordedFuture-URL-Recent_Rep_by_Insikt_Group-IndicatorProcessor](RecordedFuture-URL-Recent_Rep_by_Insikt_Group-IndicatorProcessor/readme.md) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future/Playbooks/Enrichment/quickstart.md
+
+| URL | State |
+| --- | --- |
+| [readme](../readme.md) | 429 |
+| [](Images/permissions.png) | 429 |
+| [](Images/playbookInstallation.png) | 429 |
+| [](Images/auth.png) | 429 |
+| [](Images/automation.png) | 429 |
+| [](Images/incidentComment.png) | 429 |
+| [](Images/secops.png) | 429 |
+| [Overview on Recorded Future Integrations](../../readme.md) | 429 |
+| [Enrichment playbooks](./readme.md) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future/Playbooks/Enrichment/readme.md
+
+| URL | State |
+| --- | --- |
+| [readme](../readme.md) | 429 |
+| [Connector authorization](../readme.md#connector-authorization) | 429 |
+| [Connector authorization](../readme.md#connector-authorization) | 429 |
+| [](./RecordedFuture-IOC_Enrichment/images/CreateAutomationRuleMenu.png) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future/Playbooks/IndicatorImport/readme.md
 
 | URL | State |
 | --- | --- |
-| [](../Images/2023-04-19-16-49-53.png) | 404 |
-| [](../Images/2023-04-19-16-51-12.png) | 404 |
-| [](../Images/2023-09-08-12-01-37.png) | 404 |
-| [](../Images/2023-12-12-10-02-11.png) | 404 |
-| [](../Images/2023-04-18-16-39-00.png) | 404 |
+| [readme](../readme.md) | 429 |
+| [Connector authorization](../readme.md#connector-authorization) | 429 |
+| [Connector authorization](../readme.md##connector-authorization) | 429 |
+| [Connector authorization](../readme.md#connector-authorization) | 429 |
+| [Connector authorization](../readme.md##connector-authorization) | 429 |
+| [Connector authorization](../readme.md#connector-authorization) | 429 |
+| [Connector authorization](../readme.md##connector-authorization) | 429 |
+| [Connector authorization](../readme.md#connector-authorization) | 429 |
+| [Connector authorization](../readme.md##connector-authorization) | 429 |
+| [Connector authorization](../readme.md#connector-authorization) | 429 |
+| [](../Images/2023-04-19-16-49-53.png) | 429 |
+| [](../Images/2023-04-19-16-51-12.png) | 429 |
+| [](../Images/2023-09-08-12-01-37.png) | 429 |
+| [](../Images/2023-12-12-10-02-11.png) | 429 |
+| [](../Images/2023-04-18-16-39-00.png) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future/Playbooks/Sandboxing/readme.md
 
 | URL | State |
 | --- | --- |
-| [](../Images/2023-06-26-10-04-42.png) | 404 |
-| [](../Images/2023-05-05-15-37-58.png) | 404 |
-| [](../Images/2023-05-05-15-29-37.png) | 404 |
-| [](../Enrichment/RecordedFuture-IOC_Enrichment/images/CreateAutomationRuleMenu.png) | 404 |
-| [](../Enrichment/RecordedFuture-IOC_Enrichment/images/CreateAutomationRule.png) | 404 |
+| [readme](../readme.md) | 429 |
+| [Recorded Future API Key](../readme.md#recorded-future-api-key) | 429 |
+| [](../Images/2023-06-26-10-04-42.png) | 429 |
+| [Connector authorization](../readme.md#connector-authorization) | 429 |
+| [Connector authorization](../readme.md#connector-authorization) | 429 |
+| [Connector authorization](../readme.md#connector-authorization) | 429 |
+| [](../Images/2023-05-05-15-37-58.png) | 429 |
+| [Connector authorization](../readme.md#connector-authorization) | 429 |
+| [](../Images/2023-05-05-15-29-37.png) | 429 |
+| [](../Enrichment/RecordedFuture-IOC_Enrichment/images/CreateAutomationRuleMenu.png) | 429 |
+| [](../Enrichment/RecordedFuture-IOC_Enrichment/images/CreateAutomationRule.png) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future/Playbooks/ThreatHunting/readme.md
 
 | URL | State |
 | --- | --- |
-| [**/RecordedFuture-CustomConnector**](../Connectors/RecordedFuture-CustomConnector/readme.md) | 404 |
-| [**/RecordedFuture-CustomConnector**](../Connectors/RecordedFuture-CustomConnector/readme.md) | 404 |
-| [**/RecordedFuture-CustomConnector**](../Connectors/RecordedFuture-CustomConnector/readme.md) | 404 |
-| [Recorded Future Enrichment](../Enrichment/readme.md#recordedfuture-ioc_enrichment) | 404 |
-| [](Images/2023-10-26-19-50-43.png) | 404 |
-| [**/RecordedFuture-CustomConnector**](../Connectors/RecordedFuture-CustomConnector/readme.md) | 404 |
-| [Recorded Future Enrichment](../Enrichment/readme.md#recordedfuture-ioc_enrichment) | 404 |
+| [readme](../readme.md) | 429 |
+| [**/RecordedFuture-CustomConnector**](../Connectors/RecordedFuture-CustomConnector/readme.md) | 429 |
+| [Connector authorization](../readme.md#connector-authorization) | 429 |
+| [Connector authorization](../readme.md#connector-authorization) | 429 |
+| [**/RecordedFuture-CustomConnector**](../Connectors/RecordedFuture-CustomConnector/readme.md) | 429 |
+| [Connector authorization](../readme.md#connectors-authorization) | 429 |
+| [Connector authorization](../readme.md#connectors-authorization) | 429 |
+| [**/RecordedFuture-CustomConnector**](../Connectors/RecordedFuture-CustomConnector/readme.md) | 429 |
+| [Connector authorization](../readme.md#connectors-authorization) | 429 |
+| [Connector authorization](../readme.md#connectors-authorization) | 429 |
+| [here](../readme.md#analytic-rules) | 429 |
+| [Recorded Future Enrichment](../Enrichment/readme.md#recordedfuture-ioc_enrichment) | 429 |
+| [](Images/2023-10-26-19-50-43.png) | 429 |
+| [**/RecordedFuture-CustomConnector**](../Connectors/RecordedFuture-CustomConnector/readme.md) | 429 |
+| [Connector authorization](../readme.md#connectors-authorization) | 429 |
+| [Connector authorization](../readme.md#connectors-authorization) | 429 |
+| [here](../readme.md#analytic-rules) | 429 |
+| [Recorded Future Enrichment](../Enrichment/readme.md#recordedfuture-ioc_enrichment) | 429 |
+| [alt text](Images/AdvancedParameters.png) | 429 |
+| [alt text](Images/GenericDetails.png) | 429 |
+| [alt text](Images/advanceindicatorconfig.png) | 429 |
+| [alt text](Images/GenericDetails.png) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future/Playbooks/readme.md
 
 | URL | State |
 | --- | --- |
-| [release notes](../ReleaseNotes.md) | 404 |
+| [](Images/2023-11-17-22-53-18.png) | 429 |
+| [RecordedFuture-CustomConnector](Connectors/RecordedFuture-CustomConnector/readme.md) | 429 |
+| [Playbooks](#playbooks) | 429 |
+| [](Images/2023-04-18-08-39-58.png) | 429 |
+| [](Images/2023-11-20-12-13-25.png) | 429 |
+| [here](#playbooks) | 429 |
+| [](Images/2023-11-20-12-34-15.png) | 429 |
+| [](Images/2023-04-18-08-43-42.png) | 429 |
+| [Key Features](../readme.md#key-features) | 429 |
+| [Enrichment Playbooks](Enrichment/readme.md) | 429 |
+| [Indicator Import/Risk List Playbooks](IndicatorImport/readme.md) | 429 |
+| [Alert Playbooks](Alerts/readme.md) | 429 |
+| [Sandbox Playbooks](./Sandboxing/readme.md) | 429 |
+| [Threat Hunt Playbooks](./ThreatHunting/readme.md) | 429 |
+| [Custom Connector](./Connectors/RecordedFuture-CustomConnector/readme.md) | 429 |
+| [Deprecated Risk List Playbooks](Deprecated/readme.md) | 429 |
+| [apiconnection](Images/apiconnection.png) | 429 |
+| [managedidentity1](Images/managedidentity1.png) | 429 |
+| [managedidentity2](Images/managedidentity2.png) | 429 |
+| [Workbooks](Images/workbook.png) | 429 |
+| [Analyticrule](Images/analyticrules.png) | 429 |
+| [release notes](../ReleaseNotes.md) | 429 |
+| [alt text](Images/ioc_enrichment_error_not.png) | 429 |
+| [alt text](Images/LogicAppVersion.png) | 429 |
+| [](Images/2023-09-13-19-16-24.png) | 429 |
+| [](Images/2023-09-13-19-24-54.png) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Recorded Future/readme.md
 
 | URL | State |
 | --- | --- |
-| [Recorded Future Defender playbooks](../../Playbooks/RecordedFuture-Block-IPs-and-Domains-on-Microsoft-Defender-for-Endpoint/) | 404 |
-| [Recorded Future Defender SCF playbooks](../../Playbooks/RecordedFuture_IP_SCF/) | 404 |
-| [Recorded Future Identity](../Recorded%20Future%20Identity/Playbooks/readme.md) | 404 |
+| [readme.md](Playbooks/readme.md) | 429 |
+| [Installation guide](Playbooks/readme.md) | 429 |
+| [Recorded Future Defender playbooks](../../Playbooks/RecordedFuture-Block-IPs-and-Domains-on-Microsoft-Defender-for-Endpoint/) | 429 |
+| [Recorded Future Defender SCF playbooks](../../Playbooks/RecordedFuture_IP_SCF/) | 429 |
+| [Recorded Future Identity](../Recorded%20Future%20Identity/Playbooks/readme.md) | 429 |
 | [Learn more about Recorded Future for Microsoft Sentinel](https://www.recordedfuture.com/microsoft-azure-sentinel-integration) | 404 |
+| [](Playbooks/Images/2023-04-19-17-08-46.png) | 429 |
+| [](Playbooks/Images/2023-04-19-17-46-32.png) | 429 |
+| [](Playbooks/Images/2023-04-19-17-46-13.png) | 429 |
+| [](Playbooks/Images/2023-06-26-10-04-42.png) | 429 |
 | [Manage Risk Lists](https://www.recordedfuture.com/support/install-configure-manage-risk-lists) | 404 |
+| [ThreatHunting](Playbooks/ThreatHunting/readme.md) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ReleaseNotesGuidance.md
+
+| URL | State |
+| --- | --- |
+| [Azure Marketplace listing description](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Images/ReleaseNotes_OfferListing.png) | 429 |
+| [here](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ReleaseNotesSample.md) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ReversingLabs/Playbooks/ReversingLabs-CheckQuota/README.md
+
+| URL | State |
+| --- | --- |
+| [Playbook overview](./images/playbook.jpg) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ReversingLabs/Playbooks/SpectraAnalyze-EnrichFileHash/README.md
+
+| URL | State |
+| --- | --- |
+| [Playbook overview](./playbook.jpg) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ReversingLabs/Playbooks/SpectraAnalyze-EnrichNetworkEntities/README.md
+
+| URL | State |
+| --- | --- |
+| [Playbook overview](./playbook.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ReversingLabs/Playbooks/SpectraIntelligence-EnrichFileHash/README.md
+
+| URL | State |
+| --- | --- |
+| [Playbook overview](./playbook.png) | 429 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ReversingLabs/Playbooks/SpectraIntelligence-EnrichNetworkEntities/README.md
+
+| URL | State |
+| --- | --- |
+| [Playbook overview](./playbook.png) | 429 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/RiskIQ/Playbooks/RiskIQ-Automated-Triage/readme.md
 
@@ -1984,6 +2804,12 @@
 | [Response - enrich incedent by hostname info](./Playbooks/URLhaus-CheckHostAndEnrichIncident) | 404 |
 | [Response - enrich incedent by URL info](./Playbooks/URLhaus-CheckURLAndEnrichIncident) | 404 |
 
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/VirusTotal/Playbooks/Get-VirusTotalFileInfo/readme.md
+
+| URL | State |
+| --- | --- |
+| [VirusTotal File Info API documentation](https://developers.virustotal.com/v3.0/reference#file-info) | 500 |
+
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/ZeroNetworks/Playbooks/ZeroNetworksConnector/readme.md
 
 | URL | State |
@@ -2118,21 +2944,22 @@
 | [API documentation](https://enterprise.support.lookout.com/hc/en-us/articles/115002741773-Mobile-Risk-API-Guide) | 0 |
 | [MuleSoft Cloudhub](https://www.mulesoft.com/platform/saas/cloudhub-ipaas-cloud-based-integration) | 403 |
 | [Palo Alto - XDR (Cortex)](solutions/palo-alto---xdr-(cortex) | 404 |
-| [PAC](https://docs.prancer.io/web/PAC/introduction/) | 0 |
-| [Prancer Documentation](https://docs.prancer.io/web) | 0 |
 | [Proofpoint On demand(POD) Email Security](solutions/proofpoint-on-demand(pod) | 404 |
 | [SecurityScorecard](https://www.SecurityScorecard.com/) | 0 |
 | [SecurityScorecard](https://www.SecurityScorecard.com/) | 0 |
 | [SecurityScorecard](https://www.SecurityScorecard.com/) | 0 |
+| [Sophos Cloud Optix](https://www.sophos.com/products/cloud-optix.aspx) | 404 |
+| [Sophos Endpoint Protection](https://www.sophos.com/en-us/products/endpoint-antivirus.aspx) | 404 |
+| [Sophos Endpoint Protection](https://www.sophos.com/en-us/products/endpoint-antivirus.aspx) | 404 |
 | [Threat Intelligence (NEW)](solutions/threat-intelligence-(new) | 404 |
 | [VMware Carbon Black Cloud](https://www.vmware.com/products/carbon-black-cloud.html) | 404 |
 | [VMware Carbon Black Cloud](https://www.vmware.com/products/carbon-black-cloud.html) | 404 |
 | [Lookout](https://enterprise.support.lookout.com/hc/en-us/articles/115002741773-Mobile-Risk-API-Guide#commoneventfields) | 0 |
 | [API documentation](https://enterprise.support.lookout.com/hc/en-us/articles/115002741773-Mobile-Risk-API-Guide) | 0 |
 | [Akamai Security Events](https://www.akamai.com/us/en/products/security/) | 0 |
-| [Akamai SIEM Integration documentation](https://developer.akamai.com/tools/integrations/siem) | 0 |
+| [Akamai SIEM Integration documentation](https://developer.akamai.com/tools/integrations/siem) | 403 |
 | [Akamai Security Events](https://www.akamai.com/us/en/products/security/) | 0 |
-| [Akamai SIEM Integration documentation](https://developer.akamai.com/tools/integrations/siem) | 0 |
+| [Akamai SIEM Integration documentation](https://developer.akamai.com/tools/integrations/siem) | 403 |
 | [Aruba ClearPass](https://www.arubanetworks.com/products/security/network-access-control/secure-access/) | 403 |
 | [Aruba ClearPass](https://www.arubanetworks.com/products/security/network-access-control/secure-access/) | 403 |
 | [Cisco ISE logging mechanism documentation](https://www.cisco.com/c/en/us/td/docs/security/ise/2-7/admin_guide/b_ise_27_admin_guide/b_ISE_admin_27_maintain_monitor.html#reference_BAFBA5FA046A45938810A5DF04C00591) | 404 |
@@ -2157,6 +2984,7 @@
 | [Proofpoint On demand(POD) Email Security](solutions/proofpoint-on-demand(pod) | 404 |
 | [RSA® SecurID Authentication Manager events](https://community.rsa.com/t5/rsa-authentication-manager/rsa-authentication-manager-log-messages/ta-p/630160) | 401 |
 | [RSA® SecurID Authentication Manager documentation](https://community.rsa.com/t5/rsa-authentication-manager/getting-started-with-rsa-authentication-manager/ta-p/569582) | 401 |
+| [Sophos XG Firewall](https://www.sophos.com/products/next-gen-firewall.aspx) | 404 |
 | [Ubiquiti UniFi firewall, dns, ssh, AP events](https://help.ui.com/hc/en-us/articles/204959834-UniFi-How-to-View-Log-Files) | 403 |
 | [vCenter](https://www.vmware.com/in/products/vcenter-server.html) | 404 |
 | [Zscaler Private Access (ZPA)](solutions/zscaler-private-access-(zpa) | 404 |
@@ -2236,7 +3064,8 @@
 | [`CommonSecurityLog`](../tables-index.md#commonsecuritylog) | 404 |
 | [Akamai Security Events](../solutions/akamai-security-events.md) | 404 |
 | [Akamai Security Events](https://www.akamai.com/us/en/products/security/) | 0 |
-| [Akamai SIEM Integration documentation](https://developer.akamai.com/tools/integrations/siem) | 0 |
+| [Akamai SIEM Integration documentation](https://developer.akamai.com/tools/integrations/siem) | 403 |
+| [Follow these steps](https://developer.akamai.com/tools/integrations/siem) | 403 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/akamaisecurityeventsama.md
@@ -2246,7 +3075,8 @@
 | [`CommonSecurityLog`](../tables-index.md#commonsecuritylog) | 404 |
 | [Akamai Security Events](../solutions/akamai-security-events.md) | 404 |
 | [Akamai Security Events](https://www.akamai.com/us/en/products/security/) | 0 |
-| [Akamai SIEM Integration documentation](https://developer.akamai.com/tools/integrations/siem) | 0 |
+| [Akamai SIEM Integration documentation](https://developer.akamai.com/tools/integrations/siem) | 403 |
+| [Follow these steps](https://developer.akamai.com/tools/integrations/siem) | 403 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/alicloudactiontrailccpdefinition.md
@@ -2263,6 +3093,7 @@
 | --- | --- |
 | [`AlsidForADLog_CL`](../tables-index.md#alsidforadlog_cl) | 404 |
 | [Alsid For AD](../solutions/alsid-for-ad.md) | 404 |
+| [here](https://github.com/Azure/azure-quickstart-templates/blob/master/alsid-syslog-proxy/logs/AlsidForAD.log) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/anvilogicccfdefinition.md
@@ -2303,6 +3134,7 @@
 | --- | --- |
 | [`ARGOS_CL`](../tables-index.md#argos_cl) | 404 |
 | [ARGOSCloudSecurity](../solutions/argoscloudsecurity.md) | 404 |
+| [Learn more about the integration](https://www.argos-security.io/resources#integrations) | 403 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/aristaawakesecurity.md
@@ -2365,6 +3197,7 @@
 | [`CommonSecurityLog`](../tables-index.md#commonsecuritylog) | 404 |
 | [Aruba ClearPass](../solutions/aruba-clearpass.md) | 404 |
 | [Aruba ClearPass](https://www.arubanetworks.com/products/security/network-access-control/secure-access/) | 403 |
+| [Follow these instructions](https://www.arubanetworks.com/techdocs/ClearPass/6.7/PolicyManager/Content/CPPM_UserGuide/Admin/syslogExportFilters_add_syslog_filter_general.htm) | 403 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/arubaclearpassama.md
@@ -2374,6 +3207,7 @@
 | [`CommonSecurityLog`](../tables-index.md#commonsecuritylog) | 404 |
 | [Aruba ClearPass](../solutions/aruba-clearpass.md) | 404 |
 | [Aruba ClearPass](https://www.arubanetworks.com/products/security/network-access-control/secure-access/) | 403 |
+| [Follow these instructions](https://www.arubanetworks.com/techdocs/ClearPass/6.7/PolicyManager/Content/CPPM_UserGuide/Admin/syslogExportFilters_add_syslog_filter_general.htm) | 403 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/asimdnsactivitylogs.md
@@ -2732,6 +3566,7 @@
 | [`BetterMTDIncidentLog_CL`](../tables-index.md#bettermtdincidentlog_cl) | 404 |
 | [`BetterMTDNetflowLog_CL`](../tables-index.md#bettermtdnetflowlog_cl) | 404 |
 | [BETTER Mobile Threat Defense (MTD)](../solutions/better-mobile-threat-defense-(mtd) | 404 |
+| [Documentation](https://mtd-docs.bmobi.net/integrations/how-to-setup-azure-sentinel-integration#mtd-integration-configuration) | 0 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/beyondsecuritybesecure.md
@@ -2760,6 +3595,7 @@
 | [`BitglassLogs_CL`](../tables-index.md#bitglasslogs_cl) | 404 |
 | [Bitglass](../solutions/bitglass.md) | 404 |
 | [Bitglass](https://www.bitglass.com/) | 0 |
+| [support](https://pages.bitglass.com/Contact.html) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/bitsight.md
@@ -2779,6 +3615,7 @@
 | [`BitsightObservation_statistics_CL`](../tables-index.md#bitsightobservation_statistics_cl) | 404 |
 | [BitSight](../solutions/bitsight.md) | 404 |
 | [BitSight](https://www.BitSight.com/) | 0 |
+| [learn more](https://help.bitsighttech.com/hc/en-us/articles/115014888388-API-Token-Management) | 403 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/bitwardeneventlogs.md
@@ -2797,6 +3634,7 @@
 | --- | --- |
 | [`Syslog`](../tables-index.md#syslog) | 404 |
 | [Blackberry CylancePROTECT](../solutions/blackberry-cylanceprotect.md) | 404 |
+| [Follow these instructions](https://docs.blackberry.com/content/dam/docs-blackberry-com/release-pdfs/en/cylance-products/syslog-guides/Cylance%20Syslog%20Guide%20v2.0%20rev12.pdf) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/bloodhoundenterprise.md
@@ -2805,6 +3643,7 @@
 | --- | --- |
 | [`BHEAttackPathsData_CL`](../tables-index.md#bheattackpathsdata_cl) | 404 |
 | [BloodHound Enterprise](../solutions/bloodhound-enterprise.md) | 404 |
+| [Function App Code](https://github.com/metron-labs/Azure-Sentinel/blob/bloodhound/Solutions/BloodHound/Data%20Connectors/BloodHoundAzureFunction.zip) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/boschaishield.md
@@ -2966,6 +3805,7 @@
 | [`Syslog`](../tables-index.md#syslog) | 404 |
 | [Cisco ISE](../solutions/cisco-ise.md) | 404 |
 | [Cisco ISE logging mechanism documentation](https://www.cisco.com/c/en/us/td/docs/security/ise/2-7/admin_guide/b_ise_27_admin_guide/b_ISE_admin_27_maintain_monitor.html#reference_BAFBA5FA046A45938810A5DF04C00591) | 404 |
+| [Follow these instructions](https://www.cisco.com/c/en/us/td/docs/security/ise/2-7/admin_guide/b_ise_27_admin_guide/b_ISE_admin_27_maintain_monitor.html#ID58) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/ciscomeraki.md
@@ -2974,6 +3814,7 @@
 | --- | --- |
 | [`meraki_CL`](../tables-index.md#meraki_cl) | 404 |
 | [CiscoMeraki](../solutions/ciscomeraki.md) | 404 |
+| [here](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/CiscoMeraki/Parsers/CiscoMeraki.txt) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/ciscomerakimultirule.md
@@ -2993,6 +3834,7 @@
 | [`CiscoMerakiNativePoller_CL`](../tables-index.md#ciscomerakinativepoller_cl) | 404 |
 | [`meraki_CL`](../tables-index.md#meraki_cl) | 404 |
 | [CiscoMeraki](../solutions/ciscomeraki.md) | 404 |
+| [**CiscoMeraki**](https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Solutions/CiscoMeraki/Parsers/CiscoMeraki.txt) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/ciscosdwan.md
@@ -3183,6 +4025,7 @@
 | [`Malware_Data_CL`](../tables-index.md#malware_data_cl) | 404 |
 | [`ThreatIntelligenceIndicator`](../tables-index.md#threatintelligenceindicator) | 404 |
 | [CofenseIntelligence](../solutions/cofenseintelligence.md) | 404 |
+| [Rest API reference](https://www.threathq.com/docs/rest_api_reference.html) | 403 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/cofensetriage.md
@@ -3201,6 +4044,7 @@
 | --- | --- |
 | [`CognniIncidents_CL`](../tables-index.md#cognniincidents_cl) | 404 |
 | [Cognni](../solutions/cognni.md) | 404 |
+| [Cognni integrations page](https://intelligence.cognni.ai/integrations) | 0 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/cognyteluminar.md
@@ -3209,6 +4053,7 @@
 | --- | --- |
 | [`ThreatIntelligenceIndicator`](../tables-index.md#threatintelligenceindicator) | 404 |
 | [CognyteLuminar](../solutions/cognyteluminar.md) | 404 |
+| [Azure Function App](https://aka.ms/sentinel-CognyteLuminar-functionapp) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/cohesitydataconnector.md
@@ -3225,6 +4070,7 @@
 | --- | --- |
 | [`CommvaultSecurityIQ_CL`](../tables-index.md#commvaultsecurityiq_cl) | 404 |
 | [Commvault Security IQ](../solutions/commvault-security-iq.md) | 404 |
+| [Follow these instructions](https://documentation.commvault.com/2024e/essential/creating_access_token.html) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/confluenceauditapi.md
@@ -3517,6 +4363,7 @@
 | [`CyberArk_AuditEvents_CL`](../tables-index.md#cyberark_auditevents_cl) | 404 |
 | [CyberArkAudit](../solutions/cyberarkaudit.md) | 404 |
 | [CyberArk Audit](https://docs.cyberark.com/Audit/Latest/en/Content/Resources/_TopNav/cc_Home.htm) | 404 |
+| [instructions](https://docs.cyberark.com/audit/latest/en/Content/Audit/isp_Microsoft_Sentinel.htm?tocpath=SIEM%20integrations%7C_____3) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/cyberpionsecuritylogs.md
@@ -3565,6 +4412,9 @@
 | [`CyeraIdentities_CL`](../tables-index.md#cyeraidentities_cl) | 404 |
 | [`CyeraIssues_CL`](../tables-index.md#cyeraissues_cl) | 404 |
 | [CyeraDSPM](../solutions/cyeradspm.md) | 404 |
+| [Generating Personal Access Token](https://support.cyera.io/hc/en-us/articles/19446274608919-Personal-and-API-Tokens) | 403 |
+| [install pack’s step-by-step guide]({{userguide-url}}.\n\n1) | 404 |
+| [install-pack-v0_7_0/scripts]({{deployment-script-zip-url}}) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/cyfirmaattacksurfacealertsconnector.md
@@ -3696,6 +4546,7 @@
 | --- | --- |
 | [`CommonSecurityLog`](../tables-index.md#commonsecuritylog) | 404 |
 | [Delinea Secret Server](../solutions/delinea-secret-server.md) | 404 |
+| [Learn more about configure Secret Server](https://thy.center/ss/link/syslog) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/delineasecretserverama.md
@@ -3722,6 +4573,7 @@
 | [`Syslog`](../tables-index.md#syslog) | 404 |
 | [Digital Guardian Data Loss Prevention](../solutions/digital-guardian-data-loss-prevention.md) | 404 |
 | [Digital Guardian Data Loss Prevention (DLP)](https://digitalguardian.com/platform-overview) | 403 |
+| [**DigitalGuardianDLPEvent**](https://aka.ms/sentinel-DigitalGuardianDLP-parser) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/digitalshadowssearchlightazurefunctions.md
@@ -3846,6 +4698,8 @@
 | --- | --- |
 | [`ErmesBrowserSecurityEvents_CL`](../tables-index.md#ermesbrowsersecurityevents_cl) | 404 |
 | [Ermes Browser Security](../solutions/ermes-browser-security.md) | 404 |
+| [data_connector_definition.json](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Ermes%20Browser%20Security/Data%20Connectors/ErmesBrowserSecurityEvents_ccp/data_connector_definition.json) | 404 |
+| [Ermes Cyber Security](https://www.ermes.company) | 503 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/esetinspect.md
@@ -3971,6 +4825,7 @@
 | --- | --- |
 | [`ExtraHop_Detections_CL`](../tables-index.md#extrahop_detections_cl) | 404 |
 | [ExtraHop](../solutions/extrahop.md) | 404 |
+| [Integrate ExtraHop RevealX with Microsoft Sentinel SIEM](https://docs.extrahop.com/current/integrations-microsoft-sentinel-siem/) | 403 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/extrahopnetworks.md
@@ -3979,6 +4834,7 @@
 | --- | --- |
 | [`CommonSecurityLog`](../tables-index.md#commonsecuritylog) | 404 |
 | [ExtraHop Reveal(x)](../solutions/extrahop-reveal(x) | 404 |
+| [ExtraHop Detection SIEM Connector bundle](https://aka.ms/asi-syslog-extrahop-forwarding) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/extrahopnetworksama.md
@@ -3987,6 +4843,7 @@
 | --- | --- |
 | [`CommonSecurityLog`](../tables-index.md#commonsecuritylog) | 404 |
 | [ExtraHop Reveal(x)](../solutions/extrahop-reveal(x) | 404 |
+| [ExtraHop Detection SIEM Connector bundle](https://aka.ms/asi-syslog-extrahop-forwarding) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/f5.md
@@ -4527,6 +5384,7 @@
 | [`Illumio_Auditable_Events_CL`](../tables-index.md#illumio_auditable_events_cl) | 404 |
 | [`Illumio_Flow_Events_CL`](../tables-index.md#illumio_flow_events_cl) | 404 |
 | [IllumioSaaS](../solutions/illumiosaas.md) | 404 |
+| [See the documentation to learn more about data pulling](<Replace with an entry to documentation>) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/illusiveattackmanagementsystem.md
@@ -4617,6 +5475,7 @@
 | --- | --- |
 | [`Syslog`](../tables-index.md#syslog) | 404 |
 | [Infoblox NIOS](../solutions/infoblox-nios.md) | 404 |
+| [here](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Infoblox%20NIOS/Parser/Infoblox.yaml) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/infobloxsocinsightsdataconnector-ama.md
@@ -4871,6 +5730,7 @@
 | --- | --- |
 | [`JuniperIDP_CL`](../tables-index.md#juniperidp_cl) | 404 |
 | [JuniperIDP](../solutions/juniperidp.md) | 404 |
+| [SRX Getting Started - Configure System Logging](https://kb.juniper.net/InfoCenter/index?page=content&id=kb16502) | 0 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/junipersrx.md
@@ -4880,6 +5740,8 @@
 | [`Syslog`](../tables-index.md#syslog) | 404 |
 | [Juniper SRX](../solutions/juniper-srx.md) | 404 |
 | [Juniper SRX](https://www.juniper.net/us/en/products-services/security/srx-series/) | 403 |
+| [Traffic Logs (Security Policy Logs)](https://kb.juniper.net/InfoCenter/index?page=content&id=KB16509&actp=METADATA) | 0 |
+| [System Logs](https://kb.juniper.net/InfoCenter/index?page=content&id=kb16502) | 0 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/keepersecuritypush2.md
@@ -4888,6 +5750,7 @@
 | --- | --- |
 | [`KeeperSecurityEventNewLogs_CL`](../tables-index.md#keepersecurityeventnewlogs_cl) | 404 |
 | [Keeper Security](../solutions/keeper-security.md) | 404 |
+| [data forwarding](https://docs.keepersecurity.com/docs/data-forwarding) | 0 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/lastpass-polling.md
@@ -4906,6 +5769,9 @@
 | [Lookout](../solutions/lookout.md) | 404 |
 | [Lookout](https://enterprise.support.lookout.com/hc/en-us/articles/115002741773-Mobile-Risk-API-Guide#commoneventfields) | 0 |
 | [API documentation](https://enterprise.support.lookout.com/hc/en-us/articles/115002741773-Mobile-Risk-API-Guide) | 0 |
+| [See the documentation to learn more about API](https://enterprise.support.lookout.com/hc/en-us/articles/115002741773-Mobile-Risk-API-Guide) | 0 |
+| [requirements and follow  the instructions](https://enterprise.support.lookout.com/hc/en-us/articles/115002741773-Mobile-Risk-API-Guide#authenticatingwiththemobileriskapi) | 0 |
+| [Follow the instructions](https://enterprise.support.lookout.com/hc/en-us/articles/115002741773-Mobile-Risk-API-Guide#authenticatingwiththemobileriskapi) | 0 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/lookoutcloudsecuritydataconnector.md
@@ -4923,6 +5789,8 @@
 | [`LookoutMtdV2_CL`](../tables-index.md#lookoutmtdv2_cl) | 404 |
 | [Lookout](../solutions/lookout.md) | 404 |
 | [API documentation](https://enterprise.support.lookout.com/hc/en-us/articles/115002741773-Mobile-Risk-API-Guide) | 0 |
+| [documentation](https://enterprise.support.lookout.com/hc/en-us/articles/115002741773-Mobile-Risk-API-Guide) | 0 |
+| [instructions](https://enterprise.support.lookout.com/hc/en-us/articles/115002741773-Mobile-Risk-API-Guide#authenticatingwiththemobileriskapi) | 0 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/lumenthreatfeedconnector.md
@@ -4949,6 +5817,7 @@
 | [McAfee ePolicy Orchestrator](../solutions/mcafee-epolicy-orchestrator.md) | 404 |
 | [McAfee ePO](https://www.mcafee.com/enterprise/en-us/products/epolicy-orchestrator.html) | 0 |
 | [documentation](https://docs.mcafee.com/bundle/epolicy-orchestrator-landing/page/GUID-0C40020F-5B7F-4549-B9CC-0E017BC8797F.html) | 0 |
+| [Follow these instructions](https://kcm.trellix.com/corporate/index?page=content&id=KB87927) | 0 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/mcafeensp.md
@@ -4960,6 +5829,8 @@
 | [McAfee® Network Security Platform](https://www.mcafee.com/enterprise/en-us/products/network-security-platform.html) | 0 |
 | [McAfee® Network Security Platform events](https://docs.mcafee.com/bundle/network-security-platform-10.1.x-integration-guide-unmanaged/page/GUID-8C706BE9-6AC9-4641-8A53-8910B51207D8.html) | 0 |
 | [McAfee® Network Security Platform](https://docs.mcafee.com/bundle/network-security-platform-10.1.x-integration-guide-unmanaged/page/GUID-F7D281EC-1CC9-4962-A7A3-5A9D9584670E.html) | 0 |
+| [Follow these instructions](https://docs.mcafee.com/bundle/network-security-platform-10.1.x-product-guide/page/GUID-E4A687B0-FAFB-4170-AC94-1D968A10380F.html) | 0 |
+| [more details here](https://docs.mcafee.com/bundle/network-security-platform-10.1.x-product-guide/page/GUID-5BADD5D7-21AE-4E3B-AEE2-A079F3FD6A38.html) | 0 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/microsoftazurepurview.md
@@ -4984,7 +5855,7 @@
 
 | URL | State |
 | --- | --- |
-| [`LLMActivity`](../tables-index.md#llmactivity) | 404 |
+| [`LLMActivity`](../tables-index.md#LLMActivity) | 404 |
 | [Microsoft Copilot](../solutions/microsoft-copilot.md) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
@@ -5106,6 +5977,7 @@
 | [`MimecastDLP_CL`](../tables-index.md#mimecastdlp_cl) | 404 |
 | [`MimecastSIEM_CL`](../tables-index.md#mimecastsiem_cl) | 404 |
 | [MimecastSEG](../solutions/mimecastseg.md) | 404 |
+| [appName](type: Storage account) | 0 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/mimecasttiregionalconnectorazurefunctions.md
@@ -5115,6 +5987,7 @@
 | [`Event`](../tables-index.md#event) | 404 |
 | [`ThreatIntelligenceIndicator`](../tables-index.md#threatintelligenceindicator) | 404 |
 | [MimecastTIRegional](../solutions/mimecasttiregional.md) | 404 |
+| [appName](type: Storage account) | 0 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/mimecastttpapi.md
@@ -5145,6 +6018,7 @@
 | --- | --- |
 | [`MongoDBAudit_CL`](../tables-index.md#mongodbaudit_cl) | 404 |
 | [MongoDBAudit](../solutions/mongodbaudit.md) | 404 |
+| [here](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MongoDBAudit/Parsers/MongoDBAudit.txt) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/mongodbatlaslogsazurefunctions.md
@@ -5195,6 +6069,7 @@
 | --- | --- |
 | [`Netskope_CL`](../tables-index.md#netskope_cl) | 404 |
 | [Netskope](../solutions/netskope.md) | 404 |
+| [See the documentation to learn more about Netskope API](https://innovatechcloud.goskope.com/docs/Netskope_Help/en/rest-api-v1-overview.html) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/netskopealertsevents.md
@@ -5268,6 +6143,7 @@
 | --- | --- |
 | [`NGINX_CL`](../tables-index.md#nginx_cl) | 404 |
 | [NGINX HTTP Server](../solutions/nginx-http-server.md) | 404 |
+| [here](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/NGINX%20HTTP%20Server/Parsers/NGINXHTTPServer.txt) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/nonamesecuritymicrosoftsentinel.md
@@ -5525,6 +6401,7 @@
 | --- | --- |
 | [`OrcaAlerts_CL`](../tables-index.md#orcaalerts_cl) | 404 |
 | [Orca Security Alerts](../solutions/orca-security-alerts.md) | 404 |
+| [guidance](https://orcasecurity.zendesk.com/hc/en-us/articles/360043941992-Azure-Sentinel-configuration) | 403 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/ossec.md
@@ -5589,6 +6466,7 @@
 | --- | --- |
 | [`CommonSecurityLog`](../tables-index.md#commonsecuritylog) | 404 |
 | [Palo Alto - XDR (Cortex)](../solutions/palo-alto---xdr-(cortex) | 404 |
+| [Cortex Settings and Configurations](https://inspira.xdr.in.paloaltonetworks.com/configuration/external-alerting) | 0 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/paloaltoprismacloud.md
@@ -5598,6 +6476,7 @@
 | [`PaloAltoPrismaCloudAlert_CL`](../tables-index.md#paloaltoprismacloudalert_cl) | 404 |
 | [`PaloAltoPrismaCloudAudit_CL`](../tables-index.md#paloaltoprismacloudaudit_cl) | 404 |
 | [PaloAltoPrismaCloud](../solutions/paloaltoprismacloud.md) | 404 |
+| [obtain Prisma Cloud API Url](https://api.docs.prismacloud.io/reference) | 0 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/paloaltoprismacloudcspmccpdefinition.md
@@ -5650,6 +6529,7 @@
 | [PingFederate](../solutions/pingfederate.md) | 404 |
 | [PingFederate events](https://docs.pingidentity.com/bundle/pingfederate-102/page/lly1564002980532.html) | 404 |
 | [PingFederate documentation](https://docs.pingidentity.com/bundle/pingfederate-102/page/tle1564002955874.html) | 404 |
+| [Follow these steps](https://docs.pingidentity.com/bundle/pingfederate-102/page/gsn1564002980953.html) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/pingfederateama.md
@@ -5660,6 +6540,7 @@
 | [PingFederate](../solutions/pingfederate.md) | 404 |
 | [PingFederate events](https://docs.pingidentity.com/bundle/pingfederate-102/page/lly1564002980532.html) | 404 |
 | [PingFederate documentation](https://docs.pingidentity.com/bundle/pingfederate-102/page/tle1564002955874.html) | 404 |
+| [Follow these steps](https://docs.pingidentity.com/bundle/pingfederate-102/page/gsn1564002980953.html) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/pingoneauditlogsccpdefinition.md
@@ -5684,8 +6565,6 @@
 | --- | --- |
 | [`prancer_CL`](../tables-index.md#prancer_cl) | 404 |
 | [Prancer PenSuiteAI Integration](../solutions/prancer-pensuiteai-integration.md) | 404 |
-| [PAC](https://docs.prancer.io/web/PAC/introduction/) | 0 |
-| [Prancer Documentation](https://docs.prancer.io/web) | 0 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/premiummicrosoftdefenderforthreatintelligence.md
@@ -5755,6 +6634,7 @@
 | --- | --- |
 | [`Syslog`](../tables-index.md#syslog) | 404 |
 | [Pulse Connect Secure](../solutions/pulse-connect-secure.md) | 404 |
+| [Follow the instructions](https://help.ivanti.com/ps/help/en_US/PPS/9.1R13/ag/configuring_an_external_syslog_server.htm) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/qscoutappeventsccfdefinition.md
@@ -5779,6 +6659,7 @@
 | --- | --- |
 | [`QualysHostDetectionV3_CL`](../tables-index.md#qualyshostdetectionv3_cl) | 404 |
 | [QualysVM](../solutions/qualysvm.md) | 404 |
+| [User role Comparison](https://qualysguard.qualys.com/qwebhelp/fo_portal/user_accounts/user_roles_comparison_vm.htm) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/qualysvulnerabilitymanagement.md
@@ -5804,6 +6685,7 @@
 | --- | --- |
 | [`RedCanaryDetections_CL`](../tables-index.md#redcanarydetections_cl) | 404 |
 | [Red Canary](../solutions/red-canary.md) | 404 |
+| [this article](https://help.redcanary.com/hc/en-us/articles/4410957523479-Azure-Sentinel) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/ridgebotdataconnector.md
@@ -5830,6 +6712,7 @@
 | [RSA SecurID](../solutions/rsa-securid.md) | 404 |
 | [RSA® SecurID Authentication Manager events](https://community.rsa.com/t5/rsa-authentication-manager/rsa-authentication-manager-log-messages/ta-p/630160) | 401 |
 | [RSA® SecurID Authentication Manager documentation](https://community.rsa.com/t5/rsa-authentication-manager/getting-started-with-rsa-authentication-manager/ta-p/569582) | 401 |
+| [Follow these instructions](https://community.rsa.com/t5/rsa-authentication-manager/configure-the-remote-syslog-host-for-real-time-log-monitoring/ta-p/571374) | 401 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/rubriksecuritycloudazurefunctions.md
@@ -5937,6 +6820,7 @@
 | --- | --- |
 | [`SecurityBridgeLogs_CL`](../tables-index.md#securitybridgelogs_cl) | 404 |
 | [SecurityBridge App](../solutions/securitybridge-app.md) | 404 |
+| [here](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/SecurityBridge%20App/Parsers/SecurityBridgeLogs.txt) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/securityevents.md
@@ -5988,6 +6872,7 @@
 | --- | --- |
 | [`SenservaPro_CL`](../tables-index.md#senservapro_cl) | 404 |
 | [SenservaPro](../solutions/senservapro.md) | 404 |
+| [Senserva Setup](https://www.senserva.com/senserva-microsoft-sentinel-edition-setup/) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/sentinelone.md
@@ -6113,6 +6998,7 @@
 | --- | --- |
 | [`SophosCloudOptix_CL`](../tables-index.md#sophoscloudoptix_cl) | 404 |
 | [Sophos Cloud Optix](../solutions/sophos-cloud-optix.md) | 404 |
+| [Sophos Cloud Optix](https://www.sophos.com/products/cloud-optix.aspx) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/sophosendpointprotectionccpdefinition.md
@@ -6122,6 +7008,7 @@
 | [`SophosEPAlerts_CL`](../tables-index.md#sophosepalerts_cl) | 404 |
 | [`SophosEPEvents_CL`](../tables-index.md#sophosepevents_cl) | 404 |
 | [Sophos Endpoint Protection](../solutions/sophos-endpoint-protection.md) | 404 |
+| [Sophos Endpoint Protection](https://www.sophos.com/en-us/products/endpoint-antivirus.aspx) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/sophosep.md
@@ -6130,6 +7017,7 @@
 | --- | --- |
 | [`SophosEP_CL`](../tables-index.md#sophosep_cl) | 404 |
 | [Sophos Endpoint Protection](../solutions/sophos-endpoint-protection.md) | 404 |
+| [Sophos Endpoint Protection](https://www.sophos.com/en-us/products/endpoint-antivirus.aspx) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/sophosxgfirewall.md
@@ -6138,6 +7026,7 @@
 | --- | --- |
 | [`Syslog`](../tables-index.md#syslog) | 404 |
 | [Sophos XG Firewall](../solutions/sophos-xg-firewall.md) | 404 |
+| [Sophos XG Firewall](https://www.sophos.com/products/next-gen-firewall.aspx) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/squadratechnologiessecrmm.md
@@ -6154,6 +7043,7 @@
 | --- | --- |
 | [`SquidProxy_CL`](../tables-index.md#squidproxy_cl) | 404 |
 | [SquidProxy](../solutions/squidproxy.md) | 404 |
+| [here](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/SquidProxy/Parsers/SquidProxy.txt) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/ssg.md
@@ -6280,6 +7170,8 @@
 | [`Tenable_IO_Assets_CL`](../tables-index.md#tenable_io_assets_cl) | 404 |
 | [`Tenable_IO_Vuln_CL`](../tables-index.md#tenable_io_vuln_cl) | 404 |
 | [TenableIO](../solutions/tenableio.md) | 404 |
+| [requirements and follow  the instructions](https://docs.tenable.com/tenableio/vulnerabilitymanagement/Content/Settings/GenerateAPIKey.htm) | 404 |
+| [Follow the instructions](https://docs.tenable.com/tenableio/vulnerabilitymanagement/Content/Settings/GenerateAPIKey.htm) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/tenablevm.md
@@ -6426,6 +7318,7 @@
 | --- | --- |
 | [`ValenceAlert_CL`](../tables-index.md#valencealert_cl) | 404 |
 | [Valence Security](../solutions/valence-security.md) | 404 |
+| [Valence Security's knowledge base](https://support.valencesecurity.com) | 403 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/varmourac.md
@@ -6559,6 +7452,7 @@
 | --- | --- |
 | [`Syslog`](../tables-index.md#syslog) | 404 |
 | [VMWareESXi](../solutions/vmwareesxi.md) | 404 |
+| [VMware ESXi 3.5 and 4.x](https://kb.vmware.com/s/article/1016621) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/vmwaresdwan.md
@@ -6570,6 +7464,8 @@
 | [`VMware_CWS_Weblogs_CL`](../tables-index.md#vmware_cws_weblogs_cl) | 404 |
 | [`VMware_VECO_EventLogs_CL`](../tables-index.md#vmware_veco_eventlogs_cl) | 404 |
 | [VMware SD-WAN and SASE](../solutions/vmware-sd-wan-and-sase.md) | 404 |
+| [requirements and follow  the instructions](https://docs.vmware.com/en/VMware-SD-WAN/5.3/VMware-SD-WAN-Administration-Guide/GUID-2FA3763F-835C-4D10-A32B-450FEB5397D8.html) | 404 |
+| [Follow the instructions](https://docs.vmware.com/en/VMware-SD-WAN/5.3/VMware-SD-WAN-Administration-Guide/GUID-2FA3763F-835C-4D10-A32B-450FEB5397D8.html) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/vmwarevcenter.md
@@ -6579,6 +7475,8 @@
 | [`vcenter_CL`](../tables-index.md#vcenter_cl) | 404 |
 | [VMware vCenter](../solutions/vmware-vcenter.md) | 404 |
 | [vCenter](https://www.vmware.com/in/products/vcenter-server.html) | 404 |
+| [here](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/VMware%20vCenter/Parsers/vCenter.txt) | 404 |
+| [Follow these instructions](https://docs.vmware.com/en/VMware-vSphere/7.0/com.vmware.vsphere.monitoring.doc/GUID-9633A961-A5C3-4658-B099-B81E0512DC21.html) | 404 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/votiro.md
@@ -6680,6 +7578,10 @@
 | [`WizVulnerabilitiesV2_CL`](../tables-index.md#wizvulnerabilitiesv2_cl) | 404 |
 | [`WizVulnerabilities_CL`](../tables-index.md#wizvulnerabilities_cl) | 404 |
 | [Wiz](../solutions/wiz.md) | 404 |
+| [Wiz documentation](https://docs.wiz.io/wiz-docs/docs/azure-sentinel-native-integration#collect-authentication-info-from-wiz) | 429 |
+| [Wiz documentation](https://docs.wiz.io/wiz-docs/docs/azure-sentinel-native-integration#collect-authentication-info-from-wiz) | 429 |
+| [Wiz documentation](https://docs.wiz.io/wiz-docs/docs/azure-sentinel-native-integration#optional-create-a-filter-for-wiz-queries) | 429 |
+| [Wiz documentation](https://docs.wiz.io/wiz-docs/docs/azure-sentinel-native-integration#manual-deployment) | 429 |
 | [← Back to Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/workdayccpdefinition.md
@@ -6792,6 +7694,8 @@
 | [CybersecurityMaturityModelCertification(CMMC)2.0](solutions/cybersecuritymaturitymodelcertification(cmmc) | 404 |
 | [ExtraHop Reveal(x)](solutions/extrahop-reveal(x) | 404 |
 | [Forescout (Legacy)](solutions/forescout-(legacy) | 404 |
+| [Gigamon Connector](solutions/gigamon-connector.md) | 502 |
+| [GitHub](solutions/github.md) | 502 |
 | [Palo Alto - XDR (Cortex)](solutions/palo-alto---xdr-(cortex) | 404 |
 | [Proofpoint On demand(POD) Email Security](solutions/proofpoint-on-demand(pod) | 404 |
 | [Threat Intelligence (NEW)](solutions/threat-intelligence-(new) | 404 |
@@ -6882,7 +7786,8 @@
 | URL | State |
 | --- | --- |
 | [Akamai Security Events](https://www.akamai.com/us/en/products/security/) | 0 |
-| [Akamai SIEM Integration documentation](https://developer.akamai.com/tools/integrations/siem) | 0 |
+| [Akamai SIEM Integration documentation](https://developer.akamai.com/tools/integrations/siem) | 403 |
+| [Follow these steps](https://developer.akamai.com/tools/integrations/siem) | 403 |
 | [→ View full connector details](../connectors/akamaisecurityeventsama.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
@@ -6899,7 +7804,6 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [Alibaba Cloud ActionTrail (via Codeless Connector Framework)](../connectors/alicloudactiontrailccpdefinition.md) | 404 |
 | [→ View full connector details](../connectors/alicloudactiontrailccpdefinition.md) | 404 |
 | [Alibaba Cloud ActionTrail (via Codeless Connector Framework)](../connectors/alicloudactiontrailccpdefinition.md) | 404 |
@@ -6909,7 +7813,6 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/solutions/alsid-for-ad.md
@@ -6917,6 +7820,7 @@
 | URL | State |
 | --- | --- |
 | [Alsid for Active Directory](../connectors/alsidforad.md) | 404 |
+| [here](https://github.com/Azure/azure-quickstart-templates/blob/master/alsid-syslog-proxy/logs/AlsidForAD.log) | 404 |
 | [→ View full connector details](../connectors/alsidforad.md) | 404 |
 | [Alsid for Active Directory](../connectors/alsidforad.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
@@ -6925,7 +7829,6 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [Amazon Web Services NetworkFirewall (via Codeless Connector Framework)](../connectors/awsnetworkfirewallccpdefinition.md) | 404 |
 | [→ View full connector details](../connectors/awsnetworkfirewallccpdefinition.md) | 404 |
 | [Amazon Web Services NetworkFirewall (via Codeless Connector Framework)](../connectors/awsnetworkfirewallccpdefinition.md) | 404 |
@@ -6937,7 +7840,6 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [Amazon Web Services S3 DNS Route53 (via Codeless Connector Framework)](../connectors/awsroute53resolverccpdefinition.md) | 404 |
 | [→ View full connector details](../connectors/awsroute53resolverccpdefinition.md) | 404 |
 | [Amazon Web Services S3 DNS Route53 (via Codeless Connector Framework)](../connectors/awsroute53resolverccpdefinition.md) | 404 |
@@ -6947,7 +7849,6 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [Amazon Web Services](../connectors/aws.md) | 404 |
 | [Amazon Web Services S3](../connectors/awss3.md) | 404 |
 | [Amazon Web Services S3 WAF](../connectors/awss3wafccpdefinition.md) | 404 |
@@ -6973,14 +7874,12 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com/](https://support.microsoft.com/) | 403 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/solutions/apachehttpserver.md
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [→ View full connector details](../connectors/apachehttpserver.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
@@ -6998,6 +7897,7 @@
 | URL | State |
 | --- | --- |
 | [ARGOS Cloud Security](../connectors/argoscloudsecurity.md) | 404 |
+| [Learn more about the integration](https://www.argos-security.io/resources#integrations) | 403 |
 | [→ View full connector details](../connectors/argoscloudsecurity.md) | 404 |
 | [ARGOS Cloud Security](../connectors/argoscloudsecurity.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
@@ -7039,8 +7939,8 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com/](https://support.microsoft.com/) | 403 |
 | [Aruba ClearPass](https://www.arubanetworks.com/products/security/network-access-control/secure-access/) | 403 |
+| [Follow these instructions](https://www.arubanetworks.com/techdocs/ClearPass/6.7/PolicyManager/Content/CPPM_UserGuide/Admin/syslogExportFilters_add_syslog_filter_general.htm) | 403 |
 | [→ View full connector details](../connectors/arubaclearpassama.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
@@ -7048,7 +7948,6 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [Atlassian Confluence](../connectors/atlassianconfluence.md) | 404 |
 | [ Atlassian Confluence Audit (via Codeless Connector Framework)](../connectors/confluenceauditccpdefinition.md) | 404 |
 | [→ View full connector details](../connectors/confluenceauditccpdefinition.md) | 404 |
@@ -7060,7 +7959,6 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [Atlassian Jira Audit](../connectors/jiraauditapi.md) | 404 |
 | [Atlassian Jira Audit (using REST API)](../connectors/jiraauditccpdefinition.md) | 404 |
 | [→ View full connector details](../connectors/jiraauditccpdefinition.md) | 404 |
@@ -7072,21 +7970,18 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/solutions/australian-cyber-security-centre.md
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/solutions/auth0.md
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [Auth0 Access Management](../connectors/auth0.md) | 404 |
 | [Auth0 Logs](../connectors/auth0connectorccpdefinition.md) | 404 |
 | [→ View full connector details](../connectors/auth0connectorccpdefinition.md) | 404 |
@@ -7108,7 +8003,6 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [AWS S3 Server Access Logs (via Codeless Connector Framework)](../connectors/awss3serveraccesslogsdefinition.md) | 404 |
 | [→ View full connector details](../connectors/awss3serveraccesslogsdefinition.md) | 404 |
 | [AWS S3 Server Access Logs (via Codeless Connector Framework)](../connectors/awss3serveraccesslogsdefinition.md) | 404 |
@@ -7118,7 +8012,6 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [Amazon Web Services CloudFront (via Codeless Connector Framework) (Preview)](../connectors/awscloudfrontccpdefinition.md) | 404 |
 | [→ View full connector details](../connectors/awscloudfrontccpdefinition.md) | 404 |
 | [Amazon Web Services CloudFront (via Codeless Connector Framework) (Preview)](../connectors/awscloudfrontccpdefinition.md) | 404 |
@@ -7128,14 +8021,12 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/solutions/aws-security-hub.md
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [AWS Security Hub Findings (via Codeless Connector Framework)](../connectors/awssecurityhubfindingsccpdefinition.md) | 404 |
 | [→ View full connector details](../connectors/awssecurityhubfindingsccpdefinition.md) | 404 |
 | [AWS Security Hub Findings (via Codeless Connector Framework)](../connectors/awssecurityhubfindingsccpdefinition.md) | 404 |
@@ -7151,7 +8042,6 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [Amazon Web Services S3 VPC Flow Logs](../connectors/awss3vpcflowlogsparquetdefinition.md) | 404 |
 | [→ View full connector details](../connectors/awss3vpcflowlogsparquetdefinition.md) | 404 |
 | [Amazon Web Services S3 VPC Flow Logs](../connectors/awss3vpcflowlogsparquetdefinition.md) | 404 |
@@ -7161,14 +8051,12 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com/](https://support.microsoft.com/) | 403 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/solutions/azure-activity.md
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com/](https://support.microsoft.com/) | 403 |
 | [Azure Activity](../connectors/azureactivity.md) | 404 |
 | [→ View full connector details](../connectors/azureactivity.md) | 404 |
 | [Azure Activity](../connectors/azureactivity.md) | 404 |
@@ -7178,7 +8066,6 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [Azure Batch Account](../connectors/azurebatchaccount-ccp.md) | 404 |
 | [→ View full connector details](../connectors/azurebatchaccount-ccp.md) | 404 |
 | [Azure Batch Account](../connectors/azurebatchaccount-ccp.md) | 404 |
@@ -7197,7 +8084,6 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [Azure Cognitive Search](../connectors/azurecognitivesearch-ccp.md) | 404 |
 | [→ View full connector details](../connectors/azurecognitivesearch-ccp.md) | 404 |
 | [Azure Cognitive Search](../connectors/azurecognitivesearch-ccp.md) | 404 |
@@ -7207,7 +8093,6 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com/](https://support.microsoft.com/) | 403 |
 | [Azure Data Lake Storage Gen1](../connectors/azuredatalakestoragegen1-ccp.md) | 404 |
 | [→ View full connector details](../connectors/azuredatalakestoragegen1-ccp.md) | 404 |
 | [Azure Data Lake Storage Gen1](../connectors/azuredatalakestoragegen1-ccp.md) | 404 |
@@ -7217,7 +8102,6 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [Azure DDoS Protection](../connectors/ddos.md) | 404 |
 | [→ View full connector details](../connectors/ddos.md) | 404 |
 | [Azure DDoS Protection](../connectors/ddos.md) | 404 |
@@ -7227,7 +8111,6 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [Azure Event Hub](../connectors/azureeventhub-ccp.md) | 404 |
 | [→ View full connector details](../connectors/azureeventhub-ccp.md) | 404 |
 | [Azure Event Hub](../connectors/azureeventhub-ccp.md) | 404 |
@@ -7237,7 +8120,6 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com/](https://support.microsoft.com/) | 403 |
 | [Azure Firewall](../connectors/azurefirewall.md) | 404 |
 | [→ View full connector details](../connectors/azurefirewall.md) | 404 |
 | [Azure Firewall](../connectors/azurefirewall.md) | 404 |
@@ -7256,7 +8138,6 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [Azure Key Vault](../connectors/azurekeyvault.md) | 404 |
 | [→ View full connector details](../connectors/azurekeyvault.md) | 404 |
 | [Azure Key Vault](../connectors/azurekeyvault.md) | 404 |
@@ -7266,7 +8147,6 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [Azure Kubernetes Service (AKS)](../connectors/azurekubernetes.md) | 404 |
 | [→ View full connector details](../connectors/azurekubernetes.md) | 404 |
 | [Azure Kubernetes Service (AKS)](../connectors/azurekubernetes.md) | 404 |
@@ -7278,7 +8158,6 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [Azure Logic Apps](../connectors/azurelogicapps-ccp.md) | 404 |
 | [→ View full connector details](../connectors/azurelogicapps-ccp.md) | 404 |
 | [Azure Logic Apps](../connectors/azurelogicapps-ccp.md) | 404 |
@@ -7288,7 +8167,6 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [Network Security Groups](../connectors/azurensg.md) | 404 |
 | [→ View full connector details](../connectors/azurensg.md) | 404 |
 | [Network Security Groups](../connectors/azurensg.md) | 404 |
@@ -7298,14 +8176,12 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/solutions/azure-service-bus.md
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [Azure Service Bus](../connectors/azureservicebus-ccp.md) | 404 |
 | [→ View full connector details](../connectors/azureservicebus-ccp.md) | 404 |
 | [Azure Service Bus](../connectors/azureservicebus-ccp.md) | 404 |
@@ -7315,7 +8191,6 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com/](https://support.microsoft.com/) | 403 |
 | [Azure SQL Databases](../connectors/azuresql.md) | 404 |
 | [→ View full connector details](../connectors/azuresql.md) | 404 |
 | [Azure SQL Databases](../connectors/azuresql.md) | 404 |
@@ -7325,7 +8200,6 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [Azure Storage Account](../connectors/azurestorageaccount.md) | 404 |
 | [→ View full connector details](../connectors/azurestorageaccount.md) | 404 |
 | [Azure Storage Account](../connectors/azurestorageaccount.md) | 404 |
@@ -7339,7 +8213,6 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [Azure Stream Analytics](../connectors/azurestreamanalytics-ccp.md) | 404 |
 | [→ View full connector details](../connectors/azurestreamanalytics-ccp.md) | 404 |
 | [Azure Stream Analytics](../connectors/azurestreamanalytics-ccp.md) | 404 |
@@ -7349,7 +8222,6 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com/](https://support.microsoft.com/) | 403 |
 | [Azure Web Application Firewall (WAF)](../connectors/waf.md) | 404 |
 | [→ View full connector details](../connectors/waf.md) | 404 |
 | [Azure Web Application Firewall (WAF)](../connectors/waf.md) | 404 |
@@ -7359,7 +8231,6 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com/](https://support.microsoft.com/) | 403 |
 | [Azure DevOps Audit Logs (via Codeless Connector Platform)](../connectors/azuredevopsauditlogs.md) | 404 |
 | [→ View full connector details](../connectors/azuredevopsauditlogs.md) | 404 |
 | [Azure DevOps Audit Logs (via Codeless Connector Platform)](../connectors/azuredevopsauditlogs.md) | 404 |
@@ -7369,7 +8240,6 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/solutions/barracuda-cloudgen-firewall.md
@@ -7391,6 +8261,7 @@
 | URL | State |
 | --- | --- |
 | [BETTER Mobile Threat Defense (MTD)](../connectors/bettermtd.md) | 404 |
+| [Documentation](https://mtd-docs.bmobi.net/integrations/how-to-setup-azure-sentinel-integration#mtd-integration-configuration) | 0 |
 | [→ View full connector details](../connectors/bettermtd.md) | 404 |
 | [BETTER Mobile Threat Defense (MTD)](../connectors/bettermtd.md) | 404 |
 | [BETTER Mobile Threat Defense (MTD)](../connectors/bettermtd.md) | 404 |
@@ -7424,9 +8295,9 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [Bitglass](../connectors/bitglass.md) | 404 |
 | [Bitglass](https://www.bitglass.com/) | 0 |
+| [support](https://pages.bitglass.com/Contact.html) | 404 |
 | [→ View full connector details](../connectors/bitglass.md) | 404 |
 | [Bitglass](../connectors/bitglass.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
@@ -7437,6 +8308,7 @@
 | --- | --- |
 | [Bitsight data connector](../connectors/bitsight.md) | 404 |
 | [BitSight](https://www.BitSight.com/) | 0 |
+| [learn more](https://help.bitsighttech.com/hc/en-us/articles/115014888388-API-Token-Management) | 403 |
 | [→ View full connector details](../connectors/bitsight.md) | 404 |
 | [Bitsight data connector](../connectors/bitsight.md) | 404 |
 | [Bitsight data connector](../connectors/bitsight.md) | 404 |
@@ -7466,7 +8338,7 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
+| [Follow these instructions](https://docs.blackberry.com/content/dam/docs-blackberry-com/release-pdfs/en/cylance-products/syslog-guides/Cylance%20Syslog%20Guide%20v2.0%20rev12.pdf) | 404 |
 | [→ View full connector details](../connectors/blackberrycylanceprotect.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
@@ -7481,6 +8353,7 @@
 | URL | State |
 | --- | --- |
 | [Bloodhound Enterprise](../connectors/bloodhoundenterprise.md) | 404 |
+| [Function App Code](https://github.com/metron-labs/Azure-Sentinel/blob/bloodhound/Solutions/BloodHound/Data%20Connectors/BloodHoundAzureFunction.zip) | 404 |
 | [→ View full connector details](../connectors/bloodhoundenterprise.md) | 404 |
 | [Bloodhound Enterprise](../connectors/bloodhoundenterprise.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
@@ -7489,7 +8362,6 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [Box](../connectors/boxdataconnector.md) | 404 |
 | [Box Events (CCP)](../connectors/boxeventsccpdefinition.md) | 404 |
 | [→ View full connector details](../connectors/boxeventsccpdefinition.md) | 404 |
@@ -7502,7 +8374,6 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [→ View full connector details](../connectors/broadcomsymantecdlpama.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
@@ -7510,7 +8381,6 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com/](https://support.microsoft.com/) | 403 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/solutions/check-point-cloudguard-cnapp.md
@@ -7550,14 +8420,12 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com/](https://support.microsoft.com/) | 403 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/solutions/cisco-aci.md
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [→ View full connector details](../connectors/ciscoaci.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
@@ -7581,8 +8449,8 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [Cisco ISE logging mechanism documentation](https://www.cisco.com/c/en/us/td/docs/security/ise/2-7/admin_guide/b_ise_27_admin_guide/b_ISE_admin_27_maintain_monitor.html#reference_BAFBA5FA046A45938810A5DF04C00591) | 404 |
+| [Follow these instructions](https://www.cisco.com/c/en/us/td/docs/security/ise/2-7/admin_guide/b_ise_27_admin_guide/b_ISE_admin_27_maintain_monitor.html#ID58) | 404 |
 | [→ View full connector details](../connectors/ciscoise.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
@@ -7590,7 +8458,6 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [Cisco Meraki (using REST API)](../connectors/ciscomerakimultirule.md) | 404 |
 | [→ View full connector details](../connectors/ciscomerakimultirule.md) | 404 |
 | [Cisco Meraki (using REST API)](../connectors/ciscomerakimultirule.md) | 404 |
@@ -7612,7 +8479,6 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [→ View full connector details](../connectors/stealthwatch.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
@@ -7620,7 +8486,6 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [Cisco Secure Endpoint (via Codeless Connector Framework)](../connectors/ciscosecureendpointlogsccpdefinition.md) | 404 |
 | [→ View full connector details](../connectors/ciscosecureendpointlogsccpdefinition.md) | 404 |
 | [Cisco Secure Endpoint (via Codeless Connector Framework)](../connectors/ciscosecureendpointlogsccpdefinition.md) | 404 |
@@ -7631,7 +8496,6 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com](https://support.microsoft.com) | 403 |
 | [Cisco Unified Computing System (UCS)](https://www.cisco.com/c/en/us/products/servers-unified-computing/index.html) | 404 |
 | [→ View full connector details](../connectors/ciscoucs.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
@@ -7640,7 +8504,6 @@
 
 | URL | State |
 | --- | --- |
-| [https://support.microsoft.com/](https://support.microsoft.com/) | 403 |
 | [Cisco ASA via Legacy Agent](../connectors/ciscoasa.md) | 404 |
 | [Cisco ASA/FTD via AMA](../connectors/ciscoasaama.md) | 404 |
 | [→ View full connector details](../connectors/ciscoasaama.md) | 404 |
@@ -7662,6 +8525,7 @@
 | URL | State |
 | --- | --- |
 | [Cisco Meraki (using REST API)](../connectors/ciscomerakinativepoller.md) | 404 |
+| [**CiscoMeraki**](https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Solutions/CiscoMeraki/Parsers/CiscoMeraki.txt) | 404 |
 | [→ View full connector details](../connectors/ciscomerakinativepoller.md) | 404 |
 | [Cisco Meraki (using REST API)](../connectors/ciscomerakinativepoller.md) | 404 |
 | [Cisco Meraki (using REST API)](../connectors/ciscomerakinativepoller.md) | 404 |
@@ -7793,6 +8657,7 @@
 | URL | State |
 | --- | --- |
 | [Cofense Intelligence Threat Indicators Ingestion](../connectors/cofenseintelligence.md) | 404 |
+| [Rest API reference](https://www.threathq.com/docs/rest_api_reference.html) | 403 |
 | [→ View full connector details](../connectors/cofenseintelligence.md) | 404 |
 | [Cofense Intelligence Threat Indicators Ingestion](../connectors/cofenseintelligence.md) | 404 |
 | [Cofense Intelligence Threat Indicators Ingestion](../connectors/cofenseintelligence.md) | 404 |
@@ -7814,6 +8679,7 @@
 | URL | State |
 | --- | --- |
 | [Cognni](../connectors/cognnisentineldataconnector.md) | 404 |
+| [Cognni integrations page](https://intelligence.cognni.ai/integrations) | 0 |
 | [→ View full connector details](../connectors/cognnisentineldataconnector.md) | 404 |
 | [Cognni](../connectors/cognnisentineldataconnector.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
@@ -7823,6 +8689,7 @@
 | URL | State |
 | --- | --- |
 | [Luminar IOCs and Leaked Credentials](../connectors/cognyteluminar.md) | 404 |
+| [Azure Function App](https://aka.ms/sentinel-CognyteLuminar-functionapp) | 404 |
 | [→ View full connector details](../connectors/cognyteluminar.md) | 404 |
 | [Luminar IOCs and Leaked Credentials](../connectors/cognyteluminar.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
@@ -7852,6 +8719,7 @@
 | URL | State |
 | --- | --- |
 | [CommvaultSecurityIQ](../connectors/commvaultsecurityiq-cl.md) | 404 |
+| [Follow these instructions](https://documentation.commvault.com/2024e/essential/creating_access_token.html) | 404 |
 | [→ View full connector details](../connectors/commvaultsecurityiq-cl.md) | 404 |
 | [CommvaultSecurityIQ](../connectors/commvaultsecurityiq-cl.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
@@ -8105,6 +8973,7 @@
 | --- | --- |
 | [CyberArkAudit](../connectors/cyberarkaudit.md) | 404 |
 | [CyberArk Audit](https://docs.cyberark.com/Audit/Latest/en/Content/Resources/_TopNav/cc_Home.htm) | 404 |
+| [instructions](https://docs.cyberark.com/audit/latest/en/Content/Audit/isp_Microsoft_Sentinel.htm?tocpath=SIEM%20integrations%7C_____3) | 404 |
 | [→ View full connector details](../connectors/cyberarkaudit.md) | 404 |
 | [CyberArkAudit](../connectors/cyberarkaudit.md) | 404 |
 | [CyberArkAudit](../connectors/cyberarkaudit.md) | 404 |
@@ -8153,6 +9022,9 @@
 | [https://support.cyera.io](https://support.cyera.io) | 403 |
 | [Cyera DSPM Azure Sentinel Data Connector](../connectors/cyeradspmccf.md) | 404 |
 | [Cyera DSPM Azure Functions Sentinel Data Connector](../connectors/cyerafunctionsconnector.md) | 404 |
+| [Generating Personal Access Token](https://support.cyera.io/hc/en-us/articles/19446274608919-Personal-and-API-Tokens) | 403 |
+| [install pack’s step-by-step guide]({{userguide-url}}.\n\n1) | 404 |
+| [install-pack-v0_7_0/scripts]({{deployment-script-zip-url}}) | 404 |
 | [→ View full connector details](../connectors/cyerafunctionsconnector.md) | 404 |
 | [Cyera DSPM Azure Functions Sentinel Data Connector](../connectors/cyerafunctionsconnector.md) | 404 |
 | [Cyera DSPM Azure Sentinel Data Connector](../connectors/cyeradspmccf.md) | 404 |
@@ -8287,6 +9159,7 @@
 
 | URL | State |
 | --- | --- |
+| [Learn more about configure Secret Server](https://thy.center/ss/link/syslog) | 404 |
 | [→ View full connector details](../connectors/delineasecretserver-cef.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
@@ -8307,6 +9180,7 @@
 | URL | State |
 | --- | --- |
 | [Digital Guardian Data Loss Prevention (DLP)](https://digitalguardian.com/platform-overview) | 403 |
+| [**DigitalGuardianDLPEvent**](https://aka.ms/sentinel-DigitalGuardianDLP-parser) | 404 |
 | [→ View full connector details](../connectors/digitalguardiandlp.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
@@ -8454,7 +9328,10 @@
 
 | URL | State |
 | --- | --- |
+| [https://www.ermes.company](https://www.ermes.company) | 503 |
 | [Ermes Browser Security Events](../connectors/ermesbrowsersecurityevents.md) | 404 |
+| [Ermes Cyber Security](https://www.ermes.company) | 503 |
+| [data_connector_definition.json](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Ermes%20Browser%20Security/Data%20Connectors/ErmesBrowserSecurityEvents_ccp/data_connector_definition.json) | 404 |
 | [→ View full connector details](../connectors/ermesbrowsersecurityevents.md) | 404 |
 | [Ermes Browser Security Events](../connectors/ermesbrowsersecurityevents.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
@@ -8505,6 +9382,7 @@
 
 | URL | State |
 | --- | --- |
+| [ExtraHop Detection SIEM Connector bundle](https://aka.ms/asi-syslog-extrahop-forwarding) | 404 |
 | [→ View full connector details](../connectors/extrahopnetworksama.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
@@ -8513,6 +9391,7 @@
 | URL | State |
 | --- | --- |
 | [ExtraHop Detections Data Connector](../connectors/extrahop.md) | 404 |
+| [Integrate ExtraHop RevealX with Microsoft Sentinel SIEM](https://docs.extrahop.com/current/integrations-microsoft-sentinel-siem/) | 403 |
 | [→ View full connector details](../connectors/extrahop.md) | 404 |
 | [ExtraHop Detections Data Connector](../connectors/extrahop.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
@@ -9036,6 +9915,7 @@
 
 | URL | State |
 | --- | --- |
+| [**quick-start guide**](https://www.infoblox.com/wp-content/uploads/infoblox-deployment-guide-data-connector.pdf) | 0 |
 | [→ View full connector details](../connectors/infobloxclouddataconnectorama.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
@@ -9043,6 +9923,7 @@
 
 | URL | State |
 | --- | --- |
+| [here](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Infoblox%20NIOS/Parser/Infoblox.yaml) | 404 |
 | [→ View full connector details](../connectors/infobloxnios.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
@@ -9225,6 +10106,9 @@
 
 | URL | State |
 | --- | --- |
+| [Juniper SRX](https://www.juniper.net/us/en/products-services/security/srx-series/) | 403 |
+| [Traffic Logs (Security Policy Logs)](https://kb.juniper.net/InfoCenter/index?page=content&id=KB16509&actp=METADATA) | 0 |
+| [System Logs](https://kb.juniper.net/InfoCenter/index?page=content&id=kb16502) | 0 |
 | [→ View full connector details](../connectors/junipersrx.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
@@ -9232,6 +10116,7 @@
 
 | URL | State |
 | --- | --- |
+| [SRX Getting Started - Configure System Logging](https://kb.juniper.net/InfoCenter/index?page=content&id=kb16502) | 0 |
 | [→ View full connector details](../connectors/juniperidp.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
@@ -9240,6 +10125,7 @@
 | URL | State |
 | --- | --- |
 | [Keeper Security Push Connector](../connectors/keepersecuritypush2.md) | 404 |
+| [data forwarding](https://docs.keepersecurity.com/docs/data-forwarding) | 0 |
 | [→ View full connector details](../connectors/keepersecuritypush2.md) | 404 |
 | [Keeper Security Push Connector](../connectors/keepersecuritypush2.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
@@ -9280,6 +10166,8 @@
 | --- | --- |
 | [Lookout Mobile Threat Detection Connector (via Codeless Connector Framework) (Preview)](../connectors/lookoutstreaming-definition.md) | 404 |
 | [API documentation](https://enterprise.support.lookout.com/hc/en-us/articles/115002741773-Mobile-Risk-API-Guide) | 0 |
+| [documentation](https://enterprise.support.lookout.com/hc/en-us/articles/115002741773-Mobile-Risk-API-Guide) | 0 |
+| [instructions](https://enterprise.support.lookout.com/hc/en-us/articles/115002741773-Mobile-Risk-API-Guide#authenticatingwiththemobileriskapi) | 0 |
 | [→ View full connector details](../connectors/lookoutstreaming-definition.md) | 404 |
 | [Lookout Mobile Threat Detection Connector (via Codeless Connector Framework) (Preview)](../connectors/lookoutstreaming-definition.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
@@ -9335,6 +10223,7 @@
 | --- | --- |
 | [McAfee ePO](https://www.mcafee.com/enterprise/en-us/products/epolicy-orchestrator.html) | 0 |
 | [documentation](https://docs.mcafee.com/bundle/epolicy-orchestrator-landing/page/GUID-0C40020F-5B7F-4549-B9CC-0E017BC8797F.html) | 0 |
+| [Follow these instructions](https://kcm.trellix.com/corporate/index?page=content&id=KB87927) | 0 |
 | [→ View full connector details](../connectors/mcafeeepo.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
@@ -9345,6 +10234,8 @@
 | [McAfee® Network Security Platform](https://www.mcafee.com/enterprise/en-us/products/network-security-platform.html) | 0 |
 | [McAfee® Network Security Platform events](https://docs.mcafee.com/bundle/network-security-platform-10.1.x-integration-guide-unmanaged/page/GUID-8C706BE9-6AC9-4641-8A53-8910B51207D8.html) | 0 |
 | [McAfee® Network Security Platform](https://docs.mcafee.com/bundle/network-security-platform-10.1.x-integration-guide-unmanaged/page/GUID-F7D281EC-1CC9-4962-A7A3-5A9D9584670E.html) | 0 |
+| [Follow these instructions](https://docs.mcafee.com/bundle/network-security-platform-10.1.x-product-guide/page/GUID-E4A687B0-FAFB-4170-AC94-1D968A10380F.html) | 0 |
+| [more details here](https://docs.mcafee.com/bundle/network-security-platform-10.1.x-product-guide/page/GUID-5BADD5D7-21AE-4E3B-AEE2-A079F3FD6A38.html) | 0 |
 | [→ View full connector details](../connectors/mcafeensp.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
@@ -9632,6 +10523,7 @@
 | --- | --- |
 | [https://mimecastsupport.zendesk.com/](https://mimecastsupport.zendesk.com/) | 403 |
 | [Mimecast Audit & Authentication](../connectors/mimecastauditapi.md) | 404 |
+| [appName](type: Storage account) | 0 |
 | [→ View full connector details](../connectors/mimecastauditapi.md) | 404 |
 | [Mimecast Audit & Authentication](../connectors/mimecastauditapi.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
@@ -9642,6 +10534,7 @@
 | --- | --- |
 | [https://mimecastsupport.zendesk.com/](https://mimecastsupport.zendesk.com/) | 403 |
 | [Mimecast Secure Email Gateway](../connectors/mimecastsiemapi.md) | 404 |
+| [appName](type: Storage account) | 0 |
 | [→ View full connector details](../connectors/mimecastsiemapi.md) | 404 |
 | [Mimecast Secure Email Gateway](../connectors/mimecastsiemapi.md) | 404 |
 | [Mimecast Secure Email Gateway](../connectors/mimecastsiemapi.md) | 404 |
@@ -9653,6 +10546,7 @@
 | --- | --- |
 | [https://mimecastsupport.zendesk.com/](https://mimecastsupport.zendesk.com/) | 403 |
 | [Mimecast Intelligence for Microsoft - Microsoft Sentinel](../connectors/mimecasttiregionalconnectorazurefunctions.md) | 404 |
+| [appName](type: Storage account) | 0 |
 | [→ View full connector details](../connectors/mimecasttiregionalconnectorazurefunctions.md) | 404 |
 | [Mimecast Intelligence for Microsoft - Microsoft Sentinel](../connectors/mimecasttiregionalconnectorazurefunctions.md) | 404 |
 | [Mimecast Intelligence for Microsoft - Microsoft Sentinel](../connectors/mimecasttiregionalconnectorazurefunctions.md) | 404 |
@@ -9664,6 +10558,7 @@
 | --- | --- |
 | [https://mimecastsupport.zendesk.com/](https://mimecastsupport.zendesk.com/) | 403 |
 | [Mimecast Targeted Threat Protection](../connectors/mimecastttpapi.md) | 404 |
+| [appName](type: Storage account) | 0 |
 | [→ View full connector details](../connectors/mimecastttpapi.md) | 404 |
 | [Mimecast Targeted Threat Protection](../connectors/mimecastttpapi.md) | 404 |
 | [Mimecast Targeted Threat Protection](../connectors/mimecastttpapi.md) | 404 |
@@ -9698,6 +10593,7 @@
 
 | URL | State |
 | --- | --- |
+| [here](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/MongoDBAudit/Parsers/MongoDBAudit.txt) | 404 |
 | [→ View full connector details](../connectors/mongodb.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
@@ -9754,6 +10650,7 @@
 | URL | State |
 | --- | --- |
 | [Netskope](../connectors/netskope.md) | 404 |
+| [See the documentation to learn more about Netskope API](https://innovatechcloud.goskope.com/docs/Netskope_Help/en/rest-api-v1-overview.html) | 404 |
 | [→ View full connector details](../connectors/netskope.md) | 404 |
 | [Netskope](../connectors/netskope.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
@@ -9825,6 +10722,7 @@
 
 | URL | State |
 | --- | --- |
+| [here](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/NGINX%20HTTP%20Server/Parsers/NGINXHTTPServer.txt) | 404 |
 | [→ View full connector details](../connectors/nginxhttpserver.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
@@ -10025,6 +10923,7 @@
 | --- | --- |
 | [https://orca.security/about/contact/](https://orca.security/about/contact/) | 0 |
 | [Orca Security Alerts](../connectors/orcasecurityalerts.md) | 404 |
+| [guidance](https://orcasecurity.zendesk.com/hc/en-us/articles/360043941992-Azure-Sentinel-configuration) | 403 |
 | [→ View full connector details](../connectors/orcasecurityalerts.md) | 404 |
 | [Orca Security Alerts](../connectors/orcasecurityalerts.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
@@ -10041,6 +10940,7 @@
 | URL | State |
 | --- | --- |
 | [Palo Alto Networks Cortex XDR](../connectors/paloaltonetworkscortex.md) | 404 |
+| [Cortex Settings and Configurations](https://inspira.xdr.in.paloaltonetworks.com/configuration/external-alerting) | 0 |
 | [→ View full connector details](../connectors/paloaltonetworkscortex.md) | 404 |
 | [Palo Alto Networks Cortex XDR](../connectors/paloaltonetworkscortex.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
@@ -10074,8 +10974,8 @@
 | [Palo Alto Prisma Cloud CWPP (using REST API)](../connectors/paloaltoprismacloudcwpp.md) | 404 |
 | [Palo Alto Prisma Cloud CWPP (using REST API)](../connectors/prismacloudcomputenativepoller.md) | 404 |
 | [→ View full connector details](../connectors/prismacloudcomputenativepoller.md) | 404 |
-| [Palo Alto Prisma Cloud CWPP (using REST API)](../connectors/prismacloudcomputenativepoller.md) | 404 |
 | [Palo Alto Prisma Cloud CWPP (using REST API)](../connectors/paloaltoprismacloudcwpp.md) | 404 |
+| [Palo Alto Prisma Cloud CWPP (using REST API)](../connectors/prismacloudcomputenativepoller.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/solutions/paloalto-pan-os.md
@@ -10149,6 +11049,7 @@
 | --- | --- |
 | [PingFederate events](https://docs.pingidentity.com/bundle/pingfederate-102/page/lly1564002980532.html) | 404 |
 | [PingFederate documentation](https://docs.pingidentity.com/bundle/pingfederate-102/page/tle1564002955874.html) | 404 |
+| [Follow these steps](https://docs.pingidentity.com/bundle/pingfederate-102/page/gsn1564002980953.html) | 404 |
 | [→ View full connector details](../connectors/pingfederateama.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
@@ -10178,10 +11079,7 @@
 
 | URL | State |
 | --- | --- |
-| [https://www.prancer.io](https://www.prancer.io) | 0 |
 | [Prancer Data Connector](../connectors/prancerlogdata.md) | 404 |
-| [PAC](https://docs.prancer.io/web/PAC/introduction/) | 0 |
-| [Prancer Documentation](https://docs.prancer.io/web) | 0 |
 | [→ View full connector details](../connectors/prancerlogdata.md) | 404 |
 | [Prancer Data Connector](../connectors/prancerlogdata.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
@@ -10212,6 +11110,7 @@
 
 | URL | State |
 | --- | --- |
+| [Follow the instructions](https://help.ivanti.com/ps/help/en_US/PPS/9.1R13/ag/configuring_an_external_syslog_server.htm) | 404 |
 | [→ View full connector details](../connectors/pulseconnectsecure.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
@@ -10284,6 +11183,7 @@
 | URL | State |
 | --- | --- |
 | [Red Canary Threat Detection](../connectors/redcanarydataconnector.md) | 404 |
+| [this article](https://help.redcanary.com/hc/en-us/articles/4410957523479-Azure-Sentinel) | 404 |
 | [→ View full connector details](../connectors/redcanarydataconnector.md) | 404 |
 | [Red Canary Threat Detection](../connectors/redcanarydataconnector.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
@@ -10314,6 +11214,7 @@
 | --- | --- |
 | [RSA® SecurID Authentication Manager events](https://community.rsa.com/t5/rsa-authentication-manager/rsa-authentication-manager-log-messages/ta-p/630160) | 401 |
 | [RSA® SecurID Authentication Manager documentation](https://community.rsa.com/t5/rsa-authentication-manager/getting-started-with-rsa-authentication-manager/ta-p/569582) | 401 |
+| [Follow these instructions](https://community.rsa.com/t5/rsa-authentication-manager/configure-the-remote-syslog-host-for-real-time-log-monitoring/ta-p/571374) | 401 |
 | [→ View full connector details](../connectors/rsasecuridam.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
@@ -10427,6 +11328,7 @@
 | --- | --- |
 | [SecurityBridge Solution for SAP](../connectors/securitybridge.md) | 404 |
 | [SecurityBridge Threat Detection for SAP](../connectors/securitybridgesap.md) | 404 |
+| [here](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/SecurityBridge%20App/Parsers/SecurityBridgeLogs.txt) | 404 |
 | [→ View full connector details](../connectors/securitybridgesap.md) | 404 |
 | [SecurityBridge Solution for SAP](../connectors/securitybridge.md) | 404 |
 | [SecurityBridge Threat Detection for SAP](../connectors/securitybridgesap.md) | 404 |
@@ -10467,6 +11369,7 @@
 | URL | State |
 | --- | --- |
 | [SenservaPro (Preview)](../connectors/senservapro.md) | 404 |
+| [Senserva Setup](https://www.senserva.com/senserva-microsoft-sentinel-edition-setup/) | 404 |
 | [→ View full connector details](../connectors/senservapro.md) | 404 |
 | [SenservaPro (Preview)](../connectors/senservapro.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
@@ -10639,6 +11542,7 @@
 | URL | State |
 | --- | --- |
 | [Sophos Cloud Optix](../connectors/sophoscloudoptix.md) | 404 |
+| [Sophos Cloud Optix](https://www.sophos.com/products/cloud-optix.aspx) | 404 |
 | [→ View full connector details](../connectors/sophoscloudoptix.md) | 404 |
 | [Sophos Cloud Optix](../connectors/sophoscloudoptix.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
@@ -10649,6 +11553,7 @@
 | --- | --- |
 | [Sophos Endpoint Protection](../connectors/sophosep.md) | 404 |
 | [Sophos Endpoint Protection (using REST API)](../connectors/sophosendpointprotectionccpdefinition.md) | 404 |
+| [Sophos Endpoint Protection](https://www.sophos.com/en-us/products/endpoint-antivirus.aspx) | 404 |
 | [→ View full connector details](../connectors/sophosendpointprotectionccpdefinition.md) | 404 |
 | [Sophos Endpoint Protection (using REST API)](../connectors/sophosendpointprotectionccpdefinition.md) | 404 |
 | [Sophos Endpoint Protection (using REST API)](../connectors/sophosendpointprotectionccpdefinition.md) | 404 |
@@ -10659,6 +11564,7 @@
 
 | URL | State |
 | --- | --- |
+| [Sophos XG Firewall](https://www.sophos.com/products/next-gen-firewall.aspx) | 404 |
 | [→ View full connector details](../connectors/sophosxgfirewall.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
@@ -10681,6 +11587,7 @@
 
 | URL | State |
 | --- | --- |
+| [here](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/SquidProxy/Parsers/SquidProxy.txt) | 404 |
 | [→ View full connector details](../connectors/squidproxy.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
@@ -10820,6 +11727,8 @@
 | URL | State |
 | --- | --- |
 | [Tenable.io Vulnerability Management](../connectors/tenableioapi.md) | 404 |
+| [requirements and follow  the instructions](https://docs.tenable.com/tenableio/vulnerabilitymanagement/Content/Settings/GenerateAPIKey.htm) | 404 |
+| [Follow the instructions](https://docs.tenable.com/tenableio/vulnerabilitymanagement/Content/Settings/GenerateAPIKey.htm) | 404 |
 | [→ View full connector details](../connectors/tenableioapi.md) | 404 |
 | [Tenable.io Vulnerability Management](../connectors/tenableioapi.md) | 404 |
 | [Tenable.io Vulnerability Management](../connectors/tenableioapi.md) | 404 |
@@ -11012,6 +11921,7 @@
 | URL | State |
 | --- | --- |
 | [SaaS Security](../connectors/valencesecurity.md) | 404 |
+| [Valence Security's knowledge base](https://support.valencesecurity.com) | 403 |
 | [→ View full connector details](../connectors/valencesecurity.md) | 404 |
 | [SaaS Security](../connectors/valencesecurity.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
@@ -11020,6 +11930,7 @@
 
 | URL | State |
 | --- | --- |
+| [https://www.varmour.com/contact-us/](https://www.varmour.com/contact-us/) | 525 |
 | [→ View full connector details](../connectors/varmouracama.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
@@ -11146,6 +12057,8 @@
 | URL | State |
 | --- | --- |
 | [VMware SD-WAN and SASE Connector](../connectors/vmwaresdwan.md) | 404 |
+| [requirements and follow  the instructions](https://docs.vmware.com/en/VMware-SD-WAN/5.3/VMware-SD-WAN-Administration-Guide/GUID-2FA3763F-835C-4D10-A32B-450FEB5397D8.html) | 404 |
+| [Follow the instructions](https://docs.vmware.com/en/VMware-SD-WAN/5.3/VMware-SD-WAN-Administration-Guide/GUID-2FA3763F-835C-4D10-A32B-450FEB5397D8.html) | 404 |
 | [→ View full connector details](../connectors/vmwaresdwan.md) | 404 |
 | [VMware SD-WAN and SASE Connector](../connectors/vmwaresdwan.md) | 404 |
 | [VMware SD-WAN and SASE Connector](../connectors/vmwaresdwan.md) | 404 |
@@ -11158,6 +12071,8 @@
 | URL | State |
 | --- | --- |
 | [vCenter](https://www.vmware.com/in/products/vcenter-server.html) | 404 |
+| [here](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/VMware%20vCenter/Parsers/vCenter.txt) | 404 |
+| [Follow these instructions](https://docs.vmware.com/en/VMware-vSphere/7.0/com.vmware.vsphere.monitoring.doc/GUID-9633A961-A5C3-4658-B099-B81E0512DC21.html) | 404 |
 | [→ View full connector details](../connectors/vmwarevcenter.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
@@ -11165,6 +12080,7 @@
 
 | URL | State |
 | --- | --- |
+| [VMware ESXi 3.5 and 4.x](https://kb.vmware.com/s/article/1016621) | 404 |
 | [→ View full connector details](../connectors/vmwareesxi.md) | 404 |
 | [← Back to Solutions Index](../solutions-index.md) | 404 |
 
@@ -11273,6 +12189,10 @@
 | --- | --- |
 | [https://support.wiz.io/](https://support.wiz.io/) | 403 |
 | [Wiz](../connectors/wiz.md) | 404 |
+| [Wiz documentation](https://docs.wiz.io/wiz-docs/docs/azure-sentinel-native-integration#collect-authentication-info-from-wiz) | 429 |
+| [Wiz documentation](https://docs.wiz.io/wiz-docs/docs/azure-sentinel-native-integration#collect-authentication-info-from-wiz) | 429 |
+| [Wiz documentation](https://docs.wiz.io/wiz-docs/docs/azure-sentinel-native-integration#optional-create-a-filter-for-wiz-queries) | 429 |
+| [Wiz documentation](https://docs.wiz.io/wiz-docs/docs/azure-sentinel-native-integration#manual-deployment) | 429 |
 | [→ View full connector details](../connectors/wiz.md) | 404 |
 | [Wiz](../connectors/wiz.md) | 404 |
 | [Wiz](../connectors/wiz.md) | 404 |
@@ -11401,6 +12321,872 @@
 | [Threat Intelligence (NEW)](solutions/threat-intelligence-(new) | 404 |
 | [Threat Intelligence (NEW)](solutions/threat-intelligence-(new) | 404 |
 | [Zscaler Private Access (ZPA)](solutions/zscaler-private-access-(zpa) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/abapauditlog.md
+
+| URL | State |
+| --- | --- |
+| [Pathlock_TDnR](../solutions/pathlock-tdnr.md) | 404 |
+| [SAP S4 Cloud Public Edition](../solutions/sap-s4-cloud-public-edition.md) | 404 |
+| [SecurityBridge App](../solutions/securitybridge-app.md) | 404 |
+| [Pathlock Inc.: Threat Detection and Response for SAP](../connectors/pathlock-tdnr.md) | 404 |
+| [SAP S/4HANA Cloud Public Edition](../connectors/saps4publicalerts.md) | 404 |
+| [SecurityBridge Solution for SAP](../connectors/securitybridge.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/armis-activities-cl.md
+
+| URL | State |
+| --- | --- |
+| [Armis](../solutions/armis.md) | 404 |
+| [Armis Activities](../connectors/armisactivities.md) | 404 |
+| [Armis Alerts Activities](../connectors/armisalertsactivities.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/armis-alerts-cl.md
+
+| URL | State |
+| --- | --- |
+| [Armis](../solutions/armis.md) | 404 |
+| [Armis Alerts](../connectors/armisalerts.md) | 404 |
+| [Armis Alerts Activities](../connectors/armisalertsactivities.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/asimauditeventlogs.md
+
+| URL | State |
+| --- | --- |
+| [Cisco Meraki Events via REST API](../solutions/cisco-meraki-events-via-rest-api.md) | 404 |
+| [CrowdStrike Falcon Endpoint Protection](../solutions/crowdstrike-falcon-endpoint-protection.md) | 404 |
+| [Workday](../solutions/workday.md) | 404 |
+| [Cisco Meraki (using REST API)](../connectors/ciscomerakimultirule.md) | 404 |
+| [CrowdStrike Falcon Data Replicator (CrowdStrike Managed AWS-S3)](../connectors/crowdstrikereplicatorv2.md) | 404 |
+| [Workday User Activity](../connectors/workdayccpdefinition.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/asimauthenticationeventlogs.md
+
+| URL | State |
+| --- | --- |
+| [CrowdStrike Falcon Endpoint Protection](../solutions/crowdstrike-falcon-endpoint-protection.md) | 404 |
+| [VMware Carbon Black Cloud](../solutions/vmware-carbon-black-cloud.md) | 404 |
+| [CrowdStrike Falcon Data Replicator (CrowdStrike Managed AWS-S3)](../connectors/crowdstrikereplicatorv2.md) | 404 |
+| [VMware Carbon Black Cloud via AWS S3](../connectors/carbonblackawss3.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/asimdnsactivitylogs.md
+
+| URL | State |
+| --- | --- |
+| [CrowdStrike Falcon Endpoint Protection](../solutions/crowdstrike-falcon-endpoint-protection.md) | 404 |
+| [Windows Server DNS](../solutions/windows-server-dns.md) | 404 |
+| [Windows DNS Events via AMA](../connectors/asimdnsactivitylogs.md) | 404 |
+| [CrowdStrike Falcon Data Replicator (CrowdStrike Managed AWS-S3)](../connectors/crowdstrikereplicatorv2.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/asimfileeventlogs.md
+
+| URL | State |
+| --- | --- |
+| [CrowdStrike Falcon Endpoint Protection](../solutions/crowdstrike-falcon-endpoint-protection.md) | 404 |
+| [VMware Carbon Black Cloud](../solutions/vmware-carbon-black-cloud.md) | 404 |
+| [CrowdStrike Falcon Data Replicator (CrowdStrike Managed AWS-S3)](../connectors/crowdstrikereplicatorv2.md) | 404 |
+| [VMware Carbon Black Cloud via AWS S3](../connectors/carbonblackawss3.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/asimnetworksessionlogs.md
+
+| URL | State |
+| --- | --- |
+| [Cisco Meraki Events via REST API](../solutions/cisco-meraki-events-via-rest-api.md) | 404 |
+| [CrowdStrike Falcon Endpoint Protection](../solutions/crowdstrike-falcon-endpoint-protection.md) | 404 |
+| [VMware Carbon Black Cloud](../solutions/vmware-carbon-black-cloud.md) | 404 |
+| [Windows Firewall](../solutions/windows-firewall.md) | 404 |
+| [Cisco Meraki (using REST API)](../connectors/ciscomerakimultirule.md) | 404 |
+| [CrowdStrike Falcon Data Replicator (CrowdStrike Managed AWS-S3)](../connectors/crowdstrikereplicatorv2.md) | 404 |
+| [Windows Firewall Events via AMA](../connectors/windowsfirewallama.md) | 404 |
+| [VMware Carbon Black Cloud via AWS S3](../connectors/carbonblackawss3.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/asimprocesseventlogs.md
+
+| URL | State |
+| --- | --- |
+| [CrowdStrike Falcon Endpoint Protection](../solutions/crowdstrike-falcon-endpoint-protection.md) | 404 |
+| [VMware Carbon Black Cloud](../solutions/vmware-carbon-black-cloud.md) | 404 |
+| [CrowdStrike Falcon Data Replicator (CrowdStrike Managed AWS-S3)](../connectors/crowdstrikereplicatorv2.md) | 404 |
+| [VMware Carbon Black Cloud via AWS S3](../connectors/carbonblackawss3.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/asimregistryeventlogs.md
+
+| URL | State |
+| --- | --- |
+| [CrowdStrike Falcon Endpoint Protection](../solutions/crowdstrike-falcon-endpoint-protection.md) | 404 |
+| [VMware Carbon Black Cloud](../solutions/vmware-carbon-black-cloud.md) | 404 |
+| [CrowdStrike Falcon Data Replicator (CrowdStrike Managed AWS-S3)](../connectors/crowdstrikereplicatorv2.md) | 404 |
+| [VMware Carbon Black Cloud via AWS S3](../connectors/carbonblackawss3.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/awscloudtrail.md
+
+| URL | State |
+| --- | --- |
+| [Amazon Web Services](../solutions/amazon-web-services.md) | 404 |
+| [Amazon Web Services](../connectors/aws.md) | 404 |
+| [Amazon Web Services S3](../connectors/awss3.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/awsvpcflow.md
+
+| URL | State |
+| --- | --- |
+| [AWS VPC Flow Logs](../solutions/aws-vpc-flow-logs.md) | 404 |
+| [Amazon Web Services](../solutions/amazon-web-services.md) | 404 |
+| [Amazon Web Services S3 VPC Flow Logs](../connectors/awss3vpcflowlogsparquetdefinition.md) | 404 |
+| [Amazon Web Services S3](../connectors/awss3.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/azurediagnostics.md
+
+| URL | State |
+| --- | --- |
+| [Azure Batch Account](../solutions/azure-batch-account.md) | 404 |
+| [Azure Cognitive Search](../solutions/azure-cognitive-search.md) | 404 |
+| [Azure DDoS Protection](../solutions/azure-ddos-protection.md) | 404 |
+| [Azure Data Lake Storage Gen1](../solutions/azure-data-lake-storage-gen1.md) | 404 |
+| [Azure Event Hubs](../solutions/azure-event-hubs.md) | 404 |
+| [Azure Firewall](../solutions/azure-firewall.md) | 404 |
+| [Azure Key Vault](../solutions/azure-key-vault.md) | 404 |
+| [Azure Logic Apps](../solutions/azure-logic-apps.md) | 404 |
+| [Azure Network Security Groups](../solutions/azure-network-security-groups.md) | 404 |
+| [Azure SQL Database solution for sentinel](../solutions/azure-sql-database-solution-for-sentinel.md) | 404 |
+| [Azure Service Bus](../solutions/azure-service-bus.md) | 404 |
+| [Azure Stream Analytics](../solutions/azure-stream-analytics.md) | 404 |
+| [Azure Web Application Firewall (WAF)](../solutions/azure-web-application-firewall-(waf) | 404 |
+| [Azure kubernetes Service](../solutions/azure-kubernetes-service.md) | 404 |
+| [Azure Batch Account](../connectors/azurebatchaccount-ccp.md) | 404 |
+| [Azure Cognitive Search](../connectors/azurecognitivesearch-ccp.md) | 404 |
+| [Azure Data Lake Storage Gen1](../connectors/azuredatalakestoragegen1-ccp.md) | 404 |
+| [Azure Event Hub](../connectors/azureeventhub-ccp.md) | 404 |
+| [Azure Firewall](../connectors/azurefirewall.md) | 404 |
+| [Azure Key Vault](../connectors/azurekeyvault.md) | 404 |
+| [Azure Kubernetes Service (AKS)](../connectors/azurekubernetes.md) | 404 |
+| [Azure Logic Apps](../connectors/azurelogicapps-ccp.md) | 404 |
+| [Network Security Groups](../connectors/azurensg.md) | 404 |
+| [Azure Service Bus](../connectors/azureservicebus-ccp.md) | 404 |
+| [Azure SQL Databases](../connectors/azuresql.md) | 404 |
+| [Azure Stream Analytics](../connectors/azurestreamanalytics-ccp.md) | 404 |
+| [Azure DDoS Protection](../connectors/ddos.md) | 404 |
+| [Azure Web Application Firewall (WAF)](../connectors/waf.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/boxevents-cl.md
+
+| URL | State |
+| --- | --- |
+| [Box](../solutions/box.md) | 404 |
+| [Box](../connectors/boxdataconnector.md) | 404 |
+| [Box Events (CCP)](../connectors/boxeventsccpdefinition.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/cisco-umbrella-audit-cl.md
+
+| URL | State |
+| --- | --- |
+| [CiscoUmbrella](../solutions/ciscoumbrella.md) | 404 |
+| [Cisco Cloud Security](../connectors/ciscoumbrelladataconnector.md) | 404 |
+| [Cisco Cloud Security (using elastic premium plan)](../connectors/ciscoumbrelladataconnectorelasticpremium.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/cisco-umbrella-cloudfirewall-cl.md
+
+| URL | State |
+| --- | --- |
+| [CiscoUmbrella](../solutions/ciscoumbrella.md) | 404 |
+| [Cisco Cloud Security](../connectors/ciscoumbrelladataconnector.md) | 404 |
+| [Cisco Cloud Security (using elastic premium plan)](../connectors/ciscoumbrelladataconnectorelasticpremium.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/cisco-umbrella-dlp-cl.md
+
+| URL | State |
+| --- | --- |
+| [CiscoUmbrella](../solutions/ciscoumbrella.md) | 404 |
+| [Cisco Cloud Security](../connectors/ciscoumbrelladataconnector.md) | 404 |
+| [Cisco Cloud Security (using elastic premium plan)](../connectors/ciscoumbrelladataconnectorelasticpremium.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/cisco-umbrella-dns-cl.md
+
+| URL | State |
+| --- | --- |
+| [CiscoUmbrella](../solutions/ciscoumbrella.md) | 404 |
+| [Cisco Cloud Security](../connectors/ciscoumbrelladataconnector.md) | 404 |
+| [Cisco Cloud Security (using elastic premium plan)](../connectors/ciscoumbrelladataconnectorelasticpremium.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/cisco-umbrella-fileevent-cl.md
+
+| URL | State |
+| --- | --- |
+| [CiscoUmbrella](../solutions/ciscoumbrella.md) | 404 |
+| [Cisco Cloud Security](../connectors/ciscoumbrelladataconnector.md) | 404 |
+| [Cisco Cloud Security (using elastic premium plan)](../connectors/ciscoumbrelladataconnectorelasticpremium.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/cisco-umbrella-firewall-cl.md
+
+| URL | State |
+| --- | --- |
+| [CiscoUmbrella](../solutions/ciscoumbrella.md) | 404 |
+| [Cisco Cloud Security](../connectors/ciscoumbrelladataconnector.md) | 404 |
+| [Cisco Cloud Security (using elastic premium plan)](../connectors/ciscoumbrelladataconnectorelasticpremium.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/cisco-umbrella-intrusion-cl.md
+
+| URL | State |
+| --- | --- |
+| [CiscoUmbrella](../solutions/ciscoumbrella.md) | 404 |
+| [Cisco Cloud Security](../connectors/ciscoumbrelladataconnector.md) | 404 |
+| [Cisco Cloud Security (using elastic premium plan)](../connectors/ciscoumbrelladataconnectorelasticpremium.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/cisco-umbrella-ip-cl.md
+
+| URL | State |
+| --- | --- |
+| [CiscoUmbrella](../solutions/ciscoumbrella.md) | 404 |
+| [Cisco Cloud Security](../connectors/ciscoumbrelladataconnector.md) | 404 |
+| [Cisco Cloud Security (using elastic premium plan)](../connectors/ciscoumbrelladataconnectorelasticpremium.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/cisco-umbrella-proxy-cl.md
+
+| URL | State |
+| --- | --- |
+| [CiscoUmbrella](../solutions/ciscoumbrella.md) | 404 |
+| [Cisco Cloud Security](../connectors/ciscoumbrelladataconnector.md) | 404 |
+| [Cisco Cloud Security (using elastic premium plan)](../connectors/ciscoumbrelladataconnectorelasticpremium.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/cisco-umbrella-ravpnlogs-cl.md
+
+| URL | State |
+| --- | --- |
+| [CiscoUmbrella](../solutions/ciscoumbrella.md) | 404 |
+| [Cisco Cloud Security](../connectors/ciscoumbrelladataconnector.md) | 404 |
+| [Cisco Cloud Security (using elastic premium plan)](../connectors/ciscoumbrelladataconnectorelasticpremium.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/cisco-umbrella-ztaflow-cl.md
+
+| URL | State |
+| --- | --- |
+| [CiscoUmbrella](../solutions/ciscoumbrella.md) | 404 |
+| [Cisco Cloud Security](../connectors/ciscoumbrelladataconnector.md) | 404 |
+| [Cisco Cloud Security (using elastic premium plan)](../connectors/ciscoumbrelladataconnectorelasticpremium.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/cisco-umbrella-ztna-cl.md
+
+| URL | State |
+| --- | --- |
+| [CiscoUmbrella](../solutions/ciscoumbrella.md) | 404 |
+| [Cisco Cloud Security](../connectors/ciscoumbrelladataconnector.md) | 404 |
+| [Cisco Cloud Security (using elastic premium plan)](../connectors/ciscoumbrelladataconnectorelasticpremium.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/cloudflarev2-cl.md
+
+| URL | State |
+| --- | --- |
+| [Cloudflare](../solutions/cloudflare.md) | 404 |
+| [Cloudflare CCF](../solutions/cloudflare-ccf.md) | 404 |
+| [Cloudflare (Using Blob Container) (via Codeless Connector Framework)](../connectors/cloudflaredefinition.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/commonsecuritylog.md
+
+| URL | State |
+| --- | --- |
+| [AI Analyst Darktrace](../solutions/ai-analyst-darktrace.md) | 404 |
+| [Akamai Security Events](../solutions/akamai-security-events.md) | 404 |
+| [AristaAwakeSecurity](../solutions/aristaawakesecurity.md) | 404 |
+| [Aruba ClearPass](../solutions/aruba-clearpass.md) | 404 |
+| [Barracuda WAF](../solutions/barracuda-waf.md) | 404 |
+| [Broadcom SymantecDLP](../solutions/broadcom-symantecdlp.md) | 404 |
+| [Cisco Firepower EStreamer](../solutions/cisco-firepower-estreamer.md) | 404 |
+| [CiscoASA](../solutions/ciscoasa.md) | 404 |
+| [CiscoSEG](../solutions/ciscoseg.md) | 404 |
+| [Citrix Web App Firewall](../solutions/citrix-web-app-firewall.md) | 404 |
+| [Claroty](../solutions/claroty.md) | 404 |
+| [Claroty xDome](../solutions/claroty-xdome.md) | 404 |
+| [Common Event Format](../solutions/common-event-format.md) | 404 |
+| [Contrast Protect](../solutions/contrast-protect.md) | 404 |
+| [CrowdStrike Falcon Endpoint Protection](../solutions/crowdstrike-falcon-endpoint-protection.md) | 404 |
+| [CyberArk Enterprise Password Vault (EPV) Events](../solutions/cyberark-enterprise-password-vault-(epv) | 404 |
+| [Delinea Secret Server](../solutions/delinea-secret-server.md) | 404 |
+| [ExtraHop Reveal(x)](../solutions/extrahop-reveal(x) | 404 |
+| [F5 Networks](../solutions/f5-networks.md) | 404 |
+| [FireEye Network Security](../solutions/fireeye-network-security.md) | 404 |
+| [Forcepoint CASB](../solutions/forcepoint-casb.md) | 404 |
+| [Forcepoint CSG](../solutions/forcepoint-csg.md) | 404 |
+| [Forcepoint NGFW](../solutions/forcepoint-ngfw.md) | 404 |
+| [ForgeRock Common Audit for CEF](../solutions/forgerock-common-audit-for-cef.md) | 404 |
+| [Fortinet FortiGate Next-Generation Firewall connector for Microsoft Sentinel](../solutions/fortinet-fortigate-next-generation-firewall-connector-for-microsoft-sentinel.md) | 404 |
+| [Fortinet FortiWeb Cloud WAF-as-a-Service connector for Microsoft Sentinel](../solutions/fortinet-fortiweb-cloud-waf-as-a-service-connector-for-microsoft-sentinel.md) | 404 |
+| [Illumio Core](../solutions/illumio-core.md) | 404 |
+| [Illusive Platform](../solutions/illusive-platform.md) | 404 |
+| [Imperva WAF Gateway](../solutions/imperva-waf-gateway.md) | 404 |
+| [Infoblox](../solutions/infoblox.md) | 404 |
+| [Infoblox Cloud Data Connector](../solutions/infoblox-cloud-data-connector.md) | 404 |
+| [Infoblox SOC Insights](../solutions/infoblox-soc-insights.md) | 404 |
+| [Netwrix Auditor](../solutions/netwrix-auditor.md) | 404 |
+| [NozomiNetworks](../solutions/nozominetworks.md) | 404 |
+| [OSSEC](../solutions/ossec.md) | 404 |
+| [Onapsis Platform](../solutions/onapsis-platform.md) | 404 |
+| [OneIdentity](../solutions/oneidentity.md) | 404 |
+| [Palo Alto - XDR (Cortex)](../solutions/palo-alto---xdr-(cortex) | 404 |
+| [PaloAlto-PAN-OS](../solutions/paloalto-pan-os.md) | 404 |
+| [PaloAltoCDL](../solutions/paloaltocdl.md) | 404 |
+| [PingFederate](../solutions/pingfederate.md) | 404 |
+| [Radiflow](../solutions/radiflow.md) | 404 |
+| [RidgeSecurity](../solutions/ridgesecurity.md) | 404 |
+| [Silverfort](../solutions/silverfort.md) | 404 |
+| [SonicWall Firewall](../solutions/sonicwall-firewall.md) | 404 |
+| [Threat Intelligence](../solutions/threat-intelligence.md) | 404 |
+| [Threat Intelligence (NEW)](../solutions/threat-intelligence-(new) | 404 |
+| [Trend Micro Apex One](../solutions/trend-micro-apex-one.md) | 404 |
+| [Trend Micro Deep Security](../solutions/trend-micro-deep-security.md) | 404 |
+| [Trend Micro TippingPoint](../solutions/trend-micro-tippingpoint.md) | 404 |
+| [Vectra AI Detect](../solutions/vectra-ai-detect.md) | 404 |
+| [VirtualMetric DataStream](../solutions/virtualmetric-datastream.md) | 404 |
+| [Votiro](../solutions/votiro.md) | 404 |
+| [WireX Network Forensics Platform](../solutions/wirex-network-forensics-platform.md) | 404 |
+| [WithSecureElementsViaConnector](../solutions/withsecureelementsviaconnector.md) | 404 |
+| [Zscaler Internet Access](../solutions/zscaler-internet-access.md) | 404 |
+| [iboss](../solutions/iboss.md) | 404 |
+| [vArmour Application Controller](../solutions/varmour-application-controller.md) | 404 |
+| [Common Event Format (CEF)](../connectors/cef.md) | 404 |
+| [Common Event Format (CEF) via AMA](../connectors/cefama.md) | 404 |
+| [Cisco ASA via Legacy Agent](../connectors/ciscoasa.md) | 404 |
+| [Cisco ASA/FTD via AMA](../connectors/ciscoasaama.md) | 404 |
+| [Claroty xDome](../connectors/clarotyxdome.md) | 404 |
+| [Fortinet FortiWeb Web Application Firewall via AMA](../connectors/fortinetfortiwebama.md) | 404 |
+| [Imperva WAF Gateway](../connectors/impervawafgateway.md) | 404 |
+| [One Identity Safeguard](../connectors/oneidentity.md) | 404 |
+| [Palo Alto Networks Cortex XDR](../connectors/paloaltonetworkscortex.md) | 404 |
+| [Radiflow iSID via AMA](../connectors/radiflowisid.md) | 404 |
+| [Silverfort Admin Console](../connectors/silverfortama.md) | 404 |
+| [Threat Intelligence Platforms](../connectors/threatintelligence.md) | 404 |
+| [VirtualMetric Director Proxy](../connectors/virtualmetricdirectorproxy.md) | 404 |
+| [VirtualMetric DataStream for Microsoft Sentinel](../connectors/virtualmetricmssentinelconnector.md) | 404 |
+| [VirtualMetric DataStream for Microsoft Sentinel data lake](../connectors/virtualmetricmssentineldatalakeconnector.md) | 404 |
+| [iboss via AMA](../connectors/ibossama.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/crowdstrike-additional-events-cl.md
+
+| URL | State |
+| --- | --- |
+| [CrowdStrike Falcon Endpoint Protection](../solutions/crowdstrike-falcon-endpoint-protection.md) | 404 |
+| [CrowdStrike Falcon Data Replicator (AWS S3) (via Codeless Connector Framework)](../connectors/crowdstrikefalcons3ccpdefinition.md) | 404 |
+| [CrowdStrike Falcon Data Replicator (CrowdStrike Managed AWS-S3)](../connectors/crowdstrikereplicatorv2.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/crowdstrike-secondary-data-cl.md
+
+| URL | State |
+| --- | --- |
+| [CrowdStrike Falcon Endpoint Protection](../solutions/crowdstrike-falcon-endpoint-protection.md) | 404 |
+| [CrowdStrike Falcon Data Replicator (AWS S3) (via Codeless Connector Framework)](../connectors/crowdstrikefalcons3ccpdefinition.md) | 404 |
+| [CrowdStrike Falcon Data Replicator (CrowdStrike Managed AWS-S3)](../connectors/crowdstrikereplicatorv2.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/cyeraassets-cl.md
+
+| URL | State |
+| --- | --- |
+| [CyeraDSPM](../solutions/cyeradspm.md) | 404 |
+| [Cyera DSPM Azure Sentinel Data Connector](../connectors/cyeradspmccf.md) | 404 |
+| [Cyera DSPM Azure Functions Sentinel Data Connector](../connectors/cyerafunctionsconnector.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/cyeraassets-ms-cl.md
+
+| URL | State |
+| --- | --- |
+| [CyeraDSPM](../solutions/cyeradspm.md) | 404 |
+| [Cyera DSPM Azure Sentinel Data Connector](../connectors/cyeradspmccf.md) | 404 |
+| [Cyera DSPM Azure Functions Sentinel Data Connector](../connectors/cyerafunctionsconnector.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/cyeraclassifications-cl.md
+
+| URL | State |
+| --- | --- |
+| [CyeraDSPM](../solutions/cyeradspm.md) | 404 |
+| [Cyera DSPM Azure Sentinel Data Connector](../connectors/cyeradspmccf.md) | 404 |
+| [Cyera DSPM Azure Functions Sentinel Data Connector](../connectors/cyerafunctionsconnector.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/cyeraidentities-cl.md
+
+| URL | State |
+| --- | --- |
+| [CyeraDSPM](../solutions/cyeradspm.md) | 404 |
+| [Cyera DSPM Azure Sentinel Data Connector](../connectors/cyeradspmccf.md) | 404 |
+| [Cyera DSPM Azure Functions Sentinel Data Connector](../connectors/cyerafunctionsconnector.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/cyeraissues-cl.md
+
+| URL | State |
+| --- | --- |
+| [CyeraDSPM](../solutions/cyeradspm.md) | 404 |
+| [Cyera DSPM Azure Sentinel Data Connector](../connectors/cyeradspmccf.md) | 404 |
+| [Cyera DSPM Azure Functions Sentinel Data Connector](../connectors/cyerafunctionsconnector.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/event.md
+
+| URL | State |
+| --- | --- |
+| [ALC-WebCTRL](../solutions/alc-webctrl.md) | 404 |
+| [Microsoft Exchange Security - Exchange On-Premises](../solutions/microsoft-exchange-security---exchange-on-premises.md) | 404 |
+| [MimecastTIRegional](../solutions/mimecasttiregional.md) | 404 |
+| [Automated Logic WebCTRL ](../connectors/automatedlogicwebctrl.md) | 404 |
+| [Microsoft Exchange Admin Audit Logs by Event Logs](../connectors/esi-opt1exchangeadminauditlogsbyeventlogs.md) | 404 |
+| [Microsoft Exchange Logs and Events](../connectors/esi-opt2exchangeserverseventlogs.md) | 404 |
+| [Mimecast Intelligence for Microsoft - Microsoft Sentinel](../connectors/mimecasttiregionalconnectorazurefunctions.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/exchangehttpproxy-cl.md
+
+| URL | State |
+| --- | --- |
+| [Microsoft Exchange Security - Exchange On-Premises](../solutions/microsoft-exchange-security---exchange-on-premises.md) | 404 |
+| [Microsoft Exchange HTTP Proxy Logs](../connectors/esi-opt7exchangehttpproxylogs.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/infobloxinsight-cl.md
+
+| URL | State |
+| --- | --- |
+| [Infoblox](../solutions/infoblox.md) | 404 |
+| [Infoblox SOC Insights](../solutions/infoblox-soc-insights.md) | 404 |
+| [Infoblox SOC Insight Data Connector via REST API](../connectors/infobloxsocinsightsdataconnector-api.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/meraki-cl.md
+
+| URL | State |
+| --- | --- |
+| [CiscoMeraki](../solutions/ciscomeraki.md) | 404 |
+| [Cisco Meraki (using REST API)](../connectors/ciscomerakinativepoller.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/messagetrackinglog-cl.md
+
+| URL | State |
+| --- | --- |
+| [Microsoft Exchange Security - Exchange On-Premises](../solutions/microsoft-exchange-security---exchange-on-premises.md) | 404 |
+| [Microsoft Exchange Message Tracking Logs](../connectors/esi-opt6exchangemessagetrackinglogs.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/okta-cl.md
+
+| URL | State |
+| --- | --- |
+| [Okta Single Sign-On](../solutions/okta-single-sign-on.md) | 404 |
+| [Okta Single Sign-On](../connectors/oktasso.md) | 404 |
+| [Okta Single Sign-On](../connectors/oktassov2.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/onapsis-defend-cl.md
+
+| URL | State |
+| --- | --- |
+| [Onapsis Defend](../solutions/onapsis-defend.md) | 404 |
+| [Onapsis Defend Integration](../connectors/onapsis.md) | 404 |
+| [Onapsis Defend: Integrate Unmatched SAP Threat Detection & Intel with Microsoft Sentinel](../connectors/onapsis.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/onelogineventsv2-cl.md
+
+| URL | State |
+| --- | --- |
+| [OneLoginIAM](../solutions/oneloginiam.md) | 404 |
+| [OneLogin IAM Platform (via Codeless Connector Framework)](../connectors/oneloginiamlogsccpdefinition.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/oneloginusersv2-cl.md
+
+| URL | State |
+| --- | --- |
+| [OneLoginIAM](../solutions/oneloginiam.md) | 404 |
+| [OneLogin IAM Platform (via Codeless Connector Framework)](../connectors/oneloginiamlogsccpdefinition.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/onepasswordeventlogs-cl.md
+
+| URL | State |
+| --- | --- |
+| [1Password](../solutions/1password.md) | 404 |
+| [1Password](../connectors/1password.md) | 404 |
+| [1Password (Serverless)](../connectors/1passwordccpdefinition.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/paloaltocortexxdr-alerts-cl.md
+
+| URL | State |
+| --- | --- |
+| [Cortex XDR](../solutions/cortex-xdr.md) | 404 |
+| [Palo Alto Cortex XDR CCP](../solutions/palo-alto-cortex-xdr-ccp.md) | 404 |
+| [Palo Alto Cortex XDR](../connectors/cortexxdrdataconnector.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/paloaltocortexxdr-audit-agent-cl.md
+
+| URL | State |
+| --- | --- |
+| [Cortex XDR](../solutions/cortex-xdr.md) | 404 |
+| [Palo Alto Cortex XDR CCP](../solutions/palo-alto-cortex-xdr-ccp.md) | 404 |
+| [Palo Alto Cortex XDR](../connectors/cortexxdrdataconnector.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/paloaltocortexxdr-audit-management-cl.md
+
+| URL | State |
+| --- | --- |
+| [Cortex XDR](../solutions/cortex-xdr.md) | 404 |
+| [Palo Alto Cortex XDR CCP](../solutions/palo-alto-cortex-xdr-ccp.md) | 404 |
+| [Palo Alto Cortex XDR](../connectors/cortexxdrdataconnector.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/paloaltocortexxdr-endpoints-cl.md
+
+| URL | State |
+| --- | --- |
+| [Cortex XDR](../solutions/cortex-xdr.md) | 404 |
+| [Palo Alto Cortex XDR CCP](../solutions/palo-alto-cortex-xdr-ccp.md) | 404 |
+| [Palo Alto Cortex XDR](../connectors/cortexxdrdataconnector.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/paloaltocortexxdr-incidents-cl.md
+
+| URL | State |
+| --- | --- |
+| [Cortex XDR](../solutions/cortex-xdr.md) | 404 |
+| [Palo Alto Cortex XDR CCP](../solutions/palo-alto-cortex-xdr-ccp.md) | 404 |
+| [Palo Alto Cortex XDR](../connectors/cortexxdrdataconnector.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/prismacloudcompute-cl.md
+
+| URL | State |
+| --- | --- |
+| [Palo Alto Prisma Cloud CWPP](../solutions/palo-alto-prisma-cloud-cwpp.md) | 404 |
+| [Palo Alto Prisma Cloud CWPP (using REST API)](../connectors/paloaltoprismacloudcwpp.md) | 404 |
+| [Palo Alto Prisma Cloud CWPP (using REST API)](../connectors/prismacloudcomputenativepoller.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/proofpointpodmessage-cl.md
+
+| URL | State |
+| --- | --- |
+| [Proofpoint On demand(POD) Email Security](../solutions/proofpoint-on-demand(pod) | 404 |
+| [Proofpoint On Demand Email Security (via Codeless Connector Platform)](../connectors/proofpointccpdefinition.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/salesforceservicecloudv2-cl.md
+
+| URL | State |
+| --- | --- |
+| [Salesforce Service Cloud](../solutions/salesforce-service-cloud.md) | 404 |
+| [Salesforce Service Cloud (via Codeless Connector Framework)](../connectors/salesforceservicecloudccpdefinition.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/securityalert.md
+
+| URL | State |
+| --- | --- |
+| [Microsoft Defender For Identity](../solutions/microsoft-defender-for-identity.md) | 404 |
+| [Microsoft Defender XDR](../solutions/microsoft-defender-xdr.md) | 404 |
+| [Microsoft Defender for Cloud](../solutions/microsoft-defender-for-cloud.md) | 404 |
+| [Microsoft Defender for Cloud Apps](../solutions/microsoft-defender-for-cloud-apps.md) | 404 |
+| [Microsoft Defender for Office 365](../solutions/microsoft-defender-for-office-365.md) | 404 |
+| [Microsoft Entra ID Protection](../solutions/microsoft-entra-id-protection.md) | 404 |
+| [MicrosoftDefenderForEndpoint](../solutions/microsoftdefenderforendpoint.md) | 404 |
+| [MicrosoftPurviewInsiderRiskManagement](../solutions/microsoftpurviewinsiderriskmanagement.md) | 404 |
+| [Microsoft Entra ID Protection](../connectors/azureactivedirectoryidentityprotection.md) | 404 |
+| [Microsoft Defender for Identity](../connectors/azureadvancedthreatprotection.md) | 404 |
+| [Subscription-based Microsoft Defender for Cloud (Legacy)](../connectors/azuresecuritycenter.md) | 404 |
+| [Microsoft Defender for Cloud Apps](../connectors/microsoftcloudappsecurity.md) | 404 |
+| [Microsoft Defender for Endpoint](../connectors/microsoftdefenderadvancedthreatprotection.md) | 404 |
+| [Tenant-based Microsoft Defender for Cloud](../connectors/microsoftdefenderforcloudtenantbased.md) | 404 |
+| [Microsoft Defender XDR](../connectors/microsoftthreatprotection.md) | 404 |
+| [Microsoft Defender for Office 365 (Preview)](../connectors/officeatp.md) | 404 |
+| [Microsoft 365 Insider Risk Management](../connectors/officeirm.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/securityevent.md
+
+| URL | State |
+| --- | --- |
+| [Cyborg Security HUNTER](../solutions/cyborg-security-hunter.md) | 404 |
+| [Microsoft Exchange Security - Exchange On-Premises](../solutions/microsoft-exchange-security---exchange-on-premises.md) | 404 |
+| [Semperis Directory Services Protector](../solutions/semperis-directory-services-protector.md) | 404 |
+| [Windows Security Events](../solutions/windows-security-events.md) | 404 |
+| [Cyborg Security HUNTER Hunt Packages](../connectors/cyborgsecurity-hunter.md) | 404 |
+| [ Microsoft Active-Directory Domain Controllers Security Event Logs](../connectors/esi-opt34domaincontrollerssecurityeventlogs.md) | 404 |
+| [Security Events via Legacy Agent](../connectors/securityevents.md) | 404 |
+| [Semperis Directory Services Protector](../connectors/semperisdsp.md) | 404 |
+| [Windows Security Events via AMA](../connectors/windowssecurityevents.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/securityincident.md
+
+| URL | State |
+| --- | --- |
+| [Microsoft Defender XDR](../solutions/microsoft-defender-xdr.md) | 404 |
+| [SIGNL4](../solutions/signl4.md) | 404 |
+| [Derdack SIGNL4](../connectors/derdacksignl4.md) | 404 |
+| [Microsoft Defender XDR](../connectors/microsoftthreatprotection.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/syslog.md
+
+| URL | State |
+| --- | --- |
+| [Barracuda CloudGen Firewall](../solutions/barracuda-cloudgen-firewall.md) | 404 |
+| [Blackberry CylancePROTECT](../solutions/blackberry-cylanceprotect.md) | 404 |
+| [CTERA](../solutions/ctera.md) | 404 |
+| [Cisco ACI](../solutions/cisco-aci.md) | 404 |
+| [Cisco ISE](../solutions/cisco-ise.md) | 404 |
+| [Cisco SD-WAN](../solutions/cisco-sd-wan.md) | 404 |
+| [Cisco Secure Cloud Analytics](../solutions/cisco-secure-cloud-analytics.md) | 404 |
+| [Cisco UCS](../solutions/cisco-ucs.md) | 404 |
+| [CiscoWSA](../solutions/ciscowsa.md) | 404 |
+| [Citrix ADC](../solutions/citrix-adc.md) | 404 |
+| [Digital Guardian Data Loss Prevention](../solutions/digital-guardian-data-loss-prevention.md) | 404 |
+| [ESETPROTECT](../solutions/esetprotect.md) | 404 |
+| [Exabeam Advanced Analytics](../solutions/exabeam-advanced-analytics.md) | 404 |
+| [Forescout (Legacy)](../solutions/forescout-(legacy) | 404 |
+| [GitLab](../solutions/gitlab.md) | 404 |
+| [ISC Bind](../solutions/isc-bind.md) | 404 |
+| [Infoblox NIOS](../solutions/infoblox-nios.md) | 404 |
+| [Ivanti Unified Endpoint Management](../solutions/ivanti-unified-endpoint-management.md) | 404 |
+| [Juniper SRX](../solutions/juniper-srx.md) | 404 |
+| [McAfee Network Security Platform](../solutions/mcafee-network-security-platform.md) | 404 |
+| [McAfee ePolicy Orchestrator](../solutions/mcafee-epolicy-orchestrator.md) | 404 |
+| [Microsoft Sysmon For Linux](../solutions/microsoft-sysmon-for-linux.md) | 404 |
+| [Nasuni](../solutions/nasuni.md) | 404 |
+| [OpenVPN](../solutions/openvpn.md) | 404 |
+| [OracleDatabaseAudit](../solutions/oracledatabaseaudit.md) | 404 |
+| [Pulse Connect Secure](../solutions/pulse-connect-secure.md) | 404 |
+| [RSA SecurID](../solutions/rsa-securid.md) | 404 |
+| [Sophos XG Firewall](../solutions/sophos-xg-firewall.md) | 404 |
+| [Symantec Endpoint Protection](../solutions/symantec-endpoint-protection.md) | 404 |
+| [Symantec VIP](../solutions/symantec-vip.md) | 404 |
+| [SymantecProxySG](../solutions/symantecproxysg.md) | 404 |
+| [Syslog](../solutions/syslog.md) | 404 |
+| [VMWareESXi](../solutions/vmwareesxi.md) | 404 |
+| [Watchguard Firebox](../solutions/watchguard-firebox.md) | 404 |
+| [CTERA Syslog](../connectors/ctera.md) | 404 |
+| [Cisco Software Defined WAN](../connectors/ciscosdwan.md) | 404 |
+| [Forescout](../connectors/forescout.md) | 404 |
+| [Syslog via Legacy Agent](../connectors/syslog.md) | 404 |
+| [Syslog via AMA](../connectors/syslogama.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/threatintelindicators.md
+
+| URL | State |
+| --- | --- |
+| [Lumen Defender Threat Feed](../solutions/lumen-defender-threat-feed.md) | 404 |
+| [Threat Intelligence (NEW)](../solutions/threat-intelligence-(new) | 404 |
+| [Lumen Defender Threat Feed Data Connector](../connectors/lumenthreatfeedconnector.md) | 404 |
+| [Microsoft Defender Threat Intelligence](../connectors/microsoftdefenderthreatintelligence.md) | 404 |
+| [Premium Microsoft Defender Threat Intelligence](../connectors/premiummicrosoftdefenderforthreatintelligence.md) | 404 |
+| [Threat Intelligence Platforms](../connectors/threatintelligence.md) | 404 |
+| [Threat intelligence - TAXII](../connectors/threatintelligencetaxii.md) | 404 |
+| [Threat Intelligence Upload API (Preview)](../connectors/threatintelligenceuploadindicatorsapi.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/threatintelligenceindicator.md
+
+| URL | State |
+| --- | --- |
+| [CofenseIntelligence](../solutions/cofenseintelligence.md) | 404 |
+| [CofenseTriage](../solutions/cofensetriage.md) | 404 |
+| [CognyteLuminar](../solutions/cognyteluminar.md) | 404 |
+| [CrowdStrike Falcon Endpoint Protection](../solutions/crowdstrike-falcon-endpoint-protection.md) | 404 |
+| [Datalake2Sentinel](../solutions/datalake2sentinel.md) | 404 |
+| [GreyNoiseThreatIntelligence](../solutions/greynoisethreatintelligence.md) | 404 |
+| [MISP2Sentinel](../solutions/misp2sentinel.md) | 404 |
+| [MimecastTIRegional](../solutions/mimecasttiregional.md) | 404 |
+| [Threat Intelligence](../solutions/threat-intelligence.md) | 404 |
+| [VMRay](../solutions/vmray.md) | 404 |
+| [Cofense Intelligence Threat Indicators Ingestion](../connectors/cofenseintelligence.md) | 404 |
+| [Cofense Triage Threat Indicators Ingestion](../connectors/cofensetriage.md) | 404 |
+| [Luminar IOCs and Leaked Credentials](../connectors/cognyteluminar.md) | 404 |
+| [CrowdStrike Falcon Adversary Intelligence ](../connectors/crowdstrikefalconadversaryintelligence.md) | 404 |
+| [Datalake2Sentinel](../connectors/datalake2sentinelconnector.md) | 404 |
+| [GreyNoise Threat Intelligence](../connectors/greynoise2sentinelapi.md) | 404 |
+| [MISP2Sentinel](../connectors/misp2sentinelconnector.md) | 404 |
+| [Microsoft Defender Threat Intelligence](../connectors/microsoftdefenderthreatintelligence.md) | 404 |
+| [Mimecast Intelligence for Microsoft - Microsoft Sentinel](../connectors/mimecasttiregionalconnectorazurefunctions.md) | 404 |
+| [Premium Microsoft Defender Threat Intelligence](../connectors/premiummicrosoftdefenderforthreatintelligence.md) | 404 |
+| [Threat Intelligence Platforms](../connectors/threatintelligence.md) | 404 |
+| [Threat intelligence - TAXII](../connectors/threatintelligencetaxii.md) | 404 |
+| [Threat Intelligence Upload API (Preview)](../connectors/threatintelligenceuploadindicatorsapi.md) | 404 |
+| [VMRayThreatIntelligence](../connectors/vmray.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/threatintelobjects.md
+
+| URL | State |
+| --- | --- |
+| [Threat Intelligence (NEW)](../solutions/threat-intelligence-(new) | 404 |
+| [Microsoft Defender Threat Intelligence](../connectors/microsoftdefenderthreatintelligence.md) | 404 |
+| [Premium Microsoft Defender Threat Intelligence](../connectors/premiummicrosoftdefenderforthreatintelligence.md) | 404 |
+| [Threat Intelligence Platforms](../connectors/threatintelligence.md) | 404 |
+| [Threat intelligence - TAXII](../connectors/threatintelligencetaxii.md) | 404 |
+| [Threat Intelligence Upload API (Preview)](../connectors/threatintelligenceuploadindicatorsapi.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/tables/w3ciislog.md
+
+| URL | State |
+| --- | --- |
+| [Microsoft Exchange Security - Exchange On-Premises](../solutions/microsoft-exchange-security---exchange-on-premises.md) | 404 |
+| [IIS Logs of Microsoft Exchange Servers](../connectors/esi-opt5exchangeiislogs.md) | 404 |
+| [← Back to Tables Index](../tables-index.md) | 404 |
+| [Solutions Index](../solutions-index.md) | 404 |
+| [Connectors Index](../connectors-index.md) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Transformations-Library/Filtering/README.md
 
