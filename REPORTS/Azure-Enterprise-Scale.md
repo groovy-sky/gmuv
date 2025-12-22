@@ -208,6 +208,7 @@ Implementations](https://github.com/azure/enterprise-scale#deploying-enterprise-
 
 | URL | State |
 | --- | --- |
+| [Private DNS Resolver documentation](https://learn.microsoft.com/azure/dns/resolver/overview) | 404 |
 | [Deploy-Encryption-CMK_20250218](https://www.azadvertizer.net/azpolicyinitiativesadvertizer/Deploy-Encryption-CMK_20250218.html) | 404 |
 | [dataCollectionRule-DefenderSQL.json](Enterprise-Scale/eslzArm/resourceGroupTemplates/dataCollectionRule-DefenderSQL.json) | 404 |
 | [ALZ Policies Extra](./ALZ-Policies-Extra) | 404 |
@@ -231,6 +232,7 @@ Implementations](https://github.com/azure/enterprise-scale#deploying-enterprise-
 | [ALZ AMA Update](./ALZ-AMA-Update) | 404 |
 | [ALZ AMA FAQ](./ALZ-AMA-FAQ) | 404 |
 | [ALZ Policy FAQ and Tips](./ALZ-Policies-FAQ) | 404 |
+| [Microsoft Defender for Cloud documentation](https://docs.microsoft.com/en-us/azure/defender-for-cloud/how-to-transition-to-built-in) | 404 |
 | [ALZ Policies FAQ](./ALZ-Policies-FAQ) | 404 |
 | [Policies Testing Framework](./ALZ-Policies-Testing) | 404 |
 | [Deny-FileServices-InsecureSMBChannel](https://www.azadvertizer.net/azpolicyadvertizer/Deny-FileServices-InsecureSMBChannel.html) | 404 |
