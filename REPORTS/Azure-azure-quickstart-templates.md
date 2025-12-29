@@ -853,12 +853,6 @@
 | [Anbox Cloud](https://anbox-cloud.io/) | 503 |
 | [these instructions](https://anbox-cloud.io/docs/tutorial/installing-appliance#initialise-the-appliance-6) | 503 |
 
-* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.apimanagement/api-management-create-with-multiregion/README.md
-
-| URL | State |
-| --- | --- |
-| [Quickstart templates](https://azure.microsoft.com/resources/templates/?resourceType=Microsoft.Apimanagement) | 503 |
-
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.apimanagement/api-management-create-with-reference-keyvault/README.md
 
 | URL | State |
@@ -1177,7 +1171,7 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 | URL | State |
 | --- | --- |
 | [Create an Azure Virtual Machine](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-windows-hero-tutorial) | 404 |
-| [this article](http://itq.nl/walkthrough-hosting-ftp-on-iis-7-5-a-windows-azure-vm-2/) | 404 |
+| [this article](http://itq.nl/walkthrough-hosting-ftp-on-iis-7-5-a-windows-azure-vm-2/) | 0 |
 | [Overview and prerequisites](https://azure.microsoft.com/documentation/articles/data-factory-build-your-first-pipeline/) | 404 |
 | [Tutorial: Create a pipeline using Resource Manager Template](https://azure.microsoft.com/documentation/articles/data-factory-build-your-first-pipeline-using-arm/) | 404 |
 
