@@ -207,6 +207,12 @@
 | [Red Hat Cloud Access program overview](https://access.redhat.com/documentation/en/red_hat_subscription_management/1/html/red_hat_cloud_access_reference_guide/getting-started-with-ca_cloud-access#proc_new-ca-experience-option2_cloud-access) | 404 |
 | [Getting access to Gold Images](https://access.redhat.com/documentation/en/red_hat_subscription_management/1/html/red_hat_cloud_access_reference_guide/understanding-gold-images_cloud-access#getting-access-to-gold-images_cloud-access) | 404 |
 
+* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/kentico/kentico-xperience-environment/README.md
+
+| URL | State |
+| --- | --- |
+| [Kentico Xperience](https://xperience.io/) | 0 |
+
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/lansa/lansa-vmss-windows-autoscale-sql-database/README.md
 
 | URL | State |
@@ -311,6 +317,19 @@
 | --- | --- |
 | [Database servers Template](https://github.com/Azure/azure-quickstart-templates/tree/master/sap-3-tier-marketplace-image-multi-sid-db-md) | 404 |
 | [Application servers template](https://github.com/Azure/azure-quickstart-templates/tree/master/sap-3-tier-marketplace-image-multi-sid-apps-md) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/sharepoint/sharepoint-adfs/CHANGELOG.md
+
+| URL | State |
+| --- | --- |
+| [Standard_E2ds_v4](https://docs.microsoft.com/azure/virtual-machines/edv4-edsv4-series) | 502 |
+| [Standard_F4](https://docs.microsoft.com/azure/virtual-machines/sizes-previous-gen?toc=/azure/virtual-machines/linux/toc.json&bc=/azure/virtual-machines/linux/breadcrumb/toc.json) | 502 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/sharepoint/sharepoint-adfs/README.md
+
+| URL | State |
+| --- | --- |
+| [Public IP](https://learn.microsoft.com/azure/virtual-network/ip-services/virtual-network-public-ip-address) | 502 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/solace/solace-message-router/CONTRIBUTING.md
 
