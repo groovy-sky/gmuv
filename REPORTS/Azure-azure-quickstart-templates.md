@@ -91,6 +91,7 @@
 
 | URL | State |
 | --- | --- |
+| [Atlas](https://atlas.hashicorp.com/) | 404 |
 | [here](https://atlas.hashicorp.com/help/user-accounts/authentication) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/darktrace/darktrace-vsensor-autoscaling/README.md
@@ -120,7 +121,7 @@
 | URL | State |
 | --- | --- |
 | [Screen](./images/azgroup.png) | 404 |
-| [Screen](./images/azdeploy.png) | 404 |
+| [Screen](./images/azdeploy.png) | 503 |
 | [Screen](./images/azdeploy2.png) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/dosyago/browserbox/README.md
@@ -207,12 +208,6 @@
 | [Red Hat Cloud Access program overview](https://access.redhat.com/documentation/en/red_hat_subscription_management/1/html/red_hat_cloud_access_reference_guide/getting-started-with-ca_cloud-access#proc_new-ca-experience-option2_cloud-access) | 404 |
 | [Getting access to Gold Images](https://access.redhat.com/documentation/en/red_hat_subscription_management/1/html/red_hat_cloud_access_reference_guide/understanding-gold-images_cloud-access#getting-access-to-gold-images_cloud-access) | 404 |
 
-* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/kentico/kentico-xperience-environment/README.md
-
-| URL | State |
-| --- | --- |
-| [Kentico Xperience](https://xperience.io/) | 0 |
-
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/lansa/lansa-vmss-windows-autoscale-sql-database/README.md
 
 | URL | State |
@@ -225,7 +220,7 @@
 
 | URL | State |
 | --- | --- |
-| [network_diagram](images/stack_diagram.png "Diagram of deployed stack") | 404 |
+| [network_diagram](images/stack_diagram.png "Diagram of deployed stack") | 503 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/moodle/moodle-scalable-cluster-ubuntu/README.md
 
@@ -317,19 +312,6 @@
 | --- | --- |
 | [Database servers Template](https://github.com/Azure/azure-quickstart-templates/tree/master/sap-3-tier-marketplace-image-multi-sid-db-md) | 404 |
 | [Application servers template](https://github.com/Azure/azure-quickstart-templates/tree/master/sap-3-tier-marketplace-image-multi-sid-apps-md) | 404 |
-
-* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/sharepoint/sharepoint-adfs/CHANGELOG.md
-
-| URL | State |
-| --- | --- |
-| [Standard_E2ds_v4](https://docs.microsoft.com/azure/virtual-machines/edv4-edsv4-series) | 502 |
-| [Standard_F4](https://docs.microsoft.com/azure/virtual-machines/sizes-previous-gen?toc=/azure/virtual-machines/linux/toc.json&bc=/azure/virtual-machines/linux/breadcrumb/toc.json) | 502 |
-
-* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/sharepoint/sharepoint-adfs/README.md
-
-| URL | State |
-| --- | --- |
-| [Public IP](https://learn.microsoft.com/azure/virtual-network/ip-services/virtual-network-public-ip-address) | 502 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/solace/solace-message-router/CONTRIBUTING.md
 
@@ -859,6 +841,13 @@
 | --- | --- |
 | [Architecture diagram](./images/solution-architecture.png "Solution Architecture") | 404 |
 
+* https://github.com/Azure/azure-quickstart-templates/blob/master/demos/xss-attack-prevention/README.md
+
+| URL | State |
+| --- | --- |
+| [](images/xss-appgateway-det-location.png) | 503 |
+| [](images/xss-appgateway-waf-det.png) | 503 |
+
 * https://github.com/Azure/azure-quickstart-templates/blob/master/modules/Microsoft.KeyVault/vaults/keys/0.9/README.md
 
 | URL | State |
@@ -1113,6 +1102,12 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 | URL | State |
 | --- | --- |
 | [Quickstart: Create an Confidential Ledger with an ARM template](/azure/confidential-ledger/quickstart-template) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.containerservice/azure-kubernetes-monitoring-with-prometheus-and-grafana/README.md
+
+| URL | State |
+| --- | --- |
+| [Figure 2](images/configure-grafana-dashboard.png) | 503 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.customproviders/custom-rp-existing-resource-deployments/README.md
 
@@ -1796,6 +1791,13 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 | URL | State |
 | --- | --- |
 | [Screen](./images/aztemplate2.png) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.web/web-app-python/gettingstarted.md
+
+| URL | State |
+| --- | --- |
+| [Screen](./images/az-log.png) | 503 |
+| [Screen](./images/az-groupcreate.png) | 503 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.web/web-app-redis-cache-sql-database/README.md
 
