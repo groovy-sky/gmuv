@@ -239,6 +239,7 @@ Implementations](https://github.com/azure/enterprise-scale#deploying-enterprise-
 | [Deny-FileServices-InsecureSMBVersions](https://www.azadvertizer.net/azpolicyadvertizer/Deny-FileServices-InsecureSMBVersions.html) | 404 |
 | [ALZ Policy FAQ and Tips](./ALZ-Policies-FAQ) | 404 |
 | [ALZ Contribution Guide](./ALZ-Contribution-Guide) | 404 |
+| [docs/EnterpriseScale-Contribution.md](https://github.com/Azure/Enterprise-Scale/blob/main/docs/EnterpriseScale-Contribution.md) | 503 |
 | [Migrate ALZ custom policies to Azure builtin policies](migrate-alz-policies-to-builtin.md) | 404 |
 | [Deploy Azure landing zone portal accelerator](./Deploying-ALZ) | 404 |
 | [Deployment guidance for Small Enterprises](./Deploying-ALZ-BasicSetup) | 404 |
