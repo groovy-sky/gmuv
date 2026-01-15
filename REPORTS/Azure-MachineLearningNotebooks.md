@@ -56,7 +56,6 @@
 
 | URL | State |
 | --- | --- |
-| [aml-pipelines-parameter-tuning-with-hyperdrive.ipynb](https://aka.ms/pl-hyperdrive) | 503 |
 | [Impressions](https://PixelServer20190423114238.azurewebsites.net/api/impressions/MachineLearningNotebooks/how-to-use-azureml/machine-learning-pipelines/intro-to-pipelines/README.png) | 0 |
 
 * https://github.com/Azure/MachineLearningNotebooks/blob/master/how-to-use-azureml/machine-learning-pipelines/parallel-run/README.md
