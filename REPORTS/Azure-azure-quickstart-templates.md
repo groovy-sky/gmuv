@@ -121,7 +121,7 @@
 | URL | State |
 | --- | --- |
 | [Screen](./images/azgroup.png) | 404 |
-| [Screen](./images/azdeploy.png) | 503 |
+| [Screen](./images/azdeploy.png) | 404 |
 | [Screen](./images/azdeploy2.png) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/dosyago/browserbox/README.md
@@ -220,7 +220,7 @@
 
 | URL | State |
 | --- | --- |
-| [network_diagram](images/stack_diagram.png "Diagram of deployed stack") | 503 |
+| [network_diagram](images/stack_diagram.png "Diagram of deployed stack") | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/moodle/moodle-scalable-cluster-ubuntu/README.md
 
@@ -841,13 +841,6 @@
 | --- | --- |
 | [Architecture diagram](./images/solution-architecture.png "Solution Architecture") | 404 |
 
-* https://github.com/Azure/azure-quickstart-templates/blob/master/demos/xss-attack-prevention/README.md
-
-| URL | State |
-| --- | --- |
-| [](images/xss-appgateway-det-location.png) | 503 |
-| [](images/xss-appgateway-waf-det.png) | 503 |
-
 * https://github.com/Azure/azure-quickstart-templates/blob/master/modules/Microsoft.KeyVault/vaults/keys/0.9/README.md
 
 | URL | State |
@@ -858,8 +851,7 @@
 
 | URL | State |
 | --- | --- |
-| [Anbox Cloud](https://anbox-cloud.io/) | 503 |
-| [these instructions](https://anbox-cloud.io/docs/tutorial/installing-appliance#initialise-the-appliance-6) | 503 |
+| [these instructions](https://anbox-cloud.io/docs/tutorial/installing-appliance#initialise-the-appliance-6) | 404 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.apimanagement/api-management-create-with-reference-keyvault/README.md
 
@@ -1102,12 +1094,6 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 | URL | State |
 | --- | --- |
 | [Quickstart: Create an Confidential Ledger with an ARM template](/azure/confidential-ledger/quickstart-template) | 404 |
-
-* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.containerservice/azure-kubernetes-monitoring-with-prometheus-and-grafana/README.md
-
-| URL | State |
-| --- | --- |
-| [Figure 2](images/configure-grafana-dashboard.png) | 503 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.customproviders/custom-rp-existing-resource-deployments/README.md
 
@@ -1394,6 +1380,12 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 | URL | State |
 | --- | --- |
 | [the documentation](https://docs.microsoft.com/azure/logic-apps/connect-virtual-network-vnet-isolated-environment#check-network-ports) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.logic/logic-app-as2-send-receive/README.md
+
+| URL | State |
+| --- | --- |
+| [Azure Logic Apps pricing](https://azure.microsoft.com/pricing/details/logic-apps/) | 0 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.logic/logic-app-b2b-disaster-recovery-replication/README.md
 
@@ -1791,13 +1783,6 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 | URL | State |
 | --- | --- |
 | [Screen](./images/aztemplate2.png) | 404 |
-
-* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.web/web-app-python/gettingstarted.md
-
-| URL | State |
-| --- | --- |
-| [Screen](./images/az-log.png) | 503 |
-| [Screen](./images/az-groupcreate.png) | 503 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.web/web-app-redis-cache-sql-database/README.md
 
