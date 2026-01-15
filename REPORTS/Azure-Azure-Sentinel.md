@@ -11,13 +11,8 @@
 
 | URL | State |
 | --- | --- |
+| [Azure Logic App pricing page](https://azure.microsoft.com/pricing/details/logic-apps/) | 503 |
 | [Cyble-Threat-Intel-App](./Images/Cyble-Threat-Intel-Logic-App.png) | 404 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/DataConnectors/ReadMe.md
-
-| URL | State |
-| --- | --- |
-| [Encrypting log messages with TLS – syslog-ng](https://support.oneidentity.com/technical-documents/syslog-ng-open-source-edition/3.22/administration-guide/60#TOPIC-1209298) | 500 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/DataConnectors/Syslog-VMSS-AMA/README.md
 
@@ -188,13 +183,6 @@
 | --- | --- |
 | [AS_Add_Azure_AD_User_Job_Title_to_Incident_Deploy_7](Images/AS_Add_Azure_AD_User_Job_Title_to_Incident_Deploy_7.png) | 404 |
 
-* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/AS-Block-Hash-in-Defender/README.md
-
-| URL | State |
-| --- | --- |
-| [BlockHashInDefender_Add_Contributor_Role_3](Images/BlockHashInDefender_Add_Contributor_Role_3.png) | 503 |
-| [BlockHashInDefender_Add_Contributor_Role_4](Images/BlockHashInDefender_Add_Contributor_Role_4.png) | 503 |
-
 * https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/AS-Datadog-Events-Integration/README.md
 
 | URL | State |
@@ -310,25 +298,6 @@
 | [ticket](https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Solutions/Standalone/Playbooks/Create-Zendesk-Ticket/images/ticket.png) | 404 |
 | [ticketsQueue](https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Solutions/Standalone/Playbooks/Create-Zendesk-Ticket/images/ticketsQueue.png) | 404 |
 | [designer](https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Solutions/Standalone/Playbooks/Create-Zendesk-Ticket/images/designerLight.png) | 404 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/CrowdStrike/Playbooks/CrowdStrike_ResponsefromTeams/readme.md
-
-| URL | State |
-| --- | --- |
-| [learn how](https://falcon.crowdstrike.com/support/documentation/71/real-time-response-and-network-containment#rtr_custom_scripts) | 0 |
-| [Understand and assign Real Time Responder roles](https://falcon.crowdstrike.com/support/documentation/71/real-time-response-and-network-containment#rtr_roles) | 0 |
-| [Response Policies](https://falcon.crowdstrike.com/support/documentation/71/real-time-response-and-network-containment#rtr-policy-config) | 0 |
-| [Real time resonse policy settings](https://falcon.crowdstrike.com/support/documentation/71/real-time-response-and-network-containment#rtr-policy-config) | 0 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/CrowdStrike/readme.md
-
-| URL | State |
-| --- | --- |
-| [oauth2 authentication](https://falcon.crowdstrike.com/support/documentation/46/crowdstrike-oauth2-based-apis#authenticating) | 0 |
-| [learn how to create scripts](https://falcon.crowdstrike.com/support/documentation/71/real-time-response-and-network-containment#rtr_custom_scripts) | 0 |
-| [Understand and assign Real Time Responder roles](https://falcon.crowdstrike.com/support/documentation/71/real-time-response-and-network-containment#rtr_roles) | 0 |
-| [Response Policies](https://falcon.crowdstrike.com/support/documentation/71/real-time-response-and-network-containment#rtr-policy-config) | 0 |
-| [Real time response policy settings](https://falcon.crowdstrike.com/support/documentation/71/real-time-response-and-network-containment#rtr-policy-config) | 0 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/Dynamic-Summaries-API-Upsert/readme.md
 
@@ -501,13 +470,6 @@
 | URL | State |
 | --- | --- |
 | [tasks](../Get-SOCTasks/images/tasks.png) | 404 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/Guardicore-Import-Assets/README.md
-
-| URL | State |
-| --- | --- |
-| [Logicapp3a](Images/Logicapp3a.png) | 503 |
-| [Logicapp4a](Images/Logicapp4a.png) | 503 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Playbooks/Guardicore-ThreatIntel/README.md
 
@@ -911,12 +873,6 @@
 | --- | --- |
 | [Australian Cyber Security Centre](https://www.cyber.gov.au/) | 0 |
 
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Auth0/readme.md
-
-| URL | State |
-| --- | --- |
-| [](Images/ApplicationProperties.png?raw=true) | 503 |
-
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/AzureSecurityBenchmark/readme.md
 
 | URL | State |
@@ -1082,7 +1038,6 @@
 | [Continuous Threat Detection](https://claroty.com/continuous-threat-detection/) | 404 |
 | [Digital Guardian Data Loss Prevention (DLP)](https://digitalguardian.com/platform-overview) | 403 |
 | [Investigate incidents with Microsoft Sentinel]( https://docs.microsoft.com/azure/sentinel/investigate-cases) | 0 |
-| [Juniper SRX](https://www.juniper.net/us/en/products-services/security/srx-series/) | 403 |
 | [McAfee ePO](https://www.mcafee.com/enterprise/en-us/products/epolicy-orchestrator.html) | 0 |
 | [documentation](https://docs.mcafee.com/bundle/epolicy-orchestrator-landing/page/GUID-0C40020F-5B7F-4549-B9CC-0E017BC8797F.html) | 0 |
 | [McAfee┬« Network Security Platform](https://www.mcafee.com/enterprise/en-us/products/network-security-platform.html) | 0 |
@@ -1311,32 +1266,31 @@
 | --- | --- |
 | [JamfProtect_LockComputer_with_JamfPro](https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Solutions/Jamf%20Protect%/Playbooks/JamfProtect_LockComputer_with_JamfPro/images/designerOverviewCollapsedLight.png) | 0 |
 
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Lookout/Data Connectors/LookoutMRAv2_Deployment_Guide.md
-
-| URL | State |
-| --- | --- |
-| [Lookout API Documentation](https://docs.lookout.com) | 0 |
-| [Lookout Support](https://support.lookout.com) | 0 |
-
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Lookout/README.md
 
 | URL | State |
 | --- | --- |
 | [`DEPLOYMENT_GUIDE.md`](DEPLOYMENT_GUIDE.md) | 404 |
+| [`QuickStartValidation.kql`](Validation/QuickStartValidation.kql) | 404 |
 | [`DEV_TESTING_GUIDE.md`](DEV_TESTING_GUIDE.md) | 404 |
 | [`CODELESS_CONNECTOR_GUIDE.md`](CODELESS_CONNECTOR_GUIDE.md) | 404 |
 | [`DEPLOYMENT_GUIDE.md`](DEPLOYMENT_GUIDE.md) | 404 |
+| [`QuickStartValidation.kql`](Validation/QuickStartValidation.kql) | 404 |
 | [`V2_FIELD_MAPPING.md`](V2_FIELD_MAPPING.md) | 404 |
 | [`UPGRADE_ANALYSIS.md`](UPGRADE_ANALYSIS.md) | 404 |
 | [`DEV_TESTING_GUIDE.md`](DEV_TESTING_GUIDE.md) | 404 |
 | [`DEPLOYMENT_GUIDE.md`](DEPLOYMENT_GUIDE.md) | 404 |
 | [`DEV_TESTING_GUIDE.md`](DEV_TESTING_GUIDE.md) | 404 |
+| [`QuickStartValidation.kql`](Validation/QuickStartValidation.kql) | 404 |
 | [`V2_FIELD_MAPPING.md`](V2_FIELD_MAPPING.md) | 404 |
+| [`ARCHITECTURE_DIAGRAM.md`](ARCHITECTURE_DIAGRAM.md) | 404 |
 | [`CODELESS_CONNECTOR_GUIDE.md`](CODELESS_CONNECTOR_GUIDE.md) | 404 |
+| [`LookoutV2ValidationFramework.yaml`](Validation/LookoutV2ValidationFramework.yaml) | 404 |
 | [`TEST_DATA_SAMPLES.json`](TEST_DATA_SAMPLES.json) | 404 |
 | [`TEST_DATA_SAMPLES.md`](TEST_DATA_SAMPLES.md) | 404 |
 | [`DEPLOYMENT_GUIDE.md`](DEPLOYMENT_GUIDE.md) | 404 |
 | [`DEV_TESTING_GUIDE.md`](DEV_TESTING_GUIDE.md) | 404 |
+| [`QuickStartValidation.kql`](Validation/QuickStartValidation.kql) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Microsoft Defender for Office 365/Playbooks/O365DefenderPlaybooks/o365-BlockMalwareFileExtension/readme.md
 
@@ -1420,7 +1374,11 @@
 
 | URL | State |
 | --- | --- |
+| [Miro company settings](https://miro.com/app/settings/) | 404 |
+| [Miro company settings](https://miro.com/app/settings/) | 404 |
 | [learn more about OAuth tokens](https://developers.miro.com/reference/authorization-flow-for-non-expiring-access-tokens) | 404 |
+| [Miro company settings](https://miro.com/app/settings/) | 404 |
+| [Miro company settings](https://miro.com/app/settings/) | 404 |
 | [https://help.miro.com](https://help.miro.com) | 403 |
 | [https://help.miro.com/hc/en-us/articles/360017571434-Audit-logs](https://help.miro.com/hc/en-us/articles/360017571434-Audit-logs) | 403 |
 | [https://help.miro.com/hc/en-us/articles/17774729839378-Content-Logs-overview](https://help.miro.com/hc/en-us/articles/17774729839378-Content-Logs-overview) | 403 |
@@ -1584,121 +1542,12 @@
 | [Learn more about Recorded Future for Microsoft Sentinel](https://www.recordedfuture.com/microsoft-azure-sentinel-integration) | 404 |
 | [Manage Risk Lists](https://www.recordedfuture.com/support/install-configure-manage-risk-lists) | 404 |
 
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/RiskIQ/Playbooks/RiskIQ-Automated-Triage/readme.md
-
-| URL | State |
-| --- | --- |
-| [account settings](https://community.riskiq.com/settings) | 0 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/RiskIQ/Playbooks/RiskIQ-Base/readme.md
-
-| URL | State |
-| --- | --- |
-| [account settings](https://community.riskiq.com/settings) | 0 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/RiskIQ/Playbooks/RiskIQ-Data-PassiveDns-Domain/readme.md
-
-| URL | State |
-| --- | --- |
-| [account settings](https://community.riskiq.com/settings) | 0 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/RiskIQ/Playbooks/RiskIQ-Data-PassiveDns-Ip/readme.md
-
-| URL | State |
-| --- | --- |
-| [account settings](https://community.riskiq.com/settings) | 0 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/RiskIQ/Playbooks/RiskIQ-Data-PassiveDns/readme.md
-
-| URL | State |
-| --- | --- |
-| [account settings](https://community.riskiq.com/settings) | 0 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/RiskIQ/Playbooks/RiskIQ-Data-Summary-Domain/readme.md
-
-| URL | State |
-| --- | --- |
-| [account settings](https://community.riskiq.com/settings) | 0 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/RiskIQ/Playbooks/RiskIQ-Data-Summary-Ip/readme.md
-
-| URL | State |
-| --- | --- |
-| [account settings](https://community.riskiq.com/settings) | 0 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/RiskIQ/Playbooks/RiskIQ-Data-Summary/readme.md
-
-| URL | State |
-| --- | --- |
-| [account settings](https://community.riskiq.com/settings) | 0 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/RiskIQ/Playbooks/RiskIQ-Data-Whois-Domain/readme.md
-
-| URL | State |
-| --- | --- |
-| [account settings](https://community.riskiq.com/settings) | 0 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/RiskIQ/Playbooks/RiskIQ-Data-Whois-IP/readme.md
-
-| URL | State |
-| --- | --- |
-| [account settings](https://community.riskiq.com/settings) | 0 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/RiskIQ/Playbooks/RiskIQ-Data-Whois/readme.md
-
-| URL | State |
-| --- | --- |
-| [account settings](https://community.riskiq.com/settings) | 0 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/RiskIQ/Playbooks/RiskIQ-Intel-Reputation-Domain/readme.md
-
-| URL | State |
-| --- | --- |
-| [account settings](https://community.riskiq.com/settings) | 0 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/RiskIQ/Playbooks/RiskIQ-Intel-Reputation-Ip/readme.md
-
-| URL | State |
-| --- | --- |
-| [account settings](https://community.riskiq.com/settings) | 0 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/RiskIQ/Playbooks/RiskIQ-Intel-Reputation/readme.md
-
-| URL | State |
-| --- | --- |
-| [account settings](https://community.riskiq.com/settings) | 0 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/RiskIQ/Playbooks/RiskIQ-Intel-Summary-Domain/readme.md
-
-| URL | State |
-| --- | --- |
-| [account settings](https://community.riskiq.com/settings) | 0 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/RiskIQ/Playbooks/RiskIQ-Intel-Summary-Ip/readme.md
-
-| URL | State |
-| --- | --- |
-| [account settings](https://community.riskiq.com/settings) | 0 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/RiskIQ/Playbooks/RiskIQ-Intel-Summary/readme.md
-
-| URL | State |
-| --- | --- |
-| [account settings](https://community.riskiq.com/settings) | 0 |
-
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/RiskIQ/Playbooks/readme.md
 
 | URL | State |
 | --- | --- |
 | [register for free](https://community.riskiq.com/) | 0 |
 | [API documentation](https://api.passivetotal.org/index.html) | 0 |
-| [account settings](https://community.riskiq.com/settings) | 0 |
-
-* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/RubrikSecurityCloud/Playbooks/RubrikAnomalyIncidentResponse/README.md
-
-| URL | State |
-| --- | --- |
-| [connect to Rubrik Security Cloud API end points using a Service Account](https://docs.rubrik.com/en-us/saas/saas/polaris_api_access_with_service_accounts.html) | 0 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/SAP/CR/README.MD
 
@@ -2144,19 +1993,11 @@
 | [Microsoft
  content and support documentation](https://aka.ms/sentinelcontentsupportmodel) | 0 |
 
-* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Microsoft Defender for Office 365/Microsoft Defender for Office 365 Detection Details Report/Readme.md
-
-| URL | State |
-| --- | --- |
-| [MDOPowerBI1](Media/MDOPowerBI1.png) | 503 |
-| [MDOLA1](Media/MDOLA1.png) | 503 |
-
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/RuleMigration/Rule Logic Mappings.md
 
 | URL | State |
 | --- | --- |
 | [Sample Parameter function.](../../../Downloads/Enriching%20Windows%20Security%20Events%20with%20Parameterized%20Function%20-%20Microsoft%20Tech%20Community) | 404 |
-| [](media/765de18fb4d82d41dcf5856b7cde57b4.png) | 503 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/RuleMigration/SPL to KQL.md
 
