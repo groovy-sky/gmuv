@@ -11,7 +11,6 @@
 
 | URL | State |
 | --- | --- |
-| [Azure Logic App pricing page](https://azure.microsoft.com/pricing/details/logic-apps/) | 503 |
 | [Cyble-Threat-Intel-App](./Images/Cyble-Threat-Intel-Logic-App.png) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/DataConnectors/Syslog-VMSS-AMA/README.md
@@ -881,6 +880,34 @@
 | [Workbook Overview](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/AzureSecurityBenchmark/Workbooks/Images/AzureSecurityBenchmark2.png?raw=true) | 404 |
 | [Workbook Overview](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/AzureSecurityBenchmark/Workbooks/Images/AzureSecurityBenchmark3.png?raw=true) | 404 |
 
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/BeyondTrustPMCloud/Data Connectors/README.md
+
+| URL | State |
+| --- | --- |
+| [`docs/`](docs/) | 404 |
+| [Deployment Guide](docs/DEPLOYMENT-WITH-CONFIGURABLE-PLANS.md) | 404 |
+| [Sentinel Setup Guide](docs/SENTINEL-SETUP-GUIDE.md) | 404 |
+| [How to Pause Ingestion](docs/HOW-TO-PAUSE-INGESTION.md) | 404 |
+| [How to Remove Deployment](docs/HOW-TO-REMOVE-DEPLOYMENT.md) | 404 |
+| [Where Do Logs Go](docs/WHERE-DO-LOGS-GO.md) | 404 |
+| [Sentinel Connector FAQ](docs/SENTINEL-CONNECTOR-FAQ.md) | 404 |
+| [Documentation Index](docs/README.md) | 404 |
+| [Where Do Logs Go](docs/WHERE-DO-LOGS-GO.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/BeyondTrustPMCloud/README.md
+
+| URL | State |
+| --- | --- |
+| [`docs/`](docs/) | 404 |
+| [Deployment Guide](docs/DEPLOYMENT-WITH-CONFIGURABLE-PLANS.md) | 404 |
+| [Sentinel Setup Guide](docs/SENTINEL-SETUP-GUIDE.md) | 404 |
+| [How to Pause Ingestion](docs/HOW-TO-PAUSE-INGESTION.md) | 404 |
+| [How to Remove Deployment](docs/HOW-TO-REMOVE-DEPLOYMENT.md) | 404 |
+| [Where Do Logs Go](docs/WHERE-DO-LOGS-GO.md) | 404 |
+| [Sentinel Connector FAQ](docs/SENTINEL-CONNECTOR-FAQ.md) | 404 |
+| [Documentation Index](docs/README.md) | 404 |
+| [Where Do Logs Go](docs/WHERE-DO-LOGS-GO.md) | 404 |
+
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/BitSight/Data Connectors/BitSightDataConnector/README.md
 
 | URL | State |
@@ -1031,6 +1058,7 @@
 | [Akamai SIEM Integration documentation](https://developer.akamai.com/tools/integrations/siem) | 403 |
 | [Aruba ClearPass](https://www.arubanetworks.com/products/security/network-access-control/secure-access/) | 403 |
 | [Bitglass](https://www.bitglass.com/) | 0 |
+| [Blackberry CylancePROTECT](https://www.blackberry.com/us/en/products/blackberry-protect) | 404 |
 | [Cisco ISE logging mechanism documentation](https://www.cisco.com/c/en/us/td/docs/security/ise/2-7/admin_guide/b_ise_27_admin_guide/b_ISE_admin_27_maintain_monitor.html#reference_BAFBA5FA046A45938810A5DF04C00591) | 404 |
 | [Cisco Stealthwatch events](https://www.cisco.com/c/dam/en/us/td/docs/security/stealthwatch/management_console/securit_events_alarm_categories/SW_7_2_1_Security_Events_and_Alarm_Categories_DV_1_0.pdf) | 404 |
 | [Cisco Stealthwatch documentation](https://www.cisco.com/c/dam/en/us/td/docs/security/stealthwatch/system_installation_configuration/SW_7_3_2_System_Configuration_Guide_DV_1_0.pdf) | 404 |
@@ -1038,6 +1066,7 @@
 | [Continuous Threat Detection](https://claroty.com/continuous-threat-detection/) | 404 |
 | [Digital Guardian Data Loss Prevention (DLP)](https://digitalguardian.com/platform-overview) | 403 |
 | [Investigate incidents with Microsoft Sentinel]( https://docs.microsoft.com/azure/sentinel/investigate-cases) | 0 |
+| [Juniper SRX](https://www.juniper.net/us/en/products-services/security/srx-series/) | 403 |
 | [McAfee ePO](https://www.mcafee.com/enterprise/en-us/products/epolicy-orchestrator.html) | 0 |
 | [documentation](https://docs.mcafee.com/bundle/epolicy-orchestrator-landing/page/GUID-0C40020F-5B7F-4549-B9CC-0E017BC8797F.html) | 0 |
 | [McAfee┬« Network Security Platform](https://www.mcafee.com/enterprise/en-us/products/network-security-platform.html) | 0 |
@@ -1050,8 +1079,6 @@
 | [account settings](https://community.riskiq.com/settings) | 0 |
 | [RSA┬« SecurID Authentication Manager events](https://community.rsa.com/t5/rsa-authentication-manager/rsa-authentication-manager-log-messages/ta-p/630160) | 401 |
 | [RSA┬« SecurID Authentication Manager documentation](https://community.rsa.com/t5/rsa-authentication-manager/getting-started-with-rsa-authentication-manager/ta-p/569582) | 401 |
-| [Sophos Endpoint Protection](https://www.sophos.com/en-us/products/endpoint-antivirus.aspx) | 404 |
-| [Sophos XG Firewall](https://www.sophos.com/products/next-gen-firewall.aspx) | 404 |
 | [Advanced Security Information Model (ASIM)](https:/aka.ms/AboutASIM) | 0 |
 | [Ubiquiti UniFi firewall, dns, ssh, AP events](https://help.ui.com/hc/en-us/articles/204959834-UniFi-How-to-View-Log-Files) | 403 |
 | [vCenter](https://www.vmware.com/in/products/vcenter-server.html) | 404 |
@@ -1064,7 +1091,6 @@
 | [SecurityScorecard](https://www.SecurityScorecard.com/) | 0 |
 | [SecurityScorecard](https://www.SecurityScorecard.com/) | 0 |
 | [SecurityScorecard](https://www.SecurityScorecard.com/) | 0 |
-| [Sophos Cloud Optix](https://www.sophos.com/products/cloud-optix.aspx) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/CybersecurityMaturityModelCertification(CMMC)2.0/readme.md
 
@@ -1374,11 +1400,7 @@
 
 | URL | State |
 | --- | --- |
-| [Miro company settings](https://miro.com/app/settings/) | 404 |
-| [Miro company settings](https://miro.com/app/settings/) | 404 |
 | [learn more about OAuth tokens](https://developers.miro.com/reference/authorization-flow-for-non-expiring-access-tokens) | 404 |
-| [Miro company settings](https://miro.com/app/settings/) | 404 |
-| [Miro company settings](https://miro.com/app/settings/) | 404 |
 | [https://help.miro.com](https://help.miro.com) | 403 |
 | [https://help.miro.com/hc/en-us/articles/360017571434-Audit-logs](https://help.miro.com/hc/en-us/articles/360017571434-Audit-logs) | 403 |
 | [https://help.miro.com/hc/en-us/articles/17774729839378-Content-Logs-overview](https://help.miro.com/hc/en-us/articles/17774729839378-Content-Logs-overview) | 403 |
@@ -2010,17 +2032,104 @@
 
 | URL | State |
 | --- | --- |
-| [View Content Items](https://github.com/oshezaf/sentinelninja/blob/main/Solutions%20Docs/content-index.md) | 404 |
+| [https://github.com/oshezaf/sentinelninja/tree/main/Solutions%20Docs/readme.md](https://github.com/oshezaf/sentinelninja/tree/main/Solutions%20Docs/readme.md) | 404 |
 
-* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/README.md
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/connectors/beyondtrustpmcloud.md
 
 | URL | State |
 | --- | --- |
-| [github.com/oshezaf/sentinelninja](https://github.com/oshezaf/sentinelninja/tree/main/docs) | 404 |
-| [View Solutions](https://github.com/oshezaf/sentinelninja/blob/main/docs/solutions-index.md) | 404 |
-| [View Connectors](https://github.com/oshezaf/sentinelninja/blob/main/docs/connectors-index.md) | 404 |
-| [View Tables](https://github.com/oshezaf/sentinelninja/blob/main/docs/tables-index.md) | 404 |
-| [View Content](https://github.com/oshezaf/sentinelninja/blob/main/docs/content/content-index.md) | 404 |
+| [`BeyondTrustPM_ActivityAudits_CL`](../tables-index.md#beyondtrustpm_activityaudits_cl) | 404 |
+| [`BeyondTrustPM_ClientEvents_CL`](../tables-index.md#beyondtrustpm_clientevents_cl) | 404 |
+| [BeyondTrustPMCloud](../solutions/beyondtrustpmcloud.md) | 404 |
+| [← Back to Connectors Index](../connectors-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/solutions/beyondtrustpmcloud.md
+
+| URL | State |
+| --- | --- |
+| [BeyondTrust PM Cloud](../connectors/beyondtrustpmcloud.md) | 404 |
+| [→ View full connector details](../connectors/beyondtrustpmcloud.md) | 404 |
+| [BeyondTrust PM Cloud](../connectors/beyondtrustpmcloud.md) | 404 |
+| [BeyondTrust PM Cloud](../connectors/beyondtrustpmcloud.md) | 404 |
+| [← Back to Solutions Index](../solutions-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/connector-docs/solutions/squadra-technologies-secrmm.md
+
+| URL | State |
+| --- | --- |
+| [Squadra Technologies secRMM](../connectors/squadratechnologiessecrmm.md) | 404 |
+| [→ View full connector details](../connectors/squadratechnologiessecrmm.md) | 404 |
+| [Squadra Technologies secRMM](../connectors/squadratechnologiessecrmm.md) | 404 |
+| [← Back to Solutions Index](../solutions-index.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/filter_fields_findings.md
+
+| URL | State |
+| --- | --- |
+| [Link](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/IronNet%20IronDefense/Data%20Connectors/IronNetIronDefense.json) | 404 |
+| [AcronisUnauthorizedOperationIsDetected.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Acronis%20Cyber%20Protect%20Cloud/Hunting%20Queries/AcronisUnauthorizedOperationIsDetected.yaml) | 404 |
+| [AcronisAgentFailedUpdatingMoreThanTwiceInADay.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Acronis%20Cyber%20Protect%20Cloud/Hunting%20Queries/AcronisAgentFailedUpdatingMoreThanTwiceInADay.yaml) | 404 |
+| [AcronisAgentsOfflineFor2DaysOrMore.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Acronis%20Cyber%20Protect%20Cloud/Hunting%20Queries/AcronisAgentsOfflineFor2DaysOrMore.yaml) | 404 |
+| [AcronisAuditLog.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Acronis%20Cyber%20Protect%20Cloud/Hunting%20Queries/AcronisAuditLog.yaml) | 404 |
+| [AcronisCloudConnectionErrors.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Acronis%20Cyber%20Protect%20Cloud/Hunting%20Queries/AcronisCloudConnectionErrors.yaml) | 404 |
+| [AcronisEndpointsAccessingMaliciousURLs.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Acronis%20Cyber%20Protect%20Cloud/Hunting%20Queries/AcronisEndpointsAccessingMaliciousURLs.yaml) | 404 |
+| [AcronisEndpointsInfectedByRansomware.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Acronis%20Cyber%20Protect%20Cloud/Hunting%20Queries/AcronisEndpointsInfectedByRansomware.yaml) | 404 |
+| [AcronisEndpointsWithBackupIssues.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Acronis%20Cyber%20Protect%20Cloud/Hunting%20Queries/AcronisEndpointsWithBackupIssues.yaml) | 404 |
+| [AcronisEndpointsWithEDRIncidents.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Acronis%20Cyber%20Protect%20Cloud/Hunting%20Queries/AcronisEndpointsWithEDRIncidents.yaml) | 404 |
+| [AcronisEndpointsWithHighFailedLoginAttempts.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Acronis%20Cyber%20Protect%20Cloud/Hunting%20Queries/AcronisEndpointsWithHighFailedLoginAttempts.yaml) | 404 |
+| [AcronisInboxesWithMaliciousContentDetected.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Acronis%20Cyber%20Protect%20Cloud/Hunting%20Queries/AcronisInboxesWithMaliciousContentDetected.yaml) | 404 |
+| [AcronisLoginFromAbnormalIPLowOccurrence.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Acronis%20Cyber%20Protect%20Cloud/Hunting%20Queries/AcronisLoginFromAbnormalIPLowOccurrence.yaml) | 404 |
+| [AcronisProtectionServiceErrors.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Acronis%20Cyber%20Protect%20Cloud/Hunting%20Queries/AcronisProtectionServiceErrors.yaml) | 404 |
+| [PaloAltoXDR.json](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Palo%20Alto%20-%20XDR%20%28Cortex%29/Workbooks/PaloAltoXDR.json) | 404 |
+| [SecurityEvent/password_never_expires.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Detections/Analytic%20Rules/SecurityEvent/password_never_expires.yaml) | 404 |
+| [SecurityEvent/AdminSDHolder_Modifications.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Detections/Analytic%20Rules/SecurityEvent/AdminSDHolder_Modifications.yaml) | 404 |
+| [AzureWAF/AppGwWAF-SQLiDetection.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Detections/Analytic%20Rules/AzureWAF/AppGwWAF-SQLiDetection.yaml) | 404 |
+| [AzureWAF/AppGwWAF-XSSDetection.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Detections/Analytic%20Rules/AzureWAF/AppGwWAF-XSSDetection.yaml) | 404 |
+| [MultipleDataSources/AuditPolicyManipulation_using_auditpol.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Detections/Analytic%20Rules/MultipleDataSources/AuditPolicyManipulation_using_auditpol.yaml) | 404 |
+| [SecurityEvent/COMEventSystemLoadingNewDLL.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Detections/Analytic%20Rules/SecurityEvent/COMEventSystemLoadingNewDLL.yaml) | 404 |
+| [MultipleDataSources/SigninFirewallCorrelation.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Detections/Analytic%20Rules/MultipleDataSources/SigninFirewallCorrelation.yaml) | 404 |
+| [SecurityEvent/DSRMAccountAbuse.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Detections/Analytic%20Rules/SecurityEvent/DSRMAccountAbuse.yaml) | 404 |
+| [MultipleDataSources/EmailAccessviaActiveSync.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Detections/Analytic%20Rules/MultipleDataSources/EmailAccessviaActiveSync.yaml) | 404 |
+| [MultipleDataSources/AADHostLoginCorrelation.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Detections/Analytic%20Rules/MultipleDataSources/AADHostLoginCorrelation.yaml) | 404 |
+| [MultipleDataSources/HostAADCorrelation.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Detections/Analytic%20Rules/MultipleDataSources/HostAADCorrelation.yaml) | 404 |
+| [SecurityEvent/FakeComputerAccountCreated.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Detections/Analytic%20Rules/SecurityEvent/FakeComputerAccountCreated.yaml) | 404 |
+| [CommonSecurityLog/Fortinet-NetworkBeaconPattern.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Detections/Analytic%20Rules/CommonSecurityLog/Fortinet-NetworkBeaconPattern.yaml) | 404 |
+| [MultipleDataSources/GainCodeExecutionADFSviaWMI.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Detections/Analytic%20Rules/MultipleDataSources/GainCodeExecutionADFSviaWMI.yaml) | 404 |
+| [SecurityEvent/GroupCreatedAddedToPrivlegeGroup_1h.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Detections/Analytic%20Rules/SecurityEvent/GroupCreatedAddedToPrivlegeGroup_1h.yaml) | 404 |
+| [MultipleDataSources/AAD_PAVPN_Correlation.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Detections/Analytic%20Rules/MultipleDataSources/AAD_PAVPN_Correlation.yaml) | 404 |
+| [MultipleDataSources/SucessfullSiginFromPhingLink.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Detections/Analytic%20Rules/MultipleDataSources/SucessfullSiginFromPhingLink.yaml) | 404 |
+| [SecurityEvent/AADHealthMonAgentRegKeyAccess.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Detections/Analytic%20Rules/SecurityEvent/AADHealthMonAgentRegKeyAccess.yaml) | 404 |
+| [SecurityEvent/AADHealthSvcAgentRegKeyAccess.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Detections/Analytic%20Rules/SecurityEvent/AADHealthSvcAgentRegKeyAccess.yaml) | 404 |
+| [SecurityEvent/AccessibilityFeaturesModification.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Detections/Analytic%20Rules/SecurityEvent/AccessibilityFeaturesModification.yaml) | 404 |
+| [MultipleDataSources/MultiplePasswordresetsbyUser.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Detections/Analytic%20Rules/MultipleDataSources/MultiplePasswordresetsbyUser.yaml) | 404 |
+| [MultipleDataSources/PhishinglinkExecutionObserved.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Detections/Analytic%20Rules/MultipleDataSources/PhishinglinkExecutionObserved.yaml) | 404 |
+| [SecurityEvent/PotenialResourceBasedConstrainedDelegationAbuse.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Detections/Analytic%20Rules/SecurityEvent/PotenialResourceBasedConstrainedDelegationAbuse.yaml) | 404 |
+| [SecurityEvent/PotentialBuildProcessCompromise.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Detections/Analytic%20Rules/SecurityEvent/PotentialBuildProcessCompromise.yaml) | 404 |
+| [SecurityEvent/PotentialKerberoast.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Detections/Analytic%20Rules/SecurityEvent/PotentialKerberoast.yaml) | 404 |
+| [SecurityEvent/RDP_Nesting.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Detections/Analytic%20Rules/SecurityEvent/RDP_Nesting.yaml) | 404 |
+| [MultipleDataSources/RiskyUserIn3Pnetworkactivity.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Detections/Analytic%20Rules/MultipleDataSources/RiskyUserIn3Pnetworkactivity.yaml) | 404 |
+| [MultipleDataSources/SecurityServiceRegistryACLModification.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Detections/Analytic%20Rules/MultipleDataSources/SecurityServiceRegistryACLModification.yaml) | 404 |
+| [SecurityEvent/UserPrincipalNameAssignedToUserAccount.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Detections/Analytic%20Rules/SecurityEvent/UserPrincipalNameAssignedToUserAccount.yaml) | 404 |
+| [SecurityEvent/SilkTyphoonNewUMServiceChildProcess.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Detections/Analytic%20Rules/SecurityEvent/SilkTyphoonNewUMServiceChildProcess.yaml) | 404 |
+| [SecurityEvent/SilkTyphoonSuspiciousUMServiceError.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Detections/Analytic%20Rules/SecurityEvent/SilkTyphoonSuspiciousUMServiceError.yaml) | 404 |
+| [SecurityEvent/SolorigateNamedPipe.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Detections/Analytic%20Rules/SecurityEvent/SolorigateNamedPipe.yaml) | 404 |
+| [SecurityEvent/UserAccountAddedToPrivlegeGroup_1h.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Detections/Analytic%20Rules/SecurityEvent/UserAccountAddedToPrivlegeGroup_1h.yaml) | 404 |
+| [SecurityEvent/UserAccountCreatedDeleted_10m.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Detections/Analytic%20Rules/SecurityEvent/UserAccountCreatedDeleted_10m.yaml) | 404 |
+| [SecurityEvent/UserAccountEnabledDisabled_10m.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Detections/Analytic%20Rules/SecurityEvent/UserAccountEnabledDisabled_10m.yaml) | 404 |
+| [CommonSecurityLog/Wazuh-Large_Number_of_Web_errors_from_an_IP.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Detections/Analytic%20Rules/CommonSecurityLog/Wazuh-Large_Number_of_Web_errors_from_an_IP.yaml) | 404 |
+| [AzureDiagnostics/CriticalPortsOpened.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Hunting%20Queries/Hunting%20Queries/AzureDiagnostics/CriticalPortsOpened.yaml) | 404 |
+| [Syslog/disabled_account_squid_usage.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Hunting%20Queries/Hunting%20Queries/Syslog/disabled_account_squid_usage.yaml) | 404 |
+| [SecurityEvent/ExternalIPaddressinCommandLine.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Hunting%20Queries/Hunting%20Queries/SecurityEvent/ExternalIPaddressinCommandLine.yaml) | 404 |
+| [MultipleDataSources/LogonwithExpiredAccount.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Hunting%20Queries/Hunting%20Queries/MultipleDataSources/LogonwithExpiredAccount.yaml) | 404 |
+| [MultipleDataSources/RareDNSLookupWithDataTransfer.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Hunting%20Queries/Hunting%20Queries/MultipleDataSources/RareDNSLookupWithDataTransfer.yaml) | 404 |
+| [Network/FortinetFortigateNetworkSessionIPSummary.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Summary%20rules/Summary%20Rule/Network/FortinetFortigateNetworkSessionIPSummary.yaml) | 404 |
+| [WebSession/FortinetFortigateWebSessionIPSummary.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Summary%20rules/Summary%20Rule/WebSession/FortinetFortigateWebSessionIPSummary.yaml) | 404 |
+| [Network/PaloAltoPANOSNetworkSessionIPSummary.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Summary%20rules/Summary%20Rule/Network/PaloAltoPANOSNetworkSessionIPSummary.yaml) | 404 |
+| [WebSession/PaloAltoPANOSWebSessionIPSummary.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Summary%20rules/Summary%20Rule/WebSession/PaloAltoPANOSWebSessionIPSummary.yaml) | 404 |
+| [DNS/ZscalarDNSEventsIPSummary.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Summary%20rules/Summary%20Rule/DNS/ZscalarDNSEventsIPSummary.yaml) | 404 |
+| [Network/ZscalarNetworkSessionIPSummary.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Summary%20rules/Summary%20Rule/Network/ZscalarNetworkSessionIPSummary.yaml) | 404 |
+| [WebSession/ZscalarWebSessionIPSummary.yaml](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Summary%20rules/Summary%20Rule/WebSession/ZscalarWebSessionIPSummary.yaml) | 404 |
+| [VeeamSecurityActivities.json](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/Veeam/Workbooks/VeeamSecurityActivities.json) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/script-docs/collect_table_info.md
 
@@ -2035,10 +2144,19 @@
 | [Solutions Index](../connector-docs/solutions-index.md) | 404 |
 | [Connectors Index](../connector-docs/connectors-index.md) | 404 |
 | [Tables Index](../connector-docs/tables-index.md) | 404 |
+| [Content Index](../connector-docs/content/content-index.md) | 404 |
 | [`solutions/`](../connector-docs/solutions/) | 404 |
 | [`connectors/`](../connector-docs/connectors/) | 404 |
+| [`tables/`](../connector-docs/tables/) | 404 |
+| [`content/`](../connector-docs/content/) | 404 |
 | [connector-docs README](../connector-docs/README.md) | 404 |
 | [main README](../README.md) | 404 |
+
+* https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Solutions Analyzer/solutions_with_connectors_report.md
+
+| URL | State |
+| --- | --- |
+| [NC Protect Data Connector](https://github.com/Azure/Azure-Sentinel/blob/master/Solutions/archTIS) | 404 |
 
 * https://github.com/Azure/Azure-Sentinel/blob/master/Tools/Transformations-Library/Filtering/README.md
 
