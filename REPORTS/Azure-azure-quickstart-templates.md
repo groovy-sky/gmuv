@@ -407,6 +407,12 @@
 | --- | --- |
 | [azure.com](https://azure.microsoft.com/documentation/templates/) | 404 |
 
+* https://github.com/Azure/azure-quickstart-templates/blob/master/demos/aks-nat-agic/README.md
+
+| URL | State |
+| --- | --- |
+| [Static VIP](https://docs.microsoft.com/azure/application-gateway/features#static-vip) | 502 |
+
 * https://github.com/Azure/azure-quickstart-templates/blob/master/demos/alsid-syslog-proxy/README.md
 
 | URL | State |
@@ -1380,12 +1386,6 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 | URL | State |
 | --- | --- |
 | [the documentation](https://docs.microsoft.com/azure/logic-apps/connect-virtual-network-vnet-isolated-environment#check-network-ports) | 404 |
-
-* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.logic/logic-app-as2-send-receive/README.md
-
-| URL | State |
-| --- | --- |
-| [Azure Logic Apps pricing](https://azure.microsoft.com/pricing/details/logic-apps/) | 0 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.logic/logic-app-b2b-disaster-recovery-replication/README.md
 
