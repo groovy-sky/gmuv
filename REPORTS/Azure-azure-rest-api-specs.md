@@ -199,10 +199,30 @@
 | [here]( https://github.com/Azure/autorest/blob/master/docs/extensions/readme.md#x-ms-mutability) | 0 |
 | [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
 | [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
+| [x-ms-pageable extension](https://github.com/Azure/autorest/blob/master/docs/extensions/readme.md#x-ms-pageable) | 429 |
+| [x-ms-pageable](https://github.com/Azure/autorest/blob/master/docs/extensions/readme.md#x-ms-pageable) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [SDK](#sdk-violations) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [x-ms-pageable](https://github.com/Azure/autorest/blob/master/docs/extensions/readme.md#x-ms-pageable) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Automated Rules](#automated-rules) | 429 |
+| [Errors](#sdk-errors) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
+| [Index](#index) | 429 |
+| [ARM](#arm-violations) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [Warnings](#sdk-warnings) | 429 |
 | [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
 | [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
+| [Index](#index) | 429 |
+| [Error vs. Warning](#error-vs-warning) | 429 |
+| [Warnings](#arm-warnings) | 429 |
+| [Errors](#sdk-errors) | 429 |
 | [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
 | [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
+| [Errors](#arm-errors) | 429 |
 | [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
 | [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
 | [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md) | 404 |
@@ -216,6 +236,7 @@
 | [ARM guidelines](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/resource-api-reference.md#get-resource) | 404 |
 | [Retirement-of-Previews](https://dev.azure.com/msazure/AzureWiki/_wiki/wikis/AzureWiki.wiki/37683/Retirement-of-Previews) | 203 |
 | [Azure RPC](https://github.com/Azure/azure-resource-manager-rpc/blob/master/v1.0/Addendum.md#provisioningstate-property) | 404 |
+| [SDK](#sdk-violations) | 429 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/documentation/openapi-authoring-manual-guidelines.md
 
@@ -358,12 +379,6 @@
 | [readme.csharp.md](./readme.csharp.md) | 404 |
 
 * https://github.com/Azure/azure-rest-api-specs/blob/main/specification/azuredata/resource-manager/Microsoft.AzureData/AzureData/readme.md
-
-| URL | State |
-| --- | --- |
-| [readme.csharp.md](./readme.csharp.md) | 404 |
-
-* https://github.com/Azure/azure-rest-api-specs/blob/main/specification/azurestackhci/resource-manager/readme.md
 
 | URL | State |
 | --- | --- |
