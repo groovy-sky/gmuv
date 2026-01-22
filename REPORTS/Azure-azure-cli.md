@@ -51,6 +51,8 @@
 
 | URL | State |
 | --- | --- |
+| [Example](#ExamplesDevicesScanForUpdates) | 429 |
+| [az databoxedge device show-update-summary](#DevicesGetUpdateSummary) | 429 |
 | [Parameters](#ParametersDevicesGetUpdateSummary) | 429 |
 | [Example](#ExamplesDevicesGetUpdateSummary) | 429 |
 | [az databoxedge order list](#OrdersListByDataBoxEdgeDevice) | 429 |
