@@ -407,12 +407,6 @@
 | --- | --- |
 | [azure.com](https://azure.microsoft.com/documentation/templates/) | 404 |
 
-* https://github.com/Azure/azure-quickstart-templates/blob/master/demos/aks-nat-agic/README.md
-
-| URL | State |
-| --- | --- |
-| [Static VIP](https://docs.microsoft.com/azure/application-gateway/features#static-vip) | 502 |
-
 * https://github.com/Azure/azure-quickstart-templates/blob/master/demos/alsid-syslog-proxy/README.md
 
 | URL | State |
