@@ -262,6 +262,12 @@
 | --- | --- |
 | [Running FullStack](https://openedx.atlassian.net/wiki/display/OpenOPS/Running+Fullstack) | 404 |
 
+* https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/phabricator/phabricator-on-ubuntu/README.md
+
+| URL | State |
+| --- | --- |
+| [Phabricator](http://phabricator.org/) | 500 |
+
 * https://github.com/Azure/azure-quickstart-templates/blob/master/application-workloads/postgre/postgresql-standalone-server-ubuntu/GettingStarted.md
 
 | URL | State |
@@ -1048,6 +1054,12 @@
 | [here](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-ps-sql-keyvault/) | 404 |
 | [here](https://azure.microsoft.com/documentation/articles/virtual-machines-windows-sql-server-agent-extension/) | 404 |
 
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.compute/vm-sshkey/README.md
+
+| URL | State |
+| --- | --- |
+| [Azure Windows Virtual Machines documentation](https://docs.microsoft.com/azure/virtual-machines/windows/) | 502 |
+
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.compute/vm-trustedlaunch-linux/README.md
 
 | URL | State |
@@ -1094,6 +1106,12 @@ Key Vault](https://azure.microsoft.com/services/key-vault/) | 0 |
 | URL | State |
 | --- | --- |
 | [Quickstart: Create an Confidential Ledger with an ARM template](/azure/confidential-ledger/quickstart-template) | 404 |
+
+* https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.costmanagement/finops-hub/README.md
+
+| URL | State |
+| --- | --- |
+| [available Power BI reports](https://aka.ms/finops/hubs/reports) | 503 |
 
 * https://github.com/Azure/azure-quickstart-templates/blob/master/quickstarts/microsoft.customproviders/custom-rp-existing-resource-deployments/README.md
 
