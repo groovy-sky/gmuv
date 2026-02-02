@@ -11,10 +11,10 @@ jobs:
   run-gmuv:
     runs-on: ubuntu-latest
     env:
-      account: Azure
+      account: MicrosoftDocs
     strategy:
       matrix:
-        repos: [azure-rest-api-specs,azure-cli,Enterprise-Scale,ShieldGuard,azure-quickstart-templates,Azure-Sentinel,MachineLearningNotebooks]
+        repos: [architecture-center,WSL,azure-docs]
     permissions:
       contents: write
       pull-requests: write
