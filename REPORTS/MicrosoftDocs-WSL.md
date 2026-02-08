@@ -71,25 +71,12 @@
 | --- | --- |
 | [Update to the latest Windows version](ms-settings:windowsupdate) | 0 |
 | [Microsoft Store](ms-windows-store://collection?CollectionId=LinuxDistros) | 0 |
-| [Ubuntu 18.04.6 LTS](https://apps.microsoft.com/detail/9PNKSF5ZN4SW) | 403 |
-| [Ubuntu 18.04 LTS](https://apps.microsoft.com/detail/9N9TNGVNDL3Q) | 403 |
-| [Ubuntu (Preview)](https://apps.microsoft.com/detail/9P7BDVKVNXZ6) | 403 |
-| [Debian](https://apps.microsoft.com/detail/9MSVKQC78PK6) | 403 |
-| [Arch WSL](https://apps.microsoft.com/detail/9MZNMNKSM73X) | 403 |
-| [Fedora WSL](https://apps.microsoft.com/detail/9NPCP8DRCHSN) | 403 |
 | [deepin WSL](https://apps.microsoft.com/detail/9P6HT7L0QGRH) | 403 |
-| [Alpine WSL](https://apps.microsoft.com/detail/9P804CRF0395) | 403 |
-| [openEuler 24.09](https://apps.microsoft.com/detail/9P6NZFGV79KJ) | 403 |
 | [openEuler 24.03](https://apps.microsoft.com/detail/9PKZ8GN18L5C) | 403 |
-| [openEuler 23.09](https://apps.microsoft.com/detail/9N8XNFG3J1HT) | 403 |
-| [openEuler 23.03](https://apps.microsoft.com/detail/9NW527WWDBCZ) | 403 |
-| [openEuler 22.09](https://apps.microsoft.com/detail/9MWVQSNTMS7G) | 403 |
 | [openEuler 22.03](https://apps.microsoft.com/detail/9P9RSPJDKX9G) | 403 |
-| [openEuler 20.03](https://apps.microsoft.com/detail/9NWB78L1MPS2) | 403 |
 | [openSUSE Tumbleweed](https://apps.microsoft.com/detail/9MSSK2ZXXN11) | 403 |
 | [openSUSE Leap 15.6](https://apps.microsoft.com/detail/9NJGLDP5G04B) | 403 |
 | [openSUSE Leap 15.5](https://apps.microsoft.com/detail/9NJGLDP5G04B) | 403 |
-| [openSUSE-Leap-15-1](https://apps.microsoft.com/detail/9NJFZK00FGKV) | 403 |
 | [SUSE Linux Enterprise 15 SP6](https://apps.microsoft.com/detail/9N738KZGNB91) | 403 |
 | [SUSE Linux Enterprise 15 SP5](https://apps.microsoft.com/detail/9N648JDGXK2D) | 403 |
 | [SUSE Linux Enterprise Server 15 SP1](https://apps.microsoft.com/detail/9PN498VPMF3Z) | 403 |
@@ -117,7 +104,6 @@
 | [Pengwin](https://apps.microsoft.com/detail/9NV1GV1PXZ6P) | 403 |
 | [Pengwin Enterprise 9](https://apps.microsoft.com/detail/9P70GX2HQNHN) | 403 |
 | [Pengwin Enterprise 8](https://apps.microsoft.com/detail/9N2XZFWMRRQW) | 403 |
-| [Pengwin Enterprise 7](https://apps.microsoft.com/detail/9N8LP0X93VCP) | 403 |
 | [RLU 9](https://apps.microsoft.com/detail/9NQ0DQKJG91N) | 403 |
 | [Rocky 8 RC Unofficial](https://apps.microsoft.com/detail/9N6P6053RS25) | 403 |
 | [Swabbie](https://apps.microsoft.com/detail/9PLZ9KQTM5FN) | 403 |
@@ -334,7 +320,6 @@
 | [Install a Linux distribution using WSL and create a Linux user name and password](../install.md) | 404 |
 | [Microsoft SQL Server](/sql) | 404 |
 | [enable systemd support](../systemd.md#how-to-enable-systemd) | 404 |
-| [Install MongoDB Community Edition on Linux](https://www.mongodb.com/docs/manual/administration/install-on-linux/) | 503 |
 | [enable systemd support](../systemd.md#how-to-enable-systemd) | 404 |
 | [Quickstart: Install SQL Server and create a database on Windows Subsystem for Linux (WSL 2)](/sql/linux/quickstart-install-connect-wsl-2) | 404 |
 | [Set your distribution version to WSL 1 or WSL 2](../basic-commands.md) | 404 |
