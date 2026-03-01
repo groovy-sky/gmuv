@@ -72,7 +72,6 @@
 | [Update to the latest Windows version](ms-settings:windowsupdate) | 0 |
 | [Microsoft Store](ms-windows-store://collection?CollectionId=LinuxDistros) | 0 |
 | [openEuler 24.03](https://apps.microsoft.com/detail/9PKZ8GN18L5C) | 403 |
-| [openEuler 23.09](https://apps.microsoft.com/detail/9N8XNFG3J1HT) | 403 |
 | [openEuler 23.03](https://apps.microsoft.com/detail/9NW527WWDBCZ) | 403 |
 | [openEuler 22.09](https://apps.microsoft.com/detail/9MWVQSNTMS7G) | 403 |
 | [openEuler 22.03](https://apps.microsoft.com/detail/9P9RSPJDKX9G) | 403 |
@@ -87,10 +86,8 @@
 | [SUSE Linux Enterprise Server 12 SP5](https://apps.microsoft.com/detail/9MZ3D1TRP8T1) | 403 |
 | [Pistachio Linux](https://apps.microsoft.com/detail/9P41G2MV9CQ3) | 403 |
 | [Kali Linux](https://apps.microsoft.com/detail/9PKR34TNCV07) | 403 |
-| [Oracle Linux 9.4](https://apps.microsoft.com/detail/9PMC1FJR3JF3) | 403 |
 | [Oracle Linux 9.3](https://apps.microsoft.com/detail/9N5MGJ01CVXC) | 403 |
 | [Oracle Linux 9.2](https://apps.microsoft.com/detail/9P068SN43NBQ) | 403 |
-| [Oracle Linux 9.1](https://apps.microsoft.com/detail/9N6CN5STZRX6) | 403 |
 | [Oracle Linux 9](https://apps.microsoft.com/detail/9MXQ65HLMC27) | 403 |
 | [Oracle Linux 8.10](https://apps.microsoft.com/detail/9MVFWTCT78ZN) | 403 |
 | [Oracle Linux 8.9](https://apps.microsoft.com/detail/9PP4JL775K1G) | 403 |
@@ -230,13 +227,12 @@
 | URL | State |
 | --- | --- |
 | [download the latest version from the Microsoft Store](https://aka.ms/wslstorepage) | 0 |
-| [microk8s](https://microk8s.io/) | 504 |
 
 * https://github.com/MicrosoftDocs/WSL/blob/main/WSL/troubleshooting-guide.md
 
 | URL | State |
 | --- | --- |
-| [WinPerfAnalyzer](winperfanalyzer1.png) | 502 |
+| [WinPerfAnalyzer](winperfanalyzer1.png) | 404 |
 
 * https://github.com/MicrosoftDocs/WSL/blob/main/WSL/troubleshooting.md
 
