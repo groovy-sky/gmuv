@@ -71,23 +71,24 @@
 | --- | --- |
 | [Update to the latest Windows version](ms-settings:windowsupdate) | 0 |
 | [Microsoft Store](ms-windows-store://collection?CollectionId=LinuxDistros) | 0 |
-| [openEuler 24.03](https://apps.microsoft.com/detail/9PKZ8GN18L5C) | 403 |
-| [openEuler 23.03](https://apps.microsoft.com/detail/9NW527WWDBCZ) | 403 |
+| [Fedora WSL](https://apps.microsoft.com/detail/9NPCP8DRCHSN) | 403 |
+| [openEuler 24.09](https://apps.microsoft.com/detail/9P6NZFGV79KJ) | 403 |
+| [openEuler 23.09](https://apps.microsoft.com/detail/9N8XNFG3J1HT) | 403 |
 | [openEuler 22.09](https://apps.microsoft.com/detail/9MWVQSNTMS7G) | 403 |
 | [openEuler 22.03](https://apps.microsoft.com/detail/9P9RSPJDKX9G) | 403 |
 | [openEuler 20.03](https://apps.microsoft.com/detail/9NWB78L1MPS2) | 403 |
-| [openSUSE Tumbleweed](https://apps.microsoft.com/detail/9MSSK2ZXXN11) | 403 |
 | [openSUSE Leap 15.6](https://apps.microsoft.com/detail/9NJGLDP5G04B) | 403 |
 | [openSUSE Leap 15.5](https://apps.microsoft.com/detail/9NJGLDP5G04B) | 403 |
 | [openSUSE-Leap-15-1](https://apps.microsoft.com/detail/9NJFZK00FGKV) | 403 |
 | [SUSE Linux Enterprise 15 SP6](https://apps.microsoft.com/detail/9N738KZGNB91) | 403 |
 | [SUSE Linux Enterprise 15 SP5](https://apps.microsoft.com/detail/9N648JDGXK2D) | 403 |
-| [SUSE Linux Enterprise Server 15 SP1](https://apps.microsoft.com/detail/9PN498VPMF3Z) | 403 |
 | [SUSE Linux Enterprise Server 12 SP5](https://apps.microsoft.com/detail/9MZ3D1TRP8T1) | 403 |
 | [Pistachio Linux](https://apps.microsoft.com/detail/9P41G2MV9CQ3) | 403 |
 | [Kali Linux](https://apps.microsoft.com/detail/9PKR34TNCV07) | 403 |
+| [Oracle Linux 9.4](https://apps.microsoft.com/detail/9PMC1FJR3JF3) | 403 |
 | [Oracle Linux 9.3](https://apps.microsoft.com/detail/9N5MGJ01CVXC) | 403 |
 | [Oracle Linux 9.2](https://apps.microsoft.com/detail/9P068SN43NBQ) | 403 |
+| [Oracle Linux 9.1](https://apps.microsoft.com/detail/9N6CN5STZRX6) | 403 |
 | [Oracle Linux 9](https://apps.microsoft.com/detail/9MXQ65HLMC27) | 403 |
 | [Oracle Linux 8.10](https://apps.microsoft.com/detail/9MVFWTCT78ZN) | 403 |
 | [Oracle Linux 8.9](https://apps.microsoft.com/detail/9PP4JL775K1G) | 403 |
@@ -263,6 +264,7 @@
 | [GPU accelerated ML training](/windows/ai/directml/gpu-accelerated-training) | 404 |
 | [Install WSL and set up a username and password for your Linux distribution](../install.md) | 404 |
 | [AMD](https://www.amd.com/support/download/drivers.html) | 0 |
+| [Intel](https://downloadcenter.intel.com) | 0 |
 | [TensorFlow-DirectML](/windows/ai/directml/gpu-tensorflow-wsl#install-the-tensorflow-with-directml-package) | 404 |
 | [PyTorch-DirectML](/windows/ai/directml/gpu-pytorch-wsl#install-the-pytorch-with-directml-package) | 404 |
 | [Guidance for setting up TensorFlow with DirectML in WSL](/windows/ai/directml/gpu-tensorflow-wsl) | 404 |
@@ -273,6 +275,7 @@
 | URL | State |
 | --- | --- |
 | [Screenshot of Linux and Windows apps open on a desktop](../media/wsl-gui-screenshot.png) | 404 |
+| [**Intel** GPU driver](https://downloadcenter.intel.com) | 0 |
 | [**AMD** GPU driver](https://www.amd.com/support/download/drivers.html) | 0 |
 | [install WSL](../install.md) | 404 |
 | [how to change your distribution from WSL 1 to WSL 2](../basic-commands.md#set-wsl-version-to-1-or-2) | 404 |
