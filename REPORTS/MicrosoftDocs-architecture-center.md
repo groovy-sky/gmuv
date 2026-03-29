@@ -818,7 +818,6 @@
 | [Defender For DevOps](/azure/defender-for-cloud/defender-for-devops-introduction) | 404 |
 | [Machine Learning metrics](/azure/azure-monitor/essentials/monitor-azure-resource) | 404 |
 | [online endpoint traffic logs](/azure/machine-learning/monitor-azure-machine-learning-reference#amlonlineendpointtrafficlog-table-preview) | 404 |
-| [Darren Turchiarelli](https://www.linkedin.com/in/darren-turchiarelli/) | 999 |
 | [Leo Kozhushnik](https://www.linkedin.com/in/leo-kozhushnik-ab16707/) | 999 |
 | [Daniel Crawford](https://www.linkedin.com/in/daniel-crawford-b661373/) | 999 |
 | [What is Azure Pipelines?](/azure/devops/pipelines/get-started/what-is-azure-pipelines) | 404 |
@@ -1342,7 +1341,6 @@
 | [Azure Content Understanding](/azure/ai-services/content-understanding/overview) | 404 |
 | [Custom analyzer](/azure/ai-services/content-understanding/how-to/customize-analyzer-content-understanding-studio) | 404 |
 | [Foundry](/azure/ai-foundry/what-is-foundry) | 404 |
-| [Python on Azure](https://azure.microsoft.com/develop/python/) | 0 |
 | [Azure for Python developers](/azure/python/) | 404 |
 | [Machine Learning SDK for Python](/python/api/overview/azure/ml/?view=azure-ml-py&preserve-view=true) | 404 |
 | [Introduction to machine learning with Python and notebooks](/training/paths/intro-to-ml-with-python/) | 404 |
@@ -1398,6 +1396,71 @@
 | [Ingestion Client with Foundry Tools](/azure/ai-services/speech-service/ingestion-client) | 404 |
 | [Post-call transcription and analytics](/azure/ai-services/speech-service/call-center-quickstart) | 404 |
 | [Create custom language and acoustic models](/azure/ai-services/speech-service/how-to-custom-speech-train-model) | 404 |
+
+* https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/analytics/analytics-get-started.md
+
+| URL | State |
+| --- | --- |
+| [big data architecture](../guide/architecture-styles/big-data.md) | 404 |
+| [IoT architecture](../guide/architecture-styles/big-data.md#iot-architecture) | 404 |
+| [Analytics and reporting](../data-guide/technology-choices/analysis-visualizations-reporting.md) | 404 |
+| [Batch processing](../data-guide/technology-choices/batch-processing.md) | 404 |
+| [Stream processing](../data-guide/technology-choices/stream-processing.md) | 404 |
+| [Choose an analytical data store](../data-guide/technology-choices/analytical-data-stores.md) | 404 |
+| [Choose an analytical data store in Microsoft Fabric](../data-guide/technology-choices/fabric-analytical-data-stores.md) | 404 |
+| [Overview](../data-guide/disaster-recovery/dr-for-azure-data-platform-overview.md) | 404 |
+| [Architecture](../data-guide/disaster-recovery/dr-for-azure-data-platform-architecture.md) | 404 |
+| [Scenario details](../data-guide/disaster-recovery/dr-for-azure-data-platform-scenario-details.md) | 404 |
+| [Recommendations](../data-guide/disaster-recovery/dr-for-azure-data-platform-recommendations.md) | 404 |
+| [Analytics end-to-end with Microsoft Fabric](../example-scenario/dataplate2e/data-platform-end-to-end.yml) | 404 |
+| [Data warehousing and analytics](../example-scenario/data/data-warehouse.yml) | 404 |
+| [Use Microsoft Fabric to design an enterprise BI solution](../example-scenario/analytics/enterprise-bi-microsoft-fabric.yml) | 404 |
+| [Near real-time lakehouse data processing](../example-scenario/data/real-time-lakehouse-data-processing.yml) | 404 |
+| [Real-time sync of MongoDB Atlas to Azure Synapse Analytics](../example-scenario/analytics/sync-mongodb-atlas-azure-synapse-analytics.yml) | 404 |
+| [Stream processing with Azure Databricks](../reference-architectures/data/stream-processing-databricks.yml) | 404 |
+| [Stream processing with Azure Stream Analytics](../reference-architectures/data/stream-processing-stream-analytics.yml) | 404 |
+| [Modern data warehouse for small and medium business](../example-scenario/data/small-medium-data-warehouse.yml) | 404 |
+| [Ingestion, ETL, and stream processing pipelines with Azure Databricks](../solution-ideas/articles/ingest-etl-stream-with-adb.yml) | 404 |
+| [Modern analytics architecture with Azure Databricks](../solution-ideas/articles/azure-databricks-modern-analytics-architecture.yml) | 404 |
+| [Modern data platform for small and medium businesses](../solution-ideas/articles/small-medium-modern-data-platform.yml) | 404 |
+| [Real-time analytics with Azure Data Explorer](../solution-ideas/articles/analytics-service-bus.yml) | 404 |
+| [Microsoft Learn](/training/?WT.mc_id=learnaka) | 404 |
+| [Browse Azure data topics](/training/browse/?products=azure&filter-products=data&terms=data) | 404 |
+| [Introduction to Microsoft Azure Data core data concepts](/training/paths/azure-data-fundamentals-explore-core-data-concepts/) | 404 |
+| [Get started with Microsoft Fabric](/training/paths/get-started-fabric/) | 404 |
+| [Get started with Microsoft data analytics](/training/paths/data-analytics-microsoft) | 404 |
+| [Implement a Data Analytics Solution with Azure Databricks](/training/paths/data-engineer-azure-databricks/) | 404 |
+| [Build machine learning solutions using Azure Databricks](/training/paths/perform-data-science-azure-databricks/) | 404 |
+| [Cloud Adoption Framework](/azure/cloud-adoption-framework/) | 404 |
+| [Cloud-scale analytics](/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics) | 404 |
+| [Azure Well-Architected Framework](/azure/well-architected/) | 404 |
+| [Azure Well-Architected Framework for data workloads](/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/well-architected-framework) | 404 |
+| [Choosing a data store](../data-guide/technology-choices/analytical-data-stores.md) | 404 |
+| [data analytics technology](../data-guide/technology-choices/analysis-visualizations-reporting.md) | 404 |
+| [Databases architecture design](../databases/index.yml) | 404 |
+| [information security](/azure/architecture/framework/security/overview) | 404 |
+| [Governance policies](/azure/architecture/framework/security/design-governance) | 404 |
+| [Identity and access management](/azure/architecture/framework/security/design-identity) | 404 |
+| [Network security controls](/azure/architecture/framework/security/design-network) | 404 |
+| [Data protection](/azure/architecture/framework/security/design-storage) | 404 |
+| [big data best practices](../guide/architecture-styles/big-data.md#best-practices) | 404 |
+| [BI solution architecture in the Center of Excellence](/power-bi/guidance/center-of-excellence-business-intelligence-solution-architecture) | 404 |
+| [What's new in Microsoft Fabric](/fabric/fundamentals/whats-new?) | 404 |
+| [Azure Databricks release notes](/azure/databricks/release-notes/) | 404 |
+| [What's new in Azure Data Explorer](/azure/data-explorer/whats-new) | 404 |
+| [What's new in Power BI](/power-bi/fundamentals/desktop-latest-update) | 404 |
+| [choose a hybrid network architecture](../reference-architectures/hybrid-networking/index.yml) | 404 |
+| [Modernize mainframe and midrange data](/azure/architecture/example-scenario/mainframe/modernize-mainframe-data-to-azure) | 404 |
+| [Unified hybrid and multicloud operations](../databases/guide/hybrid-on-premises-and-cloud.md) | 404 |
+| [Real-time analytics on big data architecture](../solution-ideas/articles/real-time-analytics.yml) | 404 |
+| [IoT analytics with Azure Data Explorer](../solution-ideas/articles/iot-azure-data-explorer.yml) | 404 |
+| [Stream processing with Azure Stream Analytics](../reference-architectures/data/stream-processing-stream-analytics.yml) | 404 |
+| [Create a modern analytics architecture by using Azure Databricks](../solution-ideas/articles/azure-databricks-modern-analytics-architecture.yml) | 404 |
+| [Browse more analytics examples in the Azure Architecture Center](../browse/index.yml?azure_categories=analytics) | 404 |
+| [Analytics and big data](../aws-professional/databases.md#analytics-and-big-data) | 404 |
+| [Database technologies on Azure and AWS](../aws-professional/databases.md) | 404 |
+| [Big data and analytics](../gcp-professional/services.md#big-data-and-analytics) | 404 |
+| [Google Cloud to Azure services comparison](../gcp-professional/services.md) | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/analytics/architecture/fabric-deployment-patterns-content.md
 
@@ -1824,7 +1887,6 @@
 | --- | --- |
 | [control plane](/azure/aks/concepts-clusters-workloads#control-plane) | 404 |
 | [node in a node pool](/azure/aks/concepts-clusters-workloads#nodes) | 404 |
-| [Kata Containers](https://katacontainers.io/) | 0 |
 | [nodes](/azure/aks/concepts-clusters-workloads#nodes) | 404 |
 | [system node pool](/azure/aks/use-system-pools) | 404 |
 | [noisy neighbor problem](/azure/architecture/antipatterns/noisy-neighbor/noisy-neighbor) | 404 |
@@ -2256,7 +2318,7 @@
 | [Chatty I/O](../antipatterns/chatty-io/index.md) | 404 |
 | [Extraneous Fetching](../antipatterns/extraneous-fetching/index.md) | 404 |
 | [Provide asynchronous support for long-running requests](/azure/architecture/best-practices/api-implementation#provide-asynchronous-support-for-long-running-requests) | 404 |
-| [Asynchronous Request-Reply pattern](../patterns/asynchronous-request-reply.md) | 502 |
+| [Asynchronous Request-Reply pattern](../patterns/asynchronous-request-reply.md) | 404 |
 | [Map requests to tenants in a multitenant solution](/azure/architecture/guide/multitenant/considerations/map-requests) | 404 |
 | [tenant-specific domains](/azure/architecture/guide/multitenant/considerations/domain-names) | 404 |
 | [Preserve the hostname](/azure/architecture/best-practices/host-name-preservation) | 404 |
@@ -2368,20 +2430,24 @@
 | --- | --- |
 | [Circuit-Breaker pattern](../patterns/circuit-breaker.md) | 404 |
 | [Cache-aside pattern](../patterns/cache-aside.yml) | 404 |
-| [Data partitioning guidance](/previous-versions/msp-n-p/dn589795(v=pandp.10) | 404 |
-| [Data consistency primer](/previous-versions/msp-n-p/dn589800(v=pandp.10) | 404 |
-| [Azure Cache for Redis](/azure/azure-cache-for-redis/) | 404 |
-| [Cache-aside pattern](../patterns/cache-aside.yml) | 404 |
-| [ASP.NET session state provider for Azure Cache for Redis](/azure/redis/aspnet-session-state-provider) | 404 |
-| [ASP.NET output cache provider for Azure Cache for Redis](/azure/redis/aspnet-output-cache-provider) | 404 |
-| [Running Redis on a CentOS Linux VM in Azure](/archive/blogs/tconte/running-redis-on-a-centos-linux-vm-in-windows-azure) | 404 |
 | [Sharding pattern](../patterns/sharding.yml) | 404 |
-| [Task-based Asynchronous pattern](/dotnet/standard/asynchronous-programming-patterns/task-based-asynchronous-pattern-tap) | 404 |
-| [Azure Cache for Redis documentation](/azure/azure-cache-for-redis) | 404 |
-| [Azure Cache for Redis documentation](/azure/azure-cache-for-redis) | 404 |
-| [Azure Cache for Redis FAQ](/azure/redis/faq) | 404 |
-| [Task-based Asynchronous pattern](/dotnet/standard/asynchronous-programming-patterns/task-based-asynchronous-pattern-tap) | 404 |
-| [Data partitioning guide](/previous-versions/msp-n-p/dn589795(v=pandp.10) | 404 |
+| [Data considerations for microservices](../microservices/design/data-considerations.md) | 404 |
+| [Azure Managed Redis](/azure/redis/overview) | 404 |
+| [Azure Managed Redis documentation](/azure/redis/overview) | 404 |
+| [Connect to Azure Managed Redis](/azure/redis/dotnet) | 404 |
+| [Memory management](/azure/redis/best-practices-memory-management) | 404 |
+| [RedisJSON and RediSearch](/azure/redis/overview#modules) | 404 |
+| [ASP.NET Core output cache provider for Redis](/azure/redis/aspnet-core-output-cache-provider) | 404 |
+| [Circuit-Breaker pattern](../patterns/circuit-breaker.md) | 404 |
+| [Cache-aside pattern](../patterns/cache-aside.yml) | 404 |
+| [Active geo-replication](/azure/redis/how-to-active-geo-replication) | 404 |
+| [cache-aside pattern](../patterns/cache-aside.yml) | 404 |
+| [Configure data persistence](/azure/redis/how-to-persistence) | 404 |
+| [Microsoft Entra ID authentication](/azure/redis/entra-for-authentication) | 404 |
+| [Private Endpoints](/azure/redis/private-link) | 404 |
+| [RedisJSON](/azure/redis/overview#modules) | 404 |
+| [Azure Managed Redis documentation](/azure/redis/) | 404 |
+| [Azure Managed Redis FAQ](/azure/redis/faq) | 404 |
 | [Cache-aside pattern](../patterns/cache-aside.yml) | 404 |
 | [Sharding pattern](../patterns/sharding.yml) | 404 |
 
@@ -2556,7 +2622,6 @@
 | [Azure Monitor overview](/azure/azure-monitor/overview) | 404 |
 | [Monitor, diagnose, and troubleshoot Microsoft Azure Storage](/azure/storage/storage-monitoring-diagnosing-troubleshooting) | 404 |
 | [Overview of alerts in Microsoft Azure](/azure/monitoring-and-diagnostics/insights-receive-alert-notifications) | 404 |
-| [View service health notifications by using the Azure portal](/azure/monitoring-and-diagnostics/insights-service-health) | 404 |
 | [What is Application Insights?](/azure/application-insights/app-insights-overview) | 404 |
 | [Performance diagnostics for Azure virtual machines](/azure/virtual-machines/troubleshooting/performance-diagnostics) | 404 |
 | [Download and install SQL Server Data Tools (SSDT) for Visual Studio](/azure/virtual-machines/windows/sqlclassic/virtual-machines-windows-classic-ps-sql-bi) | 404 |
@@ -2584,142 +2649,305 @@
 | [Idempotency patterns](../reference-architectures/containers/aks-mission-critical/mission-critical-data-platform.md#idempotent-message-processing) | 404 |
 | [Workload design to handle transient faults](/azure/well-architected/design-guides/handle-transient-faults) | 404 |
 
+* https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/changelog.md
+
+| URL | State |
+| --- | --- |
+| [Analytics architecture design](./solution-ideas/articles/analytics-get-started.md) | 404 |
+| [Container architecture design](./solution-ideas/articles/container-get-started.md) | 404 |
+| [Micro Focus Enterprise Server on Azure VMs](./example-scenario/mainframe/micro-focus-server.yml) | 404 |
+| [Mission-Critical Baseline with App Service](./guide/networking/global-web-applications/mission-critical-app-service.yml) | 404 |
+
+* https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/containers/container-get-started.md
+
+| URL | State |
+| --- | --- |
+| [Choose an Azure container service](../guide/choose-azure-container-service.md) | 404 |
+| [Azure container service considerations](../guide/container-service-general-considerations.md) | 404 |
+| [Microservices architecture style](../guide/architecture-styles/microservices.md) | 404 |
+| [Design a microservices architecture](../microservices/design/index.md) | 404 |
+| [Get started with AKS](../reference-architectures/containers/aks-start-here.md) | 404 |
+| [Choose a Kubernetes at the edge option](../operator-guides/aks/choose-kubernetes-edge-compute-option.md) | 404 |
+| [High availability for multitier AKS apps](../guide/aks/aks-high-availability.yml) | 404 |
+| [CI/CD for AKS apps via Azure Pipelines](../guide/aks/aks-cicd-azure-pipelines.md) | 404 |
+| [GitOps for AKS](../example-scenario/gitops-aks/gitops-blueprint-aks.yml) | 404 |
+| [Access an AKS API server](../guide/security/access-azure-kubernetes-service-cluster-api-server.yml) | 404 |
+| [Blue-green deployment of AKS clusters](../guide/aks/blue-green-deployment-for-aks.yml) | 404 |
+| [Firewall protection for an AKS cluster](../guide/aks/aks-firewall.yml) | 404 |
+| [Use Azure Kubernetes Service to host GPU-based workloads](../reference-architectures/containers/aks-gpu/gpu-aks.md) | 404 |
+| [AKS baseline cluster](../reference-architectures/containers/aks/baseline-aks.yml) | 404 |
+| [AKS baseline for multi-region clusters](../reference-architectures/containers/aks-multi-region/aks-multi-cluster.yml) | 404 |
+| [Microservices architecture on AKS](../reference-architectures/containers/aks-microservices/aks-microservices.yml) | 404 |
+| [Advanced microservices on AKS](../reference-architectures/containers/aks-microservices/aks-microservices-advanced.yml) | 404 |
+| [CI/CD for microservices on Kubernetes](../microservices/ci-cd-kubernetes.yml) | 404 |
+| [Use Azure Red Hat OpenShift in the financial services industry](../reference-architectures/containers/aro/azure-redhat-openshift-financial-services-workloads.yml) | 404 |
+| [Secure AKS workloads with Azure Front Door](../example-scenario/aks-front-door/aks-front-door.yml) | 404 |
+| [Multitenancy with AKS and AGIC](../example-scenario/aks-agic/aks-agic.yml) | 404 |
+| [Data streaming with AKS](../solution-ideas/articles/data-streaming-scenario.yml) | 404 |
+| [Microservices with Container Apps](../example-scenario/serverless/microservices-with-container-apps.yml) | 404 |
+| [Microservices with Dapr and KEDA](../example-scenario/serverless/microservices-with-container-apps-dapr.yml) | 404 |
+| [Microsoft Learn](/training/?WT.mc_id=learnaka) | 404 |
+| [Introduction to Kubernetes on Azure](/training/paths/intro-to-kubernetes-on-azure/) | 404 |
+| [Introduction to Azure Kubernetes Service](/training/modules/intro-to-azure-kubernetes-service/) | 404 |
+| [Deploy a containerized application on Azure Kubernetes Service](/training/modules/aks-deploy-container-app/) | 404 |
+| [Introduction to Docker containers](/training/modules/intro-to-docker-containers/) | 404 |
+| [Deploy and run a containerized web app with Azure App Service](/training/modules/deploy-run-container-app-service/) | 404 |
+| [Implement Azure Container Apps](/training/modules/implement-azure-container-apps/) | 404 |
+| [Architect compute infrastructure in Azure](/training/paths/architect-compute-infrastructure/) | 404 |
+| [Deploy containers by using Azure Kubernetes Service](/training/paths/deploy-manage-containers-azure-kubernetes-service/) | 404 |
+| [Implement containerized solutions](/training/paths/az-204-implement-iaas-solutions/) | 404 |
+| [Develop and deploy applications on Kubernetes](/training/paths/develop-deploy-applications-kubernetes/) | 404 |
+| [Azure Well-Architected Framework (WAF)](/azure/well-architected/) | 404 |
+| [Azure Container Apps](/azure/well-architected/service-guides/azure-container-apps) | 404 |
+| [Azure Kubernetes Service](/azure/well-architected/service-guides/azure-kubernetes-service) | 404 |
+| [day-2 operations](https://dzone.com/articles/defining-day-2-operations) | 403 |
+| [AKS day-2 operations guide](../operator-guides/aks/day-2-operations-guide.md) | 404 |
+| [Triage practices](../operator-guides/aks/aks-triage-practices.md) | 404 |
+| [Backup and recovery for AKS](../operator-guides/aks/aks-backup-and-recovery.md) | 404 |
+| [Patch and upgrade worker nodes](../operator-guides/aks/aks-upgrade-practices.md) | 404 |
+| [Troubleshoot networking](../operator-guides/aks/troubleshoot-network-aks.md) | 404 |
+| [Monitor AKS with Azure Monitor](/azure/aks/monitor-aks) | 404 |
+| [Monitor Container Apps](/azure/container-apps/observability) | 404 |
+| [Health probes](/azure/container-apps/health-probes) | 404 |
+| [Revisions and traffic splitting](/azure/container-apps/revisions-manage) | 404 |
+| [Quotas and limits](/azure/container-apps/quotas) | 404 |
+| [Autoscaling best practices](../best-practices/auto-scaling.md) | 404 |
+| [Background jobs guidance](../best-practices/background-jobs.md) | 404 |
+| [Caching guidance](../best-practices/caching.yml) | 404 |
+| [Azure Reservations](/azure/cost-management-billing/reservations/save-compute-costs-reservations) | 404 |
+| [Azure Spot VMs for AKS](/azure/aks/spot-node-pool) | 404 |
+| [Azure Savings Plan for Compute](/azure/cost-management-billing/savings-plan/savings-plan-overview) | 404 |
+| [Right-size resources](/azure/advisor/advisor-cost-recommendations) | 404 |
+| [Container Apps consumption plan](/azure/container-apps/billing) | 404 |
+| [AKS release notes](/azure/aks/release-tracker) | 404 |
+| [What's new in Azure Container Apps](/azure/container-apps/whats-new) | 404 |
+| [Azure Arc-enabled Kubernetes](/azure/azure-arc/kubernetes/overview) | 404 |
+| [AKS enabled by Azure Arc](/azure/aks/hybrid/aks-hybrid-options-overview) | 404 |
+| [Azure Arc hybrid management and deployment for Kubernetes clusters](../hybrid/arc-hybrid-kubernetes.yml) | 404 |
+| [Hybrid architecture design](../hybrid/hybrid-start-here.md) | 404 |
+| [AKS on Azure Local baseline architecture](../example-scenario/hybrid/aks-baseline.yml) | 404 |
+| [Containers and container orchestrators on Azure and AWS](../aws-professional/compute.md#containers-and-container-orchestrators) | 404 |
+| [Azure for AWS professionals](../aws-professional/index.md) | 404 |
+| [Google Cloud to Azure services comparison](../gcp-professional/services.md#compute) | 404 |
+
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/data-guide/ai-services/image-video-processing.md
 
 | URL | State |
 | --- | --- |
 | [Foundry Tools](/azure/ai-services/what-are-ai-services) | 404 |
-| [Azure OpenAI](/azure/ai-services/openai/index) | 404 |
-| [GPT models](/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure) | 404 |
-| [DALL-E](/azure/ai-foundry/openai/how-to/dall-e) | 404 |
-| [Vision](/azure/ai-services/computer-vision/) | 404 |
+| [Azure OpenAI](/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure#azure-openai-in-microsoft-foundry-models) | 404 |
+| [DALL-E and GPT-image image generation models](/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure#image-generation-models) | 404 |
+| [audio models](/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure#audio-models) | 404 |
+| [Azure Document Intelligence](/azure/ai-services/document-intelligence/overview) | 404 |
+| [Azure Speech in Foundry Tools](/azure/ai-services/speech-service/overview) | 404 |
+| [Realtime API](/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure#gpt-4o-audio-models) | 404 |
+| [Chat Completions API with audio](/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure#gpt-4o-audio-models) | 404 |
+| [Audio API](/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure#audio-api) | 404 |
+| [Azure Vision](/azure/ai-services/computer-vision/overview) | 404 |
+| [Content Safety in Foundry Control Plane](/azure/ai-services/content-safety/overview) | 404 |
 | [OCR](/azure/ai-services/computer-vision/overview-ocr) | 404 |
-| [several languages](/azure/ai-services/computer-vision/language-support) | 404 |
-| [Vision Image Analysis](/azure/ai-services/computer-vision/overview-image-analysis) | 404 |
-| [Image Analysis 4.0](/azure/ai-services/computer-vision/how-to/model-customization) | 404 |
-| [Video Analysis](/azure/ai-services/computer-vision/intro-to-spatial-analysis-public-preview) | 404 |
-| [Custom Vision](/azure/ai-services/custom-vision-service/overview) | 404 |
-| [Image classification](/azure/ai-services/custom-vision-service/getting-started-build-a-classifier) | 404 |
-| [Object detection](/azure/ai-services/custom-vision-service/get-started-build-detector) | 404 |
-| [Use Custom Vision with an IoT device to report visual states](/azure/iot-edge/tutorial-deploy-custom-vision) | 404 |
-| [Classify images and objects](/azure/ai-services/custom-vision-service/overview#classification-and-object-detection) | 404 |
-| [Azure AI Face](/azure/ai-services/computer-vision/overview-identity) | 404 |
+| [Image Analysis](/azure/ai-services/computer-vision/overview-image-analysis) | 404 |
+| [Image Analysis 4.0](/azure/ai-services/computer-vision/overview) | 404 |
 | [Face detection and analysis](/azure/ai-services/computer-vision/concept-face-detection) | 404 |
 | [Find similar faces](/azure/ai-services/computer-vision/overview-identity#find-similar-faces) | 404 |
 | [Group faces](/azure/ai-services/computer-vision/overview-identity#group-faces) | 404 |
-| [Identification](/azure/ai-services/computer-vision/overview-identity#identification) | 404 |
-| [Face recognition operations](/azure/ai-services/computer-vision/overview-identity#face-recognition-operations) | 404 |
+| [Face identification](/azure/ai-services/computer-vision/overview-identity#identification) | 404 |
+| [Face verification](/azure/ai-services/computer-vision/overview-identity#face-recognition-operations) | 404 |
 | [Liveness detection](/azure/ai-services/computer-vision/overview-identity#liveness-detection) | 404 |
+| [Generate image alternative text (alt text)](/azure/ai-services/computer-vision/use-case-alt-text) | 404 |
+| [Identity verification](/azure/ai-services/computer-vision/use-case-identity-verification) | 404 |
+| [Face redaction](/azure/azure-video-indexer/face-redaction-with-api) | 404 |
+| [Touchless access control](/azure/ai-services/face/how-to/specify-recognition-model) | 404 |
+| [Custom Vision](/azure/ai-services/custom-vision-service/overview) | 404 |
+| [Image classification](/azure/ai-services/custom-vision-service/getting-started-build-a-classifier) | 404 |
+| [Object detection](/azure/ai-services/custom-vision-service/get-started-build-detector) | 404 |
+| [Use Custom Vision with an internet of things (IoT) device to report visual states](/azure/iot-edge/tutorial-deploy-custom-vision) | 404 |
+| [Classify images and objects](/azure/ai-services/custom-vision-service/overview#classification-and-object-detection) | 404 |
+| [Azure Content Understanding](/azure/ai-services/content-understanding/overview) | 404 |
+| [Image field extraction](/azure/ai-services/content-understanding/image/overview) | 404 |
+| [Key frame extraction](/azure/ai-services/content-understanding/video/overview#content-extraction-capabilities) | 404 |
+| [Shot detection](/azure/ai-services/content-understanding/video/overview#content-extraction-capabilities) | 404 |
+| [Scene segmentation](/azure/ai-services/content-understanding/video/overview#field-extraction-and-segmentation) | 404 |
+| [Video field extraction](/azure/ai-services/content-understanding/video/overview#field-extraction-and-segmentation) | 404 |
+| [Face description](/azure/ai-services/content-understanding/video/overview#face-description-fields) | 404 |
+| [RAG on video](/azure/ai-services/content-understanding/video/overview#prebuilt-video-analyzer-example) | 404 |
+| [Media asset management](/azure/ai-services/content-understanding/video/overview#why-use-content-understanding-for-video) | 404 |
+| [Manufacturing quality control](/azure/ai-services/content-understanding/image/overview) | 404 |
+| [Retail shelf analysis](/azure/ai-services/content-understanding/image/overview) | 404 |
+| [Ad and brand analysis](/azure/ai-services/content-understanding/video/overview#field-extraction-and-segmentation) | 404 |
 | [Video Indexer](/azure/azure-video-indexer/video-indexer-overview) | 404 |
-| [Multiple-language speech identification and transcription](/azure/ai-services/computer-vision/concept-face-detection) | 404 |
-| [Face detection](/azure/ai-services/computer-vision/overview-identity#find-similar-faces) | 404 |
-| [Celebrity identification](/azure/ai-services/computer-vision/overview-identity#group-faces) | 404 |
-| [Account-based face identification](/azure/ai-services/computer-vision/overview-identity#identification) | 404 |
-| [Observed people tracking (preview)](/azure/ai-services/computer-vision/overview-identity#identification) | 404 |
-| [Audio transcription](/azure/ai-services/computer-vision/overview-identity#identification) | 404 |
-| [Language detection](/azure/ai-services/computer-vision/overview-identity#identification) | 404 |
-| [Noise reduction](/azure/ai-services/computer-vision/overview-identity#identification) | 404 |
-| [Translation](/azure/ai-services/computer-vision/overview-identity#identification) | 404 |
-| [Video Indexer documentation](/azure/azure-video-indexer/video-indexer-overview) | 404 |
-| [What is Azure Vision in Foundry Tools?](/azure/ai-services/computer-vision/overview) | 404 |
-| [Learning path: Develop natural language solutions in Azure](/training/paths/develop-language-solutions-azure-ai/) | 404 |
-| [Learning path: Develop generative AI apps in Azure](/training/paths/create-custom-copilots-ai-studio/) | 404 |
-| [Learning path: Develop computer vision solutions in Azure](/training/paths/create-computer-vision-solutions-azure-ai/) | 404 |
-| [Learning path: Create an image recognition solution with Azure IoT Edge and Foundry Tools](/training/modules/create-image-recognition-solution-iot-edge-cognitive-services/) | 404 |
+| [Cloud-based Video Indexer](/azure/azure-video-indexer/upload-index-media) | 404 |
+| [Video Indexer enabled by Azure Arc](/azure/azure-video-indexer/arc/azure-video-indexer-enabled-by-arc-overview) | 404 |
+| [Face detection](/azure/azure-video-indexer/face-detection-insight) | 404 |
+| [Account-based face identification](/azure/azure-video-indexer/customize-person-model-how-to) | 404 |
+| [Observed people detection](/azure/azure-video-indexer/observed-matched-people-insight) | 404 |
+| [Object detection](/azure/azure-video-indexer/object-detection-insight) | 404 |
+| [OCR](/azure/azure-video-indexer/ocr-insight) | 404 |
+| [Labels identification](/azure/azure-video-indexer/labels-identification-insight) | 404 |
+| [Scene segmentation](/azure/azure-video-indexer/scene-shot-keyframe-detection-insight) | 404 |
+| [Shot detection](/azure/azure-video-indexer/scene-shot-keyframe-detection-insight) | 404 |
+| [Key frame extraction](/azure/azure-video-indexer/scene-shot-keyframe-detection-insight#keyframe-editorial-shot-type-detection) | 404 |
+| [Slate detection](/azure/azure-video-indexer/clapper-board-insight) | 404 |
+| [Audio transcription](/azure/azure-video-indexer/transcription-translation-lid-insight) | 404 |
+| [Automatic language detection](/azure/azure-video-indexer/language-support) | 404 |
+| [Multiple-language speech identification](/azure/azure-video-indexer/transcription-translation-lid-insight) | 404 |
+| [Closed captioning](/azure/azure-video-indexer/insights-overview) | 404 |
+| [Two channel processing](/azure/azure-video-indexer/insights-overview) | 404 |
+| [Noise reduction](/azure/azure-video-indexer/insights-overview) | 404 |
+| [Speaker enumeration](/azure/azure-video-indexer/insights-overview) | 404 |
+| [Translation](/azure/azure-video-indexer/language-support) | 404 |
+| [Audio effects detection](/azure/azure-video-indexer/audio-effects-detection-insight) | 404 |
+| [Video Indexer overview](/azure/azure-video-indexer/video-indexer-overview) | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/data-guide/ai-services/speech-recognition-generation.md
 
 | URL | State |
 | --- | --- |
 | [Foundry Tools](/azure/ai-services/what-are-ai-services) | 404 |
-| [Whisper](/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure#audio-api) | 404 |
-| [Speech](/azure/ai-services/speech-service/overview) | 404 |
-| [Batch transcription](/azure/ai-services/speech-service/batch-transcription) | 404 |
-| [Intent recognition](/azure/ai-services/speech-service/intent-recognition) | 404 |
-| [Pronunciation assessment](/azure/ai-services/speech-service/how-to-pronunciation-assessment) | 404 |
-| [Speaker recognition](/azure/ai-services/speech-service/speaker-recognition-overview) | 404 |
-| [Speech-to-text](/azure/ai-services/speech-service/speech-to-text) | 404 |
-| [Text-to-speech](/azure/ai-services/speech-service/text-to-speech) | 404 |
+| [Azure Speech](/azure/ai-services/speech-service/overview) | 404 |
+| [Azure Language in Foundry Tools](/azure/ai-services/language-service/overview) | 404 |
+| [Content Safety in Foundry Control Plane](/azure/ai-services/content-safety/overview) | 404 |
+| [Azure Translator in Foundry Tools](/azure/ai-services/translator/overview) | 404 |
+| [STT](/azure/ai-services/speech-service/speech-to-text) | 404 |
+| [real-time transcription](/azure/ai-services/speech-service/get-started-speech-to-text) | 404 |
+| [fast transcription](/azure/ai-services/speech-service/fast-transcription-create) | 404 |
+| [batch transcription](/azure/ai-services/speech-service/batch-transcription) | 404 |
+| [TTS](/azure/ai-services/speech-service/text-to-speech) | 404 |
+| [Speech Synthesis Markup Language (SSML)](/azure/ai-services/speech-service/speech-synthesis-markup) | 404 |
+| [TTS avatar](/azure/ai-services/speech-service/text-to-speech-avatar/what-is-text-to-speech-avatar) | 404 |
 | [Speech translation](/azure/ai-services/speech-service/speech-translation) | 404 |
-| [Video translation](/azure/ai-services/speech-service/video-translation-overview) | 404 |
-| [Audio content creation](/azure/ai-services/speech-service/text-to-speech#more-about-neural-text-to-speech-features) | 404 |
-| [Call center transcription](/azure/ai-services/speech-service/call-center-overview) | 404 |
+| [Language model speech (preview)](/azure/ai-services/speech-service/llm-speech) | 404 |
+| [Language identification](/azure/ai-services/speech-service/language-identification) | 404 |
+| [Pronunciation assessment](/azure/ai-services/speech-service/how-to-pronunciation-assessment) | 404 |
+| [Custom speech](/azure/ai-services/speech-service/custom-speech-overview) | 404 |
+| [Custom voice](/azure/ai-services/speech-service/custom-neural-voice) | 404 |
 | [Captioning](/azure/ai-services/speech-service/captioning-concepts) | 404 |
+| [Audio content creation](/azure/ai-services/speech-service/text-to-speech#neural-text-to-speech-features) | 404 |
+| [Call center transcription](/azure/ai-services/speech-service/call-center-overview) | 404 |
 | [Language learning](/azure/ai-services/speech-service/language-learning-overview) | 404 |
-| [Voice assistants](/azure/ai-services/speech-service/voice-assistants) | 404 |
-| [What is the Speech service?](/azure/ai-services/speech-service/overview) | 404 |
-| [Learning path: Develop natural language solutions in Azure](/training/paths/develop-language-solutions-azure-ai/) | 404 |
+| [Voice Live API](/azure/ai-services/speech-service/voice-live) | 404 |
+| [Video avatar creation](/azure/ai-services/speech-service/text-to-speech-avatar/what-is-text-to-speech-avatar) | 404 |
+| [Speech Studio](/azure/ai-services/speech-service/speech-studio-overview) | 404 |
+| [Speech SDK](/azure/ai-services/speech-service/speech-sdk) | 404 |
+| [Speech CLI](/azure/ai-services/speech-service/spx-overview) | 404 |
+| [REST APIs](/azure/ai-services/speech-service/rest-speech-to-text) | 404 |
+| [containers](/azure/ai-services/speech-service/speech-container-howto) | 404 |
+| [sovereign clouds](/azure/ai-services/speech-service/sovereign-clouds) | 404 |
+| [Azure OpenAI](/azure/ai-foundry/foundry-models/concepts/models-sold-directly-by-azure#azure-openai-in-microsoft-foundry-models) | 404 |
+| [Realtime API](/azure/foundry/openai/how-to/realtime-audio#quickstart) | 404 |
+| [Chat Completions API with audio](/azure/foundry/openai/audio-completions-quickstart) | 404 |
+| [Audio API](/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure#audio-api) | 404 |
+| [Realtime API](/azure/foundry/openai/how-to/realtime-audio#quickstart) | 404 |
+| [Chat Completions API](/azure/foundry/openai/audio-completions-quickstart) | 404 |
+| [Audio API `/audio/transcriptions`](/azure/foundry/openai/whisper-quickstart) | 404 |
+| [Audio API `/audio/translations`](/azure/foundry/openai/whisper-quickstart) | 404 |
+| [Audio API `/audio/speech`](/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure#audio-api) | 404 |
+| [Realtime API](/azure/foundry/openai/how-to/realtime-audio#quickstart) | 404 |
+| [real-time](/azure/ai-services/speech-service/get-started-speech-to-text) | 404 |
+| [batch](/azure/ai-services/speech-service/batch-transcription) | 404 |
+| [Whisper](/azure/foundry/openai/whisper-quickstart) | 404 |
+| [GPT-4o audio models](/azure/foundry/openai/audio-completions-quickstart) | 404 |
+| [speaker diarization](/azure/ai-services/speech-service/batch-transcription-create) | 404 |
+| [custom speech models](/azure/ai-services/speech-service/custom-speech-overview) | 404 |
+| [TTS](/azure/ai-services/speech-service/text-to-speech) | 404 |
+| [custom voice](/azure/ai-services/speech-service/custom-neural-voice) | 404 |
+| [on-premises or container deployment](/azure/ai-services/speech-service/speech-container-howto) | 404 |
+| [sovereign cloud](/azure/ai-services/speech-service/sovereign-clouds) | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/data-guide/ai-services/targeted-language-processing.md
 
 | URL | State |
 | --- | --- |
 | [Foundry Tools](/azure/ai-services/what-are-ai-services) | 404 |
-| [real-time text translation](/azure/ai-services/translator/text-translation-overview) | 404 |
+| [real-time text translation](/azure/ai-services/translator/text-translation/overview) | 404 |
 | [document translation](/azure/ai-services/translator/document-translation/overview) | 404 |
 | [custom translations](/azure/ai-services/translator/custom-translator/overview) | 404 |
 | [supports multiple languages](/azure/ai-services/translator/language-support) | 404 |
-| [Azure OpenAI in Foundry Models](/azure/ai-services/openai/overview) | 404 |
-| [Text generation and completion](/azure/ai-services/openai/concepts/prompt-engineering) | 404 |
-| [Chat](/azure/ai-services/openai/chatgpt-quickstart) | 404 |
-| [Assistants](/azure/ai-services/openai/concepts/assistants) | 404 |
-| [Embeddings](/azure/ai-services/openai/concepts/understand-embeddings) | 404 |
-| [Content filtering](/azure/ai-services/openai/concepts/content-filter) | 404 |
-| [LLM customization](/azure/ai-services/openai/concepts/customizing-llms) | 404 |
-| [Language](/azure/ai-services/language-service/overview) | 404 |
-| [Custom question answering](/azure/ai-services/language-service/question-answering/overview) | 404 |
-| [Custom text classification](/azure/ai-services/language-service/custom-text-classification/overview) | 404 |
-| [Conversational language understanding (CLU)](/azure/ai-services/language-service/conversational-language-understanding/overview) | 404 |
-| [Entity linking](/azure/ai-services/language-service/entity-linking/overview) | 404 |
-| [Language detection](/azure/ai-services/language-service/language-detection/overview) | 404 |
-| [Key phrase extraction](/azure/ai-services/language-service/key-phrase-extraction/overview) | 404 |
+| [Azure Language](/azure/ai-services/language-service/overview) | 404 |
+| [Azure AI Search](/azure/search/search-what-is-azure-search) | 404 |
+| [Content Safety in Foundry Control Plane](/azure/ai-services/content-safety/overview) | 404 |
+| [Azure Language model context protocol (MCP) server](/azure/ai-services/language-service/concepts/foundry-tools-agents#azure-language-mcp-server-preview) | 404 |
+| [Intent Routing agent](/azure/ai-services/language-service/concepts/foundry-tools-agents#azure-language-intent-routing-agent-preview) | 404 |
+| [Exact Question Answering agent](/azure/ai-services/language-service/concepts/foundry-tools-agents#azure-language-exact-question-answering-agent-preview) | 404 |
 | [NER](/azure/ai-services/language-service/named-entity-recognition/overview) | 404 |
-| [category groups](/azure/ai-services/language-service/named-entity-recognition/concepts/named-entity-categories) | 404 |
-| [Orchestration workflow](/azure/ai-services/language-service/language-detection/overview) | 404 |
-| [CLU](/azure/ai-services/language-service/conversational-language-understanding/overview) | 404 |
-| [Personally identifying information (PII) and personally identifying health information detection](/azure/ai-services/language-service/personally-identifiable-information/overview) | 404 |
-| [unstructured text documents](/azure/ai-services/language-service/personally-identifiable-information/how-to-call) | 404 |
-| [conversation transcripts](/azure/ai-services/language-service/personally-identifiable-information/how-to-call-for-conversations) | 404 |
-| [Supported PII entity categories](/azure/ai-services/language-service/personally-identifiable-information/concepts/entity-categories) | 404 |
+| [Personal data and health data detection](/azure/ai-services/language-service/personally-identifiable-information/overview) | 404 |
+| [Language detection](/azure/ai-services/language-service/language-detection/overview) | 404 |
 | [Sentiment analysis and opinion mining](/azure/ai-services/language-service/sentiment-opinion-mining/overview) | 404 |
 | [Summarization](/azure/ai-services/language-service/summarization/overview) | 404 |
-| [Text analysis for health](/azure/ai-services/language-service/text-analytics-for-health/overview) | 404 |
-| [Use Text Analytics for health containers](/azure/ai-services/language-service/text-analytics-for-health/how-to/use-containers) | 404 |
+| [Key phrase extraction](/azure/ai-services/language-service/key-phrase-extraction/overview) | 404 |
+| [Entity linking](/azure/ai-services/language-service/entity-linking/overview) | 404 |
+| [Text analytics for health](/azure/ai-services/language-service/text-analytics-for-health/overview) | 404 |
+| [Use text analytics for health containers](/azure/ai-services/language-service/text-analytics-for-health/how-to/use-containers) | 404 |
+| [Custom text classification](/azure/ai-services/language-service/custom-text-classification/overview) | 404 |
+| [Custom NER](/azure/ai-services/language-service/custom-named-entity-recognition/overview) | 404 |
+| [Conversational language understanding (CLU)](/azure/ai-services/language-service/conversational-language-understanding/overview) | 404 |
+| [Orchestration workflow](/azure/ai-services/language-service/orchestration-workflow/overview) | 404 |
+| [CLU](/azure/ai-services/language-service/conversational-language-understanding/overview) | 404 |
+| [question answering](/azure/ai-services/language-service/question-answering/overview) | 404 |
+| [Question answering](/azure/ai-services/language-service/question-answering/overview) | 404 |
 | [Predict the intention of user inputs and extract information from them](/azure/ai-services/language-service/conversational-language-understanding/overview) | 404 |
-| [Identify and redact sensitive information such as PII](/azure/ai-services/language-service/personally-identifiable-information/overview) | 404 |
-| [Identify the language that a text was written in](/azure/ai-services/language-service/language-detection/overview) | 404 |
+| [Identify and redact sensitive information like personal data](/azure/ai-services/language-service/personally-identifiable-information/overview) | 404 |
+| [Identify the language that text is written in](/azure/ai-services/language-service/language-detection/overview) | 404 |
 | [Extract medical information from clinical or medical documents without building a model](/azure/ai-services/language-service/text-analytics-for-health/overview) | 404 |
-| [Extract medical information from clinical or medical documents by using a model that's trained on your data](/azure/ai-services/language-service/custom-text-analytics-for-health/overview) | 404 |
+| [Extract medical information from clinical or medical documents by using a model trained on your data](/azure/ai-services/language-service/text-analytics-for-health/overview) | 404 |
 | [Extract categories of information without creating a custom model](/azure/ai-services/language-service/named-entity-recognition/overview) | 404 |
 | [Extract categories of information by using a model specific to your data](/azure/ai-services/language-service/custom-named-entity-recognition/overview) | 404 |
 | [Extract main topics and important phrases](/azure/ai-services/language-service/key-phrase-extraction/overview) | 404 |
-| [Summarize a document](/azure/ai-services/language-service/summarization/quickstart?tabs=text-summarization) | 404 |
+| [Summarize a document](/azure/ai-services/language-service/summarization/quickstart) | 404 |
 | [Classify text by using sentiment analysis](/azure/ai-services/language-service/sentiment-opinion-mining/quickstart) | 404 |
 | [Classify text by using custom classes](/azure/ai-services/language-service/custom-text-classification/quickstart) | 404 |
-| [Classify items into categories provided at inference time](/azure/ai-services/openai/how-to/completions#classification) | 404 |
+| [Classify items into categories provided at inference time](/azure/foundry/openai/how-to/responses) | 404 |
 | [Link an entity with knowledge base articles](/azure/ai-services/language-service/entity-linking/overview) | 404 |
-| [Understand questions and answers (generic)](/azure/ai-services/language-service/question-answering/overview) | 404 |
+| [Understand generic questions and answers](/azure/ai-services/language-service/question-answering/overview) | 404 |
 | [Build a conversational application that responds to user inputs](/azure/ai-services/language-service/question-answering/overview) | 404 |
 | [Connect apps from CLU and question answering](/azure/ai-services/language-service/orchestration-workflow/overview) | 404 |
-| [Azure Text translation](/azure/ai-services/translator/text-translation-overview) | 404 |
-| [dynamic dictionary](/azure/ai-services/translator/dynamic-dictionary) | 404 |
-| [prevent translations](/azure/ai-services/translator/prevent-translation) | 404 |
-| [Document translation](/azure/ai-services/translator/document-translation/overview) | 404 |
+| [Azure Translator](/azure/ai-services/translator/overview) | 404 |
+| [Azure Language](/azure/ai-services/language-service/overview) | 404 |
+| [Content Safety](/azure/ai-services/content-safety/overview) | 404 |
+| [Text translation (preview)](/azure/ai-services/translator/text-translation/overview) | 404 |
+| [Text translation v3 (GA)](/azure/ai-services/translator/text-translation/overview) | 404 |
+| [dynamic dictionary](/azure/ai-services/translator/text-translation/how-to/use-dynamic-dictionary) | 404 |
+| [prevent translations](/azure/ai-services/translator/text-translation/how-to/prevent-translation) | 404 |
+| [Asynchronous document translation](/azure/ai-services/translator/document-translation/overview) | 404 |
+| [Synchronous document translation](/azure/ai-services/translator/document-translation/overview) | 404 |
 | [Custom Translator](/azure/ai-services/translator/custom-translator/overview) | 404 |
-| [Create a dictionary (phrase or sentence)](/azure/ai-services/translator/custom-translator/concepts/dictionaries) | 404 |
+| [Create a dictionary of phrases or sentences](/azure/ai-services/translator/custom-translator/concepts/dictionaries) | 404 |
 | [Custom Translator](/azure/ai-services/translator/custom-translator/overview) | 404 |
-| [Azure Text translation](/azure/ai-services/translator/text-translation-overview) | 404 |
-| [Language](/azure/ai-services/document-intelligence/overview) | 404 |
-| [Business card extraction](/azure/ai-services/document-intelligence/concept-business-card) | 404 |
-| [Contract model extraction](/azure/ai-services/document-intelligence/concept-contract) | 404 |
-| [Credit card extraction](/azure/ai-services/document-intelligence/concept-credit-card) | 404 |
-| [Health insurance card extraction](/azure/ai-services/document-intelligence/concept-health-insurance-card) | 404 |
-| [US tax document extraction](/azure/ai-services/document-intelligence/concept-tax-document) | 404 |
-| [Client libraries](/azure/ai-services/document-intelligence/concept-model-overview) | 404 |
-| [Which model should I choose?](/azure/ai-services/document-intelligence/choose-model-feature) | 404 |
-| [What is Azure Language in Foundry Tools?](/azure/ai-services/language-service/overview) | 404 |
-| [Learning path: Develop natural language solutions in Azure](/training/paths/develop-language-solutions-azure-ai/) | 404 |
-| [Learning path: Develop generative AI apps in Azure](/training/paths/create-custom-copilots-ai-studio/) | 404 |
+| [Text translation](/azure/ai-services/translator/text-translation/overview) | 404 |
+| [Azure Document Intelligence](/azure/ai-services/document-intelligence/overview) | 404 |
+| [Read](/azure/ai-services/document-intelligence/prebuilt/read) | 404 |
+| [Layout](/azure/ai-services/document-intelligence/prebuilt/layout) | 404 |
+| [Invoice](/azure/ai-services/document-intelligence/prebuilt/invoice) | 404 |
+| [Receipt](/azure/ai-services/document-intelligence/prebuilt/receipt) | 404 |
+| [Identity](/azure/ai-services/document-intelligence/prebuilt/id-document) | 404 |
+| [Health insurance card](/azure/ai-services/document-intelligence/prebuilt/health-insurance-card) | 404 |
+| [Contract](/azure/ai-services/document-intelligence/prebuilt/contract) | 404 |
+| [Credit card](/azure/ai-services/document-intelligence/prebuilt/credit-card) | 404 |
+| [Bank statement](/azure/ai-services/document-intelligence/prebuilt/bank-statement) | 404 |
+| [Bank check](/azure/ai-services/document-intelligence/prebuilt/bank-check) | 404 |
+| [Pay stub](/azure/ai-services/document-intelligence/prebuilt/pay-stub) | 404 |
+| [Marriage certificate](/azure/ai-services/document-intelligence/prebuilt/marriage-certificate) | 404 |
+| [US mortgage documents](/azure/ai-services/document-intelligence/prebuilt/mortgage-documents) | 404 |
+| [US tax documents](/azure/ai-services/document-intelligence/prebuilt/tax-document) | 404 |
+| [Custom neural](/azure/ai-services/document-intelligence/train/custom-neural) | 404 |
+| [Custom template](/azure/ai-services/document-intelligence/train/custom-template) | 404 |
+| [Custom composed](/azure/ai-services/document-intelligence/train/composed-models) | 404 |
+| [Custom classifier](/azure/ai-services/document-intelligence/train/custom-classifier) | 404 |
+| [Choose an Azure Document Intelligence model](/azure/ai-services/document-intelligence/concept/choose-model-feature) | 404 |
+| [Azure Content Understanding](/azure/ai-services/content-understanding/overview) | 404 |
+| [Content extraction](/azure/ai-services/content-understanding/document/overview#content-extraction) | 404 |
+| [Field extraction](/azure/ai-services/content-understanding/document/overview#field-extraction) | 404 |
+| [Prebuilt document analyzers](/azure/ai-services/content-understanding/concepts/prebuilt-analyzers) | 404 |
+| [RAG output](/azure/ai-services/content-understanding/document/overview#document-analyzer-capabilities) | 404 |
+| [Contract life cycle management](/azure/ai-services/content-understanding/document/overview#business-use-cases) | 404 |
+| [Loan and mortgage application processing](/azure/ai-services/content-understanding/document/overview#business-use-cases) | 404 |
+| [Expense management](/azure/ai-services/content-understanding/document/overview#business-use-cases) | 404 |
+| [RAG document ingestion](/azure/ai-services/content-understanding/tutorial/build-rag-solution) | 404 |
+| [Mixed-document classification and routing](/azure/ai-services/content-understanding/document/overview#document-analyzer-capabilities) | 404 |
+| [Models](/azure/foundry-classic/concepts/foundry-models-overview) | 404 |
+| [Models sold directly by Azure](/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure) | 404 |
+| [chat playground](/azure/foundry-classic/quickstarts/get-started-playground) | 404 |
+| [Foundry SDK](/azure/foundry/quickstarts/get-started-code) | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/data-guide/disaster-recovery/dr-for-azure-data-platform-architecture.md
 
@@ -3027,40 +3255,42 @@
 | URL | State |
 | --- | --- |
 | [Foundry Tools](/azure/ai-services/what-are-ai-services) | 404 |
-| [Azure Machine Learning](/azure/machine-learning) | 404 |
-| [Azure AI agents](/azure/ai-foundry/) | 404 |
-| [Foundry Agent Service](/azure/ai-services/agents/overview) | 404 |
-| [Microsoft Foundry Models](/azure/ai-foundry/concepts/foundry-models-overview) | 404 |
-| [Observability](/azure/ai-foundry/concepts/observability?view=foundry&preserve-view=true) | 404 |
-| [Retrieval Augmented Generation](/azure/architecture/ai-ml/guide/rag/rag-solution-design-and-evaluation-guide) | 404 |
+| [Azure Machine Learning](/azure/machine-learning/overview-what-is-azure-machine-learning) | 404 |
+| [Agents](/azure/foundry/what-is-foundry) | 404 |
+| [Foundry Agent Service](/azure/foundry/agents/overview) | 404 |
+| [Foundry Models](/azure/foundry-classic/concepts/foundry-models-overview) | 404 |
+| [Observability](/azure/foundry/concepts/observability) | 404 |
+| [Retrieval-augmented generation (RAG)](/azure/architecture/ai-ml/guide/rag/rag-solution-design-and-evaluation-guide) | 404 |
 | [Azure AI Search](/azure/search/search-what-is-azure-search) | 404 |
 | [Azure Document Intelligence in Foundry Tools](/azure/ai-services/document-intelligence/overview) | 404 |
-| [Microsoft Foundry Models](/azure/ai-foundry/concepts/foundry-models-overview) | 404 |
+| [Azure Content Understanding in Foundry Tools](/azure/ai-services/content-understanding/overview) | 404 |
+| [Models](/azure/foundry-classic/concepts/foundry-models-overview) | 404 |
 | [Targeted language processing](/azure/architecture/data-guide/ai-services/targeted-language-processing) | 404 |
+| [Azure OpenAI in Foundry Models](/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure) | 404 |
 | [Azure Language in Foundry Tools](/azure/ai-services/language-service/overview) | 404 |
 | [Azure Translator in Foundry Tools](/azure/ai-services/translator/overview) | 404 |
-| [Azure Document Intelligence in Foundry Tools](/azure/ai-services/document-intelligence/overview) | 404 |
-| [Microsoft Foundry Models](/azure/ai-foundry/concepts/foundry-models-overview) | 404 |
+| [Azure Document Intelligence](/azure/ai-services/document-intelligence/overview) | 404 |
+| [Azure Content Understanding](/azure/ai-services/content-understanding/overview) | 404 |
 | [Speech recognition and generation](/azure/architecture/data-guide/ai-services/speech-recognition-generation) | 404 |
-| [Speech service](/azure/ai-services/speech-service/overview) | 404 |
-| [Immersive Reader](/training/educator-center/product-guides/immersive-reader/) | 404 |
-| [Microsoft Foundry Models](/azure/ai-foundry/concepts/foundry-models-overview) | 404 |
+| [Azure Speech in Foundry Tools](/azure/ai-services/speech-service/overview) | 404 |
+| [Models](/azure/foundry-classic/concepts/foundry-models-overview) | 404 |
 | [Image and video processing guide](/azure/architecture/data-guide/ai-services/image-video-processing) | 404 |
 | [Azure Vision in Foundry Tools](/azure/ai-services/computer-vision/overview) | 404 |
-| [Azure Content Understanding in Foundry Tools](/azure/ai-services/content-understanding/overview) | 404 |
-| [Azure AI Video Indexer](/azure/azure-video-indexer/video-indexer-overview) | 404 |
-| [Azure AI Face](/azure/ai-services/computer-vision/overview-identity) | 404 |
-| [Azure Machine Learning](/azure/machine-learning/overview-what-is-azure-machine-learning) | 404 |
-| [Microsoft Foundry Models](/azure/ai-foundry/concepts/foundry-models-overview) | 404 |
-| [Azure AI Content Safety](/azure/ai-services/content-safety/overview) | 404 |
-| [Custom Machine Learning](/azure/machine-learning/overview-what-is-azure-machine-learning) | 404 |
-| [Azure Machine Learning](/azure/machine-learning/) | 404 |
-| [Local on-device inference](/azure/ai-foundry/foundry-local/what-is-foundry-local) | 404 |
-| [Foundry Local](/azure/ai-foundry/foundry-local/get-started) | 404 |
-| [Learning path: Get started with AI services](/training/paths/create-custom-copilots-ai-studio/) | 404 |
-| [Microsoft Foundry documentation](/azure/ai-foundry) | 404 |
-| [What are Foundry Tools?](/azure/ai-services/what-are-ai-services) | 404 |
+| [Azure Content Understanding](/azure/ai-services/content-understanding/overview) | 404 |
+| [Microsoft Azure AI Video Indexer](/azure/azure-video-indexer/video-indexer-overview) | 404 |
+| [Microsoft Azure AI Custom Vision](/azure/ai-services/custom-vision-service/overview) | 404 |
+| [Machine Learning](/azure/machine-learning/overview-what-is-azure-machine-learning) | 404 |
+| [Models](/azure/foundry-classic/concepts/foundry-models-overview) | 404 |
+| [Content Safety in Foundry Control Plane](/azure/ai-services/content-safety/overview) | 404 |
+| [Custom models in Machine Learning](/azure/machine-learning/overview-what-is-azure-machine-learning) | 404 |
+| [Machine Learning](/azure/machine-learning/overview-what-is-azure-machine-learning) | 404 |
+| [Local on-device inference](/azure/foundry-local/what-is-foundry-local) | 404 |
+| [Foundry Local](/azure/foundry-local/get-started) | 404 |
+| [Learning path: Develop generative AI apps in Azure](/training/paths/create-custom-copilots-ai-studio/) | 404 |
+| [Microsoft Foundry documentation](/azure/foundry/) | 404 |
+| [Foundry Tools overview](/azure/ai-services/what-are-ai-services) | 404 |
 | [Image classification on Azure](/azure/architecture/ai-ml/idea/intelligent-apps-image-processing) | 404 |
+| [Image classification on Azure](../../ai-ml/idea/intelligent-apps-image-processing.yml) | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/data-guide/technology-choices/analysis-visualizations-reporting.md
 
@@ -3651,6 +3881,96 @@
 | [Global Secure Access](/entra/global-secure-access/overview-what-is-global-secure-access) | 404 |
 | [workload monitoring solution](/azure/well-architected/operational-excellence/observability) | 404 |
 
+* https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/databases/database-get-started.md
+
+| URL | State |
+| --- | --- |
+| [Prepare to choose a data store in Azure](../guide/technology-choices/data-stores-getting-started.md) | 404 |
+| [Understand data store models](../data-guide/technology-choices/understand-data-store-models.md) | 404 |
+| [Big data storage](../data-guide/technology-choices/data-storage.md) | 404 |
+| [Search data store](../data-guide/technology-choices/search-options.md) | 404 |
+| [Vector search](../guide/technology-choices/vector-search.md) | 404 |
+| [Pipeline orchestration](../data-guide/technology-choices/pipeline-orchestration-data-movement.md) | 404 |
+| [Data transfer options](../data-guide/scenarios/data-transfer.md) | 404 |
+| [Use the Transactional Outbox pattern](../databases/guide/transactional-out-box-cosmos.md) | 404 |
+| [Run Apache Cassandra](../databases/guide/cassandra.md) | 404 |
+| [OLAP solutions](../data-guide/relational-data/online-analytical-processing.md) | 404 |
+| [OLTP solutions](../data-guide/relational-data/online-transaction-processing.md) | 404 |
+| [Extract, transform, and load (ETL) guide](../data-guide/relational-data/etl.yml) | 404 |
+| [Data lakes](../data-guide/scenarios/data-lake.md) | 404 |
+| [Big data architectures](../databases/guide/big-data-architectures.md) | 404 |
+| [Data obfuscation by using Delphix](../databases/guide/data-obfuscation-with-delphix-in-azure-data-factory.yml) | 404 |
+| [Data scrambling for SAP by using Delphix](../databases/guide/data-scrambling-for-sap-using-delphix-and-azure-data-factory.yml) | 404 |
+| [Collection structure for a federated Microsoft Purview catalog](../guide/data/collection-structure-federated-catalog.md) | 404 |
+| [DataOps for modern data warehouse](../databases/architecture/dataops-mdw.yml) | 404 |
+| [Greenfield lakehouse on Microsoft Fabric](../example-scenario/data/greenfield-lakehouse-fabric.yml) | 404 |
+| [Medallion lakehouse by using Azure Data Factory](../databases/architecture/azure-data-factory-on-azure-landing-zones-index.yml) | 404 |
+| [Azure Data Factory baseline architecture](../databases/architecture/azure-data-factory-on-azure-landing-zones-baseline.yml) | 404 |
+| [Azure Data Factory enterprise hardened architecture](../databases/architecture/azure-data-factory-enterprise-hardened.yml) | 404 |
+| [Azure Data Factory mission-critical architecture](../databases/architecture/azure-data-factory-mission-critical.yml) | 404 |
+| [Deploy MongoDB Atlas on Azure](../databases/architecture/mongodb-atlas-baseline.md) | 404 |
+| [Analyze MongoDB Atlas data](../databases/architecture/azure-synapse-analytics-integrate-mongodb-atlas.yml) | 404 |
+| [Replicate and sync mainframe data](../reference-architectures/migration/sync-mainframe-data-with-azure.yml) | 404 |
+| [Mainframe data replication by using Precisely Connect](../example-scenario/mainframe/mainframe-replication-precisely-connect.yml) | 404 |
+| [Mainframe data replication by using Qlik](../example-scenario/mainframe/mainframe-midrange-data-replication-azure-qlik.yml) | 404 |
+| [Mainframe data replication by using Rocket® Data Replicate and Sync (RDRS)](../example-scenario/mainframe/mainframe-data-replication-azure-rdrs.yml) | 404 |
+| [Migrate mainframe data tier to Azure by using mLogica LIBER*IRIS](../example-scenario/mainframe/mainframe-data-replication-azure-data-platform.yml) | 404 |
+| [Modernize mainframe midrange data](../example-scenario/mainframe/modernize-mainframe-data-to-azure.yml) | 404 |
+| [Reengineer mainframe batch apps](../example-scenario/mainframe/reengineer-mainframe-batch-apps-azure.yml) | 404 |
+| [Rehost IMS Data Communication (IMS DC) and IMS Database (IMS DB)](../example-scenario/mainframe/rehost-ims-raincode-imsql.yml) | 404 |
+| [Implement SMA OpCon in Azure](../example-scenario/integration/sma-opcon-azure.yml) | 404 |
+| [Oracle Database with Azure NetApp Files](../example-scenario/file-storage/oracle-azure-netapp-files.yml) | 404 |
+| [SAP deployment by using an Oracle database](../example-scenario/apps/sap-production.yml) | 404 |
+| [Microsoft Fabric deployment patterns](../analytics/architecture/fabric-deployment-patterns.yml) | 404 |
+| [Migrate an Oracle database to Azure](../databases/idea/topic-migrate-oracle-azure.yml) | 404 |
+| [Migrate an Oracle database to an Azure virtual machine](../databases/idea/migrate-oracle-azure-iaas.yml) | 404 |
+| [Migrate an Oracle database to Oracle Exadata Database@Azure](../databases/idea/migrate-oracle-odaa-exadata.yml) | 404 |
+| [Cross-region resiliency for SQL transparent data encryption (TDE) by using Azure Key Vault Managed HSM](../solution-ideas/articles/secure-sql-managed-instance-managed-hardware-security-module.yml) | 404 |
+| [Replicate data by using a change feed to minimize storage](../databases/idea/minimal-storage-change-feed-replicate-data.yml) | 404 |
+| [Microsoft Learn](/training/?WT.mc_id=learnaka) | 404 |
+| [Explore Azure database and analytics services](/training/paths/azure-fundamentals-describe-azure-architecture-services/) | 404 |
+| [Choose a data storage approach in Azure](/azure/storage/common/storage-account-overview) | 404 |
+| [Deploy Azure SQL Database](/training/modules/deploy-paas-solutions-with-azure-sql/) | 404 |
+| [Secure your Azure SQL Database](/training/paths/secure-your-cloud-data/) | 404 |
+| [Design your migration to Azure](/data-migration/sql-server/database/guide) | 404 |
+| [Browse Azure database modules](/training/browse/?products=azure&terms=database) | 404 |
+| [Azure data fundamentals: Explore relational data in Azure](/training/paths/azure-data-fundamentals-explore-relational-data/) | 404 |
+| [Implement scalable database solutions by using Azure SQL](/training/courses/dp-300t00) | 404 |
+| [Develop solutions that use Azure Cosmos DB](/training/paths/az-204-develop-solutions-that-use-azure-cosmos-db/) | 404 |
+| [browse other learning paths](/training/browse/?resource_type=learning%20path) | 404 |
+| [Cloud Adoption Framework for Azure](/azure/cloud-adoption-framework/) | 404 |
+| [Cloud-scale analytics](/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics) | 404 |
+| [Azure Well-Architected Framework](/azure/well-architected/) | 404 |
+| [Azure Cosmos DB](/azure/well-architected/service-guides/cosmos-db) | 404 |
+| [Azure SQL Database](/azure/well-architected/service-guides/azure-sql-database) | 404 |
+| [The Transactional Outbox pattern with Azure Cosmos DB](../databases/guide/transactional-out-box-cosmos.md) | 404 |
+| [Distribute your data globally by using Azure Cosmos DB](/azure/cosmos-db/distribute-data-globally) | 404 |
+| [Security in Azure Cosmos DB](/azure/cosmos-db/security) | 404 |
+| [Continuous backup with point-in-time restore (PITR) in Azure Cosmos DB](/azure/cosmos-db/continuous-backup-restore-introduction) | 404 |
+| [Achieve high availability by using Azure Cosmos DB](/azure/reliability/reliability-cosmos-db-nosql) | 404 |
+| [High availability for Azure SQL Database and Azure SQL Managed Instance](/azure/azure-sql/database/high-availability-sla-local-zone-redundancy) | 404 |
+| [What's new in Azure SQL Database](/azure/azure-sql/database/doc-changes-updates-release-notes-whats-new) | 404 |
+| [What's new in Azure Database for PostgreSQL](/azure/postgresql/release-notes/release-notes) | 404 |
+| [What's new in Azure Database for MySQL](/azure/mysql/flexible-server/whats-new) | 404 |
+| [extend on-premises database solutions to the cloud](/azure/architecture/databases/guide/hybrid-on-premises-and-cloud) | 404 |
+| [choose a hybrid network architecture](/azure/architecture/reference-architectures/hybrid-networking/index) | 404 |
+| [Azure Arc-enabled PostgreSQL](/azure/azure-arc/data/what-is-azure-arc-enabled-postgres-hyperscale) | 404 |
+| [Azure hybrid and multicloud patterns](/azure/architecture/hybrid/hybrid-start-here) | 404 |
+| [Azure Arc hybrid management for SQL Server](../hybrid/azure-arc-sql-server.yml) | 404 |
+| [Hybrid architecture design](../hybrid/hybrid-start-here.md) | 404 |
+| [Modernize mainframe midrange data](../example-scenario/mainframe/modernize-mainframe-data-to-azure.yml) | 404 |
+| [Replicate and sync mainframe data](../reference-architectures/migration/sync-mainframe-data-with-azure.yml) | 404 |
+| [Mainframe data replication by using Connect](../example-scenario/mainframe/mainframe-replication-precisely-connect.yml) | 404 |
+| [Mainframe data replication by using Qlik](../example-scenario/mainframe/mainframe-midrange-data-replication-azure-qlik.yml) | 404 |
+| [Analytics architecture design](../analytics/analytics-get-started.md) | 404 |
+| [Data warehousing and analytics](../example-scenario/data/data-warehouse.yml) | 404 |
+| [Relational database technologies on Azure and AWS](../aws-professional/databases.md) | 404 |
+| [Google Cloud to Azure services comparison: Data platform](../gcp-professional/services.md#data-platform) | 404 |
+| [Mohit Agarwal](https://www.linkedin.com/in/mohitagarwal01/) | 999 |
+| [Adatum Corporation scenario for cloud-scale analytics in Azure](/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/architectures/reference-architecture-adatum) | 404 |
+| [Lamna Healthcare scenario for data management and analytics in Azure](/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/architectures/reference-architecture-lamna) | 404 |
+| [Relecloud scenario for data management and analytics in Azure](/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/architectures/reference-architecture-multizone) | 404 |
+
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/databases/guide/big-data-architectures.md
 
 | URL | State |
@@ -3757,6 +4077,7 @@
 | [BackgroundService](/dotnet/api/microsoft.extensions.hosting.backgroundservice) | 404 |
 | [deduplication feature turned on](/azure/service-bus-messaging/duplicate-detection) | 404 |
 | [first in, first out (FIFO)](/azure/service-bus-messaging/message-sessions) | 404 |
+| [MassTransit](https://masstransit.io/documentation/configuration/middleware/outbox) | 404 |
 | [Christian Dennig](https://www.linkedin.com/in/christian-dennig/) | 999 |
 | [Alexander Wild](https://www.linkedin.com/in/wueda/) | 999 |
 | [Tackle business complexity in a microservice by using DDD and CQRS patterns](/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns) | 404 |
@@ -3845,55 +4166,6 @@
 | URL | State |
 | --- | --- |
 | [Introduction to Oracle on Azure adoption scenarios](/azure/cloud-adoption-framework/scenarios/oracle-iaas) | 404 |
-
-* https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/databases/index-content.md
-
-| URL | State |
-| --- | --- |
-| [Explore Relational Databases in Azure](/training/modules/explore-provision-deploy-relational-database-offerings-azure/) | 404 |
-| [Analytics Architecture Design](/azure/architecture/solution-ideas/articles/analytics-start-here) | 404 |
-| [NoSQL Data](/azure/architecture/data-guide/big-data/non-relational-data) | 404 |
-| [Azure data modules](/training/browse/?products=azure&terms=database) | 404 |
-| [Choose a data storage approach in Azure](/training/modules/choose-storage-approach-in-azure) | 404 |
-| [Design your migration to Azure](/training/modules/design-your-migration-to-azure) | 404 |
-| [Deploy Azure SQL Database](/training/modules/deploy-azure-sql-database) | 404 |
-| [Explore Azure database and analytics services](/training/modules/azure-database-fundamentals) | 404 |
-| [Secure your Azure SQL Database](/training/modules/secure-your-azure-sql-database) | 404 |
-| [Azure Cosmos DB](/azure/cosmos-db/introduction) | 404 |
-| [Azure Database for PostgreSQL](/azure/postgresql/) | 404 |
-| [Azure Database for MySQL](/azure/mysql/flexible-server/overview-single) | 404 |
-| [SQL Server on Azure VMs](/azure/azure-sql/virtual-machines/windows/sql-server-on-azure-vm-iaas-what-is-overview) | 404 |
-| [Analytics in Azure](/azure/architecture/solution-ideas/articles/analytics-start-here) | 404 |
-| [Online analytical processing](../data-guide/relational-data/online-analytical-processing.md) | 404 |
-| [Online transaction processing](../data-guide/relational-data/online-transaction-processing.md) | 404 |
-| [Nonrelational data and NoSQL](../data-guide/big-data/non-relational-data.yml) | 404 |
-| [Data lakes](../data-guide/scenarios/data-lake.md) | 404 |
-| [Big data architectures](../databases/guide/big-data-architectures.md) | 404 |
-| [Analytics](/azure/architecture/solution-ideas/articles/analytics-start-here) | 404 |
-| [Azure Arc](/azure/azure-arc/overview) | 404 |
-| [Azure Cosmos DB resource model](/azure/cosmos-db/account-databases-containers-items) | 404 |
-| [Transfer data to and from Azure](../data-guide/scenarios/data-transfer.md) | 404 |
-| [Transactional Outbox pattern with Azure Cosmos DB](../databases/guide/transactional-out-box-cosmos.md) | 404 |
-| [Distribute your data globally with Azure Cosmos DB](/azure/cosmos-db/distribute-data-globally) | 404 |
-| [Security in Azure Cosmos DB](/azure/cosmos-db/database-security) | 404 |
-| [Continuous backup with point-in-time restore in Azure Cosmos DB](/azure/cosmos-db/continuous-backup-restore-introduction) | 404 |
-| [Achieve high availability with Azure Cosmos DB](/azure/cosmos-db/high-availability) | 404 |
-| [High availability for Azure SQL Database and SQL Managed Instance](/azure/azure-sql/database/high-availability-sla) | 404 |
-| [Choose a Data Store](/azure/architecture/guide/technology-choices/data-stores-getting-started) | 404 |
-| [Choose an analytical data store in Azure](../data-guide/technology-choices/analytical-data-stores.md) | 404 |
-| [Choose a data analytics technology in Azure](../data-guide/technology-choices/analysis-visualizations-reporting.md) | 404 |
-| [Choose a batch processing technology in Azure](../data-guide/technology-choices/batch-processing.md) | 404 |
-| [Choose a big data storage technology in Azure](../data-guide/technology-choices/data-storage.md) | 404 |
-| [Choose a data pipeline orchestration technology in Azure](../data-guide/technology-choices/pipeline-orchestration-data-movement.md) | 404 |
-| [Choose a search data store in Azure](../data-guide/technology-choices/search-options.md) | 404 |
-| [Choose a stream processing technology in Azure](../data-guide/technology-choices/stream-processing.md) | 404 |
-| [Mohit Agarwal](https://www.linkedin.com/in/mohitagarwal01/) | 999 |
-| [Adatum Corporation scenario for cloud-scale analytics in Azure](/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/architectures/reference-architecture-adatum) | 404 |
-| [Lamna Healthcare scenario for data management and analytics in Azure](/azure/cloud-adoption-framework/scenarios/data-management/architectures/reference-architecture-lamna) | 404 |
-| [Optimize administration of SQL Server instances](../hybrid/azure-arc-sql-server.yml) | 404 |
-| [Relecloud scenario for data management and analytics in Azure](/azure/cloud-adoption-framework/scenarios/data-management/architectures/reference-architecture-relecloud) | 404 |
-| [Relational database technologies on Azure and AWS](../aws-professional/databases.md) | 404 |
-| [Google Cloud to Azure services comparison - Data platform](../gcp-professional/services.md#data-platform) | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/example-scenario/ai/extract-object-text-content.md
 
@@ -4259,7 +4531,7 @@
 | [What is Fabric?](/fabric/fundamentals/microsoft-fabric-overview) | 404 |
 | [What is Data Factory in Fabric?](/fabric/data-factory/data-factory-overview) | 404 |
 | [What is Azure SQL?](/azure/azure-sql/azure-sql-iaas-vs-paas-what-is-overview) | 404 |
-| [Databases architecture design](../../databases/index.yml) | 404 |
+| [Get started with database architecture design](../../databases/database-get-started.md) | 404 |
 | [Analytics end-to-end with Microsoft Fabric](../../example-scenario/dataplate2e/data-platform-end-to-end.yml) | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/example-scenario/analytics/sync-mongodb-atlas-fabric-analytics-content.md
@@ -4325,7 +4597,6 @@
 | [Explore Azure App Service](/training/modules/introduction-to-azure-app-service/) | 404 |
 | [Deploy a website to Azure with Azure App Service](/training/paths/deploy-a-website-with-azure-app-service/) | 404 |
 | [Protect your APIs on Azure API Management](/training/modules/protect-apis-on-api-management/) | 404 |
-| [Design great API developer experiences using API Management and GitHub](../../example-scenario/web/design-api-developer-experiences-management-github.yml) | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/example-scenario/apps/deploy-ibm-maximo-application-suite-content.md
 
@@ -4361,7 +4632,7 @@
 | [Architecture](/azure/bastion/bastion-overview#architecture) | 404 |
 | [private endpoint](/azure/private-link/private-endpoint-overview) | 404 |
 | [Microsoft Azure Well-Architected Framework](/azure/well-architected/) | 404 |
-| [Overview of the security pillar](/azure/architecture/framework/security/overview) | 404 |
+| [Overview of the security pillar](/azure/architecture/framework/security/overview) | 502 |
 | [network security groups](/azure/virtual-network/security-overview) | 404 |
 | [virtual network](/azure/virtual-network/virtual-networks-overview) | 404 |
 | [Azure Bastion](/azure/bastion/bastion-overview) | 404 |
@@ -4504,147 +4775,172 @@
 
 | URL | State |
 | --- | --- |
-| [AZ-400: Develop a Site Reliability Engineering (SRE) strategy](/training/paths/az-400-develop-sre-strategy) | 404 |
+| [Develop an SRE strategy](/training/paths/az-400-develop-sre-strategy/) | 404 |
 | [Azure Front Door](/azure/well-architected/service-guides/azure-front-door) | 404 |
 | [Routing architecture overview](/azure/frontdoor/front-door-routing-architecture) | 404 |
-| [Azure API Management](/azure/well-architected/service-guides/api-management/operational-excellence) | 404 |
-| [Azure Kubernetes Service (AKS)](/azure/well-architected/service-guides/azure-kubernetes-service) | 404 |
-| [Azure Application Gateway](/azure/well-architected/service-guides/azure-application-gateway) | 404 |
-| [Azure Storage](/azure/storage/common/storage-introduction) | 404 |
-| [Azure Data Lake Storage](/azure/storage/blobs/data-lake-storage-introduction) | 404 |
+| [API Management](/azure/well-architected/service-guides/azure-api-management) | 404 |
+| [Azure Managed Redis](/azure/redis/overview) | 404 |
+| [external cache](/azure/api-management/api-management-howto-cache-external) | 404 |
+| [AKS](/azure/well-architected/service-guides/azure-kubernetes-service) | 404 |
+| [Application Gateway for Containers](/azure/application-gateway/for-containers/overview) | 404 |
 | [Azure Cosmos DB](/azure/well-architected/service-guides/cosmos-db) | 404 |
 | [Azure SQL](/azure/azure-sql/azure-sql-iaas-vs-paas-what-is-overview) | 404 |
-| [Microsoft Dynamics 365](/dynamics365/get-started/intro-crossapp-index) | 404 |
-| [Microsoft 365](/office365/servicedescriptions/office-365-service-descriptions-technet-library) | 404 |
+| [Azure Storage](/azure/storage/common/storage-introduction) | 404 |
+| [Azure Data Lake Storage](/azure/storage/blobs/data-lake-storage-introduction) | 404 |
+| [Microsoft Entra ID](/entra/fundamentals/what-is-entra) | 404 |
+| [Azure Monitor](/azure/azure-monitor/fundamentals/overview) | 404 |
+| [Application Insights](/azure/azure-monitor/app/app-insights-overview) | 404 |
+| [Azure Chaos Studio](/azure/chaos-studio/chaos-studio-overview) | 404 |
 | [Azure Container Apps](/azure/container-apps/overview) | 404 |
-| [Reliability](/azure/architecture/framework/resiliency) | 404 |
-| [Performance Efficiency](/azure/architecture/framework/scalability) | 404 |
-| [Azure Well Architected Framework](/azure/well-architected/) | 404 |
-| [Azure Monitor OpenTelemetry Distro](/azure/azure-monitor/app/opentelemetry-enable) | 404 |
-| [Microsoft Azure Well-Architected Framework](/azure/well-architected/) | 404 |
-| [Overview of the cost optimization pillar](/azure/architecture/framework/cost/overview) | 404 |
+| [Web App for Containers](/azure/app-service/overview) | 404 |
+| [Azure Functions](/azure/azure-functions/functions-overview) | 404 |
+| [Microsoft Fabric](/fabric/get-started/microsoft-fabric-overview) | 404 |
+| [Azure Cosmos DB mirroring](/fabric/database/mirrored-database/azure-cosmos-db) | 404 |
+| [Well-Architected Framework](/azure/well-architected/) | 404 |
+| [Design review checklist for Reliability](/azure/well-architected/reliability/checklist) | 404 |
+| [Chaos Studio](/azure/chaos-studio/chaos-studio-overview) | 404 |
+| [Design review checklist for Security](/azure/well-architected/security/checklist) | 404 |
+| [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist) | 404 |
+| [Azure Advisor](/azure/advisor/advisor-overview) | 404 |
+| [Design review checklist for Operational Excellence](/azure/well-architected/operational-excellence/checklist) | 404 |
+| [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) | 404 |
+| [Chaos Studio](/azure/chaos-studio/chaos-studio-overview) | 404 |
 | [Subhajit Chatterjee](https://www.linkedin.com/in/subhajit-chatterjee-b9b53b44) | 999 |
-| [Azure documentation](/azure) | 404 |
-| [Microsoft Azure Well-Architected Framework](/azure/well-architected/) | 404 |
-| [Microservices architecture style](/azure/architecture/guide/architecture-styles/microservices) | 404 |
-| [Design to scale out](/azure/architecture/guide/design-principles/scale-out) | 404 |
-| [Choose an Azure compute service for your application](/azure/architecture/guide/technology-choices/compute-decision-tree) | 404 |
-| [Microservices architecture on Azure Kubernetes Service](/azure/architecture/reference-architectures/containers/aks-microservices/aks-microservices) | 404 |
+| [Dawid Obrocki](https://www.linkedin.com/in/obrocki) | 999 |
+| [Azure Well-Architected Framework](/azure/well-architected/) | 404 |
 | [What is Azure Front Door?](/azure/frontdoor/front-door-overview) | 404 |
 | [About API Management](/azure/api-management/api-management-key-concepts) | 404 |
-| [What is Application Gateway Ingress Controller?](/azure/application-gateway/ingress-controller-overview) | 404 |
-| [Azure Kubernetes Service](/azure/aks/intro-kubernetes) | 404 |
-| [Autoscaling and Zone-redundant Application Gateway v2](/azure/application-gateway/application-gateway-autoscaling-zone-redundant) | 404 |
-| [Automatically scale a cluster to meet application demands on Azure Kubernetes Service (AKS)](/azure/aks/cluster-autoscaler) | 404 |
+| [What is Application Gateway for Containers?](/azure/application-gateway/for-containers/overview) | 404 |
+| [AKS](/azure/aks/what-is-aks) | 404 |
+| [Autoscaling and zone-redundant Application Gateway v2](/azure/application-gateway/application-gateway-autoscaling-zone-redundant) | 404 |
+| [Automatically scale a cluster to meet application demands on AKS](/azure/aks/cluster-autoscaler) | 404 |
 | [Create Azure Cosmos DB containers and databases with autoscale throughput](/azure/cosmos-db/provision-throughput-autoscale) | 404 |
-| [Microsoft Dynamics 365 documentation](/dynamics365) | 404 |
-| [Microsoft 365 documentation](/microsoft-365/?view=o365-worldwide) | 404 |
-| [Site reliability engineering documentation](/azure/site-reliability-engineering) | 404 |
-| [AZ-400: Develop a Site Reliability Engineering (SRE) strategy](/training/paths/az-400-develop-sre-strategy) | 404 |
+| [Chaos Studio](/azure/chaos-studio/chaos-studio-overview) | 404 |
+| [Azure Advisor](/azure/advisor/advisor-overview) | 404 |
+| [SRE documentation](/azure/site-reliability-engineering/) | 404 |
+| [Training: Develop an SRE strategy](/training/paths/az-400-develop-sre-strategy/) | 404 |
+| [Microservices architecture on AKS](../../reference-architectures/containers/aks-microservices/aks-microservices.yml) | 404 |
+| [Microservices architecture style](../../guide/architecture-styles/microservices.md) | 404 |
+| [Design to scale out](../../guide/design-principles/scale-out.md) | 404 |
+| [Choose an Azure compute service for your application](../../guide/technology-choices/compute-decision-tree.md) | 404 |
 | [Baseline web application with zone redundancy](../../web-apps/app-service/architectures/baseline-zone-redundant.yml) | 404 |
 
-* https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/example-scenario/azure-virtual-desktop/azure-virtual-desktop-multi-region-bcdr-content.md
+* https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/example-scenario/azure-virtual-desktop/azure-virtual-desktop-multi-region-bcdr.md
 
 | URL | State |
 | --- | --- |
+| [FSLogix](/fslogix/overview-what-is-fslogix) | 404 |
+| [Azure Virtual Desktop landing zone design guide](/azure/architecture/landing-zones/azure-virtual-desktop/design-guide) | 404 |
+| [BC considerations for Azure Virtual Desktop workloads](/azure/well-architected/azure-virtual-desktop/business-continuity) | 404 |
+| [on-demand capacity reservations](/azure/virtual-machines/capacity-reservation-overview) | 404 |
 | [availability zone](/azure/reliability/availability-zones-overview) | 404 |
-| [paired](/azure/reliability/cross-region-replication-azure) | 404 |
-| [Operating AVD host pools in multiple geographic regions](/azure/cloud-adoption-framework/ready/azure-setup-guide/regions#operate-in-multiple-geographic-regions) | 404 |
-| [compute](/azure/virtual-desktop/faq#can-i-set-availability-options-when-creating-host-pools-) | 404 |
-| [storage](/azure/storage/common/storage-redundancy) | 404 |
-| [networking](/azure/vpn-gateway/create-zone-redundant-vnet-gateway) | 404 |
-| [Cloud Cache](/fslogix/cloud-cache-resiliency-availability-cncpt) | 404 |
-| [FSLogix](/fslogix/overview) | 404 |
+| [paired](/azure/reliability/regions-paired) | 404 |
+| [Operating Azure Virtual Desktop host pools in multiple geographic regions](/azure/cloud-adoption-framework/ready/azure-setup-guide/regions) | 404 |
+| [compute layer](/azure/virtual-desktop/faq#can-i-set-availability-options-when-creating-host-pools-) | 404 |
+| [storage layer](/azure/storage/common/storage-redundancy) | 404 |
+| [networking layer](/azure/vpn-gateway/create-zone-redundant-vnet-gateway) | 404 |
+| [FSLogix cloud cache feature](/fslogix/concepts-fslogix-cloud-cache) | 404 |
 | [SharePoint and OneDrive data resiliency in Microsoft 365](/compliance/assurance/assurance-sharepoint-onedrive-data-resiliency) | 404 |
-| [BCDR considerations for Virtual Desktop](/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/eslz-business-continuity-and-disaster-recovery) | 404 |
-| [Virtual Desktop disaster recovery](/azure/virtual-desktop/disaster-recovery) | 404 |
-| [Network topology and connectivity](/azure/cloud-adoption-framework/ready/landing-zone/design-area/network-topology-and-connectivity) | 404 |
-| [Traditional Azure networking topology](/azure/cloud-adoption-framework/ready/azure-best-practices/traditional-azure-networking-topology) | 404 |
-| [Virtual WAN network topology (managed by Microsoft)](/azure/cloud-adoption-framework/ready/azure-best-practices/virtual-wan-network-topology) | 404 |
+| [BC considerations for Azure Virtual Desktop workloads](/azure/well-architected/azure-virtual-desktop/business-continuity) | 404 |
+| [BCDR considerations for Azure Virtual Desktop](/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/eslz-business-continuity-and-disaster-recovery) | 404 |
+| [Azure Virtual Desktop DR](/azure/virtual-desktop/disaster-recovery-concepts) | 404 |
+| [Azure Virtual Desktop landing zone design guide](/azure/architecture/landing-zones/azure-virtual-desktop/design-guide) | 404 |
 | [Network topology and connectivity for Azure Virtual Desktop](/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/eslz-network-topology-and-connectivity) | 404 |
-| [Data locations for Virtual Desktop](/azure/virtual-desktop/data-locations) | 404 |
 | [Azure Virtual Desktop service architecture and resilience](/azure/virtual-desktop/service-architecture-resilience) | 404 |
-| [FSLogix Profile and ODFC containers](/fslogix/concepts-container-types) | 404 |
-| [ODFC containers](/fslogix/concepts-container-types#odfc-container) | 404 |
+| [BC considerations for Azure Virtual Desktop workloads](/azure/well-architected/azure-virtual-desktop/business-continuity) | 404 |
+| [Regional host pools](/azure/virtual-desktop/regional-host-pools) | 404 |
+| [Data locations for Azure Virtual Desktop](/azure/virtual-desktop/data-locations) | 404 |
+| [FSLogix Profile and Office containers](/fslogix/concepts-container-types) | 404 |
+| [Office containers](/fslogix/concepts-container-types#odfc-container) | 404 |
 | [specific scenarios](/fslogix/concepts-container-types#when-to-use-profile-and-odfc-containers) | 404 |
-| [disaster recovery for shared host pools](/azure/virtual-desktop/disaster-recovery-concepts#disaster-recovery-for-shared-host-pools) | 404 |
-| [Business continuity and disaster recovery options for FSLogix](/fslogix/concepts-container-recovery-business-continuity) | 404 |
-| [No profile recovery](/fslogix/concepts-container-recovery-business-continuity#option-1-no-profile-recovery) | 404 |
-| [Cloud cache (active/passive)](/fslogix/concepts-container-recovery-business-continuity#option-2-cloud-cache-primary--failover) | 404 |
-| [Cloud cache (active/active)](/fslogix/concepts-container-recovery-business-continuity#option-3-cloud-cache-active--active) | 404 |
-| [Virtual Desktop service limits](/azure/azure-resource-manager/management/azure-subscription-service-limits#azure-virtual-desktop-service-limits) | 404 |
+| [Azure network round-trip latency statistics](/azure/networking/azure-network-latency) | 404 |
+| [Azure network round-trip latency statistics](/azure/networking/azure-network-latency) | 404 |
+| [DR for shared host pools](/azure/virtual-desktop/disaster-recovery-concepts) | 404 |
+| [on-demand capacity reservation](/azure/virtual-machines/capacity-reservation-overview) | 404 |
+| [on-demand capacity reservation](/azure/virtual-machines/capacity-reservation-overview) | 404 |
+| [VM quota](/azure/quotas/per-vm-quota-requests) | 404 |
+| [Azure role-based access control (Azure RBAC)](/azure/role-based-access-control/overview) | 404 |
+| [on-demand capacity reservations](/azure/virtual-machines/capacity-reservation-overview) | 404 |
+| [Azure Virtual Desktop service limits](/azure/azure-resource-manager/management/azure-subscription-service-limits#azure-virtual-desktop-service-limits) | 404 |
+| [Site Recovery](/azure/site-recovery/site-recovery-overview) | 404 |
+| [VM quota](/azure/quotas/per-vm-quota-requests) | 404 |
+| [Azure RBAC](/azure/role-based-access-control/overview) | 404 |
+| [on-demand capacity reservations](/azure/virtual-machines/capacity-reservation-overview) | 404 |
+| [Azure Virtual Desktop service limits](/azure/azure-resource-manager/management/azure-subscription-service-limits#azure-virtual-desktop-service-limits) | 404 |
+| [availability zones](/azure/reliability/availability-zones-overview) | 404 |
+| [FSLogix cloud cache documentation](/fslogix/concepts-fslogix-cloud-cache) | 404 |
+| [FSLogix Profile container storage options in Azure Virtual Desktop](/azure/virtual-desktop/store-fslogix-profile) | 404 |
+| [Azure Backup](/azure/backup/azure-file-share-backup-overview) | 404 |
+| [BCDR options for FSLogix](/fslogix/concepts-container-recovery-business-continuity) | 404 |
+| [no profile recovery](/fslogix/concepts-container-recovery-business-continuity#option-1-no-profile-recovery) | 404 |
+| [cloud cache (active-passive)](/fslogix/concepts-container-recovery-business-continuity#option-2-cloud-cache-primary--failover) | 404 |
+| [cloud cache (active-active)](/fslogix/concepts-container-recovery-business-continuity#option-3-cloud-cache-active--active) | 404 |
+| [Azure Virtual Desktop service limits](/azure/azure-resource-manager/management/azure-subscription-service-limits#azure-virtual-desktop-service-limits) | 404 |
 | [Azure Virtual Desktop Insights](/azure/virtual-desktop/insights) | 404 |
-| [workspace replication and failover capabilities](/azure/azure-monitor/logs/workspace-replication) | 404 |
-| [Store and share images in an Azure Compute Gallery](/azure/virtual-machines/shared-image-galleries#scaling) | 404 |
-| [Create an image definition and an image version](/azure/virtual-machines/image-version) | 404 |
-| [az sig image-version create](/cli/azure/sig/image-version?view=azure-cli-latest#az-sig-image-version-create) | 404 |
-| [Scaling plans](/azure/virtual-desktop/autoscale-scaling-plan) | 404 |
-| [Site Recovery](/azure/site-recovery/azure-to-azure-common-questions?#how-do-we-ensure-capacity-in-the-target-region) | 404 |
-| [Azure Reservations](/azure/cost-management-billing/reservations/save-compute-costs-reservations) | 404 |
-| [MSIX](/azure/virtual-desktop/what-is-app-attach) | 404 |
-| [Azure Files](/azure/storage/files/storage-files-introduction) | 404 |
+| [Log Analytics workspace replication and failover capabilities](/azure/azure-monitor/logs/workspace-replication) | 404 |
+| [Store and share images in Compute Gallery](/azure/virtual-machines/shared-image-galleries) | 404 |
+| [the Azure portal](/azure/virtual-machines/image-version) | 404 |
+| [the Azure CLI command](/cli/azure/sig/image-version#az-sig-image-version-create) | 404 |
+| [Golden images in BC considerations](/azure/well-architected/azure-virtual-desktop/business-continuity#golden-images) | 404 |
+| [scaling plans](/azure/virtual-desktop/autoscale-create-assign-scaling-plan) | 404 |
+| [Site Recovery](/azure/site-recovery/azure-to-azure-common-questions#how-do-we-ensure-capacity-in-the-target-region) | 404 |
+| [Azure reservations](/azure/cost-management-billing/reservations/save-compute-costs-reservations) | 404 |
+| [Cloud cache documentation](/fslogix/concepts-fslogix-cloud-cache) | 404 |
+| [MSIX](/azure/virtual-desktop/app-attach-overview) | 404 |
+| [Azure Files share](/azure/storage/files/storage-files-introduction) | 404 |
 | [Azure NetApp Files](/azure/azure-netapp-files/azure-netapp-files-introduction) | 404 |
 | [FSLogix container storage options](/fslogix/concepts-container-storage-options) | 404 |
-| [region that doesn't have a pair](/azure/reliability/cross-region-replication-azure#regions-with-availability-zones-and-no-region-pair) | 404 |
+| [region that lacks a region pair](/azure/reliability/cross-region-replication-azure) | 404 |
+| [elastic zone-redundant volumes](/azure/azure-netapp-files/elastic-zone-redundant-concept) | 404 |
 | [zonal](/azure/azure-netapp-files/manage-availability-zone-volume-placement) | 404 |
 | [Cross-zone replication](/azure/azure-netapp-files/replication#cross-zone-replication) | 404 |
 | [requirements and considerations for cross-zone replication](/azure/azure-netapp-files/create-cross-zone-replication) | 404 |
 | [standard networking](/azure/azure-netapp-files/configure-network-features) | 404 |
 | [Supported network topologies](/azure/azure-netapp-files/azure-netapp-files-network-topologies#supported-network-topologies) | 404 |
-| [standard networking](/azure/azure-netapp-files/configure-network-features) | 404 |
-| [Supported network topologies](/azure/azure-netapp-files/azure-netapp-files-network-topologies#supported-network-topologies) | 404 |
-| [cross-region replication mechanism](/azure/azure-netapp-files/cross-region-replication-introduction) | 404 |
-| [Cross-region replication of Azure NetApp Files volumes](/azure/azure-netapp-files/cross-region-replication-introduction) | 404 |
-| [cross-zone replication](/azure/azure-netapp-files/cross-zone-replication-introduction) | 404 |
+| [cross-region replication mechanism](/azure/azure-netapp-files/replication) | 404 |
 | [storage reconfiguration](/azure/azure-netapp-files/cross-region-replication-manage-disaster-recovery) | 404 |
-| [Azure Files share](/azure/storage/files/storage-files-scale-targets) | 404 |
+| [Azure Files shares](/azure/storage/files/storage-files-scale-targets) | 404 |
 | [Azure NetApp Files](/azure/azure-netapp-files/azure-netapp-files-service-levels) | 404 |
-| [per-group settings](/fslogix/configure-per-user-per-group-ht) | 404 |
-| [Cloud Cache](/fslogix/cloud-cache-resiliency-availability-cncpt) | 404 |
-| [Profile Container](/fslogix/configure-cloud-cache-tutorial#configuring-cloud-cache-for-profile-container) | 404 |
-| [Office Container](/fslogix/configure-cloud-cache-tutorial#configuring-cloud-cache-for-office-container) | 404 |
-| [profile split](/fslogix/profile-container-office-container-cncpt) | 404 |
-| [per-group](/fslogix/configure-per-user-per-group-ht) | 404 |
-| [Tutorial: Configure Cloud Cache to redirect profile containers or office container to multiple Providers](/fslogix/configure-cloud-cache-tutorial) | 404 |
+| [per-group settings](/fslogix/how-to-configure-object-specific-settings) | 404 |
+| [Cloud cache](/fslogix/concepts-fslogix-cloud-cache) | 404 |
+| [Profile container](/fslogix/how-to-configure-odfc-containers#odfc-container-configuration) | 404 |
+| [Office container](/fslogix/tutorial-cloud-cache-containers) | 404 |
+| [profile split](/fslogix/concepts-container-types) | 404 |
+| [per-group](/fslogix/how-to-configure-object-specific-settings) | 404 |
+| [Set up profile containers with cloud cache](/fslogix/tutorial-cloud-cache-containers) | 404 |
 | [High availability options for FSLogix](/fslogix/concepts-container-high-availability) | 404 |
-| [Business continuity and disaster recovery options for FSLogix](/fslogix/concepts-container-recovery-business-continuity) | 404 |
-| [Use FSLogix Group Policy Template Files](/fslogix/use-group-policy-templates-ht) | 404 |
+| [BCDR options for FSLogix](/fslogix/concepts-container-recovery-business-continuity) | 404 |
+| [Use FSLogix group policy template files](/fslogix/how-to-use-group-policy-templates) | 404 |
 | [FSLogix configuration examples](/fslogix/concepts-configuration-examples) | 404 |
-| [Microsoft Entra ID](/entra/fundamentals/whatis) | 404 |
-| [Active Directory Domain Services (AD DS)](/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview) | 404 |
-| [Deploy Active Directory Domain Services (AD DS) in an Azure virtual network](/azure/architecture/reference-architectures/identity/adds-extend-domain) | 404 |
+| [Microsoft Entra ID](/entra/fundamentals/what-is-entra) | 404 |
+| [AD DS](/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview) | 404 |
+| [Deploy AD DS in an Azure virtual network](/azure/architecture/example-scenario/identity/adds-extend-domain) | 404 |
 | [Microsoft Entra Connect](/entra/identity/hybrid/connect/whatis-azure-ad-connect) | 404 |
 | [staging mode](/entra/identity/hybrid/connect/plan-connect-topologies#staging-server) | 404 |
 | [switch the active server](/entra/identity/hybrid/connect/how-to-connect-sync-staging-server#switch-active-server) | 404 |
-| [
-Hybrid Identity Administrator](/entra/identity/role-based-access-control/permissions-reference#hybrid-identity-administrator) | 0 |
+| [Hybrid Identity admin role](/entra/identity/role-based-access-control/permissions-reference#hybrid-identity-administrator) | 404 |
 | [replica set](/entra/identity/domain-services/tutorial-create-replica-set) | 404 |
-| [Azure Site Recovery](/azure/site-recovery/site-recovery-overview) | 404 |
-| [availability zones](/azure/reliability/availability-zones-overview) | 404 |
-| [FSLogix Cloud Cache documentation for recommendations](/fslogix/cloud-cache-resiliency-availability-cncpt) | 404 |
-| [FSLogix profile containers in Azure Virtual Desktop](/azure/virtual-desktop/store-fslogix-profile) | 404 |
-| [Azure to Azure disaster recovery architecture in Azure Site Recovery](/azure/site-recovery/azure-to-azure-architecture) | 404 |
-| [PowerShell/API](/azure/site-recovery/azure-to-azure-powershell) | 404 |
+| [Azure to Azure DR architecture in Site Recovery](/azure/site-recovery/azure-to-azure-architecture) | 404 |
 | [PowerShell](/azure/site-recovery/azure-to-azure-powershell) | 404 |
-| [Support for using Site Recovery with Azure Backup](/azure/site-recovery/site-recovery-backup-interoperability) | 404 |
-| [Support matrix for Azure VM disaster recovery between Azure regions](/azure/site-recovery/azure-to-azure-support-matrix) | 404 |
-| [reprotect](/azure/site-recovery/azure-to-azure-how-to-reprotect) | 404 |
-| [registry settings](/fslogix/profile-container-configuration-reference#profiletype) | 404 |
-| [Azure Backup](/azure/backup/azure-file-share-backup-overview) | 404 |
+| [Support for Site Recovery with Backup](/azure/site-recovery/site-recovery-backup-interoperability) | 404 |
+| [support matrix for Azure VM DR between Azure regions](/azure/site-recovery/azure-to-azure-support-matrix) | 404 |
+| [reprotect VMs in the secondary region](/azure/site-recovery/azure-to-azure-how-to-reprotect) | 404 |
+| [registry settings](/fslogix/reference-configuration-settings#tabpanel_1_profiles) | 404 |
+| [Backup](/azure/backup/azure-file-share-backup-overview) | 404 |
 | [resiliency type](/azure/storage/common/storage-redundancy) | 404 |
 | [backup solution](/azure/azure-netapp-files/backup-introduction) | 404 |
 | [feature availability](/azure/azure-netapp-files/backup-requirements-considerations) | 404 |
 | [Ben Martin Baur](https://www.linkedin.com/in/ben-martin-baur/) | 999 |
+| [Jason Martinez](https://www.linkedin.com/in/jason-martinez-502766123) | 999 |
 | [Igor Pagliai](https://www.linkedin.com/in/igorpag/) | 999 |
 | [Nelson Del Villar](https://www.linkedin.com/in/nelsondelvillar) | 999 |
-| [Jason Martinez](https://www.linkedin.com/in/jason-martinez-502766123) | 999 |
-| [Virtual Desktop disaster recovery plan](/azure/virtual-desktop/disaster-recovery) | 404 |
-| [BCDR for Virtual Desktop - Cloud Adoption Framework](/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/eslz-business-continuity-and-disaster-recovery) | 404 |
-| [Cloud Cache to create resiliency and availability](/fslogix/cloud-cache-resiliency-availability-cncpt) | 404 |
-| [Design reliable Azure applications](/azure/well-architected/resiliency/app-design) | 404 |
-| [Azure files accessed on-premises and secured by AD DS](../hybrid/azure-files-on-premises-authentication.yml) | 404 |
-| [Enterprise file shares with disaster recovery](../file-storage/enterprise-file-shares-disaster-recovery.yml) | 404 |
+| [Azure Virtual Desktop DR plan](/azure/virtual-desktop/disaster-recovery-concepts) | 404 |
+| [BCDR for Azure Virtual Desktop](/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/eslz-business-continuity-and-disaster-recovery) | 404 |
+| [Cloud cache overview](/fslogix/concepts-fslogix-cloud-cache) | 404 |
 | [FSLogix configuration examples](/fslogix/concepts-configuration-examples) | 404 |
+| [Design reliable Azure applications](/azure/well-architected/reliability/checklist) | 404 |
+| [Azure files accessed on-premises and secured by AD DS](../hybrid/azure-files-on-premises-authentication.yml) | 404 |
+| [Enterprise file shares with DR](../file-storage/enterprise-file-shares-disaster-recovery.yml) | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/example-scenario/certificate-lifecycle/index-content.md
 
@@ -4705,7 +5001,7 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [Azure Analysis Services](/azure/analysis-services/analysis-services-manage-users) | 404 |
 | [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist) | 404 |
 | [Alex Buck](https://www.linkedin.com/in/alex-buck-0161575) | 999 |
-| [Databases architecture design](../../databases/index.yml) | 404 |
+| [Get started with database architecture design](../../databases/database-get-started.md) | 404 |
 | [Introduction to Azure Data Lake Storage Gen2](/azure/storage/blobs/data-lake-storage-introduction) | 404 |
 | [Azure Data Factory documentation](/azure/data-factory) | 404 |
 | [What is dedicated SQL pool in Azure Synapse Analytics?](/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is) | 404 |
@@ -4843,7 +5139,7 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [Best practices for serverless SQL pools](/azure/synapse-analytics/sql/best-practices-serverless-sql-pool) | 404 |
 | [Build data analytics solutions by using Azure Synapse Analytics serverless SQL pools](/training/paths/build-data-analytics-solutions-using-azure-synapse-serverless-sql-pools) | 404 |
 | [Query a data lake or lakehouse by using Azure Synapse Analytics serverless SQL pools](/azure/synapse-analytics/sql/on-demand-workspace-overview) | 404 |
-| [Databases architecture design](../../databases/index.yml) | 404 |
+| [Get started with database architecture design](../../databases/database-get-started.md) | 404 |
 | [Analytics architecture design](../../solution-ideas/articles/analytics-get-started.md) | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/example-scenario/data/small-medium-data-warehouse-content.md
@@ -5909,53 +6205,6 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [Mainframe migration overview](/azure/cloud-adoption-framework/infrastructure/mainframe-migration) | 404 |
 | [Make the switch from mainframes to Azure](/azure/cloud-adoption-framework/infrastructure/mainframe-migration/migration-strategies) | 404 |
 
-* https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/example-scenario/mainframe/deploy-ibm-power-workloads-content.md
-
-| URL | State |
-| --- | --- |
-| [Azure NetApp Files](/azure/azure-netapp-files/azure-netapp-files-introduction) | 404 |
-| [Migrate IBM i series to Azure with Skytap](/azure/architecture/example-scenario/mainframe/migrate-ibm-i-series-to-azure-with-skytap) | 404 |
-| [Kyndryl Cloud Uplift (formerly Skytap on Azure)](https://marketplace.microsoft.com/search/products?search=Kyndryl%20Cloud%20Uplift) | 403 |
-| [Azure NetApp Files](/azure/well-architected/service-guides/azure-netapp-files) | 404 |
-| [ExpressRoute](/azure/well-architected/service-guides/azure-expressroute) | 404 |
-| [Azure virtual machines (VMs)](/azure/well-architected/service-guides/virtual-machines) | 404 |
-| [Azure VPN Gateway](/azure/vpn-gateway/vpn-gateway-about-vpngateways) | 404 |
-| [Well-Architected Framework](/azure/well-architected/) | 404 |
-| [Design review checklist for Reliability](/azure/well-architected/reliability/checklist) | 404 |
-| [availability zones](/azure/azure-netapp-files/use-availability-zones) | 404 |
-| [snapshots](/azure/azure-netapp-files/snapshots-introduction) | 404 |
-| [backup](/azure/azure-netapp-files/backup-introduction) | 404 |
-| [cross-region replication](/azure/azure-netapp-files/snapshots-introduction#how-volumes-and-snapshots-are-replicated-cross-region-for-dr) | 404 |
-| [Design review checklist for Security](/azure/well-architected/security/checklist) | 404 |
-| [volumes and data traffic within your virtual networks](/azure/azure-netapp-files/faq-security#can-the-network-traffic-between-the-azure-vm-and-the-storage-be-encrypted) | 404 |
-| [data is encrypted at rest](/azure/azure-netapp-files/faq-security#can-the-storage-be-encrypted-at-rest) | 404 |
-| [NFS Kerberos](/azure/azure-netapp-files/understand-data-encryption) | 404 |
-| [LDAP integration](/azure/azure-netapp-files/configure-ldap-extended-groups) | 404 |
-| [NFSv4.1 ACLs](/azure/azure-netapp-files/configure-access-control-lists) | 404 |
-| [Azure Policy](/azure/governance/policy/overview) | 404 |
-| [custom and built-in policy definitions](/azure/azure-netapp-files/azure-policy-definitions) | 404 |
-| [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist) | 404 |
-| [Azure NetApp Files cost model](/azure/azure-netapp-files/azure-netapp-files-cost-model) | 404 |
-| [service level](/azure/azure-netapp-files/azure-netapp-files-service-levels) | 404 |
-| [cool access](/azure/azure-netapp-files/cool-access-introduction) | 404 |
-| [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) | 404 |
-| [service levels](/azure/azure-netapp-files/azure-netapp-files-service-levels) | 404 |
-| [manual Quality of Service (QoS)](/azure/azure-netapp-files/manage-manual-qos-capacity-pool) | 404 |
-| [Performance considerations for Azure NetApp Files](/azure/azure-netapp-files/azure-netapp-files-performance-considerations) | 404 |
-| [Automatic QoS](/azure/azure-netapp-files/azure-netapp-files-performance-considerations) | 404 |
-| [manual QoS](/azure/azure-netapp-files/azure-netapp-files-performance-considerations#manual-qos-volume-quota-and-throughput) | 404 |
-| [Ultra, Premium, Standard and Flexible service levels](/azure/azure-netapp-files/azure-netapp-files-service-levels#supported-service-levels) | 404 |
-| [change the service level of a volume](/azure/azure-netapp-files/dynamic-change-volume-service-level) | 404 |
-| [Pricing examples](/azure/azure-netapp-files/azure-netapp-files-cost-model#pricing-examples) | 404 |
-| [Abhishek Jain](https://www.linkedin.com/in/abhishek141088/) | 999 |
-| [Jason Scott](https://www.linkedin.com/in/jasonpaulscott/) | 999 |
-| [Justin Parisi](https://www.linkedin.com/in/jmparisi/) | 999 |
-| [What is Azure NetApp Files?](/azure/azure-netapp-files/azure-netapp-files-introduction) | 404 |
-| [Understand NAS concepts in Azure NetApp Files | Microsoft Learn](/azure/azure-netapp-files/network-attached-storage-concept) | 404 |
-| [Understand data protection and disaster recovery options in Azure NetApp Files | Microsoft Learn](/azure/azure-netapp-files/data-protection-disaster-recovery-options) | 404 |
-| [Migrate AIX workloads to Azure with Skytap](/azure/architecture/example-scenario/mainframe/migrate-aix-workloads-to-azure-with-skytap) | 404 |
-| [Migrate IBM i series to Azure with Skytap](/azure/architecture/example-scenario/mainframe/migrate-ibm-i-series-to-azure-with-skytap) | 404 |
-
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/example-scenario/mainframe/extend-mainframes-rest-apis-content.md
 
 | URL | State |
@@ -6037,6 +6286,7 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [Well-Architected Framework](/azure/well-architected/) | 404 |
 | [Design review checklist for Security](/azure/well-architected/security/checklist) | 404 |
 | [Network security groups](/azure/virtual-network/network-security-groups-overview) | 404 |
+| [For increased security, consider using Azure Bastion](https://azure.microsoft.com/services/azure-bastion) | 503 |
 | [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist) | 404 |
 | [Design review checklist for Operational Excellence](/azure/well-architected/operational-excellence/checklist) | 404 |
 | [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) | 404 |
@@ -6168,31 +6418,6 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [Ashish Khandelwal](https://www.linkedin.com/in/ashish-khandelwal-839a851a3/) | 999 |
 | [Analytics end-to-end with Microsoft Fabric](../dataplate2e/data-platform-end-to-end.yml) | 404 |
 
-* https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/example-scenario/mainframe/luminex-mainframe-file-tape-transfer-content.md
-
-| URL | State |
-| --- | --- |
-| [Azure Files](/azure/well-architected/service-guides/azure-files) | 404 |
-| [Azure Storage](/azure/well-architected/service-guides/storage-accounts/reliability) | 404 |
-| [Blob Storage](/azure/well-architected/service-guides/azure-blob-storage) | 404 |
-| [ExpressRoute](/azure/well-architected/service-guides/azure-expressroute) | 404 |
-| [Azure SQL](/azure/azure-sql/) | 404 |
-| [Azure SQL Database](/azure/well-architected/service-guides/azure-sql-database-well-architected-framework) | 404 |
-| [Azure Database for PostgreSQL](/azure/well-architected/service-guides/postgresql) | 404 |
-| [Azure Database for MySQL](/azure/well-architected/service-guides/azure-db-mysql-cost-optimization) | 404 |
-| [Event Hubs](/azure/well-architected/service-guides/event-hubs) | 404 |
-| [Power BI](/power-bi/fundamentals/power-bi-overview) | 404 |
-| [Data Lake Storage](/azure/storage/blobs/data-lake-storage-introduction) | 404 |
-| [Azure Stack Hub storage: Differences and considerations](/azure-stack/user/azure-stack-acs-differences?source=recommendations&view=azs-2206) | 404 |
-| [Microsoft Azure Well-Architected Framework](/azure/well-architected/) | 404 |
-| [Design review checklist for Reliability](/azure/well-architected/reliability/checklist) | 404 |
-| [Design review checklist for Security](/azure/well-architected/security/checklist) | 404 |
-| [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist) | 404 |
-| [Design review checklist for Operational Excellence](/azure/well-architected/operational-excellence/checklist) | 404 |
-| [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) | 404 |
-| [Daniel Saunders](https://www.linkedin.com/in/daniel-saunders-b0735491) | 999 |
-| [Bhuvi Vatsey](https://www.linkedin.com/in/bvatsey) | 999 |
-
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/example-scenario/mainframe/mainframe-data-replication-azure-data-platform-content.md
 
 | URL | State |
@@ -6313,68 +6538,6 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [Replicate and sync mainframe data in Azure](../../reference-architectures/migration/sync-mainframe-data-with-azure.yml) | 404 |
 | [Mainframe file replication and sync on Azure](../../solution-ideas/articles/mainframe-azure-file-replication.yml) | 404 |
 
-* https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/example-scenario/mainframe/mainframe-modernization-bmc-ami-cloud-content.md
-
-| URL | State |
-| --- | --- |
-| [Azure ExpressRoute](/azure/well-architected/service-guides/azure-expressroute) | 404 |
-| [Azure VPN Gateway](/azure/vpn-gateway/vpn-gateway-about-vpngateways) | 404 |
-| [Microsoft Entra ID](/entra/fundamentals/whatis) | 404 |
-| [Azure Database for PostgreSQL](/azure/well-architected/service-guides/postgresql) | 404 |
-| [Azure Database for MySQL](/azure/well-architected/service-guides/azure-db-mysql-cost-optimization) | 404 |
-| [Azure SQL Database](/azure/well-architected/service-guides/azure-sql-database) | 404 |
-| [Azure SQL Managed Instance](/azure/well-architected/service-guides/azure-sql-managed-instance/reliability) | 404 |
-| [Microsoft Fabric](/fabric/get-started/microsoft-fabric-overview) | 404 |
-| [shortcuts](/fabric/onelake/onelake-shortcuts) | 404 |
-| [Azure Storage](/azure/storage/common/storage-introduction) | 404 |
-| [Azure Monitor](/azure/azure-monitor/fundamentals/overview) | 404 |
-| [Power BI](/power-bi/fundamentals/power-bi-overview) | 404 |
-| [Data Lake Storage](/fabric/onelake/create-adls-shortcut) | 404 |
-| [Blob Storage](/fabric/onelake/create-blob-shortcut) | 404 |
-| [Direct Lake](/fabric/fundamentals/direct-lake-overview) | 404 |
-| [Seetharaman Sankaran](https://www.linkedin.com/in/seetharamsan/) | 999 |
-| [Pratim Dasgupta](https://www.linkedin.com/in/pratimdasgupta/) | 999 |
-| [Ashish Khandelwal](https://www.linkedin.com/in/ashish-khandelwal-839a851a3/) | 999 |
-| [Raphael Sayegh](https://www.linkedin.com/in/raphael-sayegh/) | 999 |
-| [What is ExpressRoute?](/azure/expressroute/expressroute-introduction) | 404 |
-| [What is VPN Gateway?](/azure/vpn-gateway/vpn-gateway-about-vpngateways) | 404 |
-| [Introduction to Data Lake Storage](/azure/storage/blobs/data-lake-storage-introduction) | 404 |
-| [What is SQL Database?](/azure/azure-sql/database/sql-database-paas-overview) | 404 |
-| [What is Azure Database for PostgreSQL?](/azure/postgresql/flexible-server/service-overview) | 404 |
-| [What is Azure Database for MySQL?](/azure/mysql/flexible-server/overview) | 404 |
-| [What is Power BI?](/power-bi/fundamentals/power-bi-overview) | 404 |
-| [Azure Monitor overview](/azure/azure-monitor/fundamentals/overview) | 404 |
-| [Modernize mainframe and midrange data](../../example-scenario/mainframe/modernize-mainframe-data-to-azure.yml) | 404 |
-| [Reengineer mainframe batch applications on Azure](../../example-scenario/mainframe/reengineer-mainframe-batch-apps-azure.yml) | 404 |
-| [Replicate and sync mainframe data to Azure](../../reference-architectures/migration/sync-mainframe-data-with-azure.yml) | 404 |
-| [Mainframe file replication and sync on Azure](../../solution-ideas/articles/mainframe-azure-file-replication.yml) | 404 |
-
-* https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/example-scenario/mainframe/mainframe-rehost-architecture-azure-content.md
-
-| URL | State |
-| --- | --- |
-| [Virtual Machines](/azure/well-architected/service-guides/virtual-machines) | 404 |
-| [Azure Virtual Network](/azure/well-architected/service-guides/virtual-network) | 404 |
-| [Azure Virtual Network Interface Cards](/azure/virtual-network/virtual-network-network-interface) | 404 |
-| [Azure Disk Storage](/azure/well-architected/service-guides/azure-disk-storage) | 404 |
-| [Azure Files](/azure/well-architected/service-guides/azure-files) | 404 |
-| [Azure ExpressRoute](/azure/well-architected/service-guides/azure-expressroute) | 404 |
-| [AKS](/azure/well-architected/service-guides/azure-kubernetes-service) | 404 |
-| [Azure Container Registry](/azure/container-registry/container-registry-intro) | 404 |
-| [Site Recovery](/azure/site-recovery/site-recovery-overview) | 404 |
-| [Microsoft Azure Well-Architected Framework](/azure/well-architected/) | 404 |
-| [Design review checklist for Reliability](/azure/well-architected/reliability/checklist) | 404 |
-| [Design review checklist for Security](/azure/well-architected/security/checklist) | 404 |
-| [Network security groups](/azure/virtual-network/network-security-groups-overview) | 404 |
-| [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist) | 404 |
-| [Design review checklist for Operational Excellence](/azure/well-architected/operational-excellence/checklist) | 404 |
-| [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) | 404 |
-| [Sunnyma Ghosh](https://www.linkedin.com/in/sunnymaghosh) | 999 |
-| [Bhaskar Bandam](https://www.linkedin.com/in/bhaskar-bandam-75202a9) | 999 |
-| [Azure white papers about mainframe topics](/azure/virtual-machines/workloads/mainframe-rehosting/mainframe-white-papers) | 404 |
-| [Mainframe rehosting on Azure virtual machines](/azure/virtual-machines/workloads/mainframe-rehosting/overview) | 404 |
-| [Mainframe workloads supported on Azure](/azure/virtual-machines/workloads/mainframe-rehosting/partner-workloads) | 404 |
-
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/example-scenario/mainframe/mainframe-replication-precisely-connect-content.md
 
 | URL | State |
@@ -6409,35 +6572,6 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [Re-engineer mainframe batch applications on Azure](../../example-scenario/mainframe/reengineer-mainframe-batch-apps-azure.yml) | 404 |
 | [Replicate and sync mainframe data to Azure](../../reference-architectures/migration/sync-mainframe-data-with-azure.yml) | 404 |
 | [Mainframe file replication and sync on Azure](../../solution-ideas/articles/mainframe-azure-file-replication.yml) | 404 |
-
-* https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/example-scenario/mainframe/micro-focus-server-content.md
-
-| URL | State |
-| --- | --- |
-| [availability sets](/azure/virtual-machines/availability#availability-sets) | 404 |
-| [Application Gateway](/azure/well-architected/service-guides/azure-application-gateway) | 404 |
-| [Azure Bastion](/azure/bastion/bastion-overview) | 404 |
-| [Azure Virtual Machines](/azure/well-architected/service-guides/virtual-machines) | 404 |
-| [Azure Managed Disks](/azure/virtual-machines/managed-disks-overview) | 404 |
-| [Azure Virtual Network](/azure/well-architected/service-guides/virtual-network) | 404 |
-| [virtual network interface card (NIC)](/azure/virtual-network/virtual-network-network-interface) | 404 |
-| [Azure Managed Redis](/azure/redis/overview) | 404 |
-| [ExpressRoute](/azure/well-architected/service-guides/azure-expressroute) | 404 |
-| [Load Balancer](/azure/well-architected/service-guides/azure-load-balancer/reliability) | 404 |
-| [Site Recovery](/azure/site-recovery/site-recovery-overview) | 404 |
-| [SQL Server on Azure VMs](/azure/azure-sql/virtual-machines/windows/sql-server-on-azure-vm-iaas-what-is-overview) | 404 |
-| [SQL Server IaaS Agent extension](/azure/azure-sql/virtual-machines/windows/sql-server-iaas-agent-extension-automate-management) | 404 |
-| [Microsoft Azure Well-Architected Framework](/azure/well-architected/) | 404 |
-| [Design review checklist for Reliability](/azure/well-architected/reliability/checklist) | 404 |
-| [Design review checklist for Security](/azure/well-architected/security/checklist) | 404 |
-| [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist) | 404 |
-| [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) | 404 |
-| [availability sets](/azure/virtual-machines/availability#availability-sets) | 404 |
-| [Jonathon Frost](https://www.linkedin.com/in/jjfrost/) | 999 |
-| [VM instances](/azure/architecture/framework/cost/optimize-vm) | 404 |
-| [Microsoft Azure Well-Architected Framework](/azure/well-architected/) | 404 |
-| [Replicate and sync mainframe data in Azure](../../reference-architectures/migration/sync-mainframe-data-with-azure.yml) | 404 |
-| [Multi-tier web application built for HA/DR](../infrastructure/multi-tier-app-disaster-recovery.yml) | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/example-scenario/mainframe/migrate-aix-workloads-to-azure-with-skytap-content.md
 
@@ -6769,7 +6903,6 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [What is ExpressRoute?](/azure/expressroute/expressroute-introduction) | 404 |
 | [Microsoft Fabric documentation](/fabric) | 404 |
 | [Re-engineer mainframe batch applications on Azure](../../example-scenario/mainframe/reengineer-mainframe-batch-apps-azure.yml) | 404 |
-| [Rehost a general mainframe on Azure](../../example-scenario/mainframe/mainframe-rehost-architecture-azure.yml) | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/example-scenario/mainframe/unisys-clearpath-forward-mainframe-rehost-content.md
 
@@ -7201,35 +7334,6 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [Jonathon Frost](https://www.linkedin.com/in/jjfrost) | 999 |
 | [Multi-tier web application built for HA/DR](../infrastructure/multi-tier-app-disaster-recovery.yml) | 404 |
 | [Run a Linux VM on Azure](../../reference-architectures/n-tier/linux-vm.yml) | 404 |
-
-* https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/example-scenario/web/design-api-developer-experiences-management-github-content.md
-
-| URL | State |
-| --- | --- |
-| [Azure API Management](/azure/well-architected/service-guides/api-management/reliability) | 404 |
-| [rate limits and quotas](/azure/api-management/api-management-sample-flexible-throttling) | 404 |
-| [developer portal](/azure/api-management/api-management-howto-developer-portal) | 404 |
-| [Gateway Routing pattern](../../patterns/gateway-routing.yml) | 404 |
-| [Azure App Service](/azure/well-architected/service-guides/app-service-web-apps) | 404 |
-| [Microsoft Entra External ID](/entra/external-id/customers/overview-customers-ciam) | 404 |
-| [Microsoft identify platform](/entra/identity-platform/v2-overview) | 404 |
-| [Microsoft Entra External ID](/entra/external-id/customers/overview-customers-ciam) | 404 |
-| [Microsoft Azure Well-Architected Framework](/azure/well-architected) | 404 |
-| [autoscaling](/azure/api-management/api-management-howto-autoscale) | 404 |
-| [Availability zone support for Azure API Management](/azure/api-management/zone-redundancy) | 404 |
-| [Azure security baseline for API Management](/security/benchmark/azure/baselines/api-management-security-baseline) | 404 |
-| [create IP address restrictions](/azure/app-service/app-service-ip-restrictions) | 404 |
-| [OpenID Connect](/entra/identity-platform/v2-protocols-oidc) | 404 |
-| [Secure your apps using External ID in an external tenant](/entra/external-id/customers/overview-customers-ciam) | 404 |
-| [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist) | 404 |
-| [Subhajit Chatterjee](https://www.linkedin.com/in/subhajit-chatterjee-b9b53b44) | 999 |
-| [Monetization with Azure API Management](/azure/api-management/monetization-overview) | 404 |
-| [Overview of the developer portal](/azure/api-management/api-management-howto-developer-portal) | 404 |
-| [Self-host the API Management developer portal](/azure/api-management/developer-portal-self-host) | 404 |
-| [Self-hosted gateway](/azure/api-management/self-hosted-gateway-overview) | 404 |
-| [Protect APIs with Azure Application Gateway and Azure API Management](../../web-apps/api-management/architectures/protect-apis.yml) | 404 |
-| [Baseline zone-redundant web app - Azure Architecture Center](../../web-apps/app-service/architectures/baseline-zone-redundant.yml) | 404 |
-| [Basic enterprise integration on Azure](../../reference-architectures/enterprise-integration/basic-enterprise-integration.yml) | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/example-scenario/wsus/index-content.md
 
@@ -7683,6 +7787,7 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [Azure Functions](/azure/azure-functions/functions-overview) | 404 |
 | [Event Grid trigger](/azure/azure-functions/functions-bindings-event-grid-trigger) | 404 |
 | [Azure Service Bus trigger](/azure/azure-functions/functions-bindings-service-bus-trigger) | 404 |
+| [MassTransit](https://masstransit.io/documentation/configuration/sagas/overview) | 404 |
 | [Azure Stream Analytics](/azure/stream-analytics/stream-analytics-introduction) | 404 |
 | [Azure IoT Hub](/azure/iot-hub/iot-concepts-and-iot-hub) | 404 |
 | [Event Hubs](/azure/event-hubs/event-hubs-about) | 404 |
@@ -7695,11 +7800,12 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [Compensating Transaction](/azure/architecture/patterns/compensating-transaction) | 404 |
 | [reply-to header](/dotnet/api/azure.messaging.servicebus.servicebusmessage.replyto) | 404 |
 | [pipes and filters](../../patterns/pipes-and-filters.yml) | 404 |
+| [event sourcing](../../patterns/event-sourcing.md) | 404 |
 | [Specific domains](../../microservices/model/domain-analysis.md) | 404 |
 | [Asynchronous messaging options](../technology-choices/messaging.md) | 404 |
 | [Publisher-Subscriber](../../patterns/publisher-subscriber.md) | 404 |
 | [Competing Consumers](../../patterns/competing-consumers.yml) | 404 |
-| [Event Sourcing](../../patterns/event-sourcing.yml) | 404 |
+| [Event Sourcing](../../patterns/event-sourcing.md) | 404 |
 | [Compensating Transaction](../../patterns/compensating-transaction.yml) | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/guide/architecture-styles/index.md
@@ -8127,6 +8233,7 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [Bulkhead pattern](../../patterns/bulkhead.md) | 404 |
 | [Queue-Based Load Leveling pattern](../../patterns/queue-based-load-leveling.yml) | 404 |
 | [Compensating Transaction pattern](../../patterns/compensating-transaction.yml) | 404 |
+| [MassTransit](https://masstransit.io/documentation/patterns/saga) | 404 |
 | [Throttling pattern](../../patterns/throttling.yml) | 404 |
 | [Leader Election pattern](../../patterns/leader-election.yml) | 404 |
 | [Azure Chaos Studio](/azure/chaos-studio/) | 404 |
@@ -8507,7 +8614,6 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [VMware agent-based migration architecture](/azure/migrate/agent-based-migration-architecture?toc=/azure/architecture/toc.json&bc=/azure/architecture/_bread/toc.json) | 404 |
 | [Modernize mainframe and midrange data](/azure/architecture/example-scenario/mainframe/modernize-mainframe-data-to-azure) | 404 |
 | [General mainframe refactor to Azure](../../example-scenario/mainframe/general-mainframe-refactor.yml) | 404 |
-| [Rehost a general mainframe on Azure](../../example-scenario/mainframe/mainframe-rehost-architecture-azure.yml) | 404 |
 | [Migrate an Oracle database to Azure](../../databases/idea/topic-migrate-oracle-azure.yml) | 404 |
 | [Banking system cloud transformation on Azure](../../example-scenario/banking/banking-system-cloud-transformation.yml) | 404 |
 | [Patterns and implementations for a banking cloud transformation](../../example-scenario/banking/patterns-and-implementations.yml) | 404 |
@@ -8687,7 +8793,6 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [Azure Resource Graph](/azure/governance/resource-graph/overview) | 404 |
 | [Azure Policy](/azure/governance/policy/overview) | 404 |
 | [Defender for Cloud regulatory compliance portal](/azure/defender-for-cloud/regulatory-compliance-dashboard) | 404 |
-| [Microsoft Purview portal](https://compliance.microsoft.com) | 503 |
 | [Defender for Cloud](/azure/defender-for-cloud/regulatory-compliance-dashboard) | 404 |
 | [CIS Microsoft Azure Foundations Benchmark](/azure/governance/policy/samples/cis-azure-2-0-0) | 404 |
 | [John Downs](https://www.linkedin.com/in/john-downs/) | 999 |
@@ -8835,7 +8940,7 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [Arsen Vladimirskiy](https://www.linkedin.com/in/arsenv) | 999 |
 | [Claim-Check pattern](../../../patterns/claim-check.yml) | 404 |
 | [Competing Consumers pattern](../../../patterns/competing-consumers.yml) | 404 |
-| [Event Sourcing pattern](../../../patterns/event-sourcing.yml) | 404 |
+| [Event Sourcing pattern](../../../patterns/event-sourcing.md) | 404 |
 | [Pipes and Filters pattern](../../../patterns/pipes-and-filters.yml) | 404 |
 | [Publisher-Subscriber pattern](../../../patterns/publisher-subscriber.md) | 404 |
 | [Sequential Convoy pattern](../../../patterns/sequential-convoy.yml) | 404 |
@@ -9912,34 +10017,6 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [Arsen Vladimirskiy](https://www.linkedin.com/in/arsenv) | 999 |
 | [Storage and data approaches for multitenancy](../approaches/storage-data.md) | 404 |
 
-* https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/guide/networking/global-web-applications/mission-critical-app-service-content.md
-
-| URL | State |
-| --- | --- |
-| [reliable web app pattern](/azure/architecture/reference-architectures/reliable-web-app/dotnet/pattern-overview) | 404 |
-| [Reliable web app pattern for .NET](/azure/architecture/web-apps/guides/enterprise-app-patterns/reliable-web-app/dotnet/guidance) | 404 |
-| [Well-Architected Framework mission-critical workload](/azure/architecture/framework/mission-critical/mission-critical-overview) | 404 |
-| [scale-unit architecture](/azure/well-architected/mission-critical/mission-critical-application-design#scale-unit-architecture) | 404 |
-| [global distribution](/azure/well-architected/mission-critical/mission-critical-application-design#global-distribution) | 404 |
-| [reliable web app pattern](/azure/architecture/reference-architectures/reliable-web-app/dotnet/pattern-overview#architecture-and-pattern) | 404 |
-| [blue-green deployment](/azure/architecture/reference-architectures/containers/aks-mission-critical/mission-critical-deploy-test#deployment-zero-downtime-updates) | 404 |
-| [Application design of mission-critical workloads on Azure](/azure/well-architected/mission-critical/mission-critical-application-design) | 404 |
-| [App Service](/azure/well-architected/service-guides/app-service-web-apps) | 404 |
-| [Azure Managed Redis](/azure/redis/overview) | 404 |
-| [App Configuration](/azure/azure-app-configuration/overview) | 404 |
-| [Azure SQL](/azure/azure-sql/) | 404 |
-| [Application Insights](/azure/well-architected/service-guides/application-insights) | 404 |
-| [Application platform considerations for mission-critical workloads on Azure](/azure/architecture/framework/mission-critical/mission-critical-application-platform) | 404 |
-| [Data platform considerations for mission-critical workloads on Azure](/azure/well-architected/mission-critical/mission-critical-data-platform) | 404 |
-| [Health modeling and observability of mission-critical workloads on Azure](/azure/architecture/framework/mission-critical/mission-critical-health-modeling) | 404 |
-| [Zero-downtime deployments](/azure/architecture/framework/mission-critical/mission-critical-deployment-testing#zero-downtime-deployment) | 404 |
-| [Deployment and testing for mission-critical workloads on Azure](/azure/architecture/framework/mission-critical/mission-critical-deployment-testing) | 404 |
-| [Learning path: Build mission-critical workloads on Azure](/training/paths/build-mission-critical-workloads) | 404 |
-| [Challenge project: Design a mission-critical web application](/training/modules/azure-mission-critical) | 404 |
-| [Learn module: Design a health model for your mission-critical workload](/training/modules/design-health-model-mission-critical-workload) | 404 |
-| [Mission-critical architecture on Azure](/azure/architecture/reference-architectures/containers/aks-mission-critical/mission-critical-intro) | 404 |
-| [Continuous validation with Azure Load Testing and Azure Chaos Studio](/azure/architecture/guide/testing/mission-critical-deployment-testing) | 404 |
-
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/guide/networking/global-web-applications/mission-critical-content-delivery.md
 
 | URL | State |
@@ -10100,102 +10177,105 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [Subscription decision guide](/azure/cloud-adoption-framework/decision-guides/subscriptions) | 404 |
 | [SAP workloads on Azure: planning and deployment checklist](/azure/virtual-machines/workloads/sap/sap-deployment-checklist?toc=/azure/architecture/toc.json&bc=/azure/architecture/_bread/toc.json) | 404 |
 
-* https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/guide/sap/sap-netweaver-content.md
+* https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/guide/sap/sap-netweaver.md
 
 | URL | State |
 | --- | --- |
-| [Azure Virtual Network](/azure/virtual-network/virtual-networks-overview) | 404 |
+| [Azure Virtual Machines](/azure/well-architected/service-guides/virtual-machines) | 404 |
+| [Multiple SAP systems on Windows](/azure/sap/workloads/sap-high-availability-guide-wsfc-shared-disk#optional-configurations) | 404 |
+| [SIOS DataKeeper Cluster Edition](https://marketplace.microsoft.com/product/sios_datakeeper.sios-datakeeper-8) | 403 |
+| [Azure Storage](/azure/storage/common/storage-introduction) | 404 |
+| [Azure managed disks](/azure/virtual-machines/managed-disks-overview) | 404 |
+| [Azure Virtual Network](/azure/well-architected/service-guides/virtual-network) | 404 |
 | [hub-spoke topology](../../networking/architecture/hub-spoke.yml) | 404 |
-| [peered together](/azure/virtual-network/virtual-network-peering-overview) | 404 |
-| [Azure Bastion](/azure/bastion/bastion-overview) | 404 |
-| [Azure Private DNS](/azure/dns/private-dns-overview) | 404 |
-| [Azure Load Balancer](/azure/load-balancer/load-balancer-standard-availability-zones) | 404 |
-| [Load Balancer configuration](/azure/sap/workloads/high-availability-guide-standard-load-balancer-outbound-connections) | 404 |
-| [multiple SAP systems on Windows](/azure/virtual-machines/workloads/sap/high-availability-guide) | 404 |
-| [network security groups](/azure/virtual-network/tutorial-filter-network-traffic-cli) | 404 |
-| [application security groups](/azure/virtual-network/security-overview) | 404 |
-| [ExpressRoute](../../reference-architectures/hybrid-networking/expressroute.yml) | 404 |
-| [site-to-site](../../reference-architectures/hybrid-networking/expressroute.yml) | 404 |
+| [Virtual network peering](/azure/virtual-network/virtual-network-peering-overview) | 404 |
+| [ExpressRoute](../../reference-architectures/hybrid-networking/expressroute-vpn-failover.yml) | 404 |
+| [site-to-site VPN](/azure/vpn-gateway/vpn-gateway-about-vpngateways) | 404 |
 | [ExpressRoute Global Reach](/azure/expressroute/expressroute-global-reach) | 404 |
 | [ExpressRoute FastPath](/azure/expressroute/about-fastpath) | 404 |
-| [Azure Managed Disks](/azure/virtual-machines/windows/managed-disks-overview) | 404 |
-| [Azure Virtual Machines planning and implementation for SAP NetWeaver](/azure/virtual-machines/workloads/sap/planning-guide) | 404 |
-| [Azure Files](/azure/storage/files/storage-files-introduction) | 404 |
-| [Azure NetApp Files](/azure/azure-netapp-files/azure-netapp-files-introduction) | 404 |
-| [Azure Files](/azure/virtual-machines/workloads/sap/high-availability-guide-windows-azure-files-smb) | 404 |
-| [Azure shared disks](/azure/virtual-machines/disks-shared#linux) | 404 |
-| [Windows Server failover cluster for SAP Central Services cluster](/azure/virtual-machines/workloads/sap/sap-high-availability-infrastructure-wsfc-shared-disk) | 404 |
-| [SIOS DataKeeper Cluster Edition](https://marketplace.microsoft.com/product/sios_datakeeper.sios-datakeeper-8) | 403 |
-| [Cloud Witness](/windows-server/failover-clustering/deploy-cloud-witness) | 404 |
-| [Azure file share witness](/windows-server/failover-clustering/file-share-witness) | 404 |
-| [Azure portal](/azure/virtual-network/tutorial-filter-network-traffic) | 404 |
-| [PowerShell](/azure/virtual-network/tutorial-filter-network-traffic-powershell) | 404 |
-| [Azure CLI](/azure/virtual-network/tutorial-filter-network-traffic-cli) | 404 |
+| [Azure Bastion](/azure/bastion/bastion-overview) | 404 |
+| [Network security groups (NSGs)](/azure/virtual-network/tutorial-filter-network-traffic-cli) | 404 |
+| [Application security groups (ASGs)](/azure/virtual-network/application-security-groups) | 404 |
+| [Azure private DNS](/azure/dns/private-dns-overview) | 404 |
+| [Azure Standard Load Balancer](/azure/load-balancer/skus) | 404 |
+| [standard load balancer configuration](/azure/load-balancer/skus) | 404 |
+| [Azure Application Gateway](/azure/well-architected/service-guides/azure-application-gateway) | 404 |
+| [Azure portal](/azure/virtual-network/tutorial-filter-network-traffic?tabs=portal) | 404 |
+| [Azure PowerShell](/azure/virtual-network/tutorial-filter-network-traffic?tabs=powershell) | 404 |
+| [Azure CLI](/azure/virtual-network/tutorial-filter-network-traffic?tabs=cli) | 404 |
 | [ExpressRoute Global Reach](/azure/expressroute/expressroute-global-reach) | 404 |
-| [FastPath](/azure/expressroute/about-fastpath) | 404 |
-| [Azure Load Balancer](https://azure.microsoft.com/blog/azure-load-balancer-new-distribution-mode) | 503 |
-| [Azure Load Balancer](/azure/load-balancer/load-balancer-standard-overview) | 404 |
-| [additional configurations](/azure/virtual-machines/workloads/sap/high-availability-guide-standard-load-balancer-outbound-connections) | 404 |
-| [Azure Managed Disks](/azure/storage/storage-managed-disks-overview) | 404 |
+| [ExpressRoute FastPath](/azure/expressroute/about-fastpath) | 404 |
+| [internal load balancer](/azure/load-balancer/quickstart-load-balancer-standard-internal-portal) | 404 |
+| [extra configurations](/azure/sap/workloads/high-availability-guide-standard-load-balancer-outbound-connections) | 404 |
+| [Azure Premium SSD storage](/azure/virtual-machines/managed-disks-overview) | 404 |
 | [Azure file shares](/azure/storage/files/storage-files-introduction) | 404 |
 | [Azure shared disks](/azure/virtual-machines/disks-shared) | 404 |
-| [Premium SSDs and Azure Ultra Disk Storage](/azure/storage/storage-managed-disks-overview) | 404 |
-| [Cloud Witness](/windows-server/failover-clustering/deploy-cloud-witness) | 404 |
+| [Premium SSDs and Azure Ultra Disk Storage](/azure/virtual-machines/managed-disks-overview) | 404 |
+| [Cloud Witness](/windows-server/failover-clustering/deploy-quorum-witness) | 404 |
 | [cool and archive access tiers](/azure/storage/blobs/access-tiers-overview) | 404 |
-| [Ultra Disk Storage](/azure/virtual-machines/linux/disks-enable-ultra-ssd) | 404 |
-| [Azure Managed Disk types](/azure/virtual-machines/disks-types) | 404 |
+| [Premium SSD v2](/azure/virtual-machines/disks-types#premium-ssd-v2) | 404 |
+| [Ultra Disk Storage](/azure/virtual-machines/disks-types#ultra-disks) | 404 |
+| [Azure managed disk types](/azure/virtual-machines/disks-types) | 404 |
 | [Azure NetApp Files](/azure/azure-netapp-files/azure-netapp-files-introduction) | 404 |
 | [Oracle](/azure/azure-netapp-files/performance-oracle-single-volumes) | 404 |
-| [host application data](/azure/virtual-machines/workloads/sap/high-availability-guide-windows-netapp-files-smb) | 404 |
-| [Write Accelerator](/azure/virtual-machines/windows/how-to-enable-write-accelerator) | 404 |
-| [Accelerated Networking](/azure/virtual-network/accelerated-networking-overview?tabs=redhat) | 404 |
-| [performance optimization](/azure/virtual-machines/linux/premium-storage-performance) | 404 |
-| [Premium SSD v2](/azure/virtual-machines/disks-types) | 404 |
-| [Ultra Disk Storage](/azure/virtual-machines/linux/disks-enable-ultra-ssd) | 404 |
-| [Write Accelerator](/azure/virtual-machines/windows/how-to-enable-write-accelerator) | 404 |
-| [Azure Virtual Machines planning and implementation for SAP NetWeaver](/azure/virtual-machines/workloads/sap/planning-guide) | 404 |
-| [proximity placement groups](/azure/virtual-machines/workloads/sap/sap-proximity-placement-scenarios) | 404 |
-| [Availability zones](/azure/reliability/availability-zones-overview) | 404 |
-| [PsPing](/sysinternals/downloads/psping) | 404 |
-| [different deployment options](/azure/sap/workloads/sap-high-availability-architecture-scenarios#comparison-of-different-deployment-types-for-sap-workload) | 404 |
+| [hosting application data](/azure/sap/workloads/high-availability-guide-windows-netapp-files-smb) | 404 |
+| [Well-Architected Framework](/azure/well-architected/) | 404 |
+| [Design review checklist for Reliability](/azure/well-architected/reliability/checklist) | 404 |
+| [deploy VM resources](/azure/sap/workloads/sap-high-availability-architecture-scenarios#comparison-of-different-deployment-types-for-sap-workload) | 404 |
 | [High-availability architecture and scenarios for SAP NetWeaver](/azure/sap/workloads/sap-high-availability-architecture-scenarios) | 404 |
 | [Azure Files](/azure/storage/files/storage-files-introduction) | 404 |
 | [Azure NetApp Files](/azure/azure-netapp-files/azure-netapp-files-introduction) | 404 |
 | [Azure shared disks](/azure/virtual-machines/disks-shared) | 404 |
-| [Windows server failover cluster for SAP Central Services](/azure/virtual-machines/workloads/sap/sap-high-availability-infrastructure-wsfc-shared-disk) | 404 |
-| [ASCS cluster using Azure shared disks](/azure/virtual-machines/workloads/sap/sap-high-availability-infrastructure-wsfc-shared-disk) | 404 |
-| [high availability port](/azure/load-balancer/load-balancer-ha-ports-overview) | 404 |
-| [Azure Virtual Machines DBMS deployment for SAP NetWeaver](/azure/virtual-machines/workloads/sap/dbms_guide_general) | 404 |
-| [considerations](/azure/virtual-machines/workloads/sap/sap-ha-availability-zones) | 404 |
-| [active/passive](/azure/virtual-machines/workloads/sap/sap-ha-availability-zones#activepassive-deployment) | 404 |
-| [active/active](/azure/virtual-machines/workloads/sap/sap-ha-availability-zones#activeactive-deployment) | 404 |
-| [Disaster recovery overview and infrastructure guidelines for SAP workload](/azure/sap/workloads/disaster-recovery-overview-guide) | 404 |
-| [Disaster recovery guidelines for SAP application](/azure/sap/workloads/disaster-recovery-sap-guide?tabs=linux) | 404 |
+| [Windows Server failover cluster for SAP Central Services](/azure/virtual-machines/workloads/sap/sap-high-availability-infrastructure-wsfc-shared-disk) | 404 |
+| [Prepare Azure infrastructure for an ASCS cluster by using Azure shared disks](/azure/sap/workloads/sap-high-availability-infrastructure-wsfc-shared-disk) | 404 |
+| [high-availability port](/azure/load-balancer/load-balancer-ha-ports-overview) | 404 |
+| [Virtual Machines DBMS deployment for SAP NetWeaver](/azure/sap/workloads/dbms-guide-general) | 404 |
+| [factors](/azure/sap/workloads/high-availability-zones) | 404 |
+| [active/passive](/azure/sap/workloads/high-availability-zones?tabs=passive#deployment-types) | 404 |
+| [active/active deployment](/azure/sap/workloads/high-availability-zones?tabs=active#deployment-types) | 404 |
+| [DR overview and infrastructure guidelines for SAP workloads](/azure/sap/workloads/disaster-recovery-overview-guide) | 404 |
+| [DR guidelines for SAP applications](/azure/sap/workloads/disaster-recovery-sap-guide?tabs=linux) | 404 |
 | [resource capacity](/azure/site-recovery/azure-to-azure-common-questions#capacity) | 404 |
 | [support matrix](/azure/site-recovery/azure-to-azure-support-matrix) | 404 |
+| [Azure Backup](/azure/backup/backup-azure-sql-database) | 404 |
+| [file-snapshot backups for database files in Azure](/sql/relational-databases/backup-restore/file-snapshot-backups-for-database-files-in-azure) | 404 |
+| [Backup and restore for Azure VMs Oracle database deployment for SAP workloads](/azure/sap/workloads/dbms-guide-oracle#backup-and-restore) | 404 |
+| [Design review checklist for Security](/azure/well-architected/security/checklist) | 404 |
+| [perimeter network](../../reference-architectures/dmz/secure-vnet-dmz.yml) | 404 |
+| [Security for your SAP landscape](/azure/sap/workloads/planning-guide#security-for-your-sap-landscape) | 404 |
+| [SQL Server Virtual Machines DBMS deployment for SAP NetWeaver](/azure/sap/workloads/dbms-guide-sqlserver) | 404 |
+| [Microsoft Sentinel](/azure/sentinel/sap/solution-overview) | 404 |
+| [Deployment overview](/azure/sentinel/sap/deployment-overview) | 404 |
+| [automation approach](/azure/update-manager/view-updates?tabs=singlevm-overview) | 404 |
+| [Azure role-based access control (Azure RBAC)](/azure/role-based-access-control/overview) | 404 |
+| [OAuth 2.0 with Microsoft Entra ID](/entra/identity-platform/v2-oauth2-auth-code-flow) | 404 |
+| [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist) | 404 |
+| [Azure VM reservations](/azure/cost-management-billing/reservations/save-compute-costs-reservations) | 404 |
+| [Azure spot VMs](/azure/virtual-machines/spot-vms) | 404 |
+| [Azure Reserved Virtual Machine Instances](/azure/virtual-machines/prepay-reserved-vm-instances) | 404 |
+| [constrained virtual CPU (vCPU) VM](/azure/virtual-machines/constrained-vcpu) | 404 |
+| [Design review checklist for Operational Excellence](/azure/well-architected/operational-excellence/checklist) | 404 |
 | [Azure Center for SAP solutions](/azure/sap/center-sap-solutions/overview) | 404 |
 | [dedicated hosts](/azure/virtual-machines/dedicated-hosts) | 404 |
-| [Azure Backup](/azure/backup/backup-azure-sql-database) | 404 |
-| [file-snapshot backups for database files in Azure](/sql/relational-databases/backup-restore/file-snapshot-backups-for-database-files-in-azure?view=sql-server-ver17) | 404 |
-| [Azure VM DBMS Deployment for SAP](/azure/virtual-machines/workloads/sap/dbms_guide_oracle) | 404 |
-| [Azure role-based access control (Azure RBAC)](/azure/role-based-access-control/overview) | 404 |
-| [OAuth 2.0 and Microsoft Entra ID](/entra/identity-platform/v2-oauth2-auth-code-flow) | 404 |
-| [Azure Monitor](/azure/azure-monitor/overview) | 404 |
+| [Azure Monitor](/azure/azure-monitor/fundamentals/overview) | 404 |
 | [Azure Monitor for SAP solutions](/azure/sap/monitor/about-azure-monitor-sap-solutions) | 404 |
-| [perimeter network](../../reference-architectures/dmz/secure-vnet-dmz.yml) | 404 |
-| [Azure Virtual Machines planning and implementation for SAP NetWeaver](/azure/virtual-machines/workloads/sap/planning-guide#security-recommendations) | 404 |
-| [Azure Disk Encryption](/azure/security/azure-security-disk-encryption-overview) | 404 |
-| [SQL Server Azure Virtual Machines DBMS deployment for SAP NetWeaver](/azure/virtual-machines/workloads/sap/dbms_guide_sqlserver) | 404 |
-| [Deploy Threat Monitoring for SAP in Microsoft Sentinel](/azure/sentinel/sap-deploy-solution) | 404 |
-| [automation approach](/azure/automation/update-management/manage-updates-for-vm) | 404 |
-| [constrained vCPU VM](/azure/virtual-machines/constrained-vcpu) | 404 |
-| [Azure Reservations](/azure/cost-management-billing/reservations/save-compute-costs-reservations) | 404 |
-| [Azure Reserved Virtual Machine Instances](/azure/virtual-machines/prepay-reserved-vm-instances) | 404 |
-| [SAP Community](https://www.sap.com/community.html) | 403 |
-| [Ben Trinh](https://www.linkedin.com/in/bentrinh) | 999 |
-| [Azure Virtual Machines planning and implementation for SAP NetWeaver](/azure/virtual-machines/workloads/sap/planning-guide) | 404 |
+| [SAP community](https://community.sap.com) | 403 |
+| [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) | 404 |
+| [Write Accelerator](/azure/virtual-machines/how-to-enable-write-accelerator) | 404 |
+| [accelerated networking](/azure/virtual-network/accelerated-networking-overview) | 404 |
+| [performance optimization](/azure/virtual-machines/premium-storage-performance) | 404 |
+| [Premium SSD v2](/azure/virtual-machines/disks-types) | 404 |
+| [Ultra Disk Storage](/azure/virtual-machines/disks-enable-ultra-ssd) | 404 |
+| [Write Accelerator](/azure/virtual-machines/how-to-enable-write-accelerator) | 404 |
+| [Virtual Machines planning and implementation for SAP NetWeaver](/azure/sap/workloads/planning-guide) | 404 |
+| [Proximity placement groups](/azure/sap/workloads/proximity-placement-scenarios#proximity-placement-groups) | 404 |
+| [Availability zones](/azure/reliability/availability-zones-overview) | 404 |
+| [PsPing](/sysinternals/downloads/psping) | 404 |
+| [Ben Trinh](https://www.linkedin.com/in/bentrinh/) | 999 |
+| [Steffen Mueller](https://www.linkedin.com/in/steffen-mueller-054ba455/) | 999 |
+| [Virtual Machines planning and implementation for SAP NetWeaver](/azure/virtual-machines/workloads/sap/planning-guide) | 404 |
 | [Use Azure to host and run SAP workload scenarios](/azure/virtual-machines/workloads/sap/get-started) | 404 |
-| [Run SAP production workloads using an Oracle Database on Azure](../../example-scenario/apps/sap-production.yml) | 404 |
+| [Run SAP production workloads by using an Oracle database on Azure](../../example-scenario/apps/sap-production.yml) | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/guide/sap/sap-s4hana.md
 
@@ -10648,7 +10728,6 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [Oracle databases on Azure infrastructure](/azure/virtual-machines/workloads/oracle/oracle-overview#oracle-databases-on-azure-infrastructure) | 404 |
 | [Applications on Oracle Linux and WebLogic server](/azure/virtual-machines/workloads/oracle/oracle-overview#applications-on-oracle-linux-and-weblogic-server) | 404 |
 | [Azure Service Fabric](/azure/service-fabric/service-fabric-application-scenarios) | 404 |
-| [Rehost a mainframe on Azure](/azure/architecture/example-scenario/mainframe/mainframe-rehost-architecture-azure) | 404 |
 | [Refactor a mainframe application for Azure](/azure/architecture/example-scenario/mainframe/general-mainframe-refactor) | 404 |
 | [Browse partner offerings on Azure compute](https://marketplace.microsoft.com/search/products?product=azure) | 403 |
 | [Azure Quantum](/azure/quantum/overview-azure-quantum) | 404 |
@@ -11144,7 +11223,7 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [FSLogix profile containers and Azure Files](/azure/virtual-desktop/fslogix-containers-azure-files?toc=/azure/architecture/toc.json&bc=/azure/architecture/_bread/toc.json) | 404 |
 | [Storage options for FSLogix profile containers in Azure Virtual Desktop](/azure/virtual-desktop/store-fslogix-profile?toc=/azure/architecture/toc.json&bc=/azure/architecture/_bread/toc.json) | 404 |
 | [Azure Virtual Desktop RDP Shortpath for managed networks](/azure/virtual-desktop/shortpath?toc=/azure/architecture/toc.json&bc=/azure/architecture/_bread/toc.json) | 404 |
-| [Multiregion Business Continuity and Disaster Recovery (BCDR) for Azure Virtual Desktop](../../example-scenario/azure-virtual-desktop/azure-virtual-desktop-multi-region-bcdr.yml) | 404 |
+| [Multiregion business continuity and disaster recovery (BCDR) for Azure Virtual Desktop](../../example-scenario/azure-virtual-desktop/azure-virtual-desktop-multi-region-bcdr.md) | 404 |
 | [Deploy Esri ArcGIS Pro in Azure Virtual Desktop](../../example-scenario/data/esri-arcgis-azure-virtual-desktop.yml) | 404 |
 | [AWS to Azure services comparison - End-user computing](../../aws-professional/index.md#end-user-computing) | 404 |
 
@@ -11565,7 +11644,7 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [Azure Monitor overview](/azure/azure-monitor/fundamentals/overview) | 404 |
 | [Change tracking and inventory overview](/azure/automation/change-tracking/overview-monitoring-agent) | 404 |
 | [Update Manager overview](/azure/update-manager/overview) | 404 |
-| [What are Azure Arc-enabled data services?](/azure/azure-arc/data/overview) | 502 |
+| [What are Azure Arc-enabled data services?](/azure/azure-arc/data/overview) | 404 |
 | [What are Azure Arc-enabled servers?](/azure/azure-arc/servers/overview) | 404 |
 | [What is the Backup service?](/azure/backup/backup-overview) | 404 |
 | [Azure Automation overview](/azure/automation/overview) | 404 |
@@ -11689,7 +11768,7 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [What's new in Azure Virtual Desktop](/azure/virtual-desktop/whats-new) | 404 |
 | [Azure Virtual Desktop on Azure Local](/azure/virtual-desktop/azure-local-overview) | 404 |
 | [Azure Local monitoring overview](/azure/azure-local/concepts/monitoring-overview) | 404 |
-| [Protect VM workloads by using Site Recovery on Azure Local](/azure/azure-local/manage/azure-site-recovery) | 404 |
+| [Protect VM workloads by using Site Recovery on Azure Local](/azure/azure-local/manage/azure-site-recovery) | 502 |
 | [Azure Arc overview](/azure/azure-arc/overview) | 404 |
 | [Upload, download, and manage data by using Azure Storage Explorer](/training/modules/upload-download-and-manage-data-with-azure-storage-explorer) | 404 |
 | [Azure hybrid options](../guide/technology-choices/hybrid-considerations.yml) | 404 |
@@ -12277,14 +12356,14 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [Azure Firewall](/azure/well-architected/service-guides/azure-firewall) | 404 |
 | [DNS Private Resolver](/azure/dns/dns-private-resolver-overview) | 404 |
 | [Azure DNS](/azure/dns/dns-overview) | 404 |
-| [Azure private DNS service](/azure/dns/private-dns-overview) | 404 |
-| [DNS forwarders](/windows-server/identity/ad-ds/plan/reviewing-dns-concepts#resolving-names-by-using-forwarding) | 404 |
+| [Azure private DNS](/azure/dns/private-dns-overview) | 404 |
+| [on-premises DNS conditional forwarder](/windows-server/identity/ad-ds/plan/reviewing-dns-concepts#resolving-names-by-using-forwarding) | 404 |
 | [Well-Architected Framework](/azure/well-architected/) | 404 |
 | [Design review checklist for Reliability](/azure/well-architected/reliability/checklist) | 404 |
-| [DNS Private Resolver with wildcard rules on an ExpressRoute gateway](/azure/expressroute/expressroute-about-virtual-network-gateways#gwsub) | 404 |
+| [DNS Private Resolver with wildcard rules on an ExpressRoute gateway](/azure/expressroute/expressroute-about-virtual-network-gateways#gateway-subnet) | 404 |
 | [Regional availability](/azure/dns/dns-private-resolver-overview#regional-availability) | 404 |
 | [Design review checklist for Security](/azure/well-architected/security/checklist) | 404 |
-| [DNS security extensions in preview](/azure/dns/dnssec) | 404 |
+| [DNS security extensions](/azure/dns/dnssec) | 404 |
 | [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist) | 404 |
 | [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) | 404 |
 | [Subnet restrictions](/azure/dns/dns-private-resolver-overview#subnet-restrictions) | 404 |
@@ -12293,14 +12372,14 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [Overview of reverse DNS and support in Azure](/azure/dns/dns-reverse-dns-overview) | 404 |
 | [Virtual network restrictions](/azure/dns/dns-private-resolver-overview#virtual-network-restrictions) | 404 |
 | [Moorthy Annadurai](https://www.linkedin.com/in/moorthy-annadurai/) | 999 |
-| [What is a virtual network link?](/azure/dns/private-dns-virtual-network-links) | 404 |
-| [What is Azure DNS?](/azure/dns/dns-overview) | 404 |
-| [What is the Azure private DNS service?](/azure/dns/private-dns-overview) | 404 |
-| [What is DNS Private Resolver?](/azure/dns/dns-private-resolver-overview) | 404 |
+| [Virtual network link](/azure/dns/private-dns-virtual-network-links) | 404 |
+| [Azure DNS](/azure/dns/dns-overview) | 404 |
+| [Azure private DNS](/azure/dns/private-dns-overview) | 404 |
+| [DNS Private Resolver](/azure/dns/dns-private-resolver-overview) | 404 |
 | [Azure DNS FAQ](/azure/dns/dns-faq) | 404 |
 | [Overview of reverse DNS and support in Azure](/azure/dns/dns-reverse-dns-overview) | 404 |
-| [Azure files accessed on-premises and secured by Active Directory Domain Services](../../example-scenario/hybrid/azure-files-on-premises-authentication.yml) | 404 |
-| [Design a hybrid DNS solution with Azure](../../hybrid/hybrid-dns-infra.yml) | 404 |
+| [Azure Files accessed on-premises and secured by Active Directory Domain Services](../../example-scenario/hybrid/azure-files-on-premises-authentication.yml) | 404 |
+| [Design a hybrid DNS solution by using Azure](../../hybrid/hybrid-dns-infra.yml) | 404 |
 | [Azure enterprise cloud file share](../../hybrid/azure-files-private.yml) | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/networking/architecture/hub-spoke-content.md
@@ -12523,6 +12602,7 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [Azure Front Door](/azure/frontdoor/scenarios#performance-efficiency) | 404 |
 | [Event Hubs](/azure/architecture/serverless/event-hubs-functions/performance-scale) | 404 |
 | [Paul Lizer](https://www.linkedin.com/in/paullizer) | 999 |
+| [Federal App Innovation - TIC 3.0](https://github.com/microsoft/Federal-App-Innovation-Community/tree/main/assets/topics/infrastructure/solutions/tic3.0) | 404 |
 | [What is Azure Firewall?](/azure/firewall/overview) | 404 |
 | [Azure Firewall documentation](/azure/firewall) | 404 |
 | [What is Azure Application Gateway?](/azure/application-gateway/overview) | 404 |
@@ -12859,53 +12939,49 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | --- | --- |
 | [high availability (HA)](/azure/well-architected/reliability/highly-available-multi-region-design) | 404 |
 | [Availability zones](/azure/aks/availability-zones) | 404 |
-| [Redundancy options for persistent volumes](/azure/aks/concepts-storage#storage-classes) | 404 |
-| [built-in storage classes](/azure/aks/concepts-storage#storage-classes) | 404 |
-| [Geo-redundancy options for Azure Container Registry (ACR)](/azure/container-registry/container-registry-geo-replication) | 404 |
-| [Build and deploy to Azure Kubernetes Service with Azure Pipelines](/azure/aks/devops-pipeline) | 404 |
-| [Tutorial: Deploy applications using GitOps with Flux v2](/azure/azure-arc/kubernetes/tutorial-use-gitops-flux2) | 404 |
-| [Understand the structure and syntax of ARM templates](/azure/azure-resource-manager/templates/syntax) | 404 |
+| [Redundancy options for persistent volumes (PVs)](/azure/aks/concepts-storage#storage-classes) | 404 |
+| [Azure Kubernetes Fleet Manager](/azure/kubernetes-fleet/) | 404 |
+| [Geo-redundancy options for Azure Container Registry](/azure/container-registry/container-registry-geo-replication) | 404 |
+| [Active-active HA for AKS](/azure/architecture/guide/aks/aks-high-availability) | 404 |
+| [Blue-green deployment of AKS clusters](/azure/architecture/guide/aks/blue-green-deployment-for-aks) | 404 |
+| [Build and deploy to AKS by using Azure Pipelines](/azure/aks/devops-pipeline) | 404 |
+| [Tutorial: Deploy applications by using GitOps with Flux v2](/azure/azure-arc/kubernetes/tutorial-use-gitops-flux2) | 404 |
+| [Understand the structure and syntax of Azure Resource Manager templates (ARM templates)](/azure/azure-resource-manager/templates/syntax) | 404 |
 | [What is Bicep?](/azure/azure-resource-manager/bicep/overview) | 404 |
-| [Overview of Terraform on Azure - What is Terraform?](/azure/developer/terraform/overview) | 404 |
-| [Azure Kubernetes Service (AKS) Backup](/azure/backup/azure-kubernetes-service-backup-overview) | 404 |
+| [Overview of Terraform on Azure](/azure/developer/terraform/overview) | 404 |
 | [AKS Backup](/azure/backup/azure-kubernetes-service-backup-overview) | 404 |
-| [Azure Backup Center](/azure/backup/backup-center-overview) | 404 |
-| [About AKS Backup using Azure Backup](/azure/backup/azure-kubernetes-service-backup-overview) | 404 |
+| [Resiliency dashboard](/azure/backup/backup-center-overview) | 404 |
+| [custom hooks](/azure/backup/azure-kubernetes-service-backup-overview#backup-hooks) | 404 |
 | [AKS Backup](/azure/backup/azure-kubernetes-service-backup-overview) | 404 |
-| [Prerequisites for AKS Backup using Azure Backup](/azure/backup/azure-kubernetes-service-cluster-backup-concept) | 404 |
-| [AKS Backup support matrix](/azure/backup/azure-kubernetes-service-cluster-backup-support-matrix) | 404 |
-| [Manage AKS backups using Azure Backup](/azure/backup/azure-kubernetes-service-cluster-manage-backups) | 404 |
-| [Back up AKS using Azure Backup](/azure/backup/azure-kubernetes-service-cluster-backup) | 404 |
-| [Restore AKS using Azure Backup](/azure/backup/azure-kubernetes-service-cluster-restore) | 404 |
+| [prerequisites for using AKS Backup with your AKS cluster](/azure/backup/azure-kubernetes-service-cluster-backup-concept) | 404 |
+| [AKS Backup region availability, supported scenarios, and limitations](/azure/backup/azure-kubernetes-service-cluster-backup-support-matrix) | 404 |
+| [manage AKS backups using Azure Backup](/azure/backup/azure-kubernetes-service-cluster-manage-backups) | 404 |
+| [backup and recover your AKS cluster using AKS Backup](/azure/backup/azure-kubernetes-service-cluster-backup) | 404 |
+| [restores of your AKS cluster using Azure Backup](/azure/backup/azure-kubernetes-service-cluster-restore) | 404 |
 | [Create a backup policy](/azure/backup/azure-kubernetes-service-cluster-backup#create-a-backup-policy) | 404 |
-| [AKS Backup support matrix](/azure/backup/azure-kubernetes-service-cluster-backup-support-matrix) | 404 |
 | [Configure a backup job](/azure/backup/azure-kubernetes-service-cluster-backup#configure-backups) | 404 |
-| [Defining a backup policy](/azure/backup/azure-kubernetes-service-cluster-backup#create-a-backup-policy) | 404 |
-| [Restoring an AKS cluster](/azure/backup/azure-kubernetes-service-cluster-restore) | 404 |
-| [AKS Backup support matrix](/azure/backup/azure-kubernetes-service-cluster-backup-support-matrix) | 404 |
-| [pricing](/azure/backup/azure-kubernetes-service-backup-overview#understand-pricing) | 404 |
-| [Backup vault](/azure/backup/backup-vault-overview) | 404 |
+| [pricing information in the AKS Backup solution](/azure/backup/azure-kubernetes-service-backup-overview#understand-pricing) | 404 |
+| [incremental snapshots](/azure/virtual-machines/disks-incremental-snapshots) | 404 |
 | [storage account](/azure/storage/common/storage-account-overview) | 404 |
-| [Incremental snapshots](/azure/virtual-machines/disks-incremental-snapshots?tabs=azure-cli) | 404 |
-| [AKS Backup overview](/azure/backup/azure-kubernetes-service-backup-overview) | 404 |
-| [AKS Backup support matrix](/azure/backup/azure-kubernetes-service-cluster-backup-support-matrix) | 404 |
+| [backup vault](/azure/backup/backup-vault-overview) | 404 |
 | [Adam Sharif](https://www.linkedin.com/in/adamsharif) | 999 |
 | [Joao Tavares](https://www.linkedin.com/in/joao-tavares-3976a63) | 999 |
-| [Paolo Salvatori](https://www.linkedin.com/in/paolo-salvatori) | 999 |
+| [Sam Cogan](https://www.linkedin.com/in/samcogan82/) | 999 |
 | [Sonia Cuff](https://www.linkedin.com/in/soniacuff) | 999 |
+| [Paolo Salvatori](https://www.linkedin.com/in/paolo-salvatori) | 999 |
 | [AKS Backup overview](/azure/backup/azure-kubernetes-service-backup-overview) | 404 |
 | [AKS Backup support matrix](/azure/backup/azure-kubernetes-service-cluster-backup-support-matrix) | 404 |
 | [AKS Backup prerequisites](/azure/backup/azure-kubernetes-service-cluster-backup-concept) | 404 |
-| [Configuring AKS Backup](/azure/backup/azure-kubernetes-service-cluster-backup) | 404 |
-| [Creating a Backup vault](/azure/backup/create-manage-backup-vault#create-a-backup-vault) | 404 |
-| [Creating a backup policy](/azure/backup/azure-kubernetes-service-cluster-backup#create-a-backup-policy) | 404 |
-| [Configuring backups](/azure/backup/azure-kubernetes-service-cluster-backup#configure-backups) | 404 |
-| [Restoring an AKS cluster](/azure/backup/azure-kubernetes-service-cluster-restore) | 404 |
-| [Business continuity and disaster recovery best practices for AKS](/azure/aks/operator-best-practices-multi-region) | 404 |
-| [Reliability patterns - cloud design patterns](/azure/well-architected/reliability/design-patterns) | 404 |
-| [Azure Kubernetes Services (AKS) day-2 operations guide - Introduction](/azure/architecture/operator-guides/aks/day-2-operations-guide) | 404 |
-| [Baseline architecture for an Azure Kubernetes Service (AKS) cluster](/azure/architecture/reference-architectures/containers/aks/baseline-aks) | 404 |
-| [AKS baseline for multiregion clusters](/azure/architecture/reference-architectures/containers/aks-multi-region/aks-multi-cluster) | 404 |
+| [Configure AKS Backup](/azure/backup/azure-kubernetes-service-cluster-backup) | 404 |
+| [Create a backup vault](/azure/backup/create-manage-backup-vault#create-a-backup-vault) | 404 |
+| [Create a backup policy](/azure/backup/azure-kubernetes-service-cluster-backup#create-a-backup-policy) | 404 |
+| [Configure backups](/azure/backup/azure-kubernetes-service-cluster-backup#configure-backups) | 404 |
+| [Restore an AKS cluster](/azure/backup/azure-kubernetes-service-cluster-restore) | 404 |
+| [Business continuity and DR best practices for AKS](/azure/aks/operator-best-practices-multi-region) | 404 |
+| [Reliability patterns - Cloud design patterns](/azure/well-architected/reliability/design-patterns) | 404 |
+| [AKS day-2 operations guide - Introduction](../../operator-guides/aks/day-2-operations-guide.md) | 404 |
+| [Baseline architecture for an AKS cluster](../../reference-architectures/containers/aks/baseline-aks.yml) | 404 |
+| [AKS baseline for multiregion clusters](../../reference-architectures/containers/aks-multi-region/aks-multi-cluster.yml) | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/operator-guides/aks/aks-triage-cluster-health.md
 
@@ -13119,7 +13195,6 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [Azure Monitor](/azure/azure-monitor/) | 404 |
 | [Microsoft Defender for Cloud](/azure/defender-for-cloud/defender-for-cloud-introduction) | 404 |
 | [Azure Stack Edge Pro](/azure/databox-online/) | 404 |
-| [CoreDNS](https://coredns.io/) | 0 |
 | [Prabhjot Kaur](https://www.linkedin.com/in/kaur-profile/) | 999 |
 | [What is IoT Edge](/azure/iot-edge/about-iot-edge) | 404 |
 | [Kubernetes on your Azure Stack Edge Pro GPU device](/azure/databox-online/azure-stack-edge-gpu-kubernetes-overview) | 404 |
@@ -13281,6 +13356,7 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [Azure Functions concurrency controls](/azure/azure-functions/functions-concurrency) | 404 |
 | [Container Apps resource limits](/azure/container-apps/containers) | 404 |
 | [Azure Cosmos DB RU throughput](/azure/cosmos-db/set-throughput) | 404 |
+| [Circuit Breaker pattern](./circuit-breaker.md) | 502 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/patterns/cache-aside-content.md
 
@@ -13390,7 +13466,7 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [RE:05 Redundancy](/azure/well-architected/reliability/redundancy) | 404 |
 | [RE:07 Background jobs](/azure/well-architected/reliability/background-jobs) | 404 |
 | [Cost Optimization](/azure/well-architected/cost-optimization/checklist) | 404 |
-| [CO:05 Rate optimization](/azure/well-architected/cost-optimization/get-best-rates) | 404 |
+| [CO:05 Rate optimization](/azure/well-architected/cost-optimization/get-best-rates) | 502 |
 | [CO:07 Component costs](/azure/well-architected/cost-optimization/optimize-component-costs) | 404 |
 | [Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) | 404 |
 | [PE:05 Scaling and partitioning](/azure/well-architected/performance-efficiency/scale-partition) | 404 |
@@ -13492,20 +13568,19 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [Welcome to Azure Cosmos DB](/azure/cosmos-db/introduction) | 404 |
 | [Introduction to Azure Blob storage](/azure/storage/blobs/storage-blobs-introduction) | 404 |
 
-* https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/patterns/event-sourcing-content.md
+* https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/patterns/event-sourcing.md
 
 | URL | State |
 | --- | --- |
-| [Data Consistency Primer](/previous-versions/msp-n-p/dn589800(v=pandp.10) | 404 |
-| [Primary-Subordinate Snapshot Replication](/previous-versions/msp-n-p/ff650012(v=pandp.10) | 404 |
+| [event-driven architectures](../guide/architecture-styles/event-driven.md) | 404 |
 | [Azure Well-Architected Framework pillars](/azure/well-architected/pillars) | 404 |
 | [Reliability](/azure/well-architected/reliability/checklist) | 404 |
-| [RE:06 Data partitioning](/azure/well-architected/reliability/partition-data) | 404 |
+| [Data partitioning](/azure/well-architected/design-guides/partition-data) | 404 |
 | [RE:09 Disaster recovery](/azure/well-architected/reliability/disaster-recovery) | 404 |
 | [Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) | 404 |
 | [PE:08 Data performance](/azure/well-architected/performance-efficiency/optimize-data-performance) | 404 |
-| [Data Consistency Primer](/previous-versions/msp-n-p/dn589800(v=pandp.10) | 404 |
-| [Data Partitioning Guidance](/previous-versions/msp-n-p/dn589795(v=pandp.10) | 404 |
+| [Domain analysis for microservices](../microservices/model/tactical-domain-driven-design.md) | 404 |
+| [aggregate](../microservices/model/tactical-domain-driven-design.md#aggregates) | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/patterns/external-configuration-store-content.md
 
@@ -13651,7 +13726,7 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [Traffic Manager](/azure/traffic-manager/traffic-manager-overview) | 404 |
 | [certain amount of time](/azure/traffic-manager/traffic-manager-monitoring#configure-endpoint-monitoring) | 404 |
 | [Health monitoring guidance in microservices-based applications](/dotnet/architecture/microservices/implement-resilient-applications/monitor-app-health) | 404 |
-| [Monitoring application health for reliability](/azure/architecture/framework/resiliency/monitoring) | 502 |
+| [Monitoring application health for reliability](/azure/architecture/framework/resiliency/monitoring) | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/patterns/index-table-content.md
 
@@ -14470,7 +14545,7 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [Best practices for AKS workloads](/azure/aks/best-practices#developer-best-practices) | 404 |
 | [day-2 operations](https://dzone.com/articles/defining-day-2-operations) | 403 |
 | [AKS day-2 operations guide](../../operator-guides/aks/day-2-operations-guide.md) | 404 |
-| [Microservices architecture on AKS](../../reference-architectures/containers/aks-microservices/aks-microservices.yml) | 404 |
+| [Microservices architecture on AKS](../../reference-architectures/containers/aks-microservices/aks-microservices.yml) | 502 |
 | [Blue-green deployment of AKS clusters](../../guide/aks/blue-green-deployment-for-aks.yml) | 404 |
 | [Azure Arc-enabled Kubernetes](/azure/azure-arc/kubernetes/) | 404 |
 | [AKS on Azure Local](/azure/aks/aksarc/aks-overview) | 404 |
@@ -15594,65 +15669,6 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [Introduction to Functions](/azure/azure-functions/functions-overview) | 404 |
 | [Implement knowledge mining with AI Search](/training/paths/implement-knowledge-mining-azure-cognitive-search) | 404 |
 
-* https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/solution-ideas/articles/analytics-get-started.md
-
-| URL | State |
-| --- | --- |
-| [big data architecture](../../guide/architecture-styles/big-data.md) | 404 |
-| [IoT architecture](../../guide/architecture-styles/big-data.md#iot-architecture) | 404 |
-| [Analytics end-to-end with Microsoft Fabric](../../example-scenario/dataplate2e/data-platform-end-to-end.yml) | 404 |
-| [Data warehousing and analytics](../../example-scenario/data/data-warehouse.yml) | 404 |
-| [Use Microsoft Fabric to design an enterprise BI solution](../../example-scenario/analytics/enterprise-bi-microsoft-fabric.yml) | 404 |
-| [Near real-time lakehouse data processing](../../example-scenario/data/real-time-lakehouse-data-processing.yml) | 404 |
-| [Real-time sync of MongoDB Atlas to Azure Synapse Analytics](../../example-scenario/analytics/sync-mongodb-atlas-azure-synapse-analytics.yml) | 404 |
-| [Stream processing with Azure Databricks](../../reference-architectures/data/stream-processing-databricks.yml) | 404 |
-| [Stream processing with Azure Stream Analytics](../../reference-architectures/data/stream-processing-stream-analytics.yml) | 404 |
-| [Modern data warehouse for small and medium business](../../example-scenario/data/small-medium-data-warehouse.yml) | 404 |
-| [Analytics and reporting](../../data-guide/technology-choices/analysis-visualizations-reporting.md) | 404 |
-| [Batch processing](../../data-guide/technology-choices/batch-processing.md) | 404 |
-| [Stream processing](../../data-guide/technology-choices/stream-processing.md) | 404 |
-| [Choose an analytical data store](../../data-guide/technology-choices/analytical-data-stores.md) | 404 |
-| [Choose an analytical data store in Microsoft Fabric](../../data-guide/technology-choices/fabric-analytical-data-stores.md) | 404 |
-| [Overview](../../data-guide/disaster-recovery/dr-for-azure-data-platform-overview.md) | 404 |
-| [Architecture](../../data-guide/disaster-recovery/dr-for-azure-data-platform-architecture.md) | 404 |
-| [Scenario details](../../data-guide/disaster-recovery/dr-for-azure-data-platform-scenario-details.md) | 404 |
-| [Recommendations](../../data-guide/disaster-recovery/dr-for-azure-data-platform-recommendations.md) | 404 |
-| [Microsoft Learn](/training/?WT.mc_id=learnaka) | 404 |
-| [Browse Azure data topics](/training/browse/?products=azure&filter-products=data&terms=data) | 404 |
-| [Introduction to Microsoft Azure Data core data concepts](/training/paths/azure-data-fundamentals-explore-core-data-concepts/) | 404 |
-| [Get started with Microsoft Fabric](/training/paths/get-started-fabric/) | 404 |
-| [Get started with Microsoft data analytics](/training/paths/data-analytics-microsoft) | 404 |
-| [Implement a Data Analytics Solution with Azure Databricks](/training/paths/data-engineer-azure-databricks/) | 404 |
-| [Build machine learning solutions using Azure Databricks](/training/paths/perform-data-science-azure-databricks/) | 404 |
-| [Cloud Adoption Framework](/azure/cloud-adoption-framework/) | 404 |
-| [Cloud-scale analytics](/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics) | 404 |
-| [Azure Well-Architected Framework](/azure/well-architected/) | 404 |
-| [Azure Well-Architected Framework for data workloads](/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/well-architected-framework) | 404 |
-| [store your data](../../data-guide/technology-choices/analytical-data-stores.md) | 404 |
-| [data analytics technology](../../data-guide/technology-choices/analysis-visualizations-reporting.md) | 404 |
-| [Databases architecture design](../../databases/index.yml) | 404 |
-| [information security](/azure/architecture/framework/security/overview) | 404 |
-| [Governance policies](/azure/architecture/framework/security/design-governance) | 404 |
-| [Identity and access management](/azure/architecture/framework/security/design-identity) | 404 |
-| [Network security controls](/azure/architecture/framework/security/design-network) | 404 |
-| [Data protection](/azure/architecture/framework/security/design-storage) | 404 |
-| [big data best practices](../../guide/architecture-styles/big-data.md#best-practices) | 404 |
-| [BI solution architecture in the Center of Excellence](/power-bi/guidance/center-of-excellence-business-intelligence-solution-architecture) | 404 |
-| [What's new in Microsoft Fabric](/fabric/fundamentals/whats-new?) | 404 |
-| [Azure Databricks release notes](/azure/databricks/release-notes/) | 404 |
-| [What's new in Azure Data Explorer](/azure/data-explorer/whats-new) | 404 |
-| [What's new in Power BI](/power-bi/fundamentals/desktop-latest-update) | 404 |
-| [choose a hybrid network architecture](../../reference-architectures/hybrid-networking/index.yml) | 404 |
-| [Modernize mainframe and midrange data](/azure/architecture/example-scenario/mainframe/modernize-mainframe-data-to-azure) | 404 |
-| [Unified hybrid and multicloud operations](../../databases/guide/hybrid-on-premises-and-cloud.md) | 404 |
-| [Real-time analytics on big data architecture](../../solution-ideas/articles/real-time-analytics.yml) | 404 |
-| [Stream processing with Azure Stream Analytics](../../reference-architectures/data/stream-processing-stream-analytics.yml) | 404 |
-| [Browse more analytics examples in the Azure Architecture Center](../../browse/index.yml?azure_categories=analytics) | 404 |
-| [Analytics and big data](../../aws-professional/databases.md#analytics-and-big-data) | 404 |
-| [Database technologies on Azure and AWS](../../aws-professional/databases.md) | 404 |
-| [Big data and analytics](../../gcp-professional/services.md#big-data-and-analytics) | 404 |
-| [Google Cloud to Azure services comparison](../../gcp-professional/services.md) | 404 |
-
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/solution-ideas/articles/analytics-service-bus-content.md
 
 | URL | State |
@@ -15704,7 +15720,7 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [Azure Key Vault basic concepts](/azure/key-vault/general/basic-concepts) | 404 |
 | [Azure Virtual Desktop RDP Shortpath for managed networks](/azure/virtual-desktop/shortpath) | 404 |
 | [Understanding Azure Virtual Desktop network connectivity](/azure/virtual-desktop/network-connectivity) | 404 |
-| [What is Azure Front Door?](/azure/frontdoor/front-door-overview) | 404 |
+| [What is Azure Front Door?](/azure/frontdoor/front-door-overview) | 502 |
 | [About API Management](/azure/api-management/api-management-key-concepts) | 404 |
 | [Penetration testing](/azure/security/fundamentals/pen-testing) | 404 |
 | [Grant limited access to Azure Storage resources using shared access signatures (SAS)](/azure/storage/common/storage-sas-overview) | 404 |
@@ -15762,14 +15778,12 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [Run a Windows VM on Azure](../../reference-architectures/n-tier/windows-vm.yml) | 404 |
 | [AIX UNIX to Azure Linux migration](../../example-scenario/unix-migration/migrate-aix-azure-linux.yml) | 404 |
 | [General mainframe refactor to Azure](../../example-scenario/mainframe/general-mainframe-refactor.yml) | 404 |
-| [Rehost a general mainframe on Azure](../../example-scenario/mainframe/mainframe-rehost-architecture-azure.yml) | 404 |
-| [Micro Focus Enterprise Server on Azure](../../example-scenario/mainframe/micro-focus-server.yml) | 404 |
 | [SAP landscape architecture](../../guide/sap/sap-whole-landscape.yml) | 404 |
 | [Inbound and outbound internet connections for SAP on Azure](../../guide/sap/sap-internet-inbound-outbound.yml) | 404 |
 | [SAP BW/4HANA in Linux on Azure](../../reference-architectures/sap/run-sap-bw4hana-with-linux-virtual-machines.yml) | 404 |
 | [SAP deployment by using an Oracle database](../../example-scenario/apps/sap-production.yml) | 404 |
 | [SAP HANA scale-up systems on Linux](../../reference-architectures/sap/run-sap-hana-for-linux-virtual-machines.yml) | 404 |
-| [SAP NetWeaver in Windows on Azure](../../guide/sap/sap-netweaver.yml) | 404 |
+| [SAP NetWeaver in Windows on Azure](../../guide/sap/sap-netweaver.md) | 404 |
 | [SAP S/4HANA in Linux on Azure](../../guide/sap/sap-s4hana.md) | 404 |
 | [Microsoft Learn](/training/?WT.mc_id=learnaka) | 404 |
 | [Describe Azure compute and networking services](/training/modules/describe-azure-compute-networking-services/) | 404 |
@@ -15795,7 +15809,7 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [Content delivery network guidance](../../best-practices/cdn.yml) | 404 |
 | [Azure Reservations](/azure/cost-management-billing/reservations/save-compute-costs-reservations) | 404 |
 | [Spot Virtual Machines](/azure/virtual-machines/spot-vms) | 404 |
-| [Azure savings plan for compute](/azure/cost-management-billing/savings-plan/savings-plan-compute-overview) | 404 |
+| [Azure savings plan for compute](/azure/cost-management-billing/savings-plan/buy-savings-plan) | 404 |
 | [Reduce service costs by using Azure Advisor](/azure/advisor/advisor-cost-recommendations) | 404 |
 | [AKS release notes](/azure/aks/release-tracker) | 404 |
 | [Azure Functions updates](/azure/azure-functions/functions-versions) | 404 |
@@ -15813,77 +15827,6 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [AKS baseline architecture](../../reference-architectures/containers/aks/baseline-aks.yml) | 404 |
 | [Microservices architecture](../../guide/architecture-styles/microservices.md) | 404 |
 | [Compute services on Azure and Amazon Web Services (AWS)](../../aws-professional/compute.md) | 404 |
-| [Azure for AWS professionals](../../aws-professional/index.md) | 404 |
-| [Google Cloud to Azure services comparison](../../gcp-professional/services.md#compute) | 404 |
-
-* https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/solution-ideas/articles/container-get-started.md
-
-| URL | State |
-| --- | --- |
-| [Choose an Azure container service](../../guide/choose-azure-container-service.md) | 404 |
-| [Azure container service considerations](../../guide/container-service-general-considerations.md) | 404 |
-| [Microservices architecture style](../../guide/architecture-styles/microservices.md) | 404 |
-| [Design a microservices architecture](../../microservices/design/index.md) | 404 |
-| [Get started with AKS](../../reference-architectures/containers/aks-start-here.md) | 404 |
-| [Choose a Kubernetes at the edge option](../../operator-guides/aks/choose-kubernetes-edge-compute-option.md) | 404 |
-| [High availability for multitier AKS apps](../../guide/aks/aks-high-availability.yml) | 404 |
-| [CI/CD for AKS apps via Azure Pipelines](../../guide/aks/aks-cicd-azure-pipelines.md) | 404 |
-| [GitOps for AKS](../../example-scenario/gitops-aks/gitops-blueprint-aks.yml) | 404 |
-| [Access an AKS API server](../../guide/security/access-azure-kubernetes-service-cluster-api-server.yml) | 404 |
-| [Blue-green deployment of AKS clusters](../../guide/aks/blue-green-deployment-for-aks.yml) | 404 |
-| [Firewall protection for an AKS cluster](../../guide/aks/aks-firewall.yml) | 404 |
-| [Use Azure Kubernetes Service to host GPU-based workloads](../../reference-architectures/containers/aks-gpu/gpu-aks.md) | 404 |
-| [AKS baseline cluster](../../reference-architectures/containers/aks/baseline-aks.yml) | 404 |
-| [AKS baseline for multi-region clusters](../../reference-architectures/containers/aks-multi-region/aks-multi-cluster.yml) | 404 |
-| [Microservices architecture on AKS](../../reference-architectures/containers/aks-microservices/aks-microservices.yml) | 404 |
-| [Advanced microservices on AKS](../../reference-architectures/containers/aks-microservices/aks-microservices-advanced.yml) | 404 |
-| [CI/CD for microservices on Kubernetes](../../microservices/ci-cd-kubernetes.yml) | 404 |
-| [Use Azure Red Hat OpenShift in the financial services industry](../../reference-architectures/containers/aro/azure-redhat-openshift-financial-services-workloads.yml) | 404 |
-| [Secure AKS workloads with Azure Front Door](../../example-scenario/aks-front-door/aks-front-door.yml) | 404 |
-| [Multitenancy with AKS and AGIC](../../example-scenario/aks-agic/aks-agic.yml) | 404 |
-| [Microservices with Container Apps](../../example-scenario/serverless/microservices-with-container-apps.yml) | 404 |
-| [Microservices with Dapr and KEDA](../../example-scenario/serverless/microservices-with-container-apps-dapr.yml) | 404 |
-| [Microsoft Learn](/training/?WT.mc_id=learnaka) | 404 |
-| [Introduction to Kubernetes on Azure](/training/paths/intro-to-kubernetes-on-azure/) | 404 |
-| [Introduction to Azure Kubernetes Service](/training/modules/intro-to-azure-kubernetes-service/) | 404 |
-| [Deploy a containerized application on Azure Kubernetes Service](/training/modules/aks-deploy-container-app/) | 404 |
-| [Introduction to Docker containers](/training/modules/intro-to-docker-containers/) | 404 |
-| [Deploy and run a containerized web app with Azure App Service](/training/modules/deploy-run-container-app-service/) | 404 |
-| [Implement Azure Container Apps](/training/modules/implement-azure-container-apps/) | 404 |
-| [Architect compute infrastructure in Azure](/training/paths/architect-compute-infrastructure/) | 404 |
-| [Deploy containers by using Azure Kubernetes Service](/training/paths/deploy-manage-containers-azure-kubernetes-service/) | 404 |
-| [Implement containerized solutions](/training/paths/az-204-implement-iaas-solutions/) | 404 |
-| [Develop and deploy applications on Kubernetes](/training/paths/develop-deploy-applications-kubernetes/) | 404 |
-| [Azure Well-Architected Framework (WAF)](/azure/well-architected/) | 404 |
-| [Azure Container Apps](/azure/well-architected/service-guides/azure-container-apps) | 404 |
-| [Azure Kubernetes Service](/azure/well-architected/service-guides/azure-kubernetes-service) | 404 |
-| [day-2 operations](https://dzone.com/articles/defining-day-2-operations) | 403 |
-| [AKS day-2 operations guide](../../operator-guides/aks/day-2-operations-guide.md) | 404 |
-| [Triage practices](../../operator-guides/aks/aks-triage-practices.md) | 404 |
-| [Backup and recovery for AKS](../../operator-guides/aks/aks-backup-and-recovery.md) | 404 |
-| [Patch and upgrade worker nodes](../../operator-guides/aks/aks-upgrade-practices.md) | 404 |
-| [Troubleshoot networking](../../operator-guides/aks/troubleshoot-network-aks.md) | 404 |
-| [Monitor AKS with Azure Monitor](/azure/aks/monitor-aks) | 404 |
-| [Monitor Container Apps](/azure/container-apps/observability) | 404 |
-| [Health probes](/azure/container-apps/health-probes) | 404 |
-| [Revisions and traffic splitting](/azure/container-apps/revisions-manage) | 404 |
-| [Quotas and limits](/azure/container-apps/quotas) | 404 |
-| [Autoscaling best practices](../../best-practices/auto-scaling.md) | 404 |
-| [Background jobs guidance](../../best-practices/background-jobs.md) | 404 |
-| [Caching guidance](../../best-practices/caching.yml) | 404 |
-| [Azure Reservations](/azure/cost-management-billing/reservations/save-compute-costs-reservations) | 404 |
-| [Azure Spot VMs for AKS](/azure/aks/spot-node-pool) | 404 |
-| [Azure Savings Plan for Compute](/azure/cost-management-billing/savings-plan/savings-plan-compute-overview) | 404 |
-| [Right-size resources](/azure/advisor/advisor-cost-recommendations) | 404 |
-| [Container Apps consumption plan](/azure/container-apps/billing) | 404 |
-| [AKS release notes](/azure/aks/release-tracker) | 404 |
-| [What's new in Azure Container Apps](/azure/container-apps/whats-new) | 404 |
-| [Azure Arc-enabled Kubernetes](/azure/azure-arc/kubernetes/overview) | 404 |
-| [AKS enabled by Azure Arc](/azure/aks/hybrid/aks-hybrid-options-overview) | 404 |
-| [Azure Arc hybrid management and deployment for Kubernetes clusters](../../hybrid/arc-hybrid-kubernetes.yml) | 404 |
-| [Hybrid architecture design](../../hybrid/hybrid-start-here.md) | 404 |
-| [AKS on Azure Local baseline architecture](../../example-scenario/hybrid/aks-baseline.yml) | 404 |
-| [Containers and container orchestrators on Azure and AWS](../../aws-professional/compute.md#containers-and-container-orchestrators) | 404 |
 | [Azure for AWS professionals](../../aws-professional/index.md) | 404 |
 | [Google Cloud to Azure services comparison](../../gcp-professional/services.md#compute) | 404 |
 
@@ -15980,7 +15923,7 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [Build an ETL pipeline with Lakeflow Declarative Pipelines](/azure/databricks/getting-started/data-pipeline-get-started) | 404 |
 | [Choose an analytical data store in Azure](../../data-guide/technology-choices/analytical-data-stores.md) | 404 |
 | [Stream processing with Azure Databricks](../../reference-architectures/data/stream-processing-databricks.yml) | 404 |
-| [Databases architecture design](../../databases/index.yml) | 404 |
+| [Get started with database architecture design](../../databases/database-get-started.md) | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/solution-ideas/articles/iot-azure-data-explorer-content.md
 
@@ -16012,6 +15955,7 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [Shlomo Sagir](https://www.linkedin.com/in/shlomo-sagir/) | 999 |
 | [What is Azure Data Explorer?](/azure/data-explorer/data-explorer-overview) | 404 |
 | [Visualize data with Azure Data Explorer dashboards](/azure/data-explorer/azure-data-explorer-dashboards) | 404 |
+| [Analytics architecture design](analytics-get-started.md) | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/solution-ideas/articles/mainframe-azure-file-replication-content.md
 
@@ -16358,7 +16302,6 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | URL | State |
 | --- | --- |
 | [header_file](../../../includes/sol-idea-header.md) | 404 |
-| [XDMCP](https://wiki.ubuntu.com/xdmcp) | 0 |
 | [Azure VMs](/azure/well-architected/service-guides/virtual-machines) | 404 |
 | [Azure Virtual Network](/azure/well-architected/service-guides/virtual-network) | 404 |
 | [Azure Virtual Network interface cards](/azure/virtual-network/virtual-network-network-interface) | 404 |
@@ -17147,7 +17090,8 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [AuthN and AuthZ intro](../includes/authn-authz.md) | 404 |
 | [Microsoft identity platform for developers](/entra/identity-platform/v2-overview) | 404 |
 | [set up web app authentication](/entra/identity-platform/index-web-app) | 404 |
-| [Spring Boot Starter for Microsoft Entra ID](/azure/developer/java/spring-framework/spring-boot-starter-for-entra-developer-guide uses [Spring Security](/azure/developer/java/spring-framework/spring-security-support) | 404 |
+| [Spring Boot Starter for Microsoft Entra ID](/azure/developer/java/spring-framework/spring-boot-starter-for-entra-developer-guide) | 404 |
+| [Spring Security](/azure/developer/java/spring-framework/spring-security-support) | 404 |
 | [OAuth 2.0 authorization code grant](/entra/identity-platform/v2-oauth2-auth-code-flow) | 404 |
 | [application roles](/entra/identity-platform/custom-rbac-for-developers) | 404 |
 | [integrate with Microsoft Entra ID](/azure/developer/java/spring-framework/spring-boot-starter-for-azure-active-directory-developer-guide?tabs=SpringCloudAzure5x#access-a-web-application) | 404 |
@@ -17296,7 +17240,6 @@ Hybrid Identity Administrator](/entra/identity/role-based-access-control/permiss
 | [Configure a custom domain name for your API Management instance](/azure/api-management/configure-custom-domain) | 404 |
 | [Manage DNS zones in the Azure portal](/azure/dns/dns-operations-dnszones-portal) | 404 |
 | [OAuth2 Authorization Code Flow](/entra/architecture/auth-oauth2) | 404 |
-| [Azure Key Vault](https://azure.microsoft.com/services/key-vault/) | 503 |
 | [cache](/azure/api-management/api-management-howto-cache) | 404 |
 | [Redis cache](/azure/api-management/api-management-howto-cache-external) | 404 |
 | [Ira Rainey](https://www.linkedin.com/in/ira-rainey) | 999 |
