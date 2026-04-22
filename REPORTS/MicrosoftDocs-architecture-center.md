@@ -74,8 +74,6 @@
 | [budgets, and controls](/azure/architecture/framework/cost/monitor-alert) | 404 |
 | [Design review checklist for Operational Excellence](/azure/well-architected/operational-excellence/checklist) | 404 |
 | [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) | 404 |
-| [Oscar Shimabukuro Kiyan](https://www.linkedin.com/in/oscarshk) | 429 |
-| [Rodrigo Rodríguez](https://www.linkedin.com/in/rod2k10/) | 429 |
 | [Introduction to Azure Storage](/azure/storage/common/storage-introduction) | 404 |
 | [What is Machine Learning?](/azure/machine-learning/overview-what-is-azure-machine-learning) | 404 |
 | [What is Power BI embedded analytics?](/power-bi/developer/embedded/embedded-analytics-power-bi) | 404 |
@@ -175,7 +173,7 @@
 | [Business continuity and disaster recovery](/azure/logic-apps/business-continuity-disaster-recovery-guidance) | 404 |
 | [Reliability in Azure Functions](/azure/reliability/reliability-functions?toc=%2Fazure%2Fazure-functions%2FTOC.json&tabs=azure-portal) | 404 |
 | [Achieve high availability with Azure Cosmos DB](/azure/cosmos-db/high-availability) | 404 |
-| [Steve DeMarco](https://www.linkedin.com/in/steve-dem) | 429 |
+| [Steve DeMarco](https://www.linkedin.com/in/steve-dem) | 404 |
 | [Travis Hilbert](https://www.linkedin.com/in/travis-hilbert-a3999980) | 999 |
 | [DB Lee](https://www.linkedin.com/in/dongbum) | 999 |
 | [Malory Rose](https://www.linkedin.com/in/malory-rose-8aa503135) | 999 |
@@ -220,7 +218,6 @@
 | [supported by Foundry Agent Service](/azure/foundry/agents/concepts/limits-quotas-regions) | 404 |
 | [Choose an Azure service for vector search](/azure/architecture/guide/technology-choices/vector-search) | 404 |
 | [service-managed conversations](/azure/foundry/agents/concepts/runtime-components#conversations-and-conversation-items) | 404 |
-| [Published agents (Agent Applications)](/azure/foundry/agents/how-to/publish-responses) | 404 |
 | [compact](/azure/foundry/openai/how-to/responses#compact-a-response) | 404 |
 | [Model Context Protocol (MCP) servers](/azure/foundry/agents/how-to/tools/model-context-protocol) | 404 |
 | [Agent-to-Agent (A2A) endpoints](/azure/foundry/agents/how-to/tools/agent-to-agent) | 404 |
@@ -279,20 +276,13 @@
 | [Microsoft Agent Framework](/agent-framework/overview/) | 404 |
 | [Microsoft Agent Framework Foundry provider](/agent-framework/agents/providers/microsoft-foundry) | 404 |
 | [token usage](/azure/foundry/observability/how-to/how-to-monitor-agents-dashboard) | 404 |
-| [reference in your published Agent Application](/azure/foundry/agents/how-to/publish-agent#update-a-published-agent-application) | 404 |
 | [Structured inputs](/azure/foundry/agents/how-to/structured-inputs) | 404 |
-| [Azure agent application resource](/azure/foundry/agents/how-to/publish-agent) | 404 |
 | [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) | 404 |
 | [analyze and optimize performance in AI Search](/azure/search/search-performance-analysis) | 404 |
 | [provisioned throughput](/azure/foundry/openai/concepts/provisioned-throughput) | 404 |
 | [provision-managed usage](/azure/foundry/openai/monitor-openai-reference) | 404 |
-| [Rob Bagby](https://www.linkedin.com/in/robbagby/) | 999 |
-| [Chad Kittel](https://www.linkedin.com/in/chadkittel/) | 999 |
-| [Raouf Aliouat](https://www.linkedin.com/in/raouf-aliouat/) | 999 |
-| [Freddy Ayala](https://www.linkedin.com/in/freddyayala/) | 999 |
 | [Prabal Deb](https://www.linkedin.com/in/prabaldeb/) | 999 |
-| [Ritesh Modi](https://www.linkedin.com/in/ritesh-modi/) | 429 |
-| [Ryan Pfalz](https://www.linkedin.com/in/ryanpfalz/) | 999 |
+| [Ritesh Modi](https://www.linkedin.com/in/ritesh-modi/) | 999 |
 | [AI workloads on Azure](/azure/well-architected/ai/get-started) | 404 |
 | [Azure OpenAI models](/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure) | 404 |
 | [Guardrails and controls](/azure/foundry/guardrails/guardrails-overview) | 404 |
@@ -351,9 +341,6 @@
 | [Design review checklist for Operational Excellence](/azure/well-architected/operational-excellence/checklist) | 404 |
 | [Recommendations for monitoring and threat detection](/azure/well-architected/security/monitor-threats) | 404 |
 | [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) | 404 |
-| [Bilal Amjad](https://www.linkedin.com/in/mbilalamjad/) | 999 |
-| [Freddy Ayala](https://www.linkedin.com/in/freddyayala/) | 999 |
-| [Chad Kittel](https://www.linkedin.com/in/chadkittel/) | 999 |
 | [Subscription vending](/azure/cloud-adoption-framework/ready/landing-zone/design-area/subscription-vending) | 404 |
 | [AI workloads on Azure](/azure/well-architected/ai/get-started) | 404 |
 
@@ -489,7 +476,6 @@
 | [Endpoints for inference in production](/azure/machine-learning/concept-endpoints) | 404 |
 | [custom NER](/azure/ai-services/language-service/custom-named-entity-recognition/service-limits#api-limits) | 404 |
 | [custom text classification](/azure/ai-services/language-service/custom-text-classification/service-limits#api-limits) | 404 |
-| [Jyotsna Ravi](https://www.linkedin.com/in/jyotsna-ravi-50182624) | 999 |
 | [Get started with custom projects in Document Intelligence Studio](/azure/ai-services/document-intelligence/quickstarts/try-document-intelligence-studio) | 404 |
 | [Use Document Intelligence models](/azure/ai-services/document-intelligence/how-to-guides/use-sdk-rest-api) | 404 |
 | [What is Language?](/azure/ai-services/language-service/overview) | 404 |
@@ -549,7 +535,6 @@
 | [managed identity](/azure/search/search-howto-managed-identities-data-sources) | 404 |
 | [private endpoint](/azure/search/search-indexer-howto-access-private?tabs=portal-create%2Cportal-status) | 404 |
 | [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist) | 404 |
-| [Jelle Druyts](https://www.linkedin.com/in/jelle-druyts-0b76823) | 999 |
 | [Get started with Azure AI Search](/azure/search/search-what-is-azure-search#how-to-get-started) | 404 |
 | [Increase relevancy using semantic search in Azure AI Search](/azure/search/semantic-search-overview) | 404 |
 | [Security filters for trimming results in Azure AI Search](/azure/search/search-security-trimming-for-azure-search) | 404 |
@@ -584,11 +569,9 @@
 | [Create data stores](/azure/machine-learning/how-to-datastore) | 404 |
 | [Compute instance and cluster or serverless compute with no public IP address](/azure/machine-learning/how-to-secure-training-vnet#compute-instancecluster-or-serverless-compute-with-no-public-ip) | 404 |
 | [Configure inbound and outbound network traffic](/azure/machine-learning/how-to-access-azureml-behind-firewall) | 404 |
-| [Secure a Machine Learning service environment](https://techcommunity.microsoft.com/t5/fasttrack-for-azure/secure-azure-machine-learning-service-amls-environment/ba-p/3162297) | 403 |
 | [trusted workspace access](/fabric/security/security-trusted-workspace-access) | 404 |
 | [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist) | 404 |
 | [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) | 404 |
-| [Clayton Barlow](https://www.linkedin.com/in/clayton-b-barlow) | 999 |
 | [Tincy Elias](https://www.linkedin.com/in/tincy-elias/) | 999 |
 | [What is the data science VM for Linux and Windows?](/azure/machine-learning/data-science-virtual-machine/overview) | 404 |
 | [What is Machine Learning?](/azure/machine-learning/overview-what-is-azure-machine-learning) | 404 |
@@ -628,14 +611,10 @@
 | [migration guide](/agent-framework/migration-guide/from-semantic-kernel/) | 404 |
 | [Foundry Agent Service](/azure/ai-foundry/agents/overview) | 404 |
 | [connected agents](/azure/ai-foundry/agents/how-to/connected-agents) | 404 |
-| [Chad Kittel](https://www.linkedin.com/in/chadkittel/) | 999 |
-| [Clayton Siemens](https://www.linkedin.com/in/clayton-siemens-3514896/) | 999 |
 | [Hemavathy Alaganandam](https://www.linkedin.com/in/hemaalaganandam/) | 999 |
 | [James Lee](https://www.linkedin.com/in/jameslee-7/) | 999 |
-| [Ritesh Modi](https://www.linkedin.com/in/ritesh-modi/) | 429 |
-| [Mahdi Setayesh](https://www.linkedin.com/in/mahdi-setayesh-a03aa644/) | 999 |
+| [Ritesh Modi](https://www.linkedin.com/in/ritesh-modi/) | 999 |
 | [Mark Taylor](https://www.linkedin.com/in/mark-taylor-5043351/) | 999 |
-| [Yaniv Vaknin](https://www.linkedin.com/in/yaniv-vaknin-7a8324178/) | 999 |
 | [Implement agent orchestration with Microsoft Agent Framework](/agent-framework/user-guide/workflows/orchestrations/overview) | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/ai-ml/guide/azure-openai-gateway-custom-authentication-content.md
@@ -647,7 +626,6 @@
 | [validates the client digital certificate](/azure/api-management/api-management-howto-mutual-certificates-for-clients#policy-to-validate-client-certificates) | 404 |
 | [`validate-client-certificate` policy](/azure/api-management/api-management-howto-mutual-certificates-for-clients) | 404 |
 | [subscriptions](/azure/api-management/api-management-subscriptions) | 404 |
-| [Lizet Pena De Sola](https://www.linkedin.com/in/lizetp/) | 999 |
 | [Bappaditya Banerjee](https://www.linkedin.com/in/bappaditya-banerjee-8860ba7/) | 999 |
 | [James Croft](https://www.linkedin.com/in/jmcroft/) | 999 |
 | [Azure RBAC for Azure OpenAI](/azure/ai-services/openai/how-to/role-based-access-control) | 404 |
@@ -663,6 +641,7 @@
 | URL | State |
 | --- | --- |
 | [Azure Well-Architected Framework](/azure/well-architected/) | 404 |
+| [Azure OpenAI](https://azure.microsoft.com/products/ai-services/openai-service) | 404 |
 | [Azure Well-Architected Framework pillars](/azure/well-architected/pillars) | 404 |
 | [Global](/azure/ai-foundry/foundry-models/concepts/deployment-types#global-standard) | 404 |
 | [data zone](/azure/ai-foundry/foundry-models/concepts/deployment-types#data-zone-standard) | 404 |
@@ -773,7 +752,6 @@
 | [CLI](/dotnet/machine-learning/automate-training-with-cli) | 404 |
 | [AI for Windows apps](/windows/ai/) | 404 |
 | [Azure Cosmos DB](/azure/cosmos-db/spark-connector) | 404 |
-| [Mahdi Setayesh](https://www.linkedin.com/in/mahdi-setayesh-a03aa644/) | 999 |
 | [Microsoft Learn training in developing AI and machine learning solutions](/training/browse/?resource_type=learning+path&roles=ai-engineer%2cdata-scientist) | 404 |
 | [How Azure Machine Learning works](/azure/machine-learning/concept-azure-machine-learning-v2) | 404 |
 | [Choose an AI services technology](../../data-guide/technology-choices/ai-services.md) | 404 |
@@ -794,9 +772,6 @@
 | [Azure AI Evaluation SDK](/python/api/overview/azure/ai-evaluation-readme) | 404 |
 | [GenAIOps maturity model](/azure/machine-learning/prompt-flow/concept-llmops-maturity) | 404 |
 | [GenAIOps Maturity Model assessment](/assessments/e14e1e9f-d339-4d7e-b2bb-24f056cf08b6/) | 404 |
-| [Luiz Braz](https://www.linkedin.com/in/lfbraz/) | 999 |
-| [Marco Aurelio Cardoso](https://www.linkedin.com/in/marco-cardoso/) | 999 |
-| [Paulo Lacerda](https://www.linkedin.com/in/paulolacerda/) | 999 |
 | [Ritesh Modi](https://www.linkedin.com/in/ritesh-modi/) | 999 |
 | [Machine Learning](/azure/machine-learning) | 404 |
 | [Azure OpenAI](/azure/ai-services/openai/overview) | 404 |
@@ -857,11 +832,10 @@
 | [Defender For DevOps](/azure/defender-for-cloud/defender-for-devops-introduction) | 404 |
 | [Machine Learning metrics](/azure/azure-monitor/essentials/monitor-azure-resource) | 404 |
 | [online endpoint traffic logs](/azure/machine-learning/monitor-azure-machine-learning-reference#amlonlineendpointtrafficlog-table-preview) | 404 |
-| [Setu Chokshi](https://www.linkedin.com/in/setuchokshi/) | 999 |
-| [Scott Mckinnon](https://www.linkedin.com/in/scott-mckinnon-96756a83/) | 429 |
+| [Scott Mckinnon](https://www.linkedin.com/in/scott-mckinnon-96756a83/) | 999 |
 | [Darren Turchiarelli](https://www.linkedin.com/in/darren-turchiarelli/) | 999 |
-| [Leo Kozhushnik](https://www.linkedin.com/in/leo-kozhushnik-ab16707/) | 429 |
-| [Daniel Crawford](https://www.linkedin.com/in/daniel-crawford-b661373/) | 429 |
+| [Leo Kozhushnik](https://www.linkedin.com/in/leo-kozhushnik-ab16707/) | 999 |
+| [Daniel Crawford](https://www.linkedin.com/in/daniel-crawford-b661373/) | 999 |
 | [What is Azure Pipelines?](/azure/devops/pipelines/get-started/what-is-azure-pipelines) | 404 |
 | [Azure Arc overview](/azure/azure-arc/overview) | 404 |
 | [What is Machine Learning?](/azure/machine-learning/overview-what-is-azure-machine-learning) | 404 |
@@ -928,6 +902,7 @@
 | [Azure Vision in Foundry Tools](/azure/ai-services/computer-vision) | 404 |
 | [Cache-Aside pattern](/azure/architecture/patterns/cache-aside) | 404 |
 | [Document Intelligence](/azure/ai-services/document-intelligence/overview) | 404 |
+| [Azure OpenAI](https://azure.microsoft.com/products/ai-services/openai-service) | 404 |
 | [OpenAI](https://platform.openai.com/docs/introduction) | 403 |
 | [Document Intelligence document analysis models](/azure/ai-services/document-intelligence/overview#document-analysis-models) | 404 |
 | [Document Intelligence prebuilt models](/azure/ai-services/document-intelligence/overview#prebuilt-models) | 404 |
@@ -991,7 +966,7 @@
 | [Soubhi Hadri](https://www.linkedin.com/in/soubhihadri/) | 999 |
 | [Ritesh Modi](https://www.linkedin.com/in/ritesh-modi/) | 999 |
 | [Ryan Pfalz](https://www.linkedin.com/in/ryanpfalz/) | 999 |
-| [Mahdi Setayesh](https://www.linkedin.com/in/mahdi-setayesh-a03aa644/) | 429 |
+| [Mahdi Setayesh](https://www.linkedin.com/in/mahdi-setayesh-a03aa644/) | 999 |
 | [Randy Thurman](https://www.linkedin.com/in/randy-thurman-2917549/) | 999 |
 | [Develop an evaluation flow](/azure/ai-foundry/how-to/flow-develop-evaluation) | 404 |
 
@@ -1009,7 +984,7 @@
 | [Rob Bagby](https://www.linkedin.com/in/robbagby/) | 999 |
 | [Prabal Deb](https://www.linkedin.com/in/prabaldeb/) | 999 |
 | [Chad Kittel](https://www.linkedin.com/in/chadkittel/) | 999 |
-| [Ritesh Modi](https://www.linkedin.com/in/ritesh-modi/) | 429 |
+| [Ritesh Modi](https://www.linkedin.com/in/ritesh-modi/) | 999 |
 | [Ryan Pfalz](https://www.linkedin.com/in/ryanpfalz/) | 999 |
 | [Randy Thurman](https://www.linkedin.com/in/randy-thurman-2917549/) | 999 |
 | [Retrieval Augmented Generation (RAG) in Azure AI Search](/azure/search/retrieval-augmented-generation-overview) | 404 |
@@ -1129,7 +1104,7 @@
 | [Solomon Pickett](https://www.linkedin.com/in/gregory-solomon-pickett-307560130/) | 999 |
 | [Anish Arora](https://www.linkedin.com/in/aniarora/) | 999 |
 | [Todd Herman](https://www.linkedin.com/in/todd-herman) | 999 |
-| [Malory Rose](https://www.linkedin.com/in/malory-rose-8aa503135/) | 429 |
+| [Malory Rose](https://www.linkedin.com/in/malory-rose-8aa503135/) | 999 |
 | [Content Understanding documentation](/azure/ai-services/content-understanding/) | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/ai-ml/idea/multiple-agent-workflow-automation-content.md
@@ -1146,7 +1121,7 @@
 | [AI agent orchestration patterns](/azure/architecture/ai-ml/guide/ai-agent-design-patterns) | 404 |
 | [Well-Architected Framework](/azure/well-architected/) | 404 |
 | [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist) | 404 |
-| [Solomon Pickett](https://www.linkedin.com/in/gregory-solomon-pickett-307560130/) | 429 |
+| [Solomon Pickett](https://www.linkedin.com/in/gregory-solomon-pickett-307560130/) | 999 |
 | [Anish Arora](https://www.linkedin.com/in/aniarora/) | 999 |
 | [Malory Rose](https://www.linkedin.com/in/malory-rose-8aa503135/) | 999 |
 | [Mark Taylor](https://www.linkedin.com/in/mark-taylor-5043351/) | 999 |
@@ -1291,7 +1266,7 @@
 | [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist) | 404 |
 | [Solomon Pickett](https://www.linkedin.com/in/gregory-solomon-pickett-307560130/) | 999 |
 | [Anish Arora](https://www.linkedin.com/in/aniarora/) | 999 |
-| [Malory Rose](https://www.linkedin.com/in/malory-rose-8aa503135/) | 999 |
+| [Malory Rose](https://www.linkedin.com/in/malory-rose-8aa503135/) | 429 |
 | [AI Search vector search capabilities](/azure/search/vector-search-overview) | 404 |
 | [Design and develop a RAG solution](../guide/rag/rag-solution-design-and-evaluation-guide.md) | 404 |
 
@@ -1505,37 +1480,6 @@
 | [Big data and analytics](../gcp-professional/services.md#big-data-and-analytics) | 404 |
 | [Google Cloud to Azure services comparison](../gcp-professional/services.md) | 404 |
 
-* https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/analytics/architecture/fabric-deployment-patterns-content.md
-
-| URL | State |
-| --- | --- |
-| [Tenant](/fabric/enterprise/licenses#tenant) | 404 |
-| [capacity](/fabric/get-started/workspaces) | 404 |
-| [workspace](/fabric/get-started/workspaces) | 404 |
-| [item](/fabric/get-started/fabric-home) | 404 |
-| [domains](/fabric/governance/domains) | 404 |
-| [OneLake data hub](/fabric/get-started/onelake-data-hub) | 404 |
-| [Microsoft Fabric concepts and licenses](/fabric/enterprise/licenses) | 404 |
-| [Fabric domains](/fabric/governance/domains) | 404 |
-| [at the domain level](/fabric/governance/domains#domain-settings-delegation) | 404 |
-| [OneLake data hub](/fabric/get-started/onelake-data-hub) | 404 |
-| [F SKU or P SKU](/fabric/enterprise/licenses#microsoft-fabric-license-types) | 404 |
-| [Deployment pipelines](/fabric/cicd/deployment-pipelines/intro-to-deployment-pipelines) | 404 |
-| [lifecycle management](/fabric/cicd/cicd-overview) | 404 |
-| [Limitations](/fabric/get-started/workspaces#considerations-and-limitations) | 404 |
-| [Capacity limitations](/fabric/enterprise/licenses#capacity-license) | 404 |
-| [Limitations](/fabric/get-started/workspaces#considerations-and-limitations) | 404 |
-| [Capacity limitations](/fabric/enterprise/licenses#capacity-license) | 404 |
-| [Fabric domain](/fabric/governance/domains) | 404 |
-| [Limitations](/fabric/get-started/workspaces#considerations-and-limitations) | 404 |
-| [Capacity limitations](/fabric/enterprise/licenses#capacity-license) | 404 |
-| [OneLake shortcuts](/fabric/onelake/onelake-shortcuts) | 404 |
-| [data pipelines](/fabric/data-factory/data-factory-overview#data-pipelines) | 404 |
-| [data engineering](/fabric/data-engineering/data-engineering-overview) | 404 |
-| [Holly Kelly](https://www.linkedin.com/in/holly-kelly-9466063/) | 999 |
-| [Gabi Muenster](https://www.linkedin.com/in/gabimuenster/) | 999 |
-| [Sarath Sasidharan](https://www.linkedin.com/in/sarathsasidharan/) | 999 |
-
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/antipatterns/busy-front-end/index.md
 
 | URL | State |
@@ -1597,7 +1541,7 @@
 | [Azure subscription and service limits, quotas, and constraints](/azure/azure-subscription-service-limits) | 404 |
 | [filing a support request in the management portal](/archive/blogs/girishp/increasing-core-quota-limits-in-azure) | 404 |
 | [Srinivasaro Thumala](https://www.linkedin.com/in/srini-thumala/) | 999 |
-| [Adam Cerini](https://www.linkedin.com/in/adamcerini) | 429 |
+| [Adam Cerini](https://www.linkedin.com/in/adamcerini) | 999 |
 | [Azure roles, Microsoft Entra roles, and classic subscription administrator roles](/azure/role-based-access-control/rbac-and-directory-admin-roles) | 404 |
 | [Add or change Azure subscription administrators](/azure/billing/billing-add-change-azure-subscription-administrator) | 404 |
 | [Download or view your Azure billing invoice](/azure/billing/billing-download-azure-invoice-daily-usage-date) | 404 |
@@ -1660,6 +1604,7 @@
 | [Data Science (Azure Machine Learning integration)](/fabric/data-science/) | 404 |
 | [Real-time analytics (KQL database)](/fabric/real-time-intelligence/) | 404 |
 | [Fabric OneLake unified data lake storage](/fabric/onelake/) | 404 |
+| [Generative AI (Azure OpenAI in Foundry Models)](https://azure.microsoft.com/products/ai-services/openai-service) | 404 |
 | [Azure Data Factory in Fabric](/fabric/data-factory/) | 404 |
 | [Apache Airflow jobs in Fabric](/fabric/data-factory/apache-airflow-jobs-concepts) | 404 |
 | [Fabric Migration Assistant for Data Warehouse](/fabric/data-warehouse/migration-assistant) | 404 |
@@ -1747,7 +1692,6 @@
 | [Richard Fitzgerald](https://www.linkedin.com/in/richard-fitzgerald-uk/) | 999 |
 | [Cloud-scale analytics](/azure/cloud-adoption-framework/scenarios/cloud-scale-analytics/) | 404 |
 | [Big data architecture style](../guide/architecture-styles/big-data.md) | 404 |
-| [Microsoft Fabric community blogs](https://community.fabric.microsoft.com/t5/Fabric-community-blogs/ct-p/fabricblogs) | 403 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/aws-professional/eks-to-aks/cost-management.md
 
@@ -1785,7 +1729,7 @@
 | [Cloud Adoption Framework for Azure](/azure/architecture/framework/cost/design-governance) | 404 |
 | [Paolo Salvatori](https://www.linkedin.com/in/paolo-salvatori/) | 999 |
 | [Laura Nicolas](https://www.linkedin.com/in/lauranicolasd/) | 999 |
-| [Chad Kittel](https://www.linkedin.com/in/chadkittel/) | 429 |
+| [Chad Kittel](https://www.linkedin.com/in/chadkittel/) | 999 |
 | [Ed Price](https://www.linkedin.com/in/priceed/) | 999 |
 | [Theano Petersen](https://www.linkedin.com/in/theanop/) | 999 |
 | [AKS cost analysis](/azure/aks/cost-analysis) | 404 |
@@ -1807,11 +1751,11 @@
 | [Azure Policy built-in policy and initiative definitions](/azure/aks/policy-reference) | 404 |
 | [necessary steps](/azure/aks/use-azure-policy#create-and-assign-a-custom-policy-definition) | 404 |
 | [Azure Policy](/azure/governance/policy/overview) | 404 |
-| [Paolo Salvatori](https://www.linkedin.com/in/paolo-salvatori/) | 429 |
+| [Paolo Salvatori](https://www.linkedin.com/in/paolo-salvatori/) | 999 |
 | [Martin Gjoshevski](https://www.linkedin.com/in/martin-gjoshevski/) | 999 |
-| [Chad Kittel](https://www.linkedin.com/in/chadkittel/) | 429 |
+| [Chad Kittel](https://www.linkedin.com/in/chadkittel/) | 999 |
 | [Ed Price](https://www.linkedin.com/in/priceed/) | 999 |
-| [Theano Petersen](https://www.linkedin.com/in/theanop/) | 429 |
+| [Theano Petersen](https://www.linkedin.com/in/theanop/) | 999 |
 | [Policy for Kubernetes](/azure/governance/policy/concepts/policy-for-kubernetes) | 404 |
 | [Secure your AKS cluster by using Azure Policy](/azure/aks/use-azure-policy) | 404 |
 | [AKS security best practices](/azure/aks/concepts-security) | 404 |
@@ -1870,7 +1814,7 @@
 | [Storage options for a Kubernetes cluster](/azure/architecture/aws-professional/eks-to-aks/storage) | 404 |
 | [AzCopy command](/azure/storage/common/storage-use-azcopy-s3) | 404 |
 | [Ketan Chawda](https://www.linkedin.com/in/ketanchawda1402/) | 999 |
-| [Paolo Salvatori](https://www.linkedin.com/in/paolo-salvatori/) | 429 |
+| [Paolo Salvatori](https://www.linkedin.com/in/paolo-salvatori/) | 999 |
 | [Anthony Nevico](https://www.linkedin.com/in/anthonynevico/) | 999 |
 | [Francis Simy Nazareth](https://www.linkedin.com/in/francis-simy-nazereth-971440a/) | 999 |
 | [Back up and restore workload clusters by using Velero in AKS hybrid](/azure/aks/hybrid/backup-workload-cluster) | 404 |
@@ -1908,7 +1852,7 @@
 | [Laura Nicolas](https://www.linkedin.com/in/lauranicolasd/) | 999 |
 | [Chad Kittel](https://www.linkedin.com/in/chadkittel/) | 999 |
 | [Ed Price](https://www.linkedin.com/in/priceed/) | 999 |
-| [Theano Petersen](https://www.linkedin.com/in/theanop/) | 429 |
+| [Theano Petersen](https://www.linkedin.com/in/theanop/) | 999 |
 | [Use Azure Monitor Private Link Scope](/samples/azure-samples/azure-monitor-private-link-scope/azure-monitor-private-link-scope) | 404 |
 | [Enable monitoring for Kubernetes clusters](/azure/azure-monitor/containers/kubernetes-monitoring-enable) | 404 |
 | [Query logs from container insights](/azure/azure-monitor/containers/container-insights-log-query) | 404 |
@@ -1949,6 +1893,7 @@
 | [InfiniBand](/azure/virtual-machines/extensions/enable-infiniband) | 404 |
 | [Azure CLI](/cli/azure/get-started-with-azure-cli) | 404 |
 | [Node pool snapshot](/azure/aks/node-pool-snapshot) | 404 |
+| [Virtual Kubelet](https://virtual-kubelet.io/) | 0 |
 | [Azure Container Instances](/azure/container-instances) | 404 |
 | [Create and configure an AKS cluster to use virtual nodes](/azure/aks/virtual-nodes) | 404 |
 | [Azure tags](/azure/azure-resource-manager/management/tag-resources) | 404 |
@@ -1963,8 +1908,8 @@
 | [az aks nodepool update](/cli/azure/aks/nodepool#az-aks-nodepool-update) | 404 |
 | [Use the cluster autoscaler in AKS](/azure/aks/cluster-autoscaler) | 404 |
 | [Pod Sandboxing](/azure/aks/use-pod-sandboxing) | 404 |
+| [Kata Containers](https://katacontainers.io/) | 0 |
 | [Azure Linux container host for AKS stack](/azure/aks/use-azure-linux) | 404 |
-| [Support for Kata VM isolated containers on AKS for Pod Sandboxing](https://techcommunity.microsoft.com/t5/apps-on-azure-blog/preview-support-for-kata-vm-isolated-containers-on-aks-for-pod/ba-p/3751557) | 403 |
 | [Azure Dedicated Host](/azure/virtual-machines/dedicated-hosts) | 404 |
 | [Add Dedicated Host to an AKS cluster](/azure/aks/use-azure-dedicated-hosts) | 404 |
 | [Node autoprovisioning](/azure/aks/node-autoprovision) | 404 |
@@ -2000,7 +1945,7 @@
 | [Laura Nicolas](https://www.linkedin.com/in/lauranicolasd/) | 999 |
 | [Chad Kittel](https://www.linkedin.com/in/chadkittel/) | 999 |
 | [Ed Price](https://www.linkedin.com/in/priceed/) | 999 |
-| [Theano Petersen](https://www.linkedin.com/in/theanop/) | 429 |
+| [Theano Petersen](https://www.linkedin.com/in/theanop/) | 999 |
 | [AKS cluster best practices](/azure/aks/best-practices) | 404 |
 | [Use Azure Firewall to help protect an AKS cluster](../../guide/aks/aks-firewall.yml) | 404 |
 | [Training: Introduction to Kubernetes](/learn/modules/intro-to-kubernetes/) | 404 |
@@ -2037,7 +1982,6 @@
 | [Azure Cloud Shell](/azure/cloud-shell/vnet/overview) | 404 |
 | [az aks command invoke](/cli/azure/aks/command#az-aks-command-invoke) | 404 |
 | [Azure Bastion](/azure/bastion/bastion-overview) | 404 |
-| [API Server VNet Integration](https://techcommunity.microsoft.com/blog/fasttrackforazureblog/create-an-azure-kubernetes-service-aks-cluster-with-api-server-vnet-integration-/3644002) | 403 |
 | [private clusters](/azure/aks/private-clusters) | 404 |
 | [Create an AKS cluster with API Server VNet Integration](/azure/aks/api-server-vnet-integration) | 404 |
 | [authorized IP address ranges](/azure/aks/api-server-authorized-ip-ranges) | 404 |
@@ -2046,7 +1990,7 @@
 | [Laura Nicolas](https://www.linkedin.com/in/lauranicolasd/) | 999 |
 | [Chad Kittel](https://www.linkedin.com/in/chadkittel/) | 999 |
 | [Ed Price](https://www.linkedin.com/in/priceed/) | 999 |
-| [Theano Petersen](https://www.linkedin.com/in/theanop/) | 429 |
+| [Theano Petersen](https://www.linkedin.com/in/theanop/) | 999 |
 | [Use Azure Firewall to help protect an AKS cluster](../../guide/aks/aks-firewall.yml) | 404 |
 | [Training: Introduction to Private Link](/learn/modules/introduction-azure-private-link/) | 404 |
 | [Training: Introduction to secure network infrastructure with Azure network security](/learn/paths/secure-networking-infrastructure) | 404 |
@@ -2111,16 +2055,15 @@
 | [Azure Container Storage](/azure/storage/container-storage/container-storage-introduction) | 404 |
 | [Azure disks](/azure/virtual-machines/managed-disks-overview) | 404 |
 | [Elastic SAN](/azure/storage/elastic-san/elastic-san-introduction) | 404 |
-| [Quobyte](https://www.quobyte.com/) | 202 |
 | [CSI drivers](/azure/aks/csi-storage-drivers) | 404 |
 | [Dynamically provision volumes](/azure/aks/operator-best-practices-storage#dynamically-provision-volumes) | 404 |
 | [Azure Backup](/azure/backup/backup-overview) | 404 |
 | [service supports them](/azure/cost-management-billing/reservations/save-compute-costs-reservations#charges-covered-by-reservation) | 404 |
 | [Paolo Salvatori](https://www.linkedin.com/in/paolo-salvatori/) | 999 |
-| [Laura Nicolas](https://www.linkedin.com/in/lauranicolasd/) | 429 |
+| [Laura Nicolas](https://www.linkedin.com/in/lauranicolasd/) | 999 |
 | [Chad Kittel](https://www.linkedin.com/in/chadkittel/) | 999 |
-| [Ed Price](https://www.linkedin.com/in/priceed/) | 429 |
-| [Theano Petersen](https://www.linkedin.com/in/theanop/) | 429 |
+| [Ed Price](https://www.linkedin.com/in/priceed/) | 999 |
+| [Theano Petersen](https://www.linkedin.com/in/theanop/) | 999 |
 | [Training: Azure Storage services](/training/modules/describe-azure-storage-services/) | 404 |
 | [Training: Store data in Azure](/training/paths/store-data-in-azure/) | 404 |
 | [Training: Introduction to Kubernetes](/training/modules/intro-to-kubernetes/) | 404 |
@@ -2131,7 +2074,6 @@
 | URL | State |
 | --- | --- |
 | [Microsoft Entra identity management and access management for AWS](/azure/architecture/reference-architectures/aws/aws-azure-ad-security) | 404 |
-| [Map AWS IAM concepts to similar Azure concepts](https://techcommunity.microsoft.com/t5/fasttrack-for-azure/mapping-aws-iam-concepts-to-similar-ones-in-azure/ba-p/3612216) | 403 |
 | [managed identities](/entra/identity/managed-identities-azure-resources/overview) | 404 |
 | [Microsoft Entra identity](/entra/fundamentals/whatis) | 404 |
 | [Managed identities](/entra/identity/managed-identities-azure-resources/overview) | 404 |
@@ -2239,7 +2181,7 @@
 | [Implement a secure hybrid network](/azure/architecture/reference-architectures/dmz/secure-vnet-dmz) | 404 |
 | [View all networking architectures.](/azure/architecture/browse/?terms=networking) | 404 |
 | [Konstantin Rekatas](https://www.linkedin.com/in/krekatas/) | 999 |
-| [Adam Cerini](https://www.linkedin.com/in/adamcerini) | 429 |
+| [Adam Cerini](https://www.linkedin.com/in/adamcerini) | 999 |
 | [Create a virtual network using the Azure portal](/azure/virtual-network/quick-create-portal) | 404 |
 | [Plan and design Azure virtual networks](/azure/virtual-network/virtual-network-vnet-plan-design-arm) | 404 |
 | [Azure network security best practices](/azure/security/fundamentals/network-best-practices) | 404 |
@@ -2272,7 +2214,7 @@
 | [ARM Templates](/azure/azure-resource-manager/templates/template-tutorial-create-first-template?tabs=azure-powershell) | 404 |
 | [Bicep](/azure/azure-resource-manager/bicep/overview?tabs=bicep) | 404 |
 | [Terraform](/azure/developer/terraform/get-started-azapi-resource) | 404 |
-| [Srinivasaro Thumala](https://www.linkedin.com/in/srini-thumala/) | 429 |
+| [Srinivasaro Thumala](https://www.linkedin.com/in/srini-thumala/) | 999 |
 | [Adam Cerini](https://www.linkedin.com/in/adamcerini) | 999 |
 | [Azure resource group guidelines](/azure/azure-resource-manager/resource-group-overview#resource-groups) | 404 |
 | [Deploy resources with ARM templates and Azure portal](/azure/azure-resource-manager/templates/deploy-portal) | 404 |
@@ -2320,7 +2262,7 @@
 | [Web Apps feature of Azure App Service Easy Auth](/azure/app-service/overview-authentication-authorization) | 404 |
 | [Microsoft identity platform custom authentication extensions](/entra/identity-platform/custom-extension-overview) | 404 |
 | [Jerry Rhoads](https://www.linkedin.com/in/jerrymsft/) | 999 |
-| [Adam Cerini](https://www.linkedin.com/in/adamcerini/) | 429 |
+| [Adam Cerini](https://www.linkedin.com/in/adamcerini/) | 999 |
 | [Plan your Microsoft Entra ID deployment](/entra/architecture/deployment-plans) | 404 |
 | [Configure hybrid identity with Microsoft Entra Connect](/entra/identity/hybrid/connect/how-to-connect-install-roadmap) | 404 |
 | [Implement Microsoft Entra PIM](/entra/id-governance/privileged-identity-management/pim-deployment-plan) | 404 |
@@ -2384,13 +2326,11 @@
 | [retry techniques](/azure/architecture/patterns/retry) | 404 |
 | [Send notifications to specific users by using Azure Notification Hubs](/azure/notification-hubs/notification-hubs-aspnet-backend-windows-dotnet-wns-notification) | 404 |
 | [Building a Simple Comet Application in the Microsoft .NET Framework](/archive/msdn-magazine/2013/february/asp-net-building-a-simple-comet-application-in-the-microsoft-net-framework) | 404 |
-| [ASP.NET SignalR](https://www.asp.net/signalr) | 403 |
 | [Azure API Management](/azure/api-management) | 404 |
 | [API Management documentation](/azure/api-management) | 404 |
 | [Traffic Manager routing methods](/azure/traffic-manager/traffic-manager-routing-methods) | 404 |
 | [Azure Monitor OpenTelemetry Distro](/azure/azure-monitor/app/opentelemetry-enable) | 404 |
 | [Enable Azure Monitor OpenTelemetry for .NET, Node.js, Python, and Java applications](/azure/azure-monitor/app/opentelemetry-enable) | 404 |
-| [ASP.NET Web API OData](https://www.asp.net/web-api/overview/odata-support-in-aspnet-web-api) | 403 |
 | [Idempotent message processing](../reference-architectures/containers/aks-mission-critical/mission-critical-data-platform.md#idempotent-message-processing) | 404 |
 | [Run background tasks with WebJobs](/azure/app-service-web/web-sites-create-web-jobs) | 404 |
 | [Azure Notification Hubs notify users](/azure/notification-hubs/notification-hubs-aspnet-backend-windows-dotnet-wns-notification) | 404 |
@@ -2450,7 +2390,7 @@
 | [Gatekeeper](../patterns/gatekeeper.yml) | 404 |
 | [Pipes and Filters pattern](../patterns/pipes-and-filters.yml) | 404 |
 | [Scheduler Agent Supervisor pattern](../patterns/scheduler-agent-supervisor.yml) | 404 |
-| [Compensating Transaction pattern](../patterns/compensating-transaction.yml) | 404 |
+| [Compensating Transaction pattern](../patterns/compensating-transaction.md) | 404 |
 | [message sessions](/azure/service-bus-messaging/message-sessions) | 404 |
 | [Scheduler Agent Supervisor pattern](../patterns/scheduler-agent-supervisor.yml) | 404 |
 | [scale-in](/azure/azure-functions/event-driven-scaling#scale-in-behaviors) | 404 |
@@ -2468,7 +2408,7 @@
 | [Priority Queue pattern](../patterns/priority-queue.yml) | 404 |
 | [Pipes and Filters pattern](../patterns/pipes-and-filters.yml) | 404 |
 | [Scheduler Agent Supervisor pattern](../patterns/scheduler-agent-supervisor.yml) | 404 |
-| [Compensating Transaction pattern](../patterns/compensating-transaction.yml) | 404 |
+| [Compensating Transaction pattern](../patterns/compensating-transaction.md) | 404 |
 | [Leader Election pattern](../patterns/leader-election.yml) | 404 |
 | [Competing Consumers pattern](../patterns/competing-consumers.md) | 404 |
 
@@ -3187,7 +3127,6 @@
 | URL | State |
 | --- | --- |
 | [Microsoft Fabric](/fabric/get-started/microsoft-fabric-overview) | 404 |
-| [Fabric analytical data store](https://techcommunity.microsoft.com/blog/analyticsonazure/decision-guide-for-selecting-an-analytical-data-store-in-microsoft-fabric/4362079) | 403 |
 | [Fabric](/fabric/get-started/microsoft-fabric-overview) | 404 |
 | [Fabric](/fabric/get-started/microsoft-fabric-overview) | 404 |
 | [Analysis Services](/azure/analysis-services/) | 404 |
@@ -3203,7 +3142,6 @@
 | [Azure Data Factory](/azure/data-factory/) | 404 |
 | [PolyBase](/sql/relational-databases/polybase/polybase-guide) | 404 |
 | [Choose a data pipeline orchestration technology](../technology-choices/pipeline-orchestration-data-movement.md) | 404 |
-| [Fabric analytical data store](https://techcommunity.microsoft.com/blog/analyticsonazure/decision-guide-for-selecting-an-analytical-data-store-in-microsoft-fabric/4362079) | 403 |
 | [Columnstore indexes](/sql/relational-databases/indexes/columnstore-indexes-overview) | 404 |
 | [Create an Analysis Services server](/azure/analysis-services/analysis-services-create-server) | 404 |
 | [What is Azure Data Factory?](/azure/data-factory/introduction) | 404 |
@@ -3244,15 +3182,17 @@
 | [Azure Data Lake Storage](/azure/storage/blobs/data-lake-storage-introduction) | 404 |
 | [Azure Databricks](/azure/databricks/introduction/) | 404 |
 | [Azure Data Factory](/azure/data-factory/introduction) | 404 |
-| [Microsoft Fabric](/fabric/get-started/microsoft-fabric-overview) | 404 |
+| [Fabric](/fabric/fundamentals/microsoft-fabric-overview) | 404 |
 | [Avijit Prasad](https://www.linkedin.com/in/avijit-prasad-96768a42/) | 999 |
 | [Raphael Sayegh](https://www.linkedin.com/in/raphael-sayegh/) | 999 |
 | [What is OneLake?](/fabric/onelake/onelake-overview) | 404 |
 | [Introduction to Data Lake Storage](/azure/storage/blobs/data-lake-storage-introduction) | 404 |
-| [Training: Introduction to Data Lake Storage](/training/modules/intro-to-azure-data-lake-storage) | 404 |
-| [Integration of Hadoop and Azure Data Lake Storage](/azure/hdinsight/hdinsight-hadoop-use-data-lake-storage-gen2) | 404 |
-| [Connect to Data Lake Storage and Blob Storage](/azure/databricks/connect/storage/azure-storage) | 404 |
-| [Load data into Data Lake Storage with Azure Data Factory](/azure/data-factory/load-azure-data-lake-storage-gen2) | 404 |
+| [Training: Introduction to Data Lake Storage](/training/modules/introduction-to-azure-data-lake-storage/) | 404 |
+| [Use Data Lake Storage with Azure HDInsight clusters](/azure/hdinsight/hdinsight-hadoop-use-data-lake-storage-gen2) | 404 |
+| [Use Azure managed identities in Unity Catalog to access storage](/azure/databricks/connect/unity-catalog/cloud-storage/azure-managed-identities) | 404 |
+| [Load data into Data Lake Storage by using Data Factory](/azure/data-factory/load-azure-data-lake-storage-gen2) | 404 |
+| [Connect to Data Lake Storage in Microsoft Purview](/purview/register-scan-adls-gen2) | 404 |
+| [Best practices for using Data Lake Storage](/azure/storage/blobs/data-lake-storage-best-practices) | 404 |
 | [Choose an analytical data store in Azure](../technology-choices/analytical-data-stores.md) | 404 |
 | [Modern data warehouse for small and medium businesses](../../example-scenario/data/small-medium-data-warehouse.yml) | 404 |
 
@@ -3466,9 +3406,9 @@
 | URL | State |
 | --- | --- |
 | [Microsoft Fabric](/fabric/fundamentals/microsoft-fabric-overview) | 404 |
-| [Slava Trofimov](https://www.linkedin.com/in/slava-trofimov/) | 429 |
-| [Panos Antonopoulos](https://www.linkedin.com/in/panagiotis-antonopoulos) | 429 |
-| [Miles Cole](https://www.linkedin.com/in/mileswcole/) | 429 |
+| [Slava Trofimov](https://www.linkedin.com/in/slava-trofimov/) | 999 |
+| [Panos Antonopoulos](https://www.linkedin.com/in/panagiotis-antonopoulos) | 999 |
+| [Miles Cole](https://www.linkedin.com/in/mileswcole/) | 999 |
 | [Anna Hoffman](https://www.linkedin.com/in/amthomas46) | 999 |
 | [Joanna Podgoetsky](https://www.linkedin.com/in/joanpo) | 999 |
 | [Shane Risk](https://www.linkedin.com/in/shanerisk/) | 999 |
@@ -3481,23 +3421,149 @@
 | [Data warehouses in Microsoft Fabric](/fabric/data-warehouse/data-warehousing) | 404 |
 | [Eventhouses in Microsoft Fabric](/fabric/real-time-intelligence/eventhouse) | 404 |
 
+* https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/data-guide/technology-choices/fabric-deployment-patterns.md
+
+| URL | State |
+| --- | --- |
+| [Microsoft Fabric](/fabric/fundamentals/microsoft-fabric-overview) | 404 |
+| [Microsoft Entra Conditional Access](/entra/identity/conditional-access/overview) | 404 |
+| [private links](/fabric/security/security-private-links-overview) | 404 |
+| [sensitivity labels](/fabric/governance/information-protection) | 404 |
+| [F SKU](/fabric/enterprise/licenses) | 404 |
+| [workspaces](/fabric/fundamentals/workspaces) | 404 |
+| [Git integration](/fabric/cicd/git-integration/intro-to-git-integration) | 404 |
+| [deployment pipelines](/fabric/cicd/deployment-pipelines/intro-to-deployment-pipelines) | 404 |
+| [Microsoft OneLake security roles](/fabric/onelake/security/get-started-security#onelake-security-preview) | 404 |
+| [Fabric items](/fabric/fundamentals/fabric-home) | 404 |
+| [Fabric domains](/fabric/governance/domains) | 404 |
+| [OneLake](/fabric/onelake/onelake-overview) | 404 |
+| [OneLake catalog](/fabric/governance/onelake-catalog-overview) | 404 |
+| [life cycle management](/fabric/cicd/cicd-overview) | 404 |
+| [at the domain level](/fabric/governance/domains#domain-settings-delegation) | 404 |
+| [Secure tab in the OneLake catalog](/fabric/governance/secure-your-data) | 404 |
+| [Azure Pipelines](/azure/devops/pipelines/get-started/what-is-azure-pipelines) | 404 |
+| [GitHub Actions](/azure/developer/github/github-actions) | 404 |
+| [Microsoft Purview](/purview/purview) | 404 |
+| [deployment pipelines](/fabric/cicd/deployment-pipelines/intro-to-deployment-pipelines) | 404 |
+| [limitations](/fabric/fundamentals/workspaces#considerations-and-limitations) | 404 |
+| [life cycle management](/fabric/cicd/cicd-overview) | 404 |
+| [Fabric domain](/fabric/governance/domains) | 404 |
+| [Workspace limitations](/fabric/fundamentals/workspaces#considerations-and-limitations) | 404 |
+| [OneLake catalog](/fabric/governance/onelake-catalog-overview) | 404 |
+| [OneLake shortcuts](/fabric/onelake/onelake-shortcuts) | 404 |
+| [data pipelines](/fabric/data-factory/data-factory-overview#data-pipelines) | 404 |
+| [data engineering](/fabric/data-engineering/data-engineering-overview) | 404 |
+| [Data Factory](/azure/data-factory/introduction) | 404 |
+| [Data Lake Storage](/azure/storage/blobs/data-lake-storage-introduction) | 404 |
+| [Azure Databricks](/azure/databricks/introduction/) | 404 |
+| [Power BI](/power-bi/fundamentals/power-bi-overview) | 404 |
+| [Well-Architected Framework](/azure/well-architected/) | 404 |
+| [Design review checklist for Reliability](/azure/well-architected/reliability/checklist) | 404 |
+| [Fabric region availability](/fabric/admin/region-availability) | 404 |
+| [Reliability in Fabric](/azure/reliability/reliability-fabric) | 404 |
+| [Design review checklist for Security](/azure/well-architected/security/checklist) | 404 |
+| [Conditional Access](/entra/identity/conditional-access/overview) | 404 |
+| [Microsoft Entra ID P1 license](/entra/fundamentals/what-is-entra#license-microsoft-entra-features) | 404 |
+| [workspace roles](/fabric/fundamentals/roles-workspaces) | 404 |
+| [OneLake security roles](/fabric/onelake/security/get-started-security#onelake-security-preview) | 404 |
+| [private links](/fabric/security/security-private-links-overview) | 404 |
+| [managed private endpoints](/fabric/security/security-managed-private-endpoints-overview) | 404 |
+| [Azure SQL Database](/azure/azure-sql/database/sql-database-paas-overview) | 404 |
+| [virtual network data gateway](/data-integration/vnet/overview) | 404 |
+| [sensitivity labels](/fabric/governance/information-protection) | 404 |
+| [Microsoft Purview Information Protection](/purview/information-protection) | 404 |
+| [audit logs](/fabric/security/security-overview#audit-logs) | 404 |
+| [Microsoft Purview Compliance Manager](/purview/compliance-manager-alert-policies) | 404 |
+| [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist) | 404 |
+| [Fabric Capacity Metrics app](/fabric/enterprise/metrics-app) | 404 |
+| [Azure Resource Manager Fabric APIs](/rest/api/microsoftfabric/fabric-capacities/suspend) | 404 |
+| [Design review checklist for Operational Excellence](/azure/well-architected/operational-excellence/checklist) | 404 |
+| [Fabric deployment pipelines](/fabric/cicd/deployment-pipelines/intro-to-deployment-pipelines) | 404 |
+| [Git repositories](/fabric/cicd/git-integration/intro-to-git-integration) | 404 |
+| [workspace monitoring](/fabric/fundamentals/workspace-monitoring-overview) | 404 |
+| [Fabric domains](/fabric/governance/domains) | 404 |
+| [Bicep](/azure/templates/microsoft.fabric/capacities?pivots=deployment-language-bicep) | 404 |
+| [Terraform](/azure/templates/microsoft.fabric/capacities?pivots=deployment-language-terraform) | 404 |
+| [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) | 404 |
+| [throttling](/fabric/enterprise/throttling) | 404 |
+| [custom Spark pools](/fabric/data-engineering/create-custom-spark-pools) | 404 |
+| [OneLake shortcuts](/fabric/onelake/onelake-shortcuts) | 404 |
+| [Z-Ordering and V-Ordering](/fabric/data-engineering/delta-optimization-and-v-order?tabs=sparksql) | 404 |
+| [Direct Lake](/fabric/fundamentals/direct-lake-overview) | 404 |
+| [Amanjeet Singh](https://www.linkedin.com/in/amanjeetsingh2004/) | 999 |
+| [Lorrin Ferdinand](https://www.linkedin.com/in/lorrin-ferdinand/) | 999 |
+| [Holly Kelly](https://www.linkedin.com/in/holly-kelly-9466063/) | 999 |
+| [Gabi Muenster](https://www.linkedin.com/in/gabimuenster/) | 999 |
+| [Sarah Sasidharan](https://www.linkedin.com/in/sarathsasidharan/) | 999 |
+| [Fabric concepts and licenses](/fabric/enterprise/licenses) | 404 |
+| [Fabric workspaces](/fabric/fundamentals/workspaces) | 404 |
+| [Fabric domains](/fabric/governance/domains) | 404 |
+| [What is OneLake?](/fabric/onelake/onelake-overview) | 404 |
+| [Fabric deployment pipelines](/fabric/cicd/deployment-pipelines/intro-to-deployment-pipelines) | 404 |
+| [Reliability in Fabric](/azure/reliability/reliability-fabric) | 404 |
+| [Fabric security overview](/fabric/security/security-overview) | 404 |
+| [Technology choices overview](../../guide/technology-choices/technology-choices-overview.md) | 404 |
+| [Analytics end-to-end with Fabric](../../example-scenario/dataplate2e/data-platform-end-to-end.yml) | 404 |
+| [Enterprise business intelligence with Fabric](../../example-scenario/analytics/enterprise-bi-microsoft-fabric.yml) | 404 |
+| [Build a greenfield lakehouse with Fabric](../../example-scenario/data/greenfield-lakehouse-fabric.yml) | 404 |
+
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/data-guide/technology-choices/natural-language-processing.md
 
 | URL | State |
 | --- | --- |
+| [Azure Language](/azure/ai-services/language-service/overview) | 404 |
+| [Azure Databricks](/azure/databricks/introduction/) | 404 |
 | [Microsoft Fabric](/fabric/data-engineering/spark-compute) | 404 |
-| [Azure HDInsight](/azure/hdinsight/spark/apache-spark-overview) | 404 |
-| [Azure Databricks](/azure/databricks/scenarios/what-is-azure-databricks) | 404 |
-| [supported programming languages](/azure/ai-foundry/model-inference/supported-languages) | 404 |
+| [Choose an AI services technology](/azure/architecture/data-guide/technology-choices/ai-services) | 404 |
+| [Azure Document Intelligence](/azure/ai-services/document-intelligence/overview) | 404 |
+| [Azure Language](/azure/ai-services/language-service/overview) | 404 |
+| [Text analytics for health](/azure/ai-services/language-service/text-analytics-for-health/overview) | 404 |
+| [Azure Translator](/azure/ai-services/translator/overview) | 404 |
+| [Azure Speech](/azure/ai-services/speech-service/overview) | 404 |
+| [Azure Language](/azure/ai-services/language-service/overview) | 404 |
+| [NER](/azure/ai-services/language-service/named-entity-recognition/overview) | 404 |
+| [PII detection](/azure/ai-services/language-service/personally-identifiable-information/overview?tabs=text-pii) | 404 |
+| [Language detection](/azure/ai-services/language-service/language-detection/overview) | 404 |
+| [Sentiment analysis and opinion mining](/azure/ai-services/language-service/sentiment-opinion-mining/overview) | 404 |
+| [Key phrase extraction](/azure/ai-services/language-service/key-phrase-extraction/overview) | 404 |
+| [Summarization](/azure/ai-services/language-service/summarization/overview?tabs=text-summarization) | 404 |
+| [Text analytics for health](/azure/ai-services/language-service/text-analytics-for-health/overview) | 404 |
+| [Custom named entity recognition (CNER)](/azure/ai-services/language-service/custom-named-entity-recognition/overview) | 404 |
+| [Azure Language MCP server and agents (preview)](/azure/ai-services/language-service/concepts/foundry-tools-agents#azure-language-mcp-server-preview) | 404 |
+| [Azure AI containers support](/azure/ai-services/cognitive-services-container-support) | 404 |
+| [Azure Databricks](/azure/databricks/introduction/) | 404 |
+| [Fabric](/fabric/data-engineering/spark-compute) | 404 |
+| [Fabric](/fabric/data-engineering/spark-compute) | 404 |
+| [Azure Databricks](/azure/databricks/introduction) | 404 |
+| [Azure Language](/azure/ai-services/language-service/overview) | 404 |
+| [Azure Databricks](/azure/databricks/introduction) | 404 |
+| [Fabric](/fabric/data-engineering/spark-compute) | 404 |
+| [Azure Language](/azure/ai-services/language-service/overview) | 404 |
+| [CNER](/azure/ai-services/language-service/custom-named-entity-recognition/overview) | 404 |
+| [Azure Language](/azure/ai-services/language-service/overview) | 404 |
+| [Azure Databricks](/azure/databricks/introduction) | 404 |
+| [Fabric](/fabric/data-engineering/spark-compute) | 404 |
+| [Azure Databricks](/azure/databricks/introduction) | 404 |
+| [Fabric](/fabric/data-science/data-science-overview) | 404 |
+| [built-in MLflow experience](/fabric/data-science/machine-learning-experiment) | 404 |
+| [Azure Databricks](/azure/databricks/machine-learning/manage-model-lifecycle/) | 404 |
+| [Models in Unity Catalog](/azure/databricks/machine-learning/manage-model-lifecycle/) | 404 |
+| [Fabric](/fabric/data-science/data-science-overview) | 404 |
+| [Supported programming languages](/azure/foundry-classic/foundry-models/supported-languages) | 404 |
+| [Data and rate limits for Azure Language](/azure/ai-services/language-service/concepts/data-limits) | 404 |
+| [Azure Language supported languages](/azure/ai-services/language-service/concepts/language-support) | 404 |
+| [Ananya Ghosh Chowdhury](https://www.linkedin.com/in/ananyaghoshchowdhury/) | 999 |
+| [Kranthi Manchikanti](https://www.linkedin.com/in/kranthimanchikanti/) | 999 |
 | [Freddy Ayala](https://www.linkedin.com/in/freddyayala/) | 999 |
-| [Moritz Steller](https://www.linkedin.com/in/moritz-steller-426430116) | 999 |
 | [Tincy Elias](https://www.linkedin.com/in/tincy-elias/) | 999 |
+| [Moritz Steller](https://www.linkedin.com/in/moritz-steller-426430116) | 999 |
+| [Introduction to AI in Azure](/training/paths/introduction-to-ai-on-azure) | 404 |
+| [Develop natural language processing solutions by using Foundry Tools](/training/paths/develop-language-solutions-azure-ai) | 404 |
+| [Azure Language overview](/azure/ai-services/language-service/overview) | 404 |
+| [Foundry documentation](/azure/foundry/what-is-foundry) | 404 |
 | [Fabric](/fabric/) | 404 |
-| [HDInsight](/azure/hdinsight/spark/apache-spark-overview) | 404 |
-| [Azure Databricks](/azure/databricks/scenarios/what-is-azure-databricks) | 404 |
+| [Azure Databricks](/azure/databricks/introduction) | 404 |
 | [Foundry Tools](/azure/ai-services/what-are-ai-services) | 404 |
-| [Microsoft Azure AI fundamentals: Explore natural language processing](/training/paths/explore-natural-language-processing) | 404 |
-| [Develop natural language processing solutions with Foundry Tools](/training/paths/develop-language-solutions-azure-ai) | 404 |
 | [Compare the machine learning products and technologies from Microsoft](../../ai-ml/guide/data-science-and-machine-learning.md) | 404 |
 | [MLflow and Azure Machine Learning](/azure/machine-learning/concept-mlflow) | 404 |
 | [AI enrichment with image and natural language processing in Azure AI Search](../../solution-ideas/articles/ai-search-skillsets.yml) | 404 |
@@ -3871,7 +3937,7 @@
 | [Mission-critical](/azure/well-architected/mission-critical/mission-critical-overview) | 404 |
 | [Leo Kozhushnik](https://www.linkedin.com/in/leo-kozhushnik-ab16707/) | 999 |
 | [Darren Turchiarelli](https://www.linkedin.com/in/darren-turchiarelli/) | 999 |
-| [Scott Mckinnon](https://www.linkedin.com/in/scott-mckinnon-96756a83) | 429 |
+| [Scott Mckinnon](https://www.linkedin.com/in/scott-mckinnon-96756a83) | 999 |
 | [Nicholas Moore](https://www.linkedin.com/in/nicholas-moore/) | 999 |
 | [Justice Zisanhi](https://www.linkedin.com/in/justice-zisanhi/) | 999 |
 | [Azure landing zones](/azure/cloud-adoption-framework/ready/landing-zone/) | 404 |
@@ -3965,7 +4031,7 @@
 | [Implement SMA OpCon in Azure](../example-scenario/integration/sma-opcon-azure.yml) | 404 |
 | [Oracle Database with Azure NetApp Files](../example-scenario/file-storage/oracle-azure-netapp-files.yml) | 404 |
 | [SAP deployment by using an Oracle database](../example-scenario/apps/sap-production.yml) | 404 |
-| [Microsoft Fabric deployment patterns](../analytics/architecture/fabric-deployment-patterns.yml) | 404 |
+| [Microsoft Fabric deployment patterns](../data-guide/technology-choices/fabric-deployment-patterns.md) | 404 |
 | [Migrate an Oracle database to Azure](../databases/idea/topic-migrate-oracle-azure.yml) | 404 |
 | [Migrate an Oracle database to an Azure virtual machine](../databases/idea/migrate-oracle-azure-iaas.yml) | 404 |
 | [Migrate an Oracle database to Oracle Exadata Database@Azure](../databases/idea/migrate-oracle-odaa-exadata.yml) | 404 |
@@ -4054,7 +4120,7 @@
 | [VM size](/azure/virtual-machines/linux/sizes) | 404 |
 | [availability zones](/azure/reliability/availability-zones-overview) | 404 |
 | [Arsen Vladimirskiy](https://www.linkedin.com/in/arsenv/) | 999 |
-| [Theo van Kraay](https://www.linkedin.com/in/theo-van-kraay-3388b130/) | 429 |
+| [Theo van Kraay](https://www.linkedin.com/in/theo-van-kraay-3388b130/) | 999 |
 | [N-tier architecture style](../../guide/architecture-styles/n-tier.md) | 404 |
 | [Data partitioning guidance](../../best-practices/data-partitioning.yml) | 404 |
 
@@ -4105,7 +4171,7 @@
 | [Tess Maggio](https://www.linkedin.com/in/tessmaggio) | 999 |
 | [Arun Saju](https://www.linkedin.com/in/arunsajukurian) | 999 |
 | [Mick Shieh](https://www.linkedin.com/in/mick-shieh-9219641/) | 999 |
-| [Jon Burchel](https://www.linkedin.com/in/jon-burchel-8068917b) | 429 |
+| [Jon Burchel](https://www.linkedin.com/in/jon-burchel-8068917b) | 999 |
 | [Abhishek Narain](https://www.linkedin.com/in/narain-abhishek/) | 999 |
 | [Michael Torok](https://www.linkedin.com/in/michaelatorok/) | 999 |
 
@@ -4122,7 +4188,7 @@
 | [deduplication feature turned on](/azure/service-bus-messaging/duplicate-detection) | 404 |
 | [first in, first out (FIFO)](/azure/service-bus-messaging/message-sessions) | 404 |
 | [Christian Dennig](https://www.linkedin.com/in/christian-dennig/) | 999 |
-| [Alexander Wild](https://www.linkedin.com/in/wueda/) | 429 |
+| [Alexander Wild](https://www.linkedin.com/in/wueda/) | 999 |
 | [Tackle business complexity in a microservice by using DDD and CQRS patterns](/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns) | 404 |
 | [Message deduplication in Service Bus](/azure/service-bus-messaging/duplicate-detection) | 404 |
 | [Change feed processor library](/azure/cosmos-db/change-feed-processor) | 404 |
@@ -4154,7 +4220,7 @@
 | --- | --- |
 | [Oracle Database@Azure](/azure/oracle/oracle-db/database-overview) | 404 |
 | [Jan Faurskov](https://www.linkedin.com/in/jfaurskov) | 999 |
-| [Moises Gomez-Cortez](https://www.linkedin.com/in/moisesjgomez) | 429 |
+| [Moises Gomez-Cortez](https://www.linkedin.com/in/moisesjgomez) | 999 |
 | [Güher Kayali Sarikan](https://www.linkedin.com/in/guherkayali) | 999 |
 | [Network topology and connectivity for OD@A](/azure/cloud-adoption-framework/scenarios/oracle-iaas/oracle-network-topology-odaa) | 404 |
 | [Identity and access management for OD@A](/azure/cloud-adoption-framework/scenarios/oracle-iaas/oracle-iam-odaa) | 404 |
@@ -4186,8 +4252,8 @@
 | [Azure Service Bus](/azure/well-architected/service-guides/service-bus/reliability) | 404 |
 | [Storage queues and Service Bus queues - compared and contrasted](/azure/service-bus-messaging/service-bus-azure-and-service-bus-queues-compared-contrasted) | 404 |
 | [Microsoft Azure Well-Architected Framework](/azure/well-architected/) | 404 |
-| [Nabil Siddiqui](https://www.linkedin.com/in/nabilshams/) | 429 |
-| [Filipe Moreira](https://www.linkedin.com/in/filipefumaux/) | 429 |
+| [Nabil Siddiqui](https://www.linkedin.com/in/nabilshams/) | 999 |
+| [Filipe Moreira](https://www.linkedin.com/in/filipefumaux/) | 999 |
 | [Web-Queue-Worker architecture style](../../guide/architecture-styles/web-queue-worker.md) | 404 |
 | [Design a geographically distributed application](/training/modules/design-a-geographically-distributed-application) | 404 |
 | [Distribute your data globally with Azure Cosmos DB](/training/modules/distribute-data-globally-with-cosmos-db) | 404 |
@@ -4467,7 +4533,7 @@
 | [Key Vault](/azure/key-vault/general/overview) | 404 |
 | [Azure DNS zone](/azure/dns/dns-zones-records) | 404 |
 | [Azure Front Door custom domain](/azure/frontdoor/front-door-custom-domain) | 404 |
-| [Paolo Salvatori](https://www.linkedin.com/in/paolo-salvatori) | 429 |
+| [Paolo Salvatori](https://www.linkedin.com/in/paolo-salvatori) | 999 |
 | [AKS cluster best practices](/azure/aks/best-practices) | 404 |
 | [Azure Web Application Firewall on Azure Front Door](/azure/web-application-firewall/afds/afds-overview) | 404 |
 | [Best practices for advanced scheduler features](/azure/aks/operator-best-practices-advanced-scheduler) | 404 |
@@ -4564,9 +4630,9 @@
 | [Evaluate the load](/fabric/enterprise/optimize-capacity) | 404 |
 | [capacity metrics app](/fabric/enterprise/metrics-app-install) | 404 |
 | [capacity optimization techniques](/fabric/enterprise/optimize-capacity#compute-optimization-by-fabric-experience) | 404 |
-| [Bibhu Acharya](https://www.linkedin.com/in/bibhu-acharya-1848b1132/) | 429 |
+| [Bibhu Acharya](https://www.linkedin.com/in/bibhu-acharya-1848b1132/) | 999 |
 | [Jim McLeod](https://www.linkedin.com/in/jimmcleodaustralia/) | 999 |
-| [Miguel Myers](https://www.linkedin.com/in/miguelmyers/) | 429 |
+| [Miguel Myers](https://www.linkedin.com/in/miguelmyers/) | 999 |
 | [Galina Polyakova](https://www.linkedin.com/in/galinagpolyakova/) | 999 |
 | [George Stevens](https://www.linkedin.com/in/george-stevens/) | 999 |
 | [What is Power BI Premium?](/fabric/enterprise/powerbi/service-premium-what-is) | 404 |
@@ -4813,7 +4879,6 @@
 | [High availability for SAP NetWeaver on Azure VMs](/azure/virtual-machines/workloads/sap/high-availability-guide) | 404 |
 | [Azure Virtual Machines planning and implementation for SAP NetWeaver](/azure/virtual-machines/workloads/sap/planning-guide) | 404 |
 | [Use Azure to host and run SAP workload scenarios](/azure/virtual-machines/workloads/sap/get-started) | 404 |
-| [Running SAP Applications on the Microsoft Platform blog](https://techcommunity.microsoft.com/t5/sap-on-microsoft/ct-p/SAPonMicrosoft) | 403 |
 | [SAP Community](https://www.sap.com/community.html) | 403 |
 | [Run SAP NetWeaver in Windows on Azure](/azure/architecture/reference-architectures/sap/sap-netweaver) | 404 |
 
@@ -4976,9 +5041,9 @@
 | [resiliency type](/azure/storage/common/storage-redundancy) | 404 |
 | [backup solution](/azure/azure-netapp-files/backup-introduction) | 404 |
 | [feature availability](/azure/azure-netapp-files/backup-requirements-considerations) | 404 |
-| [Ben Martin Baur](https://www.linkedin.com/in/ben-martin-baur/) | 429 |
-| [Jason Martinez](https://www.linkedin.com/in/jason-martinez-502766123) | 429 |
-| [Igor Pagliai](https://www.linkedin.com/in/igorpag/) | 429 |
+| [Ben Martin Baur](https://www.linkedin.com/in/ben-martin-baur/) | 999 |
+| [Jason Martinez](https://www.linkedin.com/in/jason-martinez-502766123) | 999 |
+| [Igor Pagliai](https://www.linkedin.com/in/igorpag/) | 999 |
 | [Nelson Del Villar](https://www.linkedin.com/in/nelsondelvillar) | 999 |
 | [Azure Virtual Desktop DR plan](/azure/virtual-desktop/disaster-recovery-concepts) | 404 |
 | [BCDR for Azure Virtual Desktop](/azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/eslz-business-continuity-and-disaster-recovery) | 404 |
@@ -5001,7 +5066,6 @@
 | [dead-letter location](/azure/event-grid/manage-event-delivery#set-dead-letter-location) | 404 |
 | [Key Vault extension for Windows](/azure/virtual-machines/extensions/key-vault-windows) | 404 |
 | [Key Vault extension for Linux](/azure/virtual-machines/extensions/key-vault-linux) | 404 |
-| [Key Vault extension for Azure Arc-enabled servers](https://techcommunity.microsoft.com/t5/azure-arc-blog/in-preview-azure-key-vault-extension-for-arc-enabled-servers/ba-p/1888739) | 403 |
 | [webhook](/azure/automation/automation-webhooks) | 404 |
 | [Azure Hybrid Worker extension](/azure/automation/extension-based-hybrid-runbook-worker-install) | 404 |
 | [Well-Architected Framework](/azure/well-architected/) | 404 |
@@ -5339,7 +5403,7 @@
 | [data sensitivity](/purview/data-map-sensitivity-labels) | 404 |
 | [Unified Catalog health management](/purview/unified-catalog-data-health-management) | 404 |
 | [Microsoft Purview hub](/fabric/governance/use-microsoft-purview-hub) | 404 |
-| [deployment patterns](/azure/architecture/analytics/architecture/fabric-deployment-patterns) | 404 |
+| [deployment patterns](/azure/architecture/data-guide/technology-choices/fabric-deployment-patterns) | 404 |
 | [key vault in Fabric](/fabric/data-factory/azure-key-vault-reference-overview) | 404 |
 | [Azure Monitor](/azure/azure-monitor/fundamentals/overview) | 404 |
 | [Well-Architected Framework](/azure/well-architected/) | 404 |
@@ -5406,7 +5470,7 @@
 | [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist) | 404 |
 | [Design review checklist for Operational Excellence](/azure/well-architected/operational-excellence/checklist) | 404 |
 | [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) | 404 |
-| [Derek Smay](https://www.linkedin.com/in/dereksmay) | 429 |
+| [Derek Smay](https://www.linkedin.com/in/dereksmay) | 999 |
 | [Microsoft 365 solution and architecture center](/microsoft-365/solutions) | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/example-scenario/file-storage/enterprise-file-shares-disaster-recovery-content.md
@@ -5423,12 +5487,10 @@
 | [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist) | 404 |
 | [Cost model for cross-region replication](/azure/azure-netapp-files/cross-region-replication-introduction#cost-model-for-cross-region-replication) | 404 |
 | [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) | 404 |
-| [Disaster Recovery for Enterprise File Shares](https://techcommunity.microsoft.com/t5/azure-architecture-blog/disaster-recovery-for-enterprise-file-shares/ba-p/2808757) | 403 |
 | [Max Melcher](https://de.linkedin.com/in/maxmelcher) | 999 |
 | [Register for NetApp Resource Provider](/azure/azure-netapp-files/azure-netapp-files-register) | 404 |
 | [Create a NetApp account](/azure/azure-netapp-files/azure-netapp-files-create-netapp-account) | 404 |
 | [Quickstart: Set up Azure NetApp Files and create an NFS volume](/azure/azure-netapp-files/azure-netapp-files-quickstart-set-up-account-create-volumes?tabs=azure-portal) | 404 |
-| [Disaster Recovery for Enterprise File Shares](https://techcommunity.microsoft.com/t5/azure-architecture-blog/disaster-recovery-for-enterprise-file-shares/ba-p/2808757) | 403 |
 | [Hybrid file services](/azure/architecture/hybrid/hybrid-file-services) | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/example-scenario/file-storage/moodle-azure-netapp-files-content.md
@@ -5451,10 +5513,8 @@
 | [Azure NetApp Files cost model](/azure/azure-netapp-files/azure-netapp-files-cost-model) | 404 |
 | [Design review checklist for Operational Excellence](/azure/well-architected/operational-excellence/checklist) | 404 |
 | [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) | 404 |
-| [Azure NetApp Files for NFS storage with Moodle](https://techcommunity.microsoft.com/t5/azure-architecture-blog/azure-netapp-files-for-nfs-storage-with-moodle/ba-p/2300630) | 403 |
 | [Arnt de Gier](https://www.linkedin.com/in/arntdegier) | 999 |
 | [Moodle docs: Redis cache store](https://docs.moodle.org/501/en/Redis_cache_store) | 403 |
-| [Azure NetApp Files for NFS storage with Moodle](https://techcommunity.microsoft.com/t5/azure-architecture-blog/azure-netapp-files-for-nfs-storage-with-moodle/ba-p/2300630) | 403 |
 | [Solution architectures using Azure NetApp Files](/azure/azure-netapp-files/azure-netapp-files-solution-architectures) | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/example-scenario/file-storage/oracle-azure-netapp-files-content.md
@@ -5472,7 +5532,7 @@
 | [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist) | 404 |
 | [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) | 404 |
 | [Deanna Garcia](https://www.linkedin.com/in/deanna-garcia-8540912) | 999 |
-| [Arnt de Gier](https://www.linkedin.com/in/arntdegier/) | 429 |
+| [Arnt de Gier](https://www.linkedin.com/in/arntdegier/) | 999 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/example-scenario/file-storage/sql-server-azure-netapp-files-content.md
 
@@ -5497,7 +5557,7 @@
 | [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist) | 404 |
 | [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) | 404 |
 | [Azure NetApp Files documentation](/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb) | 404 |
-| [Arnt de Gier](https://www.linkedin.com/in/arntdegier) | 429 |
+| [Arnt de Gier](https://www.linkedin.com/in/arntdegier) | 999 |
 | [Azure NetApp Files quickstart](/azure/azure-netapp-files/azure-netapp-files-quickstart-set-up-account-create-volumes) | 404 |
 | [Create an SMB volume for Azure NetApp Files](/azure/azure-netapp-files/azure-netapp-files-create-volumes-smb) | 404 |
 | [Benefits of using Azure NetApp Files for SQL Server deployment](/azure/azure-netapp-files/solutions-benefits-azure-netapp-files-sql-server) | 404 |
@@ -5690,7 +5750,6 @@
 | [GitOps Flux v2 configurations with AKS and Azure Arc-enabled Kubernetes](/azure/azure-arc/kubernetes/conceptual-gitops-flux2) | 404 |
 | [Tutorial: Deploy applications by using GitOps with Flux v2](/azure/azure-arc/kubernetes/tutorial-use-gitops-flux2) | 404 |
 | [Tutorial: Implement CI/CD with GitOps (Flux v2)](/azure/azure-arc/kubernetes/tutorial-gitops-flux2-ci-cd) | 404 |
-| [Quickstart - Jumpstart HCIBox](https://techcommunity.microsoft.com/blog/azurearcblog/announcing-jumpstart-hcibox/3647646) | 403 |
 | [Baseline architecture for AKS on Azure Local](../../example-scenario/hybrid/aks-baseline.yml) | 404 |
 | [Azure Arc hybrid management and deployment for Kubernetes clusters](../../hybrid/arc-hybrid-kubernetes.yml) | 404 |
 
@@ -5789,7 +5848,6 @@
 | [High availability cross-geographic AD FS deployment in Azure with Azure Traffic Manager](/windows-server/identity/ad-fs/deployment/active-directory-adfs-in-azure-with-azure-traffic-manager) | 404 |
 | [Exchange high availability](/exchange/high-availability/deploy-ha?view=exchserver-2019) | 404 |
 | [Design review checklist for Security](/azure/well-architected/security/checklist) | 404 |
-| [Deep Dive: How Hybrid Authentication Really Works](https://techcommunity.microsoft.com/t5/exchange-team-blog/deep-dive-how-hybrid-authentication-really-works/ba-p/606780) | 403 |
 | [Microsoft Entra security operations guide](/entra/architecture/security-operations-introduction) | 404 |
 | [Best practices for securing AD FS and Web Application Proxy](/windows-server/identity/ad-fs/deployment/best-practices-securing-ad-fs) | 404 |
 | [Configure AD FS Extranet Smart Lockout](/windows-server/identity/ad-fs/operations/configure-ad-fs-extranet-smart-lockout-protection) | 404 |
@@ -5806,7 +5864,6 @@
 | [authentication policy](/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online) | 404 |
 | [Pavel Kondrashov](https://www.linkedin.com/in/kondrashov-pv) | 999 |
 | [Ella Parkum](https://www.linkedin.com/in/ella-parkum-15036923) | 999 |
-| [Announcing Hybrid Modern Authentication for Exchange On-Premises](https://techcommunity.microsoft.com/t5/exchange-team-blog/announcing-hybrid-modern-authentication-for-exchange-on-premises/ba-p/607476) | 403 |
 | [Hybrid modern authentication overview and prerequisites for use with on-premises Exchange servers](/microsoft-365/enterprise/hybrid-modern-auth-overview?view=o365-worldwide) | 404 |
 | [Use AD FS claims-based authentication with Outlook on the web](/exchange/clients/outlook-on-the-web/ad-fs-claims-based-auth?view=exchserver-2019) | 404 |
 | [How to configure Exchange Server on-premises to use Hybrid Modern Authentication](/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication?view=o365-worldwide) | 404 |
@@ -5853,7 +5910,6 @@
 | [Exchange high availability](/exchange/high-availability/deploy-ha?view=exchserver-2019) | 404 |
 | [Design review checklist for Security](/azure/well-architected/security/checklist) | 404 |
 | [Protect data and devices with Microsoft Intune](/mem/intune/protect/device-protect) | 404 |
-| [Deep Dive: How Hybrid Authentication Really Works](https://techcommunity.microsoft.com/t5/exchange-team-blog/deep-dive-how-hybrid-authentication-really-works/ba-p/606780) | 403 |
 | [Microsoft Entra security operations guide](/entra/architecture/security-operations-introduction) | 404 |
 | [Best practices for securing AD FS and Web Application Proxy](/windows-server/identity/ad-fs/deployment/best-practices-securing-ad-fs) | 404 |
 | [Configure AD FS Extranet Smart Lockout](/windows-server/identity/ad-fs/operations/configure-ad-fs-extranet-smart-lockout-protection) | 404 |
@@ -5870,7 +5926,6 @@
 | [Block legacy authentication attempts at the messaging services level by using authentication policy.](/exchange/clients-and-mobile-in-exchange-online/disable-basic-authentication-in-exchange-online) | 404 |
 | [Pavel Kondrashov](https://www.linkedin.com/in/kondrashov-pv) | 999 |
 | [Ella Parkum](https://www.linkedin.com/in/ella-parkum-15036923) | 999 |
-| [Announcing Hybrid Modern Authentication for Exchange On-Premises](https://techcommunity.microsoft.com/t5/exchange-team-blog/announcing-hybrid-modern-authentication-for-exchange-on-premises/ba-p/607476) | 403 |
 | [Hybrid modern authentication overview and prerequisites for use with on-premises Exchange servers](/microsoft-365/enterprise/hybrid-modern-auth-overview?view=o365-worldwide) | 404 |
 | [Use AD FS claims-based authentication with Outlook on the web](/exchange/clients/outlook-on-the-web/ad-fs-claims-based-auth?view=exchserver-2019) | 404 |
 | [How to configure Exchange Server on-premises to use Hybrid Modern Authentication](/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication?view=o365-worldwide) | 404 |
@@ -5917,7 +5972,6 @@
 | [by using AD FS claim-based authentication](/exchange/clients/outlook-on-the-web/ad-fs-claims-based-auth?view=exchserver-2019) | 404 |
 | [Pavel Kondrashov](https://www.linkedin.com/in/kondrashov-pv) | 999 |
 | [Ella Parkum](https://www.linkedin.com/in/ella-parkum-15036923) | 999 |
-| [Announcing Hybrid Modern Authentication for Exchange On-Premises](https://techcommunity.microsoft.com/t5/exchange-team-blog/announcing-hybrid-modern-authentication-for-exchange-on-premises/ba-p/607476) | 403 |
 | [Hybrid modern authentication overview and prerequisites for use with on-premises Skype for Business and Exchange servers](/microsoft-365/enterprise/hybrid-modern-auth-overview?view=o365-worldwide) | 404 |
 | [Use AD FS claims-based authentication with Outlook on the web](/exchange/clients/outlook-on-the-web/ad-fs-claims-based-auth?view=exchserver-2019) | 404 |
 | [Exchange 2019 preferred architecture](/exchange/plan-and-deploy/deployment-ref/preferred-architecture-2019) | 404 |
@@ -6095,8 +6149,8 @@
 | [Flex Consumption](/azure/azure-functions/flex-consumption-plan) | 404 |
 | [Design review checklist for Operational Excellence](/azure/well-architected/operational-excellence/checklist) | 404 |
 | [CI/CD templates](/azure/api-management/devops-api-development-templates) | 404 |
-| [Pete Messina](https://www.linkedin.com/in/peter-messina-93512414/) | 429 |
-| [Anthony Nevico](https://www.linkedin.com/in/anthonynevico/) | 429 |
+| [Pete Messina](https://www.linkedin.com/in/peter-messina-93512414/) | 999 |
+| [Anthony Nevico](https://www.linkedin.com/in/anthonynevico/) | 999 |
 | [API Management terminology](/azure/api-management/api-management-terminology) | 404 |
 | [Application Gateway documentation](/azure/application-gateway/overview) | 404 |
 | [Use API gateways in microservices](../../microservices/design/gateway.yml) | 404 |
@@ -6177,8 +6231,8 @@
 | [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist) | 404 |
 | [Design review checklist for Operational Excellence](/azure/well-architected/operational-excellence/checklist) | 404 |
 | [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) | 404 |
-| [Bertie Vanhinsbergen](https://www.linkedin.com/in/gys-bertie-van-hinsbergen-7802204) | 429 |
-| [Philip Brooks](https://www.linkedin.com/in/philipbbrooks) | 429 |
+| [Bertie Vanhinsbergen](https://www.linkedin.com/in/gys-bertie-van-hinsbergen-7802204) | 999 |
+| [Philip Brooks](https://www.linkedin.com/in/philipbbrooks) | 999 |
 | [Unisys ClearPath Forward OS 2200 enterprise server virtualization on Azure](../../mainframe/virtualization-of-unisys-clearpath-forward-os-2200-enterprise-server-on-azure.yml) | 404 |
 | [Unisys ClearPath Forward MCP mainframe rehost to Azure by using Unisys virtualization](../../example-scenario/mainframe/unisys-clearpath-forward-mainframe-rehost.yml) | 404 |
 
@@ -6204,7 +6258,7 @@
 | [device twin](/azure/iot-hub/iot-hub-devguide-device-twins) | 404 |
 | [Private DNS zones](/azure/dns/private-dns-overview) | 404 |
 | [Katrien De Graeve](https://www.linkedin.com/in/katriendg/) | 999 |
-| [Vincent Misson](https://www.linkedin.com/in/vmisson/) | 429 |
+| [Vincent Misson](https://www.linkedin.com/in/vmisson/) | 999 |
 | [Nacim Allouache](https://www.linkedin.com/in/nacim-allouache/) | 999 |
 | [upload files with IoT Hub](/azure/iot-hub/iot-hub-devguide-file-upload) | 404 |
 | [Hub-spoke network topology in Azure](../../networking/architecture/hub-spoke.yml) | 404 |
@@ -6235,7 +6289,6 @@
 | [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) | 404 |
 | [Azure Virtual Machine Scale Sets](/azure/virtual-machine-scale-sets/overview) | 404 |
 | [Philip Brooks](https://www.linkedin.com/in/philipbbrooks/) | 999 |
-| [MIPS equivalent sizing for IBM CICS COBOL applications](https://techcommunity.microsoft.com/t5/azure-global/mips-equivalent-sizing-for-ibm-cics-cobol-applications-migrated/ba-p/731665) | 403 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/example-scenario/mainframe/cloudframe-renovate-mainframe-refactor-content.md
 
@@ -6285,7 +6338,7 @@
 | [Design review checklist for Operational Excellence](/azure/well-architected/operational-excellence/checklist) | 404 |
 | [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) | 404 |
 | [Bhaskar Bandam](https://www.linkedin.com/in/bhaskar-bandam-75202a9) | 999 |
-| [Ivan Dovgan](https://www.linkedin.com/in/ivandov) | 429 |
+| [Ivan Dovgan](https://www.linkedin.com/in/ivandov) | 999 |
 | [Jim Dugan](https://www.linkedin.com/in/jdugan1) | 999 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/example-scenario/mainframe/general-mainframe-refactor-content.md
@@ -6307,7 +6360,6 @@
 | [Blob Storage](/azure/well-architected/service-guides/azure-blob-storage) | 404 |
 | [SQL Database](/azure/well-architected/service-guides/azure-sql-database-well-architected-framework) | 404 |
 | [Azure Database for PostgreSQL](/azure/well-architected/service-guides/postgresql) | 404 |
-| [Hyperscale (Citus) deployment option](https://techcommunity.microsoft.com/blog/adforpostgresql/when-to-use-hyperscale-citus-to-scale-out-postgres/1958269) | 403 |
 | [Azure Cosmos DB](/azure/well-architected/service-guides/cosmos-db) | 404 |
 | [Site Recovery](/azure/site-recovery/site-recovery-overview) | 404 |
 | [Well-Architected Framework](/azure/well-architected/) | 404 |
@@ -6433,7 +6485,6 @@
 | [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist) | 404 |
 | [Azure Reservations](/azure/cost-management-billing/reservations/save-compute-costs-reservations) | 404 |
 | [Bhaskar Bandam](https://www.linkedin.com/in/bhaskar-bandam-75202a9) | 999 |
-| [IMSql user guide](https://www.raincode.com/docs/IMSql/UserGuide.html#_imsql_user_guide) | 202 |
 | [What is Azure Virtual Network?](/azure/virtual-network/virtual-networks-overview) | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/example-scenario/mainframe/integrate-ibm-message-queues-azure-content.md
@@ -6624,7 +6675,7 @@
 | [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) | 404 |
 | [Autoscaling best practices in Azure](../../best-practices/auto-scaling.md) | 404 |
 | [Seetharaman Sankaran](https://www.linkedin.com/in/seetharamsan) | 999 |
-| [Gyani Sinha](https://www.linkedin.com/in/gyani-sinha/) | 429 |
+| [Gyani Sinha](https://www.linkedin.com/in/gyani-sinha/) | 999 |
 | [What is Azure ExpressRoute?](/azure/expressroute/expressroute-introduction) | 404 |
 | [What is VPN Gateway?](/azure/vpn-gateway/vpn-gateway-about-vpngateways) | 404 |
 | [What is SQL Database?](/azure/azure-sql/database/sql-database-paas-overview) | 404 |
@@ -6655,7 +6706,6 @@
 | [load balancing](/azure/load-balancer/load-balancer-overview) | 404 |
 | [Kubernetes clusters](/azure/aks/concepts-clusters-workloads) | 404 |
 | [Kyndryl Cloud Uplift (formerly Skytap)](https://marketplace.microsoft.com/search/products?search=Kyndryl%20Cloud%20Uplift) | 403 |
-| [Cloud Migration for Apps Running IBM Power](https://techcommunity.microsoft.com/t5/video-hub/skytap-on-azure-cloud-migration-for-apps-running-ibm-power/m-p/1693588) | 403 |
 | [Mainframe file replication and sync on Azure](../../solution-ideas/articles/mainframe-azure-file-replication.yml) | 404 |
 | [Modernize mainframe & midrange data](/azure/architecture/example-scenario/mainframe/modernize-mainframe-data-to-azure) | 404 |
 
@@ -6680,7 +6730,6 @@
 | [load balancing](/azure/load-balancer/load-balancer-overview) | 404 |
 | [Kubernetes clusters](/azure/aks/concepts-clusters-workloads) | 404 |
 | [Kyndryl Cloud Uplift (formerly Skytap on Azure)](https://marketplace.microsoft.com/search/products?search=Kyndryl%20Cloud%20Uplift) | 403 |
-| [Cloud Migration for Apps Running IBM Power](https://techcommunity.microsoft.com/t5/video-hub/skytap-on-azure-cloud-migration-for-apps-running-ibm-power/m-p/1693588) | 403 |
 | [Mainframe file replication and sync on Azure](../../solution-ideas/articles/mainframe-azure-file-replication.yml) | 404 |
 | [Modernize mainframe & midrange data](/azure/architecture/example-scenario/mainframe/modernize-mainframe-data-to-azure) | 404 |
 
@@ -6718,7 +6767,6 @@
 | --- | --- |
 | [SQL Server Migration Assistant](/sql/ssma/sql-server-migration-assistant) | 404 |
 | [Managed Data Provider for Host Files](/host-integration-server/core/managed-data-provider-for-host-files-programmer-s-guide2) | 404 |
-| [Db2toAzurePostgreSQL](https://techcommunity.microsoft.com/blog/modernizationbestpracticesblog/converting-database-objects-from-db2-to-azure-database-for-postgresql/4162828) | 403 |
 | [AzCopy](/azure/storage/common/storage-ref-azcopy) | 404 |
 | [Azure Cosmos DB](/azure/well-architected/service-guides/cosmos-db) | 404 |
 | [Azure Database for MySQL](/azure/well-architected/service-guides/azure-db-mysql-cost-optimization) | 404 |
@@ -6762,7 +6810,6 @@
 
 | URL | State |
 | --- | --- |
-| [FTP connector moves data from the mainframe system to Azure Blob Storage](https://techcommunity.microsoft.com/t5/modernization-best-practices-and/copy-files-from-mainframe-to-azure-data-platform-using-adf-ftp/ba-p/3042555) | 403 |
 | [copy activity connects to the Db2 database to copy data into Azure storage](/azure/data-factory/v1/data-factory-onprem-db2-connector) | 404 |
 | [Azure Data Factory](/azure/data-factory/introduction) | 404 |
 | [Azure Files](/azure/well-architected/service-guides/azure-files) | 404 |
@@ -6773,7 +6820,7 @@
 | [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist) | 404 |
 | [Microsoft Marketplace](https://marketplace.microsoft.com/marketplace/apps?search=mainframe+data) | 403 |
 | [Configure a lifecycle management policy](/azure/storage/blobs/lifecycle-management-policy-configure) | 404 |
-| [Pratim Dasgupta](https://www.linkedin.com/in/pratimdasgupta) | 429 |
+| [Pratim Dasgupta](https://www.linkedin.com/in/pratimdasgupta) | 999 |
 | [Ashish Khandelwal](https://www.linkedin.com/in/ashish-khandelwal-839a851a3) | 999 |
 | [Ramanath Nayak](https://www.linkedin.com/in/ramanath-nayak-584a2685) | 999 |
 | [What is Azure Data Factory?](/azure/data-factory/introduction) | 404 |
@@ -6940,7 +6987,6 @@
 
 | URL | State |
 | --- | --- |
-| [Raincode zBridge](https://www.raincode.com/zbridge/) | 202 |
 | [Azure Logic Apps](/azure/logic-apps/logic-apps-overview) | 404 |
 | [IBM 3270 connector](/azure/connectors/connectors-run-3270-apps-ibm-mainframe-create-api-3270) | 404 |
 | [Azure Virtual Machine Scale Sets](/azure/well-architected/service-guides/virtual-machines) | 404 |
@@ -6961,8 +7007,6 @@
 | [In-Memory OLTP](/sql/relational-databases/in-memory-oltp/overview-and-usage-scenarios) | 404 |
 | [Nithish Aruldoss](https://www.linkedin.com/in/nithish-aruldoss-b4035b2b) | 999 |
 | [Amethyst Solomon](https://www.linkedin.com/in/amethyst-solomon) | 999 |
-| [Copy files from the mainframe to Azure Data Factory by using the FTP connector](https://techcommunity.microsoft.com/t5/modernization-best-practices-and/copy-files-from-mainframe-to-azure-data-platform-using-adf-ftp/ba-p/3042555) | 403 |
-| [Transfer mainframe files to Blob Storage by using SFTP](https://techcommunity.microsoft.com/t5/modernization-best-practices-and/mainframe-files-transfer-to-azure-data-platform-using-sftp/ba-p/3302194) | 403 |
 | [What is Virtual Network?](/azure/virtual-network/virtual-networks-overview) | 404 |
 | [What is ExpressRoute?](/azure/expressroute/expressroute-introduction) | 404 |
 | [Microsoft Fabric documentation](/fabric) | 404 |
@@ -7041,9 +7085,9 @@
 | [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) | 404 |
 | [Proximity placement groups](/azure/virtual-machines/co-location) | 404 |
 | [Siemens Support Center](https://support.sw.siemens.com) | 403 |
-| [Sunita Phanse](https://www.linkedin.com/in/sunita-phanse-176969/) | 429 |
-| [Guy Bursell](https://www.linkedin.com/in/guybursell/) | 429 |
-| [Gauhar Junnarkar](https://www.linkedin.com/in/gauharjunnarkar/) | 429 |
+| [Sunita Phanse](https://www.linkedin.com/in/sunita-phanse-176969/) | 999 |
+| [Guy Bursell](https://www.linkedin.com/in/guybursell/) | 999 |
+| [Gauhar Junnarkar](https://www.linkedin.com/in/gauharjunnarkar/) | 999 |
 | [Geert van Teylingen](https://www.linkedin.com/in/geertvanteylingen/) | 999 |
 | [Teamcenter PLM with Nasuni Storage](/industry/manufacturing/architecture/siemens-teamcenter-nasuni-azure) | 404 |
 | [GPU-optimized virtual machine sizes](/azure/virtual-machines/sizes-gpu) | 404 |
@@ -7063,7 +7107,6 @@
 | [availability zones](/azure/azure-netapp-files/use-availability-zones) | 404 |
 | [availability zone volume placement](/azure/azure-netapp-files/use-availability-zones) | 404 |
 | [cross-zone replication](/azure/azure-netapp-files/cross-zone-replication-introduction) | 404 |
-| [SQL Server snapshot consistency](https://techcommunity.microsoft.com/blog/azurearchitectureblog/managing-sql-server-2022-t-sql-snapshot-backup-with-azure-netapp-files-snapshots/3654798) | 403 |
 | [Oracle snapshot consistency](/azure/azure-netapp-files/azacsnap-introduction) | 404 |
 | [Azure NetApp Files snapshot policy](/azure/azure-netapp-files/snapshots-manage-policy) | 404 |
 | [Azure NetApp Files backup](/azure/azure-netapp-files/backup-introduction) | 404 |
@@ -7090,7 +7133,6 @@
 | [dynamically resizing your volumes and capacity pools](/azure/azure-netapp-files/azure-netapp-files-resize-capacity-pools-or-volumes) | 404 |
 | [dynamically changing the service level of a volume](/azure/azure-netapp-files/dynamic-change-volume-service-level) | 404 |
 | [cross-region and cross-zone replication](/azure/azure-netapp-files/cross-zone-replication-introduction) | 404 |
-| [Oracle](https://techcommunity.microsoft.com/blog/azurearchitectureblog/run-your-most-demanding-oracle-workloads-in-azure-without-sacrificing-performanc/3264545) | 403 |
 | [SQL Server](/azure/azure-netapp-files/solutions-benefits-azure-netapp-files-sql-server) | 404 |
 | [Azure constrained vCPU SKUs](/azure/virtual-machines/constrained-vcpu) | 404 |
 | [NetApp Files storage with cool access](/azure/azure-netapp-files/cool-access-introduction) | 404 |
@@ -7104,20 +7146,18 @@
 | [cloning via snapshot restore](/azure/azure-netapp-files/snapshots-introduction#restoring-cloning-an-online-snapshot-to-a-new-volume) | 404 |
 | [cloning your production data via snapshot restore to a new volume](/azure/azure-netapp-files/snapshots-introduction#restoring-cloning-an-online-snapshot-to-a-new-volume) | 404 |
 | [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) | 404 |
-| [database to handle high volumes of data, users, and transactions without performance degradation](https://techcommunity.microsoft.com/blog/azurearchitectureblog/run-your-most-demanding-oracle-workloads-in-azure-without-sacrificing-performanc/3264545) | 403 |
 | [Ultra, Premium, and Standard](/azure/azure-netapp-files/azure-netapp-files-service-levels#supported-service-levels) | 404 |
 | [scales with the size of a volume](/azure/azure-netapp-files/azure-netapp-files-service-levels#throughput-limits) | 404 |
 | [these pricing examples](/azure/azure-netapp-files/azure-netapp-files-cost-model#pricing-examples) | 404 |
 | [SQL Server](/azure/azure-netapp-files/solutions-benefits-azure-netapp-files-sql-server) | 404 |
-| [Oracle](https://techcommunity.microsoft.com/blog/azurearchitectureblog/run-your-most-demanding-oracle-workloads-in-azure-without-sacrificing-performanc/3264545) | 403 |
 | [constrained vCPU](/azure/virtual-machines/constrained-vcpu) | 404 |
 | [add or remove capacity and performance resources on demand](/azure/azure-netapp-files/azure-netapp-files-cost-model#pricing-examples) | 404 |
 | [Dynamic service-level changes](/azure/azure-netapp-files/dynamic-change-volume-service-level) | 404 |
 | [Adjusting performance when you use auto QoS](/azure/azure-netapp-files/azure-netapp-files-service-levels#throughput-limit-examples-of-volumes-in-an-auto-qos-capacity-pool) | 404 |
 | [Adjusting performance when you use manual QoS](/azure/azure-netapp-files/azure-netapp-files-service-levels#throughput-limit-examples-of-volumes-in-a-manual-qos-capacity-pool) | 404 |
-| [Tilman Schroeder](https://www.linkedin.com/in/tilman-schroeder-80957a155/) | 429 |
+| [Tilman Schroeder](https://www.linkedin.com/in/tilman-schroeder-80957a155/) | 999 |
 | [Geert van Teylingen](https://www.linkedin.com/in/geertvanteylingen) | 999 |
-| [Sunita Phanse](https://www.linkedin.com/in/sunita-phanse-176969/) | 429 |
+| [Sunita Phanse](https://www.linkedin.com/in/sunita-phanse-176969/) | 999 |
 | [Microsoft Marketplace solutions for Teamcenter](https://marketplace.microsoft.com/marketplace/apps?search=teamcenter) | 403 |
 | [Oracle solutions on Azure NetApp Files](/azure/azure-netapp-files/azure-netapp-files-solution-architectures#oracle) | 404 |
 | [SQL Server solutions on Azure NetApp Files](/azure/azure-netapp-files/azure-netapp-files-solution-architectures#sql-server) | 404 |
@@ -7147,9 +7187,9 @@
 | [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) | 404 |
 | [Fabric Real-Time Intelligence](/fabric/real-time-intelligence/overview) | 404 |
 | [John Hauppa](https://www.linkedin.com/in/johnhauppa) | 999 |
-| [Uffaz Nathaniel](https://www.linkedin.com/in/uffaz-nathaniel-85588935) | 429 |
+| [Uffaz Nathaniel](https://www.linkedin.com/in/uffaz-nathaniel-85588935) | 999 |
 | [Dilmurod Makhamadaliev](https://www.linkedin.com/in/dilmurod-makhamadaliev) | 999 |
-| [Omeed Musavi](https://www.linkedin.com/in/omusavi) | 429 |
+| [Omeed Musavi](https://www.linkedin.com/in/omusavi) | 999 |
 | [Real-Time Intelligence documentation](/fabric/real-time-intelligence) | 404 |
 | [Real-Time Intelligence tutorial: Introduction](/fabric/real-time-intelligence/tutorial-introduction) | 404 |
 | [Introduction to Azure Functions](/azure/azure-functions/functions-overview) | 404 |
@@ -7322,7 +7362,7 @@
 | [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) | 404 |
 | [Julien Strebler](https://www.linkedin.com/in/julien-strebler-57647490/) | 999 |
 | [Steve Caravajal](https://www.linkedin.com/in/stevecaravajal/) | 999 |
-| [Simon Kurtz](https://www.linkedin.com/in/simonkurtz/) | 429 |
+| [Simon Kurtz](https://www.linkedin.com/in/simonkurtz/) | 999 |
 | [Container Apps documentation](/azure/container-apps/) | 404 |
 | [Microservices architecture style](/azure/architecture/guide/architecture-styles/microservices) | 404 |
 | [Design a microservices architecture](/azure/architecture/microservices/design/) | 404 |
@@ -7356,8 +7396,8 @@
 | [Monitor an app in Container Apps](/azure/container-apps/monitor) | 404 |
 | [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) | 404 |
 | [Set scaling rules in Container Apps](/azure/container-apps/scale-app) | 404 |
-| [Alice Gibbons](https://www.linkedin.com/in/alicejgibbons) | 429 |
-| [Lynn Orrell](https://www.linkedin.com/in/lynn-orrell) | 429 |
+| [Alice Gibbons](https://www.linkedin.com/in/alicejgibbons) | 999 |
+| [Lynn Orrell](https://www.linkedin.com/in/lynn-orrell) | 999 |
 | [Kendall Roden](https://www.linkedin.com/in/kendallroden) | 999 |
 | [Container Apps docs](/azure/container-apps) | 404 |
 | [Compare Container Apps with other Azure container options](/azure/container-apps/compare-options) | 404 |
@@ -7400,7 +7440,6 @@
 | [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) | 404 |
 | [proximity placement group](/azure/virtual-machines/workloads/sap/sap-proximity-placement-scenarios) | 404 |
 | [Jonathon Frost](https://www.linkedin.com/in/jjfrost) | 999 |
-| [Migrating AIX Workloads to Azure: Approaches and Best Practices](https://techcommunity.microsoft.com/t5/azure-global/migrating-aix-workloads-to-azure-approaches-and-best-practices/ba-p/1085983) | 403 |
 | [Multi-tier web application built for HA/DR](../infrastructure/multi-tier-app-disaster-recovery.yml) | 404 |
 | [Run a Linux VM on Azure](../../reference-architectures/n-tier/linux-vm.yml) | 404 |
 
@@ -7418,7 +7457,7 @@
 | [Configure client computers to receive updates from the WSUS server](/windows-server/administration/windows-server-update-services/deploy/2-configure-wsus#26-configure-client-computers-to-receive-updates-from-the-wsus-server) | 404 |
 | [Configure automatic updates and update service location](/windows/deployment/update/waas-manage-updates-wsus#configure-automatic-updates-and-update-service-location) | 404 |
 | [the overview of Azure Update Manager](/azure/update-manager/overview) | 404 |
-| [Paul Reed](https://www.linkedin.com/in/paulreed55/) | 429 |
+| [Paul Reed](https://www.linkedin.com/in/paulreed55/) | 999 |
 | [Plan your WSUS deployment](/windows-server/administration/windows-server-update-services/plan/plan-your-wsus-deployment) | 404 |
 | [WSUS administration](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus) | 404 |
 | [Run a Windows VM on Azure](../../reference-architectures/n-tier/windows-vm.yml) | 404 |
@@ -7493,7 +7532,6 @@
 | [Fabric Real-Time Intelligence](/fabric/real-time-hub/real-time-hub-overview) | 404 |
 | [IoT analytics with Azure Data Explorer](../solution-ideas/articles/iot-azure-data-explorer.yml) | 404 |
 | [Azure Machine Learning](/azure/machine-learning/) | 404 |
-| [Microsoft ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) | 403 |
 | [Azure Language in Foundry Tools](/azure/ai-services/language-service/overview) | 404 |
 | [Foundry Tools conversational language understanding](/azure/ai-services/language-service/overview) | 404 |
 | [Azure Machine Learning AutoML](/azure/machine-learning/concept-automated-ml) | 404 |
@@ -7507,6 +7545,7 @@
 | [Azure Machine Learning - data drift](/azure/machine-learning/how-to-monitor-datasets) | 404 |
 | [Azure Machine Learning - model interpretability](/azure/machine-learning/how-to-machine-learning-interpretability) | 404 |
 | [Field-Programmable Gate Array (FPGA)-accelerated VMs](/azure/virtual-machines/sizes/overview#fpga-accelerated) | 404 |
+| [Azure OpenAI](https://azure.microsoft.com/products/ai-foundry/models/openai) | 404 |
 | [Azure OpenAI image generation models](/azure/foundry/openai/how-to/dall-e) | 404 |
 | [AI and machine learning services in Azure](../data-guide/technology-choices/ai-services.md) | 404 |
 | [Baseline Microsoft Foundry chat reference architecture](../ai-ml/architecture/baseline-microsoft-foundry-chat.yml) | 404 |
@@ -7756,7 +7795,6 @@
 | [Geo-replication in Azure Container Registry](/azure/container-registry/container-registry-geo-replication) | 404 |
 | [Overview of the operational excellence pillar](/azure/architecture/framework/devops/overview) | 404 |
 | [Build and deploy to Azure Kubernetes Service](/azure/devops/pipelines/ecosystems/kubernetes/aks-template) | 404 |
-| [Istio Traffic Management](https://istio.io/latest/docs/concepts/traffic-management) | 0 |
 | [Azure Firewall threat intelligence-based filtering](/azure/firewall/threat-intel) | 404 |
 | [Container insights](/azure/azure-monitor/containers/container-insights-overview) | 404 |
 | [principles of cost optimization](/azure/architecture/framework/#cost-optimization) | 404 |
@@ -7798,7 +7836,7 @@
 | [Karthik Sankara Subramanian](https://www.linkedin.com/in/karthik-sankara-subramanian-b9955916) | 999 |
 | [Kinshuman Patra](https://www.linkedin.com/in/kinshuman-patra-5268a87) | 999 |
 | [Ayobami Ayodeji](https://www.linkedin.com/in/ayobamiayodeji) | 999 |
-| [Oscar L Pla Alvarez](https://www.linkedin.com/in/oscarpla) | 429 |
+| [Oscar L Pla Alvarez](https://www.linkedin.com/in/oscarpla) | 999 |
 | [High availability Kubernetes cluster pattern](/hybrid/app-solutions/pattern-highly-available-kubernetes) | 404 |
 | [Regions and availability zones](/azure/reliability/availability-zones-overview) | 404 |
 | [Quotas, virtual machine size restrictions, and region availability in Azure Kubernetes Service (AKS)](/azure/aks/quotas-skus-regions) | 404 |
@@ -7812,7 +7850,6 @@
 
 | URL | State |
 | --- | --- |
-| [Blue-green deployment with Azure Front Door](https://techcommunity.microsoft.com/t5/azure-architecture-blog/blue-green-deployment-with-azure-front-door/ba-p/1609178) | 403 |
 | [weights](/azure/frontdoor/routing-methods#weighted-traffic-routing-method) | 404 |
 | [backend pool](/azure/application-gateway/application-gateway-components) | 404 |
 | [Monitoring Azure Kubernetes Service (AKS) with Monitor](/azure/aks/monitor-aks) | 404 |
@@ -7821,7 +7858,6 @@
 | [Deployment & HPA metrics with Container insights](/azure/azure-monitor/containers/container-insights-deployment-hpa-metrics) | 404 |
 | [Tutorial: Add a custom domain to your Front Door](/azure/frontdoor/front-door-custom-domain) | 404 |
 | [Origins and origin groups in Azure Front Door](/azure/frontdoor/origin?pivots=front-door-standard-premium) | 404 |
-| [Blue-green deployment with Azure Front Door](https://techcommunity.microsoft.com/t5/azure-architecture-blog/blue-green-deployment-with-azure-front-door/ba-p/1609178) | 403 |
 | [Application Gateway](/azure/well-architected/service-guides/azure-application-gateway) | 404 |
 | [AKS](/azure/well-architected/service-guides/azure-kubernetes-service) | 404 |
 | [Azure Container Registry](/azure/container-registry/container-registry-intro) | 404 |
@@ -7900,7 +7936,7 @@
 | [Publisher-Subscriber](../../patterns/publisher-subscriber.md) | 404 |
 | [Competing Consumers](../../patterns/competing-consumers.md) | 404 |
 | [Event Sourcing](../../patterns/event-sourcing.md) | 404 |
-| [Compensating Transaction](../../patterns/compensating-transaction.yml) | 404 |
+| [Compensating Transaction](../../patterns/compensating-transaction.md) | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/guide/architecture-styles/index.md
 
@@ -8056,9 +8092,9 @@
 | [Andre Dewes](https://www.linkedin.com/in/andre-dewes-480b5b62/) | 999 |
 | [Marcos Martinez](https://www.linkedin.com/in/marcosmarcusm/) | 999 |
 | [Julie Ng](https://www.linkedin.com/in/julie-io/) | 999 |
-| [Martin Gjoshevski](https://www.linkedin.com/in/martin-gjoshevski/) | 429 |
-| [Don High](https://www.linkedin.com/in/donhighdevops/) | 429 |
-| [Nelly Kiboi](https://www.linkedin.com/in/nellykiboi/) | 429 |
+| [Martin Gjoshevski](https://www.linkedin.com/in/martin-gjoshevski/) | 999 |
+| [Don High](https://www.linkedin.com/in/donhighdevops/) | 999 |
+| [Nelly Kiboi](https://www.linkedin.com/in/nellykiboi/) | 999 |
 | [Xuhong Liu](https://www.linkedin.com/in/xuhong-l-5937159b/) | 999 |
 | [Faisal Mustafa](https://www.linkedin.com/in/faisalmustafa/) | 999 |
 | [Walter Myers](https://www.linkedin.com/in/waltermyersiii/) | 999 |
@@ -8083,7 +8119,6 @@
 | [Azure SMB File storage](/azure/storage/files/storage-files-introduction) | 404 |
 | [Azure Managed Lustre](/azure/azure-managed-lustre/amlfs-overview) | 404 |
 | [Parallel Files Systems on Azure](/archive/blogs/azurecat/azurecat-ebook-parallel-virtual-file-systems-on-microsoft-azure) | 404 |
-| [Lustre on Azure](https://techcommunity.microsoft.com/t5/azurecat/lustre-on-azure/ba-p/1052536) | 403 |
 | [RDMA Capable Instances](/azure/virtual-machines/windows/sizes-hpc#rdma-capable-instances) | 404 |
 | [Virtual Network](/azure/virtual-network/virtual-networks-overview) | 404 |
 | [ExpressRoute](/azure/expressroute/expressroute-introduction) | 404 |
@@ -8336,7 +8371,7 @@
 | [Circuit Breaker pattern](../../patterns/circuit-breaker.md) | 404 |
 | [Bulkhead pattern](../../patterns/bulkhead.md) | 404 |
 | [Queue-Based Load Leveling pattern](../../patterns/queue-based-load-leveling.yml) | 404 |
-| [Compensating Transaction pattern](../../patterns/compensating-transaction.yml) | 404 |
+| [Compensating Transaction pattern](../../patterns/compensating-transaction.md) | 404 |
 | [Throttling pattern](../../patterns/throttling.yml) | 404 |
 | [Leader Election pattern](../../patterns/leader-election.yml) | 404 |
 | [Azure Chaos Studio](/azure/chaos-studio/) | 404 |
@@ -8465,7 +8500,7 @@
 | [Adnan Khan](https://www.linkedin.com/in/adnan-khan-04311939/) | 999 |
 | [Ayobami Ayodeji](https://www.linkedin.com/in/ayobamiayodeji/) | 999 |
 | [Ahmed Bham](https://www.linkedin.com/in/ahmedbham-solutionsarchitect/) | 999 |
-| [Chad Kittel](https://www.linkedin.com/in/chadkittel/) | 429 |
+| [Chad Kittel](https://www.linkedin.com/in/chadkittel/) | 999 |
 | [John Poole](https://www.linkedin.com/in/johnrpoole/) | 999 |
 | [Bahram Rushenas](https://www.linkedin.com/in/bahram-rushenas-306b9b3/) | 999 |
 | [Abed Sau](https://www.linkedin.com/in/abed-sau/) | 999 |
@@ -8493,10 +8528,10 @@
 | [Ram Baskaran](https://www.linkedin.com/in/ram-baskaran) | 999 |
 | [Jason Bouska](https://www.linkedin.com/in/jasonbouska/) | 999 |
 | [Eugene Chung](https://www.linkedin.com/in/eugenesc) | 999 |
-| [Pawan Hosatti](https://www.linkedin.com/in/pawanhosatti) | 429 |
+| [Pawan Hosatti](https://www.linkedin.com/in/pawanhosatti) | 999 |
 | [Daman Kaur](https://www.linkedin.com/in/damkaur) | 999 |
 | [Danny Liu](https://www.linkedin.com/in/geng-liu) | 999 |
-| [Jose Mendez](https://www.linkedin.com/in/jos%C3%A9-m%C3%A9ndez-de-la-serna-946985aa) | 429 |
+| [Jose Mendez](https://www.linkedin.com/in/jos%C3%A9-m%C3%A9ndez-de-la-serna-946985aa) | 999 |
 | [Ben Sadeghi](https://www.linkedin.com/in/bensadeghi) | 999 |
 | [Sunil Sattiraju](https://www.linkedin.com/in/sunilsattiraju) | 999 |
 | [Amanjeet Singh](https://www.linkedin.com/in/amanjeetsingh2004) | 999 |
@@ -8622,14 +8657,14 @@
 | [DPS documentation](/azure/iot-dps/how-to-reprovision#send-a-provisioning-request-from-the-device) | 404 |
 | [hard limit of 1,000 registrations per minute, per service instance](/azure/iot-dps/about-iot-dps#quotas-and-limits) | 404 |
 | [staggered provisioning schedule](/azure/iot-dps/concepts-deploy-at-scale#use-a-staggered-provisioning-schedule) | 404 |
-| [Device Registration Status Lookup API](/rest/api/iot-dps/service/individual-enrollment/query) | 404 |
+| [Device Registration Status Lookup API](/rest/api/iot-dps/data-plane/runtime-registration/device-registration-status-lookup) | 404 |
 | [limit is independent of the registration limit](/azure/iot-dps/about-iot-dps#quotas-and-limits) | 404 |
 | [Large-scale deployment](/azure/iot-dps/concepts-deploy-at-scale) | 404 |
 | [use a unique X.509 certificate for each device](/azure/iot-dps/concepts-x509-attestation) | 404 |
 | [DPS allocation policy](/azure/iot-dps/how-to-use-allocation-policies) | 404 |
 | [custom allocation policy](/azure/iot-dps/concepts-custom-allocation) | 404 |
 | [Reprovision devices](/azure/iot-dps/concepts-deploy-at-scale#reprovision-devices) | 404 |
-| [query the provisioning status](/rest/api/iot-dps/service/individual-enrollment/query) | 404 |
+| [query the provisioning status](/rest/api/iot-dps/data-plane/runtime-registration/device-registration-status-lookup) | 404 |
 | [Retry](/azure/architecture/patterns/retry) | 404 |
 | [Anti-patterns to avoid](/azure/architecture/example-scenario/iot/iot-move-to-production##use-back-off-when-a-transient-fault-occurs) | 404 |
 | [automatic device management](/azure/iot-hub/iot-hub-automatic-device-management) | 404 |
@@ -8738,6 +8773,7 @@
 | [Monitor Machine Learning](/azure/machine-learning/monitor-azure-machine-learning) | 404 |
 | [autoscaling](/python/api/azureml-core/azureml.core.compute.amlcompute.scalesettings) | 404 |
 | [set up budgets](/azure/machine-learning/concept-plan-manage-cost#create-budgets) | 404 |
+| [Azure OpenAI in Foundry Models](https://azure.microsoft.com/products/ai-services/openai-service) | 404 |
 | [Azure AI Search](/azure/search/search-what-is-azure-search) | 404 |
 | [Azure custom voice](/azure/ai-services/speech-service/custom-neural-voice) | 404 |
 | [Automated ML (AutoML) in Azure Machine Learning](/azure/machine-learning/concept-automated-ml) | 404 |
@@ -8757,12 +8793,11 @@
 | [noisy neighbor problem](../../../antipatterns/noisy-neighbor/noisy-neighbor.yml) | 404 |
 | [Kevin Ashley](https://www.linkedin.com/in/kashlik/) | 999 |
 | [Paul Burpo](https://www.linkedin.com/in/paul-burpo/) | 999 |
-| [John Downs](https://www.linkedin.com/in/john-downs/) | 429 |
+| [John Downs](https://www.linkedin.com/in/john-downs/) | 999 |
 | [Vic Perdana](https://www.linkedin.com/in/vperdana/) | 999 |
 | [Daniel Scott-Raynsford](https://www.linkedin.com/in/dscottraynsford/) | 999 |
 | [Arsen Vladimirskiy](https://www.linkedin.com/in/arsenv/) | 999 |
 | [Rodrigo Rodríguez](https://www.linkedin.com/in/rod2k10/) | 999 |
-| [A solution for machine learning pipelines in a multitenant environment](https://techcommunity.microsoft.com/t5/ai-machine-learning-blog/a-solution-for-ml-pipeline-in-multi-tenancy-manner/ba-p/4124818) | 403 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/guide/multitenant/approaches/compute.md
 
@@ -8922,8 +8957,8 @@
 | [Azure AD B2C FAQ](/azure/active-directory-b2c/faq#azure-ad-b2c-end-of-sale) | 404 |
 | [Architectural considerations for identity in a multitenant solution](../considerations/identity.md) | 404 |
 | [tenancy model](../considerations/tenancy-models.md) | 404 |
-| [John Downs](https://www.linkedin.com/in/john-downs/) | 429 |
-| [Daniel Scott-Raynsford](https://www.linkedin.com/in/dscottraynsford) | 429 |
+| [John Downs](https://www.linkedin.com/in/john-downs/) | 999 |
+| [Daniel Scott-Raynsford](https://www.linkedin.com/in/dscottraynsford) | 999 |
 | [Arsen Vladimirskiy](https://www.linkedin.com/in/arsenv) | 999 |
 | [Jelle Druyts](https://www.linkedin.com/in/jelle-druyts-0b76823) | 999 |
 | [Landon Pierce](https://www.linkedin.com/in/landon-pierce/) | 999 |
@@ -8980,7 +9015,6 @@
 | [documented number of messages supported](/azure/iot-central/core/concepts-quotas-limits) | 404 |
 | [custom allocation policies](/azure/iot-dps/tutorial-custom-allocation-policies) | 404 |
 | [high-scale IoT solutions](../../iot/scale-iot-solution-azure.md) | 404 |
-| [Industry 4.0](https://techcommunity.microsoft.com/blog/azureinfrastructureblog/extending-operational-technology-to-azure/3265466) | 403 |
 | [Microsoft Defender for IoT](/azure/defender-for-iot/organizations/overview) | 404 |
 | [Azure Firewall](/azure/firewall/overview) | 404 |
 | [Azure IoT Edge](/azure/iot-edge/about-iot-edge) | 404 |
@@ -9011,7 +9045,6 @@
 | [John Downs](https://www.linkedin.com/in/john-downs/) | 999 |
 | [Arsen Vladimirskiy](https://www.linkedin.com/in/arsenv) | 999 |
 | [Rade Zheng](https://www.linkedin.com/in/rade-zheng-9483a411/) | 999 |
-| [Hot, warm, and cold data paths with IoT on Azure](https://techcommunity.microsoft.com/blog/fasttrackforazureblog/hot-warm-and-cold-data-paths-with-iot-on-azure/2336035) | 403 |
 | [Multitenancy and Azure Cosmos DB](../service/cosmos-db.md) | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/guide/multitenant/approaches/messaging.md
@@ -9135,7 +9168,7 @@
 | [Azure supports deploying up to 800 resources of the same type](/azure/azure-resource-manager/management/resources-without-resource-group-limit) | 404 |
 | [Create and deploy Azure deployment stacks](/azure/azure-resource-manager/bicep/deployment-stacks) | 404 |
 | [John Downs](https://www.linkedin.com/in/john-downs/) | 999 |
-| [Jason Beck](https://www.linkedin.com/in/jason-beck-75902061) | 429 |
+| [Jason Beck](https://www.linkedin.com/in/jason-beck-75902061) | 999 |
 | [Bohdan Cherchyk](https://www.linkedin.com/in/cherchyk) | 999 |
 | [Laura Nicolas](https://www.linkedin.com/in/lauranicolasd) | 999 |
 | [Arsen Vladimirskiy](https://www.linkedin.com/in/arsenv) | 999 |
@@ -9175,9 +9208,9 @@
 | [Azure subscription limits and quotas](/azure/azure-resource-manager/management/azure-subscription-service-limits) | 404 |
 | [Valet Key pattern](../../../patterns/valet-key.yml) | 404 |
 | [measure consumption and allocate costs to tenants](../considerations/measure-consumption.md) | 404 |
-| [John Downs](https://www.linkedin.com/in/john-downs/) | 429 |
+| [John Downs](https://www.linkedin.com/in/john-downs/) | 999 |
 | [Paul Burpo](https://www.linkedin.com/in/paul-burpo) | 999 |
-| [Daniel Scott-Raynsford](https://www.linkedin.com/in/dscottraynsford) | 429 |
+| [Daniel Scott-Raynsford](https://www.linkedin.com/in/dscottraynsford) | 999 |
 | [Arsen Vladimirskiy](https://www.linkedin.com/in/arsenv) | 999 |
 | [Multitenancy and Storage](../service/storage.md) | 404 |
 | [Multitenancy and SQL Database](../service/sql-database.md) | 404 |
@@ -9221,9 +9254,9 @@
 | [Deployment Stamps pattern](../../../patterns/deployment-stamp.yml) | 404 |
 | [John Downs](https://www.linkedin.com/in/john-downs/) | 999 |
 | [Bohdan Cherchyk](https://www.linkedin.com/in/cherchyk) | 999 |
-| [Landon Pierce](https://www.linkedin.com/in/landon-pierce/) | 429 |
+| [Landon Pierce](https://www.linkedin.com/in/landon-pierce/) | 999 |
 | [Daniel Scott-Raynsford](https://www.linkedin.com/in/dscottraynsford) | 999 |
-| [Arsen Vladimirskiy](https://www.linkedin.com/in/arsenv) | 429 |
+| [Arsen Vladimirskiy](https://www.linkedin.com/in/arsenv) | 999 |
 | [Architectural approaches for control planes in multitenant solutions](../approaches/control-planes.md) | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/guide/multitenant/considerations/domain-names.md
@@ -9329,8 +9362,8 @@
 | [noisy neighbor problems](../../../antipatterns/noisy-neighbor/noisy-neighbor.yml) | 404 |
 | [John Downs](https://www.linkedin.com/in/john-downs/) | 999 |
 | [Chad Kittel](https://www.linkedin.com/in/chadkittel/) | 999 |
-| [Paolo Salvatori](https://www.linkedin.com/in/paolo-salvatori/) | 429 |
-| [Arsen Vladimirskiy](https://www.linkedin.com/in/arsenv/) | 429 |
+| [Paolo Salvatori](https://www.linkedin.com/in/paolo-salvatori/) | 999 |
+| [Arsen Vladimirskiy](https://www.linkedin.com/in/arsenv/) | 999 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/guide/multitenant/considerations/updates.md
 
@@ -9352,7 +9385,6 @@
 
 | URL | State |
 | --- | --- |
-| [Azure Private Link Service explanation and demos from provider (SaaS ISV) and consumer perspectives](https://techcommunity.microsoft.com/t5/fasttrack-for-azure/azure-private-link-service-explanation-and-demos-from-provider/ba-p/3570251) | 403 |
 | [TCP Proxy Protocol v2 with Azure Private Link Service—Deep Dive](https://arsenvlad.medium.com/tcp-proxy-protocol-v2-with-azure-private-link-service-deep-dive-64f8db9586cf) | 403 |
 | [Using NGINX Plus to decode Proxy Protocol TLV `linkIdentifier` from the Azure Private Link service](https://arsenvlad.medium.com/using-nginx-plus-to-decode-proxy-protocol-tlv-linkidentifier-from-azure-private-link-service-135675be84c3) | 403 |
 
@@ -9384,7 +9416,6 @@
 | [Azure-managed applications](/azure/azure-resource-manager/managed-applications/overview) | 404 |
 | [Best practices for cluster isolation in AKS](/azure/aks/operator-best-practices-cluster-isolation) | 404 |
 | [Best practices for cluster security and upgrades in AKS](/azure/aks/operator-best-practices-cluster-security) | 404 |
-| [Claims-based routing for SaaS solutions](https://techcommunity.microsoft.com/t5/fasttrack-for-azure/claims-based-routing-for-saas-solutions/ba-p/3865707) | 403 |
 | [Azure Cosmos DB hierarchical partition keys](/azure/cosmos-db/hierarchical-partition-keys) | 404 |
 | [Azure SQL Database multitenant SaaS database tenancy patterns](/azure/azure-sql/database/saas-tenancy-app-design-patterns) | 404 |
 | [Design a multitenant database by using Azure Cosmos DB for PostgreSQL](/azure/cosmos-db/postgresql/tutorial-design-database-multi-tenant) | 404 |
@@ -9394,17 +9425,15 @@
 | [Tenancy in Microsoft Entra ID](/entra/identity-platform/single-and-multi-tenant-apps) | 404 |
 | [Microsoft identity platform](/entra/identity-platform/v2-overview) | 404 |
 | [Authenticate and authorize multitenant apps using Microsoft Entra ID](/training/modules/cna-set-up-azure-ad-use-scale) | 404 |
-| [Define and implement permissions, roles, and scopes with Microsoft Entra ID in SaaS solutions](https://techcommunity.microsoft.com/t5/fasttrack-for-azure/define-and-implement-permissions-roles-and-scopes-with-azure/ba-p/3810264) | 403 |
 | [Multitenancy solutions with Power BI embedded analytics](/power-bi/developer/embedded/embed-multi-tenancy) | 404 |
 | [Multitenancy in IoT Hub Device Provisioning Service](/azure/iot-dps/how-to-provision-multitenant) | 404 |
 | [Guide to design a secure multitenant Retrieval-Augmented Generation (RAG) inferencing solution](../../ai-ml/guide/secure-multitenant-rag.md) | 404 |
 | [Design patterns for multitenant SaaS applications and Azure AI Search](/azure/search/search-modeling-multitenant-saas-applications) | 404 |
-| [A solution for the machine learning pipeline in multitenancy manner](https://techcommunity.microsoft.com/t5/ai-machine-learning-blog/a-solution-for-ml-pipeline-in-multi-tenancy-manner/ba-p/4124818) | 403 |
 | [Understand Kubernetes multitenancy](https://cloudian.com/guides/kubernetes-storage/understanding-kubernetes-multi-tenancy/) | 0 |
 | [John Downs](https://www.linkedin.com/in/john-downs/) | 999 |
-| [Paolo Salvatori](https://www.linkedin.com/in/paolo-salvatori) | 429 |
+| [Paolo Salvatori](https://www.linkedin.com/in/paolo-salvatori) | 999 |
 | [Arsen Vladimirskiy](https://www.linkedin.com/in/arsenv) | 999 |
-| [LaBrina Loving](https://www.linkedin.com/in/chixcancode) | 429 |
+| [LaBrina Loving](https://www.linkedin.com/in/chixcancode) | 999 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/guide/multitenant/service/aks.md
 
@@ -9431,7 +9460,6 @@
 | [Azure NetApp Files](/azure/azure-netapp-files/azure-netapp-files-service-levels) | 404 |
 | [Storage options for applications in AKS](/azure/aks/concepts-storage) | 404 |
 | [built-in storage classes](/azure/aks/azure-csi-driver-volume-provisioning#use-a-persistent-volume-for-storage) | 404 |
-| [Use Azure tags in AKS](https://techcommunity.microsoft.com/blog/fasttrackforazureblog/use-azure-tags-in-azure-kubernetes-service-aks/3611583) | 403 |
 | [noisy neighbor problems](/azure/architecture/antipatterns/noisy-neighbor/noisy-neighbor) | 404 |
 | [infrastructure as code (IaC)](/devops/deliver/what-is-infrastructure-as-code) | 404 |
 | [Bicep](/azure/azure-resource-manager/bicep/overview) | 404 |
@@ -9457,12 +9485,10 @@
 | [pod sandboxing](/azure/aks/use-pod-sandboxing) | 404 |
 | [Azure Linux container host for AKS](/azure/aks/use-azure-linux) | 404 |
 | [Pod sandboxing by using AKS](/azure/aks/use-pod-sandboxing) | 404 |
-| [Support for Kata VM isolated containers on AKS for pod sandboxing](https://techcommunity.microsoft.com/blog/appsonazureblog/preview-support-for-kata-vm-isolated-containers-on-aks-for-pod-sandboxing/3751557) | 403 |
 | [Azure Dedicated Host](/azure/virtual-machines/dedicated-hosts) | 404 |
 | [Add Dedicated Host to an AKS cluster](/azure/aks/use-azure-dedicated-hosts) | 404 |
 | [Node autoprovisioning](/azure/aks/node-auto-provisioning) | 404 |
 | [confidential VMs](/azure/aks/use-cvm) | 404 |
-| [Confidential VMs](https://techcommunity.microsoft.com/t5/azure-confidential-computing/azure-confidential-vms-using-sev-snp-dcasv5-ecasv5-are-now/ba-p/3573747) | 403 |
 | [AMD Secure Encrypted Virtualization-Secure Nested Paging (SEV-SNP)](https://www.amd.com/system/files/TechDocs/SEV-SNP-strengthening-vm-isolation-with-integrity-protection-and-more.pdf) | 0 |
 | [Use confidential VMs in an AKS cluster](/azure/aks/use-cvm) | 404 |
 | [FIPS compliance](/azure/compliance/offerings/offering-fips-140-2) | 404 |
@@ -9518,7 +9544,7 @@
 | [Overview of the Cost Optimization pillar](/azure/well-architected/cost-optimization) | 404 |
 | [Defender for Containers](/azure/defender-for-cloud/defender-for-containers-introduction) | 404 |
 | [Paolo Salvatori](https://www.linkedin.com/in/paolo-salvatori/) | 999 |
-| [Bohdan Cherchyk](https://www.linkedin.com/in/cherchyk/) | 429 |
+| [Bohdan Cherchyk](https://www.linkedin.com/in/cherchyk/) | 999 |
 | [Sam Cogan](https://www.linkedin.com/in/samcogan82/) | 999 |
 | [John Downs](https://www.linkedin.com/in/john-downs/) | 999 |
 | [Ben Griffin](https://www.linkedin.com/in/bengriffin1/) | 999 |
@@ -9678,24 +9704,6 @@
 | [Architectural considerations for a multitenant solution](../considerations/overview.yml) | 404 |
 | [Tenancy models for a multitenant solution](../considerations/tenancy-models.md) | 404 |
 
-* https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/guide/multitenant/service/cache-redis.md
-
-| URL | State |
-| --- | --- |
-| [noisy neighbor problem](../../../antipatterns/noisy-neighbor/noisy-neighbor.yml) | 404 |
-| [Scaling](/azure/azure-cache-for-redis/cache-best-practices-scale) | 404 |
-| [Memory management](/azure/azure-cache-for-redis/cache-best-practices-memory-management) | 404 |
-| [Server load](/azure/azure-cache-for-redis/cache-best-practices-server-load) | 404 |
-| [sharding](../../../patterns/sharding.md) | 404 |
-| [limits on the number of databases that can be created on a single cache](/azure/azure-resource-manager/management/azure-subscription-service-limits#azure-cache-for-redis-limits) | 404 |
-| [role-based access control system](/azure/azure-cache-for-redis/cache-configure-role-based-access-control) | 404 |
-| [linking multiple caches together across regions in an active-active configuration](/azure/azure-cache-for-redis/cache-high-availability#active-geo-replication) | 404 |
-| [John Downs](https://www.linkedin.com/in/john-downs/) | 999 |
-| [Will Velida](https://www.linkedin.com/in/willvelida/) | 999 |
-| [Kyle Teegarden](https://www.linkedin.com/in/kyleteegarden/) | 999 |
-| [Arsen Vladimirskiy](https://www.linkedin.com/in/arsenv/) | 999 |
-| [Storage and data approaches for multitenancy](../approaches/storage-data.md) | 404 |
-
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/guide/multitenant/service/container-apps.md
 
 | URL | State |
@@ -9724,7 +9732,7 @@
 | [Chad Kittel](https://www.linkedin.com/in/chadkittel/) | 999 |
 | [Xuhong Liu](https://www.linkedin.com/in/xuhong-l-5937159b/) | 999 |
 | [Aarthi Murugan](https://www.linkedin.com/in/aarthimurugan/) | 999 |
-| [Kendall Roden](https://www.linkedin.com/in/kendallroden/) | 429 |
+| [Kendall Roden](https://www.linkedin.com/in/kendallroden/) | 999 |
 | [Paolo Salvatori](https://www.linkedin.com/in/paolo-salvatori/) | 999 |
 | [Daniel Scott-Raynsford](https://www.linkedin.com/in/dscottraynsford) | 999 |
 | [Arsen Vladimirskiy](https://www.linkedin.com/in/arsenv/) | 999 |
@@ -9766,7 +9774,7 @@
 | [Azure Cosmos DB service quotas](/azure/cosmos-db/concepts-limits) | 404 |
 | [Burst capacity](/azure/cosmos-db/burst-capacity) | 404 |
 | [Configure customer-managed keys for your Azure Cosmos DB account with Azure Key Vault](/azure/cosmos-db/how-to-setup-cmk) | 404 |
-| [Tara Bhatia](https://www.linkedin.com/in/tarabhatia01/) | 429 |
+| [Tara Bhatia](https://www.linkedin.com/in/tarabhatia01/) | 999 |
 | [Paul Burpo](https://www.linkedin.com/in/paul-burpo) | 999 |
 | [John Downs](https://www.linkedin.com/in/john-downs/) | 999 |
 | [Mark Brown](https://www.linkedin.com/in/markjbrown1) | 999 |
@@ -9818,11 +9826,11 @@
 | [Network security for Event Hubs](/azure/event-hubs/network-security) | 404 |
 | [Allow access to Event Hubs namespaces from specific IP addresses or ranges](/azure/event-hubs/event-hubs-ip-filtering) | 404 |
 | [Auto-inflate Event Hubs throughput units](/azure/event-hubs/event-hubs-auto-inflate) | 404 |
-| [Will Velida](https://www.linkedin.com/in/willvelida/) | 429 |
-| [John Downs](https://www.linkedin.com/in/john-downs/) | 429 |
+| [Will Velida](https://www.linkedin.com/in/willvelida/) | 999 |
+| [John Downs](https://www.linkedin.com/in/john-downs/) | 999 |
 | [Paolo Salvatori](https://www.linkedin.com/in/paolo-salvatori/) | 999 |
-| [Daniel Scott-Raynsford](https://www.linkedin.com/in/dscottraynsford) | 429 |
-| [Arsen Vladimirskiy](https://www.linkedin.com/in/arsenv/) | 429 |
+| [Daniel Scott-Raynsford](https://www.linkedin.com/in/dscottraynsford) | 999 |
+| [Arsen Vladimirskiy](https://www.linkedin.com/in/arsenv/) | 999 |
 | [Event Hubs: A big data streaming platform and event ingestion service](/azure/event-hubs/event-hubs-about) | 404 |
 | [Event Hubs for Apache Kafka](/azure/event-hubs/azure-event-hubs-kafka-overview) | 404 |
 | [Capture events through Event Hubs in Blob Storage or Data Lake Storage](/azure/event-hubs/event-hubs-capture-overview) | 404 |
@@ -9889,8 +9897,34 @@
 | [Determine whether Dedicated HSM is right for you](/azure/dedicated-hsm/overview#is-azure-dedicated-hsm-right-for-you) | 404 |
 | [John Downs](https://www.linkedin.com/in/john-downs/) | 999 |
 | [Jack Lichwa](https://www.linkedin.com/in/jacklichwa) | 999 |
-| [Arsen Vladimirskiy](https://www.linkedin.com/in/arsenv) | 429 |
+| [Arsen Vladimirskiy](https://www.linkedin.com/in/arsenv) | 999 |
 | [Deployment and configuration approaches for multitenancy](../approaches/deployment-configuration.md) | 404 |
+
+* https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/guide/multitenant/service/managed-redis.md
+
+| URL | State |
+| --- | --- |
+| [Azure Managed Redis](/azure/redis/overview) | 404 |
+| [import/export feature](/azure/redis/how-to-import-export-data) | 404 |
+| [clustering](/azure/redis/architecture#clustering) | 404 |
+| [cluster policy](/azure/redis/architecture#cluster-policies) | 404 |
+| [noisy neighbor problem](../../../antipatterns/noisy-neighbor/noisy-neighbor.yml) | 404 |
+| [Scaling](/azure/redis/best-practices-scale) | 404 |
+| [Memory management](/azure/redis/best-practices-memory-management) | 404 |
+| [Server load management](/azure/redis/best-practices-server-load) | 404 |
+| [Memory Optimized, Balanced, and Compute Optimized tiers](/azure/redis/overview#choosing-the-right-tier) | 404 |
+| [maximum number of client connections](/azure/redis/overview#maximum-number-of-client-connections) | 404 |
+| [private endpoints](/azure/redis/private-link) | 404 |
+| [customer-managed keys (CMK)](/azure/redis/how-to-encryption) | 404 |
+| [Microsoft Entra ID for authentication by default](/azure/redis/entra-for-authentication) | 404 |
+| [linking multiple caches together across regions in an active-active configuration](/azure/redis/how-to-active-geo-replication) | 404 |
+| [Redis modules](/azure/redis/redis-modules) | 404 |
+| [Daniel Scott-Raynsford](https://www.linkedin.com/in/dscottraynsford) | 999 |
+| [Philip Laussermair](https://www.linkedin.com/in/philip-laussermair/) | 999 |
+| [Storage and data approaches for multitenancy](../approaches/storage-data.md) | 404 |
+| [Cache-Aside pattern](../../../patterns/cache-aside.yml) | 404 |
+| [Sharding pattern](../../../patterns/sharding.md) | 404 |
+| [Migrate to Azure Managed Redis](/azure/redis/migrate/migrate-basic-standard-premium-overview) | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/guide/multitenant/service/nat-gateway.md
 
@@ -9930,9 +9964,9 @@
 | [Azure OpenAI on your data feature](/azure/ai-foundry/openai/concepts/use-your-data) | 404 |
 | [Batch deployments](/azure/ai-foundry/openai/how-to/batch) | 404 |
 | [batch quota](/azure/ai-foundry/openai/quotas-limits#batch-quota) | 404 |
-| [Sofia Ferreira](https://www.linkedin.com/in/asofiamferreira) | 429 |
+| [Sofia Ferreira](https://www.linkedin.com/in/asofiamferreira) | 999 |
 | [John Downs](https://www.linkedin.com/in/john-downs/) | 999 |
-| [Landon Pierce](https://www.linkedin.com/in/landon-pierce) | 429 |
+| [Landon Pierce](https://www.linkedin.com/in/landon-pierce) | 999 |
 | [Paolo Salvatori](https://www.linkedin.com/in/paolo-salvatori) | 999 |
 | [Daniel Scott-Raynsford](https://www.linkedin.com/in/dscottraynsford) | 999 |
 | [Arsen Vladimirskiy](https://www.linkedin.com/in/arsenv) | 999 |
@@ -9958,7 +9992,6 @@
 | [Sharding models for elastic clusters](/azure/postgresql/elastic-clusters/concepts-elastic-clusters-sharding-models) | 404 |
 | [PgBouncer in Azure Database for PostgreSQL flexible server](/azure/postgresql/flexible-server/concepts-pgbouncer) | 404 |
 | [Connection pooling in Azure Cosmos DB for PostgreSQL](/azure/cosmos-db/postgresql/concepts-connection-pool) | 404 |
-| [Steps to install and set up PgBouncer connection pooling proxy with Azure Database for PostgreSQL](https://techcommunity.microsoft.com/t5/azure-database-for-postgresql/steps-to-install-and-setup-pgbouncer-connection-pooling-proxy/ba-p/730555) | 403 |
 | [Microsoft Entra authentication in Azure Database for PostgreSQL](/azure/postgresql/flexible-server/security-entra-concepts) | 404 |
 | [Connect with managed identity to Azure Database for PostgreSQL flexible server](/azure/postgresql/flexible-server/security-connect-with-managed-identity) | 404 |
 | [Azure confidential computing for Azure Database for PostgreSQL (preview)](/azure/postgresql/flexible-server/concepts-confidential-computing) | 404 |
@@ -10045,7 +10078,7 @@
 | [Partitioned queues and topics](/azure/service-bus-messaging/service-bus-partitioning) | 404 |
 | [noisy neighbor problems](../../../antipatterns/noisy-neighbor/noisy-neighbor.yml) | 404 |
 | [Automatically update MUs of a Service Bus namespace](/azure/service-bus-messaging/automate-update-messaging-units) | 404 |
-| [Will Velida](https://www.linkedin.com/in/willvelida) | 429 |
+| [Will Velida](https://www.linkedin.com/in/willvelida) | 999 |
 | [John Downs](https://www.linkedin.com/in/john-downs/) | 999 |
 | [Daniel Larsen](https://www.linkedin.com/in/daniellarsennz) | 999 |
 | [Paolo Salvatori](https://www.linkedin.com/in/paolo-salvatori) | 999 |
@@ -10119,7 +10152,6 @@
 | [support authorization](/azure/storage/files/storage-files-active-directory-overview) | 404 |
 | [built-in support for partitioning](/rest/api/storageservices/understanding-the-table-service-data-model#partitionkey-property) | 404 |
 | [Valet Key pattern](../../../patterns/valet-key.yml) | 404 |
-| [Azure Service Bus](https://azure.microsoft.com/services/service-bus) | 503 |
 | [sessions](/azure/service-bus-messaging/message-sessions) | 404 |
 | [message autoforwarding](/azure/service-bus-messaging/service-bus-auto-forwarding) | 404 |
 | [topics, and subscriptions](/azure/service-bus-messaging/service-bus-queues-topics-subscriptions#topics-and-subscriptions) | 404 |
@@ -10140,10 +10172,10 @@
 | [always serve traffic](/azure/traffic-manager/traffic-manager-monitoring#always-serve) | 404 |
 | [weighted traffic routing mode](/azure/traffic-manager/traffic-manager-routing-methods#weighted-traffic-routing-method) | 404 |
 | [caching in Azure Front Door](/azure/frontdoor/front-door-caching) | 404 |
-| [Dave Burkhardt](https://www.linkedin.com/in/dave-burkhardt-13b79b3/) | 429 |
+| [Dave Burkhardt](https://www.linkedin.com/in/dave-burkhardt-13b79b3/) | 999 |
 | [John Downs](https://www.linkedin.com/in/john-downs/) | 999 |
-| [Akhil Karmalkar](https://www.linkedin.com/in/akhil-karmalkar-8b200546/) | 429 |
-| [Priyanka Wilkins](https://www.linkedin.com/in/priyanka-w/) | 429 |
+| [Akhil Karmalkar](https://www.linkedin.com/in/akhil-karmalkar-8b200546/) | 999 |
+| [Priyanka Wilkins](https://www.linkedin.com/in/priyanka-w/) | 999 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/guide/networking/global-web-applications/mission-critical-global-http-ingress.md
 
@@ -10159,7 +10191,7 @@
 | [Dave Burkhardt](https://www.linkedin.com/in/dave-burkhardt-13b79b3/) | 999 |
 | [John Downs](https://www.linkedin.com/in/john-downs/) | 999 |
 | [Akhil Karmalkar](https://www.linkedin.com/in/akhil-karmalkar-8b200546/) | 999 |
-| [Priyanka Wilkins](https://www.linkedin.com/in/priyanka-w/) | 429 |
+| [Priyanka Wilkins](https://www.linkedin.com/in/priyanka-w/) | 999 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/guide/networking/global-web-applications/overview.md
 
@@ -10184,9 +10216,9 @@
 | [Mission-critical design area: Zero-downtime deployment](/azure/architecture/framework/mission-critical/mission-critical-deployment-testing#zero-downtime-deployment) | 404 |
 | [Mission-critical design area: Continuous validation](/azure/architecture/framework/mission-critical/mission-critical-deployment-testing#continuous-validation-and-testing) | 404 |
 | [Dave Burkhardt](https://www.linkedin.com/in/dave-burkhardt-13b79b3/) | 999 |
-| [John Downs](https://www.linkedin.com/in/john-downs/) | 429 |
+| [John Downs](https://www.linkedin.com/in/john-downs/) | 999 |
 | [Akhil Karmalkar](https://www.linkedin.com/in/akhil-karmalkar-8b200546/) | 999 |
-| [Priyanka Wilkins](https://www.linkedin.com/in/priyanka-w/) | 429 |
+| [Priyanka Wilkins](https://www.linkedin.com/in/priyanka-w/) | 999 |
 | [Architecture best practices for Azure Front Door](/azure/well-architected/service-guides/azure-front-door) | 404 |
 | [Architecture best practices for Traffic Manager](/azure/well-architected/service-guides/azure-traffic-manager) | 404 |
 
@@ -10228,8 +10260,8 @@
 | [reliability pillar of the Azure Well-Architected Framework](/azure/well-architected/reliability/) | 404 |
 | [feature flags](/devops/operate/progressive-experimentation-feature-flags) | 404 |
 | [Mike Ehrenberg](https://www.linkedin.com/in/mike-ehrenberg-5a3492128/) | 999 |
-| [John Downs](https://www.linkedin.com/in/john-downs/) | 429 |
-| [Arsen Vladimirsky](https://www.linkedin.com/in/arsenv) | 429 |
+| [John Downs](https://www.linkedin.com/in/john-downs/) | 999 |
+| [Arsen Vladimirsky](https://www.linkedin.com/in/arsenv) | 999 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/guide/saas/case-studies/saas-stories.md
 
@@ -10258,16 +10290,12 @@
 | [HTTP/2 support](/azure/application-gateway/configuration-listeners#http2-support) | 404 |
 | [Azure Load Balancer](/azure/well-architected/service-guides/azure-load-balancer) | 404 |
 | [Azure Load Balancer](/azure/load-balancer/load-balancer-overview) | 404 |
-| [secondary IPs on Azure network cards](https://techcommunity.microsoft.com/t5/running-sap-applications-on-the/use-sap-virtual-host-names-with-linux-in-azure/ba-p/3251593) | 403 |
 | [perimeter network](/azure/cloud-adoption-framework/ready/azure-best-practices/perimeter-networks) | 404 |
 | [NAT gateway v2](/azure/virtual-network/nat-gateway/nat-overview) | 404 |
 | [user-defined rules](/azure/virtual-network/ip-services/default-outbound-access) | 404 |
 | [cross-zone resiliency](/azure/nat-gateway/faq#how-does-a-nat-gateway-work-with-availability-zones) | 404 |
 | [minimum /26 or larger](/azure/application-gateway/configuration-infrastructure#size-of-the-subnet) | 404 |
 | [proper sizing](/azure/azure-netapp-files/azure-netapp-files-delegate-subnet) | 404 |
-| [SAProuter configuration with Azure Firewall](https://techcommunity.microsoft.com/t5/running-sap-applications-on-the/saprouter-configuration-with-azure-firewall/ba-p/3293496) | 403 |
-| [Use SAP Virtual Host Names with Linux in Azure](https://techcommunity.microsoft.com/t5/running-sap-applications-on-the/use-sap-virtual-host-names-with-linux-in-azure/ba-p/3251593) | 403 |
-| [SAProuter configuration with Azure Firewall](https://techcommunity.microsoft.com/t5/running-sap-applications-on-the/saprouter-configuration-with-azure-firewall/ba-p/3293496) | 403 |
 | [Web Application Firewall](/azure/web-application-firewall/ag/ag-overview) | 404 |
 | [OWASP core rule set](/azure/web-application-firewall/ag/application-gateway-crs-rulegroups-rules) | 404 |
 | [single sign-on (SSO)](/entra/identity/saas-apps/sap-fiori-tutorial) | 404 |
@@ -10282,7 +10310,6 @@
 | [Azure documentation](/azure/virtual-machines/workloads/sap/sap-rise-integration) | 404 |
 | [default Azure outbound](/azure/virtual-network/ip-services/default-outbound-access) | 404 |
 | [Public endpoint connectivity for VMs using Azure Load Balancer in SAP high-availability scenarios](/azure/virtual-machines/workloads/sap/high-availability-guide-standard-load-balancer-outbound-connections) | 404 |
-| [Routing options for VMs from Private Subnets](https://techcommunity.microsoft.com/t5/azure-networking-blog/routing-options-for-vms-from-private-subnets/ba-p/4271244) | 403 |
 | [Red Hat Update Infrastructure is documented here](/azure/virtual-machines/workloads/redhat/redhat-rhui#the-ips-for-the-rhui-content-delivery-servers) | 404 |
 | [FQDN tags](/azure/firewall/fqdn-tags#current-fqdn-tags) | 404 |
 | [Robert Biro](https://www.linkedin.com/in/robert-biro-38991927) | 999 |
@@ -10291,9 +10318,6 @@
 | [SAP Blogs | SAP on Azure: Azure Application Gateway Web Application Firewall v2 Setup for Internet-facing SAP Fiori Apps](https://blogs.sap.com/2020/12/03/sap-on-azure-application-gateway-web-application-firewall-waf-v2-setup-for-internet-facing-sap-fiori-apps) | 403 |
 | [SAP Blogs | Getting Started with BTP Private Link Service for Azure](https://blogs.sap.com/2021/12/29/getting-started-with-btp-private-link-service-for-azure) | 403 |
 | [SAP Blogs | BTP private linky swear with Azure – running Cloud Connector and SAP Private Link side-by-side](https://blogs.sap.com/2022/07/07/btp-private-linky-swear-with-azure-running-cloud-connector-and-sap-private-link-side-by-side) | 403 |
-| [Azure Networking Blog | Routing options for VMs from Private Subnets](https://techcommunity.microsoft.com/t5/azure-networking-blog/routing-options-for-vms-from-private-subnets/ba-p/4271244) | 403 |
-| [SAP on Azure Tech Community | SAProuter configuration with Azure Firewall](https://techcommunity.microsoft.com/t5/running-sap-applications-on-the/saprouter-configuration-with-azure-firewall/ba-p/3293496) | 403 |
-| [SAP on Azure Tech Community | Use SAP Virtual Host Names with Linux in Azure](https://techcommunity.microsoft.com/t5/running-sap-applications-on-the/use-sap-virtual-host-names-with-linux-in-azure/ba-p/3251593) | 403 |
 | [Default outbound access in Azure](/azure/virtual-network/ip-services/default-outbound-access) | 404 |
 | [Public endpoint connectivity for virtual machines using Azure Load Balancer in SAP high-availability scenarios](/azure/sap/workloads/high-availability-guide-standard-load-balancer-outbound-connections) | 404 |
 | [Subscription decision guide](/azure/cloud-adoption-framework/decision-guides/subscriptions) | 404 |
@@ -10381,7 +10405,6 @@
 | [dedicated hosts](/azure/virtual-machines/dedicated-hosts) | 404 |
 | [Azure Monitor](/azure/azure-monitor/fundamentals/overview) | 404 |
 | [Azure Monitor for SAP solutions](/azure/sap/monitor/about-azure-monitor-sap-solutions) | 404 |
-| [Run SAP applications on the Microsoft platform blog](https://techcommunity.microsoft.com/category/saponmicrosoft) | 403 |
 | [SAP community](https://community.sap.com) | 403 |
 | [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) | 404 |
 | [Write Accelerator](/azure/virtual-machines/how-to-enable-write-accelerator) | 404 |
@@ -10548,7 +10571,7 @@
 | [Copy data from SAP Business Warehouse via Open Hub](/azure/data-factory/connector-sap-business-warehouse-open-hub) | 404 |
 | [disaster recovery overview and infrastructure guidelines for SAP workload](/azure/virtual-machines/workloads/sap/disaster-recovery-overview-guide) | 404 |
 | [Robert Biro](https://www.linkedin.com/in/robert-biro-38991927) | 999 |
-| [Pankaj Meshram](https://www.linkedin.com/in/pankaj-meshram-6922981a) | 429 |
+| [Pankaj Meshram](https://www.linkedin.com/in/pankaj-meshram-6922981a) | 999 |
 | [Daniel Crawford](https://www.linkedin.com/in/daniel-crawford-b661373) | 999 |
 | [Run SAP HANA in a scale-up architecture on Azure](/azure/architecture/reference-architectures/sap/run-sap-hana-for-linux-virtual-machines) | 404 |
 | [Cloud Adoption Framework - SAP scenario](/azure/cloud-adoption-framework/scenarios/sap/) | 404 |
@@ -10591,7 +10614,6 @@
 | [Using NFS Premium shares in Azure Files for SAS Viya on Kubernetes](https://communities.sas.com/t5/SAS-Communities-Library/Using-NFS-Premium-shares-in-Azure-Files-for-SAS-Viya-on/ta-p/901701) | 403 |
 | [Azure Data Lake Storage account](https://communities.sas.com/t5/SAS-Communities-Library/SAS-Viya-3-5-CAS-accessing-Azure-Data-Lake-files/ta-p/635147) | 403 |
 | [hierarchical namespace](/azure/storage/blobs/data-lake-storage-namespace) | 404 |
-| [Microsoft Fabric and SAS Viya](https://techcommunity.microsoft.com/blog/analyticsonazure/aiml-with-microsoft-fabric-and-sas-viya-a-discussion-about-right-approach-to-dri/4086504) | 403 |
 | [Azure HDInsight](https://communities.sas.com/t5/SAS-Communities-Library/SAS-Viya-CAS-accessing-Azure-HDInsight/ta-p/700597) | 403 |
 | [Microsoft Azure Well-Architected Framework](/azure/well-architected/) | 404 |
 | [Overview of the security pillar](/azure/architecture/framework/security/overview) | 404 |
@@ -10603,7 +10625,7 @@
 | [trust relationship](/entra/fundamentals/how-subscriptions-associated-directory) | 404 |
 | [Azure role-based access control (Azure RBAC)](/azure/role-based-access-control/overview) | 404 |
 | [audit all changes to infrastructure](/azure/azure-resource-manager/resource-group-audit) | 404 |
-| [Roeland Nieuwenhuis](https://www.linkedin.com/in/roelandnieuwenhuis) | 429 |
+| [Roeland Nieuwenhuis](https://www.linkedin.com/in/roelandnieuwenhuis) | 999 |
 | [David Baumgarten](https://www.linkedin.com/in/baumgarten-david) | 999 |
 | [Drew Furgiuele](https://www.linkedin.com/in/pittfurg) | 999 |
 | [Implement a secure hybrid network](../../reference-architectures/dmz/secure-vnet-dmz.yml?tabs=portal) | 404 |
@@ -10668,7 +10690,6 @@
 | --- | --- |
 | [Security in the Microsoft Cloud Adoption Framework for Azure](/azure/cloud-adoption-framework/secure) | 404 |
 | [Overview of the security pillar](/azure/architecture/framework/security/overview) | 404 |
-| [Microsoft Defender for Cloud](https://azure.microsoft.com/services/defender-for-cloud) | 0 |
 | [End-to-end security in Azure](/azure/security/fundamentals/end-to-end) | 404 |
 | [Microsoft Learn training](/training/?WT.mc_id=learnaka) | 404 |
 | [Microsoft Azure Fundamentals: Describe general security and network security features](/training/paths/az-900-describe-general-security-network-security-features) | 404 |
@@ -10806,7 +10827,7 @@
 | [Nutanix Cloud Clusters on Azure](/azure/baremetal-infrastructure/workloads/nc2-on-azure/about-nc2-on-azure) | 404 |
 | [Ayobami Ayodeji](https://www.linkedin.com/in/ayobamiayodeji) | 999 |
 | [Jelle Druyts](https://www.linkedin.com/in/jelle-druyts-0b76823) | 999 |
-| [Martin Gjoshevski](https://www.linkedin.com/in/martin-gjoshevski) | 429 |
+| [Martin Gjoshevski](https://www.linkedin.com/in/martin-gjoshevski) | 999 |
 | [Phil Huang](https://www.linkedin.com/in/phil-huang-09b09895) | 999 |
 | [Julie Ng](https://www.linkedin.com/in/julie-io) | 999 |
 | [Paolo Salvatori](https://www.linkedin.com/in/paolo-salvatori) | 999 |
@@ -11026,7 +11047,7 @@
 | [Azure AI Search](/azure/search) | 404 |
 | [Asir Vedamuthu Selvasingh](https://www.linkedin.com/in/asir-architect-javaonazure) | 999 |
 | [Hang Wang](https://www.linkedin.com/in/hang-wang-software) | 999 |
-| [Xinyi Zhang](https://www.linkedin.com/in/xinyi-zhang-3030008) | 429 |
+| [Xinyi Zhang](https://www.linkedin.com/in/xinyi-zhang-3030008) | 999 |
 | [Azure Container Apps overview](/azure/container-apps/overview) | 404 |
 | [Azure Kubernetes Service](/azure/aks) | 404 |
 | [Azure Virtual network integration](/windows-server-essentials/get-started/azure-virtual-network-integration) | 404 |
@@ -11152,6 +11173,7 @@
 | URL | State |
 | --- | --- |
 | [Choose an Azure compute option for microservices](../../microservices/design/compute-options.md) | 404 |
+| [Compare Java application hosting options on Azure](service-for-java-comparison.yml) | 404 |
 | [Choose between traditional web apps and single-page applications (SPAs)](/dotnet/architecture/modern-web-apps-azure/choose-between-traditional-web-and-single-page-apps) | 404 |
 | [Choose an Azure container service](../choose-azure-container-service.md) | 404 |
 | [Compare Azure Container Apps with other Azure container options](/azure/container-apps/compare-options) | 404 |
@@ -11185,6 +11207,9 @@
 | [Compare messaging services](/azure/service-bus-messaging/compare-messaging-services) | 404 |
 | [Learn about Azure IoT services and technologies](/azure/iot/iot-services-and-technologies) | 404 |
 | [Compare IoT Hub and Event Hubs](/azure/iot-hub/iot-hub-compare-event-hubs) | 404 |
+| [migrating](/azure/migration) | 404 |
+| [Azure for AWS professionals](../../aws-professional/index.md) | 404 |
+| [Azure for Google Cloud professionals](../../gcp-professional/index.md) | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/guide/technology-choices/vector-search.md
 
@@ -11420,7 +11445,7 @@
 | [deployment options](/azure/azure-arc/servers/concept-log-analytics-extension-deployment) | 404 |
 | [Grafana and Kibana](/azure/azure-arc/data/monitor-grafana-kibana) | 404 |
 | [resource group](/azure/azure-resource-manager/management/manage-resource-groups-portal#what-is-a-resource-group) | 404 |
-| [Seif Bassem](https://www.linkedin.com/in/seif-bassem) | 429 |
+| [Seif Bassem](https://www.linkedin.com/in/seif-bassem) | 999 |
 | [Azure Arc learning path](/training/paths/manage-hybrid-infrastructure-with-azure-arc) | 404 |
 | [Introduction to Azure Arc in an Azure landing zone](/azure/cloud-adoption-framework/scenarios/hybrid/enterprise-scale-landing-zone) | 404 |
 
@@ -11627,9 +11652,6 @@
 | [Introduction to AKS](/training/modules/intro-to-azure-kubernetes-service) | 404 |
 | [Keep your VMs updated](/training/modules/manage-azure-updates/) | 404 |
 | [Protect your VMs by using Backup](/training/modules/protect-virtual-machines-with-azure-backup) | 404 |
-| [Scale model deployment with Machine Learning anywhere - Tech Community Blog](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/scale-model-deployment-with-azure-machine-learning-anywhere/2888753) | 403 |
-| [Realizing Machine Learning anywhere with AKS and Azure Arc-enabled Machine Learning - Tech Community Blog](https://techcommunity.microsoft.com/blog/azurearcblog/realizing-machine-learning-anywhere-with-azure-kubernetes-service-and-arc-enable/3470783) | 403 |
-| [Machine learning on AKS hybrid and Azure Local by using Azure Arc-enabled machine learning - Tech Community Blog](https://techcommunity.microsoft.com/blog/azurestackblog/machine-learning-on-aks-hybrid--stack-hci-using-azure-arc-enabled-ml/3816127) | 403 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/hybrid/azure-local-switchless-content.md
 
@@ -11678,9 +11700,6 @@
 | [Introduction to AKS](/training/modules/intro-to-azure-kubernetes-service) | 404 |
 | [Keep your VMs updated](/training/modules/manage-azure-updates) | 404 |
 | [Protect your VMs by using Backup](/training/modules/protect-virtual-machines-with-azure-backup) | 404 |
-| [Scale model deployment with Azure Machine Learning anywhere - Tech Community Blog](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/scale-model-deployment-with-azure-machine-learning-anywhere/2888753) | 403 |
-| [Realizing Machine Learning anywhere with AKS and Azure Arc-enabled machine learning - Tech Community Blog](https://techcommunity.microsoft.com/blog/azurearcblog/realizing-machine-learning-anywhere-with-azure-kubernetes-service-and-arc-enable/3470783) | 403 |
-| [Machine learning on AKS hybrid and Azure Local by using Azure Arc-enabled machine learning - Tech Community Blog](https://techcommunity.microsoft.com/blog/azurestackblog/machine-learning-on-aks-hybrid--stack-hci-using-azure-arc-enabled-ml/3816127) | 403 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/hybrid/azure-local-workload-virtual-desktop-content.md
 
@@ -11935,8 +11954,8 @@
 | [Frank Kaleck](https://www.linkedin.com/in/frank-kaleck) | 999 |
 | [Henning Rauch](https://www.linkedin.com/in/henning-rauch-adx) | 999 |
 | [Mario Ortegon-Cabrera](https://www.linkedin.com/in/marioortegon) | 999 |
-| [Devang Shah](https://www.linkedin.com/in/shahdevang) | 429 |
-| [Hans-Peter Bareiner](https://www.linkedin.com/in/hans-peter-bareiner-69039163) | 429 |
+| [Devang Shah](https://www.linkedin.com/in/shahdevang) | 999 |
+| [Hans-Peter Bareiner](https://www.linkedin.com/in/hans-peter-bareiner-69039163) | 999 |
 | [Jason Bouska](https://www.linkedin.com/in/jasonbouska/) | 999 |
 | [MQTT broker feature in Event Grid](/azure/event-grid/mqtt-overview) | 404 |
 | [Add a KQL database destination to an eventstream](/fabric/real-time-intelligence/event-streams/add-destination-kql-database?pivots=enhanced-capabilities) | 404 |
@@ -12188,7 +12207,7 @@
 | --- | --- |
 | [Use tactical domain-driven design (DDD) for microservices](../model/tactical-domain-driven-design.md) | 404 |
 | [Scheduler Agent Supervisor](../../patterns/scheduler-agent-supervisor.yml) | 404 |
-| [Compensating Transaction](../../patterns/compensating-transaction.yml) | 404 |
+| [Compensating Transaction](../../patterns/compensating-transaction.md) | 404 |
 | [event-driven architecture style](../../guide/architecture-styles/event-driven.md) | 404 |
 | [Azure Data Lake Storage](/azure/storage/blobs/data-lake-storage-introduction) | 404 |
 | [Tune Data Lake Storage for performance](/azure/storage/blobs/data-lake-storage-best-practices) | 404 |
@@ -12234,7 +12253,7 @@
 | [Event-driven architecture style](../../guide/architecture-styles/event-driven.md) | 404 |
 | [Diagram of drone communication](../images/drone-communication.png) | 404 |
 | [Ambassador pattern](../../patterns/ambassador.md) | 404 |
-| [Compensating Transaction](../../patterns/compensating-transaction.yml) | 404 |
+| [Compensating Transaction](../../patterns/compensating-transaction.md) | 404 |
 | [Scheduler Agent Supervisor pattern](../../patterns/scheduler-agent-supervisor.yml) | 404 |
 | [Using domain analysis to model microservices](../model/domain-analysis.md) | 404 |
 | [Using tactical DDD to design microservices](../model/tactical-domain-driven-design.md) | 404 |
@@ -12428,8 +12447,8 @@
 | [Hub-spoke with virtual network peering deployment](/samples/mspnp/samples/hub-and-spoke-deployment) | 404 |
 | [Hub-spoke with Virtual Network Manager connected groups deployment](/samples/mspnp/samples/hub-and-spoke-deployment-with-connected-groups/) | 404 |
 | [Jose Moreno](https://www.linkedin.com/in/erjosito/) | 999 |
-| [Alejandra Palacios](https://www.linkedin.com/in/alejandrampalacios/) | 429 |
-| [Adam Torkar](https://www.linkedin.com/in/adam-torkar-41652311/) | 429 |
+| [Alejandra Palacios](https://www.linkedin.com/in/alejandrampalacios/) | 999 |
+| [Adam Torkar](https://www.linkedin.com/in/adam-torkar-41652311/) | 999 |
 | [Matthew Bratschun](https://www.linkedin.com/in/matthewbratschun/) | 999 |
 | [Jay Li](https://www.linkedin.com/in/jie-jay-li/) | 999 |
 | [Telmo Sampaio](https://www.linkedin.com/in/telmo-sampaio-172200/) | 999 |
@@ -12502,7 +12521,7 @@
 | [Jimmy Avila](https://www.linkedin.com/in/jimmyavila) | 999 |
 | [Andrew Delosky](https://www.linkedin.com/in/andrewdelosky) | 999 |
 | [Robert Lightner](https://www.linkedin.com/in/robert-lightner) | 999 |
-| [Rodrigo Santos](https://www.linkedin.com/in/reisrodrigo) | 429 |
+| [Rodrigo Santos](https://www.linkedin.com/in/reisrodrigo) | 999 |
 | [About virtual hub routing](/azure/virtual-wan/about-virtual-hub-routing) | 404 |
 | [Route traffic through NVAs by using custom settings](/azure/virtual-wan/scenario-route-through-nvas-custom) | 404 |
 | [About ExpressRoute connections in Azure Virtual WAN](/azure/virtual-wan/virtual-wan-expressroute-about) | 404 |
@@ -12936,11 +12955,11 @@
 | [incremental snapshots](/azure/virtual-machines/disks-incremental-snapshots) | 404 |
 | [storage account](/azure/storage/common/storage-account-overview) | 404 |
 | [backup vault](/azure/backup/backup-vault-overview) | 404 |
-| [Adam Sharif](https://www.linkedin.com/in/adamsharif) | 429 |
+| [Adam Sharif](https://www.linkedin.com/in/adamsharif) | 999 |
 | [Joao Tavares](https://www.linkedin.com/in/joao-tavares-3976a63) | 999 |
 | [Sam Cogan](https://www.linkedin.com/in/samcogan82/) | 999 |
-| [Sonia Cuff](https://www.linkedin.com/in/soniacuff) | 429 |
-| [Paolo Salvatori](https://www.linkedin.com/in/paolo-salvatori) | 429 |
+| [Sonia Cuff](https://www.linkedin.com/in/soniacuff) | 999 |
+| [Paolo Salvatori](https://www.linkedin.com/in/paolo-salvatori) | 999 |
 | [AKS Backup overview](/azure/backup/azure-kubernetes-service-backup-overview) | 404 |
 | [AKS Backup support matrix](/azure/backup/azure-kubernetes-service-cluster-backup-support-matrix) | 404 |
 | [AKS Backup prerequisites](/azure/backup/azure-kubernetes-service-cluster-backup-concept) | 404 |
@@ -13010,7 +13029,7 @@
 | [up to 20 minutes to sync](/azure/governance/policy/concepts/policy-for-kubernetes#assign-a-policy-definition) | 404 |
 | [Secure your AKS clusters with Azure Policy](/azure/aks/use-azure-policy) | 404 |
 | [Azure Policy built-in definitions for AKS](/azure/aks/policy-reference) | 404 |
-| [Paolo Salvatori](https://www.linkedin.com/in/paolo-salvatori) | 429 |
+| [Paolo Salvatori](https://www.linkedin.com/in/paolo-salvatori) | 999 |
 | [Francis Simy Nazareth](https://www.linkedin.com/in/francis-simy-nazereth-971440a) | 999 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/operator-guides/aks/aks-triage-deployment.md
@@ -13156,7 +13175,6 @@
 | [AKS production upgrade strategies](/azure/aks/upgrade-cluster#production-upgrade-strategies) | 404 |
 | [Deployment Safeguards](/azure/aks/deployment-safeguards) | 404 |
 | [Define day-2 operations](https://dzone.com/articles/defining-day-2-operations) | 403 |
-| [A practical guide for zone-redundant AKS clusters](https://techcommunity.microsoft.com/blog/fasttrackforazureblog/a-practical-guide-to-zone-redundant-aks-clusters-and-storage/4036254) | 403 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/operator-guides/aks/choose-kubernetes-edge-compute-option.md
 
@@ -13274,7 +13292,7 @@
 | --- | --- |
 | [Background jobs](../best-practices/background-jobs.md) | 404 |
 | [Resource Manager asynchronous operations](/azure/azure-resource-manager/management/async-operations) | 404 |
-| [Asynchronous request-response behavior in Azure Logic Apps](/azure/connectors/connectors-native-http#asynchronous-request-response-behavior) | 404 |
+| [Asynchronous request-response behavior in Logic Apps](/azure/connectors/connectors-native-http#asynchronous-request-response-behavior) | 404 |
 | [Azure Well-Architected Framework pillars](/azure/well-architected/pillars) | 404 |
 | [Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) | 404 |
 | [PE:05 Scaling and partitioning](/azure/well-architected/performance-efficiency/scale-partition) | 404 |
@@ -13409,20 +13427,20 @@
 | [PE:05 Scaling and partitioning](/azure/well-architected/performance-efficiency/scale-partition) | 404 |
 | [PE:12 Continuous performance optimization](/azure/well-architected/performance-efficiency/continuous-performance-optimize) | 404 |
 
-* https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/patterns/compensating-transaction-content.md
+* https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/patterns/compensating-transaction.md
 
 | URL | State |
 | --- | --- |
-| [Data Consistency Primer](/previous-versions/msp-n-p/dn589800(v=pandp.10) | 404 |
-| [idempotent commands](/azure/architecture/reference-architectures/containers/aks-mission-critical/mission-critical-data-platform#idempotent-message-processing) | 404 |
+| [idempotent command](/azure/architecture/reference-architectures/containers/aks-mission-critical/mission-critical-data-platform#idempotent-message-processing) | 404 |
 | [Transient fault handling](../best-practices/transient-faults.md) | 404 |
-| [Data Consistency Primer](/previous-versions/msp-n-p/dn589800(v=pandp.10) | 404 |
+| [Minimize coordination](../guide/design-principles/minimize-coordination.yml) | 404 |
 | [Azure Well-Architected Framework pillars](/azure/well-architected/pillars) | 404 |
 | [Reliability](/azure/well-architected/reliability/checklist) | 404 |
 | [RE:02 Critical flows](/azure/well-architected/reliability/identify-flows) | 404 |
 | [RE:09 Disaster recovery](/azure/well-architected/reliability/disaster-recovery) | 404 |
-| [Data Consistency Primer](/previous-versions/msp-n-p/dn589800(v=pandp.10) | 404 |
-| [Design for self healing](../guide/design-principles/self-healing.md) | 404 |
+| [Data considerations for microservices](../microservices/design/data-considerations.md) | 404 |
+| [Transactional Outbox pattern with Azure Cosmos DB](../databases/guide/transactional-out-box-cosmos.md) | 404 |
+| [Design for self-healing](../guide/design-principles/self-healing.md) | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/patterns/competing-consumers.md
 
@@ -13757,9 +13775,9 @@
 | [CO:07 Component costs](/azure/well-architected/cost-optimization/optimize-component-costs#determine-the-future-of-the-feature) | 404 |
 | [Operational Excellence](/azure/well-architected/operational-excellence/checklist) | 404 |
 | [OE:06 Deploying workload changes](/azure/well-architected/operational-excellence/workload-supply-chain) | 404 |
-| [Rob Bagby](https://www.linkedin.com/in/robbagby/) | 429 |
+| [Rob Bagby](https://www.linkedin.com/in/robbagby/) | 999 |
 | [Kyle Baley](https://www.linkedin.com/in/kylebaley/) | 999 |
-| [Udi Dahan](https://www.linkedin.com/in/udidahan/) | 429 |
+| [Udi Dahan](https://www.linkedin.com/in/udidahan/) | 999 |
 | [Chad Kittel](https://www.linkedin.com/in/chadkittel/) | 999 |
 | [Bryan Lamos](https://www.linkedin.com/in/bryanlamos/) | 999 |
 | [Szymon Pobiega](https://www.linkedin.com/in/szymonpobiega/) | 999 |
@@ -14042,7 +14060,6 @@
 | [Design review checklist for Operational Excellence](/azure/well-architected/operational-excellence/checklist) | 404 |
 | [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) | 404 |
 | [Jonathon Frost](https://www.linkedin.com/in/jjfrost/) | 999 |
-| [Raincode technical landscape](https://www.raincode.com/technical-landscape/cobol) | 202 |
 | [Mainframe rehosting on Azure virtual machines](/azure/virtual-machines/workloads/mainframe-rehosting/overview) | 404 |
 | [Modernize mainframe & midrange data](/azure/architecture/example-scenario/mainframe/modernize-mainframe-data-to-azure) | 404 |
 | [Mainframe file replication and sync on Azure](../../solution-ideas/articles/mainframe-azure-file-replication.yml) | 404 |
@@ -14120,7 +14137,6 @@
 | [Ally Ford](https://www.linkedin.com/in/allison-ford-pm/) | 999 |
 | [Erin Schaffer](https://www.linkedin.com/in/erin-schaffer-65800215b/) | 999 |
 | [Bring your own AI models to intelligent apps on AKS by using the AI toolchain operator](/shows/learn-live/intelligent-apps-on-aks-ep02-bring-your-own-ai-models-to-intelligent-apps-on-aks-with-kaito) | 404 |
-| [Deploy the AI toolchain operator on AKS by using Terraform](https://techcommunity.microsoft.com/t5/azure-for-isv-and-startups/deploy-kaito-on-aks-using-terraform/ba-p/4108930) | 403 |
 | [Baseline architecture for an AKS cluster](../aks/baseline-aks.yml) | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/reference-architectures/containers/aks-microservices/aks-microservices-advanced-content.md
@@ -14291,8 +14307,8 @@
 | [Design review checklist for Operational Excellence](/azure/well-architected/operational-excellence/checklist) | 404 |
 | [Bicep files](/azure/azure-resource-manager/bicep/overview) | 404 |
 | [Azure Pipelines](/azure/devops/user-guide/what-is-azure-devops#azure-pipelines) | 404 |
-| [Francis Simy Nazareth](https://www.linkedin.com/in/francis-simy-nazereth-971440a/) | 429 |
-| [Alessandro Vozza](https://www.linkedin.com/in/alessandrovozza) | 429 |
+| [Francis Simy Nazareth](https://www.linkedin.com/in/francis-simy-nazereth-971440a/) | 999 |
+| [Alessandro Vozza](https://www.linkedin.com/in/alessandrovozza) | 999 |
 | [Use a service principal with AKS](/azure/aks/kubernetes-service-principal) | 404 |
 | [Container protection in Defender for Cloud](/azure/defender-for-cloud/defender-for-containers-introduction) | 404 |
 | [Plan Defender for Servers deployment](/azure/defender-for-cloud/plan-defender-for-servers) | 404 |
@@ -14423,7 +14439,7 @@
 | [automatically scale up Azure Event Hubs throughput units (standard tier)](/azure/event-hubs/event-hubs-auto-inflate) | 404 |
 | [Automatically update messaging units of an Azure Service Bus namespace](/azure/service-bus-messaging/automate-update-messaging-units) | 404 |
 | [Operational procedures for mission-critical workloads on Azure](/azure/architecture/framework/mission-critical/mission-critical-operational-procedures) | 404 |
-| [Allen Sudbring](https://www.linkedin.com/in/allen-sudbring-9163171/) | 429 |
+| [Allen Sudbring](https://www.linkedin.com/in/allen-sudbring-9163171/) | 999 |
 | [Well-Architected Framework: Mission-critical workloads](/azure/well-architected/mission-critical/mission-critical-overview) | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/reference-architectures/containers/aks-mission-critical/mission-critical-security.md
@@ -14797,25 +14813,17 @@
 
 | URL | State |
 | --- | --- |
-| [Integration Services](/azure/logic-apps/azure-integration-services-choose-capabilities) | 404 |
-| [Logic Apps](/azure/logic-apps/logic-apps-overview) | 404 |
-| [API Management](/azure/well-architected/service-guides/api-management/reliability) | 404 |
-| [Azure DNS](/azure/dns/dns-overview) | 404 |
-| [Microsoft Entra ID](/entra/fundamentals/whatis) | 404 |
-| [OAuth 2.0](/azure/api-management/api-management-howto-protect-backend-with-aad) | 404 |
-| [Microsoft Entra External ID](/azure/api-management/api-management-howto-entra-external-id) | 404 |
 | [queues and events](../../example-scenario/integration/queues-events.yml) | 404 |
-| [Feature-based comparison of the Azure API Management tiers](/azure/api-management/api-management-features) | 404 |
-| [Microsoft Azure Well-Architected Framework](/azure/well-architected/) | 404 |
+| [Well-Architected Framework](/azure/well-architected/) | 404 |
 | [Design review checklist for Reliability](/azure/well-architected/reliability/checklist) | 404 |
 | [Design review checklist for Security](/azure/well-architected/security/checklist) | 404 |
-| [mutual certificates](/azure/api-management/api-management-howto-mutual-certificates) | 404 |
 | [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist) | 404 |
 | [Design review checklist for Operational Excellence](/azure/well-architected/operational-excellence/checklist) | 404 |
 | [Design review checklist for Performance Efficiency](/azure/well-architected/performance-efficiency/checklist) | 404 |
-| [Enterprise integration using message queues and events](../../example-scenario/integration/queues-events.yml) | 404 |
-| [Azure API Management landing zone architecture](../../example-scenario/integration/app-gateway-internal-api-management-function.yml) | 404 |
-| [On-premises data gateway for Azure Logic Apps](../../hybrid/gateway-logic-apps.yml) | 404 |
+| [Karl Rissland](https://www.linkedin.com/in/karl-rissland/) | 999 |
+| [Pooya Tolouei](https://www.linkedin.com/in/tpooya/) | 999 |
+| [API Management landing zone architecture](../../example-scenario/integration/app-gateway-internal-api-management-function.yml) | 404 |
+| [On-premises data gateway for Logic Apps](../../hybrid/gateway-logic-apps.yml) | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/reference-architectures/hybrid-networking/expressroute-vpn-failover-content.md
 
@@ -14943,10 +14951,10 @@
 | [connected groups](/azure/virtual-network-manager/concept-connectivity-configuration#connectedgroup) | 404 |
 | [longest prefix-match route selection](/azure/virtual-network/virtual-networks-udr-overview#how-azure-selects-a-route) | 404 |
 | [Jay Li](https://www.linkedin.com/in/jie-jay-li/) | 999 |
-| [Jose Moreno](https://www.linkedin.com/in/erjosito/) | 999 |
-| [Alejandra Palacios](https://www.linkedin.com/in/alejandrampalacios/) | 429 |
+| [Jose Moreno](https://www.linkedin.com/in/erjosito/) | 429 |
+| [Alejandra Palacios](https://www.linkedin.com/in/alejandrampalacios/) | 999 |
 | [Mohamed Hassan](https://www.linkedin.com/in/mohnader/) | 999 |
-| [Andrea Michael](https://www.linkedin.com/in/amichael98/) | 429 |
+| [Andrea Michael](https://www.linkedin.com/in/amichael98/) | 999 |
 | [Plan virtual networks](/azure/virtual-network/virtual-network-vnet-plan-design-arm) | 404 |
 | [Create a virtual network peering by using the Azure portal](/azure/virtual-network/tutorial-connect-virtual-networks-portal) | 404 |
 | [Virtual Network Manager](/azure/virtual-network-manager/overview) | 404 |
@@ -14993,9 +15001,9 @@
 | [David Baumgarten](https://www.linkedin.com/in/baumgarten-david) | 999 |
 | [Drew Furgiuele](https://www.linkedin.com/in/pittfurg) | 999 |
 | [Roeland Nieuwenhuis](https://www.linkedin.com/in/roelandnieuwenhuis) | 999 |
-| [Aneesh AR](https://www.linkedin.com/in/aneesh-ar-tech) | 429 |
+| [Aneesh AR](https://www.linkedin.com/in/aneesh-ar-tech) | 999 |
 | [Vijaya Bashyam](https://www.linkedin.com/in/vijaya-bashyam-76a6837) | 999 |
-| [James Read](https://www.linkedin.com/in/jwread) | 429 |
+| [James Read](https://www.linkedin.com/in/jwread) | 999 |
 | [Andy Repton](https://www.linkedin.com/in/andy-repton) | 999 |
 | [Quickstart: Deploy an Azure Red Hat OpenShift cluster](/azure/openshift/quickstart-portal) | 404 |
 | [Quickstart: Create an Azure Database for PostgreSQL - Flexible Server](/azure/postgresql/flexible-server/quickstart-create-server-portal) | 404 |
@@ -15364,7 +15372,7 @@
 | [Ultra Disks](/azure/virtual-machines/linux/disks-enable-ultra-ssd) | 404 |
 | [Ultra Disks](/azure/virtual-machines/linux/disks-enable-ultra-ssd) | 404 |
 | [performance optimization](/azure/virtual-machines/linux/premium-storage-performance) | 404 |
-| [Ben Trinh](https://www.linkedin.com/in/bentrinh) | 429 |
+| [Ben Trinh](https://www.linkedin.com/in/bentrinh) | 999 |
 | [About SAP HANA database backup in Azure VMs](/azure/virtual-machines/workloads/sap/sap-hana-backup-guide) | 404 |
 | [Azure managed disks](/azure/virtual-machines/windows/managed-disks-overview) | 404 |
 | [Create and deploy virtual machines in an availability set](/azure/virtual-machines/windows/tutorial-availability-sets) | 404 |
@@ -15658,7 +15666,7 @@
 | [Foundry](/azure/foundry/what-is-foundry) | 404 |
 | [Microsoft Purview](/purview/purview) | 404 |
 | [Lauren Baird](https://www.linkedin.com/in/laurenkbaird/) | 999 |
-| [Christopher Schmidt](https://www.linkedin.com/in/christophermschmidt/) | 429 |
+| [Christopher Schmidt](https://www.linkedin.com/in/christophermschmidt/) | 999 |
 | [Service Bus samples](/azure/service-bus-messaging/service-bus-samples) | 404 |
 | [Real-Time Intelligence end-to-end sample](/fabric/real-time-intelligence/sample-end-to-end) | 404 |
 | [Implement real-time intelligence with Fabric](/training/paths/explore-real-time-analytics-microsoft-fabric/) | 404 |
@@ -15672,9 +15680,8 @@
 | --- | --- |
 | [header_file](../../../includes/sol-idea-header.md) | 404 |
 | [Lorrin Ferdinand](https://www.linkedin.com/in/lorrin-ferdinand/) | 999 |
-| [Kranthi Kumar Manchhikanti](https://www.linkedin.com/in/kranthimanchikanti/) | 429 |
+| [Kranthi Kumar Manchhikanti](https://www.linkedin.com/in/kranthimanchikanti/) | 999 |
 | [Create an end-to-end pipeline by using Data Factory](/fabric/data-factory/tutorial-end-to-end-pipeline) | 404 |
-| [Understand supported Databricks and Fabric integration patterns](https://techcommunity.microsoft.com/blog/analyticsonazure/approaches-to-integrating-azure-databricks-with-microsoft-fabric-the-better-toge/4453643) | 403 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/solution-ideas/articles/azure-security-build-first-layer-defense-content.md
 
@@ -15727,7 +15734,7 @@
 | [Rudnei Oliveira](https://www.linkedin.com/in/rudnei-oliveira-69443523/) | 999 |
 | [Gary Moore](https://www.linkedin.com/in/gwmoore/) | 999 |
 | [Andrew Nathan](https://www.linkedin.com/in/andrew-nathan/) | 999 |
-| [Filipe Moreira](https://www.linkedin.com/in/filipefumaux/) | 429 |
+| [Filipe Moreira](https://www.linkedin.com/in/filipefumaux/) | 999 |
 | [Security in the Microsoft Cloud Adoption Framework for Azure](/azure/cloud-adoption-framework/secure) | 404 |
 | [Microsoft Azure Well-Architected Framework](/azure/well-architected/) | 404 |
 | [Microsoft Security Best Practices](/security/compass/compass) | 404 |
@@ -15963,7 +15970,7 @@
 | [Blob Storage](/azure/well-architected/service-guides/azure-blob-storage) | 404 |
 | [Data Lake Storage](/azure/storage/blobs/data-lake-storage-introduction) | 404 |
 | [OneLake in Microsoft Fabric](/fabric/onelake/onelake-overview) | 404 |
-| [Nithish Aruldoss](https://www.linkedin.com/in/nithish-aruldoss-b4035b2b) | 429 |
+| [Nithish Aruldoss](https://www.linkedin.com/in/nithish-aruldoss-b4035b2b) | 999 |
 | [Ashish Khandelwal](https://www.linkedin.com/in/ashish-khandelwal-839a851a3/) | 999 |
 | [Gyani Sinha](https://www.linkedin.com/in/gyani-sinha/) | 999 |
 | [Replicate and sync mainframe data in Azure](../../reference-architectures/migration/sync-mainframe-data-with-azure.yml) | 404 |
@@ -15995,7 +16002,7 @@
 | [Web Apps feature of Azure App Service](/azure/well-architected/service-guides/app-service-web-apps) | 404 |
 | [Azure Storage](/azure/storage/common/storage-introduction) | 404 |
 | [SQL Database](/azure/well-architected/service-guides/azure-sql-database) | 404 |
-| [Rudnei Oliveira](https://www.linkedin.com/in/rudnei-oliveira-69443523/) | 429 |
+| [Rudnei Oliveira](https://www.linkedin.com/in/rudnei-oliveira-69443523/) | 999 |
 | [Gary Moore](https://www.linkedin.com/in/gwmoore) | 999 |
 | [Andrew Nathan](https://www.linkedin.com/in/andrew-nathan) | 999 |
 
@@ -16139,7 +16146,7 @@
 | URL | State |
 | --- | --- |
 | [header_file](../../../includes/sol-idea-header.md) | 404 |
-| [Husam Hilal](https://www.linkedin.com/in/husamhilal/) | 429 |
+| [Husam Hilal](https://www.linkedin.com/in/husamhilal/) | 999 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/solution-ideas/articles/sap-s4-hana-on-hli-with-ha-and-dr-content.md
 
@@ -16186,8 +16193,7 @@
 | [Azure Private DNS](/azure/dns/private-dns-overview) | 404 |
 | [Laura Grob](https://www.linkedin.com/in/laura-grob/) | 999 |
 | [Armen Kaleshian](https://www.linkedin.com/in/akaleshian/) | 999 |
-| [Michael Piskorski](https://www.linkedin.com/in/mike-piskorski-1451272/) | 429 |
-| [A comprehensive guide to Managed HSM for regulated industries](https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/a-comprehensive-guide-to-azure-managed-hsm-for-regulated/ba-p/4100749) | 403 |
+| [Michael Piskorski](https://www.linkedin.com/in/mike-piskorski-1451272/) | 999 |
 | [Local role-based access control built-in roles for Managed HSM](/azure/key-vault/managed-hsm/built-in-roles) | 404 |
 | [Enable multiregion replication on Managed HSM](/azure/key-vault/managed-hsm/multi-region-replication) | 404 |
 | [Configure Managed HSM with private endpoints](/azure/key-vault/managed-hsm/private-link) | 404 |
@@ -16451,7 +16457,7 @@
 | [Allow network connectivity](/windows-365/enterprise/requirements-network#allow-network-connectivity) | 404 |
 | [Use Azure Firewall to manage and secure Windows 365 environments](/windows-365/enterprise/azure-firewall-windows-365) | 404 |
 | [Traffic interception technologies](/windows-365/enterprise/requirements-network#traffic-interception-technologies) | 404 |
-| [Optimize RDP connectivity for Windows 365](https://techcommunity.microsoft.com/t5/windows-365/optimizing-rdp-connectivity-for-windows-365/m-p/3554327) | 403 |
+| [Optimization of RDP traffic](/windows-365/enterprise/optimization-of-rdp) | 404 |
 | [Use RDP Shortpath for public networks with Windows 365](/windows-365/enterprise/rdp-shortpath-public-networks) | 404 |
 | [deploy AD DS in Azure VMs](/azure/architecture/example-scenario/identity/adds-extend-domain) | 404 |
 | [Implement a secure hybrid network](/azure/architecture/reference-architectures/dmz/secure-vnet-dmz) | 404 |
@@ -16830,7 +16836,6 @@
 | [monitoring components](/azure/governance/policy/samples/built-in-policies#monitoring) | 404 |
 | [integrated authentication mechanism for App Service](/azure/app-service/overview-authentication-authorization) | 404 |
 | [Azure Front Door considerations](/azure/app-service/overview-authentication-authorization#considerations-for-using-azure-front-door) | 404 |
-| [Set up Application Gateway](https://techcommunity.microsoft.com/blog/appsonazureblog/setting-up-application-gateway-with-an-app-service-that-uses-azure-active-direct/392490) | 403 |
 | [Managed identities](/entra/identity/managed-identities-azure-resources/managed-identity-best-practice-recommendations) | 404 |
 | [Design review checklist for Cost Optimization](/azure/well-architected/cost-optimization/checklist) | 404 |
 | [Design review checklist for Operational Excellence](/azure/well-architected/operational-excellence/checklist) | 404 |
