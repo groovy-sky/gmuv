@@ -71,22 +71,12 @@
 | --- | --- |
 | [Update to the latest Windows version](ms-settings:windowsupdate) | 0 |
 | [Microsoft Store](ms-windows-store://collection?CollectionId=LinuxDistros) | 0 |
-| [Ubuntu (Preview)](https://apps.microsoft.com/detail/9P7BDVKVNXZ6) | 403 |
-| [Debian](https://apps.microsoft.com/detail/9MSVKQC78PK6) | 403 |
-| [Arch WSL](https://apps.microsoft.com/detail/9MZNMNKSM73X) | 403 |
-| [openEuler 24.09](https://apps.microsoft.com/detail/9P6NZFGV79KJ) | 403 |
-| [openEuler 24.03](https://apps.microsoft.com/detail/9PKZ8GN18L5C) | 403 |
-| [openEuler 23.09](https://apps.microsoft.com/detail/9N8XNFG3J1HT) | 403 |
-| [openEuler 23.03](https://apps.microsoft.com/detail/9NW527WWDBCZ) | 403 |
 | [openEuler 22.09](https://apps.microsoft.com/detail/9MWVQSNTMS7G) | 403 |
 | [openEuler 22.03](https://apps.microsoft.com/detail/9P9RSPJDKX9G) | 403 |
-| [openEuler 20.03](https://apps.microsoft.com/detail/9NWB78L1MPS2) | 403 |
 | [openSUSE Tumbleweed](https://apps.microsoft.com/detail/9MSSK2ZXXN11) | 403 |
-| [openSUSE Leap 15.6](https://apps.microsoft.com/detail/9NJGLDP5G04B) | 403 |
 | [openSUSE Leap 15.5](https://apps.microsoft.com/detail/9NJGLDP5G04B) | 403 |
 | [openSUSE-Leap-15-1](https://apps.microsoft.com/detail/9NJFZK00FGKV) | 403 |
 | [SUSE Linux Enterprise 15 SP6](https://apps.microsoft.com/detail/9N738KZGNB91) | 403 |
-| [SUSE Linux Enterprise 15 SP5](https://apps.microsoft.com/detail/9N648JDGXK2D) | 403 |
 | [SUSE Linux Enterprise Server 15 SP1](https://apps.microsoft.com/detail/9PN498VPMF3Z) | 403 |
 | [SUSE Linux Enterprise Server 12 SP5](https://apps.microsoft.com/detail/9MZ3D1TRP8T1) | 403 |
 | [Pistachio Linux](https://apps.microsoft.com/detail/9P41G2MV9CQ3) | 403 |
@@ -127,6 +117,7 @@
 | URL | State |
 | --- | --- |
 | [Windows Server 2022](/windows-server/get-started/whats-new-in-windows-server-2022) | 404 |
+| [Windows Server 2025](/windows-server/get-started/whats-new-in-windows-server-2025) | 404 |
 
 * https://github.com/MicrosoftDocs/WSL/blob/main/WSL/install.md
 
@@ -169,7 +160,6 @@
 
 | URL | State |
 | --- | --- |
-| [Settings menu](ms-settings:windowsupdate) | 0 |
 | [WSL installation page](../install.md) | 404 |
 | [PowerShell command line running wsl --install](../media/wsl-install.png) | 404 |
 | [troubleshooting installation](../troubleshooting.md) | 404 |
@@ -250,7 +240,6 @@
 | [PowerShell Core](/powershell/scripting/install/installing-powershell-core-on-windows) | 404 |
 | [Enable and Disable the Built-in Administrator Account](/windows-hardware/manufacture/desktop/enable-and-disable-the-built-in-administrator-account) | 404 |
 | [Add or Remove Programs](ms-settings:appsfeatures-app) | 0 |
-| [Windows Settings](ms-settings:windowsupdate) | 0 |
 | [Hyper-V system requirements](/windows-server/virtualization/hyper-v/system-requirements-for-hyper-v-on-windows#:~:text=on%20Windows%20Server.-,General%20requirements,the%20processor%20must%20have%20SLAT.) | 0 |
 | [optional component](ms-settings:optionalfeatures) | 0 |
 | [Trusted Launch](/azure/virtual-machines/trusted-launch) | 404 |
@@ -352,7 +341,6 @@
 | [VS Code's command palette](../media/vscode-remote-command-palette.png) | 404 |
 | [VS Code with WSL extensions vs local extensions](../media/vscode-remote-wsl-extensions.png) | 404 |
 | [Windows Terminal docs](/windows/terminal) | 404 |
-| [Remote R Service for Linux](/visualstudio/rtvs/setting-up-remote-r-service-on-linux) | 404 |
 
 * https://github.com/MicrosoftDocs/WSL/blob/main/WSL/use-custom-distro.md
 
