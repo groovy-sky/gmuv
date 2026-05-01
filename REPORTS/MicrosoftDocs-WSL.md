@@ -22,6 +22,12 @@
 | [WSL release 2.4.4]( https://github.com/microsoft/WSL/releases) | 0 |
 | [the terminal profile json format](/windows/terminal/json-fragment-extensions#structure-of-the-json-files) | 404 |
 
+* https://github.com/MicrosoftDocs/WSL/blob/main/WSL/case-sensitivity.md
+
+| URL | State |
+| --- | --- |
+| [`/etc/fstab` file](https://manpages.ubuntu.com/manpages/noble/en/man5/fstab.5.html) | 0 |
+
 * https://github.com/MicrosoftDocs/WSL/blob/main/WSL/compare-versions.md
 
 | URL | State |
@@ -71,29 +77,20 @@
 | --- | --- |
 | [Update to the latest Windows version](ms-settings:windowsupdate) | 0 |
 | [Microsoft Store](ms-windows-store://collection?CollectionId=LinuxDistros) | 0 |
-| [Debian](https://apps.microsoft.com/detail/9MSVKQC78PK6) | 403 |
-| [openEuler 24.03](https://apps.microsoft.com/detail/9PKZ8GN18L5C) | 403 |
-| [openEuler 22.09](https://apps.microsoft.com/detail/9MWVQSNTMS7G) | 403 |
-| [openEuler 22.03](https://apps.microsoft.com/detail/9P9RSPJDKX9G) | 403 |
-| [openSUSE Leap 15.6](https://apps.microsoft.com/detail/9NJGLDP5G04B) | 403 |
-| [openSUSE Leap 15.5](https://apps.microsoft.com/detail/9NJGLDP5G04B) | 403 |
-| [openSUSE-Leap-15-1](https://apps.microsoft.com/detail/9NJFZK00FGKV) | 403 |
 | [SUSE Linux Enterprise 15 SP6](https://apps.microsoft.com/detail/9N738KZGNB91) | 403 |
-| [SUSE Linux Enterprise 15 SP5](https://apps.microsoft.com/detail/9N648JDGXK2D) | 403 |
-| [Oracle Linux 9.4](https://apps.microsoft.com/detail/9PMC1FJR3JF3) | 403 |
+| [Kali Linux](https://apps.microsoft.com/detail/9PKR34TNCV07) | 403 |
 | [Oracle Linux 9.3](https://apps.microsoft.com/detail/9N5MGJ01CVXC) | 403 |
+| [Oracle Linux 9.2](https://apps.microsoft.com/detail/9P068SN43NBQ) | 403 |
 | [Oracle Linux 9.1](https://apps.microsoft.com/detail/9N6CN5STZRX6) | 403 |
-| [Oracle Linux 8.8](https://apps.microsoft.com/detail/9NPBTNKMPVVV) | 403 |
 | [Oracle Linux 8.6](https://apps.microsoft.com/detail/9PGKJC9GPP2S) | 403 |
+| [Oracle Linux 8.5](https://apps.microsoft.com/detail/9P06H18WXBVP) | 403 |
+| [Oracle Linux 7.9](https://apps.microsoft.com/detail/9P7L0QWBSLTK) | 403 |
 | [AlmaLinux OS 9](https://apps.microsoft.com/detail/9P5RWLM70SN9) | 403 |
-| [AOSC OS on WSL](https://apps.microsoft.com/detail/9NMDF21NV65Z) | 403 |
+| [AlmaLinux OS 8](https://apps.microsoft.com/detail/9NMD96XJJ19F) | 403 |
 | [Athena OS](https://apps.microsoft.com/detail/9N1M7Q4F1KQF) | 403 |
 | [WSLackware](https://apps.microsoft.com/detail/9N8WPJWZ4JX7) | 403 |
-| [Fedora Remix for WSL](https://apps.microsoft.com/detail/9N6GDM4K2HNC) | 403 |
-| [Pengwin](https://apps.microsoft.com/detail/9NV1GV1PXZ6P) | 403 |
-| [Pengwin Enterprise 9](https://apps.microsoft.com/detail/9P70GX2HQNHN) | 403 |
-| [Pengwin Enterprise 7](https://apps.microsoft.com/detail/9N8LP0X93VCP) | 403 |
 | [Rocky 8 RC Unofficial](https://apps.microsoft.com/detail/9N6P6053RS25) | 403 |
+| [Swabbie](https://apps.microsoft.com/detail/9PLZ9KQTM5FN) | 403 |
 | [Swabbie2](https://apps.microsoft.com/detail/9NX9DX5B8QKN) | 403 |
 | [Invoke-WebRequest](/powershell/module/microsoft.powershell.utility/invoke-webrequest) | 404 |
 | [Invoke-WebRequest](/powershell/module/microsoft.powershell.utility/invoke-webrequest) | 404 |
@@ -211,7 +208,16 @@
 
 | URL | State |
 | --- | --- |
+| [systemd now the default for the current version of Ubuntu](https://canonical.com/blog/ubuntu-desktop-23-04-release-roundup#:~:text=Systemd%20becomes%20the%20default%20for%20Ubuntu%20on%20WSL) | 0 |
+| [now the default for the current version of Ubuntu](https://canonical.com/blog/ubuntu-desktop-23-04-release-roundup#:~:text=Systemd%20becomes%20the%20default%20for%20Ubuntu%20on%20WSL) | 0 |
 | [download the latest version from the Microsoft Store](https://aka.ms/wslstorepage) | 0 |
+| [Oliver's tutorials based on these demos on the Ubuntu blog](https://ubuntu.com/blog/ubuntu-wsl-enable-systemd) | 0 |
+| ["Run a .Net Echo Bot as a systemd service on Ubuntu WSL"](https://ubuntu.com/tutorials/run-dotnet-echo-bot-with-systemd-on-ubuntu-wsl#1-overview) | 0 |
+| [snap](https://snapcraft.io/) | 0 |
+| [microk8s](https://microk8s.io/) | 0 |
+| [Install MicroK8s on WSL2](https://microk8s.io/docs/install-wsl2) | 0 |
+| [Get Started Tutorial](https://microk8s.io/docs/getting-started) | 0 |
+| [Kubernetes on Windows with MicroK8s and WSL 2](https://ubuntu.com/blog/kubernetes-on-windows-with-microk8s-and-wsl-2) | 0 |
 
 * https://github.com/MicrosoftDocs/WSL/blob/main/WSL/troubleshooting-guide.md
 
@@ -268,6 +274,7 @@
 | URL | State |
 | --- | --- |
 | [Microsoft Learn: Introduction to Bash](/learn/modules/bash-introduction/) | 404 |
+| [Command Line for Beginners](https://ubuntu.com/tutorials/command-line-for-beginners) | 0 |
 | [Microsoft Learn: Get Started with WSL](/learn/modules/get-started-with-windows-subsystem-for-linux/) | 404 |
 
 * https://github.com/MicrosoftDocs/WSL/blob/main/WSL/tutorials/wsl-containers.md
