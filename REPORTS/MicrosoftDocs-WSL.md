@@ -71,10 +71,10 @@
 | --- | --- |
 | [Update to the latest Windows version](ms-settings:windowsupdate) | 0 |
 | [Microsoft Store](ms-windows-store://collection?CollectionId=LinuxDistros) | 0 |
-| [Arch WSL](https://apps.microsoft.com/detail/9MZNMNKSM73X) | 403 |
+| [Ubuntu (Preview)](https://apps.microsoft.com/detail/9P7BDVKVNXZ6) | 403 |
+| [Debian](https://apps.microsoft.com/detail/9MSVKQC78PK6) | 403 |
 | [Fedora WSL](https://apps.microsoft.com/detail/9NPCP8DRCHSN) | 403 |
-| [Alpine WSL](https://apps.microsoft.com/detail/9P804CRF0395) | 403 |
-| [openEuler 24.09](https://apps.microsoft.com/detail/9P6NZFGV79KJ) | 403 |
+| [deepin WSL](https://apps.microsoft.com/detail/9P6HT7L0QGRH) | 403 |
 | [openEuler 24.03](https://apps.microsoft.com/detail/9PKZ8GN18L5C) | 403 |
 | [openEuler 23.09](https://apps.microsoft.com/detail/9N8XNFG3J1HT) | 403 |
 | [openEuler 23.03](https://apps.microsoft.com/detail/9NW527WWDBCZ) | 403 |
@@ -239,7 +239,6 @@
 
 | URL | State |
 | --- | --- |
-| [Windows Performance Analyzer](https://apps.microsoft.com/detail/9N0W1B2BXGNZ) | 403 |
 | [WinPerfAnalyzer](winperfanalyzer1.png) | 404 |
 
 * https://github.com/MicrosoftDocs/WSL/blob/main/WSL/troubleshooting.md
