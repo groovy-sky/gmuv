@@ -71,52 +71,6 @@
 | --- | --- |
 | [Update to the latest Windows version](ms-settings:windowsupdate) | 0 |
 | [Microsoft Store](ms-windows-store://collection?CollectionId=LinuxDistros) | 0 |
-| [Ubuntu (Preview)](https://apps.microsoft.com/detail/9P7BDVKVNXZ6) | 403 |
-| [Debian](https://apps.microsoft.com/detail/9MSVKQC78PK6) | 403 |
-| [Fedora WSL](https://apps.microsoft.com/detail/9NPCP8DRCHSN) | 403 |
-| [deepin WSL](https://apps.microsoft.com/detail/9P6HT7L0QGRH) | 403 |
-| [openEuler 24.03](https://apps.microsoft.com/detail/9PKZ8GN18L5C) | 403 |
-| [openEuler 23.09](https://apps.microsoft.com/detail/9N8XNFG3J1HT) | 403 |
-| [openEuler 23.03](https://apps.microsoft.com/detail/9NW527WWDBCZ) | 403 |
-| [openEuler 22.09](https://apps.microsoft.com/detail/9MWVQSNTMS7G) | 403 |
-| [openEuler 22.03](https://apps.microsoft.com/detail/9P9RSPJDKX9G) | 403 |
-| [openEuler 20.03](https://apps.microsoft.com/detail/9NWB78L1MPS2) | 403 |
-| [openSUSE Tumbleweed](https://apps.microsoft.com/detail/9MSSK2ZXXN11) | 403 |
-| [openSUSE Leap 15.6](https://apps.microsoft.com/detail/9NJGLDP5G04B) | 403 |
-| [openSUSE Leap 15.5](https://apps.microsoft.com/detail/9NJGLDP5G04B) | 403 |
-| [openSUSE-Leap-15-1](https://apps.microsoft.com/detail/9NJFZK00FGKV) | 403 |
-| [SUSE Linux Enterprise 15 SP6](https://apps.microsoft.com/detail/9N738KZGNB91) | 403 |
-| [SUSE Linux Enterprise 15 SP5](https://apps.microsoft.com/detail/9N648JDGXK2D) | 403 |
-| [SUSE Linux Enterprise Server 15 SP1](https://apps.microsoft.com/detail/9PN498VPMF3Z) | 403 |
-| [SUSE Linux Enterprise Server 12 SP5](https://apps.microsoft.com/detail/9MZ3D1TRP8T1) | 403 |
-| [Pistachio Linux](https://apps.microsoft.com/detail/9P41G2MV9CQ3) | 403 |
-| [Kali Linux](https://apps.microsoft.com/detail/9PKR34TNCV07) | 403 |
-| [Oracle Linux 9.4](https://apps.microsoft.com/detail/9PMC1FJR3JF3) | 403 |
-| [Oracle Linux 9.3](https://apps.microsoft.com/detail/9N5MGJ01CVXC) | 403 |
-| [Oracle Linux 9.2](https://apps.microsoft.com/detail/9P068SN43NBQ) | 403 |
-| [Oracle Linux 9.1](https://apps.microsoft.com/detail/9N6CN5STZRX6) | 403 |
-| [Oracle Linux 9](https://apps.microsoft.com/detail/9MXQ65HLMC27) | 403 |
-| [Oracle Linux 8.10](https://apps.microsoft.com/detail/9MVFWTCT78ZN) | 403 |
-| [Oracle Linux 8.9](https://apps.microsoft.com/detail/9PP4JL775K1G) | 403 |
-| [Oracle Linux 8.8](https://apps.microsoft.com/detail/9NPBTNKMPVVV) | 403 |
-| [Oracle Linux 8.7](https://apps.microsoft.com/detail/9NGGZVB0BKD9) | 403 |
-| [Oracle Linux 8.6](https://apps.microsoft.com/detail/9PGKJC9GPP2S) | 403 |
-| [Oracle Linux 8.5](https://apps.microsoft.com/detail/9P06H18WXBVP) | 403 |
-| [Oracle Linux 7.9](https://apps.microsoft.com/detail/9P7L0QWBSLTK) | 403 |
-| [AlmaLinux OS 9](https://apps.microsoft.com/detail/9P5RWLM70SN9) | 403 |
-| [AlmaLinux OS 8](https://apps.microsoft.com/detail/9NMD96XJJ19F) | 403 |
-| [AOSC OS on WSL](https://apps.microsoft.com/detail/9NMDF21NV65Z) | 403 |
-| [Athena OS](https://apps.microsoft.com/detail/9N1M7Q4F1KQF) | 403 |
-| [WSLackware](https://apps.microsoft.com/detail/9N8WPJWZ4JX7) | 403 |
-| [Fedora Remix for WSL](https://apps.microsoft.com/detail/9N6GDM4K2HNC) | 403 |
-| [Pengwin](https://apps.microsoft.com/detail/9NV1GV1PXZ6P) | 403 |
-| [Pengwin Enterprise 9](https://apps.microsoft.com/detail/9P70GX2HQNHN) | 403 |
-| [Pengwin Enterprise 8](https://apps.microsoft.com/detail/9N2XZFWMRRQW) | 403 |
-| [Pengwin Enterprise 7](https://apps.microsoft.com/detail/9N8LP0X93VCP) | 403 |
-| [RLU 9](https://apps.microsoft.com/detail/9NQ0DQKJG91N) | 403 |
-| [Rocky 8 RC Unofficial](https://apps.microsoft.com/detail/9N6P6053RS25) | 403 |
-| [Swabbie](https://apps.microsoft.com/detail/9PLZ9KQTM5FN) | 403 |
-| [Swabbie2](https://apps.microsoft.com/detail/9NX9DX5B8QKN) | 403 |
 | [Invoke-WebRequest](/powershell/module/microsoft.powershell.utility/invoke-webrequest) | 404 |
 | [Invoke-WebRequest](/powershell/module/microsoft.powershell.utility/invoke-webrequest) | 404 |
 | [Learn more.](/windows/terminal) | 404 |
@@ -234,6 +188,7 @@
 | URL | State |
 | --- | --- |
 | [download the latest version from the Microsoft Store](https://aka.ms/wslstorepage) | 0 |
+| [Get Started Tutorial](https://microk8s.io/docs/getting-started) | 0 |
 
 * https://github.com/MicrosoftDocs/WSL/blob/main/WSL/troubleshooting-guide.md
 
@@ -249,6 +204,7 @@
 | [PowerShell Core](/powershell/scripting/install/installing-powershell-core-on-windows) | 404 |
 | [Enable and Disable the Built-in Administrator Account](/windows-hardware/manufacture/desktop/enable-and-disable-the-built-in-administrator-account) | 404 |
 | [Add or Remove Programs](ms-settings:appsfeatures-app) | 0 |
+| [other problems](https://salsa.debian.org/debian/WSL/-/commit/7611edba482fd0b3f67143aa0fc1e2cc1d4100a6) | 0 |
 | [Hyper-V system requirements](/windows-server/virtualization/hyper-v/system-requirements-for-hyper-v-on-windows#:~:text=on%20Windows%20Server.-,General%20requirements,the%20processor%20must%20have%20SLAT.) | 0 |
 | [optional component](ms-settings:optionalfeatures) | 0 |
 | [Trusted Launch](/azure/virtual-machines/trusted-launch) | 404 |
