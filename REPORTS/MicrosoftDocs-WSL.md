@@ -71,12 +71,13 @@
 | --- | --- |
 | [Update to the latest Windows version](ms-settings:windowsupdate) | 0 |
 | [Microsoft Store](ms-windows-store://collection?CollectionId=LinuxDistros) | 0 |
-| [openEuler 22.03](https://apps.microsoft.com/detail/9P9RSPJDKX9G) | 403 |
-| [Oracle Linux 8.10](https://apps.microsoft.com/detail/9MVFWTCT78ZN) | 403 |
-| [Oracle Linux 8.6](https://apps.microsoft.com/detail/9PGKJC9GPP2S) | 403 |
-| [AlmaLinux OS 8](https://apps.microsoft.com/detail/9NMD96XJJ19F) | 403 |
-| [Pengwin Enterprise 8](https://apps.microsoft.com/detail/9N2XZFWMRRQW) | 403 |
-| [Pengwin Enterprise 7](https://apps.microsoft.com/detail/9N8LP0X93VCP) | 403 |
+| [Ubuntu](https://apps.microsoft.com/detail/9PDXGNCFSCZV) | 0 |
+| [openEuler 22.09](https://apps.microsoft.com/detail/9MWVQSNTMS7G) | 403 |
+| [openEuler 20.03](https://apps.microsoft.com/detail/9NWB78L1MPS2) | 403 |
+| [SUSE Linux Enterprise 15 SP6](https://apps.microsoft.com/detail/9N738KZGNB91) | 403 |
+| [SUSE Linux Enterprise Server 15 SP1](https://apps.microsoft.com/detail/9PN498VPMF3Z) | 403 |
+| [AOSC OS on WSL](https://apps.microsoft.com/detail/9NMDF21NV65Z) | 403 |
+| [Athena OS](https://apps.microsoft.com/detail/9N1M7Q4F1KQF) | 403 |
 | [Rocky 8 RC Unofficial](https://apps.microsoft.com/detail/9N6P6053RS25) | 403 |
 | [Invoke-WebRequest](/powershell/module/microsoft.powershell.utility/invoke-webrequest) | 404 |
 | [Invoke-WebRequest](/powershell/module/microsoft.powershell.utility/invoke-webrequest) | 404 |
@@ -195,7 +196,6 @@
 | URL | State |
 | --- | --- |
 | [download the latest version from the Microsoft Store](https://aka.ms/wslstorepage) | 0 |
-| [Kubernetes on Windows with MicroK8s and WSL 2](https://ubuntu.com/blog/kubernetes-on-windows-with-microk8s-and-wsl-2) | 0 |
 
 * https://github.com/MicrosoftDocs/WSL/blob/main/WSL/troubleshooting-guide.md
 
