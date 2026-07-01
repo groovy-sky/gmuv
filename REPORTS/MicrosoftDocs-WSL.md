@@ -71,36 +71,28 @@
 | --- | --- |
 | [Update to the latest Windows version](ms-settings:windowsupdate) | 0 |
 | [Microsoft Store](ms-windows-store://collection?CollectionId=LinuxDistros) | 0 |
+| [openEuler 24.09](https://apps.microsoft.com/detail/9P6NZFGV79KJ) | 403 |
+| [openEuler 24.03](https://apps.microsoft.com/detail/9PKZ8GN18L5C) | 403 |
 | [openEuler 23.03](https://apps.microsoft.com/detail/9NW527WWDBCZ) | 403 |
-| [openEuler 22.09](https://apps.microsoft.com/detail/9MWVQSNTMS7G) | 403 |
-| [openEuler 22.03](https://apps.microsoft.com/detail/9P9RSPJDKX9G) | 403 |
-| [openEuler 20.03](https://apps.microsoft.com/detail/9NWB78L1MPS2) | 403 |
 | [openSUSE Tumbleweed](https://apps.microsoft.com/detail/9MSSK2ZXXN11) | 403 |
-| [openSUSE Leap 15.6](https://apps.microsoft.com/detail/9NJGLDP5G04B) | 403 |
-| [openSUSE Leap 15.5](https://apps.microsoft.com/detail/9NJGLDP5G04B) | 403 |
-| [openSUSE-Leap-15-1](https://apps.microsoft.com/detail/9NJFZK00FGKV) | 403 |
+| [SUSE Linux Enterprise 15 SP6](https://apps.microsoft.com/detail/9N738KZGNB91) | 403 |
 | [SUSE Linux Enterprise 15 SP5](https://apps.microsoft.com/detail/9N648JDGXK2D) | 403 |
-| [SUSE Linux Enterprise Server 15 SP1](https://apps.microsoft.com/detail/9PN498VPMF3Z) | 403 |
 | [SUSE Linux Enterprise Server 12 SP5](https://apps.microsoft.com/detail/9MZ3D1TRP8T1) | 403 |
 | [Pistachio Linux](https://apps.microsoft.com/detail/9P41G2MV9CQ3) | 403 |
 | [Kali Linux](https://apps.microsoft.com/detail/9PKR34TNCV07) | 403 |
-| [Oracle Linux 9.4](https://apps.microsoft.com/detail/9PMC1FJR3JF3) | 403 |
 | [Oracle Linux 9.3](https://apps.microsoft.com/detail/9N5MGJ01CVXC) | 403 |
-| [Oracle Linux 9.2](https://apps.microsoft.com/detail/9P068SN43NBQ) | 403 |
 | [Oracle Linux 9.1](https://apps.microsoft.com/detail/9N6CN5STZRX6) | 403 |
 | [Oracle Linux 9](https://apps.microsoft.com/detail/9MXQ65HLMC27) | 403 |
 | [Oracle Linux 8.10](https://apps.microsoft.com/detail/9MVFWTCT78ZN) | 403 |
-| [Oracle Linux 8.9](https://apps.microsoft.com/detail/9PP4JL775K1G) | 403 |
-| [Oracle Linux 8.7](https://apps.microsoft.com/detail/9NGGZVB0BKD9) | 403 |
-| [Oracle Linux 8.6](https://apps.microsoft.com/detail/9PGKJC9GPP2S) | 403 |
+| [Oracle Linux 8.8](https://apps.microsoft.com/detail/9NPBTNKMPVVV) | 403 |
+| [Oracle Linux 8.5](https://apps.microsoft.com/detail/9P06H18WXBVP) | 403 |
 | [Oracle Linux 7.9](https://apps.microsoft.com/detail/9P7L0QWBSLTK) | 403 |
 | [AlmaLinux OS 9](https://apps.microsoft.com/detail/9P5RWLM70SN9) | 403 |
-| [AlmaLinux OS 8](https://apps.microsoft.com/detail/9NMD96XJJ19F) | 403 |
 | [AOSC OS on WSL](https://apps.microsoft.com/detail/9NMDF21NV65Z) | 403 |
-| [Athena OS](https://apps.microsoft.com/detail/9N1M7Q4F1KQF) | 403 |
 | [WSLackware](https://apps.microsoft.com/detail/9N8WPJWZ4JX7) | 403 |
-| [Pengwin](https://apps.microsoft.com/detail/9NV1GV1PXZ6P) | 403 |
 | [Pengwin Enterprise 9](https://apps.microsoft.com/detail/9P70GX2HQNHN) | 403 |
+| [Pengwin Enterprise 8](https://apps.microsoft.com/detail/9N2XZFWMRRQW) | 403 |
+| [Pengwin Enterprise 7](https://apps.microsoft.com/detail/9N8LP0X93VCP) | 403 |
 | [RLU 9](https://apps.microsoft.com/detail/9NQ0DQKJG91N) | 403 |
 | [Rocky 8 RC Unofficial](https://apps.microsoft.com/detail/9N6P6053RS25) | 403 |
 | [Swabbie](https://apps.microsoft.com/detail/9PLZ9KQTM5FN) | 403 |
@@ -144,7 +136,6 @@
 
 | URL | State |
 | --- | --- |
-| [this blog](https://aka.ms/tarcurlwindows) | 403 |
 | [here](https://www.reddit.com/r/Windows10/comments/6in82t/i_believe_ive_found_the_most_obscure_bug_ever/) | 403 |
 | [Enabled serial support](/archive/blogs/wsl/serial-support-on-the-windows-subsystem-for-linux) | 404 |
 | [Filesystem Improvements](/archive/blogs/wsl/file-system-improvements-to-the-windows-subsystem-for-linux) | 404 |
@@ -154,6 +145,7 @@
 | [WSL Team Blog for Interop](/archive/blogs/wsl/windows-and-ubuntu-interoperability) | 404 |
 | [blog](/archive/blogs/wsl/) | 404 |
 | [WSL Blog](/archive/blogs/wsl/) | 404 |
+| [here](https://xubuntugeek.blogspot.com/2012/09/how-to-install-oracle-jdk-7-manually-in.html) | 429 |
 
 * https://github.com/MicrosoftDocs/WSL/blob/main/WSL/setup/environment.md
 
@@ -223,6 +215,7 @@
 | URL | State |
 | --- | --- |
 | [download the latest version from the Microsoft Store](https://aka.ms/wslstorepage) | 0 |
+| ["Run a .Net Echo Bot as a systemd service on Ubuntu WSL"](https://ubuntu.com/tutorials/run-dotnet-echo-bot-with-systemd-on-ubuntu-wsl#1-overview) | 504 |
 | [systemctl](https://www.linode.com/docs/guides/introduction-to-systemctl/) | 403 |
 
 * https://github.com/MicrosoftDocs/WSL/blob/main/WSL/troubleshooting-guide.md
@@ -249,7 +242,6 @@
 | [Configure Hyper-V firewall](/windows/security/operating-system-security/network-security/windows-firewall/hyper-v-firewall) | 404 |
 | [Guidance for configuring IPv6 in Windows for advanced users](/troubleshoot/windows-server/networking/configure-ipv6-in-windows) | 404 |
 | [SetInterfaceDnsSettings function (netioapi.h)](/windows/win32/api/netioapi/nf-netioapi-setinterfacednssettings#parameters) | 404 |
-| [steps](https://techcommunity.microsoft.com/t5/Core-Infrastructure-and-Security/How-to-Force-a-Diagnostic-Memory-Dump-When-a-Computer-Hangs/ba-p/257809) | 403 |
 | [update to the latest Windows version](ms-settings:windowsupdate) | 0 |
 | [update to the latest version of Windows](ms-settings:windowsupdate) | 0 |
 
@@ -281,37 +273,20 @@
 | URL | State |
 | --- | --- |
 | [Microsoft Learn: Introduction to Bash](/learn/modules/bash-introduction/) | 404 |
+| [Command Line for Beginners](https://ubuntu.com/tutorials/command-line-for-beginners) | 500 |
 | [Microsoft Learn: Get Started with WSL](/learn/modules/get-started-with-windows-subsystem-for-linux/) | 404 |
 
 * https://github.com/MicrosoftDocs/WSL/blob/main/WSL/tutorials/wsl-containers.md
 
 | URL | State |
 | --- | --- |
-| [Kubernetes](/azure/aks/) | 404 |
-| [Introduction to Docker containers](/training/modules/intro-to-docker-containers/) | 404 |
-| [Home and Pro](/lifecycle/products/windows-11-home-and-pro) | 404 |
-| [Enterprise and Education](/lifecycle/products/windows-11-enterprise-and-education) | 404 |
-| [Home and Pro](/lifecycle/products/windows-10-home-and-pro) | 404 |
-| [Enterprise and Education](/lifecycle/products/windows-10-enterprise-and-education) | 404 |
-| [Home and Pro](/lifecycle/products/windows-10-home-and-pro) | 404 |
-| [Enterprise and Education](/lifecycle/products/windows-10-enterprise-and-education) | 404 |
-| [Update Windows](ms-settings:windowsupdate) | 0 |
-| [Install WSL and set up a user name and password for your Linux distribution running in WSL 2](../install.md) | 404 |
 | [Install Windows Terminal](/windows/terminal/get-started) | 404 |
-| [Get started: Prep Windows for containers](/virtualization/windowscontainers/quick-start/set-up-environment) | 404 |
-| [installing WSL](../install.md) | 404 |
-| [Docker Desktop dashboard icon](../media/docker-starting.png) | 404 |
-| [Docker Desktop general settings](../media/docker-running.png) | 404 |
-| [Docker Desktop resource settings](../media/docker-dashboard.png) | 404 |
+| [Install WSL](../install.md) | 404 |
 | [Hello World tutorial for Django](/windows/python/web-frameworks#hello-world-tutorial-for-django) | 404 |
 | [VS Code WSL Remote indicator](../media/vscode-remote-indicator.png) | 404 |
-| [VS Code Dev Containers command](../media/docker-extension.png) | 404 |
-| [VS Code Dev Containers folder](../media/docker-extension2.png) | 404 |
-| [VS Code Dev Containers config definitions](../media/docker-extension3.png) | 404 |
-| [VS Code .devcontainer folder](../media/docker-extension4.png) | 404 |
-| [VS Code run debug configuration](../media/vscode-run-config.png) | 404 |
-| [VS Code running a docker container](../media/vscode-running-in-container.png) | 404 |
 | [Troubleshooting](../troubleshooting.md) | 404 |
+| [WSL container overview](../wsl-container.md) | 404 |
+| [Microsoft Learn: Introduction to containers](/training/modules/intro-to-docker-containers/) | 404 |
 
 * https://github.com/MicrosoftDocs/WSL/blob/main/WSL/tutorials/wsl-database.md
 
@@ -334,7 +309,6 @@
 | URL | State |
 | --- | --- |
 | [Showing Git versions by distro](../media/git-versions.gif) | 404 |
-| [.NET](https://dot.net) | 403 |
 | [Azure DevOps SSH](/azure/devops/repos/git/use-ssh-keys-to-authenticate) | 404 |
 
 * https://github.com/MicrosoftDocs/WSL/blob/main/WSL/tutorials/wsl-vscode.md
@@ -357,6 +331,13 @@
 | URL | State |
 | --- | --- |
 | [latest version of WSL in the Microsoft Store](https://aka.ms/wslstorepage) | 0 |
+
+* https://github.com/MicrosoftDocs/WSL/blob/main/WSL/wsl-container.md
+
+| URL | State |
+| --- | --- |
+| [](auto&&, ImageProgress const& progress) | 404 |
+| [](auto const& data) | 404 |
 
 * https://github.com/MicrosoftDocs/WSL/blob/main/WSL/wsl-plugins.md
 
