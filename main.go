@@ -6,21 +6,26 @@ import (
 	"io"
 	"io/ioutil"
 	"log"
-	"net"
 	"net/http"
 	"os"
 	"path/filepath"
-	"regexp"
 	"strings"
 	"sync"
 	"text/template"
 
-	"github.com/imroc/req/v3"
 	"github.com/urfave/cli/v2"
+	"github.com/yuin/goldmark"
+	"github.com/yuin/goldmark/ast"
+	"github.com/yuin/goldmark/text"
 )
 
 var (
-	execPath string
+	execPath       string
+	linkHTTPClient = &http.Client{
+		CheckRedirect: func(*http.Request, []*http.Request) error {
+			return http.ErrUseLastResponse
+		},
+	}
 )
 
 const (
@@ -45,41 +50,41 @@ const (
 type Repository struct {
 	// Part of Github API response strutures
 	// https://github.com/google/go-github/blob/2d872b40760dcf7080786ece0a4735509ff071f4/github/repos.go#L28
-	Name          *string `json:"name,omitempty"`
-	URL           *string `json:"url,omitempty"`
-	Fork          *bool   `json:"fork,omitempty"`
-	Disabled      *bool   `json:"disabled,omitempty"`
-	Archived      *bool   `json:"archived,omitempty"`
-	CloneURL      *string `json:"clone_url,omitempty"`
-	HTMLURL       *string `json:"html_url,omitempty"`
-	DefaultBranch *string `json:"default_branch,omitempty"`
-	Size          *int    `json:"size,omitempty"`
+	Name          string `json:"name,omitempty"`
+	URL           string `json:"url,omitempty"`
+	Fork          bool   `json:"fork,omitempty"`
+	Disabled      bool   `json:"disabled,omitempty"`
+	Archived      bool   `json:"archived,omitempty"`
+	CloneURL      string `json:"clone_url,omitempty"`
+	HTMLURL       string `json:"html_url,omitempty"`
+	DefaultBranch string `json:"default_branch,omitempty"`
+	Size          int    `json:"size,omitempty"`
 	// Custom fields
-	WebUrl *string // for relative paths check
+	WebURL string // for relative paths check
 }
 
 // Checked URL structure
 type MdLink struct {
-	Link    *string
-	State   *int
-	Succeed *bool
+	Link    string
+	State   int
+	Succeed bool
 }
 
 // Checked MD file matched URL and path to the file
 type MdFile struct {
-	Path     *string
-	LinkList *[]MdLink
+	Path     string
+	LinkList []MdLink
 }
 
 // Generated reports structure
 type MdReport struct {
-	Repository *Repository
-	MdFileList *[]MdFile
-	ZipUrl     *string
-	ZipName    *string
-	ZipPath    *string
-	State      *string
-	AllLinksOK *bool
+	Repository Repository
+	MdFileList []MdFile
+	ZipURL     string
+	ZipName    string
+	ZipPath    string
+	State      string
+	AllLinksOK bool
 }
 
 type MdReportList struct {
@@ -100,19 +105,19 @@ func generateReport(md *MdReport, out *os.File) {
 	}
 	t := template.Must(template.New("repo").Parse(repoStruct))
 	t.Execute(out, md)
-	if md.State != nil {
+	if md.State != "" {
 		t = template.Must(template.New("repoErrStruct").Parse(repoErrStruct))
 		t.Execute(out, md)
-	} else if len(*md.MdFileList) != 0 {
-		for _, file := range *md.MdFileList {
+	} else if len(md.MdFileList) != 0 {
+		for _, file := range md.MdFileList {
 			t = template.Must(template.New("fileHead").Parse(fileHeadStruct))
 			t.Execute(out, md)
-			if !*md.AllLinksOK {
+			if !md.AllLinksOK {
 				t = template.Must(template.New("file").Parse(fileStruct))
 				t.Execute(out, file)
 				t = template.Must(template.New("links").Parse(linkStruct))
-				for _, link := range *file.LinkList {
-					if !*link.Succeed {
+				for _, link := range file.LinkList {
+					if !link.Succeed {
 						t.Execute(out, link)
 					}
 				}
@@ -127,58 +132,55 @@ func getFileExtension(s string) string {
 	return ext[len(ext)-1]
 }
 
-func checkUrl(url string, web *req.Client) (response *req.Response, ok bool) {
-	response, err := web.R().Get(url)
+func checkURL(url string, web *http.Client) (response *http.Response, ok bool) {
+	response, err := web.Get(url)
 	if err != nil {
 		return response, ok
 	}
 	defer response.Body.Close()
-	switch response.StatusCode {
-	case 200:
-		ok = true
-	}
-	return response, ok
+	return response, response.StatusCode >= http.StatusOK && response.StatusCode < http.StatusMultipleChoices
 
 }
 
 // Tries to validate markdown URL
-func checkMdLink(md *MdReport, l, rpath, fpath string) (result int, ok bool) {
-	var webclient = req.C()
-	var r *req.Response
-	var url string
-	// Delete last elemnt, which is a brace
-	l = l[:len(l)-1]
-	// Delete part containing square brackets and brace, which comes before a link
-	l = l[len(regexp.MustCompile(`(^\[(.*?)]\()`).FindString(l)):]
-	// Check if link starts with http/https
-	url = regexp.MustCompile(`(^https?:\/\/)([\da-z\.-]+)\.([a-z\.]{2,6})\/?.*`).FindString(l)
-	// Check if a domain name is resolvable and filename extension != md -> add http protocol
-	// else -> add relative path to it
-	if fqdn, _, _ := strings.Cut(l, "/"); !strings.Contains(l, ":") && url == "" {
-		if _, err := net.LookupIP(fqdn); err == nil && getFileExtension(l) != "md" {
-			url = "http://" + l
+func checkMdLink(md *MdReport, link, relativePath string, web *http.Client) (result int, ok bool) {
+	url := link
+	// Test URL if link is not an e-mail address
+	if strings.HasPrefix(link, "mailto:") {
+		return result, true
+	}
+	if !strings.HasPrefix(link, "http://") && !strings.HasPrefix(link, "https://") {
+		if strings.HasPrefix(link, "/") {
+			url = md.Repository.WebURL + link
 		} else {
-			// Check if link starts / -> absolute path is used
-			// if not -> relative path should be used
-			if l != "" && string(l[0]) == "/" {
-				url = *md.Repository.WebUrl + l
-			} else {
-				url = *md.Repository.WebUrl + rpath + l
-			}
+			url = md.Repository.WebURL + relativePath + link
 		}
 	}
-	// Test URL if link is not an e-mail address
-	if strings.HasPrefix(l, "mailto:") {
-		ok = true
-	} else {
-		r, ok = checkUrl(url, webclient)
-	}
-
-	// Store HTTP response if there is one
-	if r != nil && r.Err == nil {
+	r, ok := checkURL(url, web)
+	if r != nil {
 		result = r.StatusCode
 	}
 	return result, ok
+}
+
+func markdownLinks(content []byte) []string {
+	var links []string
+	document := goldmark.DefaultParser().Parse(text.NewReader(content))
+	_ = ast.Walk(document, func(node ast.Node, entering bool) (ast.WalkStatus, error) {
+		if !entering {
+			return ast.WalkContinue, nil
+		}
+		switch node := node.(type) {
+		case *ast.Link:
+			links = append(links, string(node.Destination))
+		case *ast.Image:
+			links = append(links, string(node.Destination))
+		case *ast.AutoLink:
+			links = append(links, string(node.URL(content)))
+		}
+		return ast.WalkContinue, nil
+	})
+	return links
 }
 
 // Searches for *.md files and loads its content from *.zip archive
@@ -199,37 +201,26 @@ func findAndCheckMdFile(md *MdReport, f *zip.File) {
 			links := []MdLink{}
 			zipContent, err := f.Open()
 			if err != nil {
-				state := (*md.State + " [ERR] Couldn't open " + f.FileInfo().Name() + " file: \n\t" + err.Error())
-				md.State = &state
+				md.State += " [ERR] Couldn't open " + f.FileInfo().Name() + " file: \n\t" + err.Error()
 				return
 			}
 			defer zipContent.Close()
 
 			content, err := ioutil.ReadAll(zipContent)
 			if err != nil {
-				state := (*md.State + " [ERR] Couldn't load " + f.FileInfo().Name() + ": \n\t" + err.Error())
-				md.State = &state
+				md.State += " [ERR] Couldn't load " + f.FileInfo().Name() + ": \n\t" + err.Error()
 				return
 			}
-			// Use regexp for matching Markdown URL
-			matches := regexp.MustCompile(`\[[^\[\]]*?\]\(.*?\)|^\[*?\]\(.*?\)`).FindAll(content, -1)
-			for _, val := range matches {
-				url := string(val)
-				state, ok := checkMdLink(md, url, fileRelativePath, fileFullPath)
+			for _, url := range markdownLinks(content) {
+				state, ok := checkMdLink(md, url, fileRelativePath, linkHTTPClient)
 				if !ok {
-					*md.AllLinksOK = false
-					mdLinkVal := MdLink{&url, &state, &ok}
+					md.AllLinksOK = false
+					mdLinkVal := MdLink{url, state, ok}
 					links = append(links, mdLinkVal)
 				}
 			}
 			if len(links) > 0 {
-				if md.MdFileList == nil {
-					file := []MdFile{{&fileFullPath, &links}}
-					md.MdFileList = &file
-				} else {
-					file := MdFile{&fileFullPath, &links}
-					*md.MdFileList = append(*md.MdFileList, file)
-				}
+				md.MdFileList = append(md.MdFileList, MdFile{fileFullPath, links})
 			}
 		}
 	}
@@ -237,23 +228,20 @@ func findAndCheckMdFile(md *MdReport, f *zip.File) {
 
 // Reads files from *.zip archive and filters *.md. At the end deletes folder with downloaded archive
 func checkMdFiles(md *MdReport, Mu *sync.Mutex, out *os.File) {
-	//defer os.RemoveAll(*md.ZipPath)
-	reader, err := zip.OpenReader(filepath.Join(*md.ZipPath, *md.ZipName))
+	reader, err := zip.OpenReader(filepath.Join(md.ZipPath, md.ZipName))
 	if err != nil {
-		*md.State = ("[ERR] Couldn't open archive " + *md.ZipName + ".\n\t" + err.Error())
-		return
-	}
-	defer reader.Close()
+		md.State = "[ERR] Couldn't open archive " + md.ZipName + ".\n\t" + err.Error()
+	} else {
+		defer reader.Close()
 
-	for _, f := range reader.File {
-		findAndCheckMdFile(md, f)
-	}
-	if md.MdFileList == nil {
-		s := "[INF] No markdown links were found."
-		md.State = &s
-	} else if *md.AllLinksOK {
-		s := "[INF] No inactive/broken links were found."
-		md.State = &s
+		for _, f := range reader.File {
+			findAndCheckMdFile(md, f)
+		}
+		if len(md.MdFileList) == 0 {
+			md.State = "[INF] No markdown links were found."
+		} else if md.AllLinksOK {
+			md.State = "[INF] No inactive/broken links were found."
+		}
 	}
 	Mu.Lock()
 	defer Mu.Unlock()
@@ -263,46 +251,46 @@ func checkMdFiles(md *MdReport, Mu *sync.Mutex, out *os.File) {
 // Downloads and stores Github repository as zip archive
 func downloadGitArchive(md *MdReport) error {
 
-	fullpath := filepath.Join(*md.ZipPath, *md.ZipName)
-	if err := os.MkdirAll(*md.ZipPath, 0755); err != nil {
-		*md.State = ("[ERR] Couldn't create " + *md.ZipPath + " path.\n\t" + err.Error())
+	fullpath := filepath.Join(md.ZipPath, md.ZipName)
+	if err := os.MkdirAll(md.ZipPath, 0755); err != nil {
+		md.State = "[ERR] Couldn't create " + md.ZipPath + " path.\n\t" + err.Error()
 		return err
 	}
 
 	out, err := os.Create(fullpath)
 	if err != nil {
-		*md.State = ("[ERR] Couldn't create " + fullpath + " file.\n\t" + err.Error())
+		md.State = "[ERR] Couldn't create " + fullpath + " file.\n\t" + err.Error()
 		return err
 	}
 	defer out.Close()
 
-	resp, err := http.Get(*md.ZipUrl)
+	resp, err := http.Get(md.ZipURL)
 
 	if err != nil {
-		*md.State = ("[ERR] Couldn't download " + *md.ZipUrl + " file.\n\t" + err.Error())
+		md.State = "[ERR] Couldn't download " + md.ZipURL + " file.\n\t" + err.Error()
 		return err
 	}
 	defer resp.Body.Close()
 
 	if _, err := io.Copy(out, resp.Body); err != nil {
-		*md.State = ("[ERR] Couldn't store downloaded file.\n\t" + err.Error())
+		md.State = "[ERR] Couldn't store downloaded file.\n\t" + err.Error()
 		return err
 	}
 	return nil
 }
 
-func (l *MdReportList) Append(report MdReport) {
+func (l *MdReportList) Append(report *MdReport) {
 	l.Mu.Lock()
 	defer l.Mu.Unlock()
-	l.Reports = append(l.Reports, &report)
+	l.Reports = append(l.Reports, report)
 }
 
 // Returns public/not-forked/not-archived/not-empty repository list
-func GetPublicRepos(account, repo string) []*Repository {
+func GetPublicRepos(account, repo string) []Repository {
 	var resp *http.Response
 	var err error
-	var allRepos, outRepos []*Repository
-	var singleRepo *Repository
+	var allRepos, outRepos []Repository
+	var singleRepo Repository
 
 	switch repo {
 	case "":
@@ -316,7 +304,7 @@ func GetPublicRepos(account, repo string) []*Repository {
 		}
 		// Store only active, not forked and not empty repos
 		for i := range allRepos {
-			if !*allRepos[i].Fork && !*allRepos[i].Disabled && !*allRepos[i].Archived && *allRepos[i].Size > 0 {
+			if !allRepos[i].Fork && !allRepos[i].Disabled && !allRepos[i].Archived && allRepos[i].Size > 0 {
 				outRepos = append(outRepos, allRepos[i])
 			}
 		}
@@ -423,30 +411,24 @@ func RunCLI() {
 		return
 	}
 
-	report := make([]*MdReport, reposNumber)
-	mdList.Reports = report
-
 	// Store and parse public and active repositories
 	for _, repo := range repos {
 		wg.Add(1)
-		go func(r *Repository) {
+		go func(r Repository) {
 			defer wg.Done()
-			var repoUrl string
-			md := new(MdReport)
-			allLinksDefVal := true
-			md.AllLinksOK = &allLinksDefVal
-			md.Repository = r
-			downloadLink := *r.HTMLURL + "/archive/refs/heads/" + *r.DefaultBranch + ".zip"
-			archiveName := *r.Name + ".zip"
-			downloadPath := filepath.Join(execPath, *r.Name)
-			repoUrl = (*r.HTMLURL + "/blob/" + *r.DefaultBranch)
-			md.ZipUrl, md.ZipName, md.ZipPath, md.Repository.WebUrl = &downloadLink, &archiveName, &downloadPath, &repoUrl
+			md := &MdReport{
+				AllLinksOK: true,
+				Repository: r,
+			}
+			md.ZipURL = r.HTMLURL + "/archive/refs/heads/" + r.DefaultBranch + ".zip"
+			md.ZipName = r.Name + ".zip"
+			md.ZipPath = filepath.Join(execPath, r.Name)
+			md.Repository.WebURL = r.HTMLURL + "/blob/" + r.DefaultBranch
 			err := downloadGitArchive(md)
 			if err != nil {
-				state := (*md.State + " [ERR] Couldn't download " + ": \n\t" + err.Error())
-				md.State = &state
+				md.State += " [ERR] Couldn't download: \n\t" + err.Error()
 			}
-			mdList.Append(*md)
+			mdList.Append(md)
 		}(repo)
 	}
 	wg.Wait()
