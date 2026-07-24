@@ -9,9 +9,9 @@ import (
 
 func TestMarkdownLinksParsesMarkdownNodes(t *testing.T) {
 	content := []byte(`
+[ref]: https://example.com/reference
 [inline](https://example.com/inline "title")
 [reference][ref]
-[ref]: https://example.com/reference
 <https://example.com/autolink>
 ![image](https://example.com/image.png)
 ` + "`[not a link](https://example.com/code)`")
