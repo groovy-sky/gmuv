@@ -125,12 +125,12 @@
 | https://apps.microsoft.com/detail/9N9TNGVNDL3Q | 301 |
 | https://apps.microsoft.com/detail/9P7BDVKVNXZ6 | 301 |
 | https://apps.microsoft.com/detail/9MSVKQC78PK6 | 301 |
-| https://apps.microsoft.com/detail/9MZNMNKSM73X | 403 |
+| https://apps.microsoft.com/detail/9MZNMNKSM73X | 301 |
 | https://apps.microsoft.com/detail/9NPCP8DRCHSN | 403 |
-| https://apps.microsoft.com/detail/9P6HT7L0QGRH | 301 |
+| https://apps.microsoft.com/detail/9P6HT7L0QGRH | 403 |
 | https://apps.microsoft.com/detail/9P804CRF0395 | 301 |
-| https://apps.microsoft.com/detail/9P6NZFGV79KJ | 403 |
-| https://apps.microsoft.com/detail/9PKZ8GN18L5C | 403 |
+| https://apps.microsoft.com/detail/9P6NZFGV79KJ | 301 |
+| https://apps.microsoft.com/detail/9PKZ8GN18L5C | 301 |
 | https://apps.microsoft.com/detail/9N8XNFG3J1HT | 301 |
 | https://apps.microsoft.com/detail/9NW527WWDBCZ | 301 |
 | https://apps.microsoft.com/detail/9MWVQSNTMS7G | 301 |
@@ -138,21 +138,21 @@
 | https://apps.microsoft.com/detail/9NWB78L1MPS2 | 301 |
 | https://apps.microsoft.com/detail/9MSSK2ZXXN11 | 301 |
 | https://apps.microsoft.com/detail/9NJGLDP5G04B | 301 |
-| https://apps.microsoft.com/detail/9NJGLDP5G04B | 301 |
-| https://apps.microsoft.com/detail/9NJFZK00FGKV | 301 |
+| https://apps.microsoft.com/detail/9NJGLDP5G04B | 403 |
+| https://apps.microsoft.com/detail/9NJFZK00FGKV | 403 |
 | https://apps.microsoft.com/detail/9N738KZGNB91 | 301 |
-| https://apps.microsoft.com/detail/9N648JDGXK2D | 403 |
-| https://apps.microsoft.com/detail/9PN498VPMF3Z | 403 |
+| https://apps.microsoft.com/detail/9N648JDGXK2D | 301 |
+| https://apps.microsoft.com/detail/9PN498VPMF3Z | 301 |
 | https://apps.microsoft.com/detail/9MZ3D1TRP8T1 | 301 |
-| https://apps.microsoft.com/detail/9P41G2MV9CQ3 | 403 |
-| https://apps.microsoft.com/detail/9PKR34TNCV07 | 403 |
+| https://apps.microsoft.com/detail/9P41G2MV9CQ3 | 301 |
+| https://apps.microsoft.com/detail/9PKR34TNCV07 | 301 |
 | https://apps.microsoft.com/detail/9PMC1FJR3JF3 | 301 |
 | https://apps.microsoft.com/detail/9N5MGJ01CVXC | 301 |
 | https://apps.microsoft.com/detail/9P068SN43NBQ | 301 |
 | https://apps.microsoft.com/detail/9N6CN5STZRX6 | 301 |
-| https://apps.microsoft.com/detail/9MXQ65HLMC27 | 301 |
+| https://apps.microsoft.com/detail/9MXQ65HLMC27 | 403 |
 | https://apps.microsoft.com/detail/9MVFWTCT78ZN | 403 |
-| https://apps.microsoft.com/detail/9PP4JL775K1G | 403 |
+| https://apps.microsoft.com/detail/9PP4JL775K1G | 301 |
 | https://apps.microsoft.com/detail/9NPBTNKMPVVV | 301 |
 | https://apps.microsoft.com/detail/9NGGZVB0BKD9 | 301 |
 | https://apps.microsoft.com/detail/9PGKJC9GPP2S | 301 |
@@ -162,9 +162,9 @@
 | https://apps.microsoft.com/detail/9NMD96XJJ19F | 301 |
 | https://apps.microsoft.com/detail/9NMDF21NV65Z | 301 |
 | https://apps.microsoft.com/detail/9N1M7Q4F1KQF | 301 |
-| https://apps.microsoft.com/detail/9N8WPJWZ4JX7 | 301 |
+| https://apps.microsoft.com/detail/9N8WPJWZ4JX7 | 403 |
 | https://apps.microsoft.com/detail/9N6GDM4K2HNC | 403 |
-| https://apps.microsoft.com/detail/9NV1GV1PXZ6P | 403 |
+| https://apps.microsoft.com/detail/9NV1GV1PXZ6P | 301 |
 | https://apps.microsoft.com/detail/9P70GX2HQNHN | 301 |
 | https://apps.microsoft.com/detail/9N2XZFWMRRQW | 301 |
 | https://apps.microsoft.com/detail/9N8LP0X93VCP | 301 |
@@ -356,6 +356,7 @@
 | ../install.md | 404 |
 | ../media/wsl-install.png | 404 |
 | ../troubleshooting.md | 404 |
+| https://serverfault.com/questions/73084/what-characters-should-i-use-or-not-use-in-usernames-on-linux | 403 |
 | ../media/UbuntuInstall.png | 404 |
 | ms-windows-store://collection?CollectionId=LinuxDistros | 404 |
 | ../use-custom-distro.md | 404 |
@@ -434,7 +435,7 @@
 | --- | --- |
 | https://aka.ms/wsllogs | 301 |
 | https://aka.ms/wsllogs | 301 |
-| https://apps.microsoft.com/detail/9N0W1B2BXGNZ | 301 |
+| https://apps.microsoft.com/detail/9N0W1B2BXGNZ | 403 |
 | https://aka.ms/wsllogs | 301 |
 | winperfanalyzer1.png | 404 |
 | https://learn.microsoft.com/windows/wsl/troubleshooting | 302 |
@@ -577,7 +578,7 @@
 | ../media/vscode-remote-command-palette.png | 404 |
 | ../media/vscode-remote-wsl-extensions.png | 404 |
 | /windows/terminal | 404 |
-| https://apps.microsoft.com/detail/9N0DX20HK701 | 301 |
+| https://apps.microsoft.com/detail/9N0DX20HK701 | 403 |
 
 * https://github.com/MicrosoftDocs/WSL/blob/main/WSL/use-custom-distro.md
 
@@ -623,5 +624,6 @@
 
 | URL | State |
 | --- | --- |
+| https://superuser.com/questions/1734353/is-there-a-way-to-mount-an-external-drive-when-it-becomes-available-in-wsl | 403 |
 | /powershell/module/hyper-v/mount-vhd | 404 |
 | /windows-server/storage/disk-management/initialize-new-disks#about-partition-styles---gpt-and-mbr | 404 |
