@@ -69,6 +69,18 @@
 | #identifying-a-freshness-pr | 301 |
 | #how-to-repair-the-body | 301 |
 
+* https://github.com/MicrosoftDocs/architecture-center/blob/main/.github/workflows/learn-link-doctor.md
+
+| URL | State |
+| --- | --- |
+| #your-batch | 301 |
+| #the-nine-checks | 301 |
+| #grounding-rules | 301 |
+| #writing-the-pull-request | 301 |
+| #how-to-check-links | 301 |
+| ../agents/link-checker.agent.md | 404 |
+| #finding-the-page-for-a-new-cross-link-checks-6-9 | 301 |
+
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/.github/workflows/nudge-along.md
 
 | URL | State |
@@ -397,15 +409,12 @@
 | /azure/logic-apps/business-continuity-disaster-recovery-guidance | 404 |
 | /azure/reliability/reliability-functions?toc=%2Fazure%2Fazure-functions%2FTOC.json&tabs=azure-portal | 404 |
 | /azure/cosmos-db/high-availability | 404 |
-| https://www.linkedin.com/in/gailzhou | 999 |
 | https://www.linkedin.com/in/snikjou/ | 301 |
-| https://www.linkedin.com/in/nalinichandhi | 999 |
-| https://www.linkedin.com/in/steve-dem | 999 |
+| https://www.linkedin.com/in/steve-dem | 404 |
 | https://www.linkedin.com/in/travis-hilbert-a3999980 | 999 |
 | https://www.linkedin.com/in/dongbum | 999 |
 | https://www.linkedin.com/in/malory-rose-8aa503135 | 999 |
-| https://www.linkedin.com/in/oscarshk | 999 |
-| https://www.linkedin.com/in/echo-wang-99205343 | 999 |
+| https://www.linkedin.com/in/echo-wang-99205343 | 404 |
 | /azure/logic-apps/tutorial-process-email-attachments-workflow | 404 |
 | ../../example-scenario/document-processing/build-deploy-custom-models.yml | 404 |
 | ../../ai-ml/architecture/search-blob-metadata.yml | 404 |
@@ -539,7 +548,7 @@
 | https://www.linkedin.com/in/raouf-aliouat/ | 301 |
 | https://www.linkedin.com/in/freddyayala/ | 301 |
 | https://www.linkedin.com/in/prabaldeb/ | 999 |
-| https://www.linkedin.com/in/ritesh-modi/ | 301 |
+| https://www.linkedin.com/in/ritesh-modi/ | 999 |
 | https://www.linkedin.com/in/ryanpfalz/ | 301 |
 | /azure/well-architected/ai/get-started | 404 |
 | /azure/foundry/foundry-models/concepts/models-sold-directly-by-azure | 404 |
@@ -619,7 +628,7 @@
 | /azure/well-architected/operational-excellence/checklist | 404 |
 | /azure/well-architected/security/monitor-threats | 404 |
 | /azure/well-architected/performance-efficiency/checklist | 404 |
-| https://www.linkedin.com/in/mbilalamjad/ | 999 |
+| https://www.linkedin.com/in/mbilalamjad/ | 301 |
 | https://www.linkedin.com/in/freddyayala/ | 301 |
 | https://www.linkedin.com/in/chadkittel/ | 301 |
 | /azure/cloud-adoption-framework/ready/landing-zone/design-area/subscription-vending | 404 |
@@ -749,7 +758,6 @@
 | /azure/machine-learning/concept-v2?view=azureml-api-2 | 404 |
 | /azure/azure-monitor/autoscale/autoscale-overview | 404 |
 | /azure/machine-learning/concept-endpoints | 404 |
-| https://www.linkedin.com/in/jyotsna-ravi-50182624 | 999 |
 | /azure/ai-services/document-intelligence/quickstarts/try-document-intelligence-studio | 404 |
 | /azure/ai-services/document-intelligence/how-to-guides/use-sdk-rest-api | 404 |
 | /azure/ai-services/language-service/overview | 404 |
@@ -812,7 +820,6 @@
 | /azure/well-architected/cost-optimization/checklist | 404 |
 | https://azure.com/e/375d2b930db14fbe90537421331f41de | 301 |
 | #reliability | 301 |
-| https://www.linkedin.com/in/jelle-druyts-0b76823 | 999 |
 | /azure/search/search-what-is-azure-search#how-to-get-started | 404 |
 | /azure/search/semantic-search-overview | 404 |
 | /azure/search/search-security-trimming-for-azure-search | 404 |
@@ -905,10 +912,9 @@
 | https://azure.microsoft.com/pricing/calculator | 302 |
 | /azure/well-architected/performance-efficiency/checklist | 404 |
 | /azure/machine-learning/concept-compute-target#supported-vm-series-and-sizes | 404 |
-| https://www.linkedin.com/in/ananyaghoshchowdhury/ | 999 |
-| https://www.linkedin.com/in/clayton-b-barlow | 999 |
+| https://www.linkedin.com/in/ananyaghoshchowdhury/ | 301 |
 | https://www.linkedin.com/in/tincy-elias/ | 999 |
-| https://www.linkedin.com/in/brijeshkachalia/ | 999 |
+| https://www.linkedin.com/in/brijeshkachalia/ | 301 |
 | https://www.linkedin.com/in/kranthimanchikanti/ | 301 |
 | /azure/machine-learning/overview-what-is-azure-machine-learning | 404 |
 | /azure/machine-learning/how-to-managed-network | 404 |
@@ -1360,7 +1366,7 @@
 | /azure/virtual-machines/sizes/retirement/nc-series-retirement | 404 |
 | /azure/ai-foundry/model-inference/concepts/model-versions#how-model-versions-work | 404 |
 | /azure/ai-services/openai/concepts/model-versions#how-model-versions-work | 404 |
-| https://www.linkedin.com/in/ritesh-modi/ | 999 |
+| https://www.linkedin.com/in/ritesh-modi/ | 301 |
 | /azure/ai-services/openai/concepts/model-retirements | 404 |
 | ../architecture/baseline-microsoft-foundry-chat.yml | 404 |
 
@@ -1374,7 +1380,7 @@
 | #level-3-automated-model-deployment | 301 |
 | #level-4-full-mlops-automated-operations | 301 |
 | /azure/architecture/ai-ml/guide/genaiops-for-mlops | 404 |
-| https://www.linkedin.com/in/delynchoong/ | 301 |
+| https://www.linkedin.com/in/delynchoong/ | 999 |
 | https://www.linkedin.com/in/shanswaleh/ | 999 |
 | /azure/well-architected/ai/mlops-genaiops | 404 |
 | /training/paths/introduction-machine-learn-operations | 404 |
@@ -1527,7 +1533,7 @@
 | https://www.linkedin.com/in/raouf-aliouat/ | 301 |
 | https://www.linkedin.com/in/robbagby/ | 301 |
 | https://www.linkedin.com/in/paulfbutler2016/ | 999 |
-| https://www.linkedin.com/in/prabaldeb/ | 999 |
+| https://www.linkedin.com/in/prabaldeb/ | 301 |
 | https://www.linkedin.com/in/soubhihadri/ | 301 |
 | https://www.linkedin.com/in/ritesh-modi/ | 999 |
 | https://www.linkedin.com/in/ryanpfalz/ | 301 |
@@ -1548,7 +1554,7 @@
 | URL | State |
 | --- | --- |
 | /azure/ai-services/content-safety/overview | 404 |
-| https://www.linkedin.com/in/harsha-vardhan-annapureddy/ | 301 |
+| https://www.linkedin.com/in/harsha-vardhan-annapureddy/ | 999 |
 | /azure/foundry/openai/concepts/prompt-engineering | 404 |
 | /azure/foundry/openai/concepts/advanced-prompt-engineering | 404 |
 | /azure/foundry/openai/concepts/system-message | 404 |
@@ -1575,9 +1581,7 @@
 | URL | State |
 | --- | --- |
 | /azure/architecture/ai-ml/guide/rag/rag-solution-design-and-evaluation-guide | 404 |
-| /azure/ai-foundry/openai/concepts/use-your-data | 404 |
-| /azure/ai-foundry/agents/overview | 404 |
-| /azure/ai-foundry/agents/concepts/what-is-foundry-iq | 404 |
+| /rest/api/microsoft-foundry/azureopenai/responses | 404 |
 | #single-tenant-rag-architecture-with-an-orchestrator | 301 |
 | /azure/architecture/guide/multitenant/approaches/storage-data | 404 |
 | /azure/search/search-limits-quotas-capacity | 404 |
@@ -1588,7 +1592,7 @@
 | /azure/architecture/guide/multitenant/considerations/tenancy-models#define-a-tenant | 404 |
 | #define-your-tenant-and-authorization-requirements | 301 |
 | https://www.linkedin.com/in/john-downs/ | 301 |
-| https://www.linkedin.com/in/dscottraynsford | 999 |
+| https://www.linkedin.com/in/dscottraynsford | 429 |
 | ../../guide/saas-multitenant-solution-architecture/index.md | 404 |
 | ../architecture/baseline-microsoft-foundry-chat.yml | 404 |
 
@@ -2379,8 +2383,8 @@
 
 | URL | State |
 | --- | --- |
-| /azure/sql-database/sql-database-technical-overview | 404 |
-| /azure/mysql/overview | 404 |
+| /azure/azure-sql/database/sql-database-paas-overview | 404 |
+| /azure/mysql/flexible-server/overview | 404 |
 | /azure/postgresql/overview | 404 |
 | /fabric/database/sql/overview | 404 |
 | /azure/azure-sql/virtual-machines/windows/sql-server-on-azure-vm-iaas-what-is-overview | 404 |
@@ -2390,8 +2394,8 @@
 | /azure/azure-sql/managed-instance/sql-managed-instance-paas-overview | 404 |
 | /fabric/database/sql/tutorial-introduction | 404 |
 | /azure/azure-sql/database/active-geo-replication-configure-portal | 404 |
-| /azure/cosmos-db/sql-api-introduction | 404 |
-| /azure/cosmos-db/table-storage-how-to-use-nodejs | 404 |
+| /azure/cosmos-db/overview | 404 |
+| /azure/cosmos-db/table/quickstart-nodejs | 404 |
 | /azure/hdinsight | 404 |
 | /azure/data-factory | 404 |
 | https://www.microsoft.com/microsoft-fabric | 302 |
@@ -2435,22 +2439,22 @@
 | /azure/cost-management-billing/cost-management-billing-overview | 404 |
 | https://www.opencost.io/ | 301 |
 | /azure/aks/cost-analysis | 404 |
-| /azure/aks/concepts-clusters-workloads#control-plane | 404 |
+| /azure/aks/core-aks-concepts#control-plane | 404 |
 | https://kubernetes.io/docs/concepts/overview/components | 301 |
 | https://azure.microsoft.com/pricing/details/kubernetes-service | 302 |
-| /azure/aks/concepts-clusters-workloads#nodes-and-node-pools | 404 |
+| /azure/aks/core-aks-concepts#nodes | 404 |
 | /azure/aks/free-standard-pricing-tiers | 404 |
 | https://azure.microsoft.com/pricing/details/kubernetes-service/ | 302 |
 | https://azure.microsoft.com/updates/generally-available-5000-node-scale-in-aks/ | 302 |
 | https://azure.microsoft.com/reservations | 301 |
 | https://azure.microsoft.com/pricing/offers/savings-plan-compute/ | 301 |
 | https://azure.microsoft.com/pricing/details/virtual-machines/series | 302 |
-| /azure/aks/use-multiple-node-pools | 404 |
+| /azure/aks/create-node-pools | 404 |
 | /azure/aks/faq#can-i-provide-my-own-name-for-the-aks-node-resource-group- | 404 |
 | ../compute.md | 404 |
-| /azure/aks/azure-disk-csi | 404 |
+| /azure/aks/csi-storage-drivers?pivots=azure-disks | 404 |
 | https://azure.microsoft.com/pricing/details/managed-disks | 302 |
-| /azure/aks/azure-files-csi | 404 |
+| /azure/aks/csi-storage-drivers?pivots=azure-files | 404 |
 | /azure/storage/common/storage-account-overview#types-of-storage-accounts | 404 |
 | https://azure.microsoft.com/pricing/details/netapp/ | 302 |
 | https://azure.microsoft.com/pricing/details/load-balancer | 302 |
@@ -2459,7 +2463,7 @@
 | https://azure.microsoft.com/pricing/details/ip-addresses | 302 |
 | /azure/aks/cluster-autoscaler#about-the-cluster-autoscaler | 404 |
 | https://azure.microsoft.com/products/container-instances | 302 |
-| /azure/aks/upgrade-cluster | 404 |
+| /azure/aks/upgrade-options | 404 |
 | https://azure.microsoft.com/products/container-registry | 302 |
 | /azure/container-registry/container-registry-skus | 404 |
 | https://azure.microsoft.com/pricing/details/bandwidth | 302 |
@@ -2469,20 +2473,20 @@
 | /azure/azure-monitor/containers/container-insights-cost | 404 |
 | https://azure.microsoft.com/pricing/details/monitor/ | 302 |
 | https://azure.microsoft.com/pricing/details/defender-for-cloud/ | 302 |
-| /azure/azure-monitor/containers/container-insights-cost#estimating-costs-to-monitor-your-aks-cluster | 404 |
+| /azure/azure-monitor/containers/container-insights-cost | 404 |
 | https://azure.microsoft.com/pricing/details/devops/azure-devops-services | 302 |
-| /azure/architecture/framework/services/compute/azure-kubernetes-service/azure-kubernetes-service#cost-optimization | 404 |
+| /azure/well-architected/service-guides/azure-kubernetes-service#cost-optimization | 404 |
 | /azure/cost-management-billing/reservations/save-compute-costs-reservations | 404 |
 | /azure/storage/files/files-reserve-capacity | 404 |
 | https://azure.microsoft.com/pricing/reserved-vm-instances | 301 |
 | https://azure.microsoft.com/updates/azure-monitor-log-analytics-new-capacity-based-pricing-option-is-now-available | 302 |
 | /azure/virtual-machine-scale-sets/use-spot | 404 |
 | /azure/aks/spot-node-pool | 404 |
-| /azure/virtual-machines/sizes | 404 |
+| /azure/virtual-machines/sizes/overview | 404 |
 | /azure/virtual-machines/dpsv5-dpdsv5-series | 404 |
 | https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration | 301 |
 | https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node | 301 |
-| /azure/aks/use-multiple-node-pools | 404 |
+| /azure/aks/create-node-pools | 404 |
 | https://kubernetes.io/docs/concepts/configuration/manage-resources-containers | 301 |
 | https://kubernetes.io/docs/reference/kubernetes-api/policy-resources/resource-quota-v1 | 301 |
 | https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces | 301 |
@@ -2493,14 +2497,14 @@
 | /azure/advisor/advisor-overview | 404 |
 | https://azure.microsoft.com/products/cost-management | 302 |
 | /azure/cost-management-billing/cost-management-billing-overview | 404 |
-| /azure/architecture/framework/cost/design-governance | 404 |
+| /azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies | 404 |
 | https://www.kubecost.com | 301 |
 | https://www.linkedin.com/in/paolo-salvatori/ | 301 |
 | https://www.linkedin.com/in/lauranicolasd/ | 301 |
 | https://www.linkedin.com/in/chadkittel/ | 301 |
 | https://www.linkedin.com/in/theanop/ | 999 |
 | /azure/aks/cost-analysis | 404 |
-| /azure/cloud-adoption-framework/govern/cost-management | 404 |
+| /azure/cloud-adoption-framework/govern/enforce-cloud-governance-policies#automate-cost-governance | 404 |
 | https://azure.microsoft.com/pricing/calculator | 302 |
 | /training/modules/plan-manage-azure-costs | 404 |
 | /azure/aks/cost-analysis | 404 |
@@ -2524,7 +2528,7 @@
 | https://www.linkedin.com/in/pranabpaul/ | 999 |
 | https://www.linkedin.com/in/paolo-salvatori/ | 301 |
 | https://www.linkedin.com/in/chadkittel/ | 301 |
-| https://www.linkedin.com/in/theanop/ | 301 |
+| https://www.linkedin.com/in/theanop/ | 999 |
 | /azure/governance/policy/concepts/policy-for-kubernetes | 404 |
 | /azure/aks/use-azure-policy | 404 |
 | /azure/aks/concepts-security | 404 |
@@ -2865,10 +2869,10 @@
 | /azure/aks/csi-secrets-store-driver | 404 |
 | /azure/cost-management-billing/reservations/save-compute-costs-reservations#charges-covered-by-reservation | 404 |
 | https://www.linkedin.com/in/lauranicolasd/ | 301 |
-| https://www.linkedin.com/in/pranabpaul/ | 999 |
+| https://www.linkedin.com/in/pranabpaul/ | 301 |
 | https://www.linkedin.com/in/paolo-salvatori/ | 301 |
 | https://www.linkedin.com/in/chadkittel/ | 301 |
-| https://www.linkedin.com/in/theanop/ | 999 |
+| https://www.linkedin.com/in/theanop/ | 301 |
 | /training/modules/describe-azure-storage-services/ | 404 |
 | /training/paths/store-data-in-azure/ | 404 |
 | /training/modules/intro-to-kubernetes/ | 404 |
@@ -3138,7 +3142,7 @@
 | /azure/migration/migrate-networking-from-aws#migration-guides | 404 |
 | https://www.linkedin.com/in/krekatas/ | 301 |
 | https://www.linkedin.com/in/adamcerini | 999 |
-| https://www.linkedin.com/in/juan-carlos-osorio-6252bba7/ | 999 |
+| https://www.linkedin.com/in/juan-carlos-osorio-6252bba7/ | 301 |
 | /azure/virtual-network/quick-create-portal | 404 |
 | /azure/virtual-network/virtual-network-vnet-plan-design-arm | 404 |
 | /azure/security/fundamentals/network-best-practices | 404 |
@@ -3231,7 +3235,7 @@
 | /azure/migration/migrate-security-from-aws | 404 |
 | /azure/migration/migrate-security-from-aws#migration-scenarios | 404 |
 | https://www.linkedin.com/in/jerrymsft/ | 999 |
-| https://www.linkedin.com/in/adamcerini/ | 999 |
+| https://www.linkedin.com/in/adamcerini/ | 301 |
 | /entra/architecture/deployment-plans | 404 |
 | /entra/identity/hybrid/connect/how-to-connect-install-roadmap | 404 |
 | /entra/id-governance/privileged-identity-management/pim-deployment-plan | 404 |
@@ -3316,7 +3320,7 @@
 
 | URL | State |
 | --- | --- |
-| ../reference-architectures/containers/aks-mission-critical/mission-critical-data-platform.md#idempotent-message-processing | 404 |
+| ../patterns/idempotent-consumer.md#idempotent-processing-beyond-messaging | 404 |
 | /odata/webapi/batch | 404 |
 | /dotnet/api/system.net.servicepoint | 404 |
 | ../patterns/asynchronous-request-reply.md | 404 |
@@ -3340,7 +3344,7 @@
 | /azure/azure-monitor/app/opentelemetry-enable | 404 |
 | https://www.asp.net/web-api/overview/odata-support-in-aspnet-web-api | 302 |
 | https://blogs.msdn.microsoft.com/webdev/2013/11/01/introducing-batch-support-in-web-api-and-web-api-odata | 301 |
-| ../reference-architectures/containers/aks-mission-critical/mission-critical-data-platform.md#idempotent-message-processing | 404 |
+| ../patterns/idempotent-consumer.md#idempotent-processing-beyond-messaging | 404 |
 | /azure/app-service-web/web-sites-create-web-jobs | 404 |
 | /azure/notification-hubs/notification-hubs-aspnet-backend-windows-dotnet-wns-notification | 404 |
 | https://azure.microsoft.com/services/api-management | 301 |
@@ -3385,7 +3389,7 @@
 | #design-for-idempotency | 301 |
 | ../patterns/asynchronous-request-reply.md | 404 |
 | /azure/event-grid/overview | 404 |
-| ../reference-architectures/containers/aks-mission-critical/mission-critical-data-platform.md#idempotent-message-processing | 404 |
+| ../patterns/idempotent-consumer.md | 404 |
 | #functions | 301 |
 | /azure/azure-functions/durable/durable-functions-overview | 404 |
 | #container-apps | 301 |
@@ -3489,15 +3493,17 @@
 
 | URL | State |
 | --- | --- |
-| /azure/cdn/cdn-overview | 404 |
-| /azure/cdn | 404 |
-| /azure/cdn/cdn-pop-locations | 404 |
-| /azure/cdn/cdn-how-caching-works | 404 |
-| /azure/cdn/cdn-token-auth | 404 |
-| /azure/cdn/cdn-improve-performance | 404 |
-| /azure/cdn/cdn-restrict-access-by-country-region | 404 |
-| /azure/cdn/cdn-how-caching-works | 404 |
-| /azure/cdn/cdn-cors | 404 |
+| /azure/frontdoor/front-door-overview | 404 |
+| /azure/frontdoor/front-door-caching | 404 |
+| /azure/frontdoor/edge-locations-by-region | 404 |
+| /azure/frontdoor/front-door-caching | 404 |
+| /azure/web-application-firewall/afds/afds-overview | 404 |
+| /azure/frontdoor/origin-security | 404 |
+| /azure/frontdoor/standard-premium/how-to-compression | 404 |
+| /azure/web-application-firewall/afds/waf-front-door-geo-filtering | 404 |
+| /azure/frontdoor/front-door-caching | 404 |
+| /azure/frontdoor/end-to-end-tls | 404 |
+| /azure/frontdoor/cross-origin-resource-sharing | 404 |
 | /rest/api/storageservices/Cross-Origin-Resource-Sharing--CORS--Support-for-the-Azure-Storage-Services | 404 |
 | /aspnet/core/security/cors | 404 |
 
@@ -3680,6 +3686,8 @@
 | ../patterns/health-endpoint-monitoring.yml | 404 |
 | #support-hot-warm-and-cold-analysis | 301 |
 | /azure/azure-monitor/agents/azure-monitor-agent-overview | 404 |
+| /azure/azure-monitor/essentials/data-collection-rule-overview | 404 |
+| /azure/azure-monitor/agents/azure-monitor-agent-overview | 404 |
 | ../patterns/priority-queue.md | 404 |
 | #support-hot-warm-and-cold-analysis | 301 |
 | #consolidate-instrumentation-data | 301 |
@@ -3710,7 +3718,7 @@
 | /azure/chaos-studio/chaos-studio-overview | 404 |
 | /azure/reliability/overview-reliability-guidance | 404 |
 | ../patterns/circuit-breaker.md | 404 |
-| ../reference-architectures/containers/aks-mission-critical/mission-critical-data-platform.md#idempotent-message-processing | 404 |
+| ../patterns/idempotent-consumer.md | 404 |
 | /azure/well-architected/design-guides/handle-transient-faults | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/changelog.md
@@ -3718,6 +3726,7 @@
 | URL | State |
 | --- | --- |
 | /azure/architecture/feed.atom | 404 |
+| https://github.com/MicrosoftDocs/architecture-center/commit/ddb618c0e0 | 404 |
 | ./guide/iot/howto-connect-on-premises-sap-to-azure.md | 404 |
 | ./guide/iot/howto-iot-industrial-dataspaces.md | 404 |
 | ./solution-ideas/articles/iot-industrial-solution-architecture.yml | 404 |
@@ -4222,6 +4231,7 @@
 | /azure/cosmos-db/nosql/reverse-extract-transform-load | 404 |
 | /azure/architecture/databases/guide/big-data-architectures | 404 |
 | ../images/push-transform-load.png | 404 |
+| ../../patterns/idempotent-consumer.md#idempotent-processing-beyond-messaging | 404 |
 | /azure/databricks/structured-streaming/watermarks | 404 |
 | ./data-warehousing.yml | 404 |
 | ../technology-choices/pipeline-orchestration-data-movement.md | 404 |
@@ -4297,7 +4307,7 @@
 | /azure/databricks/introduction/ | 404 |
 | /azure/data-factory/introduction | 404 |
 | /fabric/fundamentals/microsoft-fabric-overview | 404 |
-| https://www.linkedin.com/in/avijit-prasad-96768a42/ | 301 |
+| https://www.linkedin.com/in/avijit-prasad-96768a42/ | 999 |
 | https://www.linkedin.com/in/raphael-sayegh/ | 301 |
 | /fabric/onelake/onelake-overview | 404 |
 | /azure/storage/blobs/data-lake-storage-introduction | 404 |
@@ -4337,8 +4347,7 @@
 | /data-integration/vnet/overview | 404 |
 | /azure/databox-gateway/data-box-gateway-overview | 404 |
 | #note1 | 301 |
-| /sql/relational-databases/polybase/polybase-guide#performance | 404 |
-| /sql/relational-databases/polybase/polybase-scale-out-groups | 404 |
+| /sql/relational-databases/polybase/polybase-performance | 404 |
 | #note2 | 301 |
 | https://www.linkedin.com/in/zoinertejada | 999 |
 | https://www.linkedin.com/in/prabhkaur1/ | 999 |
@@ -4523,12 +4532,12 @@
 | URL | State |
 | --- | --- |
 | /fabric/fundamentals/microsoft-fabric-overview | 404 |
-| https://www.linkedin.com/in/slava-trofimov/ | 301 |
+| https://www.linkedin.com/in/slava-trofimov/ | 999 |
 | https://www.linkedin.com/in/panagiotis-antonopoulos | 999 |
 | https://www.linkedin.com/in/mileswcole/ | 301 |
 | https://www.linkedin.com/in/amthomas46 | 999 |
 | https://www.linkedin.com/in/joanpo | 999 |
-| https://www.linkedin.com/in/shanerisk/ | 301 |
+| https://www.linkedin.com/in/shanerisk/ | 999 |
 | https://www.linkedin.com/in/bradleyschacht/ | 301 |
 | https://www.linkedin.com/in/marcelo-girao-silva | 999 |
 | /fabric/fundamentals/decision-guide-data-store | 404 |
@@ -4685,7 +4694,7 @@
 | https://www.linkedin.com/in/ananyaghoshchowdhury/ | 999 |
 | https://www.linkedin.com/in/kranthimanchikanti/ | 301 |
 | https://www.linkedin.com/in/freddyayala/ | 301 |
-| https://www.linkedin.com/in/tincy-elias/ | 301 |
+| https://www.linkedin.com/in/tincy-elias/ | 999 |
 | https://www.linkedin.com/in/moritz-steller-426430116 | 999 |
 | /training/paths/introduction-to-ai-on-azure | 404 |
 | /training/paths/develop-language-solutions-azure-ai | 404 |
@@ -4905,7 +4914,7 @@
 | /azure/well-architected/mission-critical/mission-critical-application-platform#design-considerations-and-recommendations-for-azure-app-service | 404 |
 | /azure/machine-learning/concept-model-management-and-deployment | 404 |
 | /azure/data-factory/how-to-create-schedule-trigger | 404 |
-| /azure/architecture/reference-architectures/containers/aks-mission-critical/mission-critical-health-modeling | 404 |
+| /azure/well-architected/mission-critical/mission-critical-health-modeling | 404 |
 | /azure/container-registry/ | 404 |
 | https://azure.microsoft.com/products/app-service/containers/ | 301 |
 | /azure/storage/blobs/access-tiers-overview | 404 |
@@ -4939,7 +4948,7 @@
 | /azure/well-architected/mission-critical/mission-critical-data-platform#globally-distributed-multi-region-write-datastore | 404 |
 | /azure/well-architected/ | 404 |
 | /azure/well-architected/reliability/checklist | 404 |
-| /azure/architecture/reference-architectures/containers/aks-mission-critical/mission-critical-intro | 404 |
+| /azure/well-architected/mission-critical/mission-critical-architecture-pattern | 404 |
 | /azure/well-architected/mission-critical/mission-critical-design-principles#reliability | 404 |
 | /azure/well-architected/mission-critical/mission-critical-health-modeling | 404 |
 | /azure/well-architected/security/checklist | 404 |
@@ -5311,7 +5320,7 @@
 
 | URL | State |
 | --- | --- |
-| /azure/architecture/reference-architectures/containers/aks-mission-critical/mission-critical-data-platform#idempotent-message-processing | 404 |
+| /azure/architecture/patterns/idempotent-consumer | 404 |
 | /azure/cosmos-db/partitioning | 404 |
 | /azure/cosmos-db/database-transactions-optimistic-concurrency#optimistic-concurrency-control | 404 |
 | /azure/azure-functions/scenario-database-changes-azure-cosmosdb | 404 |
@@ -5327,7 +5336,7 @@
 | /azure/service-bus-messaging/duplicate-detection | 404 |
 | /azure/cosmos-db/change-feed-processor | 404 |
 | https://lostechies.com/jimmybogard/2014/05/13/a-better-domain-events-pattern | 301 |
-| ../../reference-architectures/containers/aks-mission-critical/mission-critical-data-platform.md#idempotent-message-processing | 404 |
+| ../../patterns/idempotent-consumer.md | 404 |
 | ../../microservices/model/tactical-ddd.yml | 404 |
 | ../../patterns/cqrs.md | 404 |
 | ../../patterns/materialized-view.yml | 404 |
@@ -5413,6 +5422,7 @@
 | /azure/service-bus-messaging/service-bus-azure-and-service-bus-queues-compared-contrasted | 404 |
 | /azure/well-architected/ | 404 |
 | /azure/well-architected/reliability/checklist | 404 |
+| ../../patterns/idempotent-consumer.md#idempotent-processing-beyond-messaging | 404 |
 | /azure/well-architected/cost-optimization/checklist | 404 |
 | /azure/cosmos-db/reserved-capacity | 404 |
 | /azure/well-architected/operational-excellence/checklist | 404 |
@@ -5836,7 +5846,7 @@
 | https://www.linkedin.com/in/jimmcleodaustralia/ | 301 |
 | https://www.linkedin.com/in/miguelmyers/ | 301 |
 | https://www.linkedin.com/in/galinagpolyakova/ | 301 |
-| https://www.linkedin.com/in/george-stevens/ | 999 |
+| https://www.linkedin.com/in/george-stevens/ | 301 |
 | /fabric/enterprise/powerbi/service-premium-what-is | 404 |
 | /entra/fundamentals/whatis | 404 |
 | /fabric/fundamentals/microsoft-fabric-overview | 404 |
@@ -5864,7 +5874,7 @@
 | /azure/well-architected/cost-optimization/checklist | 404 |
 | /azure/well-architected/performance-efficiency/checklist | 404 |
 | https://www.linkedin.com/in/diana-jenosh-0b014814 | 999 |
-| https://www.linkedin.com/in/rod2k10/ | 301 |
+| https://www.linkedin.com/in/rod2k10/ | 999 |
 | https://www.linkedin.com/in/sunilsabat/ | 301 |
 | /fabric/fundamentals/microsoft-fabric-overview | 404 |
 | https://marketplace.microsoft.com/product/mongodb.mongodb_atlas_azure_native_prod?tab=Overview | 403 |
@@ -5931,7 +5941,6 @@
 | /azure/well-architected/service-guides/azure-netapp-files | 404 |
 | /azure/oracle/oracle-db/database-overview | 404 |
 | /azure/well-architected/ | 404 |
-| https://www.ibm.com/docs/en/masv-and-l/cd?topic=imas-installing-byol-maximo-application-suite | 503 |
 | https://azure.microsoft.com/products/azure-sql/managed-instance | 302 |
 | /azure/reliability/regions-list | 404 |
 | /azure/openshift/howto-create-a-backup | 404 |
@@ -6345,7 +6354,7 @@
 | /samples/azure/certlc/certlc/ | 404 |
 | /samples/azure/certlc/certlc/ | 404 |
 | ../../_images/deploy-to-azure.svg | 404 |
-| https://www.linkedin.com/in/fabiomasciotra/ | 301 |
+| https://www.linkedin.com/in/fabiomasciotra/ | 999 |
 | https://www.linkedin.com/in/angelo-mazzucchi-a5a94270 | 999 |
 | /azure/key-vault/general/overview | 404 |
 | /azure/virtual-machines/extensions/key-vault-windows | 404 |
@@ -6430,7 +6439,7 @@
 | https://pro.arcgis.com/en/pro-app/latest/get-started/pro-performance-tool-overview.htm | 301 |
 | https://community.esri.com/t5/implementing-arcgis-blog/performance-engineering-load-testing-arcgis/ba-p/1070106 | 403 |
 | /azure/app-testing/load-testing/overview-what-is-azure-load-testing | 404 |
-| https://www.linkedin.com/in/matt-hallenborg/ | 999 |
+| https://www.linkedin.com/in/matt-hallenborg/ | 301 |
 | https://www.linkedin.com/in/ron-vincent-8958145/ | 301 |
 | ../../landing-zones/azure-virtual-desktop/design-guide.md | 404 |
 
@@ -6871,7 +6880,7 @@
 | /azure/azure-netapp-files | 404 |
 | /azure/azure-netapp-files/azure-netapp-files-performance-considerations | 404 |
 | https://www.linkedin.com/in/deanna-garcia-8540912 | 999 |
-| https://www.linkedin.com/in/arntdegier/ | 301 |
+| https://www.linkedin.com/in/arntdegier/ | 999 |
 | /azure/azure-netapp-files/performance-oracle-single-volumes | 404 |
 | /azure/azure-netapp-files/performance-linux-mount-options | 404 |
 | /azure/azure-netapp-files/performance-benchmarks-linux | 404 |
@@ -6965,7 +6974,7 @@
 | /samples/azure/forensics/forensics/ | 404 |
 | ../../_images/deploy-to-azure.svg | 404 |
 | #deploy-this-scenario | 301 |
-| https://www.linkedin.com/in/fabiomasciotra/ | 301 |
+| https://www.linkedin.com/in/fabiomasciotra/ | 999 |
 | https://www.linkedin.com/in/sisavi/ | 999 |
 | /azure/storage/common/storage-service-encryption | 404 |
 | /azure/virtual-machines/disk-encryption-overview | 404 |
@@ -7605,7 +7614,7 @@
 | /azure/azure-monitor/autoscale/autoscale-get-started | 404 |
 | /azure/redis/overview | 404 |
 | https://www.linkedin.com/in/vaclavjirovsky | 999 |
-| https://www.linkedin.com/in/andrewcardy/ | 301 |
+| https://www.linkedin.com/in/andrewcardy/ | 999 |
 | /azure/frontdoor/front-door-overview | 404 |
 | /azure/web-application-firewall/overview | 404 |
 | /azure/storage/blobs/storage-blobs-overview | 404 |
@@ -7824,7 +7833,7 @@
 | /azure/iot-dps/ | 404 |
 | /azure/iot-dps/concepts-deploy-at-scale | 404 |
 | /azure/iot-dps/about-iot-dps#provisioning-process | 404 |
-| https://www.linkedin.com/in/dominicbetts/ | 301 |
+| https://www.linkedin.com/in/dominicbetts/ | 999 |
 | https://www.linkedin.com/in/matthew-cosner-447843225/ | 999 |
 | https://www.linkedin.com/in/ansleyyeo/ | 301 |
 | /azure/architecture/browse/ | 404 |
@@ -7900,7 +7909,7 @@
 | https://azure.microsoft.com/products/api-management/ | 302 |
 | /azure/api-management/authentication-authorization-overview | 404 |
 | https://www.redhat.com/technologies/cloud-computing/openshift | 301 |
-| https://www.ibm.com/docs/cloud-paks/rhos/1.0.0?topic=cloudpaks_start/cp_arch/zmod.htm | 503 |
+| https://www.ibm.com/docs/cloud-paks/rhos/1.0.0?topic=cloudpaks_start/cp_arch/zmod.htm | 302 |
 | https://www.ibm.com/z/devops | 301 |
 | /azure/well-architected/service-guides/azure-api-management | 404 |
 | /azure/well-architected/service-guides/app-service-web-apps | 404 |
@@ -8808,78 +8817,71 @@
 
 | URL | State |
 | --- | --- |
+| /azure/quantum/qc-target-list | 404 |
+| /azure/quantum/quantum-computing-target-profiles | 404 |
 | /azure/quantum/how-to-work-with-jobs | 404 |
-| /entra/identity/managed-identities-azure-resources/overview | 404 |
+| #direct-quantum-integration | 301 |
+| #workflow-orchestrated-quantum-integration | 301 |
+| https://azure.microsoft.com/solutions/high-performance-computing | 302 |
+| https://azure.microsoft.com/solutions/ai/ | 302 |
+| #direct-quantum-integration | 301 |
+| #direct-quantum-integration | 301 |
+| #workflow-orchestrated-quantum-integration | 301 |
+| #workflow-orchestrated-quantum-integration | 301 |
 | ../../patterns/asynchronous-request-reply.md | 404 |
 | /azure/quantum/how-to-work-with-jobs#job-lifecycle | 404 |
+| /azure/quantum/how-to-submit-jobs | 404 |
+| /azure/quantum/hybrid-computing-overview | 404 |
+| /azure/quantum/hybrid-computing-overview | 404 |
+| /entra/identity/managed-identities-azure-resources/overview | 404 |
 | /azure/quantum/overview-azure-quantum | 404 |
 | /azure/quantum/how-to-create-workspace | 404 |
-| /entra/fundamentals/whatis | 404 |
-| /azure/key-vault/general/overview | 404 |
+| /entra/fundamentals/what-is-entra | 404 |
 | /azure/storage/common/storage-introduction | 404 |
+| /entra/identity/managed-identities-azure-resources/overview | 404 |
+| /azure/durable-task/durable-functions/durable-functions-overview | 404 |
+| ../../guide/compute/high-performance-computing.md | 404 |
+| /azure/azure-functions/functions-overview | 404 |
+| /azure/api-management/api-management-key-concepts | 404 |
+| /azure/azure-functions/functions-networking-options | 404 |
+| /azure/quantum/overview-azure-quantum | 404 |
+| /azure/quantum/how-to-create-workspace | 404 |
+| /entra/fundamentals/what-is-entra | 404 |
+| /azure/storage/common/storage-introduction | 404 |
+| https://azure.microsoft.com/solutions/high-performance-computing | 302 |
+| https://azure.microsoft.com/solutions/ai/ | 302 |
+| /azure/microsoft-discovery/overview-what-is-microsoft-discovery | 404 |
+| /azure/quantum/hybrid-computing-concepts#hybrid-algorithms | 404 |
 | /azure/well-architected/ | 404 |
 | /azure/well-architected/reliability/checklist | 404 |
+| /azure/architecture/patterns/retry | 404 |
 | /azure/quantum/qc-target-list | 404 |
-| /azure/key-vault/general/disaster-recovery-guidance | 404 |
 | /azure/storage/common/storage-redundancy | 404 |
-| /azure/well-architected/security/checklist | 404 |
-| /azure/architecture/example-scenario/quantum/quantum-computing-integration-with-classical-apps | 404 |
-| /entra/identity/managed-identities-azure-resources/overview | 404 |
-| /azure/architecture/framework/security/security-patterns | 404 |
-| /entra/identity/managed-identities-azure-resources/overview | 404 |
-| ../../patterns/asynchronous-request-reply.md | 404 |
-| /azure/quantum/how-to-work-with-jobs#job-lifecycle | 404 |
-| https://azure.microsoft.com/services/quantum | 301 |
-| /azure/quantum/how-to-create-workspace | 404 |
-| https://azure.microsoft.com/services/active-directory | 301 |
-| https://azure.microsoft.com/services/api-management | 301 |
-| https://azure.microsoft.com/services/functions | 301 |
-| https://azure.microsoft.com/services/key-vault | 301 |
-| https://azure.microsoft.com/services/storage | 301 |
-| /azure/quantum/qc-target-list | 404 |
+| /azure/api-management/enable-availability-zone-support | 404 |
 | /azure/api-management/api-management-howto-deploy-multi-region | 404 |
-| /azure/azure-functions/functions-geo-disaster-recovery | 404 |
-| /azure/key-vault/general/disaster-recovery-guidance | 404 |
-| /azure/storage/common/storage-redundancy | 404 |
-| /azure/architecture/example-scenario/quantum/quantum-computing-integration-with-classical-apps | 404 |
-| /azure/api-management/api-management-authentication-policies | 404 |
+| /azure/frontdoor/front-door-overview | 404 |
+| /azure/traffic-manager/traffic-manager-overview | 404 |
+| /azure/durable-task/durable-functions/durable-functions-disaster-recovery-geo-distribution | 404 |
+| /azure/well-architected/security/checklist | 404 |
+| /entra/identity/managed-identities-azure-resources/overview | 404 |
+| /azure/storage/blobs/authorize-access-azure-active-directory | 404 |
+| /azure/well-architected/security/checklist | 404 |
+| /entra/identity/managed-identities-azure-resources/overview | 404 |
+| /azure/api-management/api-management-policies#authentication-policies | 404 |
 | /entra/identity/managed-identities-azure-resources/overview | 404 |
 | /azure/api-management/api-management-sample-flexible-throttling | 404 |
-| /azure/api-management/api-management-caching-policies | 404 |
-| /azure/architecture/framework/security/security-patterns | 404 |
-| /azure/well-architected/performance-efficiency/checklist | 404 |
-| /azure/architecture/framework/scalability/performance-efficiency-patterns | 404 |
-| /azure/architecture/framework/scalability/performance-efficiency | 404 |
-| https://azure.microsoft.com/solutions/high-performance-computing | 302 |
-| https://azure.microsoft.com/overview/ai-platform | 301 |
-| /azure/quantum/how-to-submit-jobs | 404 |
-| /azure/architecture/patterns/retry | 404 |
+| /azure/api-management/api-management-policies#caching-policies | 404 |
 | /azure/well-architected/cost-optimization/checklist | 404 |
-| https://azure.microsoft.com/pricing/calculator | 302 |
+| https://azure.com/e/8bd79f99f4d242eabdeefce55b59d816 | 301 |
 | https://marketplace.microsoft.com/marketplace/apps?search=quantum | 403 |
 | /azure/quantum/qc-target-list | 404 |
-| /azure/well-architected/operational-excellence/checklist | 404 |
-| /azure/devops/repos/get-started | 404 |
-| /azure/devops/pipelines/get-started/what-is-azure-pipelines | 404 |
-| /azure/architecture/example-scenario/quantum/quantum-computing-integration-with-classical-apps | 404 |
-| /azure/architecture/example-scenario/quantum/quantum-computing-integration-with-classical-apps | 404 |
+| https://www.linkedin.com/in/zander-chocron-b54a8717a | 999 |
+| /training/paths/quantum-computing-fundamentals/ | 404 |
 | /azure/quantum/overview-azure-quantum | 404 |
-| /azure/quantum/how-to-create-workspace | 404 |
-| /entra/fundamentals/whatis | 404 |
-| /azure/key-vault/general/overview | 404 |
-| /azure/storage/common/storage-introduction | 404 |
-| /azure/well-architected/service-guides/application-insights | 404 |
-| /azure/architecture/framework/scalability/performance-efficiency-patterns | 404 |
-| /azure/architecture/framework/scalability/performance-efficiency | 404 |
-| https://www.linkedin.com/in/hsirtl | 999 |
-| https://azure.microsoft.com/solutions/quantum-computing | 302 |
-| /learn/paths/quantum-computing-fundamentals | 404 |
-| https://azure.microsoft.com/services/quantum/ | 301 |
 | /azure/quantum/how-to-work-with-jobs | 404 |
-| /learn/modules/run-algorithms-quantum-hardware-azure-quantum | 404 |
-| /azure/architecture/framework/devops/principles | 404 |
+| /azure/quantum/hybrid-computing-overview | 404 |
+| /azure/well-architected/operational-excellence/principles | 404 |
 | ../../patterns/asynchronous-request-reply.md | 404 |
-| /azure/architecture/example-scenario/quantum/quantum-computing-integration-with-classical-apps | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/example-scenario/security/virtual-machine-compliance-content.md
 
@@ -8968,7 +8970,7 @@
 | /azure/well-architected/performance-efficiency/checklist | 404 |
 | https://www.linkedin.com/in/julien-strebler-57647490/ | 301 |
 | https://www.linkedin.com/in/stevecaravajal/ | 301 |
-| https://www.linkedin.com/in/simonkurtz/ | 301 |
+| https://www.linkedin.com/in/simonkurtz/ | 999 |
 | /azure/container-apps/ | 404 |
 | /azure/architecture/guide/architecture-styles/microservices | 404 |
 | /azure/architecture/microservices/design/ | 404 |
@@ -8996,6 +8998,7 @@
 | /azure/well-architected/reliability/checklist | 404 |
 | /azure/well-architected/security/checklist | 404 |
 | /azure/private-link/private-link-overview | 404 |
+| /azure/private-link/network-security-perimeter-concepts | 404 |
 | /azure/firewall/ | 404 |
 | /azure/web-application-firewall/ | 404 |
 | /azure/well-architected/cost-optimization/checklist | 404 |
@@ -9562,7 +9565,7 @@
 | /azure/architecture/framework/mission-critical/mission-critical-deployment-testing#example---zero-downtime-deployment | 404 |
 | /azure/application-gateway/for-containers/overview | 404 |
 | /azure/application-gateway/for-containers/overview | 404 |
-| https://www.linkedin.com/in/vincenzo-morra-29658a20/?locale=en_US | 999 |
+| https://www.linkedin.com/in/vincenzo-morra-29658a20/?locale=en_US | 301 |
 | https://www.linkedin.com/in/oscarpla | 999 |
 | /devops/deliver/what-is-infrastructure-as-code | 404 |
 | /azure/aks | 404 |
@@ -9615,7 +9618,7 @@
 | https://wikipedia.org/wiki/System_of_record | 403 |
 | /azure/architecture/guide/design-principles/minimize-coordination | 404 |
 | /azure/architecture/guide/design-principles/minimize-coordination | 404 |
-| /azure/architecture/reference-architectures/containers/aks-mission-critical/mission-critical-data-platform#idempotent-message-processing | 404 |
+| /azure/architecture/patterns/idempotent-consumer | 404 |
 | /azure/architecture/patterns/choreography | 404 |
 | /azure/architecture/reference-architectures/saga/saga#orchestration | 404 |
 | /azure/architecture/patterns/compensating-transaction | 404 |
@@ -9642,7 +9645,7 @@
 | /azure/architecture/patterns | 404 |
 | /azure/architecture/antipatterns | 404 |
 | /azure/architecture/guide/multitenant/overview | 404 |
-| /azure/architecture/reference-architectures/containers/aks-mission-critical/mission-critical-intro | 404 |
+| /azure/well-architected/mission-critical/mission-critical-overview | 404 |
 | /azure/architecture/guide/startups/startup-architecture | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/guide/architecture-styles/microservices.md
@@ -9982,13 +9985,13 @@
 | /azure/reliability/reliability-azure-container-apps | 404 |
 | /azure/well-architected/service-guides/app-service-web-apps | 404 |
 | https://www.linkedin.com/in/andre-dewes-480b5b62/ | 999 |
-| https://www.linkedin.com/in/xuhong-l-5937159b/ | 999 |
+| https://www.linkedin.com/in/xuhong-l-5937159b/ | 301 |
 | https://www.linkedin.com/in/marcosmarcusm/ | 999 |
 | https://www.linkedin.com/in/julie-io/ | 301 |
 | https://www.linkedin.com/in/martin-gjoshevski/ | 301 |
 | https://www.linkedin.com/in/donhighdevops/ | 301 |
 | https://www.linkedin.com/in/nellykiboi/ | 301 |
-| https://www.linkedin.com/in/faisalmustafa/ | 301 |
+| https://www.linkedin.com/in/faisalmustafa/ | 999 |
 | https://www.linkedin.com/in/waltermyersiii/ | 301 |
 | https://www.linkedin.com/in/sonalika-roy-27138319/ | 999 |
 | https://www.linkedin.com/in/paolo-salvatori/ | 301 |
@@ -10087,7 +10090,7 @@
 | ../../patterns/cqrs.md | 404 |
 | ../../patterns/event-sourcing.md | 404 |
 | ../../patterns/sharding.md | 404 |
-| /azure/architecture/reference-architectures/containers/aks-mission-critical/mission-critical-data-platform#idempotent-message-processing | 404 |
+| /azure/architecture/patterns/idempotent-consumer | 404 |
 | /sql/t-sql/statements/set-transaction-isolation-level-transact-sql | 404 |
 | /azure/cosmos-db/faq | 404 |
 | https://azure.microsoft.com/blog/managing-concurrency-in-microsoft-azure-storage-2 | 302 |
@@ -10436,6 +10439,7 @@
 | /azure/data-explorer/data-explorer-overview | 404 |
 | https://aka.ms/deploytoazurebutton | 301 |
 | /azure/data-explorer/azure-data-explorer-dashboards#to-create-new-dashboard-from-a-file | 404 |
+| /azure/data-explorer/data-explorer-overview | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/guide/iot/how-to-connect-databricks-to-solution.md
 
@@ -10444,6 +10448,7 @@
 | /azure/databricks/introduction/ | 404 |
 | /azure/databricks/resources/feature-region-support#serverless-availability | 404 |
 | https://aka.ms/deploytoazurebutton | 301 |
+| /azure/databricks/introduction/ | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/guide/iot/how-to-connect-dynamics-field-service-to-the-solution.md
 
@@ -10458,8 +10463,10 @@
 | URL | State |
 | --- | --- |
 | /fabric/fundamentals/microsoft-fabric-overview | 404 |
+| #automated-deployment | 301 |
 | /fabric/enterprise/fabric-quotas | 404 |
 | https://aka.ms/deploytoazurebutton | 301 |
+| /fabric/fundamentals/microsoft-fabric-overview | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/guide/iot/how-to-connect-on-premises-sap-to-the-solution.md
 
@@ -10475,6 +10482,7 @@
 | --- | --- |
 | /power-bi/fundamentals/power-bi-overview | 404 |
 | /power-bi/fundamentals/desktop-latest-update | 404 |
+| /power-bi/fundamentals/power-bi-overview | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/guide/iot/how-to-enable-industrial-dataspaces.md
 
@@ -10558,7 +10566,7 @@
 | #prerequisites | 301 |
 | #required-azure-permissions | 301 |
 | #required-azure-cli-commands | 301 |
-| #postrequisites | 301 |
+| #post-deployment | 301 |
 | #articles-in-this-reference-solution | 301 |
 | #production-line-simulation | 301 |
 | #opc-ua-certificate-trust | 301 |
@@ -10573,14 +10581,17 @@
 | #information-disclosure | 301 |
 | #denial-of-service | 301 |
 | #elevation-of-privilege | 301 |
-| #analytics-path-specific-considerations-adx-databricks-fabric | 301 |
+| #analytics-path-specific-considerations-azure-data-explorer-azure-databricks-fabric | 301 |
 | #summary-of-recommendations-for-production | 301 |
-| #configure-oauth2-for-the-i3x-api-via-microsoft-entra-id | 301 |
+| #configure-oauth-20-for-the-i3x-api-via-microsoft-entra-id | 301 |
 | https://opcfoundation.org/cloud | 301 |
-| #postrequisites | 301 |
+| #post-deployment | 301 |
 | how-to-connect-powerbi-to-the-solution.md | 404 |
 | /azure/iot-operations/overview-iot-operations | 404 |
 | /azure/iot-operations/discover-manage-assets/howto-configure-opc-ua-certificates-infrastructure | 404 |
+| /azure/api-management/api-management-howto-protect-backend-with-aad | 404 |
+| #elevation-of-privilege | 301 |
+| #elevation-of-privilege | 301 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/guide/iot/machine-learning-inference-iot-edge-content.md
 
@@ -10831,10 +10842,11 @@
 | ../../../patterns/deployment-stamp.md | 404 |
 | ../considerations/tenancy-models.md#vertically-partitioned-deployments | 404 |
 | /azure/azure-monitor/app/app-insights-overview | 404 |
-| /azure/azure-monitor/app/api-filtering-sampling | 404 |
+| /azure/azure-monitor/app/opentelemetry-add-modify#modify-telemetry | 404 |
 | /azure/azure-monitor/app/opentelemetry-sampling | 404 |
 | https://azure.microsoft.com/services/event-hubs | 301 |
 | https://azure.microsoft.com/services/stream-analytics | 301 |
+| /azure/cost-management-billing/costs/allocate-costs | 404 |
 | /azure/cost-management-billing/reservations/save-compute-costs-reservations | 404 |
 | /azure/cost-management-billing/reservations/prepare-buy-reservation#scope-reservations | 404 |
 | https://azure.microsoft.com/pricing/offers/savings-plan-compute/#benefits-and-features | 301 |
@@ -11259,7 +11271,7 @@
 | ../approaches/resource-organization.md#bin-packing | 404 |
 | ../../../patterns/deployment-stamp.md | 404 |
 | #manage-shared-components | 301 |
-| https://www.linkedin.com/in/john-downs/ | 301 |
+| https://www.linkedin.com/in/john-downs/ | 999 |
 | https://www.linkedin.com/in/cherchyk | 999 |
 | https://www.linkedin.com/in/landon-pierce/ | 301 |
 | https://www.linkedin.com/in/dscottraynsford | 999 |
@@ -11411,7 +11423,7 @@
 | /devops/operate/safe-deployment-practices | 404 |
 | ../../../best-practices/api-design.md#implement-versioning | 404 |
 | https://www.linkedin.com/in/john-downs/ | 301 |
-| https://www.linkedin.com/in/chadkittel/ | 301 |
+| https://www.linkedin.com/in/chadkittel/ | 429 |
 | https://www.linkedin.com/in/dscottraynsford/ | 301 |
 | https://www.linkedin.com/in/arsenv/ | 301 |
 
@@ -11975,7 +11987,7 @@
 | /azure/frontdoor/billing | 404 |
 | /azure/azure-resource-manager/management/azure-subscription-service-limits#azure-front-door-standard-and-premium-tier-service-limits | 404 |
 | https://www.linkedin.com/in/john-downs/ | 301 |
-| https://www.linkedin.com/in/rajnemani/ | 999 |
+| https://www.linkedin.com/in/rajnemani/ | 301 |
 | https://www.linkedin.com/in/fernandoantivero/ | 999 |
 | https://www.linkedin.com/in/duong-au-32427b46/ | 999 |
 | https://www.linkedin.com/in/harikrishnanmb/ | 301 |
@@ -12347,7 +12359,7 @@
 | URL | State |
 | --- | --- |
 | #tradeoffs | 301 |
-| /azure/architecture/reference-architectures/containers/aks-mission-critical/mission-critical-intro | 404 |
+| /azure/well-architected/mission-critical/mission-critical-networking-connectivity#global-traffic-routing | 404 |
 | /azure/frontdoor/scenarios | 404 |
 | #tradeoffs | 301 |
 | /azure/traffic-manager/traffic-manager-overview | 404 |
@@ -12361,7 +12373,7 @@
 | /azure/frontdoor/front-door-ddos | 404 |
 | /azure/ddos-protection/ddos-protection-overview | 404 |
 | /azure/firewall/overview | 404 |
-| /azure/architecture/reference-architectures/containers/aks-mission-critical/mission-critical-health-modeling | 404 |
+| /azure/well-architected/mission-critical/mission-critical-health-modeling | 404 |
 | /azure/traffic-manager/traffic-manager-manage-endpoints#to-disable-an-endpoint | 404 |
 | #tab/cli | 301 |
 | /cli/azure/network/traffic-manager/endpoint#az-network-traffic-manager-endpoint-update | 404 |
@@ -12486,7 +12498,7 @@
 | https://www.linkedin.com/in/robert-biro-38991927 | 999 |
 | https://www.linkedin.com/in/dennispadia | 999 |
 | https://azure.microsoft.com/support/forums | 301 |
-| https://www.sap.com/community.html | 403 |
+| https://www.sap.com/community.html | 301 |
 | https://blogs.sap.com/2020/12/03/sap-on-azure-application-gateway-web-application-firewall-waf-v2-setup-for-internet-facing-sap-fiori-apps | 403 |
 | https://blogs.sap.com/2021/12/29/getting-started-with-btp-private-link-service-for-azure | 403 |
 | https://blogs.sap.com/2022/07/07/btp-private-linky-swear-with-azure-running-cloud-connector-and-sap-private-link-side-by-side | 403 |
@@ -12673,6 +12685,7 @@
 | /sysinternals/downloads/psping | 404 |
 | https://sourceforge.net/projects/iperf | 301 |
 | /azure/virtual-machines/workloads/sap/sap-hana-scale-out-standby-netapp-files-suse#sizing-for-hana-database-on-azure-netapp-files | 404 |
+| https://www.sap.com/dmc/exp/2014-09-02-hana-hardware/enEN/#/solutions?filters=iaas;ve:24;range%23c:memorySize%23v:ms17%23v:88c8c3d5-03a8-4fa3-bf07-2ab33f35f444&sort=Latest%20Certification&sortDesc=true | 403 |
 | /azure/sap/workloads/sap-high-availability-architecture-scenarios | 404 |
 | /azure/sap/workloads/high-availability-guide-suse-nfs-azure-files | 404 |
 | /azure/sap/workloads/high-availability-guide-suse-netapp-files | 404 |
@@ -13125,6 +13138,7 @@
 | /azure/service-bus-messaging/service-bus-messaging-overview | 404 |
 | /azure/azure-functions/functions-bindings-service-bus-trigger | 404 |
 | /azure/service-bus-messaging/duplicate-detection | 404 |
+| ../../patterns/idempotent-consumer.md | 404 |
 | /azure/service-bus-messaging/message-sessions | 404 |
 | /azure/service-bus-messaging/message-sessions#message-session-state | 404 |
 | /dotnet/api/azure.messaging.servicebus.servicebussessionreceiver.setsessionstateasync | 404 |
@@ -13193,6 +13207,7 @@
 | ../../patterns/event-sourcing.md | 404 |
 | ../../patterns/cqrs.md | 404 |
 | /azure/well-architected/reliability/ | 404 |
+| ../../patterns/idempotent-consumer.md | 404 |
 | /azure/security/develop/threat-modeling-tool | 404 |
 | https://www.microsoft.com/securityengineering/devsecops | 302 |
 | /azure/security/fundamentals/zero-trust | 404 |
@@ -14592,7 +14607,7 @@
 | /azure/cloud-adoption-framework/scenarios/azure-vmware/enterprise-scale-landing-zone | 404 |
 | /azure/cloud-adoption-framework/scenarios/azure-virtual-desktop/landing-zone-citrix/citrix-enterprise-scale-landing-zone | 404 |
 | /azure/cloud-adoption-framework/scenarios/app-platform/azure-red-hat-enterprise-linux/landing-zone-accelerator | 404 |
-| ../reference-architectures/containers/aks-mission-critical/mission-critical-intro.yml | 404 |
+| /azure/well-architected/mission-critical/mission-critical-architecture-pattern#baseline-architectures-for-mission-critical-workloads | 404 |
 | /azure/cloud-adoption-framework/scenarios/sap/enterprise-scale-landing-zone | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/landing-zones/subscription-vending.md
@@ -14638,7 +14653,7 @@
 | /azure/architecture/guide/devops/devops-get-started | 404 |
 | /azure/well-architected/performance-efficiency/checklist | 404 |
 | /troubleshoot/azure/virtual-machines/windows/how-to-use-perfinsights | 404 |
-| https://www.linkedin.com/in/philipbbrooks/ | 301 |
+| https://www.linkedin.com/in/philipbbrooks/ | 999 |
 | https://azure.microsoft.com/migration/mainframe | 301 |
 | /azure/virtual-network/virtual-network-network-interface | 404 |
 | /azure/expressroute/expressroute-introduction | 404 |
@@ -15109,9 +15124,9 @@
 | /samples/mspnp/samples/hub-and-spoke-deployment-with-connected-groups/ | 404 |
 | https://www.linkedin.com/in/erjosito/ | 301 |
 | https://www.linkedin.com/in/alejandrampalacios/ | 301 |
-| https://www.linkedin.com/in/adam-torkar-41652311/ | 301 |
+| https://www.linkedin.com/in/adam-torkar-41652311/ | 999 |
 | https://www.linkedin.com/in/matthewbratschun/ | 301 |
-| https://www.linkedin.com/in/jie-jay-li/ | 999 |
+| https://www.linkedin.com/in/jie-jay-li/ | 301 |
 | https://www.linkedin.com/in/telmo-sampaio-172200/ | 301 |
 | /azure/firewall-manager/secured-virtual-hub | 404 |
 | /azure/cloud-adoption-framework/ready/azure-best-practices/define-an-azure-network-topology | 404 |
@@ -15547,6 +15562,7 @@
 | URL | State |
 | --- | --- |
 | https://azure.microsoft.com/pricing/details/ip-addresses/ | 302 |
+| https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry.xhtml | 302 |
 | /azure/virtual-network/ip-services/custom-ip-address-prefix | 404 |
 | /azure/cloud-adoption-framework/ready/azure-best-practices/plan-for-ip-addressing | 404 |
 | /azure/cloud-adoption-framework/ready/azure-best-practices/plan-for-ip-addressing | 404 |
@@ -15856,7 +15872,7 @@
 | /azure/azure-monitor/containers/container-insights-custom-metrics | 404 |
 | /azure/azure-monitor/containers/container-insights-livedata-overview | 404 |
 | /azure/azure-monitor/containers/container-insights-livedata-metrics | 404 |
-| https://kubernetes.io/docs/concepts/workloads/controllers/deployment | 301 |
+| https://kubernetes.io/docs/concepts/workloads/controllers/deployment | 0 |
 | https://kubernetes.io/docs/concepts/workloads/controllers/statefulset | 301 |
 | https://kubernetes.io/docs/concepts/workloads/controllers/DaemonSet | 301 |
 | /azure/azure-monitor/containers/prometheus-metrics-enable | 404 |
@@ -16285,7 +16301,6 @@
 | URL | State |
 | --- | --- |
 | #example | 301 |
-| /azure/architecture/reference-architectures/containers/aks-mission-critical/mission-critical-data-platform#idempotent-message-processing | 404 |
 | ../best-practices/transient-faults.md | 404 |
 | ../guide/design-principles/minimize-coordination.yml | 404 |
 | /azure/well-architected/pillars | 404 |
@@ -16302,7 +16317,6 @@
 | --- | --- |
 | /azure/architecture/best-practices/auto-scaling | 404 |
 | /azure/service-bus-messaging/service-bus-dead-letter-queues | 404 |
-| /azure/architecture/reference-architectures/containers/aks-mission-critical/mission-critical-data-platform#idempotent-message-processing | 404 |
 | /azure/service-bus-messaging/message-sessions | 404 |
 | /azure/service-bus-messaging/service-bus-dead-letter-queues | 404 |
 | /azure/well-architected/pillars | 404 |
@@ -16346,7 +16360,7 @@
 | --- | --- |
 | /dotnet/architecture/microservices/architect-microservice-container-applications/asynchronous-message-based-communication | 404 |
 | ../guide/architecture-styles/event-driven.md | 404 |
-| /azure/architecture/reference-architectures/containers/aks-mission-critical/mission-critical-data-platform#idempotent-message-processing | 404 |
+| ../databases/guide/transactional-out-box-cosmos.md | 404 |
 | /azure/well-architected/pillars | 404 |
 | /azure/well-architected/performance-efficiency/checklist | 404 |
 | /azure/well-architected/performance-efficiency/scale-partition | 404 |
@@ -16396,7 +16410,7 @@
 | /azure/azure-resource-manager/bicep/add-template-to-azure-pipelines | 404 |
 | /azure/azure-resource-manager/templates/add-template-to-azure-pipelines | 404 |
 | https://www.linkedin.com/in/john-downs/ | 301 |
-| https://www.linkedin.com/in/farambarri/ | 301 |
+| https://www.linkedin.com/in/farambarri/ | 999 |
 | https://www.linkedin.com/in/daniellarsennz | 999 |
 | https://www.linkedin.com/in/iangellopez | 999 |
 | https://www.linkedin.com/in/paolo-salvatori | 999 |
@@ -16445,6 +16459,7 @@
 | /azure/well-architected/operational-excellence/safe-deployments | 404 |
 | /azure/azure-app-configuration/concept-private-endpoint | 404 |
 | /azure/azure-app-configuration/howto-disable-public-access | 404 |
+| https://www.nuget.org/packages/Microsoft.Extensions.Configuration.AzureAppConfiguration/ | 429 |
 | /azure/azure-app-configuration/quickstart-dotnet-core-app | 404 |
 | https://www.nuget.org/packages/Microsoft.Azure.AppConfiguration.AspNetCore | 429 |
 | /azure/azure-app-configuration/quickstart-aspnet-core-app | 404 |
@@ -16616,6 +16631,27 @@
 | /azure/architecture/framework/resiliency/monitoring | 404 |
 | /azure/azure-monitor/alerts/alerts-create-new-alert-rule?tabs=metric | 404 |
 
+* https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/patterns/idempotent-consumer.md
+
+| URL | State |
+| --- | --- |
+| ../databases/guide/transactional-out-box-cosmos.md | 404 |
+| https://masstransit.io/documentation/configuration/middleware/outbox | 307 |
+| /azure/service-bus-messaging/duplicate-detection | 404 |
+| /azure/service-bus-messaging/message-sessions | 404 |
+| /azure/service-bus-messaging/service-bus-end-to-end-tracing | 404 |
+| /azure/well-architected/pillars | 404 |
+| /azure/well-architected/reliability/checklist | 404 |
+| /azure/well-architected/reliability/self-preservation | 404 |
+| /azure/well-architected/design-guides/handle-transient-faults | 404 |
+| /azure/service-bus-messaging/message-transfers-locks-settlement | 404 |
+| /azure/cosmos-db/transactional-batch | 404 |
+| /azure/service-bus-messaging/duplicate-detection | 404 |
+| ../guide/technology-choices/messaging.md | 404 |
+| ../databases/guide/transactional-out-box-cosmos.md | 404 |
+| ../serverless/event-hubs-functions/resilient-design.md | 404 |
+| /azure/azure-functions/functions-idempotent | 404 |
+
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/patterns/index-table-content.md
 
 | URL | State |
@@ -16724,7 +16760,6 @@
 | /azure/service-bus-messaging/compare-messaging-services | 404 |
 | https://masstransit.io | 307 |
 | /azure/service-bus-messaging/service-bus-dead-letter-queues | 404 |
-| ../reference-architectures/containers/aks-mission-critical/mission-critical-data-platform.md#idempotent-message-processing | 404 |
 | /azure/well-architected/pillars | 404 |
 | /azure/well-architected/reliability/checklist | 404 |
 | /azure/well-architected/reliability/failure-mode-analysis | 404 |
@@ -16743,7 +16778,6 @@
 | ../example-scenario/integration/queues-events.yml | 404 |
 | ../guide/technology-choices/messaging.md | 404 |
 | ../guide/architecture-styles/event-driven.md | 404 |
-| ../reference-architectures/containers/aks-mission-critical/mission-critical-data-platform.md#idempotent-message-processing | 404 |
 | ../example-scenario/integration/queues-events.yml | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/patterns/quarantine-content.md
@@ -16768,7 +16802,6 @@
 | --- | --- |
 | /azure/architecture/guide/technology-choices/messaging | 404 |
 | /azure/architecture/best-practices/auto-scaling | 404 |
-| /azure/architecture/reference-architectures/containers/aks-mission-critical/mission-critical-data-platform#idempotent-message-processing | 404 |
 | /azure/service-bus-messaging/service-bus-dead-letter-queues | 404 |
 | /azure/service-bus-messaging/message-sessions | 404 |
 | /azure/well-architected/pillars | 404 |
@@ -16822,7 +16855,6 @@
 | URL | State |
 | --- | --- |
 | /dotnet/architecture/cloud-native/distributed-data#database-per-microservice-why | 404 |
-| /azure/architecture/reference-architectures/containers/aks-mission-critical/mission-critical-data-platform#idempotent-message-processing | 404 |
 | /dotnet/architecture/cloud-native/distributed-data | 404 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/patterns/scheduler-agent-supervisor-content.md
@@ -16864,7 +16896,7 @@
 | /azure/service-bus-messaging/message-sessions | 404 |
 | /azure/azure-functions/functions-bindings-service-bus | 404 |
 | /azure/connectors/connectors-create-api-servicebus | 404 |
-| https://www.linkedin.com/in/naga-cheruvu/ | 999 |
+| https://www.linkedin.com/in/naga-cheruvu/ | 301 |
 | /rest/api/servicebus/peek-lock-message-non-destructive-read | 404 |
 | /archive/blogs/logicapps/in-order-delivery-of-correlated-messages-in-logic-apps-by-using-service-bus-sessions | 404 |
 
@@ -17002,7 +17034,7 @@
 | /azure/well-architected/cost-optimization/checklist | 404 |
 | /azure/well-architected/operational-excellence/checklist | 404 |
 | /azure/well-architected/performance-efficiency/checklist | 404 |
-| https://www.linkedin.com/in/jjfrost/ | 999 |
+| https://www.linkedin.com/in/jjfrost/ | 301 |
 | https://www.raincode.com/technical-landscape/cobol | 403 |
 | https://azure.microsoft.com/migration/mainframe | 301 |
 | /azure/virtual-machines/workloads/mainframe-rehosting/overview | 404 |
@@ -17287,156 +17319,6 @@
 | /azure/container-registry/container-registry-tasks-overview | 404 |
 | ../../../microservices/ci-cd.md | 404 |
 | ../../../microservices/ci-cd-kubernetes.md | 404 |
-
-* https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/reference-architectures/containers/aks-mission-critical/mission-critical-app-design.md
-
-| URL | State |
-| --- | --- |
-| /azure/cosmos-db/ | 404 |
-| /azure/architecture/reference-architectures/containers/aks-mission-critical/mission-critical-data-platform#idempotent-message-processing | 404 |
-| /azure/architecture/patterns/queue-based-load-leveling | 404 |
-| ../../../patterns/competing-consumers.md | 404 |
-| /azure/event-hubs/event-hubs-capture-enable-through-portal | 404 |
-| /azure/event-hubs/event-hubs-quotas#basic-vs-standard-vs-premium-vs-dedicated-tiers | 404 |
-| /azure/aks/operator-best-practices-scheduler#plan-for-availability-using-pod-disruption-budgets | 404 |
-| /azure/architecture/reference-architectures/containers/aks-mission-critical/mission-critical-app-platform#monitoring-data-for-stamp-resources | 404 |
-| /azure/azure-monitor/app/opentelemetry-enable | 404 |
-| /azure/architecture/framework/mission-critical/mission-critical-health-modeling | 404 |
-
-* https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/reference-architectures/containers/aks-mission-critical/mission-critical-app-platform.md
-
-| URL | State |
-| --- | --- |
-| /azure/architecture/framework/mission-critical/mission-critical-architecture-pattern | 404 |
-| /azure/frontdoor/ | 404 |
-| /azure/cosmos-db/ | 404 |
-| /azure/container-registry/ | 404 |
-| /azure/azure-monitor/ | 404 |
-| /azure/azure-resource-manager/management/azure-subscription-service-limits#azure-front-door-standard-and-premium-tier-service-limits | 404 |
-| /azure/frontdoor/front-door-faq | 404 |
-| /azure/architecture/framework/mission-critical/mission-critical-networking-connectivity#global-traffic-routing | 404 |
-| /azure/container-registry/container-registry-webhook | 404 |
-| /azure/container-registry/container-registry-best-practices | 404 |
-| /azure/aks/ | 404 |
-| /azure/event-hubs/ | 404 |
-| /azure/key-vault/ | 404 |
-| /azure/storage/blobs/ | 404 |
-| /azure/architecture/framework/mission-critical/mission-critical-application-design#scale-unit-architecture | 404 |
-| /azure/azure-resource-manager/management/azure-subscription-service-limits | 404 |
-| /azure/reliability/availability-zones-overview | 404 |
-| /azure/architecture/framework/mission-critical/mission-critical-application-design#scale-unit-architecture | 404 |
-| /azure/aks/free-standard-pricing-tiers | 404 |
-| /azure/architecture/framework/mission-critical/mission-critical-application-platform#container-orchestration-and-kubernetes | 404 |
-| /azure/aks/csi-secrets-store-driver | 404 |
-| /azure/architecture/framework/mission-critical/mission-critical-security#data-integrity-protection | 404 |
-| /azure/architecture/framework/mission-critical/mission-critical-application-platform#asynchronous-messaging | 404 |
-| /azure/storage/common/storage-disaster-recovery-guidance | 404 |
-| /azure/azure-monitor/logs/log-analytics-overview | 404 |
-| /azure/azure-monitor/app/app-insights-overview | 404 |
-| /azure/architecture/framework/mission-critical/mission-critical-health-modeling#design-recommendations-1 | 404 |
-
-* https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/reference-architectures/containers/aks-mission-critical/mission-critical-data-platform.md
-
-| URL | State |
-| --- | --- |
-| /azure/architecture/framework/mission-critical/mission-critical-data-platform | 404 |
-| /azure/cosmos-db/how-to-multi-master | 404 |
-| /azure/cosmos-db/troubleshoot-query-performance | 404 |
-| /azure/cosmos-db/online-backup-and-restore | 404 |
-| /fabric/mirroring/azure-cosmos-db | 404 |
-| /azure/service-bus-messaging/service-bus-premium-messaging | 404 |
-| /azure/event-hubs/event-hubs-scalability | 404 |
-| /azure/service-bus-messaging/message-transfers-locks-settlement#peeklock | 404 |
-| /azure/service-bus-messaging/service-bus-dead-letter-queues | 404 |
-| /azure/service-bus-messaging/service-bus-dead-letter-queues#sending-dead-lettered-messages-to-be-reprocessed | 404 |
-| https://tools.ietf.org/html/rfc7231#section-4 | 301 |
-| https://www.programmingwithwolfgang.com/repository-and-unit-of-work-pattern | 301 |
-| /azure/architecture/databases/guide/transactional-out-box-cosmos | 404 |
-| https://docs.particular.net/nservicebus/outbox | 307 |
-| /azure/service-bus-messaging/service-bus-federation-overview#all-active-replication | 404 |
-| /azure/service-bus-messaging/service-bus-federation-overview#active-passive-replication | 404 |
-| /azure/service-bus-messaging/service-bus-dead-letter-queues | 404 |
-| /azure/service-bus-messaging/automate-update-messaging-units | 404 |
-
-* https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/reference-architectures/containers/aks-mission-critical/mission-critical-deploy-test.md
-
-| URL | State |
-| --- | --- |
-| /azure/well-architected/mission-critical/mission-critical-deployment-testing#design-considerations | 404 |
-| /azure/devops/pipelines/get-started/what-is-azure-pipelines | 404 |
-| /azure/well-architected/mission-critical/mission-critical-deployment-testing#infrastructure-as-code-deployments | 404 |
-| /azure/well-architected/mission-critical/mission-critical-deployment-testing#ephemeral-bluegreen-deployments | 404 |
-| /azure/well-architected/mission-critical/mission-critical-deployment-testing#branching-strategy | 404 |
-| /azure/well-architected/mission-critical/mission-critical-deployment-testing#continuous-validation-and-testing | 404 |
-| /azure/load-testing/overview-what-is-azure-load-testing | 404 |
-| /azure/chaos-studio/chaos-studio-overview | 404 |
-| /azure/azure-monitor/app/live-stream | 404 |
-| /azure/dns/private-dns-privatednszone | 404 |
-
-* https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/reference-architectures/containers/aks-mission-critical/mission-critical-health-modeling.md
-
-| URL | State |
-| --- | --- |
-| /azure/well-architected/mission-critical/mission-critical-health-modeling | 404 |
-| /azure/well-architected/mission-critical/mission-critical-health-modeling#unified-data-sink-for-correlated-analysis | 404 |
-| /azure/azure-monitor/containers/kubernetes-monitoring-enable?tabs=azure-cli#prometheus-metrics-and-container-insights | 404 |
-| /azure/managed-grafana/quickstart-managed-grafana-portal | 404 |
-| /azure/azure-monitor/app/opentelemetry-enable | 404 |
-| /azure/azure-monitor/app/availability-overview | 404 |
-| /azure/managed-grafana/overview | 404 |
-| /azure/well-architected/mission-critical/mission-critical-health-modeling#visualization | 404 |
-| /azure/well-architected/mission-critical/mission-critical-health-modeling#automated-incident-response | 404 |
-| /azure/container-registry/container-registry-skus#service-tier-features-and-limits | 404 |
-
-* https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/reference-architectures/containers/aks-mission-critical/mission-critical-intro-content.md
-
-| URL | State |
-| --- | --- |
-| /azure/architecture/framework/mission-critical/mission-critical-overview | 404 |
-| /azure/reliability/concept-service-level-agreements | 404 |
-| /azure/well-architected/mission-critical/mission-critical-application-design#global-distribution | 404 |
-| /azure/well-architected/mission-critical/mission-critical-application-design#scale-unit-architecture | 404 |
-| /azure/well-architected/mission-critical/mission-critical-deployment-testing | 404 |
-| /azure/well-architected/mission-critical/mission-critical-health-modeling | 404 |
-
-* https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/reference-architectures/containers/aks-mission-critical/mission-critical-networking.md
-
-| URL | State |
-| --- | --- |
-| /azure/well-architected/mission-critical/mission-critical-networking-connectivity#virtual-network-integration | 404 |
-| /azure/load-balancer/load-balancer-overview | 404 |
-
-* https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/reference-architectures/containers/aks-mission-critical/mission-critical-operations.md
-
-| URL | State |
-| --- | --- |
-| /azure/architecture/reference-architectures/containers/aks-mission-critical/mission-critical-health-modeling#failure-analysis | 404 |
-| /azure/cosmos-db/how-to-setup-rbac | 404 |
-| /azure/architecture/reference-architectures/containers/aks-mission-critical/mission-critical-health-modeling#alerting | 404 |
-| https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/ | 301 |
-| /azure/aks/cluster-autoscaler | 404 |
-| /azure/event-hubs/event-hubs-auto-inflate | 404 |
-| /azure/service-bus-messaging/automate-update-messaging-units | 404 |
-| /azure/well-architected/mission-critical/mission-critical-operational-procedures | 404 |
-| https://www.linkedin.com/in/allen-sudbring-9163171/ | 301 |
-| /azure/well-architected/mission-critical/mission-critical-overview | 404 |
-
-* https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/reference-architectures/containers/aks-mission-critical/mission-critical-security.md
-
-| URL | State |
-| --- | --- |
-| /azure/architecture/framework/mission-critical/mission-critical-security | 404 |
-| /azure/architecture/framework/security/design-identity-authentication | 404 |
-| /azure/aks/use-managed-identity | 404 |
-| /azure/cosmos-db/nosql/security/how-to-disable-key-based-authentication?tabs=csharp&pivots=azure-interface-cli | 404 |
-| /azure/storage/common/shared-key-authorization-prevent?tabs=portal | 404 |
-| /azure/aks/workload-identity-overview?tabs=dotnet | 404 |
-| /azure/aks/csi-secrets-store-driver | 404 |
-| https://docs.cert-manager.io/en/release-0.7/tasks/issuing-certificates/ingress-shim.html | 301 |
-| /azure/container-registry/container-registry-dedicated-data-endpoints | 404 |
-| /azure/container-registry/scan-images-defender | 404 |
-| /azure/container-registry/github-action-scan | 404 |
-| https://docs.github.com/en/actions/security-guides/encrypted-secrets | 301 |
 
 * https://github.com/MicrosoftDocs/architecture-center/blob/main/docs/reference-architectures/containers/aks-multi-region/aks-multi-cluster-content.md
 
@@ -19050,7 +18932,7 @@
 | /azure/azure-monitor/overview | 404 |
 | /azure/cost-management-billing/costs/overview-cost-management | 404 |
 | https://azure.com/e/6a6901def01b465ba14ed3cef1e3e9d3 | 301 |
-| https://www.linkedin.com/in/lorrin-ferdinand/ | 301 |
+| https://www.linkedin.com/in/lorrin-ferdinand/ | 999 |
 | https://www.linkedin.com/in/kranthimanchikanti/ | 301 |
 | /azure/databricks/ldp/tutorial-pipelines/ | 404 |
 | /fabric/data-factory/tutorial-end-to-end-pipeline | 404 |
@@ -19527,6 +19409,7 @@
 | --- | --- |
 | ../../../includes/sol-idea-header.md | 404 |
 | /azure/well-architected/service-guides/virtual-machines | 404 |
+| /azure/virtual-network | 404 |
 | /entra/fundamentals/whatis | 404 |
 | /entra/id-governance/privileged-identity-management/ | 404 |
 | /azure/security-center/security-center-just-in-time | 404 |
