@@ -125,9 +125,9 @@
 | https://apps.microsoft.com/detail/9N9TNGVNDL3Q | 301 |
 | https://apps.microsoft.com/detail/9P7BDVKVNXZ6 | 301 |
 | https://apps.microsoft.com/detail/9MSVKQC78PK6 | 301 |
-| https://apps.microsoft.com/detail/9MZNMNKSM73X | 301 |
+| https://apps.microsoft.com/detail/9MZNMNKSM73X | 403 |
 | https://apps.microsoft.com/detail/9NPCP8DRCHSN | 403 |
-| https://apps.microsoft.com/detail/9P6HT7L0QGRH | 403 |
+| https://apps.microsoft.com/detail/9P6HT7L0QGRH | 301 |
 | https://apps.microsoft.com/detail/9P804CRF0395 | 301 |
 | https://apps.microsoft.com/detail/9P6NZFGV79KJ | 301 |
 | https://apps.microsoft.com/detail/9PKZ8GN18L5C | 301 |
@@ -137,10 +137,10 @@
 | https://apps.microsoft.com/detail/9P9RSPJDKX9G | 301 |
 | https://apps.microsoft.com/detail/9NWB78L1MPS2 | 301 |
 | https://apps.microsoft.com/detail/9MSSK2ZXXN11 | 301 |
-| https://apps.microsoft.com/detail/9NJGLDP5G04B | 301 |
+| https://apps.microsoft.com/detail/9NJGLDP5G04B | 403 |
 | https://apps.microsoft.com/detail/9NJGLDP5G04B | 403 |
 | https://apps.microsoft.com/detail/9NJFZK00FGKV | 403 |
-| https://apps.microsoft.com/detail/9N738KZGNB91 | 301 |
+| https://apps.microsoft.com/detail/9N738KZGNB91 | 403 |
 | https://apps.microsoft.com/detail/9N648JDGXK2D | 301 |
 | https://apps.microsoft.com/detail/9PN498VPMF3Z | 301 |
 | https://apps.microsoft.com/detail/9MZ3D1TRP8T1 | 301 |
@@ -150,24 +150,24 @@
 | https://apps.microsoft.com/detail/9N5MGJ01CVXC | 301 |
 | https://apps.microsoft.com/detail/9P068SN43NBQ | 301 |
 | https://apps.microsoft.com/detail/9N6CN5STZRX6 | 301 |
-| https://apps.microsoft.com/detail/9MXQ65HLMC27 | 403 |
+| https://apps.microsoft.com/detail/9MXQ65HLMC27 | 301 |
 | https://apps.microsoft.com/detail/9MVFWTCT78ZN | 403 |
-| https://apps.microsoft.com/detail/9PP4JL775K1G | 301 |
+| https://apps.microsoft.com/detail/9PP4JL775K1G | 403 |
 | https://apps.microsoft.com/detail/9NPBTNKMPVVV | 301 |
-| https://apps.microsoft.com/detail/9NGGZVB0BKD9 | 301 |
-| https://apps.microsoft.com/detail/9PGKJC9GPP2S | 301 |
+| https://apps.microsoft.com/detail/9NGGZVB0BKD9 | 403 |
+| https://apps.microsoft.com/detail/9PGKJC9GPP2S | 403 |
 | https://apps.microsoft.com/detail/9P06H18WXBVP | 301 |
 | https://apps.microsoft.com/detail/9P7L0QWBSLTK | 301 |
 | https://apps.microsoft.com/detail/9P5RWLM70SN9 | 301 |
 | https://apps.microsoft.com/detail/9NMD96XJJ19F | 301 |
 | https://apps.microsoft.com/detail/9NMDF21NV65Z | 301 |
 | https://apps.microsoft.com/detail/9N1M7Q4F1KQF | 301 |
-| https://apps.microsoft.com/detail/9N8WPJWZ4JX7 | 403 |
-| https://apps.microsoft.com/detail/9N6GDM4K2HNC | 403 |
+| https://apps.microsoft.com/detail/9N8WPJWZ4JX7 | 301 |
+| https://apps.microsoft.com/detail/9N6GDM4K2HNC | 301 |
 | https://apps.microsoft.com/detail/9NV1GV1PXZ6P | 301 |
 | https://apps.microsoft.com/detail/9P70GX2HQNHN | 301 |
-| https://apps.microsoft.com/detail/9N2XZFWMRRQW | 301 |
-| https://apps.microsoft.com/detail/9N8LP0X93VCP | 301 |
+| https://apps.microsoft.com/detail/9N2XZFWMRRQW | 403 |
+| https://apps.microsoft.com/detail/9N8LP0X93VCP | 403 |
 | https://apps.microsoft.com/detail/9NQ0DQKJG91N | 301 |
 | https://apps.microsoft.com/detail/9N6P6053RS25 | 301 |
 | https://apps.microsoft.com/detail/9PLZ9KQTM5FN | 301 |
@@ -513,6 +513,7 @@
 
 | URL | State |
 | --- | --- |
+| https://code.visualstudio.com/download | 302 |
 | /windows/terminal/get-started | 404 |
 | ../install.md | 404 |
 | /windows/python/web-frameworks#hello-world-tutorial-for-django | 404 |
@@ -577,13 +578,14 @@
 | ../media/vscode-remote-command-palette.png | 404 |
 | ../media/vscode-remote-wsl-extensions.png | 404 |
 | /windows/terminal | 404 |
-| https://apps.microsoft.com/detail/9N0DX20HK701 | 403 |
+| https://apps.microsoft.com/detail/9N0DX20HK701 | 301 |
 
 * https://github.com/MicrosoftDocs/WSL/blob/main/WSL/use-custom-distro.md
 
 | URL | State |
 | --- | --- |
 | ms-windows-store://collection?CollectionId=LinuxDistros | 404 |
+| https://docs.docker.com/subscription/#docker-desktop-license-agreement | 301 |
 
 * https://github.com/MicrosoftDocs/WSL/blob/main/WSL/wsl-config.md
 
