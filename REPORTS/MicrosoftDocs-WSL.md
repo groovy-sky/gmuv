@@ -81,6 +81,7 @@
 | /mem/intune/fundamentals/what-is-intune | 404 |
 | /windows/security/operating-system-security/network-security/windows-firewall/hyper-v-firewall | 404 |
 | ms-windows-store://collection?CollectionId=LinuxDistros | 404 |
+| http://www.craigloewen.com/blog/2019/12/04/running-puppet-quickly-in-wsl2/ | 301 |
 
 * https://github.com/MicrosoftDocs/WSL/blob/main/WSL/file-permissions.md
 
@@ -139,8 +140,8 @@
 | https://apps.microsoft.com/detail/9MSSK2ZXXN11 | 301 |
 | https://apps.microsoft.com/detail/9NJGLDP5G04B | 403 |
 | https://apps.microsoft.com/detail/9NJGLDP5G04B | 403 |
-| https://apps.microsoft.com/detail/9NJFZK00FGKV | 403 |
-| https://apps.microsoft.com/detail/9N738KZGNB91 | 403 |
+| https://apps.microsoft.com/detail/9NJFZK00FGKV | 301 |
+| https://apps.microsoft.com/detail/9N738KZGNB91 | 301 |
 | https://apps.microsoft.com/detail/9N648JDGXK2D | 301 |
 | https://apps.microsoft.com/detail/9PN498VPMF3Z | 301 |
 | https://apps.microsoft.com/detail/9MZ3D1TRP8T1 | 301 |
@@ -149,25 +150,25 @@
 | https://apps.microsoft.com/detail/9PMC1FJR3JF3 | 301 |
 | https://apps.microsoft.com/detail/9N5MGJ01CVXC | 301 |
 | https://apps.microsoft.com/detail/9P068SN43NBQ | 301 |
-| https://apps.microsoft.com/detail/9N6CN5STZRX6 | 301 |
-| https://apps.microsoft.com/detail/9MXQ65HLMC27 | 301 |
-| https://apps.microsoft.com/detail/9MVFWTCT78ZN | 403 |
-| https://apps.microsoft.com/detail/9PP4JL775K1G | 403 |
+| https://apps.microsoft.com/detail/9N6CN5STZRX6 | 403 |
+| https://apps.microsoft.com/detail/9MXQ65HLMC27 | 403 |
+| https://apps.microsoft.com/detail/9MVFWTCT78ZN | 301 |
+| https://apps.microsoft.com/detail/9PP4JL775K1G | 301 |
 | https://apps.microsoft.com/detail/9NPBTNKMPVVV | 301 |
-| https://apps.microsoft.com/detail/9NGGZVB0BKD9 | 403 |
-| https://apps.microsoft.com/detail/9PGKJC9GPP2S | 403 |
+| https://apps.microsoft.com/detail/9NGGZVB0BKD9 | 301 |
+| https://apps.microsoft.com/detail/9PGKJC9GPP2S | 301 |
 | https://apps.microsoft.com/detail/9P06H18WXBVP | 301 |
 | https://apps.microsoft.com/detail/9P7L0QWBSLTK | 301 |
 | https://apps.microsoft.com/detail/9P5RWLM70SN9 | 301 |
 | https://apps.microsoft.com/detail/9NMD96XJJ19F | 301 |
 | https://apps.microsoft.com/detail/9NMDF21NV65Z | 301 |
-| https://apps.microsoft.com/detail/9N1M7Q4F1KQF | 301 |
-| https://apps.microsoft.com/detail/9N8WPJWZ4JX7 | 301 |
+| https://apps.microsoft.com/detail/9N1M7Q4F1KQF | 403 |
+| https://apps.microsoft.com/detail/9N8WPJWZ4JX7 | 403 |
 | https://apps.microsoft.com/detail/9N6GDM4K2HNC | 301 |
 | https://apps.microsoft.com/detail/9NV1GV1PXZ6P | 301 |
 | https://apps.microsoft.com/detail/9P70GX2HQNHN | 301 |
-| https://apps.microsoft.com/detail/9N2XZFWMRRQW | 403 |
-| https://apps.microsoft.com/detail/9N8LP0X93VCP | 403 |
+| https://apps.microsoft.com/detail/9N2XZFWMRRQW | 301 |
+| https://apps.microsoft.com/detail/9N8LP0X93VCP | 301 |
 | https://apps.microsoft.com/detail/9NQ0DQKJG91N | 301 |
 | https://apps.microsoft.com/detail/9N6P6053RS25 | 301 |
 | https://apps.microsoft.com/detail/9PLZ9KQTM5FN | 301 |
@@ -347,7 +348,6 @@
 | /archive/blogs/wsl/ | 404 |
 | https://aka.ms/wip14332 | 301 |
 | https://aka.ms/wip14328 | 301 |
-| https://xubuntugeek.blogspot.com/2012/09/how-to-install-oracle-jdk-7-manually-in.html | 302 |
 
 * https://github.com/MicrosoftDocs/WSL/blob/main/WSL/setup/environment.md
 
@@ -435,7 +435,7 @@
 | --- | --- |
 | https://aka.ms/wsllogs | 301 |
 | https://aka.ms/wsllogs | 301 |
-| https://apps.microsoft.com/detail/9N0W1B2BXGNZ | 403 |
+| https://apps.microsoft.com/detail/9N0W1B2BXGNZ | 301 |
 | https://aka.ms/wsllogs | 301 |
 | winperfanalyzer1.png | 404 |
 | https://learn.microsoft.com/windows/wsl/troubleshooting | 302 |
