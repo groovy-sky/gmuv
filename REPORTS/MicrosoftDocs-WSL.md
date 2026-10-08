@@ -152,8 +152,8 @@
 | https://apps.microsoft.com/detail/9P068SN43NBQ | 301 |
 | https://apps.microsoft.com/detail/9N6CN5STZRX6 | 403 |
 | https://apps.microsoft.com/detail/9MXQ65HLMC27 | 403 |
-| https://apps.microsoft.com/detail/9MVFWTCT78ZN | 403 |
-| https://apps.microsoft.com/detail/9PP4JL775K1G | 403 |
+| https://apps.microsoft.com/detail/9MVFWTCT78ZN | 301 |
+| https://apps.microsoft.com/detail/9PP4JL775K1G | 301 |
 | https://apps.microsoft.com/detail/9NPBTNKMPVVV | 301 |
 | https://apps.microsoft.com/detail/9NGGZVB0BKD9 | 301 |
 | https://apps.microsoft.com/detail/9PGKJC9GPP2S | 301 |
@@ -162,10 +162,10 @@
 | https://apps.microsoft.com/detail/9P5RWLM70SN9 | 301 |
 | https://apps.microsoft.com/detail/9NMD96XJJ19F | 301 |
 | https://apps.microsoft.com/detail/9NMDF21NV65Z | 301 |
-| https://apps.microsoft.com/detail/9N1M7Q4F1KQF | 301 |
-| https://apps.microsoft.com/detail/9N8WPJWZ4JX7 | 301 |
-| https://apps.microsoft.com/detail/9N6GDM4K2HNC | 403 |
-| https://apps.microsoft.com/detail/9NV1GV1PXZ6P | 403 |
+| https://apps.microsoft.com/detail/9N1M7Q4F1KQF | 403 |
+| https://apps.microsoft.com/detail/9N8WPJWZ4JX7 | 403 |
+| https://apps.microsoft.com/detail/9N6GDM4K2HNC | 301 |
+| https://apps.microsoft.com/detail/9NV1GV1PXZ6P | 301 |
 | https://apps.microsoft.com/detail/9P70GX2HQNHN | 301 |
 | https://apps.microsoft.com/detail/9N2XZFWMRRQW | 301 |
 | https://apps.microsoft.com/detail/9N8LP0X93VCP | 301 |
@@ -348,7 +348,6 @@
 | /archive/blogs/wsl/ | 404 |
 | https://aka.ms/wip14332 | 301 |
 | https://aka.ms/wip14328 | 301 |
-| https://xubuntugeek.blogspot.com/2012/09/how-to-install-oracle-jdk-7-manually-in.html | 302 |
 
 * https://github.com/MicrosoftDocs/WSL/blob/main/WSL/setup/environment.md
 
