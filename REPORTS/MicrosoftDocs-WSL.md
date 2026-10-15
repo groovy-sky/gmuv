@@ -13,6 +13,7 @@
 | --- | --- |
 | /windows/nodejs/setup-on-wsl2 | 404 |
 | /windows/python/web-frameworks | 404 |
+| ./tutorials/gpu-compute.md | 503 |
 | /windows/wsl/basic-commands#set-default-wsl-version | 404 |
 | /linux | 404 |
 
@@ -37,7 +38,7 @@
 | URL | State |
 | --- | --- |
 | #error-access-denied | 301 |
-| https://manpages.ubuntu.com/manpages/noble/en/man5/fstab.5.html | 301 |
+| https://manpages.ubuntu.com/manpages/noble/en/man5/fstab.5.html | 0 |
 
 * https://github.com/MicrosoftDocs/WSL/blob/main/WSL/compare-versions.md
 
@@ -164,8 +165,8 @@
 | https://apps.microsoft.com/detail/9NMDF21NV65Z | 301 |
 | https://apps.microsoft.com/detail/9N1M7Q4F1KQF | 403 |
 | https://apps.microsoft.com/detail/9N8WPJWZ4JX7 | 403 |
-| https://apps.microsoft.com/detail/9N6GDM4K2HNC | 301 |
-| https://apps.microsoft.com/detail/9NV1GV1PXZ6P | 301 |
+| https://apps.microsoft.com/detail/9N6GDM4K2HNC | 403 |
+| https://apps.microsoft.com/detail/9NV1GV1PXZ6P | 403 |
 | https://apps.microsoft.com/detail/9P70GX2HQNHN | 301 |
 | https://apps.microsoft.com/detail/9N2XZFWMRRQW | 301 |
 | https://apps.microsoft.com/detail/9N8LP0X93VCP | 301 |
@@ -188,14 +189,15 @@
 | https://aka.ms/wsl-sles-12 | 301 |
 | /powershell/module/microsoft.powershell.utility/invoke-webrequest | 404 |
 | /powershell/module/microsoft.powershell.utility/invoke-webrequest | 404 |
-| /windows/terminal | 404 |
-| /windows/terminal/install | 404 |
+| /windows/terminal | 503 |
+| media/terminal.png | 503 |
+| /windows/terminal/install | 503 |
 
 * https://github.com/MicrosoftDocs/WSL/blob/main/WSL/install-on-server.md
 
 | URL | State |
 | --- | --- |
-| /windows-server/get-started/whats-new-in-windows-server-2022 | 404 |
+| /windows-server/get-started/whats-new-in-windows-server-2022 | 503 |
 | /windows-server/get-started/whats-new-in-windows-server-2025 | 404 |
 
 * https://github.com/MicrosoftDocs/WSL/blob/main/WSL/install.md
@@ -220,7 +222,8 @@
 | #mirrored-mode-networking | 301 |
 | #default-networking-mode-nat | 301 |
 | #mirrored-mode-networking | 301 |
-| /windows-server/networking/technologies/netsh/netsh-interface-portproxy | 404 |
+| media/wsl2-network-l2w.png | 503 |
+| /windows-server/networking/technologies/netsh/netsh-interface-portproxy | 503 |
 | https://stackoverflow.com/questions/9987409/want-to-know-what-is-ipv4-and-ipv6#:~:text=The%20basic%20difference%20is%20the,whereas%20IPv6%20has%20128%20bits. | 403 |
 | https://stackoverflow.com/questions/9987409/want-to-know-what-is-ipv4-and-ipv6#:~:text=The%20basic%20difference%20is%20the,whereas%20IPv6%20has%20128%20bits. | 403 |
 | /windows/security/operating-system-security/network-security/windows-firewall/hyper-v-firewall | 404 |
@@ -309,7 +312,7 @@
 | https://blogs.windows.com/windowsexperience/2017/04/28/announcing-windows-10-insider-preview-build-16184-pc-build-15208-mobile/ | 301 |
 | https://blogs.windows.com/windowsexperience/2017/04/19/announcing-windows-10-insider-preview-build-16179-pc-build-15205-mobile/ | 301 |
 | https://blogs.windows.com/windowsexperience/2017/04/14/announcing-windows-10-insider-preview-build-16176-pc-build-15204-mobile/ | 301 |
-| /archive/blogs/wsl/serial-support-on-the-windows-subsystem-for-linux | 404 |
+| /archive/blogs/wsl/serial-support-on-the-windows-subsystem-for-linux | 503 |
 | /archive/blogs/wsl/file-system-improvements-to-the-windows-subsystem-for-linux | 404 |
 | https://blogs.windows.com/windowsexperience/2017/04/07/announcing-windows-10-insider-preview-build-16170-pc/ | 301 |
 | /archive/blogs/wsl/testing-the-windows-subsystem-for-linux | 404 |
@@ -348,6 +351,7 @@
 | /archive/blogs/wsl/ | 404 |
 | https://aka.ms/wip14332 | 301 |
 | https://aka.ms/wip14328 | 301 |
+| https://xubuntugeek.blogspot.com/2012/09/how-to-install-oracle-jdk-7-manually-in.html | 302 |
 
 * https://github.com/MicrosoftDocs/WSL/blob/main/WSL/setup/environment.md
 
@@ -505,7 +509,7 @@
 | URL | State |
 | --- | --- |
 | https://www.redhat.com/blog/how-manage-packages | 301 |
-| #installing-and-updating-software | 301 |
+| #installing-and-updating-software | 503 |
 | /learn/modules/bash-introduction/ | 404 |
 | /learn/modules/get-started-with-windows-subsystem-for-linux/ | 404 |
 
