@@ -126,10 +126,10 @@
 | https://apps.microsoft.com/detail/9N9TNGVNDL3Q | 301 |
 | https://apps.microsoft.com/detail/9P7BDVKVNXZ6 | 301 |
 | https://apps.microsoft.com/detail/9MSVKQC78PK6 | 301 |
-| https://apps.microsoft.com/detail/9MZNMNKSM73X | 301 |
+| https://apps.microsoft.com/detail/9MZNMNKSM73X | 403 |
 | https://apps.microsoft.com/detail/9NPCP8DRCHSN | 403 |
 | https://apps.microsoft.com/detail/9P6HT7L0QGRH | 403 |
-| https://apps.microsoft.com/detail/9P804CRF0395 | 301 |
+| https://apps.microsoft.com/detail/9P804CRF0395 | 403 |
 | https://apps.microsoft.com/detail/9P6NZFGV79KJ | 301 |
 | https://apps.microsoft.com/detail/9PKZ8GN18L5C | 301 |
 | https://apps.microsoft.com/detail/9N8XNFG3J1HT | 301 |
@@ -139,11 +139,11 @@
 | https://apps.microsoft.com/detail/9NWB78L1MPS2 | 301 |
 | https://apps.microsoft.com/detail/9MSSK2ZXXN11 | 301 |
 | https://apps.microsoft.com/detail/9NJGLDP5G04B | 301 |
-| https://apps.microsoft.com/detail/9NJGLDP5G04B | 403 |
+| https://apps.microsoft.com/detail/9NJGLDP5G04B | 301 |
 | https://apps.microsoft.com/detail/9NJFZK00FGKV | 403 |
-| https://apps.microsoft.com/detail/9N738KZGNB91 | 301 |
-| https://apps.microsoft.com/detail/9N648JDGXK2D | 301 |
-| https://apps.microsoft.com/detail/9PN498VPMF3Z | 301 |
+| https://apps.microsoft.com/detail/9N738KZGNB91 | 403 |
+| https://apps.microsoft.com/detail/9N648JDGXK2D | 403 |
+| https://apps.microsoft.com/detail/9PN498VPMF3Z | 403 |
 | https://apps.microsoft.com/detail/9MZ3D1TRP8T1 | 301 |
 | https://apps.microsoft.com/detail/9P41G2MV9CQ3 | 301 |
 | https://apps.microsoft.com/detail/9PKR34TNCV07 | 301 |
@@ -151,13 +151,13 @@
 | https://apps.microsoft.com/detail/9N5MGJ01CVXC | 301 |
 | https://apps.microsoft.com/detail/9P068SN43NBQ | 301 |
 | https://apps.microsoft.com/detail/9N6CN5STZRX6 | 301 |
-| https://apps.microsoft.com/detail/9MXQ65HLMC27 | 403 |
-| https://apps.microsoft.com/detail/9MVFWTCT78ZN | 403 |
+| https://apps.microsoft.com/detail/9MXQ65HLMC27 | 301 |
+| https://apps.microsoft.com/detail/9MVFWTCT78ZN | 301 |
 | https://apps.microsoft.com/detail/9PP4JL775K1G | 301 |
 | https://apps.microsoft.com/detail/9NPBTNKMPVVV | 403 |
 | https://apps.microsoft.com/detail/9NGGZVB0BKD9 | 403 |
-| https://apps.microsoft.com/detail/9PGKJC9GPP2S | 301 |
-| https://apps.microsoft.com/detail/9P06H18WXBVP | 301 |
+| https://apps.microsoft.com/detail/9PGKJC9GPP2S | 403 |
+| https://apps.microsoft.com/detail/9P06H18WXBVP | 403 |
 | https://apps.microsoft.com/detail/9P7L0QWBSLTK | 301 |
 | https://apps.microsoft.com/detail/9P5RWLM70SN9 | 301 |
 | https://apps.microsoft.com/detail/9NMD96XJJ19F | 301 |
@@ -166,10 +166,10 @@
 | https://apps.microsoft.com/detail/9N8WPJWZ4JX7 | 301 |
 | https://apps.microsoft.com/detail/9N6GDM4K2HNC | 301 |
 | https://apps.microsoft.com/detail/9NV1GV1PXZ6P | 301 |
-| https://apps.microsoft.com/detail/9P70GX2HQNHN | 403 |
-| https://apps.microsoft.com/detail/9N2XZFWMRRQW | 403 |
-| https://apps.microsoft.com/detail/9N8LP0X93VCP | 301 |
-| https://apps.microsoft.com/detail/9NQ0DQKJG91N | 301 |
+| https://apps.microsoft.com/detail/9P70GX2HQNHN | 301 |
+| https://apps.microsoft.com/detail/9N2XZFWMRRQW | 301 |
+| https://apps.microsoft.com/detail/9N8LP0X93VCP | 403 |
+| https://apps.microsoft.com/detail/9NQ0DQKJG91N | 403 |
 | https://apps.microsoft.com/detail/9N6P6053RS25 | 301 |
 | https://apps.microsoft.com/detail/9PLZ9KQTM5FN | 301 |
 | https://apps.microsoft.com/detail/9NX9DX5B8QKN | 301 |
@@ -435,7 +435,7 @@
 | --- | --- |
 | https://aka.ms/wsllogs | 301 |
 | https://aka.ms/wsllogs | 301 |
-| https://apps.microsoft.com/detail/9N0W1B2BXGNZ | 301 |
+| https://apps.microsoft.com/detail/9N0W1B2BXGNZ | 403 |
 | https://aka.ms/wsllogs | 301 |
 | winperfanalyzer1.png | 404 |
 | https://learn.microsoft.com/windows/wsl/troubleshooting | 302 |
@@ -504,7 +504,6 @@
 
 | URL | State |
 | --- | --- |
-| https://wiki.alpinelinux.org/wiki/Alpine_Package_Keeper | 307 |
 | https://www.redhat.com/blog/how-manage-packages | 301 |
 | #installing-and-updating-software | 301 |
 | /learn/modules/bash-introduction/ | 404 |
@@ -514,7 +513,6 @@
 
 | URL | State |
 | --- | --- |
-| https://code.visualstudio.com/download | 302 |
 | /windows/terminal/get-started | 404 |
 | ../install.md | 404 |
 | /windows/python/web-frameworks#hello-world-tutorial-for-django | 404 |
@@ -574,12 +572,11 @@
 | https://code.visualstudio.com/docs/editor/intellisense | 301 |
 | https://code.visualstudio.com/docs/editor/userdefinedsnippets | 301 |
 | https://code.visualstudio.com/docs/editor/versioncontrol#_git-support | 301 |
-| https://code.visualstudio.com/download | 302 |
 | ../media/wsl-open-vs-code.gif | 404 |
 | ../media/vscode-remote-command-palette.png | 404 |
 | ../media/vscode-remote-wsl-extensions.png | 404 |
 | /windows/terminal | 404 |
-| https://apps.microsoft.com/detail/9N0DX20HK701 | 301 |
+| https://apps.microsoft.com/detail/9N0DX20HK701 | 403 |
 
 * https://github.com/MicrosoftDocs/WSL/blob/main/WSL/use-custom-distro.md
 
