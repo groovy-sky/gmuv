@@ -37,7 +37,7 @@
 | URL | State |
 | --- | --- |
 | #error-access-denied | 301 |
-| https://manpages.ubuntu.com/manpages/noble/en/man5/fstab.5.html | 0 |
+| https://manpages.ubuntu.com/manpages/noble/en/man5/fstab.5.html | 301 |
 
 * https://github.com/MicrosoftDocs/WSL/blob/main/WSL/compare-versions.md
 
@@ -143,34 +143,34 @@
 | https://apps.microsoft.com/detail/9NJFZK00FGKV | 403 |
 | https://apps.microsoft.com/detail/9N738KZGNB91 | 301 |
 | https://apps.microsoft.com/detail/9N648JDGXK2D | 301 |
-| https://apps.microsoft.com/detail/9PN498VPMF3Z | 403 |
-| https://apps.microsoft.com/detail/9MZ3D1TRP8T1 | 403 |
+| https://apps.microsoft.com/detail/9PN498VPMF3Z | 301 |
+| https://apps.microsoft.com/detail/9MZ3D1TRP8T1 | 301 |
 | https://apps.microsoft.com/detail/9P41G2MV9CQ3 | 301 |
 | https://apps.microsoft.com/detail/9PKR34TNCV07 | 301 |
 | https://apps.microsoft.com/detail/9PMC1FJR3JF3 | 301 |
 | https://apps.microsoft.com/detail/9N5MGJ01CVXC | 301 |
 | https://apps.microsoft.com/detail/9P068SN43NBQ | 301 |
 | https://apps.microsoft.com/detail/9N6CN5STZRX6 | 301 |
-| https://apps.microsoft.com/detail/9MXQ65HLMC27 | 301 |
-| https://apps.microsoft.com/detail/9MVFWTCT78ZN | 301 |
+| https://apps.microsoft.com/detail/9MXQ65HLMC27 | 403 |
+| https://apps.microsoft.com/detail/9MVFWTCT78ZN | 403 |
 | https://apps.microsoft.com/detail/9PP4JL775K1G | 301 |
 | https://apps.microsoft.com/detail/9NPBTNKMPVVV | 301 |
-| https://apps.microsoft.com/detail/9NGGZVB0BKD9 | 403 |
-| https://apps.microsoft.com/detail/9PGKJC9GPP2S | 403 |
+| https://apps.microsoft.com/detail/9NGGZVB0BKD9 | 301 |
+| https://apps.microsoft.com/detail/9PGKJC9GPP2S | 301 |
 | https://apps.microsoft.com/detail/9P06H18WXBVP | 301 |
 | https://apps.microsoft.com/detail/9P7L0QWBSLTK | 301 |
 | https://apps.microsoft.com/detail/9P5RWLM70SN9 | 301 |
 | https://apps.microsoft.com/detail/9NMD96XJJ19F | 301 |
 | https://apps.microsoft.com/detail/9NMDF21NV65Z | 301 |
-| https://apps.microsoft.com/detail/9N1M7Q4F1KQF | 403 |
+| https://apps.microsoft.com/detail/9N1M7Q4F1KQF | 301 |
 | https://apps.microsoft.com/detail/9N8WPJWZ4JX7 | 403 |
-| https://apps.microsoft.com/detail/9N6GDM4K2HNC | 301 |
+| https://apps.microsoft.com/detail/9N6GDM4K2HNC | 403 |
 | https://apps.microsoft.com/detail/9NV1GV1PXZ6P | 403 |
 | https://apps.microsoft.com/detail/9P70GX2HQNHN | 403 |
-| https://apps.microsoft.com/detail/9N2XZFWMRRQW | 301 |
-| https://apps.microsoft.com/detail/9N8LP0X93VCP | 301 |
-| https://apps.microsoft.com/detail/9NQ0DQKJG91N | 403 |
-| https://apps.microsoft.com/detail/9N6P6053RS25 | 403 |
+| https://apps.microsoft.com/detail/9N2XZFWMRRQW | 403 |
+| https://apps.microsoft.com/detail/9N8LP0X93VCP | 403 |
+| https://apps.microsoft.com/detail/9NQ0DQKJG91N | 301 |
+| https://apps.microsoft.com/detail/9N6P6053RS25 | 301 |
 | https://apps.microsoft.com/detail/9PLZ9KQTM5FN | 301 |
 | https://apps.microsoft.com/detail/9NX9DX5B8QKN | 301 |
 | https://aka.ms/wslubuntu | 301 |
@@ -418,18 +418,14 @@
 | URL | State |
 | --- | --- |
 | #what-is-systemd-in-linux | 301 |
-| https://canonical.com/blog/ubuntu-desktop-23-04-release-roundup#:~:text=Systemd%20becomes%20the%20default%20for%20Ubuntu%20on%20WSL | 503 |
 | #how-to-enable-systemd | 301 |
 | #systemd-demo-video | 301 |
 | #systemd-examples | 301 |
-| https://canonical.com/blog/ubuntu-desktop-23-04-release-roundup#:~:text=Systemd%20becomes%20the%20default%20for%20Ubuntu%20on%20WSL | 503 |
 | https://aka.ms/wslstorepage | 301 |
-| https://ubuntu.com/blog/ubuntu-wsl-enable-systemd | 503 |
 | https://ubuntu.com/tutorials/run-dotnet-echo-bot-with-systemd-on-ubuntu-wsl#1-overview | 302 |
 | https://microk8s.io/ | 301 |
 | https://microk8s.io/docs/install-wsl2 | 301 |
 | https://microk8s.io/docs/getting-started | 301 |
-| https://ubuntu.com/blog/kubernetes-on-windows-with-microk8s-and-wsl-2 | 503 |
 | https://www.linode.com/docs/guides/introduction-to-systemctl/ | 301 |
 | https://www.linux.com/training-tutorials/understanding-and-using-systemd/ | 403 |
 
@@ -481,7 +477,7 @@
 | ../install.md | 404 |
 | https://www.nvidia.com/Download/index.aspx | 301 |
 | https://www.amd.com/support/download/drivers.html | 302 |
-| https://downloadcenter.intel.com | 0 |
+| https://downloadcenter.intel.com | 301 |
 | https://www.nvidia.com/drivers | 301 |
 | https://www.anaconda.com/docs/getting-started/miniconda | 307 |
 | /windows/ai/directml/gpu-tensorflow-wsl#install-the-tensorflow-with-directml-package | 404 |
@@ -494,7 +490,7 @@
 | URL | State |
 | --- | --- |
 | ../media/wsl-gui-screenshot.png | 404 |
-| https://downloadcenter.intel.com | 0 |
+| https://downloadcenter.intel.com | 301 |
 | https://www.amd.com/support/download/drivers.html | 302 |
 | https://www.nvidia.com/drivers | 301 |
 | ../install.md | 404 |
