@@ -46,6 +46,7 @@
 | #exceptions-for-using-wsl-1-rather-than-wsl-2 | 301 |
 | ms-settings:windowsupdate | 404 |
 | https://blogs.vmware.com/workstation/2020/05/vmware-workstation-now-supports-hyper-v-mode.html | 301 |
+| https://www.virtualbox.org/wiki/Changelog-6.0 | 410 |
 | https://devblogs.microsoft.com/commandline/the-windows-subsystem-for-linux-in-the-microsoft-store-is-now-generally-available-on-windows-10-and-11 | 301 |
 
 * https://github.com/MicrosoftDocs/WSL/blob/main/WSL/connect-usb.md
@@ -56,6 +57,7 @@
 | /windows/package-manager/winget/ | 404 |
 | https://github.com/dorssel/usbipd-win/releases/latest | 302 |
 | https://devblogs.microsoft.com/commandline/connecting-usb-devices-to-wsl | 301 |
+| https://www.youtube.com/watch?v=I2jOuLU4o8E | 302 |
 
 * https://github.com/MicrosoftDocs/WSL/blob/main/WSL/disk-space.md
 
@@ -104,6 +106,34 @@
 | https://blogs.msdn.microsoft.com/commandline/learn-about-windows-console-and-windows-subsystem-for-linux-wsl/ | 301 |
 | https://blogs.msdn.microsoft.com/commandline/ | 301 |
 | /archive/blogs/wsl/ | 404 |
+| https://www.youtube.com/watch?v=NYGMY9c90Oo | 302 |
+| https://www.youtube.com/watch?v=sqdHy1rC2t4 | 302 |
+| https://www.youtube.com/watch?v=75JBKfAqH3I | 302 |
+| https://www.youtube.com/watch?v=jx5I-8_arqM | 302 |
+| https://www.youtube.com/watch?v=WnzKfwL3Iy0 | 302 |
+| https://www.youtube.com/watch?v=UMQ5GQix0rs | 302 |
+| https://www.youtube.com/watch?v=b9I7NZHni5c | 302 |
+| https://www.youtube.com/watch?v=uUaFNRRS9yo&t=2s | 302 |
+| https://www.youtube.com/watch?v=JuJ_Nx_bFEM | 302 |
+| https://www.youtube.com/watch?v=n1YSFT5VK-Y | 302 |
+| https://www.youtube.com/watch?v=teI6WA48_Rg | 302 |
+| https://www.youtube.com/watch?v=OeomwrHLAR4 | 302 |
+| https://www.youtube.com/watch?v=AfhDwVASD2c | 302 |
+| https://www.youtube.com/watch?v=MrZolfGm8Zk&t=3s | 302 |
+| https://www.youtube.com/watch?v=kC3eWRPzeWw | 302 |
+| https://www.youtube.com/watch?v=I2jOuLU4o8E | 302 |
+| https://www.youtube.com/watch?v=PdxXlZJiuxA | 302 |
+| https://www.youtube.com/watch?v=XkLjxr9iQ-8&t=1s | 302 |
+| https://www.youtube.com/watch?v=m5tt9mDRPSw | 302 |
+| https://www.youtube.com/watch?v=lOXatmtBb88 | 302 |
+| https://www.youtube.com/watch?v=K9GPOHrZgr4 | 302 |
+| https://www.youtube.com/watch?v=UxWN1BBr1bM | 302 |
+| https://www.youtube.com/watch?v=pNwatyeXplY | 302 |
+| https://www.youtube.com/watch?v=kCB3gO32SPs | 302 |
+| https://www.youtube.com/watch?v=uO_F5W2LbSk | 302 |
+| https://www.youtube.com/watch?v=ySS8Re6LDTQ | 302 |
+| https://www.youtube.com/watch?v=63wVlI9B3Ac&t=45s | 302 |
+| https://www.youtube.com/watch?v=lwhMThePdIo | 302 |
 
 * https://github.com/MicrosoftDocs/WSL/blob/main/WSL/install-manual.md
 
@@ -141,38 +171,38 @@
 | https://apps.microsoft.com/detail/9NJGLDP5G04B | 301 |
 | https://apps.microsoft.com/detail/9NJGLDP5G04B | 403 |
 | https://apps.microsoft.com/detail/9NJFZK00FGKV | 403 |
-| https://apps.microsoft.com/detail/9N738KZGNB91 | 301 |
-| https://apps.microsoft.com/detail/9N648JDGXK2D | 301 |
-| https://apps.microsoft.com/detail/9PN498VPMF3Z | 301 |
-| https://apps.microsoft.com/detail/9MZ3D1TRP8T1 | 301 |
-| https://apps.microsoft.com/detail/9P41G2MV9CQ3 | 301 |
-| https://apps.microsoft.com/detail/9PKR34TNCV07 | 301 |
-| https://apps.microsoft.com/detail/9PMC1FJR3JF3 | 301 |
-| https://apps.microsoft.com/detail/9N5MGJ01CVXC | 301 |
-| https://apps.microsoft.com/detail/9P068SN43NBQ | 301 |
-| https://apps.microsoft.com/detail/9N6CN5STZRX6 | 301 |
+| https://apps.microsoft.com/detail/9N738KZGNB91 | 403 |
+| https://apps.microsoft.com/detail/9N648JDGXK2D | 403 |
+| https://apps.microsoft.com/detail/9PN498VPMF3Z | 403 |
+| https://apps.microsoft.com/detail/9MZ3D1TRP8T1 | 403 |
+| https://apps.microsoft.com/detail/9P41G2MV9CQ3 | 403 |
+| https://apps.microsoft.com/detail/9PKR34TNCV07 | 403 |
+| https://apps.microsoft.com/detail/9PMC1FJR3JF3 | 403 |
+| https://apps.microsoft.com/detail/9N5MGJ01CVXC | 403 |
+| https://apps.microsoft.com/detail/9P068SN43NBQ | 403 |
+| https://apps.microsoft.com/detail/9N6CN5STZRX6 | 403 |
 | https://apps.microsoft.com/detail/9MXQ65HLMC27 | 403 |
 | https://apps.microsoft.com/detail/9MVFWTCT78ZN | 403 |
-| https://apps.microsoft.com/detail/9PP4JL775K1G | 301 |
-| https://apps.microsoft.com/detail/9NPBTNKMPVVV | 301 |
-| https://apps.microsoft.com/detail/9NGGZVB0BKD9 | 301 |
-| https://apps.microsoft.com/detail/9PGKJC9GPP2S | 301 |
-| https://apps.microsoft.com/detail/9P06H18WXBVP | 301 |
-| https://apps.microsoft.com/detail/9P7L0QWBSLTK | 301 |
-| https://apps.microsoft.com/detail/9P5RWLM70SN9 | 301 |
-| https://apps.microsoft.com/detail/9NMD96XJJ19F | 301 |
-| https://apps.microsoft.com/detail/9NMDF21NV65Z | 301 |
-| https://apps.microsoft.com/detail/9N1M7Q4F1KQF | 301 |
+| https://apps.microsoft.com/detail/9PP4JL775K1G | 403 |
+| https://apps.microsoft.com/detail/9NPBTNKMPVVV | 403 |
+| https://apps.microsoft.com/detail/9NGGZVB0BKD9 | 403 |
+| https://apps.microsoft.com/detail/9PGKJC9GPP2S | 403 |
+| https://apps.microsoft.com/detail/9P06H18WXBVP | 403 |
+| https://apps.microsoft.com/detail/9P7L0QWBSLTK | 403 |
+| https://apps.microsoft.com/detail/9P5RWLM70SN9 | 403 |
+| https://apps.microsoft.com/detail/9NMD96XJJ19F | 403 |
+| https://apps.microsoft.com/detail/9NMDF21NV65Z | 403 |
+| https://apps.microsoft.com/detail/9N1M7Q4F1KQF | 403 |
 | https://apps.microsoft.com/detail/9N8WPJWZ4JX7 | 403 |
 | https://apps.microsoft.com/detail/9N6GDM4K2HNC | 403 |
 | https://apps.microsoft.com/detail/9NV1GV1PXZ6P | 403 |
 | https://apps.microsoft.com/detail/9P70GX2HQNHN | 403 |
 | https://apps.microsoft.com/detail/9N2XZFWMRRQW | 403 |
 | https://apps.microsoft.com/detail/9N8LP0X93VCP | 403 |
-| https://apps.microsoft.com/detail/9NQ0DQKJG91N | 301 |
-| https://apps.microsoft.com/detail/9N6P6053RS25 | 301 |
-| https://apps.microsoft.com/detail/9PLZ9KQTM5FN | 301 |
-| https://apps.microsoft.com/detail/9NX9DX5B8QKN | 301 |
+| https://apps.microsoft.com/detail/9NQ0DQKJG91N | 403 |
+| https://apps.microsoft.com/detail/9N6P6053RS25 | 403 |
+| https://apps.microsoft.com/detail/9PLZ9KQTM5FN | 403 |
+| https://apps.microsoft.com/detail/9NX9DX5B8QKN | 403 |
 | https://aka.ms/wslubuntu | 301 |
 | https://aka.ms/wslubuntu2204 | 301 |
 | https://aka.ms/wslubuntu2004 | 301 |
@@ -452,6 +482,7 @@
 | https://support.microsoft.com/windows/c5578302-6e43-4b4b-a449-8ced115f58e1 | 301 |
 | ms-settings:optionalfeatures | 404 |
 | https://blogs.vmware.com/workstation/2020/05/vmware-workstation-now-supports-hyper-v-mode.html | 301 |
+| https://www.virtualbox.org/wiki/Changelog-6.0 | 410 |
 | /azure/virtual-machines/trusted-launch | 404 |
 | /azure/virtual-machines/trusted-launch#unsupported-features | 404 |
 | /virtualization/hyper-v-on-windows/user-guide/nested-virtualization#configure-nested-virtualization | 404 |
@@ -477,7 +508,7 @@
 | ../install.md | 404 |
 | https://www.nvidia.com/Download/index.aspx | 301 |
 | https://www.amd.com/support/download/drivers.html | 302 |
-| https://downloadcenter.intel.com | 301 |
+| https://downloadcenter.intel.com | 0 |
 | https://www.nvidia.com/drivers | 301 |
 | https://www.anaconda.com/docs/getting-started/miniconda | 307 |
 | /windows/ai/directml/gpu-tensorflow-wsl#install-the-tensorflow-with-directml-package | 404 |
@@ -490,7 +521,7 @@
 | URL | State |
 | --- | --- |
 | ../media/wsl-gui-screenshot.png | 404 |
-| https://downloadcenter.intel.com | 301 |
+| https://downloadcenter.intel.com | 0 |
 | https://www.amd.com/support/download/drivers.html | 302 |
 | https://www.nvidia.com/drivers | 301 |
 | ../install.md | 404 |
