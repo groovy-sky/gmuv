@@ -46,7 +46,6 @@
 | #exceptions-for-using-wsl-1-rather-than-wsl-2 | 301 |
 | ms-settings:windowsupdate | 404 |
 | https://blogs.vmware.com/workstation/2020/05/vmware-workstation-now-supports-hyper-v-mode.html | 301 |
-| https://www.virtualbox.org/wiki/Changelog-6.0 | 410 |
 | https://devblogs.microsoft.com/commandline/the-windows-subsystem-for-linux-in-the-microsoft-store-is-now-generally-available-on-windows-10-and-11 | 301 |
 
 * https://github.com/MicrosoftDocs/WSL/blob/main/WSL/connect-usb.md
@@ -57,7 +56,6 @@
 | /windows/package-manager/winget/ | 404 |
 | https://github.com/dorssel/usbipd-win/releases/latest | 302 |
 | https://devblogs.microsoft.com/commandline/connecting-usb-devices-to-wsl | 301 |
-| https://www.youtube.com/watch?v=I2jOuLU4o8E | 302 |
 
 * https://github.com/MicrosoftDocs/WSL/blob/main/WSL/disk-space.md
 
@@ -106,34 +104,6 @@
 | https://blogs.msdn.microsoft.com/commandline/learn-about-windows-console-and-windows-subsystem-for-linux-wsl/ | 301 |
 | https://blogs.msdn.microsoft.com/commandline/ | 301 |
 | /archive/blogs/wsl/ | 404 |
-| https://www.youtube.com/watch?v=NYGMY9c90Oo | 302 |
-| https://www.youtube.com/watch?v=sqdHy1rC2t4 | 302 |
-| https://www.youtube.com/watch?v=75JBKfAqH3I | 302 |
-| https://www.youtube.com/watch?v=jx5I-8_arqM | 302 |
-| https://www.youtube.com/watch?v=WnzKfwL3Iy0 | 302 |
-| https://www.youtube.com/watch?v=UMQ5GQix0rs | 302 |
-| https://www.youtube.com/watch?v=b9I7NZHni5c | 302 |
-| https://www.youtube.com/watch?v=uUaFNRRS9yo&t=2s | 302 |
-| https://www.youtube.com/watch?v=JuJ_Nx_bFEM | 302 |
-| https://www.youtube.com/watch?v=n1YSFT5VK-Y | 302 |
-| https://www.youtube.com/watch?v=teI6WA48_Rg | 302 |
-| https://www.youtube.com/watch?v=OeomwrHLAR4 | 302 |
-| https://www.youtube.com/watch?v=AfhDwVASD2c | 302 |
-| https://www.youtube.com/watch?v=MrZolfGm8Zk&t=3s | 302 |
-| https://www.youtube.com/watch?v=kC3eWRPzeWw | 302 |
-| https://www.youtube.com/watch?v=I2jOuLU4o8E | 302 |
-| https://www.youtube.com/watch?v=PdxXlZJiuxA | 302 |
-| https://www.youtube.com/watch?v=XkLjxr9iQ-8&t=1s | 302 |
-| https://www.youtube.com/watch?v=m5tt9mDRPSw | 302 |
-| https://www.youtube.com/watch?v=lOXatmtBb88 | 302 |
-| https://www.youtube.com/watch?v=K9GPOHrZgr4 | 302 |
-| https://www.youtube.com/watch?v=UxWN1BBr1bM | 302 |
-| https://www.youtube.com/watch?v=pNwatyeXplY | 302 |
-| https://www.youtube.com/watch?v=kCB3gO32SPs | 302 |
-| https://www.youtube.com/watch?v=uO_F5W2LbSk | 302 |
-| https://www.youtube.com/watch?v=ySS8Re6LDTQ | 302 |
-| https://www.youtube.com/watch?v=63wVlI9B3Ac&t=45s | 302 |
-| https://www.youtube.com/watch?v=lwhMThePdIo | 302 |
 
 * https://github.com/MicrosoftDocs/WSL/blob/main/WSL/install-manual.md
 
@@ -159,22 +129,22 @@
 | https://apps.microsoft.com/detail/9MZNMNKSM73X | 301 |
 | https://apps.microsoft.com/detail/9NPCP8DRCHSN | 403 |
 | https://apps.microsoft.com/detail/9P6HT7L0QGRH | 403 |
-| https://apps.microsoft.com/detail/9P804CRF0395 | 301 |
-| https://apps.microsoft.com/detail/9P6NZFGV79KJ | 301 |
-| https://apps.microsoft.com/detail/9PKZ8GN18L5C | 301 |
-| https://apps.microsoft.com/detail/9N8XNFG3J1HT | 301 |
-| https://apps.microsoft.com/detail/9NW527WWDBCZ | 301 |
-| https://apps.microsoft.com/detail/9MWVQSNTMS7G | 301 |
+| https://apps.microsoft.com/detail/9P804CRF0395 | 403 |
+| https://apps.microsoft.com/detail/9P6NZFGV79KJ | 403 |
+| https://apps.microsoft.com/detail/9PKZ8GN18L5C | 403 |
+| https://apps.microsoft.com/detail/9N8XNFG3J1HT | 403 |
+| https://apps.microsoft.com/detail/9NW527WWDBCZ | 403 |
+| https://apps.microsoft.com/detail/9MWVQSNTMS7G | 403 |
 | https://apps.microsoft.com/detail/9P9RSPJDKX9G | 301 |
 | https://apps.microsoft.com/detail/9NWB78L1MPS2 | 301 |
 | https://apps.microsoft.com/detail/9MSSK2ZXXN11 | 301 |
 | https://apps.microsoft.com/detail/9NJGLDP5G04B | 301 |
-| https://apps.microsoft.com/detail/9NJGLDP5G04B | 403 |
-| https://apps.microsoft.com/detail/9NJFZK00FGKV | 403 |
-| https://apps.microsoft.com/detail/9N738KZGNB91 | 403 |
-| https://apps.microsoft.com/detail/9N648JDGXK2D | 403 |
-| https://apps.microsoft.com/detail/9PN498VPMF3Z | 403 |
-| https://apps.microsoft.com/detail/9MZ3D1TRP8T1 | 403 |
+| https://apps.microsoft.com/detail/9NJGLDP5G04B | 301 |
+| https://apps.microsoft.com/detail/9NJFZK00FGKV | 301 |
+| https://apps.microsoft.com/detail/9N738KZGNB91 | 301 |
+| https://apps.microsoft.com/detail/9N648JDGXK2D | 301 |
+| https://apps.microsoft.com/detail/9PN498VPMF3Z | 301 |
+| https://apps.microsoft.com/detail/9MZ3D1TRP8T1 | 301 |
 | https://apps.microsoft.com/detail/9P41G2MV9CQ3 | 403 |
 | https://apps.microsoft.com/detail/9PKR34TNCV07 | 403 |
 | https://apps.microsoft.com/detail/9PMC1FJR3JF3 | 403 |
@@ -429,9 +399,9 @@
 | ../filesystems.md#run-windows-tools-from-linux | 404 |
 | ../filesystems.md#run-windows-tools-from-linux | 404 |
 | ../wsl2-mount-disk.md | 404 |
-| ../media/wslmountsimple.png | 404 |
-| ../tutorials/gui-apps.md | 404 |
-| /windows/dev-environment/ | 404 |
+| ../media/wslmountsimple.png | 503 |
+| ../tutorials/gui-apps.md | 503 |
+| /windows/dev-environment/ | 503 |
 | ../troubleshooting.md | 404 |
 | ../faq.yml | 404 |
 | ../release-notes.md | 404 |
@@ -482,7 +452,6 @@
 | https://support.microsoft.com/windows/c5578302-6e43-4b4b-a449-8ced115f58e1 | 301 |
 | ms-settings:optionalfeatures | 404 |
 | https://blogs.vmware.com/workstation/2020/05/vmware-workstation-now-supports-hyper-v-mode.html | 301 |
-| https://www.virtualbox.org/wiki/Changelog-6.0 | 410 |
 | /azure/virtual-machines/trusted-launch | 404 |
 | /azure/virtual-machines/trusted-launch#unsupported-features | 404 |
 | /virtualization/hyper-v-on-windows/user-guide/nested-virtualization#configure-nested-virtualization | 404 |
@@ -529,7 +498,7 @@
 | https://en.wikipedia.org/wiki/GNOME_Text_Editor | 403 |
 | https://en.wikipedia.org/wiki/Gedit | 403 |
 | https://www.x.org/wiki/UserDocumentation/GettingStarted/ | 301 |
-| https://www.microsoft.com/edge/download/insider?platform=linux#linux-command | 302 |
+| https://www.microsoft.com/edge/download/insider?platform=linux#linux-command | 301 |
 
 * https://github.com/MicrosoftDocs/WSL/blob/main/WSL/tutorials/linux.md
 
